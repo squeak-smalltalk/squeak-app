@@ -41,6 +41,9 @@ curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
 tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
 mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
 
+echo "Delete MIDIPlugin OS X plugin..."
+rm -rf "${RESOURCES_DIR}/MIDIPlugin.bundle"
+
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
 tar xzf "${TMP_DIR}/${VM_ARM}" -C "${TMP_DIR}/"
@@ -68,7 +71,6 @@ curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
 unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
-
 
 echo "Downloading and extracting sources file..."
 curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
