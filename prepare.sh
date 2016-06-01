@@ -3,7 +3,8 @@
 set -o errexit
 
 readonly RELEASE="5.1"
-readonly APP_NAME="Squeak-${RELEASE}-All-in-One.app"
+readonly BUNDLE_NAME="Squeak-${RELEASE}-All-in-One"
+readonly APP_NAME="${BUNDLE_NAME}.app"
 
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 readonly SCRIPTS_DIR="${TRAVIS_BUILD_DIR}/scripts"
@@ -29,8 +30,8 @@ readonly VM_LIN_TARGET="${CONTENTS_DIR}/Linux-i686"
 readonly VM_OSX_TARGET="${CONTENTS_DIR}/MacOS"
 readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 
-readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/Squeak-${RELEASE}-All-in-One.tar.gz"
-readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/Squeak-${RELEASE}-All-in-One.zip"
+readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
+readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 echo "Make build and tmp directories..."
