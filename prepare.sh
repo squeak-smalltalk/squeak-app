@@ -18,7 +18,7 @@ readonly SOURCES_URL="http://ftp.squeak.org/sources_files/SqueakV50.sources.gz"
 
 readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/latest/"
 readonly VM_VERSION="16.21.3732"
-readonly VM_ARM="cogspurlinuxarm-${VM_VERSION}.tgz"
+readonly VM_ARM="cogspurlinuxhtARM-${VM_VERSION}.tgz"
 readonly VM_LIN="cogspurlinuxht-${VM_VERSION}.tgz"
 readonly VM_OSX="CogSpur.app-${VM_VERSION}.tgz"
 readonly VM_WIN="cogspurwin-${VM_VERSION}.zip"
