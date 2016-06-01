@@ -60,8 +60,8 @@ mv "${TMP_DIR}/SpurTrunkImage.image" "${RESOURCES_DIR}/"
 mv "${TMP_DIR}/SpurTrunkImage.changes" "${RESOURCES_DIR}/"
 
 echo "Downloading and extracting sources file..."
-curl -f -s --retry 3 -o "${TMP_DIR}/" "${SOURCES_URL}"
-gunzip -c "${TMP_DIR}/SqueakV50.sources.gz" > "${RESOURCES_DIR}/SqueakV50.sources"
+curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
+gunzip -c "${TMP_DIR}/sources.gz" > "${RESOURCES_DIR}/SqueakV50.sources"
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
