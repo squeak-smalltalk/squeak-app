@@ -50,8 +50,8 @@ echo "./${APP_NAME}/Contents/squeak.sh" > "${BUILD_DIR}/squeak.sh"
 
 echo "Merging template..."
 mv "${TEMPLATE_DIR}/Squeak.ini" "${VM_WIN_TARGET}/"
-mv "${TEMPLATE_DIR}/Info.plist" "${CONTENTS_DIR}/"
 mv "${TEMPLATE_DIR}/squeak.sh" "${CONTENTS_DIR}/"
+mv "${TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 mv "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 
 echo "Downloading and extracting base image..."
