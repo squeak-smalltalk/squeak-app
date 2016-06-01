@@ -75,9 +75,9 @@ curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
 gunzip -c "${TMP_DIR}/sources.gz" > "${RESOURCES_DIR}/SqueakV50.sources"
 
 echo "Updating Info.plist..."
-sed -i "s/%CFBundleGetInfoString%/Squeak ${RELEASE}, SpurVM 5.0-3397/g" "${CONTENTS_DIR}/Info.plist"
-sed -i "s/%VERSION%/${RELEASE}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i "s/%SqueakImageName%/SqueakTrunkImage.image/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleGetInfoString%/Squeak ${RELEASE}, SpurVM 5.0-3397/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%VERSION%/${RELEASE}/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%SqueakImageName%/SqueakTrunkImage.image/g" "${CONTENTS_DIR}/Info.plist"
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 
 unzip -q ./certs/dist.zip -d ./certs
