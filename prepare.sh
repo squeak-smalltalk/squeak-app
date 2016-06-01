@@ -55,7 +55,7 @@ mv "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 
 echo "Downloading and extracting base image..."
 curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
-unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/" 
+unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/SpurTrunkImage.image" "${RESOURCES_DIR}/"
 mv "${TMP_DIR}/SpurTrunkImage.changes" "${RESOURCES_DIR}/"
 
@@ -69,7 +69,7 @@ tar xzf "${TMP_DIR}/${VM_ARM}" -C "${VM_ARM_TARGET}/"
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}" "${VM_BASE}/${VM_LIN}"
 tar xzf "${TMP_DIR}/${VM_LIN}" -C "${VM_LIN_TARGET}/"
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}" "${VM_BASE}/${VM_WIN}"
-tar xzf "${TMP_DIR}/${VM_WIN}" -C "${VM_WIN_TARGET}/"
+unzip -q "${TMP_DIR}/${VM_WIN}" -d "${VM_WIN_TARGET}/" 
 
 echo "Setting permissions..."
 chmod +x "${VM_ARM_TARGET}/squeak" "${VM_LIN_TARGET}/squeak" "${VM_OSX_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe"
