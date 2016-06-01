@@ -77,6 +77,10 @@ curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
 gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
 
 echo "Prepare trunk image..."
+ls "${VM_OSX_TARGET}/Squeak"
+ls "${TMP_DIR}/Squeak.image"
+ls "${SCRIPTS_DIR}/update.st"
+
 "${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information and move image into bundle..."
