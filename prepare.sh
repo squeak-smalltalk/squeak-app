@@ -41,8 +41,10 @@ curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
 tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
 mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
 
-echo "Delete mpeg3Plugin OS X plugin..."
-rm -rf "${RESOURCES_DIR}/mpeg3Plugin.bundle"
+echo "Delete OS X plugins..."
+rm -rf "${RESOURCES_DIR}/BochsX64Plugin.bundle"
+rm -rf "${RESOURCES_DIR}/MIDIPlugin.bundle"
+rm -rf "${RESOURCES_DIR}/Mpeg3Plugin.bundle"
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
