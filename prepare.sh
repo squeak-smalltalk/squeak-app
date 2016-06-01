@@ -17,8 +17,8 @@ readonly IMAGE_URL="http://build.squeak.org/job/Trunk/default/\
 lastSuccessfulBuild/artifact/target/TrunkImage.zip"
 readonly SOURCES_URL="http://ftp.squeak.org/sources_files/SqueakV50.sources.gz"
 
-readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/latest/"
-readonly VM_VERSION="16.21.3732"
+readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/stable/"
+readonly VM_VERSION="15.27.3397"
 readonly VM_ARM="cogspurlinuxhtARM-${VM_VERSION}.tgz"
 readonly VM_LIN="cogspurlinuxht-${VM_VERSION}.tgz"
 readonly VM_OSX="CogSpur.app-${VM_VERSION}.tgz"
@@ -40,11 +40,6 @@ echo "Downloading and extracting OS X VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
 tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
 mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
-
-echo "Delete OS X plugins..."
-rm -rf "${RESOURCES_DIR}/BochsX64Plugin.bundle"
-rm -rf "${RESOURCES_DIR}/MIDIPlugin.bundle"
-rm -rf "${RESOURCES_DIR}/Mpeg3Plugin.bundle"
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
