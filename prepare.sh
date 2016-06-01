@@ -28,8 +28,8 @@ readonly VM_LIN_TARGET="${CONTENTS_DIR}/Linux-i686"
 readonly VM_OSX_TARGET="${CONTENTS_DIR}/MacOS"
 readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 
-readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/RSqueak.tar.gz"
-readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/RSqueak.zip"
+readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${APP_NAME}.tar.gz"
+readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${APP_NAME}.zip"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 echo "Make build and tmp directories..."
@@ -91,7 +91,7 @@ codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 security delete-keychain osx-build.keychain
 
 echo "Compressing bundle..."
-pushd "${TEMPLATE_DIR}" > /dev/null
+pushd "${BUILD_DIR}" > /dev/null
 tar czf "${TARGET_TARGZ}" "./"
 zip -q -r "${TARGET_ZIP}" "./"
 popd > /dev/null
