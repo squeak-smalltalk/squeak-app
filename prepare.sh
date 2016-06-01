@@ -43,7 +43,6 @@ mv "${BUILD_DIR}/CogSpur.app" "${APP_DIR}"
 echo "Make directories for different VMs..."
 mkdir "${VM_ARM_TARGET}" "${VM_LIN_TARGET}" "${VM_WIN_TARGET}"
 
-
 echo "Adding start scripts..."
 echo ".\${APP_NAME}\Contents\Win32\Squeak.exe" > "${BUILD_DIR}/squeak.bat"
 echo "./${APP_NAME}/Contents/squeak.sh" > "${BUILD_DIR}/squeak.sh"
@@ -55,8 +54,8 @@ mv "${TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 mv "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 
 echo "Downloading and extracting base image..."
-curl -f -s --retry 3 -o "${TMP_DIR}/" "${IMAGE_URL}"
-unzip -q "${TMP_DIR}/TrunkImage.zip" -d "${TMP_DIR}" 
+curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
+unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/" 
 mv "${TMP_DIR}/SpurTrunkImage.image" "${RESOURCES_DIR}/"
 mv "${TMP_DIR}/SpurTrunkImage.changes" "${RESOURCES_DIR}/"
 
