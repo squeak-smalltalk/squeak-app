@@ -32,14 +32,17 @@ readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/RSqueak.tar.gz"
 readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/RSqueak.zip"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
-echo "Make directories..."
+echo "Make build and tmp directories..."
 mkdir "${BUILD_DIR}" "${TMP_DIR}"
-mkdir "${VM_ARM_TARGET}" "${VM_LIN_TARGET}" "${VM_WIN_TARGET}"
 
 echo "Downloading and extracting OS X VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
 tar xzf "${TMP_DIR}/${VM_OSX}" -C "${BUILD_DIR}/"
 mv "${BUILD_DIR}/CogSpur.app" "${APP_DIR}"
+
+echo "Make directories for different VMs..."
+mkdir "${VM_ARM_TARGET}" "${VM_LIN_TARGET}" "${VM_WIN_TARGET}"
+
 
 echo "Adding start scripts..."
 echo ".\${APP_NAME}\Contents\Win32\Squeak.exe" > "${BUILD_DIR}/squeak.bat"
