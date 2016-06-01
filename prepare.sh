@@ -55,11 +55,9 @@ mv "${TMP_DIR}/cogspurwin" "${VM_WIN_TARGET}"
 echo "Setting permissions..."
 chmod +x "${VM_ARM_TARGET}/squeak" "${VM_LIN_TARGET}/squeak" "${VM_OSX_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe"
 
-echo "Adding start scripts..."
-echo ".\${APP_NAME}\Contents\Win32\Squeak.exe" > "${BUILD_DIR}/squeak.bat"
-echo "./${APP_NAME}/Contents/squeak.sh" > "${BUILD_DIR}/squeak.sh"
-
 echo "Merging template..."
+mv "${TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
+mv "${TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
 mv "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 mv "${TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 mv "${TEMPLATE_DIR}/Squeak.app/Contents/squeak.sh" "${CONTENTS_DIR}/"
@@ -78,8 +76,8 @@ gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
 
 ls "${TMP_DIR}"
 
-echo "Prepare trunk image..."
-"${VM_OSX_TARGET}/Squeak" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
+# echo "Prepare trunk image..."
+# "${VM_OSX_TARGET}/Squeak" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information and move image into bundle..."
 IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
@@ -87,17 +85,26 @@ mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
 
-echo "Updating Info.plist..."
+echo "Updating files..."
+# squeak.bat launcher
+sed -i ".bak1" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.bat"
+rm -f "${BUILD_DIR}/squeak.bak1"
+
+# squeak.sh launcher
+sed -i ".bak2" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.sh"
+rm -f "${BUILD_DIR}/squeak.bak2"
+
+# Info.plist
 sed -i ".bak" "s/%CFBundleGetInfoString%/${IMAGE_NAME}, SpurVM 5.0-3397/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%VERSION%/${RELEASE}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.plist"
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 
-echo "Updating squeak.sh..."
+# squeak.sh
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/squeak.sh"
 rm -f "${CONTENTS_DIR}/squeak.bak"
 
-echo "Updating Squeak.ini..."
+# Squeak.ini
 sed -i ".bak" "s/%VERSION%/${RELEASE}.image/g" "${VM_WIN_TARGET}/Squeak.ini"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_WIN_TARGET}/Squeak.ini"
 rm -f "${VM_WIN_TARGET}/Squeak.ini"

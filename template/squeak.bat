@@ -1,0 +1,1 @@
+.\%APP_NAME%\Contents\Win32\Squeak.exe
