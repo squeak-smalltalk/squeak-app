@@ -29,8 +29,8 @@ readonly VM_LIN_TARGET="${CONTENTS_DIR}/Linux-i686"
 readonly VM_OSX_TARGET="${CONTENTS_DIR}/MacOS"
 readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 
-readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${APP_NAME:0:-4}.tar.gz"
-readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${APP_NAME:0:-4}.zip"
+readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/Squeak-${RELEASE}-All-in-One.tar.gz"
+readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/Squeak-${RELEASE}-All-in-One.zip"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 echo "Make build and tmp directories..."
