@@ -10,22 +10,22 @@ APP=`dirname "$0"`/../..
 APP=`cd "$APP";pwd`
 OS=`uname -s`
 CPU=`uname -m`
-IMAGE="$APP/Contents/Resources/Squeak5.0-15113.image"
+IMAGE="$APP/Contents/Resources/%SqueakImageName%.image"
 
 if [ "$CPU" = x86_64 ] ; then
-        CPU=i686
-        echo Running 32-bit Squeak on a 64-bit System.  install-libs32 may install them.
+    CPU=i686
+    echo Running 32-bit Squeak on a 64-bit System.  install-libs32 may install them.
 fi
 
 if [ "$CPU" = armv6l ] ; then
-        CPU=ARM
+    CPU=ARM
 fi
 
 if [ "$CPU" = armv7l ] ; then
-        CPU=ARM
+    CPU=ARM
 fi
 
-VM="$APP/Contents/LinuxAndWindows/$OS-$CPU/bin/squeak"
+VM="$APP/Contents/Linux-$CPU/bin/squeak"
 echo $VM
 showerror() {
     if [ -n "$DISPLAY" -a -x "`which kdialog 2>/dev/null`" ]; then
