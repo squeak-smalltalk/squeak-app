@@ -41,8 +41,8 @@ curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
 tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
 mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
 
-echo "Delete MIDIPlugin OS X plugin..."
-rm -rf "${RESOURCES_DIR}/MIDIPlugin.bundle"
+echo "Delete mpeg3Plugin OS X plugin..."
+rm -rf "${RESOURCES_DIR}/mpeg3Plugin.bundle"
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
@@ -77,23 +77,22 @@ curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
 gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
 
 echo "Prepare trunk image..."
-# "${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
+"${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information and move image into bundle..."
-# IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
-IMAGE_NAME="Squeak5.1-16002"
+IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
 mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
 
 echo "Updating files..."
 # squeak.bat launcher
-sed -i ".bak1" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.bat"
-rm -f "${BUILD_DIR}/squeak.bak1"
+sed -i ".bak" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.bat"
+rm -f "${BUILD_DIR}/squeak.bat.bak"
 
 # squeak.sh launcher
-sed -i ".bak2" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.sh"
-rm -f "${BUILD_DIR}/squeak.bak2"
+sed -i ".bak" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.sh"
+rm -f "${BUILD_DIR}/squeak.sh.bak"
 
 # Info.plist
 sed -i ".bak" "s/%CFBundleGetInfoString%/${IMAGE_NAME}, SpurVM ${VM_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
