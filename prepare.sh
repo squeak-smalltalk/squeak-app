@@ -39,7 +39,7 @@ mkdir "${BUILD_DIR}" "${TMP_DIR}"
 echo "Downloading and extracting OS X VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
 tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
-mv "${TMP_DIR}/CogSpur.app/CogSpur.app" "${APP_DIR}"
+mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
@@ -71,17 +71,18 @@ unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
 
-mv "${TMP_DIR}/SpurTrunkImage.image" "${RESOURCES_DIR}/"
-mv "${TMP_DIR}/SpurTrunkImage.changes" "${RESOURCES_DIR}/"
-
 echo "Downloading and extracting sources file..."
 curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
-gunzip -c "${TMP_DIR}/sources.gz" > "${RESOURCES_DIR}/SqueakV50.sources"
+gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
+
+echo "Prepare trunk image..."
+"${VM_OSX_TARGET}/Squeak" -headless "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information and move image into bundle..."
 IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" -headless "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
 mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
+mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
 
 echo "Updating Info.plist..."
 sed -i ".bak" "s/%CFBundleGetInfoString%/${IMAGE_NAME}, SpurVM 5.0-3397/g" "${CONTENTS_DIR}/Info.plist"
