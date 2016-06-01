@@ -95,7 +95,7 @@ sed -i ".bak2" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.sh"
 rm -f "${BUILD_DIR}/squeak.bak2"
 
 # Info.plist
-sed -i ".bak" "s/%CFBundleGetInfoString%/${IMAGE_NAME}, SpurVM 5.0-3397/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleGetInfoString%/${IMAGE_NAME}, SpurVM ${VM_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%VERSION%/${RELEASE}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.plist"
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
