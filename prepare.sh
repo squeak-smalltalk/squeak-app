@@ -74,13 +74,11 @@ echo "Downloading and extracting sources file..."
 curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
 gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
 
-ls "${TMP_DIR}"
-
-# echo "Prepare trunk image..."
-# "${VM_OSX_TARGET}/Squeak" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
+echo "Prepare trunk image..."
+"${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information and move image into bundle..."
-IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
+IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
 mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
