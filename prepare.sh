@@ -7,6 +7,7 @@ readonly APP_NAME="Squeak-${RELEASE}-All-in-One.app"
 
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 readonly TEMPLATE_DIR="${TRAVIS_BUILD_DIR}/template"
+readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
 readonly CONTENTS_DIR="${APP_DIR}/Contents"
 readonly RESOURCES_DIR="${CONTENTS_DIR}/Resources"
@@ -30,6 +31,8 @@ readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/RSqueak.tar.gz"
 readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/RSqueak.zip"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
+
+mkdir "${BUILD_DIR}" "${TMP_DIR}"
 
 echo "Downloading and extracting OS X VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
@@ -58,10 +61,13 @@ gunzip -c "${TMP_DIR}/SqueakV50.sources.gz" > "${RESOURCES_DIR}/SqueakV50.source
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
+mkdir "${VM_ARM_TARGET}"
 tar xzf "${TMP_DIR}/${VM_ARM}" -C "${VM_ARM_TARGET}/"
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}" "${VM_BASE}/${VM_LIN}"
+mkdir "${VM_LIN_TARGET}"
 tar xzf "${TMP_DIR}/${VM_LIN}" -C "${VM_LIN_TARGET}/"
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}" "${VM_BASE}/${VM_WIN}"
+mkdir "${VM_WIN_TARGET}"
 tar xzf "${TMP_DIR}/${VM_WIN}" -C "${VM_WIN_TARGET}/"
 
 echo "Setting permissions..."
