@@ -29,8 +29,8 @@ readonly VM_LIN_TARGET="${CONTENTS_DIR}/Linux-i686"
 readonly VM_OSX_TARGET="${CONTENTS_DIR}/MacOS"
 readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 
-readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${APP_NAME}.tar.gz"
-readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${APP_NAME}.zip"
+readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${APP_NAME:0:-4}.tar.gz"
+readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${APP_NAME:0:-4}.zip"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 echo "Make build and tmp directories..."
@@ -74,10 +74,6 @@ curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
 gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
 
 echo "Prepare trunk image..."
-ls "${VM_OSX_TARGET}/Squeak"
-ls "${TMP_DIR}/Squeak.image"
-ls "${SCRIPTS_DIR}/update.st"
-
 "${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information and move image into bundle..."
