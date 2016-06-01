@@ -1,3 +1,4 @@
+FileStream stdout nextPutAll: 'Updating image...'; cr.
 "Update Squeak image"
 Smalltalk at: #MCMcmUpdater ifPresent: [ :updater |
   [ (updater respondsTo: #doUpdate)
@@ -6,12 +7,8 @@ Smalltalk at: #MCMcmUpdater ifPresent: [ :updater |
                 ifTrue: [ updater updateFromDefaultRepository ]] ]
     on: Warning do: [ :ex | ex resume: true ]].
 
+FileStream stdout nextPutAll: 'Condensing changes...'; cr.
 "Only keep the latest changes"
 Smalltalk condenseChanges.
 
-"Save and quit image"
-Smalltalk at: #WorldState ifPresent: [:global |
-  global addDeferredUIMessage: [
-    Smalltalk at: #SmalltalkImage ifPresent: [:image |
-      image current snapshot: true andQuit: true ]]].
-!
+Smalltalk snapshot: false andQuit: true
