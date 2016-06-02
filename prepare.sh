@@ -3,23 +3,19 @@
 set -o errexit
 
 readonly RELEASE="5.1"
-readonly BUNDLE_NAME="Squeak-${RELEASE}-All-in-One"
-readonly APP_NAME="${BUNDLE_NAME}.app"
+
+readonly IMAGE_URL="http://build.squeak.org/job/Trunk/default/\
+lastSuccessfulBuild/artifact/target/TrunkImage.zip"
+readonly SOURCES_URL="http://ftp.squeak.org/sources_files/SqueakV50.sources.gz"
+readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/stable/"
+readonly VM_VERSION="15.27.3397"
+readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 readonly SCRIPTS_DIR="${TRAVIS_BUILD_DIR}/scripts"
 readonly TEMPLATE_DIR="${TRAVIS_BUILD_DIR}/template"
 readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
-readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
-readonly CONTENTS_DIR="${APP_DIR}/Contents"
-readonly RESOURCES_DIR="${CONTENTS_DIR}/Resources"
 
-readonly IMAGE_URL="http://build.squeak.org/job/Trunk/default/\
-lastSuccessfulBuild/artifact/target/TrunkImage.zip"
-readonly SOURCES_URL="http://ftp.squeak.org/sources_files/SqueakV50.sources.gz"
-
-readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/stable/"
-readonly VM_VERSION="15.27.3397"
 readonly VM_ARM="cogspurlinuxhtARM-${VM_VERSION}.tgz"
 readonly VM_LIN="cogspurlinuxht-${VM_VERSION}.tgz"
 readonly VM_OSX="CogSpur.app-${VM_VERSION}.tgz"
@@ -29,10 +25,6 @@ readonly VM_ARM_TARGET="${CONTENTS_DIR}/Linux-ARM"
 readonly VM_LIN_TARGET="${CONTENTS_DIR}/Linux-i686"
 readonly VM_OSX_TARGET="${CONTENTS_DIR}/MacOS"
 readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
-
-readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
-readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
-readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 echo "Make build and tmp directories..."
 mkdir "${BUILD_DIR}" "${TMP_DIR}"
@@ -74,11 +66,22 @@ echo "Downloading and extracting sources file..."
 curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
 gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
 
-echo "Prepare trunk image..."
+echo "Preparing trunk image..."
 "${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information and move image into bundle..."
 IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
+
+readonly BUNDLE_NAME="${IMAGE_NAME}-All-in-One"
+readonly APP_NAME="${BUNDLE_NAME}.app"
+readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
+readonly CONTENTS_DIR="${APP_DIR}/Contents"
+readonly RESOURCES_DIR="${CONTENTS_DIR}/Resources"
+
+readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
+readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
+
+echo "Renaming files accordingly..."
 mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
