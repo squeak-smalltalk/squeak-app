@@ -21,18 +21,57 @@ readonly VM_LIN="cogspurlinuxht-${VM_VERSION}.tgz"
 readonly VM_OSX="CogSpur.app-${VM_VERSION}.tgz"
 readonly VM_WIN="cogspurwin-${VM_VERSION}.zip"
 
+echo "Make build and tmp directories..."
+mkdir "${BUILD_DIR}" "${TMP_DIR}"
+
+echo "Downloading and extracting base image..."
+curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
+unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
+mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
+mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
+
+echo "Downloading and extracting sources file..."
+curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
+gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
+
+echo "Downloading and extracting OS X VM..."
+curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
+tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
+
+echo "Preparing trunk image..."
+"${TMP_DIR}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
+
+echo "Retrieving image information..."
+IMAGE_NAME=$("${TMP_DIR}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
+
+readonly BUNDLE_NAME="${IMAGE_NAME}-All-in-One"
+readonly APP_NAME="${BUNDLE_NAME}.app"
+readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
+readonly CONTENTS_DIR="${APP_DIR}/Contents"
+readonly RESOURCES_DIR="${CONTENTS_DIR}/Resources"
+
 readonly VM_ARM_TARGET="${CONTENTS_DIR}/Linux-ARM"
 readonly VM_LIN_TARGET="${CONTENTS_DIR}/Linux-i686"
 readonly VM_OSX_TARGET="${CONTENTS_DIR}/MacOS"
 readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 
-echo "Make build and tmp directories..."
-mkdir "${BUILD_DIR}" "${TMP_DIR}"
+readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
+readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 
-echo "Downloading and extracting OS X VM..."
-curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
-tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
 mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
+
+echo "Merging template..."
+mv "${TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
+mv "${TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
+mv "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
+mv "${TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
+mv "${TEMPLATE_DIR}/Squeak.app/Contents/squeak.sh" "${CONTENTS_DIR}/"
+mv "${TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
+
+echo "Moving images files into bundle..."
+mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
+mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
+mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
@@ -47,44 +86,6 @@ mv "${TMP_DIR}/cogspurwin" "${VM_WIN_TARGET}"
 
 echo "Setting permissions..."
 chmod +x "${VM_ARM_TARGET}/squeak" "${VM_LIN_TARGET}/squeak" "${VM_OSX_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe"
-
-echo "Merging template..."
-mv "${TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
-mv "${TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/squeak.sh" "${CONTENTS_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
-
-echo "Downloading and extracting base image..."
-curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
-unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
-mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
-mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
-
-echo "Downloading and extracting sources file..."
-curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
-gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
-
-echo "Preparing trunk image..."
-"${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
-
-echo "Retrieving image information and move image into bundle..."
-IMAGE_NAME=$("${VM_OSX_TARGET}/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
-
-readonly BUNDLE_NAME="${IMAGE_NAME}-All-in-One"
-readonly APP_NAME="${BUNDLE_NAME}.app"
-readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
-readonly CONTENTS_DIR="${APP_DIR}/Contents"
-readonly RESOURCES_DIR="${CONTENTS_DIR}/Resources"
-
-readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
-readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
-
-echo "Renaming files accordingly..."
-mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
-mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
-mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
 
 echo "Updating files..."
 # squeak.bat launcher
