@@ -2,6 +2,8 @@
 
 set -o errexit
 
+[[ -z "${TRAVIS_BUILD_DIR}" ]] && echo "Script needs to run on Travis CI" && exit 1
+
 readonly RELEASE="5.1"
 
 readonly IMAGE_URL="http://build.squeak.org/job/Trunk/default/\
