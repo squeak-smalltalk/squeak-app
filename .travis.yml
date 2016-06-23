@@ -1,6 +1,22 @@
 language: smalltalk
+
 os: osx
+#, linux
+
+smalltalk:
+  #- Squeak-*
+  - Squeak-trunk
+  - Squeak-5.0
+  #- Squeak-5.1
+
 before_install:
-- openssl aes-256-cbc -K $encrypted_c86f51260a97_key -iv $encrypted_c86f51260a97_iv
+  # OSX only
+  - openssl aes-256-cbc -K $encrypted_c86f51260a97_key -iv $encrypted_c86f51260a97_iv
   -in certs/dist.zip.enc -out certs/dist.zip -d
-script: ./prepare.sh
+
+#script:
+#  - ./prepare.sh
+
+after_success:
+  - ./prepare-osx.sh
+  - ./prepare-linux.sh
