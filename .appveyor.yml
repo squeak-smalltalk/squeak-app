@@ -17,7 +17,7 @@ build: false
 test_script:
   - ps: $vmFlavor = "*squeak.cog.spur*"
   - ps: $vmPlatform = "*win32x86*"
-  - ps: $vmUrl = ((Invoke-RestMethod -Uri "https://api.bintray.com/search/file?name=vmPlatform&subject=opensmalltalk&repo=vm") | select name | where name -Like "$vmFlavor" | sort name -descending)[0]
+  - ps: $vmUrl = ((Invoke-RestMethod -Uri "https://api.bintray.com/search/file?name=$vmPlatform&subject=opensmalltalk&repo=vm") | select name | where name -Like "$vmFlavor" | sort name -descending)[0]
   - ps: Start-FileDownload $vmUrl -FileName vm.zip
   - ps: Start-FileDownload "http://files.squeak.org/sources_files/SqueakV50.sources.gz" -FileName src.gz
   - ps: Start-FileDownload "http://files.squeak.org/5.0/Squeak5.0-15113.zip" -FileName img.zip
