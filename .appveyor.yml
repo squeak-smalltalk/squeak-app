@@ -10,7 +10,11 @@ matrix:
 platform:
   - x86
 
-build_script:
+clonse_depth: 5
+
+build: false
+
+test_script:
   - ps: $vmFlavor = "*squeak.cog.spur*"
   - ps: $vmPlatform = "*win32x86*"
   - ps: $vmUrl = ((Invoke-RestMethod -Uri "https://api.bintray.com/search/file?name=vmPlatform&subject=opensmalltalk&repo=vm") | select name | where name -Like "$vmFlavor" | sort name -descending)[0]
