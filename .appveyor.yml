@@ -3,6 +3,8 @@ environment:
     secure: 1gekOn8phoaNKc8JIGx/Qg==
   deploy_pass:
     secure: 1GgQDn4YwtnJwTLwzYrONF6Ofgpqe4ZD8pwp9hJQzXE=
+  build_artifact:
+    squeak-5.0-win32-x86.zip
 
 matrix:
   fast_finish: false
@@ -33,7 +35,7 @@ test_script:
   - ps: Remove-Item vm.zip
   - ps: Remove-Item src.gz
   - ps: Remove-Item img.zip
-  - 7z a -tzip squeak-5.0-win32-x86.zip *.*
+  - 7z a -tzip %BUILD_ARTIFACT% *.*
   - ps: $pass = ConvertTo-SecureString "$env:deploy_pass" -AsPlainText -Force
   - ps: $cred = New-Object System.Management.Automation.PSCredential ("$env:deploy_user",$pass)
-  - ps: Invoke-RestMethod -Uri "https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/" -Method Put -InFile squeak-5.0-win32-x86.zip -Credential $cred
+  - ps: Invoke-RestMethod -Uri "https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/$env:build_artifact" -Method Put -InFile squeak-5.0-win32-x86.zip -Credential $cred
