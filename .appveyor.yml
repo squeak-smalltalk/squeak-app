@@ -34,6 +34,6 @@ test_script:
   - ps: Remove-Item src.gz
   - ps: Remove-Item img.zip
   - 7z a -tzip squeak-5.0-win32-x86.zip *.*
-  - ps: $pass = ConvertTo-SecureString "$deploy_pass" -AsPlainText -Force
-  - ps: $cred = New-Object System.Management.Automation.PSCredential ("$deploy_user",$pass)
+  - ps: $pass = ConvertTo-SecureString "$env:deploy_pass" -AsPlainText -Force
+  - ps: $cred = New-Object System.Management.Automation.PSCredential ("$env:deploy_user",$pass)
   - ps: Invoke-RestMethod -Uri "https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/" -Method Put -InFile squeak-5.0-win32-x86.zip -Credential $cred
