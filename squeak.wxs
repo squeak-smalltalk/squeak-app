@@ -1,0 +1,145 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Wix xmlns='http://schemas.microsoft.com/wix/2006/wi'>
+
+	<!-- Never change the upgrade code! -->
+	<?define UpgradeCode="{2191A273-CEBF-443F-A90C-CEDBD04C4FCD}" ?>
+ 
+	<!-- The URL for add/remove programs -->
+	<?define InfoURL="http://www.squeak.org/" ?>
+
+	<!-- 32-bit / 64-bit variables -->
+<!-- 	<?if $(var.Platform) = x64 ?>
+		<?define Win64 = "yes" ?>
+		<?define PlatformProgramFilesFolder = "ProgramFiles64Folder" ?>
+		<?define FilesPath = "files\x64\" ?>
+	<?else ?> -->
+		<?define Win64 = "no" ?>
+		<?define PlatformProgramFilesFolder = "ProgramFilesFolder" ?>
+		<?define FilesPath = "files\win32\" ?>
+	<!-- <?endif ?> -->
+
+	<!-- FILES - Virtual Machine and Manifest -->
+	<?define vmExePath = "$(var.FilesPath)Squeak.exe" ?>
+	<?define vmConsoleExePath = "$(var.FilesPath)SqueakConsole.exe" ?>
+	<?define vmManifestPath = "$(var.FilesPath)Squeak.exe.manifest" ?>
+	<?define vmConsoleManifestPath = "$(var.FilesPath)SqueakConsole.exe.manifest" ?>
+
+	<!-- FILES - Plugins -->
+	<?define ffiPluginPath = "$(var.FilesPath)SqueakFFIPrims.dll" ?>
+	<?define sslPluginPath = "$(var.FilesPath)SqueakSSL.DLL" ?>
+	<?define uuidPluginPath = "$(var.FilesPath)UUIDPlugin.dll" ?>
+	<?define osProcessPluginPath = "$(var.FilesPath)Win32OSProcessPlugin.dll" ?>
+
+	<!-- FILES - Squeak -->
+	<?define sourcesFilePath = "files\common\SqueakV50.sources" ?>
+	<?define imageFilePath = "$(var.FilesPath)squeak-5.0.image" ?>
+	<?define changesFilePath = "$(var.FilesPath)squeak-5.0.changes" ?>
+
+
+	<!-- Use version number of image because this is known to the user. -->
+	<?define VmVersion = "!(bind.FileVersion.vmExe)" ?>
+	<?define ImageVersion = "5.1.17000" ?>
+	<?define VersionNumber="$(var.ImageVersion)" ?>
+
+	<Product Id="*" Name="!(loc.ApplicationName)" Language="!(loc.Language)" Version="$(var.VersionNumber)" Manufacturer="!(loc.ManufacturerFullName)" UpgradeCode="$(var.UpgradeCode)" >
+		<Package Id="*" InstallerVersion="400" Compressed="yes" InstallScope="perMachine"  Description="!(loc.ProductDescription)" Comments="!(loc.Comments) $(var.VersionNumber)" />
+
+		<WixVariable Id="WixUILicenseRtf" Value="files\license.txt" />
+		<Icon Id="MainIcon.ico" SourceFile="installer.ico" />
+
+		<!-- Set properties for add/remove programs (ARP) -->
+		<Property Id="ARPPRODUCTICON" Value="MainIcon.ico" />
+		<Property Id="ARPHELPLINK" Value="$(var.InfoURL)" />
+		<Property Id="ARPNOREPAIR" Value="yes" Secure="yes" />		<!-- Remove repair -->
+		<Property Id="ARPNOMODIFY" Value="yes" Secure="yes" />		<!-- Remove modify -->
+
+
+
+		<!-- <MajorUpgrade DowngradeErrorMessage="!(loc.NewerInstalled)" AllowSameVersionUpgrades="yes" /> -->
+		
+		<!-- Install! -->
+		<CustomAction Id="SetARPINSTALLLOCATION" Property="ARPINSTALLLOCATION" Value="[INSTALLDIR]" />
+		<InstallExecuteSequence>
+			<Custom Action="SetARPINSTALLLOCATION" After="InstallValidate"></Custom>
+		</InstallExecuteSequence>
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- DIRECTORY STRUCTURE -->
+		<Media Id="1" Cabinet="media1.cab" EmbedCab="yes" />
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="$(var.PlatformProgramFilesFolder)">
+					<Directory Id="INSTALLDIR" Name="!(loc.ApplicationName)">
+
+					<!-- Component for the whole installation directory. -->
+					<Component Id="INSTALLDIR_comp" Guid="{7A184DCB-CF4A-433D-8261-52256E7B1B65}">
+						<CreateFolder />
+						<RemoveFile Id="RemoveFilesFromAppDirectory" Name="*.*" On="uninstall" />
+					</Component>
+
+					<!-- Component for the virtual machine. -->
+					<Component Id="VIRTUAL_MACHINE_comp" Guid="{78301976-A630-474A-BE2E-4627E2F274ED}" Win64="$(var.Win64)">
+						<File Source="$(var.vmExePath)" Id="vmExe" KeyPath="yes" />
+						<File Source="$(var.vmConsoleExePath)" Id="vmConsoleExe" KeyPath="no" />
+						<File Source="$(var.vmManifestPath)" Id="vmManifest" KeyPath="no" />
+						<File Source="$(var.vmConsoleManifestPath)" Id="vmConsoleManifest" KeyPath="no" />
+					</Component>
+
+					<!-- Component for the plugins. -->
+					<Component Id="VIRTUAL_MACHINE_PLUGINS_comp" Guid="{0B4B85AC-FFB4-418E-B12D-607CBFB8E189}" Win64="$(var.Win64)">
+						<File Source="$(var.ffiPluginPath)" Id="ffiPlugin" KeyPath="yes" />
+						<File Source="$(var.sslPluginPath)" Id="sslPlugin" KeyPath="no" />
+						<File Source="$(var.uuidPluginPath)" Id="uuidPlugin" KeyPath="no" />
+						<File Source="$(var.osProcessPluginPath)" Id="osProcessPlugin" KeyPath="no" />
+					</Component>
+
+					<!-- Component for the plugins. -->
+					<Component Id="SQUEAK_comp" Guid="{5D152EDB-9BFF-43A3-AF88-89386BC7882A}" Win64="$(var.Win64)">
+						<File Source="$(var.imageFilePath)" Id="imageFile" KeyPath="yes" />
+						<File Source="$(var.sourcesFilePath)" Id="sourcesFile" KeyPath="no" />
+						<File Source="$(var.changesFilePath)" Id="changesFile" KeyPath="no" />
+					</Component>
+
+
+
+
+					</Directory>
+			</Directory>
+
+			<!-- Registry entries -->
+			<!-- <Component Id="RegValInstallLocation_comp" Guid="{14942502-7297-4728-98F4-84B4FF3C7BE8}">
+				<RegistryKey Root="HKLM" Key="Software\!(loc.ManufacturerName)\InstalledProducts\!(loc.ApplicationName)">
+					<RegistryValue Name="InstallLocation" Value="[INSTALLDIR]" Type="string" KeyPath="yes" />
+				</RegistryKey> -->
+			<!-- </Component> -->
+	
+		</Directory>
+
+
+	 <!-- Features define which parts of the application can be installed in a custom installation -->
+		<Feature Id="Complete" Title="!(loc.ApplicationName)" Description="!(loc.FeatureCompleteDescription)" Display="expand" Level="1" ConfigurableDirectory="INSTALLDIR">
+
+			<!-- A feature block for the main (GUI) program and all its dependencies -->
+			<Feature Id="MainProgram" Title="!(loc.FeatureMainProgramTitle)" Description="!(loc.FeatureMainProgramDescription)" Level="1">
+				<ComponentRef Id="INSTALLDIR_comp" />
+				<ComponentRef Id="VIRTUAL_MACHINE_comp" />
+				<ComponentRef Id="VIRTUAL_MACHINE_PLUGINS_comp" />
+				<ComponentRef Id="SQUEAK_comp" />
+	 
+				<!-- Registry entries -->
+				<!-- <ComponentRef Id="RegValInstallLocation_comp" /> -->
+			</Feature>
+	 
+		</Feature>
+ 
+ 	</Product>
+</Wix>
