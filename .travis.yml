@@ -9,9 +9,8 @@ smalltalk:
   - Squeak-5.0
 
 before_install:
-  # OSX only
-  #- openssl aes-256-cbc -K $encrypted_c86f51260a97_key -iv $encrypted_c86f51260a97_iv
-  #-in certs/dist.zip.enc -out certs/dist.zip -d
+- openssl aes-256-cbc -K $encrypted_c86f51260a97_key -iv $encrypted_c86f51260a97_iv
+-in certs/dist.zip.enc -out certs/dist.zip -d
 
 script: ./prepare.sh
 
