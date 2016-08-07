@@ -4,13 +4,9 @@ set -o errexit
 
 [[ -z "${TRAVIS_BUILD_DIR}" ]] && echo "Script needs to run on Travis CI" && exit 1
 
-readonly RELEASE="5.1"
-
-readonly IMAGE_URL="http://build.squeak.org/job/Trunk/default/\
-lastSuccessfulBuild/artifact/target/TrunkImage.zip"
-readonly SOURCES_URL="http://ftp.squeak.org/sources_files/SqueakV50.sources.gz"
-readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/stable/"
-readonly VM_VERSION="15.27.3397"
+readonly IMAGE_URL="http://files.squeak.org/base/${TRAVIS_SMALLTALK_VERSION}.zip"
+readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/VM.r3732/"
+readonly VM_VERSION="16.21.3732"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
@@ -26,27 +22,28 @@ readonly VM_WIN="cogspurwin-${VM_VERSION}.zip"
 echo "Make build and tmp directories..."
 mkdir "${BUILD_DIR}" "${TMP_DIR}"
 
-echo "Downloading and extracting base image..."
+echo "Downloading and extracting image, changes, and sources..."
 curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
 unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
-
-echo "Downloading and extracting sources file..."
-curl -f -s --retry 3 -o "${TMP_DIR}/sources.gz" "${SOURCES_URL}"
-gunzip -c "${TMP_DIR}/sources.gz" > "${TMP_DIR}/SqueakV50.sources"
+# mv "${TMP_DIR}/"*.sources "${TMP_DIR}"
 
 echo "Downloading and extracting OS X VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_OSX}" "${VM_BASE}/${VM_OSX}"
 tar xzf "${TMP_DIR}/${VM_OSX}" -C "${TMP_DIR}/"
 
-echo "Preparing trunk image..."
+echo "Updating and configuring Squeak..."
 "${TMP_DIR}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information..."
-IMAGE_NAME=$("${TMP_DIR}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/get_version.st")
+# TODO: this will not work because the variables will be erased after the script has finished...
+SQUEAK_VERSION="SqueakUnknownVersion"
+SQUEAK_UPDATE="00000"
+./"${TMP_DIR}/"version.sh
+IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}"
 
-readonly BUNDLE_NAME="${IMAGE_NAME}-All-in-One"
+readonly BUNDLE_NAME="${IMAEG_NAME}-${VM_VERSION}-All-in-One"
 readonly APP_NAME="${BUNDLE_NAME}.app"
 readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
 readonly CONTENTS_DIR="${APP_DIR}/Contents"
@@ -65,7 +62,7 @@ mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
 echo "Moving images files into bundle..."
 mv "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 mv "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
-mv "${TMP_DIR}/SqueakV50.sources" "${RESOURCES_DIR}/SqueakV50.sources"
+mv "${TMP_DIR}/"*.sources "${RESOURCES_DIR}"
 
 echo "Downloading and extracting Linux and Windows VMs..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}" "${VM_BASE}/${VM_ARM}"
@@ -100,7 +97,7 @@ rm -f "${BUILD_DIR}/squeak.sh.bak"
 
 # Info.plist
 sed -i ".bak" "s/%CFBundleGetInfoString%/${IMAGE_NAME}, SpurVM ${VM_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%VERSION%/${RELEASE}/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%VERSION%/${SQUEAK_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.plist"
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 
@@ -109,19 +106,19 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/squea
 rm -f "${CONTENTS_DIR}/squeak.bak"
 
 # Squeak.ini
-sed -i ".bak" "s/%VERSION%/${RELEASE}.image/g" "${VM_WIN_TARGET}/Squeak.ini"
+sed -i ".bak" "s/%VERSION%/${SQUEAK_VERSION}.image/g" "${VM_WIN_TARGET}/Squeak.ini"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_WIN_TARGET}/Squeak.ini"
 rm -f "${VM_WIN_TARGET}/Squeak.ini"
 
-echo "Signing app bundle..."
-unzip -q ./certs/dist.zip -d ./certs
-security create-keychain -p travis osx-build.keychain
-security default-keychain -s osx-build.keychain
-security unlock-keychain -p travis osx-build.keychain
-security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
-security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
-codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
-security delete-keychain osx-build.keychain
+# echo "Signing app bundle..."
+# unzip -q ./certs/dist.zip -d ./certs
+# security create-keychain -p travis osx-build.keychain
+# security default-keychain -s osx-build.keychain
+# security unlock-keychain -p travis osx-build.keychain
+# security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
+# security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+# codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
+# security delete-keychain osx-build.keychain
 
 echo "Compressing bundle..."
 pushd "${BUILD_DIR}" > /dev/null
