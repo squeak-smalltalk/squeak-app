@@ -1,6 +1,6 @@
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
-"Transcript open."
+TranscriptStream redirectToStdOut: true.
 
 "Avoid showing system progress bar and using graphical tools."
 Project current instVarNamed: #uiManager put: DummyUIManager new.
@@ -29,7 +29,7 @@ MCFileBasedRepository flushAllCaches.
 
 [[[[
 
-FileStream stdout nextPutAll: 'Updating...'; cr.
+Transcript showln: 'Updating...'.
 config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 
@@ -43,30 +43,24 @@ config setSystemVersion.
 		conflict chooseRemote].
 	mrr resume: true].
 
-FileStream stdout
-	nextPutAll: 'Update finished: ', SystemVersion current printString;
-	cr.
-
-"Restore progress indication and tool set."
-ToolSet default: (Smalltalk at: #StandardToolSet).
-Project current instVarNamed: #uiManager put: MorphicUIManager new.
+Transcript showln: 'Update finished: ', SystemVersion current printString.
 
 "Write out version information for deployment."
 FileStream fileNamed: 'version.sh' do: [:strm |
 	strm
-		nextPutAll: '#!/usr/bin/env bash';
-		cr; cr;
-		nextPutAll: ('readonly SQUEAK_VERSION="{1}"' format: {SystemVersion current version});
+		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version});
 		cr;
-		nextPutAll: ('readonly SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate});
+		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate});
 		cr].
 
-
-"TODO: Set-up image state."
-
-
-"Finished"
-FileStream stdout nextPutAll: 'Condensing changes...'; cr.
-
+"Configure image state"
+Transcript showln: 'Condensing changes...'.
 Smalltalk condenseChanges.
+
+"Finish.
+TranscriptStream redirectToStdOut: false.
+ToolSet default: (Smalltalk at: #StandardToolSet).
+Project current instVarNamed: #uiManager put: MorphicUIManager new.
+Utilities setAuthorInitials: ''.
+
 Smalltalk snapshot: true andQuit: true.
