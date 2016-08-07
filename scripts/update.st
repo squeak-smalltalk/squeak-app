@@ -1,6 +1,7 @@
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
 TranscriptStream redirectToStdOut: true.
+TranscriptStream forceUpdate: false.
 
 "Avoid showing system progress bar and using graphical tools."
 Project current instVarNamed: #uiManager put: DummyUIManager new.
@@ -58,6 +59,7 @@ Smalltalk condenseChanges.
 
 "Finish."
 TranscriptStream redirectToStdOut: false.
+TranscriptStream forceUpdate: true.
 ToolSet default: (Smalltalk at: #StandardToolSet).
 Project current instVarNamed: #uiManager put: MorphicUIManager new.
 Utilities setAuthorInitials: ''.
