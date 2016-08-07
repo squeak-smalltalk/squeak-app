@@ -32,6 +32,7 @@ MCFileBasedRepository flushAllCaches.
 Transcript showln: 'Updating...'.
 config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
+Transcript showln: 'Update finished: ', SystemVersion current printString.
 
 ] on: ProgressNotification do: [:p |
 	Transcript showln: p extraParam.
@@ -42,8 +43,6 @@ config setSystemVersion.
 	mrr merger conflicts do: [:conflict |
 		conflict chooseRemote].
 	mrr resume: true].
-
-Transcript showln: 'Update finished: ', SystemVersion current printString.
 
 "Write out version information for deployment."
 FileStream fileNamed: 'version.sh' do: [:strm |
@@ -57,7 +56,7 @@ FileStream fileNamed: 'version.sh' do: [:strm |
 Transcript showln: 'Condensing changes...'.
 Smalltalk condenseChanges.
 
-"Finish.
+"Finish."
 TranscriptStream redirectToStdOut: false.
 ToolSet default: (Smalltalk at: #StandardToolSet).
 Project current instVarNamed: #uiManager put: MorphicUIManager new.
