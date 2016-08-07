@@ -1,6 +1,6 @@
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
-Transcript open.
+"Transcript open."
 
 "Avoid showing system progress bar and using graphical tools."
 Project current instVarNamed: #uiManager put: DummyUIManager new.
