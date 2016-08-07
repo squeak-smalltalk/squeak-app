@@ -5,8 +5,8 @@ set -o errexit
 [[ -z "${TRAVIS_BUILD_DIR}" ]] && echo "Script needs to run on Travis CI" && exit 1
 
 readonly IMAGE_URL="http://files.squeak.org/base/${TRAVIS_SMALLTALK_VERSION}.zip"
-readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/VM.r3732/"
-readonly VM_VERSION="16.21.3732"
+readonly VM_BASE="http://www.mirandabanda.org/files/Cog/VM/stable/"
+readonly VM_VERSION="15.27.3397"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
@@ -37,13 +37,12 @@ echo "Updating and configuring Squeak..."
 "${TMP_DIR}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 
 echo "Retrieving image information..."
-# TODO: this will not work because the variables will be erased after the script has finished...
 SQUEAK_VERSION="SqueakUnknownVersion"
 SQUEAK_UPDATE="00000"
-./"${TMP_DIR}/"version.sh
+source ./"${TMP_DIR}/"version.sh
 IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}"
 
-readonly BUNDLE_NAME="${IMAEG_NAME}-${VM_VERSION}-All-in-One"
+readonly BUNDLE_NAME="${IMAGE_NAME}-${VM_VERSION}-All-in-One"
 readonly APP_NAME="${BUNDLE_NAME}.app"
 readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
 readonly CONTENTS_DIR="${APP_DIR}/Contents"
@@ -111,14 +110,14 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_WIN_TARGET}/Sque
 rm -f "${VM_WIN_TARGET}/Squeak.ini"
 
 # echo "Signing app bundle..."
-# unzip -q ./certs/dist.zip -d ./certs
-# security create-keychain -p travis osx-build.keychain
-# security default-keychain -s osx-build.keychain
-# security unlock-keychain -p travis osx-build.keychain
-# security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
-# security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
-# codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
-# security delete-keychain osx-build.keychain
+unzip -q ./certs/dist.zip -d ./certs
+security create-keychain -p travis osx-build.keychain
+security default-keychain -s osx-build.keychain
+security unlock-keychain -p travis osx-build.keychain
+security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
+security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
+security delete-keychain osx-build.keychain
 
 echo "Compressing bundle..."
 pushd "${BUILD_DIR}" > /dev/null
