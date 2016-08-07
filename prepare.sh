@@ -39,7 +39,7 @@ echo "Updating and configuring Squeak..."
 echo "Retrieving image information..."
 SQUEAK_VERSION="SqueakUnknownVersion"
 SQUEAK_UPDATE="00000"
-source ./"${TMP_DIR}/"version.sh
+source "${TMP_DIR}/version.sh"
 IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}"
 
 readonly BUNDLE_NAME="${IMAGE_NAME}-${VM_VERSION}-All-in-One"
