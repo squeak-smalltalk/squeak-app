@@ -1,0 +1,41 @@
+environment:
+  deploy_user:
+    secure: 1gekOn8phoaNKc8JIGx/Qg==
+  deploy_pass:
+    secure: 1GgQDn4YwtnJwTLwzYrONF6Ofgpqe4ZD8pwp9hJQzXE=
+  build_artifact:
+    squeak-5.0-win32-x86.zip
+
+matrix:
+  fast_finish: false
+
+platform:
+  - x86
+
+clone_depth: 5
+
+build: false
+
+test_script:
+  - ps: $vmFlavor = "*squeak.cog.spur*"
+  - ps: $vmPlatform = "*win32x86*"
+  - ps: $vmName = ((Invoke-RestMethod -Uri "https://api.bintray.com/search/file?name=$vmPlatform&subject=opensmalltalk&repo=vm") | select name | where name -Like "$vmFlavor" | sort name -descending)[0].name
+  - ps: Start-FileDownload "https://bintray.com/opensmalltalk/vm/download_file?file_path=$vmName" -FileName vm.zip
+  - ps: Start-FileDownload "http://files.squeak.org/sources_files/SqueakV50.sources.gz" -FileName SqueakV50.sources.gz
+  - ps: Start-FileDownload "http://files.squeak.org/5.0/Squeak5.0-15113.zip" -FileName img.zip
+  - 7z e vm.zip > NUL
+  - 7z e SqueakV50.sources.gz > NUL
+  - 7z e img.zip > NUL
+  - ps: ls | where name -Like "*.o" | foreach {Remove-Item $_}
+  - ps: ls | where name -Like "*.map" | foreach {Remove-Item $_}
+  - ps: ls | where name -Like "*.def" | foreach {Remove-Item $_}
+  - ps: ls | where name -Like "*.res" | foreach {Remove-Item $_}
+  - ps: ls | where name -Like "*.lib" | foreach {Remove-Item $_}
+  #- ps: ls | where { ($_.name -Like "*.o") -or ($_.name -Like "*.map") } | foreach {Remove-Item $_}
+  - ps: Remove-Item vm.zip
+ # - ps: Remove-Item src.gz
+  - ps: Remove-Item img.zip
+  - 7z a -tzip %BUILD_ARTIFACT% *.*
+  - ps: $pass = ConvertTo-SecureString "$env:deploy_pass" -AsPlainText -Force
+  - ps: $cred = New-Object System.Management.Automation.PSCredential ("$env:deploy_user",$pass)
+  - ps: Invoke-RestMethod -Uri "https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/$env:build_artifact" -Method Put -InFile squeak-5.0-win32-x86.zip -Credential $cred
