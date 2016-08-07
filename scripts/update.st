@@ -11,10 +11,6 @@ ToolSet default: (Smalltalk at: #CommandLineToolSet).
 DummyUIManager
 	compile: 'informUserDuring: aBlock\	aBlock value: Association new' withCRs
 	classified: 'ui requests'.
-"Patch behavior of TranscriptStream."
-TranscriptStream
-	compile: 'endEntry\	self class redirectToStdOut\		ifTrue: [^ self]\		ifFalse: [self semaphore critical: [\			self changed: #appendEntry.\				self reset.]].' withCRs
-	classified: 'stream extensions'.
 	
 MCMcmUpdater updateMissingPackages: true.
 MCConfiguration upgradeIsMerge: true. "See below"
