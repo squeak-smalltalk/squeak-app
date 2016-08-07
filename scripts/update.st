@@ -1,12 +1,72 @@
-FileStream stdout nextPutAll: 'Updating image...'; cr.
-Smalltalk at: #MCMcmUpdater ifPresent: [ :updater |
-  [ (updater respondsTo: #doUpdate)
-    ifTrue: [ updater doUpdate ]
-    ifFalse: [ (updater respondsTo: #updateFromDefaultRepository)
-                ifTrue: [ updater updateFromDefaultRepository ]] ]
-    on: Warning do: [ :ex | ex resume: true ]].
+SystemProgressMorph reset.
+Utilities setAuthorInitials: 'buildscript'.
+Transcript open.
 
+"Avoid showing system progress bar and using graphical tools."
+Project current instVarNamed: #uiManager put: DummyUIManager new.
+ToolSet default: (Smalltalk at: #CommandLineToolSet).
+
+"Patch bug in DummyUIManager."
+DummyUIManager
+	compile: 'informUserDuring: aBlock\	aBlock value: Association new' withCRs
+	classified: 'ui requests'.
+
+MCMcmUpdater updateMissingPackages: true.
+MCConfiguration upgradeIsMerge: true. "See below"
+
+MCMcmUpdater defaultUpdateURL ifEmpty: [
+	Error signal: 'There is no update URL set in the image.'].
+
+repo := MCRepositoryGroup default repositories
+	detect: [:r | r description = MCMcmUpdater defaultUpdateURL]
+	ifNone: [Error signal: 'The update repository does not exist.'].
+
+(NetNameResolver addressForName: 'www.google.com' timeout: 1)
+	ifNil: [Error signal: 'There is no internet connection available.'].
+
+"Flush all caches. If a previous download failed this is often helpful"
+MCFileBasedRepository flushAllCaches.
+
+[[[[
+
+FileStream stdout nextPutAll: 'Updating...'; cr.
+config := MCMcmUpdater default updateFromRepository: repo.
+config setSystemVersion.
+
+] on: ProgressNotification do: [:p |
+	Transcript showln: p extraParam.
+	p resume]
+] on: Warning do: [:warning | warning resume]
+] on: MCNoChangesException do: [:ex | ex resume]
+] on: MCMergeResolutionRequest do: [:mrr |
+	mrr merger conflicts do: [:conflict |
+		conflict chooseRemote].
+	mrr resume: true].
+
+FileStream stdout
+	nextPutAll: 'Update finished: ', SystemVersion current printString;
+	cr.
+
+"Restore progress indication and tool set."
+ToolSet default: (Smalltalk at: #StandardToolSet).
+Project current instVarNamed: #uiManager put: MorphicUIManager new.
+
+"Write out version information for deployment."
+FileStream fileNamed: 'version.sh' do: [:strm |
+	strm
+		nextPutAll: '#!/usr/bin/env bash';
+		cr; cr;
+		nextPutAll: ('readonly SQUEAK_VERSION="{1}"' format: {SystemVersion current version});
+		cr;
+		nextPutAll: ('readonly SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate});
+		cr].
+
+
+"TODO: Set-up image state."
+
+
+"Finished"
 FileStream stdout nextPutAll: 'Condensing changes...'; cr.
-Smalltalk condenseChanges.
 
-Smalltalk snapshot: false andQuit: true
+Smalltalk condenseChanges.
+Smalltalk snapshot: true andQuit: true.
