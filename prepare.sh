@@ -142,34 +142,69 @@ echo "...done."
 
 
 
-echo "Creating Linux bundle (32-bit)..."
-readonly LIN_BUILD_DIR="${TRAVIS_BUILD_DIR}/build_lin"
-readonly LIN_BUNDLE_NAME="${IMAGE_NAME}-${VM_VERSION}"
-readonly LIN_TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${LIN_BUNDLE_NAME}.tar.gz"
-readonly LIN_VM_ARM_TARGET="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Linux-ARM"
-readonly LIN_VM_LIN_TARGET="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Linux-i686"
-readonly LIN_RESOURCES_DIR="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Resources"
+# echo "Creating Linux bundle (32-bit)..."
+# readonly LIN_BUILD_DIR="${TRAVIS_BUILD_DIR}/build_lin"
+# readonly LIN_BUNDLE_NAME="${IMAGE_NAME}-${VM_VERSION}"
+# readonly LIN_TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${LIN_BUNDLE_NAME}.tar.gz"
+# readonly LIN_VM_ARM_TARGET="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Linux-ARM"
+# readonly LIN_VM_LIN_TARGET="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Linux-i686"
+# readonly LIN_RESOURCES_DIR="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Resources"
 
-mkdir "${LIN_BUILD_DIR}"
+# mkdir "${LIN_BUILD_DIR}"
 
-echo "...copying VM into bundle..."
-mv "${VM_ARM_TARGET}" "${LIN_VM_ARM_TARGET}"
-mv "${VM_LIN_TARGET}" "${LIN_VM_LIN_TARGET}"
+# echo "...copying VM into bundle..."
+# mv "${VM_ARM_TARGET}" "${LIN_VM_ARM_TARGET}"
+# mv "${VM_LIN_TARGET}" "${LIN_VM_LIN_TARGET}"
 
-echo "...copying images files into bundle..."
-cp "${TMP_DIR}/Squeak.image" "${LIN_RESOURCES_DIR}/${IMAGE_NAME}.image"
-cp "${TMP_DIR}/Squeak.changes" "${LIN_RESOURCES_DIR}/${IMAGE_NAME}.changes"
-cp "${TMP_DIR}/"*.sources "${LIN_RESOURCES_DIR}"
+# echo "...copying images files into bundle..."
+# cp "${TMP_DIR}/Squeak.image" "${LIN_RESOURCES_DIR}/${IMAGE_NAME}.image"
+# cp "${TMP_DIR}/Squeak.changes" "${LIN_RESOURCES_DIR}/${IMAGE_NAME}.changes"
+# cp "${TMP_DIR}/"*.sources "${LIN_RESOURCES_DIR}"
 
-echo "...copying startup script..."
-cp "${CONTENTS_DIR}/squeak.sh" "${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/squeak.sh"
+# echo "...copying startup script..."
+# cp "${CONTENTS_DIR}/squeak.sh" "${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/squeak.sh"
 
-echo "...compressing the bundle..."
-pushd "${LIN_BUILD_DIR}" > /dev/null
-tar czf "${LIN_TARGET_TARGZ}" "./"
-popd > /dev/null
+# echo "...compressing the bundle..."
+# pushd "${LIN_BUILD_DIR}" > /dev/null
+# tar czf "${LIN_TARGET_TARGZ}" "./"
+# popd > /dev/null
 
-echo "...uploading to files.squeak.org..."
-curl -T "${LIN_TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
+# echo "...uploading to files.squeak.org..."
+# curl -T "${LIN_TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
 
-echo "...done."
+# echo "...done."
+
+
+
+
+
+# echo "Creating Mac OS app bundle (32-bit)..."
+# readonly MAC_BUILD_DIR="${TRAVIS_BUILD_DIR}/build_mac"
+# readonly MAC_BUNDLE_NAME="${IMAGE_NAME}-${VM_VERSION}"
+# readonly MAC_TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${MAC_BUNDLE_NAME}.tar.gz"
+# readonly MAC_VM_MAC_TARGET="${MAC_BUILD_DIR}/${MAC_BUNDLE_NAME}/Linux-i686"
+# readonly MAC_RESOURCES_DIR="${MAC_BUILD_DIR}/${MAC_BUNDLE_NAME}/Resources"
+
+# mkdir "${MAC_BUILD_DIR}"
+
+# echo "...copying VM into bundle..."
+# mv "${APP_DIR}" "${MAC_BUILD_DIR}/${MAC_BUNDLE_NAME}.app"
+
+
+# echo "...copying images files into bundle..."
+# cp "${TMP_DIR}/Squeak.image" "${MAC_RESOURCES_DIR}/${IMAGE_NAME}.image"
+# cp "${TMP_DIR}/Squeak.changes" "${MAC_RESOURCES_DIR}/${IMAGE_NAME}.changes"
+# cp "${TMP_DIR}/"*.sources "${MAC_RESOURCES_DIR}"
+
+# echo "...copying startup script..."
+# cp "${CONTENTS_DIR}/squeak.sh" "${MAC_BUILD_DIR}/${MAC_BUNDLE_NAME}/squeak.sh"
+
+# echo "...compressing the bundle..."
+# pushd "${MAC_BUILD_DIR}" > /dev/null
+# tar czf "${MAC_TARGET_TARGZ}" "./"
+# popd > /dev/null
+
+# echo "...uploading to files.squeak.org..."
+# curl -T "${MAC_TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
+
+# echo "...done."
