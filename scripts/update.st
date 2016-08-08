@@ -1,7 +1,6 @@
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
-TranscriptStream redirectToStdOut: true.
-TranscriptStream forceUpdate: false.
+TranscriptStream redirectToStdOut: false.
 
 "Avoid showing system progress bar and using graphical tools."
 Project current instVarNamed: #uiManager put: DummyUIManager new.
@@ -28,16 +27,18 @@ repo := MCRepositoryGroup default repositories
 "Flush all caches. If a previous download failed this is often helpful"
 MCFileBasedRepository flushAllCaches.
 
+monitor := [ [
+	FileStream stdout nextPutAll: '.'.
+	(Delay forMilliseconds: 5000) wait] repeat ] forkAt: 75.
+
 [[[[
 
-Transcript showln: 'Updating...'.
+Transcript show: 'Updating...'.
 config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
-Transcript showln: 'Update finished: ', SystemVersion current printString.
+Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
-] on: ProgressNotification do: [:p |
-	Transcript showln: p extraParam.
-	p resume]
+] on: ProgressNotification do: [:p | p resume]
 ] on: Warning do: [:warning | warning resume]
 ] on: MCNoChangesException do: [:ex | ex resume]
 ] on: MCMergeResolutionRequest do: [:mrr |
@@ -45,13 +46,17 @@ Transcript showln: 'Update finished: ', SystemVersion current printString.
 		conflict chooseRemote].
 	mrr resume: true].
 
+monitor terminate.
+monitor := nil.
+
 "Write out version information for deployment."
 FileStream fileNamed: 'version.sh' do: [:strm |
 	strm
-		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version});
-		cr;
-		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate});
-		cr].
+		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); cr;
+		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); cr;
+		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); cr;
+		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); cr;
+		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); cr].
 
 "Configure image state"
 Transcript showln: 'Condensing changes...'.
