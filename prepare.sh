@@ -107,11 +107,11 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 # squeak.sh
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/squeak.sh"
-rm -f "${CONTENTS_DIR}/squeak.bak"
+rm -f "${CONTENTS_DIR}/squeak.sh.bak"
 # Squeak.ini (consistent with contents in Info.plist)
 sed -i ".bak" "s/%VERSION%/${BUNDLE_DESCRIPTION}/g" "${VM_WIN_TARGET}/Squeak.ini"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_WIN_TARGET}/Squeak.ini"
-rm -f "${VM_WIN_TARGET}/Squeak.ini"
+rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 
 # Signing the Mac OS application
 echo "...signing the bundle..."
