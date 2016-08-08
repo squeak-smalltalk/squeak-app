@@ -52,11 +52,11 @@ monitor := nil.
 "Write out version information for deployment."
 FileStream fileNamed: 'version.sh' do: [:strm |
 	strm
-		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); cr;
-		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); cr;
-		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); cr;
-		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); cr;
-		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); cr].
+		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); crlf;
+		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); crlf;
+		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); crlf;
+		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); crlf;
+		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); crlf].
 
 "Configure image state"
 Transcript showln: 'Condensing changes...'.
