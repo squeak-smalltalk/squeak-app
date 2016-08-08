@@ -60,7 +60,7 @@ readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
 readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 
-mv "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
+cp "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
 
 echo "...copying images files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
@@ -71,23 +71,23 @@ echo "...downloading and extracting VMs for Linux, Linux (ARMv6), and Windows...
 # ARMv6
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}.zip" "${VM_BASE}/${VM_ARM}.zip"
 unzip -q "${TMP_DIR}/${VM_ARM}.zip" -d "${TMP_DIR}/${VM_ARM}"
-mv "${TMP_DIR}/${VM_ARM}" "${VM_ARM_TARGET}"
+cp "${TMP_DIR}/${VM_ARM}" "${VM_ARM_TARGET}"
 # Linux 
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}.zip" "${VM_BASE}/${VM_LIN}.zip"
 unzip -q "${TMP_DIR}/${VM_LIN}.zip" -d "${TMP_DIR}/${VM_LIN}"
-mv "${TMP_DIR}/${VM_LIN}" "${VM_LIN_TARGET}"
+cp "${TMP_DIR}/${VM_LIN}" "${VM_LIN_TARGET}"
 # Windows
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}.zip" "${VM_BASE}/${VM_WIN}.zip"
 unzip -q "${TMP_DIR}/${VM_WIN}.zip" -d "${TMP_DIR}/${VM_WIN}"
-mv "${TMP_DIR}/${VM_WIN}" "${VM_WIN_TARGET}"
+cp "${TMP_DIR}/${VM_WIN}" "${VM_WIN_TARGET}"
 
 echo "...merging template..."
-mv "${TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
-mv "${TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/squeak.sh" "${CONTENTS_DIR}/"
-mv "${TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
+cp "${TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
+cp "${TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
+cp "${TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
+cp "${TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
+cp "${TEMPLATE_DIR}/Squeak.app/Contents/squeak.sh" "${CONTENTS_DIR}/"
+cp "${TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
 echo "...setting permissions..."
 chmod +x "${VM_ARM_TARGET}/squeak" "${VM_LIN_TARGET}/squeak" "${VM_MAC_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe"
@@ -134,4 +134,42 @@ echo "...uploading to files.squeak.org..."
 # curl -T "${TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
 curl -T "${TARGET_ZIP}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
 
-echo "...done!"
+echo "...done."
+
+
+
+
+
+
+
+echo "Creating Linux bundle (32-bit)..."
+readonly LIN_BUILD_DIR="${TRAVIS_BUILD_DIR}/build_lin"
+readonly LIN_BUNDLE_NAME="${IMAGE_NAME}-${VM_VERSION}"
+readonly LIN_TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${LIN_BUNDLE_NAME}.tar.gz"
+readonly LIN_VM_ARM_TARGET="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Linux-ARM"
+readonly LIN_VM_LIN_TARGET="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Linux-i686"
+readonly LIN_RESOURCES_DIR="${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/Resources"
+
+mkdir "${LIN_BUILD_DIR}"
+
+echo "...copying VM into bundle..."
+cp "${TMP_DIR}/${VM_ARM}" "${LIN_VM_ARM_TARGET}"
+cp "${TMP_DIR}/${VM_LIN}" "${LIN_VM_LIN_TARGET}"
+
+echo "...copying images files into bundle..."
+cp "${TMP_DIR}/Squeak.image" "${LIN_RESOURCES_DIR}/${IMAGE_NAME}.image"
+cp "${TMP_DIR}/Squeak.changes" "${LIN_RESOURCES_DIR}/${IMAGE_NAME}.changes"
+cp "${TMP_DIR}/"*.sources "${LIN_RESOURCES_DIR}"
+
+echo "...copying startup script..."
+cp "${CONTENTS_DIR}/squeak.sh" "${LIN_BUILD_DIR}/${LIN_BUNDLE_NAME}/"
+
+echo "...compressing the bundle..."
+pushd "${LIN_BUILD_DIR}" > /dev/null
+tar czf "${LIN_TARGET_TARGZ}" "./"
+popd > /dev/null
+
+echo "...uploading to files.squeak.org..."
+curl -T "${LIN_TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
+
+echo "...done."
