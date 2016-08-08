@@ -33,8 +33,8 @@ mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
 
 echo "Downloading and extracting Mac OS VM (32-bit)..."
-curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}" "${VM_BASE}/${VM_MAC}"
-tar xzf "${TMP_DIR}/${VM_MAC}" -C "${TMP_DIR}/"
+curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
+unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
 
 echo "Updating and configuring Squeak (32-bit)..."
 "${TMP_DIR}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
@@ -59,7 +59,7 @@ readonly VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 readonly TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
 readonly TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 
-mv "${TMP_DIR}/CogSpur.app" "${APP_DIR}"
+mv "${TMP_DIR}/${VM_MAC}" "${VM_MAC_TARGET}"
 
 echo "...copying images files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
