@@ -13,9 +13,9 @@ readonly IMAGE_URL="${FILES_BASE}${TRAVIS_SMALLTALK_VERSION}-64.zip"
 readonly VM_BASE="${FILES_BASE}"
 
 
-readonly VM_LIN_64="vm-linux-64"
-readonly VM_MAC_64="vm-macos-64"
-readonly VM_WIN_64="vm-win-64"
+readonly VM_LIN="vm-linux-64"
+readonly VM_MAC="vm-macos-64"
+readonly VM_WIN="vm-win-64"
 
 
 
