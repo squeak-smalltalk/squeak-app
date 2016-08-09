@@ -55,7 +55,7 @@ echo "...done."
 
 echo "Creating All-in-one bundle (${ECHO_BIT}-bit)..."
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
-readonly BUNDLE_NAME="${IMAGE_NAME}-${VM_VERSION}-${IMAGE_BITS}bit-All-in-One"
+readonly BUNDLE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${VM_VERSION}-${IMAGE_BITS}bit-All-in-One"
 readonly BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 readonly APP_NAME="${BUNDLE_NAME}.app"
 readonly APP_DIR="${BUILD_DIR}/${APP_NAME}"
