@@ -17,9 +17,6 @@ readonly VM_LIN="vm-linux"
 readonly VM_MAC="vm-macos"
 readonly VM_WIN="vm-win"
 
-
-
-
 echo "Preparing Squeak (${ECHO_BIT}-bit)..."
 
 echo "...downloading and extracting image, changes, and sources..."
@@ -37,16 +34,6 @@ echo "...launching, updating, and configuring Squeak..."
 source "${TMP_DIR}/version.sh"
 
 echo "...done."
-
-
-
-
-
-
-
-
-
-
 
 echo "Creating All-in-one bundle (${ECHO_BIT}-bit)..."
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
@@ -120,13 +107,7 @@ rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 
 # Signing the Mac OS application
 echo "...signing the bundle..."
-security create-keychain -p travis osx-build.keychain
-security default-keychain -s osx-build.keychain
-security unlock-keychain -p travis osx-build.keychain
-security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
-security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
 codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
-security delete-keychain osx-build.keychain
 
 echo "...compressing the bundle..."
 pushd "${BUILD_DIR}" > /dev/null

@@ -25,6 +25,11 @@ export TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 
 # Prepare signing
 unzip -q ./certs/dist.zip -d ./certs
+security create-keychain -p travis osx-build.keychain
+security default-keychain -s osx-build.keychain
+security unlock-keychain -p travis osx-build.keychain
+security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
+security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
 
 # Create build and temp folders for 32-bit run
 mkdir "${BUILD_DIR}" "${TMP_DIR}"
@@ -35,3 +40,6 @@ rm -f -r "${TMP_DIR}"
 rm -f -r "${BUILD_DIR}"
 mkdir "${BUILD_DIR}" "${TMP_DIR}"
 bash "${TRAVIS_BUILD_DIR}/prepare_64.sh"
+
+# Remove signing information
+security delete-keychain osx-build.keychain
