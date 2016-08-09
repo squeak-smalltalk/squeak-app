@@ -62,11 +62,13 @@ FileStream fileNamed: 'version.sh' do: [:strm |
 Transcript showln: 'Condensing changes...'.
 Smalltalk condenseChanges.
 
-"Finish."
+"Revert the update-specific changes."
 TranscriptStream redirectToStdOut: false.
 TranscriptStream forceUpdate: true.
 ToolSet default: (Smalltalk at: #StandardToolSet).
 Project current instVarNamed: #uiManager put: MorphicUIManager new.
 Utilities setAuthorInitials: ''.
 
+"Finish."
+ReleaseBuilder prepareEnvironment.
 Smalltalk snapshot: true andQuit: true.
