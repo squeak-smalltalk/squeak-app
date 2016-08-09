@@ -23,6 +23,13 @@ echo "Preparing Squeak (${ECHO_BIT}-bit)..."
 
 echo "...downloading and extracting image, changes, and sources..."
 curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
+
+# Not all versions might have 64-bit base images. Skip in that case.
+if [ -e "${TMP_DIR}/base.zip" ]; then
+	echo "Base image not found: ${IMAGE_URL}. Skipping..."
+	exit 0
+fi
+
 unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
