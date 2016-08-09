@@ -13,15 +13,15 @@ set -o errexit
 [[ -z "${TRAVIS_BUILD_DIR}" ]] && echo "Script needs to run on Travis CI" \
   && exit 1
 
-readonly FILES_BASE="http://files.squeak.org/base/"
-# readonly VM_BASE="http://files.squeak.org/base/"
-readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
+export FILES_BASE="http://files.squeak.org/base/"
+# export VM_BASE="http://files.squeak.org/base/"
+export TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
 
-readonly SCRIPTS_DIR="${TRAVIS_BUILD_DIR}/scripts"
-readonly TEMPLATE_DIR="${TRAVIS_BUILD_DIR}/template"
+export SCRIPTS_DIR="${TRAVIS_BUILD_DIR}/scripts"
+export TEMPLATE_DIR="${TRAVIS_BUILD_DIR}/template"
 
-readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
-readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
+export BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
+export TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 
 # Prepare signing
 unzip -q ./certs/dist.zip -d ./certs
