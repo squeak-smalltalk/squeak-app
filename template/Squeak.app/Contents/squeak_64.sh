@@ -4,7 +4,7 @@ APP=`dirname "$0"`/../..
 APP=`cd "$APP";pwd`
 OS=`uname -s`
 CPU=`uname -m`
-IMAGE="$APP/Contents/Resources/%SqueakImageName%.image"
+IMAGE="$APP/Contents/Resources/%SqueakImageName%"
 
 showerror() {
     if [ -n "$DISPLAY" -a -x "`which kdialog 2>/dev/null`" ]; then

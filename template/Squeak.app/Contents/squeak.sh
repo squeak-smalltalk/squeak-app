@@ -10,7 +10,7 @@ APP=`dirname "$0"`/../..
 APP=`cd "$APP";pwd`
 OS=`uname -s`
 CPU=`uname -m`
-IMAGE="$APP/Contents/Resources/%SqueakImageName%.image"
+IMAGE="$APP/Contents/Resources/%SqueakImageName%"
 
 if [ "$CPU" = x86_64 ] ; then
     CPU=i686
