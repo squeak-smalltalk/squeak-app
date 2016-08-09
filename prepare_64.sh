@@ -95,7 +95,7 @@ cp "${TEMPLATE_DIR}/Squeak.app/Contents/squeak_64.sh" "${CONTENTS_DIR}/squeak.sh
 cp "${TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
 echo "...setting permissions..."
-chmod +x "${VM_ARM_TARGET}/squeak" "${VM_LIN_TARGET}/squeak" "${VM_MAC_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe"
+chmod +x "${VM_LIN_TARGET}/squeak" "${VM_MAC_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe"
 
 echo "...applying various templates (squeak.sh, Info.plist, etc)..."
 # squeak.bat launcher
@@ -119,14 +119,14 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_WIN_TARGET}/Sque
 rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 
 # Signing the Mac OS application
-echo "...signing the bundle..."
-security create-keychain -p travis osx-build.keychain
-security default-keychain -s osx-build.keychain
-security unlock-keychain -p travis osx-build.keychain
-security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
-security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
-codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
-security delete-keychain osx-build.keychain
+# echo "...signing the bundle..."
+# security create-keychain -p travis osx-build.keychain
+# security default-keychain -s osx-build.keychain
+# security unlock-keychain -p travis osx-build.keychain
+# security import ./certs/dist.cer -k ~/Library/Keychains/osx-build.keychain -T /usr/bin/codesign
+# security import ./certs/dist.p12 -k ~/Library/Keychains/osx-build.keychain -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+# codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
+# security delete-keychain osx-build.keychain
 
 echo "...compressing the bundle..."
 pushd "${BUILD_DIR}" > /dev/null
