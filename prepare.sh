@@ -38,10 +38,10 @@ mkdir "${BUILD_DIR}" "${TMP_DIR}"
 bash "${TRAVIS_BUILD_DIR}/prepare_32.sh"
 
 # Clean-up build and temp folders for 64-bit run
-rm -f -r "${TMP_DIR}"
-rm -f -r "${BUILD_DIR}"
-mkdir "${BUILD_DIR}" "${TMP_DIR}"
-bash "${TRAVIS_BUILD_DIR}/prepare_64.sh"
+#rm -f -r "${TMP_DIR}"
+#rm -f -r "${BUILD_DIR}"
+#mkdir "${BUILD_DIR}" "${TMP_DIR}"
+#bash "${TRAVIS_BUILD_DIR}/prepare_64.sh"
 
 # Remove signing information
 security delete-keychain "${KEY_CHAIN}"
