@@ -30,7 +30,7 @@ curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
 unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
 
 echo "...launching, updating, and configuring Squeak..."
-"${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "-headless" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
+"${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" "${TMP_DIR}/Squeak.image" "${SCRIPTS_DIR}/update.st"
 source "${TMP_DIR}/version.sh"
 
 echo "...done."
