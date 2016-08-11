@@ -31,4 +31,26 @@ source "${TMP_DIR}/version.sh"
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
 readonly TARGET_NAME="${IMAGE_NAME}bit-${VM_VERSION}"
 
+TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${TARGET_NAME}.tar.gz"
+TARGET_ZIP="${TRAVIS_BUILD_DIR}/${TARGET_NAME}.zip"
+
+echo "...copying image files into build dir..."
+cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
+cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
+cp "${TMP_DIR}/"*.sources "${BUILD_DIR}/"
+cp "${RELEASE_NOTES_DIR}/"* "${BUILD_DIR}/"
+
+echo "...compressing image, changes, and sources..."
+pushd "${BUILD_DIR}" > /dev/null
+# tar czf "${TARGET_TARGZ}" "./"
+zip -q -r "${TARGET_ZIP}" "./"
+popd > /dev/null
+
+echo "...uploading to files.squeak.org..."
+# curl -T "${TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
+curl -T "${TARGET_ZIP}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
+
 echo "...done."
+
+# Reset $BUILD_DIR
+rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
