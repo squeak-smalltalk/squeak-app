@@ -60,7 +60,7 @@ cp "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}"
 
 echo "...preparing translations and putting them into bundle..."
-for language in "${TRAVIS_BUILD_DIR}/po"; do
+for language in "${TRAVIS_BUILD_DIR}/po/"*; do
     pushd "${language}"
     targetdir="${RESOURCES_DIR}/locale/${language}/LC_MESSAGES"
     for f in *.po; do

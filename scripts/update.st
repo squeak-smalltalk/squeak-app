@@ -77,13 +77,9 @@ Utilities setAuthorInitials: ''.
 ReleaseBuilder prepareEnvironment.
 
 Smalltalk zapAllOtherProjects.
-WorldState addDeferredUIMessage: [
-    ProjectHistory currentHistory initialize.
-    WorldState addDeferredUIMessage: [
-	Smalltalk garbageCollect.
-	WorldState addDeferredUIMessage: [
-	    Project rebuildAllProjects.
-	    WorldState addDeferredUIMessage: [
-		ReleaseBuilderSqueakland new prepareReleaseImage]]]].
+ProjectHistory currentHistory initialize.
+Smalltalk garbageCollect.
+Project rebuildAllProjects.
+ReleaseBuilderSqueakland new prepareReleaseImage.
 
 Smalltalk snapshot: true andQuit: true.
