@@ -22,7 +22,7 @@ echo "...creating directories..."
 mkdir "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
 
 echo "...copying Windows VM..."
-cp -R "${TMP_DIR}/${VM_WIN}" "${VM_DIR}"
+cp -R "${TMP_DIR}/${VM_WIN}/" "${VM_DIR}"
 
 echo "...copying image files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${SHARED_DIR}/${IMAGE_NAME}.image"
