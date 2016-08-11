@@ -59,6 +59,37 @@ cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}"
 
+echo "...preparing translations and putting them into bundle..."
+for language in "${TRAVIS_BUILD_DIR}/po"; do
+    pushd "${language}"
+    targetdir="${RESOURCES_DIR}/locale/${language}/LC_MESSAGES"
+    for f in *.po; do
+	mkdir -p "${targetdir}"
+	msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}"
+    done
+    popd
+done
+
+echo "...preparing etoys main projects..."
+for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
+    zip -j "${project}" "${project}"/*
+    mv "${project}.zip" "${RESOURCES_DIR}/${project}.pr"
+done
+
+echo "...preparing etoys gallery projects..."
+mkdir -p "${RESOURCES_DIR}/ExampleEtoys"
+for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys"*.[0-9]*; do
+    zip -j "${project}" "${project}"/*
+    mv "${project}.zip" "${RESOURCES_DIR}/${project}.pr"
+done
+
+echo "...copying etoys quick guides..."
+for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
+    targetdir="${RESOURCES_DIR}/locale/${language}"
+    mkdir -p "${targetdir}"
+    cp -R "${language}/QuickGuides" "${targetdir}/"
+done
+
 echo "...downloading and extracting VMs for Linux, Linux (ARMv6), and Windows..."
 # ARMv6
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM}.zip" "${VM_BASE}/${VM_ARM}.zip"

@@ -1,6 +1,6 @@
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
-TranscriptStream redirectToStdOut: false.
+TranscriptStream redirectToStdOut: true.
 
 "Avoid showing system progress bar and using graphical tools."
 Project current instVarNamed: #uiManager put: DummyUIManager new.
@@ -38,6 +38,10 @@ config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
+MCMcmUpdater defaultUpdateURL: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/etoys-spur'.
+MCMcmUpdater updateFromServer.
+Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
+
 ] on: ProgressNotification do: [:p | p resume]
 ] on: Warning do: [:warning | warning resume]
 ] on: MCNoChangesException do: [:ex | ex resume]
@@ -71,4 +75,15 @@ Utilities setAuthorInitials: ''.
 
 "Finish."
 ReleaseBuilder prepareEnvironment.
+
+Smalltalk zapAllOtherProjects.
+World addDeferredUIMessage: [
+    ProjectHistory currentHistory initialize.
+    World addDeferredUIMessage: [
+	Smalltalk garbageCollect.
+	World addDeferredUIMessage: [
+	    Project rebuildAllProjects.
+	    World addDeferredUIMessage: [
+		ReleaseBuilderSqueakland new prepareReleaseImage]]]].
+
 Smalltalk snapshot: true andQuit: true.
