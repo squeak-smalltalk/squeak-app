@@ -9,7 +9,7 @@
 ################################################################################
 
 echo "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_ARCH="Win"
+BUNDLE_ARCH="Windows"
 BUNDLE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${VM_VERSION}-${IMAGE_BITS}bit-${BUNDLE_ARCH}"
 BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
