@@ -38,9 +38,6 @@ echo "...setting permissions..."
 chmod +x "${VM_DIR}/Squeak.exe"
 
 echo "...applying various patches..."
-# squeak.bat launcher
-sed -i ".bak" "s/%APP_NAME%/${APP_NAME}/g" "${BUNDLE_DIR}/squeak.bat"
-rm -f "${BUILD_DIR}/squeak.bat.bak"
 # Squeak.ini
 sed -i ".bak" "s/%VERSION%/${BUNDLE_DESCRIPTION}/g" "${VM_DIR}/Squeak.ini"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_DIR}/Squeak.ini"
