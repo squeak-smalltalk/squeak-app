@@ -36,7 +36,7 @@ cp "${WIN_TEMPLATE_DIR}/squeak.bat" "${BUNDLE_DIR}/"
 cp "${WIN_TEMPLATE_DIR}/Squeak.ini" "${VM_DIR}/"
 
 echo "...setting permissions..."
-chmod +x "${VM_WIN_TARGET}/Squeak.exe"
+chmod +x "${VM_DIR}/Squeak.exe"
 
 echo "...applying various patches..."
 # squeak.bat launcher
