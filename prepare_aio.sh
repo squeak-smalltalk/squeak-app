@@ -81,3 +81,6 @@ echo "...uploading to files.squeak.org..."
 curl -T "${TARGET_ZIP}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
 
 echo "...done."
+
+# Reset $BUILD_DIR
+rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
