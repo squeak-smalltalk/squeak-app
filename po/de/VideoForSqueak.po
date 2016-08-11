@@ -1,0 +1,212 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-03-07 22:03+0200\n"
+"Last-Translator: Markus <m.slg@gmx.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: VideoForSqueak\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid " height="
+msgstr " Höhe="
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid " width="
+msgstr " Breite="
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "height in pixels"
+msgstr "Höhe in Pixel"
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "keep ratio"
+msgstr "Verhältnis beibehalten"
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "width in pixels"
+msgstr "Breite in Pixel"
+
+#: VideoForSqueak-Core,ParameterDescription>>wordingForOption,VideoPropertiesMorph>>getLabelFor:readSelector:options:
+msgid "<unknown option>"
+msgstr "<unbekannte Option>"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters,V4LDeviceImplementor>>parameters
+msgid "Frame extent"
+msgstr "Frame Erweiterung"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "show time"
+msgstr "Zeit anzeigen"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "Type"
+msgstr "Typ"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters,V4LDeviceImplementor>>parameters
+msgid "the frame extent in pixels"
+msgstr "Die Rahmengröße in Pixel"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "the test image includes the time"
+msgstr "Das Testbild enthält auch die Zeit"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "the type of the test image"
+msgstr "Der Typ des Testbildes"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "DEFAULT - The palette the camera liknes most"
+msgstr "STANDARDEINSTELLUNG - Einstellung, welche die Kamera bevorzugt"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "RGB24 - 24bit RGB"
+msgstr "RGB24 - 24 Bit RGB"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "RGB32 - 32bit RGB"
+msgstr "RGB32 - 32 Bit RGB"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV420"
+msgstr "YUV420"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV420P - YUV 4:2:0 Planar"
+msgstr "YUV420P - YUV 4:2:0 Planar"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV422 - YUV422 capture"
+msgstr "YUV422 - YUV422 Capture"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUYV"
+msgstr "YUYV"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>parameters
+msgid "Palette"
+msgstr "Farbskala"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>parameters
+msgid "the palette of the test image"
+msgstr "Die Farbskala des Testbildes"
+
+#: VideoForSqueak-Core,VideoDevice>>closedFrame
+msgid "closed"
+msgstr "Geschlossen"
+
+#: VideoForSqueak-Core,VideoDevice>>poisonedFrame
+msgid "no connected video device id: {1}"
+msgstr "Videogerät nicht angeschlossen. Gerätenummer: {1}"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "A player for video devices like cameras, video capturers, etc."
+msgstr ""
+"Ein Anzeige-Monitor für Bildverarbeitungsgeräte wie Kameras, Aufnahmegeräte "
+"etc."
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "VideoCamera"
+msgstr "Videokamera"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "256 colors"
+msgstr "256 Farben"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "256 grays"
+msgstr "256 Graustufen"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "4 grays"
+msgstr "4 Graustufen"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "black and white"
+msgstr "Schwarzweiß"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "original"
+msgstr "Original"
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "configure video device"
+msgstr "Videogerät einstellen"
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "reset statistics"
+msgstr "Statistik zurücksetzen"
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "start showing statistics (in Transcript)"
+msgstr "Statistikanzeige starten (in Transcript)"
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "stop showing statistics (in Transcript)"
+msgstr "Statistikanzeige beenden (in Transcript)"
+
+#: VideoForSqueak-Morphic,VideoMorph>>createConfigurationDialog
+msgid "the video device has not parameters to configure"
+msgstr "Dem Videogerät fehlen Parameter zum Einstellen"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>build
+msgid "Video Device Configuration"
+msgstr "Videogeräteinstellung"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "OK"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "Änderungen verwerfen und Kontrollfeld schließen"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "Änderungen behalten und Kontrollfeld schließen"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>brightnessTitle
+msgid "  Brightness ({1}%)"
+msgstr "  Helligkeit ({1}%)"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>contrastTitle
+msgid "  Contrast ({1}%)"
+msgstr "  Kontast ({1}%)"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForAutoExtentToggle
+msgid " Auto Extent"
+msgstr " Automatische Erweiterung"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForAutoExtentToggle
+msgid "Turn auto-extent on or off"
+msgstr "Automatische Erweiterung an- oder ausschalten"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForVideoParameters
+msgid "Configure Video Device"
+msgstr "Videoschnittstelle konfigurieren"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForVideoParameters
+msgid "press here to configure the video device"
+msgstr "Hier drücken zum Konfigurieren der Videoschnittstelle"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>rebuild
+msgid "Properties for {1}"
+msgstr "Eigenschaften von {1}"
+
+#~ msgid "Camera"
+#~ msgstr "Kamera"
+
+#~ msgid "Multimedia"
+#~ msgstr "Multimedia"

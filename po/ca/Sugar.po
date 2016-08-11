@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:28-0000\n"
+"PO-Revision-Date: 2010-08-27 15:28-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Sugar\n"
+
+
+#: Sugar,SugarDatastoreDirectory>>createDirectory:,SugarDatastoreDirectory>>deleteDirectory:,SugarDatastoreDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "L'ordre no és compatible"
+
+#: Sugar,SugarDatastoreDirectory>>deleteFileNamed:
+msgid "Use the journal to delete entries"
+msgstr "<command>Suprimeix:</command> feu servir aquest botó per suprimir una partició."
+
+#: Sugar,SugarDatastoreDirectory>>moniker
+msgid "Journal"
+msgstr "Diari"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "make XO bundle"
+msgstr "Crear un Duplicat Viu"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "wrap as an OLPC XO bundle"
+msgstr ""
+
+#: Sugar,SugarLauncher_class>>wrapAsXOBundle:
+msgid "Making bundle"
+msgstr "Fent còpia de seguretat de %s"
+
+#: Sugar,SugarLauncher>>badgeFlap,SugarLauncher>>deleteBadges
+msgid "Buddies"
+msgstr ""
+
+#: Sugar,SugarLauncher>>chooser:response:,SugarLauncher>>resumeJournalEntry:
+msgid "untitled"
+msgstr "sense títol"
+
+#: Sugar,SugarLauncher>>createJournalEntryFor:filename:mimetype:
+msgid "Etoys"
+msgstr ""
+
+#: Sugar,SugarLauncher>>handleStream:mimetype:titled:
+msgid "Cannot open {1}"
+msgstr "No pot obrir-se %S"
+
+#: Sugar,SugarLauncher>>invite:
+msgid "Inviting buddy ..."
+msgstr "Bug-buddy"
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Joining activity ..."
+msgstr "Indicador d'activitat"
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Looking for shared activity ..."
+msgstr "S'estan cercant els paquets disponibles..."
+
+#: Sugar,SugarLauncher>>open:title:mimetype:
+msgid "Opening journal entry"
+msgstr "Esborrany d'entrada al bloc"
+
+#: Sugar,SugarLauncher>>quit
+msgid ""
+"Are you sure you want to quit Etoys?\n"
+"(the project will NOT be saved)"
+msgstr ""
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Etoys Project"
+msgstr "Aquest projecte"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Unnamed"
+msgstr "Sense nom"
+
+#: Sugar,SugarNavigatorBar_class>>current,SugarNavigatorBar_class>>putUpInitialBalloonHelp,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Sugar Navigator Flap"
+msgstr "Actualitza els paràmetres del Navegador"
+
+#: Sugar,SugarNavigatorBar_class>>findAnythingMorph
+msgid "Find..."
+msgstr "Cerca..."
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "File Dialog"
+msgstr "Diàleg de selecció de fitxers"
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "The list of files and directories"
+msgstr "Tots els directoris i fitxers"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Present a virtual display that approximates the actual OLPC display in resolution, centered within the actual Squeak display window."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Scale the Squeak display so that it appears to have the same resolution as an OLPC display.  If you resize the Squeak window to approximate the physical dimensions of the real OLPC display, this will result in an appearance that closely resembles the appearance on an OLPC screen."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Use the normal Squeak display, without applying any special scaling."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buildAndOpenHelpFlap,SugarNavigatorBar>>toggleHelp
+msgid "Help"
+msgstr "Ajuda"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "FIND"
+msgstr "Cerca..."
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "Find an entry in the Journal.  Hold mouse button down for further options."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonHideNavBar
+msgid "hide the tool bar"
+msgstr "sense barra d'eines"
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "Keep a copy of the current project in the Journal. Hold mouse button down for further options."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "PUBLISH IT!"
+msgstr "És"
+
+#: Sugar,SugarNavigatorBar>>buttonLanguage
+msgid "Click here to choose your language."
+msgstr "Feu clic aquí per canviar-vos l'estat."
+
+#: Sugar,SugarNavigatorBar>>buttonPaint
+msgid "Make a painting"
+msgstr "Pintura a l'oli"
+
+#: Sugar,SugarNavigatorBar>>buttonShare
+msgid "Enable sharing. When another user joins, you can exchange objects."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonShowNavBar
+msgid "show the tool bar"
+msgstr "mostra la  barra d'eines"
+
+#: Sugar,SugarNavigatorBar>>buttonStop
+msgid "Quit Etoys (with saving)"
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonUndo
+msgid "Undo the last change"
+msgstr "Desfés el darrer canvi al text"
+
+#: Sugar,SugarNavigatorBar>>buttonZoom
+msgid "Click here to toggle using the full screen."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>chooseScreenSetting
+msgid "display mode"
+msgstr "Mode de mostra"
+
+#: Sugar,SugarNavigatorBar>>makeBadgeLabelIn:
+msgid "Make a Badge"
+msgstr "Fer una donació..."
+
+#: Sugar,SugarNavigatorBar>>makeMyNeighborhoodLabelIn:
+msgid "My Neighborhood"
+msgstr "El meu ordinador"
+
+#: Sugar,SugarNavigatorBar>>makePrivateLabelIn:
+msgid "Private"
+msgstr "Privat"
+
+#: Sugar,SugarNavigatorBar>>paintButtonInitialExplanation
+msgid ""
+"To start,\n"
+"click here\n"
+"to create\n"
+"a new\n"
+"painting."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>projectNameFieldBalloonHelp
+msgid ""
+"This is the name of current project.\n"
+"You can edit it as well."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>setEdge:,SugarNavigatorBar>>setupSuppliesFlap,SugarNavigatorBar>>toggleSupplies,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Supplies"
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Centered Virtual Extent"
+msgstr "S'està completant la migració de les extensions"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "No Scaling"
+msgstr "Escalat del vídeo"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Scaled Virtual Extent"
+msgstr "S'està completant la migració de les extensions"
+
+#: Sugar,SugarNavigatorBar>>stringForFullScreenToggle
+msgid "Full Screen"
+msgstr "Pantalla Completa"
+
+#: Sugar,SugarNavigatorBar>>suppliesButtonInitialExplanation
+msgid ""
+"Or, click to see Supplies.  \n"
+"Choose an object or \n"
+"choose the Object Catalog for more choices."
+msgstr ""
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "Color"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "Quant a aquest programa"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "alçada"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "Color de ressaltament"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "Utilitz&a sempre el servidor per defecte"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "Utilitz&a sempre el servidor per defecte"
+
+#: Sugar,SugarNavTab>>wording
+msgid "Sugar Navigation Flap"
+msgstr "Mostra la subfinestra de navegació"
+

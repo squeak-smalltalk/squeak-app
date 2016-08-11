@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:06-0000\n"
+"PO-Revision-Date: 2010-08-27 16:06-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: VideoForSqueak\n"
+
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid " height="
+msgstr "yükseklik="
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid " width="
+msgstr "genişlik="
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "height in pixels"
+msgstr "piksel yüksekliği"
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "keep ratio"
+msgstr "oranı sabitle."
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "width in pixels"
+msgstr "piksel genişliği"
+
+#: VideoForSqueak-Core,ParameterDescription>>wordingForOption,VideoPropertiesMorph>>getLabelFor:readSelector:options:
+msgid "<unknown option>"
+msgstr "bilinmeyen seçenek"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters,V4LDeviceImplementor>>parameters
+msgid "Frame extent"
+msgstr "çerçeve boyutu"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "show time"
+msgstr "gösteri zamanı"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "Type"
+msgstr "çeşit"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters,V4LDeviceImplementor>>parameters
+msgid "the frame extent in pixels"
+msgstr "çözünürlükteki çerçeve boyutu"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "the test image includes the time"
+msgstr "deneme görüntüsü zamanı kapsıyor."
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "the type of the test image"
+msgstr "deneme görüntüsünün çeşidi"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "DEFAULT - The palette the camera liknes most"
+msgstr "BİLGİ - kameranın en çok sevdiği palet"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "RGB24 - 24bit RGB"
+msgstr "RGB24 - 24bit RGB"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "RGB32 - 32bit RGB"
+msgstr "RGB32 - 32bit RGB"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV420"
+msgstr "YUV420"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV420P - YUV 4:2:0 Planar"
+msgstr "YUV420P - YUV 4:2:0 Düzlemsel"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV422 - YUV422 capture"
+msgstr "YUV422 - YUV422 görüntü yakalama"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUYV"
+msgstr "YUYV"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>parameters
+msgid "Palette"
+msgstr "renk paleti"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>parameters
+msgid "the palette of the test image"
+msgstr "örnek resmin renk paleti"
+
+#: VideoForSqueak-Core,VideoDevice>>closedFrame
+msgid "closed"
+msgstr "kapalı"
+
+#: VideoForSqueak-Core,VideoDevice>>poisonedFrame
+msgid "no connected video device id: {1}"
+msgstr "bağlı bir video cihaz numarası yok :{1}"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "A player for video devices like cameras, video capturers, etc."
+msgstr "Kamera, video kayıt cihazı gibi video cihazlarının oynatıcısıdır."
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "Camera"
+msgstr "kamera"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "multimedya"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "256 colors"
+msgstr "256 renk"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "256 grays"
+msgstr "gri tonu 256"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "4 grays"
+msgstr "gri tonu 4"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "black and white"
+msgstr "siyah-beyaz"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "original"
+msgstr "orjinal"
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "configure video device"
+msgstr "görüntü cihazını ayarla."
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "reset statistics"
+msgstr "istatistikleri sıfırla."
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "start showing statistics (in Transcript)"
+msgstr "verileri göstermeyi başlat."
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "stop showing statistics (in Transcript)"
+msgstr "verileri göstermeyi durur."
+
+#: VideoForSqueak-Morphic,VideoMorph>>createConfigurationDialog
+msgid "the video device has not parameters to configure"
+msgstr "video cihazının ayarlanması için değişkenleri yok"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>build
+msgid "Video Device Configuration"
+msgstr "Video Cihaz Kurulumu"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "Kabul"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "İptal"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "yapılan değişiklikleri iptal et ve paneli kapat."
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "yapılan değişiklikleri kaydet ve paneli kapat."
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>brightnessTitle
+msgid "  Brightness ({1}%)"
+msgstr "Parlaklık ({1}%)"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>contrastTitle
+msgid "  Contrast ({1}%)"
+msgstr "Kontrast ({1}%)"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForAutoExtentToggle
+msgid " Auto Extent"
+msgstr "Otomatik alan"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForAutoExtentToggle
+msgid "Turn auto-extent on or off"
+msgstr "Otomatik alanı aç ya da kapat."
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForVideoParameters
+msgid "Configure Video Device"
+msgstr "Video cihazını kur."
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForVideoParameters
+msgid "press here to configure the video device"
+msgstr "video cihazını kurmak için buraya bas."
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>rebuild
+msgid "Properties for {1}"
+msgstr "{1} için özellikler"
+

@@ -1,0 +1,3471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2013-05-25 02:02+0200\n"
+"Last-Translator: Radek <radoslaw.chmielarz@gmail.com>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Etoys\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: ATTENTION TRANSLATORS! This should be the name of your language as you would like it to appear in the Languages menu, e.g. "Español" or "English"
+msgid "Language-Name"
+msgstr "Polski"
+
+#: ATTENTION TRANSLATORS! Put in the directionality of your language, that is "LTR" for left-to-right or "RTL" for right-to-left
+msgid "Language-Direction"
+msgstr "LTR"
+
+#: Etoys-Buttons,ButtonProperties_class>>defaultNameStemForInstances,EToyVocabulary_class>>masterOrderingOfCategorySymbols,ScriptableButton_class>>defaultNameStemForInstances
+msgid "button"
+msgstr "przycisk"
+
+#: Etoys-Buttons,ButtonProperties>>establishEtoyLabelWording,ScriptActivationButton>>establishLabelWording
+msgid "click to run the script \"{1}\" in player named \"{2}\""
+msgstr "naciśnij aby włączyć scenariusz \"{1}\" do aktora \"{2}\""
+
+#: Etoys-Buttons,ButtonProperties>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr ""
+"Podaj selektor, który ma zostać wysłany do\n"
+"celu, gdy ten przycisk zostanie naciśnięty"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr "Wybierz jeden z następujących warunków"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseDown"
+msgstr "przy naciśnięciu klawisza myszy"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseStillDown"
+msgstr "przy ciągłym naciskaniu klawisza myszy"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseUp"
+msgstr "przy zwolnieniu klawisza myszy"
+
+#: Etoys-Buttons,ButtonProperties>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+"Podaj argumenty, rodzielone kropkami, które mają być\n"
+"wysłane do celu, gdy ten przycisk zostane naciśnięty"
+
+#: Etoys-Buttons,ButtonProperties>>setLabel
+msgid "Please a new label for this button"
+msgstr "Podaj nową etykietę dla tego przycisku"
+
+#: Etoys-Buttons,ScriptOpeningButtonMorph>>bringUpToDate
+msgid "show or hide the script named {1} in the object named {2} "
+msgstr "pokaż lub ukryj skrypt o nazwie {1} w obiekcie o nazwie {2} "
+
+#: Etoys-Calendar,CalendarMorph_class>>descriptionForPartsBin
+msgid "A scriptable calendar"
+msgstr "Kalendarz do napisania skryptem"
+
+#: Etoys-Calendar,CalendarMorph_class>>descriptionForPartsBin
+msgid "Calendar"
+msgstr "Kalendarz"
+
+#: Etoys-Calendar,CalendarMorph_class>>descriptionForPartsBin
+msgid "Just for Fun"
+msgstr "Tylko dla zabawy"
+
+#: Etoys-Experimental,EToyCommunicatorMorph_class>>instanceReport
+msgid "IP Address\\Project\\Owner"
+msgstr "Adres IP\\Projekt\\Właściciel"
+
+#: Etoys-Experimental,EToyCommunicatorMorph_class>>instanceReport
+msgid "Sorted by"
+msgstr "Sortuj według"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>doPopUp:event:for:,EToyProjectDetailsMorph>>fillInDetails,EToyProjectDetailsMorph>>popUpEntryNamed:,EToyProjectDetailsMorph>>popUpEntryNamed:menuTitle:
+msgid "(none)"
+msgstr "(nic)"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>expandButton
+msgid "More"
+msgstr "Więcej"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>expandButton
+msgid "Show more info on this project."
+msgstr "Pokaż więcej informacji o tym projekcie."
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Author"
+msgstr "Autor"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Description"
+msgstr "Opis"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Tags"
+msgstr "Słowa-klucze"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>rebuild
+msgid "Please describe this project"
+msgstr "Opisz ten projekt"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>rebuild,EToyProjectQueryMorph>>rebuild
+msgid "Project Name"
+msgstr "Nazwa projektu"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph_class>>descriptionForPartsBin
+msgid "A tool that lets you navigate back to recently-visited projects"
+msgstr "Narzędzie, które pozwala powrócić do ostatnio oglądanych projektów"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph_class>>descriptionForPartsBin
+msgid "ProjectHistory"
+msgstr "Historia Projektów"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph>>rebuild
+msgid "Jump..."
+msgstr "Idź do..."
+
+#: Etoys-Experimental,EToyProjectQueryMorph>>rebuild
+msgid "Enter things to search for"
+msgstr "Wprowadź dane do wyszukiwania"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>cancelButton,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "Anuluj"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>cancelButton
+msgid "Cancel this Publish operation."
+msgstr "Anuluj tę operację publikacji."
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>fieldForProjectName
+msgid ""
+"Pick a name 24 characters or less and avoid the following characters:\n"
+"\n"
+" : < > | / \\ ? * \" ."
+msgstr ""
+"Wpisz nazwę składającą się z 24 lub mniej liter bez następujących znaków:\n"
+"\n"
+" : < > | / \\ ? * \" ."
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>okButton
+msgid "Change my name and continue publishing."
+msgstr "Zmień moją nazwę i kontynuuj publikowanie."
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>okButton
+msgid "OK"
+msgstr "OK"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "I do need a name for the project"
+msgstr "Poszukuję nazwy projektu"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName,EtoyLoginMorph>>doOK
+msgid "Please make the name 24 characters or less"
+msgstr "Nazwa musi mieć przynajmniej 24 znaki"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "Please remove any funny characters from the name"
+msgstr "Usuń niestandardowe znaki z nazwy"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "Sorry that name is already used"
+msgstr "Przykro mi, ta nazwa jest juz używana"
+
+#: Etoys-Experimental,EtoyLoginMorph>>doOK
+msgid "Please enter your login name"
+msgstr "Wprowadź nazwę użytkownika"
+
+#: Etoys-Experimental,EtoyLoginMorph>>doOK
+msgid "Please remove any funny characters"
+msgstr "Usuń niestandardowe znaki"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>borderPrototype:help:
+msgid "This border style cannot be used here"
+msgstr "Ten rodzaj obramowania nie może być tu użyty"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneFor2ndGradientColorPicker
+msgid "2nd gradient color"
+msgstr "drugi kolor gradientu"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderColorPicker
+msgid "Border Color"
+msgstr "Kolor Obramowania"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderColorPicker
+msgid "Border style"
+msgstr "Styl Obramowania"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex framed border"
+msgstr "Kliknij, aby wybrać złożoną granicę obramowania"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex inset border"
+msgstr "Kliknij, aby wybrać złożone obramowanie wewnętrzne"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex raised border"
+msgstr "Kliknij, aby wybrać złożone wypukłe obramowanie"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple colored border"
+msgstr "Kliknij, aby wybrać prostą kolorową ramkę"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple inset border"
+msgstr "Kliknij, aby wybrać proste obramowanie wewnętrzne"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple raised border"
+msgstr "Kliknij, aby wybrać proste wypukłe obramowanie"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderWidth
+msgid "Border width"
+msgstr "Szerokość obramowania"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderWidth
+msgid "Drag in here to change the border width"
+msgstr "Przeciągnij tutaj, aby zmienić szerokość obramowania"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForCornerRoundingToggle
+msgid " Rounded corners"
+msgstr " Zaokrąglone rogi"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForCornerRoundingToggle
+msgid "Turn rounded corners on or off"
+msgstr "Włącz lub wyłącz zaokrąglanie rogów"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForDropShadowToggle
+msgid " Drop shadow color"
+msgstr " Kolor cienia"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForDropShadowToggle
+msgid "Turn drop shadows on or off"
+msgstr "Włącz lub wyłącz cień obiektów"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientDirection
+msgid "Direction"
+msgstr "Kierunek"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientDirection
+msgid "Drag in here to change the direction of the gradient"
+msgstr "Przeciągnij tutaj, aby zmienić kierunek gradientu"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientFillToggle
+msgid " Gradient fill"
+msgstr " Wypełnienie gradientu"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientFillToggle
+msgid "Turn gradient fill on or off"
+msgstr "Włącz lub wyłącz wypełnienie gradientu"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientOrigin
+msgid "Drag in here to change the origin of the gradient"
+msgstr "Przeciągnij tutaj, aby zmienić źródło gradientu"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientOrigin
+msgid "Origin"
+msgstr "Źródło"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForLockedToggle
+msgid " Lock"
+msgstr " Blokuj"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForLockedToggle
+msgid "Turn lock on or off"
+msgstr "Włącz lub wyłącz blokadę"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForMainColorPicker
+msgid "Color"
+msgstr "Kolor"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForRadialGradientToggle
+msgid " Radial gradient"
+msgstr " Gradient promienisty"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForRadialGradientToggle
+msgid "Turn radial gradient on or off"
+msgstr "Włącz lub wyłącz gradient promienisty"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForShadowOffset
+msgid "Drag in here to change the offset of the shadow"
+msgstr "Przeciągnij tutaj, aby zmienić przesunięcie cienia"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForShadowOffset
+msgid "Offset"
+msgstr "Przesunięcie"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForSolidFillToggle
+msgid " Solid fill"
+msgstr " Jednolite wypełnienie"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForSolidFillToggle
+msgid "Turn solid fill on or off"
+msgstr "Włącz lub wyłącz jednolite wypełnienie"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForStickinessToggle
+msgid " Sticky"
+msgstr " Przyklejony"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForStickinessToggle
+msgid "Turn stickiness on or off"
+msgstr "Włącz lub wyłącz przyklejenie"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons,ScriptableButton_class>>descriptionForPartsBin,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry
+msgid "Button"
+msgstr "Przycisk"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "open a button properties panel for the morph"
+msgstr "otwórz panel ustawień przycisku dla tej morfy"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "open a text properties panel for the morph"
+msgstr "otwórz panel ustawień tekstu dla tej morfy"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "Text"
+msgstr "Tekst"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForApplyToWholeText
+msgid " Apply changes to entire text "
+msgstr " Zastosuj zmiany do całego tekstu "
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForApplyToWholeText
+msgid "Whether to apply style changes to entire text or just selection"
+msgstr "Czy zastosować zmianę stylu do całego tekstu czy tylko zaznaczenia"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForAutoFitToggle
+msgid " Auto-Fit"
+msgstr " Automatyczne dopasowanie"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForAutoFitToggle
+msgid "Turn auto-fit on or off"
+msgstr "Włącz lub wyłącz automatyczne dopasowanie"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForMargins
+msgid "Drag in here to change the margins of the text"
+msgstr "Przeciągnij tutaj, aby zmienić marginesy w tekście"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForMargins
+msgid "Margins"
+msgstr "Marginesy"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForTextColorPicker
+msgid "Text Color"
+msgstr "Kolor tekstu"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForWrappingToggle
+msgid " Wrapping"
+msgstr " Zawijanie"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForWrappingToggle
+msgid "Turn line wrapping on or off"
+msgstr "Włącz lub wyłącz zawijanie linii"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "B"
+msgstr "B"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "bold text"
+msgstr "tekst pogrubiony"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "decrease kern"
+msgstr "zmniejsz odstęp między znakami"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "font changing"
+msgstr "zmiana czcionki"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "I"
+msgstr "I"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "increase kern"
+msgstr "zwiększ odstęp między znakami"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "italic text"
+msgstr "tekst kursywą"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Kern+"
+msgstr "Odstęp+"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Kern-"
+msgstr "Odstęp-"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Main"
+msgstr "Główne"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "N"
+msgstr "N"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "n"
+msgstr "n"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "narrow text"
+msgstr "wąski tekst"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "normal text"
+msgstr "zwykły tekst"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "open a main properties panel for the morph"
+msgstr "otwórz panel ustawień głównych dla tej morfy"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "S"
+msgstr "S"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Size"
+msgstr "Rozmiar"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Style"
+msgstr "Styl"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "struck out text"
+msgstr "przekreślony tekst"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "U"
+msgstr "U"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "underlined text"
+msgstr "tekst podkreślony"
+
+#: Etoys-Input,KeyPressMorph>>changeCurrentKey
+msgid "Press new key"
+msgstr "Naciśnij nowy klawisz"
+
+#: Etoys-Input,KeyPressMorph>>rebuild
+msgid "Key:"
+msgstr "Klucz:"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "as object"
+msgstr "jako obiekt"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "drag & drop"
+msgstr "przeciągnij i upuść"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "fill & border"
+msgstr "wypełnienie i obramowanie"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "geometry"
+msgstr "geometria"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "layout"
+msgstr "układ"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "miscellaneous"
+msgstr "różne"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "more geometry"
+msgstr "więcej geometrii"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "motion"
+msgstr "ruch"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "observation"
+msgstr "obserwacja"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "pen use"
+msgstr "używanie pisaka"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "scripting"
+msgstr "kontrola skryptów"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "scripts"
+msgstr "skrypty"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "search"
+msgstr "szukaj"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "sound"
+msgstr "dźwięk"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "tests"
+msgstr "testy"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "variables"
+msgstr "zmienne"
+
+#: Etoys-Protocols,EToyVocabulary_class>>vocabularySummary
+msgid "command"
+msgstr "polecenie"
+
+#: Etoys-Protocols,EToyVocabulary_class>>vocabularySummary
+msgid "property"
+msgstr "właściwość"
+
+#: Etoys-Protocols-Type_Vocabularies,PlayerType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "tiles to get..."
+msgstr "dostępne kafelki..."
+
+#: Etoys-Protocols-Type_Vocabularies,ScriptNameType>>defaultArgumentTile
+msgid "empty script"
+msgstr "pusty skrypt"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>addCustomMenuItems:hand:
+msgid "fine-tune the position of this watcher relative to its chosen attachment edge"
+msgstr ""
+"dostrój pozycję tego obserwatora względem jego wybranej krawędzi zaczepienia"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>addCustomMenuItems:hand:
+msgid "offset (currently {1})"
+msgstr "przesunięcie (obecnie {1})"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>attachmentEdgeString
+msgid "choose attachment edge (now {1})"
+msgstr "wybierz krawędź zaczepienia (teraz {1})"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>chooseOffset,FollowingWatcher>>chooseOffset
+msgid "error"
+msgstr "błąd"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>chooseOffset
+msgid "offset"
+msgstr "Przesunięcie"
+
+#: Etoys-Scripting_Support,WatcherWrapper>>buildReadout:,WatcherWrapper>>reconstituteName
+msgid "{1}'s {2}"
+msgstr "{1}'s {2}"
+
+#: Etoys-Scripting_Tiles,ColorTileMorph>>addColorSwatch,ColorTileMorph>>updateWordingToMatchVocabulary,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "color"
+msgstr "kolor"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "No"
+msgstr "Nie"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "Test"
+msgstr "Test"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "Yes"
+msgstr "Tak"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>setOperator:,PhraseTileMorph>>justDroppedInto:event:
+msgid "parenthesized"
+msgstr "w nawiasie"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "enclose within parentheses"
+msgstr "zamknij w nawiasie"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "parentheses"
+msgstr "nawias"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions,FunctionTile>>addCustomMenuItems:hand:
+msgid "remove function"
+msgstr "usuń funkcję"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "remove parentheses"
+msgstr "usuń nawias"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "strip away the function call, leaving just its former argument in its place"
+msgstr "usuń wywołanie funkcji, zostawiając tylko jej poprzednie argumenty"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "strip away the parenthesises"
+msgstr "usuń nawias"
+
+#: Etoys-Scripting_Tiles,FunctionTile_class>>defaultNameStemForInstances
+msgid "Function"
+msgstr "Funkcja"
+
+#: Etoys-Scripting_Tiles,MenuTile>>initialize
+msgid "send to back"
+msgstr "przesuń na spód"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "A number readout for a Stack.  Shows current value.  Click and type the value."
+msgstr ""
+"Wyświetlacz liczb dla Stosu.  Pokazuje obecną wartość.  Kliknij i wpisz "
+"wartość."
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "A number readout for a Stack.  Shows current value.  Click and type the value.  Shift-click on title to edit."
+msgstr ""
+"Wyświetlacz liczb dla Stosu.  Pokazuje obecną wartość.  Kliknij i wpisz "
+"wartość.  Kliknij na tytuł trzymając Shift, aby edytować."
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (bare)"
+msgstr "Liczba (proste)"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (fancy)"
+msgstr "Liczba (fantazyjne)"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (mid)"
+msgstr "Liczba (średnie)"
+
+#: Etoys-Scripting_Tiles,ParameterTile>>bePossessive
+msgid "Player"
+msgstr "Odtwarzacz"
+
+#: Etoys-Scripting_Tiles,ParameterTile>>bePossessive,TileMorph>>bePossessive,TileMorph>>emblazonPlayerNameOnReferenceTileWithin:,TileMorph>>retargetFrom:to:
+msgid "'s"
+msgstr "'s"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTest>>mouseDown:,ScriptEditorMorph>>addYesNoToHand
+msgid "TestTile"
+msgstr "testowy kafelek"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>mouseDown:
+msgid "Repeat Tile"
+msgstr "powtórzony kafelek"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>setupCostume,PhraseTileForTimesRepeat>>setupCostume,TimesRepeatMorph>>initialize,TimesRepeatTile>>localeChanged,TimesRow>>initialize
+msgid "Repeat"
+msgstr "Powtórz"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>setupCostume,PhraseTileForTimesRepeat>>setupCostume
+msgid "Times"
+msgstr "Razy"
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph_class>>defaultNameStemForInstances
+msgid "PhraseTile"
+msgstr "kafelek z wyrażeniem"
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph>>addCustomMenuItems:hand:
+msgid "Sprout a new scriptor around this phrase"
+msgstr "Stwórz nowy edytor skryptu wokół tego wyrażenia"
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph>>try
+msgid "evaluation error"
+msgstr "błąd w wartościowaniu"
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "A random-number tile for use with tile scripting"
+msgstr "Kafelek z losową liczbą do używania przy skryptowaniu"
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "A tile that will produce a random number in a given range"
+msgstr "Kalekek tworzący losową liczbę z wybranego zakresu"
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "Random"
+msgstr "Losowy"
+
+#: Etoys-Scripting_Tiles,ScriptNameTile>>adjustHelpMessage
+msgid "The name of the script to which this operation applies"
+msgstr "Nazwa skryptu, który zostanie wykorzystany w tej operacji"
+
+#: Etoys-Scripting_Tiles,TileMorph_class>>defaultNameStemForInstances
+msgid "Tile"
+msgstr "Kafelek"
+
+#: Etoys-Scripting_Tiles,TileMorph>>addCustomMenuItems:hand:
+msgid "hand me this object"
+msgstr "podaj mi ten obiekt"
+
+#: Etoys-Scripting_Tiles,TileMorph>>addCustomMenuItems:hand:
+msgid "This tile refers to an actual graphical object; use this menu item to grab that object.  Caution!  This may remove the object from a place it really ought to stay."
+msgstr ""
+"Ten kafelek odnosi się to rzeczywistego obiektu graficznegol użyj tego "
+"elementu menu, aby chwycić ten obiekt.  Uwaga!  To może usunąć obiekt z "
+"miejsca, w którym powinien pozostać."
+
+#: Etoys-Scripting_Tiles,TileMorph>>options
+msgid "false"
+msgstr "fałsz"
+
+#: Etoys-Scripting_Tiles,TileMorph>>options
+msgid "true"
+msgstr "prawda"
+
+#: Etoys-Scripting_Tiles,TilePadMorph>>addCustomMenuItems:hand:
+msgid "place in a function"
+msgstr "umieść w funkcji"
+
+#: Etoys-Scripting_Tiles,TilePadMorph>>addCustomMenuItems:hand:
+msgid "restore default tile"
+msgstr "przywróć domyślny kafelek"
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>initialize,TimesRepeatTile>>localeChanged
+msgid "Do"
+msgstr "Zrób"
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>initialize
+msgid "Script to repeat"
+msgstr "Skrypt do powtórzenia"
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>localeChanged,TimesRow>>initialize
+msgid "times"
+msgstr "razy"
+
+#: Etoys-Scripting_Tiles,TypeListTile>>addCustomMenuItems:hand:
+msgid "choose type..."
+msgstr "wybierz typ..."
+
+#: Etoys-Scripting_Tiles,TypeListTile>>addMenuIcon
+msgid "click here to choose a new type for this parameter"
+msgstr "kliknij tutaj aby wybrać nowy typ dla tego parametru"
+
+#: Etoys-Scripting_Tiles,ViewerLine>>addCustomMenuItems:hand:
+msgid "show categories"
+msgstr "pokaż kategorie"
+
+#: Etoys-Scripting,AllPlayersTool_class>>descriptionForPartsBin
+msgid "A tool showing all the players in your project"
+msgstr "Narzędzie pokazujące wszystkich graczy w twoim projekcie"
+
+#: Etoys-Scripting,AllPlayersTool_class>>descriptionForPartsBin,AllScriptsTool_class>>descriptionForPartsBin,ScriptableButton_class>>descriptionForPartsBin
+msgid "Scripting"
+msgstr "Skrypty"
+
+#: Etoys-Scripting,AllPlayersTool>>addCustomMenuItems:hand:
+msgid "inspect"
+msgstr "sprawdź"
+
+#: Etoys-Scripting,AllPlayersTool>>addCustomMenuItems:hand:
+msgid "reinvigorate"
+msgstr "ożyw"
+
+#: Etoys-Scripting,AllPlayersTool>>addHeaderRow
+msgid "Players in this Project"
+msgstr "Gracze w projekcie"
+
+#: Etoys-Scripting,AllPlayersTool>>helpString
+msgid ""
+"Each row represents an object, or \"player\" in the project.\n"
+"Click on the menu icon to get a menu of options concerning the player.\n"
+"Click on a player's picture to reveal its location.\n"
+"Click on the turquoise eye to open the player's viewer.\n"
+"Click on a player's name to obtain a tile representing it."
+msgstr ""
+"Każdy wiersz przedstawia obiekt, albo \"gracza\" w projekcie.\n"
+"Kliknij na ikonę menu, aby otrzymać opcje dotyczące gracza.\n"
+"Kliknij na obrazek gracza, aby odkryć jego położenie.\n"
+"Kliknij na turkusowe oko, aby otworzyć wyświetlacz tego gracza.\n"
+"Kliknij na nazwę gracza, aby otrzymać reprezentujący go kafelek."
+
+#: Etoys-Scripting,AllPlayersTool>>presentHelp,AllPlayersTool_class>>defaultNameStemForInstances,AllPlayersTool_class>>descriptionForPartsBin
+msgid "Players"
+msgstr "Gracze"
+
+#: Etoys-Scripting,AllPlayersTool>>presentHelp
+msgid ""
+"\n"
+"Each row represents an object, or \"player\" in the project.\n"
+"Click on the menu icon to get a menu of options concerning the player.\n"
+"Click on a player's picture to reveal its location.\n"
+"Click on the turquoise eye to open the player's viewer.\n"
+"Click on a player's name to obtain a tile representing it."
+msgstr ""
+"\n"
+"Każdy wiersz przedstawia obiekt, albo \"gracza\" w projekcie.\n"
+"Klinkij na ikonę menu, aby otrzymać opcje dotyczące gracza.\n"
+"Kliknij na obrazek gracza, aby odkryć jego położenie.\n"
+"Kliknij na turkusowe oko, aby otworzyć wyświetlacz tego gracza.\n"
+"Kliknij na nazwę gracza, aby otrzymać reprezentujący go kafelek."
+
+#: Etoys-Scripting,AllScriptsTool_class>>descriptionForPartsBin
+msgid "A tool allowing you to monitor and change the status of all scripts in your project"
+msgstr ""
+"Narzędzie pozwalające na kontrolowanie i zmianę stanu wszystkich skryptów w "
+"twoim projekcie"
+
+#: Etoys-Scripting,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "A tool that lets you control all the running scripts in your world"
+msgstr ""
+"Narzęcie pozwalające na kontrolowanie uruchamiania wszystkich skryptów w "
+"twoim świecie"
+
+#: Etoys-Scripting,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "A tool that lets you see and control all the running scripts in your project"
+msgstr ""
+"Narzędzie pozwalające na zobaczenie i kontrolowanie wszystkich uruchomionych "
+"skryptów w twoim projekcie"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "all instances"
+msgstr "wszystkie instancje"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "If checked, then entries for all instances will be shown, but if not checked, scripts for only one representative of each different kind of object will be shown.  Consult the help available by clicking on the purple ? for more information."
+msgstr ""
+"Jeśli sprawdzono, wszystkie przykładowe wpisy zostaną wyświetlone, jeśli "
+"nie, będą wyświetlone skrypty dla tylko jednego przedstawiciela każdego, "
+"różnego rodzaju obiektów.  Skorzystaj z dostępnej pomocy, klikając na fiolet "
+"? aby uzyskać więcej informacji."
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "If checked, then only scripts that are paused or ticking will be shown"
+msgstr "Gdy zaznaczone, pokazane będą tylko skrypty aktywne lub wstrzymane"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "tickers only"
+msgstr "tylko aktywne skrypty"
+
+#: Etoys-Scripting,AllScriptsTool>>dismissButton
+msgid "Click here to remove this tool from the screen; you can get another one any time you want from the Widgets flap"
+msgstr ""
+"Kliknij tutaj, aby usunąć to narzędzie z ekranu; możesz uzyskać inne w "
+"dowolnym momencie z zakładki Akcesoria"
+
+#: Etoys-Scripting,AllScriptsTool>>helpString
+msgid ""
+"This tool allows you to see all the scripts for all the objects in this project.\n"
+"\n"
+"Sometimes you are only interested in those scripts that are ticking, or that are *ready* to tick when you hit the GO button (which are said to be \"paused.\")\n"
+"\n"
+"* Check \"tickers only\" if you only want to see such scripts -- i.e., scripts that are either paused or ticking.\n"
+"\n"
+"* If \"tickers only\" is *not* checked, then all scripts will be shown, whatever their status.\n"
+"\n"
+"* The other checkbox, labeled \"all instances\", only comes into play if you have created \"multiple sibling instances\" (good grief) of the same object, which share the same scripts; if you have such things, it is often convenient to see the scripts of just *one* such sibling, because it will take up less space and require less mindshare -- and note that you can control a script for an object *and* all its siblings from the menu of that one that you see, via menu items such as \"propagate status to siblings\".\n"
+"\n"
+"* If \"all instances\" is checked, scripts for all sibling instances will be shown, whereas if \"all instances\" is *not* checked, only one of each group of siblings will be selected to have its scripts shown.\n"
+"\n"
+"But how do you get \"multiple sibling instances\" of the same object?  There are several ways:\n"
+"\n"
+"(1)  Use the \"make a sibling instance\" or the \"make multiple siblings...\" menu item in the halo menu of a scripted object.\n"
+"\n"
+"(2)  Use the \"copy\" tile in a script.\n"
+"\n"
+"(3)  Request \"give me a copy now\" from the menu associated with the \"copy\" item in a Viewer.\n"
+"\n"
+"If you have on your screen multiple sibling instances of the same object, then you may or may want to see them all in the All Scripts tool, and that is what the \"all instances\" checkbox governs.\n"
+"\n"
+"Set \"all instances\" if you want a separate entry for each instance, as\n"
+"opposed to a single representative of that kind of object.\n"
+"\n"
+"Note that if you obtain a copy of an object by using the green halo handle, it will *not* be a sibling instance of the original.  It will in many ways seem to be, because it will start out its life having the same scripts as the original.  But it will then lead an independent life, so that changes to scripts of the original will not be reflected in it, and vice-versa.\n"
+"\n"
+"This is an important distinction, and an unavoidable one because people sometimes want the deep sharing of sibling instances and sometimes they clearly do not.  But the truly understandable description of these concepts and distinctions certainly lies *ahead* of us!"
+msgstr ""
+"To narzędzie pozwala zobaczyć wszystkie skrypty dla każdego obiektu tego "
+"projektu.\n"
+"\n"
+"Czasem jesteś zainteresowany tylko aktywnymi skryptami lub tymi, które są "
+"gotowe do uaktywnienia po naciśnięciu przycisku START (tzn. które zostały "
+"\"wstrzymane\").\n"
+"\n"
+"* Zaznacz \"tylko aktywne skrypty\", jeśli chcesz zobaczyć tylko te skrypty -- "
+"tj. skrypty, które są wstrzymane lub aktywne.\n"
+"\n"
+"* Jeśli *nie* zaznaczono \"tylko aktywne skrypty\", zostaną wyświetlone "
+"wszystkie skrypty, bez względu na status.\n"
+"\n"
+"* Drugie pole wyboru, oznaczone \"wszystkie instancje\", jest istotne tylko, "
+"jeśli utworzyłeś \"wielokrotne instancje siostrzane\" tego samego obiektu, "
+"współdzielące te same skrypty; w takim przypadku najczęściej najlepiej jest "
+"wyświetlić skrypt tylko jednej instancji, ponieważ zajmie to mniej miejsca i "
+"wymaga mniej pamięci -- zauważ, że możesz kontrolować skrypt jednego "
+"obiektu *oraz* wszystkich instancji siostrzanych z menu obiektu, który "
+"widzisz, poprzez takie elementy menu jak: \"propaguj status do instancji "
+"siostrzanych\".\n"
+"\n"
+"* Jeśli zaznaczono \"wszystkie instancje\", wyświetlone zostaną skrypty dla "
+"wszystkich instancji siostrzanych, lecz jeśli *nie* zaznaczono opcji "
+"\"wszystkie instancje\", z każdej grupy instancji siostrzanych zostanie "
+"wybrany tylko jeden  do wyświetlenia jego skryptów.\n"
+"\n"
+"Jak uzyskać \"wielokrotne instancje siostrzane\" dla tego samego obiektu?  "
+"Jest kilka sposobów:\n"
+"\n"
+"(1) Użyj elementu \"utwórz instancję siostrzaną\" lub \"utwórz wielokrotne "
+"instancje siostrzane...\" z menu obiektu.\n"
+"\n"
+"(2) Użyj płytki \"kopiuj\" w skrypcie.\n"
+"\n"
+"(3) Wybierz \"utwórz kopię teraz\" z menu powiązanego z elementem \"kopiuj\" w "
+"przeglądarce.\n"
+"\n"
+"Jeśli masz na ekranie wielokrotne instancje siostrzane tego samego obiektu, "
+"możesz zobaczyć je wszystkie w narzędziu \"Wszystkie skrypty\", czym zarządza "
+"pole wyboru \"wszystkie instancje\".\n"
+"\n"
+"Ustaw “wszystkie instancje”, jeśli chcesz oddzielny wpis dla każdej "
+"instancji, zamiast pojedynczego przedstawiciela tego rodzaju obiektów.\n"
+"\n"
+"Zauważ, że jeśli otrzymasz kopię obiektu używając zielonego uchwytu, nie "
+"będzie to instancja siostrzana oryginału. Będzie przypominać taką instancję, "
+"ponieważ jej istnienie rozpocznie się z takimi samymi skryptami jak "
+"oryginał. Lecz będzie później wiodła samodzielne życie, więc zmiany w "
+"oryginalnym skrypcie nie zostaną w niej odzwierciedlone i vice versa.\n"
+"\n"
+"Jest to ważne oraz nieuniknione  rozróżnienie, bo ludzie czasem chcą "
+"głębokiego współdzielenia instancji siostrzanych a czasem wyraźnie tego nie "
+"chcą. Ale naprawdę zrozumiały opis tych pojęć i różnic z pewnością jest "
+"przed nami!"
+
+#: Etoys-Scripting,AllScriptsTool>>openUpButton
+msgid "open or close the lower portion that shows individual scripts"
+msgstr "otwórz lub zamknij dolną część, która pokazuje poszczególne skrypty"
+
+#: Etoys-Scripting,AllScriptsTool>>presentHelp,AllScriptsTool_class>>defaultNameStemForInstances,AllScriptsTool_class>>descriptionForPartsBin,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "All Scripts"
+msgstr "Wszystkie Skrypty"
+
+#: Etoys-Scripting,CategoryViewer>>addHeaderMorph
+msgid ""
+"remove this pane from the screen\n"
+"don't worry -- nothing will be lost!"
+msgstr ""
+"usuń ten panel z ekranu\n"
+"bez obaw -- nic nie zostanie stracone!"
+
+#: Etoys-Scripting,CategoryViewer>>arrowSetterButtonFor:type:,CategoryViewer>>arrowSetterButton:args:
+msgid "drag from here to obtain an assignment phrase."
+msgstr "przeciągnij stąd, aby uzyskać przypisaną frazę."
+
+#: Etoys-Scripting,CategoryViewer>>chooseCategory
+msgid "category"
+msgstr "kategoria"
+
+#: Etoys-Scripting,CategoryViewer>>currentCategory,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "basic"
+msgstr "podstawowy"
+
+#: Etoys-Scripting,CategoryViewer>>infoButtonFor:,PlayerSurrogate>>rebuildRow
+msgid "Press here to get a menu"
+msgstr "Kliknij tutaj, aby uzyskać menu"
+
+#: Etoys-Scripting,CategoryViewer>>phraseForCommandFrom:
+msgid ""
+"drag and drop to \n"
+"add a new script"
+msgstr ""
+"przeciągnij i upuść,\n"
+"aby dodać nowy skrypt"
+
+#: Etoys-Scripting,CategoryViewer>>phraseForTest
+msgid "Press here to tear off a TEST/YES/NO unit which you can drop into your script"
+msgstr ""
+"Naciśnij tutaj, aby otrzymać element TEST/TAK/NIE, który możesz umieścić w "
+"swoim skrypcie"
+
+#: Etoys-Scripting,CategoryViewer>>phraseForTimesRepeat
+msgid "Drag here to tear off a Repeat/Times unit which you can drop into your script"
+msgstr ""
+"Przeciągnij tutaj, aby otrzymać element Powtórz/Razy, który możesz umieścić "
+"w swoim skrypcie"
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "can be found in the following categories"
+msgstr "może zostać odnalezione w następujących kategoriach"
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "is in the following category"
+msgstr "znajduje się w następującej kategorii"
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "this tile is not actually suitable for use with this kind of object"
+msgstr "ten kafelek nie nadaje się do użycia z takim rodzajem obiektu"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile holding a plain number"
+msgstr "Kafelek zawierający zwykłą liczbę"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile representing a function call.  Click on the function name or the arrows to change functions."
+msgstr ""
+"Kafelek reprezentujący odwołanie do funkcji.  Kliknij na nazwę funkcji lub "
+"na strzałki, aby zmienić funkcje."
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile representing the object being scripted"
+msgstr "Kafelek reprezentujący skryptowany obiekt"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile that will produce a random number in a given range."
+msgstr "Kafelek, który stworzy losową liczbę w wybranym zakresie."
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,ScriptEditorMorph>>handUserButtonDownTile,StandardScriptingSystem>>anyButtonPressedTiles,StandardScriptingSystem>>buttonDownTile
+msgid "button down?"
+msgstr "przycisk wciśnięty?"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,ScriptEditorMorph>>handUserButtonUpTile,StandardScriptingSystem>>buttonUpTile,StandardScriptingSystem>>noButtonPressedTiles
+msgid "button up?"
+msgstr "przycisk zwolniony?"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "function"
+msgstr "funkcja"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Gold Box"
+msgstr "Złote Pudełko"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "number"
+msgstr "liczba"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Reports whether the mouse button is down"
+msgstr "Informuje czy przycisk myszy jest wciśnięty"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Reports whether the mouse button is up"
+msgstr "Informuje czy przycisk myszy jest zwolniony"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,RandomNumberTile>>initialize,RandomNumberTile>>updateWordingToMatchVocabulary
+msgid "random"
+msgstr "losowy"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "repeat"
+msgstr "powtórz"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Test/Yes/No panes for testing a condition."
+msgstr "Panel Test/Tak/Nie do sprawdzenia warunku."
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "TimesRepeat panes for running a section of code repeatedly."
+msgstr "Panel PowtórzRazy do wielokrotnego uruchamiania fragmentu kodu."
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "test"
+msgstr "test"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "tile for me"
+msgstr "kafelek dla mnie"
+
+#: Etoys-Scripting,MethodMorph_class>>defaultNameStemForInstances
+msgid "Method"
+msgstr "Metoda"
+
+#: Etoys-Scripting,ModifyVariableDialogMorph>>title
+msgid "Modify variable"
+msgstr "Zmodyfikuj zmienną"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>addDecimalPlaces
+msgid "Decimal places:"
+msgstr "Miejsca dziesiętne:"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>askUserForDecimalPlaces,Player>>setPrecisionFor:
+msgid "How many decimal places? (currently {1})"
+msgstr "Ile miejsc po przecinku? (obecnie {1})"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>askUserForNewType
+msgid ""
+"Choose the TYPE\n"
+"for {1}\n"
+msgstr ""
+"Wybierz TYP\n"
+"dla {1}\n"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>askUserForNewType
+msgid ""
+"\n"
+"(currently {2})"
+msgstr ""
+"\n"
+"(aktualnie {2})"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "Zaakceptuj"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "anuluj wykonane zmiany i zamknij panel"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "zachowaj dokonane zmiany i zamknij panel"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild
+msgid "Name:"
+msgstr "Nazwa:"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild
+msgid "Type:"
+msgstr "Typ:"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>title
+msgid "Add new variable"
+msgstr "dodaj nową zmienną"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>varName
+msgid "var"
+msgstr "var"
+
+#: Etoys-Scripting,Player>>addIdiosyncraticMenuItemsTo:forSlotSymol:
+msgid "give me a copy now"
+msgstr "daj mi kopię teraz"
+
+#: Etoys-Scripting,Player>>addIdiosyncraticMenuItemsTo:forSlotSymol:
+msgid "hand me a picture of pen trail"
+msgstr "daj mi obraz śladu pisaka"
+
+#: Etoys-Scripting,Player>>basicBeNotZero:
+msgid ""
+"Dividing by zero makes a number too\n"
+"large for even a Sorcerer to handle.\n"
+"Please change your script."
+msgstr ""
+"Dzielenie przez zero tworzy liczbę\n"
+"za dużą nawet dla czarodzieja.\n"
+"Zmień swój skrypt."
+
+#: Etoys-Scripting,Player>>basicRemoveSlotNamed:
+msgid ""
+"Caution!  There may be scripts belonging to\n"
+"other objects that may rely on the presence of\n"
+"this variable.  If there are, they may now be broken.\n"
+"You may need to fix them up manually."
+msgstr ""
+"Uwaga!  Mogą istnieć skrypty należące do\n"
+"innych obiektów, które są zależne od tej zmiennej.\n"
+"Jeśli takie istnieją, mogą być teraz zepsute.\n"
+"Możesz musieć naprawić je ręcznie."
+
+#: Etoys-Scripting,Player>>basicRemoveSlotNamed:
+msgid ""
+"Sorry, {1} is in\n"
+"use in a script."
+msgstr ""
+"Niestety, {1} jest używany\n"
+"w jakimś skrypcie."
+
+#: Etoys-Scripting,Player>>basicRenameSlot:newSlotName:
+msgid "Caution!  References in textually-coded scripts won't be renamed."
+msgstr ""
+"Uwaga!  Odwołaniom w skryptach napisanych tekstem nie zostaną zmienione "
+"nazwy."
+
+#: Etoys-Scripting,Player>>beNotZero:
+msgid ""
+"Dividing by zero makes a number too\n"
+"\t\t\t\tlarge for even a Sorcerer to handle.\n"
+"\t\t\t\tPlease change your script."
+msgstr ""
+"Dzielenie przez zero tworzy liczbę\n"
+"\t\t\t\tza dużą nawet dla czarodzieja.\n"
+"\t\t\t\tZmień swój skrypt."
+
+#: Etoys-Scripting,Player>>changeParameterTypeFor:
+msgid ""
+"Choose the TYPE\n"
+"for the parameter (currently {1})"
+msgstr ""
+"Wybierz TYP\n"
+"dla tego parametru (obecnie {1})"
+
+#: Etoys-Scripting,Player>>chooseUserSlot
+msgid "Please choose a variable"
+msgstr "Wybierz zmienną"
+
+#: Etoys-Scripting,Player>>defaultScriptName
+msgid "script"
+msgstr "skrypt"
+
+#: Etoys-Scripting,Player>>handUserPictureOfPenTrail
+msgid "no pen trails present"
+msgstr "żadne ślady pisaka nie obecne"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "add parameter"
+msgstr "dodaj parametr"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "button to fire this script"
+msgstr "przycisk do uruchomienia tego skryptu"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "destroy \""
+msgstr "zniszcz \""
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "edit balloon help"
+msgstr "edytuj dymki pomocy"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,Player>>slotInfoButtonHitFor:inViewer:
+msgid "ok"
+msgstr "akceptuj"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "remove parameter"
+msgstr "usuń parametr"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "rename  \""
+msgstr "zmień nazwę   \""
+
+#: Etoys-Scripting,Player>>methodInterfacesForInstanceVariablesCategoryIn:
+msgid "a variable defined by this object"
+msgstr "zmienna zdefiniowana przez ten obiekt"
+
+#: Etoys-Scripting,Player>>newCostume
+msgid "choose a costume"
+msgstr "wybierz kostium"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "attempt repairs"
+msgstr "spróbuj naprawić"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "browse class"
+msgstr "przeglądaj klasę"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "Choose a different vocabulary for this Viewer."
+msgstr "Wybierz inne słownictwo dla tej przeglądarki."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "choose limit class..."
+msgstr "wybierz klasę limitu..."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "choose vocabulary..."
+msgstr "wybierz zasób słów..."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "destroy all this object's scripts"
+msgstr "zniszcz wszystkie skrypty tego obiektu"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "expunge empty scripts"
+msgstr "usuń puste skrypty"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "forget other costumes"
+msgstr "zapomnij inne kostiumy"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "impart scripts to..."
+msgstr "przekaż skrypty do..."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect class"
+msgstr "sprawdź klasę"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "inspect morph"
+msgstr "sprawdź morfę"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "inspect player"
+msgstr "sprawdź odtwarzacz"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect this Viewer"
+msgstr "sprawdź tą przeglądarkę"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect this Vocabulary"
+msgstr "sprawdź ten zasób słów"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open a lexicon that has a type-in pane for search (not recommended!)"
+msgstr "otwórz leksykon z edytowalnym panelem wyszukiwania (nie zalecane!)"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open a window that shows the code for this object in traditional programmer format"
+msgstr ""
+"otwórz okienko, które pokazuje kod dla tego obiektu w tradycyjnym formacie "
+"programisty"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open lexicon with search pane"
+msgstr "otwórz słownik z polem do wyszukiwania"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open standard lexicon"
+msgstr "otwórz standardowy słownik"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "opens a Viewer directly on the rendered morph."
+msgstr "otwiera przeglądarkę bezpośrednio na wykonanej morfie."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "relaunch this Viewer"
+msgstr "uruchom ponownie tą przeglądarkę"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "Specify what the limitClass should be for this Viewer -- i.e., the most generic class whose methods and categories should be considered here."
+msgstr ""
+"Określ limit klasy odpowiedni dla tej przeglądarki -- tj. najbardziej "
+"generyczna klasa, której metody i kategorie powinny być tutaj użyte."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "view morph directly"
+msgstr "zobacz morfę bezpośrednio"
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid ""
+"Choose the datum\n"
+"you want to extract from {1}'s {2}"
+msgstr ""
+"Wybierz dane, które\n"
+"chcesz rozpakować z {2} należącego do {1}"
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid ""
+"Choose the TYPE\n"
+"of data to get from\n"
+"{1}'s {2}"
+msgstr ""
+"Wybierz Typ\n"
+"danych do pobrania z\n"
+" {2} z {1}"
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid "sorry -- no variables of that type are available in this object"
+msgstr "niestety -- brak zmiennych tego typu dostępnych w tym obiekcie"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "Add a new script that will work for this object and all of its siblings"
+msgstr ""
+"Dodaj nowy skrypt dla tego obiektu oraz wszystkich obiektów współrzędnych"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "Add a new variable to this object and all of its siblings.  You will be asked to supply a name for it."
+msgstr ""
+"Dodaj nową zmienną dla tego obiektu oraz wszystkich obiektów współrzędnych. "
+" Zostaniesz poproszony o nazwanie jej."
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a new script"
+msgstr "dodaj nowy skrypt"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a new variable"
+msgstr "dodaj nową zmienną"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a search pane"
+msgstr "dodaj panel wyszukiwania"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "choose this to obtain a tile which represents the object associated with this script"
+msgstr ""
+"wybierz, aby otrzymać płytkę, która reprezentuje obiekt powiązany z tym "
+"skryptem"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "grab this object"
+msgstr "złap ten obiekt"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "If you have misplaced the object that this Viewer is looking at, use this item to (try to) make it visible"
+msgstr ""
+"Jeśli błędnie sklasyfikowałeś obiekt, używany przez tą przeglądarkę, użyj "
+"tej opcji, aby (spróbować) uwidocznić go"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptInstantiation>>offerMenuIn:
+msgid "more..."
+msgstr "więcej..."
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "reveal this object"
+msgstr "pokaż ten obiekt"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "This will actually pick up the object this Viewer is looking at, and hand it to you.  Click the (left) button to drop it"
+msgstr ""
+"To pozwoli Ci chwycić obiekt z tej przeglądarki i przenieść do Ciebie.  "
+"Następnie wciśnij (lewy) przycisk, aby opuścić"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "tile representing this object"
+msgstr "płytka reprezentująca ten obiekt"
+
+#: Etoys-Scripting,Player>>renameScript:
+msgid "Script Name"
+msgstr "Nazwa skryptu"
+
+#: Etoys-Scripting,Player>>renameScript:
+msgid ""
+"Sorry, we do not permit you to rename\n"
+"classic-tiled scripts that are currently\n"
+"textually coded.  Go back to tile scripts\n"
+"and try again.  Humble apologies."
+msgstr ""
+"Przykro mi, ale nie można zezwolić na zmianę nazwy\n"
+"klasycznych płytek skryptów, które aktualnie są\n"
+"kodowane tekstowo.  Wróć do płytek skryptów\n"
+"i spróbuj ponownie.  Przepraszamy."
+
+#: Etoys-Scripting,Player>>runScript:
+msgid ""
+"Oops, object \"{1}\" no longer has\n"
+"a script named \"{2}\".\n"
+"It must have been deleted or renamed."
+msgstr ""
+"Ups, obiekt \"{1}\" nie posiada \n"
+"skryptu o nazwie \"{2}\".\n"
+"Prawdopodobnie został on usunięty lub jego nazwa została zmieniona."
+
+#: Etoys-Scripting,Player>>setLocation:
+msgid "Expected a Point but instead got "
+msgstr "Zamiast spodziewanego Punktu, otrzymano "
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "change the name, type, and/or decimal places settings for this variable"
+msgstr "zmień nazwę, typ i/lub ustawienia miejsc dziesiętnych dla tej zmiennej"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "grab morph"
+msgstr "chwyć kształt"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "modify \"{1}\""
+msgstr "zmień \"{1}\""
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "remove this variable from this object"
+msgstr "usuń tę zmienną z tego obiektu"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "remove \"{1}\""
+msgstr "usuń \"{1}\""
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "{1} is used for vector operations"
+msgstr "{1} używa się do operacji wektorowych"
+
+#: Etoys-Scripting,Player>>tellAllSiblings:,Player>>tellSelfAndAllSiblings:
+msgid " to "
+msgstr " do "
+
+#: Etoys-Scripting,Player>>tellAllSiblings:,Player>>tellSelfAndAllSiblings:
+msgid "Cannot \"tell \" "
+msgstr "Nie można \"powiedzieć\" "
+
+#: Etoys-Scripting,Player>>triggerScript:
+msgid ": exception in script "
+msgstr ": wyjątek w skrypcie "
+
+#: Etoys-Scripting,PlayerSurrogate>>destroyThisObject
+msgid "Already in the Trash"
+msgstr "Jest już w Koszu"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "no change"
+msgstr "bez zmian"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid ""
+"okay, this object is now named\n"
+msgstr "w porządku, ten obiekt został nazwany\n"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "Type the name you insist upon"
+msgstr "Wpisz nazwę, na którą nalegasz"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "there was no conflict; this object is now named "
+msgstr "nie było problemu; ten obiekt nazywa się teraz "
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid ""
+"\n"
+"and the object formerly known by this name\n"
+"is now called\n"
+msgstr ""
+"\n"
+"oraz obiekt formalnie znany jako\n"
+"nazywa się teraz\n"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "copy object's name to clipboard"
+msgstr "kopiuj nazwę obiektu do schowka"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "destroy this object"
+msgstr "zniszcz ten obiekt"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "forcibly rename object"
+msgstr "wymuś zmianę nazwy obiektu"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "If you want to give this object a name which conflicts with the name of some other object in the project, use this command.  The other object with the same name will in the process be given a different name."
+msgstr ""
+"Jeśli chcesz nadać temu obiektowi nazwę, która kłóci się z nazwą innego "
+"obiektu w projekcie, użyj tego polecenia.   Inny, nazywający się tak samo, "
+"obiekt otrzyma nową nazwę."
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "inspect object"
+msgstr "sprawdź obiekt"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "open viewer for this object"
+msgstr "otwórz podgląd tego obiektu"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "rename object"
+msgstr "zmień nazwę obiektu"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "tile for this object"
+msgstr "kafelek dla tego obiektu"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "where is this object?"
+msgstr "gdzie jest ten obiekt?"
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "Click here to reveal this object"
+msgstr "Kliknij tutaj aby pokazać ten obiekt"
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "click here to obtain a tile that refers to this player."
+msgstr "kliknij tu aby uzyskać kafelek, który przedstawia tego gracza."
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "click here to obtain this object's Viewer"
+msgstr "kliknij tutaj, aby uzyskać podgląd tego obiektu"
+
+#: Etoys-Scripting,PlayerSurrogate>>renamePlayer
+msgid "Type new name:"
+msgstr "Wpisz nową nazwę:"
+
+#: Etoys-Scripting,ScriptActivationButton>>addCustomMenuItems:hand:
+msgid "open underlying scriptor"
+msgstr "otwórz skrypt podstawowy"
+
+#: Etoys-Scripting,ScriptActivationButton>>setLabel
+msgid "Please enter a new label for this button"
+msgstr "Wprowadź nową etykietę dla tego przycisku"
+
+#: Etoys-Scripting,ScriptableButton_class>>authoringPrototype
+msgid "script{1}"
+msgstr "skrypt{1}"
+
+#: Etoys-Scripting,ScriptableButton_class>>descriptionForPartsBin
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr ""
+"Przycisk do obsługi skryptów płytek; ten skrypt będzie metodą dla danego "
+"pola gry"
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry
+msgid "A button whose script will be a method of the background Player"
+msgstr "Przycisk, którego skrypt będzie metodą dla gracza w tle"
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry
+msgid "A Scriptable button"
+msgstr "Skryptowalny przycisk"
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry
+msgid "Scriptable Button"
+msgstr "Skryptowalny przycisk"
+
+#: Etoys-Scripting,ScriptableButton>>initializeToStandAlone,ScriptableButton_class>>authoringPrototype
+msgid "Press me"
+msgstr "Kliknij tutaj"
+
+#: Etoys-Scripting,ScriptableButton>>setLabel
+msgid "Enter a new label for this button"
+msgstr "Wprowadź nową etykietę dla tego przycisku"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addDismissButtonTo:
+msgid ""
+"Remove this script\n"
+"from the screen\n"
+"(you can open it\n"
+"again from a Viewer)"
+msgstr ""
+"Usuń ten skrypt z ekranu\n"
+"(możesz go otworzyć\n"
+"ponownie z podglądu)"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "gold box"
+msgstr "złote pudełko"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "gold box items"
+msgstr "elementy złotego pudełka"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a numeric-constant tile"
+msgstr "podaj mi kafelek ze stałą liczbową"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a test-yest-no tile"
+msgstr "podaj mi kafelek test-tak-nie"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a tile for self\t"
+msgstr "podaj mi kafelek\t"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"button down?\" tile"
+msgstr "podaj mi kafelek \"przycisk wciśnięty?\""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"button up?\" tile"
+msgstr "podaj mi kafelek \"przycisk zwolniony?\""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"function\" tile"
+msgstr "podaj mi kafelek \"funkcja\""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"random number\" tile"
+msgstr "podaj mi kafelek \"losowa liczba\""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"repeat..times\" tile"
+msgstr "podaj mi kafelek \"powtórz...razy\""
+
+#: Etoys-Scripting,ScriptEditorMorph>>autoFitString
+msgid "auto fit"
+msgstr "automatyczne dopasowanie"
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "Click here to edit the name of the script."
+msgstr "Kliknij tutaj aby edytować nazwę skryptu."
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "click here to get a palette of useful tiles to use in your script."
+msgstr ""
+"kliknij tutaj, aby dostać paletę użytecznych kafelków do użycia w twoim "
+"skrypcie."
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "Drag from here to get a parameter tile"
+msgstr "Przeciągnij stąd, aby uzyskać kafelek parametru"
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonToOpenOrCloseThisScript
+msgid "show or hide the script named {1} "
+msgstr "pokaż lub ukryj skrypt o nazwie {1} "
+
+#: Etoys-Scripting,ScriptEditorMorph>>chooseFrequency
+msgid "Choose frequency (current: {1})"
+msgstr "Wybierz częstotliwość (obecna: {1})"
+
+#: Etoys-Scripting,ScriptEditorMorph>>chooseFrequency,ScriptInstantiation>>presentTickingMenu
+msgid "other..."
+msgstr "inne..."
+
+#: Etoys-Scripting,ScriptEditorMorph>>destroyScript
+msgid ""
+"Caution -- this destroys this script\n"
+"permanently; are you sure you want to do this?"
+msgstr ""
+"Uwaga -- to definitywnie zniszczy ten skrypt;\n"
+"czy na pewno chcesz zrealizować tę operację?"
+
+#: Etoys-Scripting,ScriptEditorMorph>>destroyScript
+msgid ""
+"Sorry, this script is being called\n"
+"from another script."
+msgstr ""
+"Niestety, ten skrypt jest wywoływany\n"
+"z innego skryptu."
+
+#: Etoys-Scripting,ScriptEditorMorph>>explainStatusAlternatives,ScriptInstantiation>>explainStatusAlternatives
+msgid "Script Status"
+msgstr "Status skryptu"
+
+#: Etoys-Scripting,ScriptEditorMorph>>extent:
+msgid "To resize the script, uncheck the box below"
+msgstr "Aby zmienić rozmiar skryptu, odznacz pole poniżej"
+
+#: Etoys-Scripting,ScriptEditorMorph>>initialize
+msgid "Script Editor"
+msgstr "Edytor Skryptów"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "button to show/hide this script"
+msgstr "przycisk do pokazania/ukrycia tego skryptu"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "destroy this script"
+msgstr "zniszcz ten skrypt"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "detached method pane"
+msgstr "odłączony panel metody"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "edit balloon help for this script"
+msgstr "edytuj pomoc ukazującą się w dymkach dla tego skryptu"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "explain status alternatives"
+msgstr "wytłumacz alternatywy statusu"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "fires per tick..."
+msgstr "strzały na tyknięcie..."
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "If you have misplaced the object bearing this script, use this item to (try to) make it visible"
+msgstr ""
+"Jeśli zapodziałeś obiekt, do którego należy ten skrypt, użyj tego elementu, "
+"aby (spróbować) go uczynić widocznym"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "open a little window that shows the Smalltalk code underlying this script."
+msgstr ""
+"otwórz małe okno, które pokazuje kod Smalltalk będący podstawą tego skryptu."
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "open the viewer of the object to which this script belongs"
+msgstr "otwórz podgląd obiektu, do którego należy ten skrypt"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "open viewer"
+msgstr "otwórz podgląd"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "revert to tile version"
+msgstr "przywróć wersję kafelka"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "revert to tile version..."
+msgstr "przywróć wersję kafelka..."
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "save this version"
+msgstr "zapisz tę wersję"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "show code textually"
+msgstr "pokaż tekstową wersję kodu"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "This will actually pick up the object bearing this script and hand it to you.  Click the (left) button to drop it"
+msgstr ""
+"To pozwoli chwycić obiekt zawierający ten skrypt i przenieść do Ciebie.  "
+"Kliknij na (lewy) przycisk, aby opuścić."
+
+#: Etoys-Scripting,ScriptEditorMorph>>showingCaretsString
+msgid "show arrows"
+msgstr "pokaż strzałki"
+
+#: Etoys-Scripting,ScriptEditorMorph>>toggleWhetherShowingTiles
+msgid ""
+"Caution -- this script was changed\n"
+"textually; if you revert to tiles at this\n"
+"point you will lose all the changes you\n"
+"may have made textually.  Do you\n"
+"really want to do this?"
+msgstr ""
+"Uwaga -- ten skrypt został zmieniony\n"
+"tekstowo; jeśli teraz przywrócisz kafelki,\n"
+"utracisz wszystkie zmiany uczynione w wersji\n"
+"tekstowej.  Czy na pewno chesz to zrobić?"
+
+#: Etoys-Scripting,ScriptEditorMorph>>typeInFrequency
+msgid "Number of firings per tick: "
+msgstr "Liczba wystrzałów na sekundę: "
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "Please describe this event:"
+msgstr "Opisz to zdarzenie:"
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "That event is already defined."
+msgstr "To zdarzenie zostało już zdefiniowane."
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "What is the name of your new event?"
+msgstr "Jak nazywa się twoje nowe zdarzenie?"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Make the status of this script in all of my sibling instances be the same as the status you see here"
+msgstr ""
+"Zmień status tego skryptu we wszystkich instancjach współrzędnych na "
+"widoczny tutaj"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Open up a Viewer for this object"
+msgstr "Otwórz podgląd tego obiektu"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Open up the Scriptor for this script"
+msgstr "Otwórz edycję tego skryptu"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "open this object's Viewer"
+msgstr "Otwórz podgląd tego obiektu"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "open this script's Scriptor"
+msgstr "Otwórz edycję tego skryptu"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "propagate status to siblings"
+msgstr "rozpowszechnij statusy współrzędne"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "The \"more...\" branch offers you menu items that are less frequently used."
+msgstr "Zakładka \"Więcej...\" zawiera rzadziej używane elementy menu."
+
+#: Etoys-Scripting,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "Caution!  This is irreversibly destructive -- it removes the script from the system."
+msgstr ""
+"Uwaga!  Ta akcja kasuje w sposób nieodwracalny -- Usuwa skrypt z systemu."
+
+#: Etoys-Scripting,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "Wherever this object currently is, the \"grab\" command will rip it out, and place it in your \"hand\".  This is a very drastic step, that can disassemble things that may be very hard to put back together!"
+msgstr ""
+"Gdziekolwiek ten obiekt znajduje się obecnie, polecenie \"złap\" wydobędzie "
+"go, i umieści w twojej \"ręce\". To bardzo drastyczny krok, który może "
+"podzielić elementy i uniemożliwić ich ponowne połączenie."
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "apply my status to all siblings"
+msgstr "zastosuj status we wszystkich elementach współrzędnych"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "closing"
+msgstr "zamknij"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "define a new custom event"
+msgstr "zdefiniuj nowe zdarzenie niestandardowe"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "delete a custom event"
+msgstr "usuń zdarzenie niestandardowe"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "more... "
+msgstr "więcej... "
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "normal"
+msgstr "normalny"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "opening"
+msgstr "otwarty"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "paused"
+msgstr "wstrzymany"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "ticking"
+msgstr "tykanie"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "When should this script run?"
+msgstr "Kiedy powinien się uruchomić ten skrypt?"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "what do these mean?"
+msgstr "co to oznacza?"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentTickingMenu
+msgid "Ticks (now: {1}/sec)"
+msgstr "Tyknięcia (teraz: {1}/sek)"
+
+#: Etoys-Scripting,ScriptInstantiation>>statusControlRowIn:
+msgid "This is the name of the player to which this script belongs; if you click here, you will get a menu of interesting options pertaining to this player and script"
+msgstr ""
+"To jest nazwa odtwarzacza odpowiedniego dla tego skryptu; jeśli tutaj "
+"klikniesz, zobaczysz menu z interesującymi opcjami dla tego odtwarzacza i "
+"skryptu"
+
+#: Etoys-Scripting,ScriptInstantiation>>statusControlRowIn:
+msgid "This is the name of the script to which this entry pertains."
+msgstr "To jest nazwa skryptu, do którego należy ten wpis."
+
+#: Etoys-Scripting,ScriptInstantiation>>typeInTickingRate
+msgid "Number of ticks per second: "
+msgstr "Liczba tyknięć na sekundę: "
+
+#: Etoys-Scripting,ScriptingDomain>>addModelMenuItemsTo:forMorph:hand:
+msgid "take out of window"
+msgstr "wyjmij z okna"
+
+#: Etoys-Scripting,ScriptStatusControl>>assurePauseTickControlsShow
+msgid "Press to toggle ticking state. Hold down to set tick rate."
+msgstr ""
+"Kliknij, aby zmienić status timera. Naciśnij i przytrzymaj przycisk, aby "
+"zmienić licznik prędkości."
+
+#: Etoys-Scripting,ScriptStatusControl>>initializeFor:
+msgid "when this script should run"
+msgstr "kiedy powinien uruchomić się ten skrypt"
+
+#: Etoys-Scripting,SearchingViewer>>addNamePaneTo:,SearchingViewer>>updateSearchButtonLabel
+msgid "Type some letters into the pane at right, and then press this Search button (or hit RETURN) and all tiles that match what you typed will appear in the list below."
+msgstr ""
+"Wpisz kilka liter w panel po prawej i naciśnij przycisk Szukaj (lub naciśnij "
+"RETURN), a wszystkie pasujące kafelki pojawią się w liście poniżej."
+
+#: Etoys-Scripting,SearchingViewer>>doSearchFrom:interactive:
+msgid "No matches found for \""
+msgstr "Brak dopasowań dla \""
+
+#: Etoys-Scripting,SearchingViewer>>updateSearchButtonLabel
+msgid "Search"
+msgstr "Szukaj"
+
+#: Etoys-Scripting,SlotInformation>>documentation
+msgid "This is a variable defined by you.  Please edit this into your own meaningful documentation."
+msgstr ""
+"To jest zmienna zdefiniowana przez ciebie. Wpisz tu swoją własną "
+"dokumentację."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "Click here to edit the player's name."
+msgstr "Kliknij tutaj aby edytować nazwę gracza."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to add a variable\n"
+"to this object."
+msgstr ""
+"kliknij tutaj aby dodać zmienną\n"
+"do tego obiektu."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to add\n"
+"another category pane"
+msgstr ""
+"kliknij tutaj, aby dodać\n"
+"kolejny panel kategorii"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to get a menu\n"
+"that will allow you to\n"
+"locate this object,\n"
+"tear off a tile, etc.."
+msgstr ""
+"kliknij tutaj aby uzyskać menu\n"
+"które pozwoli ci\n"
+"zlokalizować ten obiekt,\n"
+"oderwać kafelek, etc.."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"remove this entire Viewer from the screen\n"
+"don't worry -- nothing will be lost!."
+msgstr ""
+"usuń całą daną przeglądarkę z ekranu\n"
+"nie przejmuj się -- nic nie zostanie utracone!."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "switch to next costume"
+msgstr "przełącz na następny kostium"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "switch to previous costume"
+msgstr "przełącz na poprzedni kostium"
+
+#: Etoys-Scripting,Viewer>>chooseVocabulary
+msgid "Choose a vocabulary"
+msgstr "Wybierz słownictwo"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make pictures represent the speech of a character in a comic"
+msgstr ""
+"Obiekt, który możesz użyć do przedstawienia obrazkami mowy postaci w "
+"komiksie"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make pictures represent the thoughts of a character in a comic"
+msgstr ""
+"Obiekt, który możesz użyć do przedstawienia obrazkami myśli postaci w "
+"komiksie"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make words represent the speech of a character in a comic"
+msgstr ""
+"Obiekt, który możesz użyć do przedstawienia słowami mowy postaci w komiksie"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make words represent the thoughts of a character in a comic"
+msgstr ""
+"Obiekt, który możesz użyć do przedstawienia obrazkami myśli postaci w "
+"komiksie"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Speech bubble"
+msgstr "Dymek mowy"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Speech bubble (graphic)"
+msgstr "Dymek mowy (graficzny)"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Thought bubble"
+msgstr "Dymek myśli"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Thought bubble (graphic)"
+msgstr "Dymek myśli (graficzny)"
+
+#: Etoys-Stacks,StackMorph_class>>formerDescriptionForPartsBin
+msgid "A database of any sort -- slide show, rolodex, and any point in between"
+msgstr ""
+"Baza danych jakiegokolwiek rodzaju -- pokaz slajdów, wizytownik, cokolwiek "
+"innego"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "A button that takes the user to the next card in the stack"
+msgstr "Przycisk, który przenosi użytkownika do następnej karty ze stosu"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "A button that takes the user to the previous card in the stack"
+msgstr "Przycisk, który przenosi użytkownika do poprzedniej karty ze stosu"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry,StackMorph_class>>registerInFlapsRegistry
+msgid "A multi-card data base"
+msgstr "Baza danych z wieloma kartami"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Next Card"
+msgstr "Następna karta"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Previous Card"
+msgstr "Poprzednia karta"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Some hints about how to use Stacks"
+msgstr "Kilka wskazówek, jak używać stosów"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Stack Help"
+msgstr "Pomoc dla stosu"
+
+#: Etoys-Stacks,StackMorph_class>>stackHelpWindow
+msgid ""
+"A \"stack\" is a place where you can create, store, view and retrieve data \"fields\" from a set of \"cards\".  Data that you want to occur on every card (such as a name and an address in an Address Stack) are represented by objects such as \"Simple Text\", \"Fancy Text\", and \"Scrolling Text\" that you obtain from the Stack Tools flap.\n"
+"\n"
+"When you look at a card in a Stack, you may be seeing three different kinds of material.  Press the § button in the stack's controls to see the current designations, and use the \"explain designations\" to get a reminder of what the three different colors mean.\n"
+"·  Things that are designated to be seen on every card, and have the same contents whichever card is being shown. (green)\n"
+"·  Things that are designated to be seen on every card, with each card having its own value for them. (orange)\n"
+"·  Things that are designated to occur only on the particular card at hand. (red)\n"
+"\n"
+"Use the \"stack/cards\" menu (in an object's halo menu) to change the designation of any object.  For example, if you have an object that is private to just one card, and you want to make it visible on all cards, use \"place onto background\".  If you further want it to hold a separate value for each separate card, use \"start holding separate data for each instance\".\n"
+"\n"
+"The normal sequence to define a Stack's structure is to obtain a blank Stack, then create your fields by grabbing what you want from the Stack Tools flap and dropping it where you want it in the stack.  For easiest use, give a name to each field (by editing the name in its halo) *before* you put it onto the background..  Those fields that you want to represent the basic data of the stack need to be given names, placed on the background, and then told to hold separate data.\n"
+"\n"
+"When you hit the + button in a stack's controls, a new card is created with default values in all the fields.  You can arrange for a particular default value to be used in a field -- do this either for one field at a time with \"be default value on new card\", or you can request that the all the values seen on a particular card serve as default by choosing \"be defaults for new cards\" from the stack's · menu.\n"
+"\n"
+"It is also possible to have multiple \"backgrounds\" in the same stack -- each different background defines a different data structure, and cards from multiple backgrounds can be freely mixed in the same stack.\n"
+"\n"
+"Besides text fields, it is also possible to have picture-valued fields -- and potentially fields with data values of any other type as well."
+msgstr ""
+"\"Sterta\" jest miejscem, gdzie możesz tworzyć, przechowywać, przeglądać, "
+"poprawiać \"pola\" danych ze zbioru \"karty\".  Dane, które mają pojawić się na "
+"każdej karcie ( takie jak nazwa i adres w Stosach Adresu) są reprezentowane "
+"przez obiekty takie jak \"Prosty Tekst\", \"Wymyślny Tekst\" oraz \"Zwijany "
+"Tekst\", które otrzymasz ze Sterty Narzędzia.\n"
+"\n"
+"Gdy patrzysz na kartę ze Stosu, możesz widzieć trzy różne rodzaje materiału. "
+"Naciśnij przycisk § w kontrolkach sterty, aby zobaczyć aktualne opisy, i "
+"użyj \"wyjaśnij opis\", aby uzyskać informacje o znaczeniu trzech różnych "
+"kolorów.\n"
+".  Rzeczy, które są wyświetlane na każdej karcie i mają tę samą treść są "
+"zielone. \n"
+".  Rzeczy, które są wyświetlane na każdej karcie, ale mają inną wartość, są "
+"pomarańczowe. \n"
+".  Rzeczy, które pojawiają się tylko na określonej karcie są czerwone. \n"
+"\n"
+"Użyj \"sterta/karty\" menu (w halo menu obiektu), aby zmienić opis każdego "
+"obiektu.  Na przykład, jeśli masz obiekt, który jest przypisany tylko jednej "
+"karcie i chcesz, żeby był widoczny na wszystkich kartach, użyj \"umieść w "
+"tle\". jeśli następnie chcesz, aby zachował oddzielną wartość dla każdej "
+"oddzielnej karty, użyj \"rozpocznij przechowywanie oddzielnych danych dla "
+"każdej instancji\".\n"
+"\n"
+"Normalna kolejność do zdefiniowania struktury stosu jest uzyskanie pustego "
+"stosu, następnie stworzenie własnego pola chwytając to, co chcesz z Narzędzi "
+"stosu i upuszczając w wybranym miejscu w stosie. Dla łatwiejszego użycia, "
+"nadaj nazwę każdemu polu (edytując nazwę w jego halo) *zanim*  umieścisz je "
+"w tle.  Te pola, które chcesz, aby reprezentowały podstawowe dane sterty "
+"muszą zostać nazwane, umieszczone w tle, następnie musisz wydać polecenie do "
+"przetrzymywania oddzielnych danych.\n"
+"\n"
+"Gdy naciśniesz przycisk + w panelu stosu, nowa karta z domyślnymi "
+"wartościami zostanie utworzona na wszystkich polach.  Aby wybrać wartość "
+"domyślną można ustawić na jednym polu \"domyślne dla nowej karty \", lub można "
+"zaznaczyć wszystkie wartości danej karty jako domyślne wybierając \"domyślne "
+"dla nowych kart\" z menu stosu.\n"
+"\n"
+"Możliwe jest także w tym samym stosie mieć \"tło\" złożone z kilku -- każde "
+"inne tło określa inną strukturę danych, a karty ze złożonego tła mogą być "
+"dowolnie mieszane w tej samej stercie.\n"
+"\n"
+"Oprócz pól tekstowych, możliwe jest również mieć obrazy o wartości pola -- a "
+"także potencjalnie pola z wartościami danych każdego innego typu."
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "book..."
+msgstr "książka..."
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "clear new-page prototype"
+msgstr "wyczyść prototyp nowej strony"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "copy page url to clipboard"
+msgstr "kopiuj stronę url do schowka"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "delete this card"
+msgstr "usuń tą kartę"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "fewer card controls"
+msgstr "mniej ustawień kart"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "go to card..."
+msgstr "idź do karty..."
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "hide card controls"
+msgstr "ukryj ustawienia kart"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "insert a card"
+msgstr "wstaw kartę"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "keep in one file"
+msgstr "zachowaj w jednym pliku"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "next card"
+msgstr "następna karta"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "paste book page"
+msgstr "wklej stronę z książki"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "previous card"
+msgstr "poprzednia karta"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "reload all from server"
+msgstr "załaduj wszystko ponownie z serwera"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "save as new-page prototype"
+msgstr "zapisz jako prototyp nowej strony"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "search for text"
+msgstr "szukaj tekstu"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "send all pages to server"
+msgstr "wyślij wszystkie strony na serwer"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "send this page to server"
+msgstr "wyślij tę stronę na serwer"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "show card controls"
+msgstr "pokaż ustawienia kart"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sort pages"
+msgstr "sortuj strony"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect for all backgrounds"
+msgstr "efekt dźwiękowy dla każdego tła"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect this background only"
+msgstr "efekt dźwiękowy tylko dla tego tła"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "stop at last page"
+msgstr "zatrzymaj na ostatniej stronie"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "uncache page sorter"
+msgstr "usuń pamięć podręczną sortownika stron"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect for all backgrounds"
+msgstr "efekt wizualny dla każdego tła"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect this background only"
+msgstr "efekt wizualny tylko dla tego tła"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "wrap after last page"
+msgstr "kontynuuj po ostatniej stronie"
+
+#: Etoys-Stacks,StackMorph>>addCardsFromString:slotNames:
+msgid " card(s) added"
+msgstr " karty dodane"
+
+#: Etoys-Stacks,StackMorph>>deleteAllCardsExceptThisOne
+msgid " card(s) and all of their data?"
+msgstr " karta/y ze wszystkimi danymi?"
+
+#: Etoys-Stacks,StackMorph>>deleteAllCardsExceptThisOne
+msgid "Really delete "
+msgstr "Naprawdę usunąć "
+
+#: Etoys-Stacks,StackMorph>>deleteCard
+msgid "Really delete this card and all of its data?"
+msgstr "Czy naprawdę usunąć tę kartę ze wszystkimi jej danymi?"
+
+#: Etoys-Stacks,StackMorph>>findViaTemplate
+msgid ""
+"No matches were found.\n"
+"Be sure the current card is mostly blank\n"
+"and only has text you want to match."
+msgstr ""
+"Nie znaleziono wyników.\n"
+"Upewnij się czy bieżąca karta jest w większości czysta\n"
+"i czy ma jedynie tekst, który chcesz dopasować."
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Add a new card after this one"
+msgstr "Dodaj kolejną kartę po tej"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Click here to get a menu of options for this stack."
+msgstr "Kliknij tutaj aby uzyskać menu opcji dla tego stosu."
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Delete this card"
+msgstr "Usuń tę kartę"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid ""
+"Fewer controls\n"
+"(if shift key pressed,\n"
+"deletes controls)"
+msgstr ""
+"Mniej przycisków sterowania\n"
+"(wciśnięty klawisz Shift,\n"
+"usuwa przyciski sterowania)"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Final card"
+msgstr "Ostatnia karta"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "First card"
+msgstr "Pierwsza karta"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs,StackMorph>>shortControlSpecs
+msgid "Next card"
+msgstr "Następna karta"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs,StackMorph>>shortControlSpecs
+msgid "Previous card"
+msgstr "Poprzednia karta"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Show designations"
+msgstr "Pokaż oznaczenia"
+
+#: Etoys-Stacks,StackMorph>>goToCard
+msgid "no such card"
+msgstr "nie ma takiej karty"
+
+#: Etoys-Stacks,StackMorph>>goToCard
+msgid "Which card number? "
+msgstr "Który numer karty? "
+
+#: Etoys-Stacks,StackMorph>>insertAsBackground:resize:
+msgid "alternateBackground"
+msgstr "wymień tło"
+
+#: Etoys-Stacks,StackMorph>>insertAsBackground:resize:
+msgid "What should we call this new background?"
+msgstr "Jak nazwać to nowe tło?"
+
+#: Etoys-Stacks,StackMorph>>insertCardOfBackground
+msgid ""
+"At this time, there IS only one kind of\n"
+"background in this stack, so that's\n"
+"what you'll get"
+msgstr ""
+"Teraz w tym stosie JEST tylko jeden rodzaj tła i takie\n"
+" otrzymasz"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "add a card of background..."
+msgstr "dodaj kartę jako tło..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "add a card of this background"
+msgstr "dodaj kartę dla danego tła"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "be defaults for new cards"
+msgstr "domyślne dla nowych kart"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "bookish items..."
+msgstr "książkowe elementy..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Caution -- DANGER. Change the order of the variables on the cards"
+msgstr "Uwaga -- NIEBEZPIECZEŃSTWO. Zmień kolejność zmiennych kart"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Create new cards from a formatted string on the clipboard"
+msgstr "Stwórz nowe karty na podstawie sformatowanych tekstów ze schowka"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Create new cards from data in a file"
+msgstr "Stwórz nowe karty na podstawie danych z pliku"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "debug..."
+msgstr "debuguj..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "delete all cards *except* this one"
+msgstr "usuń wszystkie karty *oprócz* tej"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "explain designations"
+msgstr "wyjaśnij oznaczenia"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "find via this template"
+msgstr "wyszukaj używając tego szablonu"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "find..."
+msgstr "znajdź..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "first card"
+msgstr "pierwsza karta"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "insert cards from a file..."
+msgstr "wstaw karty z pliku..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "insert cards from clipboard data"
+msgstr "wstaw karty z danych ze schowka"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "instance variable order..."
+msgstr "kolejność zmiennych instancji..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "last card"
+msgstr "ostatnia karta"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Make these current field values be the defaults for their respective fields on new cards"
+msgstr "Uczyń obecne wartości pól domyślnymi wartościami na nowych kartach"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "make a new background..."
+msgstr "stwórz nowe tło..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card one position earlier"
+msgstr "przesuń kartę na wcześniejszą pozycję"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card one position later"
+msgstr "przesuń kartę na dalszą pozycję"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card to back of stack"
+msgstr "przenieś kartę na spód stosu"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card to front of stack"
+msgstr "przenieś kartę na wierzch stosu"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Sort all the cards of the current background using some field as the sort key"
+msgstr ""
+"Sortuj wszystkie karty obecnego tła używając któregoś z pól jako klucza "
+"sortowania"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu,StackMorph_class>>formerDescriptionForPartsBin,StackMorph_class>>registerInFlapsRegistry,StackMorph_class>>registerInFlapsRegistry
+msgid "Stack"
+msgstr "Stos"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "scripts for this background"
+msgstr "skrypty dla tego pola"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "show designations"
+msgstr "pokaż oznaczenia"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "sort cards by..."
+msgstr "sortuj karty według..."
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid " dragNdrop"
+msgstr " przeciągnij i upuść"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "background color for all pages..."
+msgstr "kolor tła dla wszystkich kart..."
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "close"
+msgstr "zamknij"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "load PPT images from slide #1"
+msgstr "załaduj obrazki PPT ze slajdu #1"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "make all pages this size"
+msgstr "wszystkie strony w tym samym rozmiarze"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "open"
+msgstr "otwórz"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "Stack / Book"
+msgstr "Stos/Książka"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "sound effect for all pages"
+msgstr "efekt dźwiękowy dla wszystkich stron"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "sound effect this page only"
+msgstr "efekt dźwiękowy tylko dla tej strony"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "visual effect for all pages"
+msgstr "efekt wizualny dla wszystkich stron"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "visual effect this page only"
+msgstr "efekt wizualny tylko dla tej strony"
+
+#: Etoys-Stacks,StackMorph>>shortControlSpecs
+msgid "Click here to get a menu for this stack."
+msgstr "Kliknij tutaj aby uzyskać menu opcji dla tego stosu."
+
+#: Etoys-Stacks,StackMorph>>shortControlSpecs
+msgid ""
+"More controls\n"
+"(if shift key pressed,\n"
+"deletes controls)"
+msgstr ""
+"Więcej przycisków sterowania\n"
+"(wciśnięty klawisz Shift,\n"
+"usuwa przyciski sterowania)"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>defaultNameStemForInstances
+msgid "KedamaWorld"
+msgstr "Świat Kedama"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions
+msgid "A Kedama World with pre-made components"
+msgstr "Świat Kedama z gotowymi komponentami"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Basic"
+msgstr "podstawowy"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions
+msgid "Particles"
+msgstr "Cząsteczki"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "Add a new patch variable"
+msgstr "Dodaj nową zmienną poprawkę"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "Add a new turtle"
+msgstr "Dodaj nowego żółwia"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "add a new breed of turtle"
+msgstr "dodaj nowy gatunek żółwia"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "add a new patch variable"
+msgstr "dodaj nową łatkę zmienną"
+
+#: Etoys-StarSqueak,KedamaMorph>>setScale
+msgid "Set the number of pixels per patch (a number between 1 and 10)?"
+msgstr "Ustawić liczbę pikseli w polu (od 1 do 10)?"
+
+#: Etoys-StarSqueak,KedamaPatchMorph_class>>defaultNameStemForInstances
+msgid "patch"
+msgstr "łatka"
+
+#: Etoys-StarSqueak,KedamaTurtleMorph_class>>defaultNameStemForInstances
+msgid "turtle"
+msgstr "żółw"
+
+#: Etoys-StarSqueak,KedamaWhoSearchingViewer>>addNamePaneTo:,KedamaWhoSearchingViewer>>addNamePaneTo:
+msgid "Turtle"
+msgstr "Żółw"
+
+#: Etoys-StarSqueak,KedamaWhoSearchingViewer>>addNamePaneTo:
+msgid "Type a number into the pane to specify the individual turtle."
+msgstr "Wpisz numer w panelu, aby określić konkretnego żółwia."
+
+#: Morphic-Kernel,Morph_class>>helpContributions
+msgid "Click here to run this script once; hold button down to run repeatedly"
+msgstr ""
+"Kliknij tutaj, aby uruchomić ten skrypt jeden raz; przytrzymaj przycisk, aby "
+"uruchamiać wielokrotnie"
+
+#: Morphic-Kernel,Morph_class>>helpContributions
+msgid "Run this command once."
+msgstr "Uruchom to polecenie jeden raz."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "apply status to all siblngs"
+msgstr "zastosuj status we wszystkich elementach współrzędnych"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "apply the current status of all of my scripts to the scripts of all my siblings"
+msgstr ""
+"zastosuj aktualny status wszystkich moich skryptów dla skryptów wszystkich "
+"moich instancji współrzędnych"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "bring all siblings to my location"
+msgstr "przenieś wszystkie współrzędne do mojej lokalizacji"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "find all sibling instances and bring them to me"
+msgstr "znajdź wszystkie elementy współrzędne i przynieś je do mnie"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "indicate all siblings"
+msgstr "wskaż wszystkie elementy współrzędne"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "Make any number of sibling instances all at once"
+msgstr "Utwórz dowolną liczbę współrzędnych instancji na raz"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "Makes another morph whose player is of the same class as this one.  Both siblings will share the same scripts"
+msgstr ""
+"Generuje kolejną morfę gracza tej samej klasy.  Obie instancje współrzędne "
+"będą dzieliły te same skrypty"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make a sibling instance"
+msgstr "Utwórz instancję współrzędną"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make all my sibling instances look like me."
+msgstr "Uczyń wszystkie moje instancje współrzędne podobnymi do mnie."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make all siblings look like me"
+msgstr "spraw, że wszystkie współrzędne będą wyglądać jak ja"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make multiple siblings..."
+msgstr "Utwórz wielokrotne współrzędne..."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "momentarily show, by flashing , all of my visible siblings."
+msgstr "tymczasowo wyświetl, migając, wszystkie moje widoczne współrzędne."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "siblings..."
+msgstr "współrzędne..."
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "Background field, individual values"
+msgstr "Pole tła, osobne wartości"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "Background field, shared value"
+msgstr "Pole tła, wspólne wartości"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "be a card in an existing stack..."
+msgstr "bądź kartą w istniejącym stosie..."
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "be default value on new card"
+msgstr "bądź domyślną wartością na nowej karcie"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "become a stack of cards"
+msgstr "przekształć w stos kart"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "make an instance for my data"
+msgstr "stwórz element moich danych"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "put onto Background"
+msgstr "umieść w Tle"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "remove from Background"
+msgstr "usuń z Tła"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stacks and cards..."
+msgstr "stosy i karty..."
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "start holding separate data for each instance"
+msgstr "zacznij przechowywać oddzielne dane dla każdego elementu"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "start using for reference thumbnail"
+msgstr "używaj jako miniaturkę"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stop holding separate data for each instance"
+msgstr "przestań przechowywać oddzielne dane dla każdego elementu"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stop using for reference thumbnail"
+msgstr "przestań używać jako miniaturkę"
+
+#: Morphic-Kernel,Morph>>definePath
+msgid "no path obtained"
+msgstr "nie otrzymano ścieżki"
+
+#: Morphic-Kernel,Morph>>insertAsStackBackground
+msgid "Please click on a Stack"
+msgstr "Kliknij na któryś stos"
+
+#: Morphic-Kernel,Morph>>putOnForeground
+msgid ""
+"Caution -- every card of this background\n"
+"formerly had its own value for this\n"
+"item.  If you put it on the foreground,\n"
+"the values of this item on all other\n"
+"cards will be lost"
+msgstr ""
+"Uwaga -- każda karta tego tła\n"
+"miała wcześniej własną wartość dla tego\n"
+"elementu.  Jeśli przesuniesz to na pierwszy plan,\n"
+"wartości tego elementu na wszystkich innych\n"
+"kartach zostaną utracone"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A searchable source of new objects."
+msgstr "Możliwe do przeszukania źródło nowych obiektów."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A tool that lets you see and manage all the sounds in the sound library"
+msgstr ""
+"Narzędzie pozwalające na przeglądanie i zarządzanie wszystkimi dźwiękami z "
+"biblioteki dźwięków"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "A window set up for simple scripting."
+msgstr "Okno do tworzenia prostych skryptów."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Allows you to view all the scripts in the project in a traditional programmers' \"browser\" format"
+msgstr ""
+"Pozwala zobaczyć wszystkie skrypty projektu w tradycyjnym formacie "
+"\"przeglądarkowym\""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "abandon unsituated players"
+msgstr "porzuć nie umieszczonych graczy"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "attempt misc repairs"
+msgstr "spróbuj wykonać różne naprawy"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "authoring tools..."
+msgstr "narzędzia tworzenia..."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "browser for scripts"
+msgstr "przeglądarka skryptów"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Displays a summary of all the pre-defined commands and properties in the pre-defined EToy vocabulary."
+msgstr ""
+"Wyświetla podsumowanie wszystkich wcześniej zdefiniowanych poleceń i "
+"właściwości we wcześniej zdefiniowanym słowniczku EToy."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Empty out all the morphs that have accumulated in the trash can."
+msgstr "Opróżnij kosz ze zgromadzonych morf."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Ensure that all script editors are referring to the first (alphabetically by external name) Player of their type"
+msgstr ""
+"Upewnij się, że wszystkie edytory skryptów odnoszą się do pierwszego "
+"(alfabetycznie, według zewnętrznej nazwy) gracza swojego rodzaju"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "empty trash can"
+msgstr "opróżnij kosz"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "etoy vocabulary summary"
+msgstr "podsumowanie słownictwa Etoy"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "If any items on the world desktop are currently hidden, make them visible."
+msgstr "Jeśli jakieś elementy pulpitu są aktualnie ukryte, pokaż je."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "If any items on the world desktop are currently locked, unlock them."
+msgstr "Jeśli jakieś elementy pulpitu są aktualnie zablokowane, odblokuj je."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Lets you view the status of all the scripts belonging to all the scripted objects of the project."
+msgstr ""
+"Pozwala obejrzeć status wszystkich skryptów należących do obiektów tego "
+"projektu."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "new scripting area"
+msgstr "nowa przestrzeń tworzenia skryptów"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "objects (o)"
+msgstr "obiekty (o)"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Produces a summary of scripted objects in the project, and all of their scripts."
+msgstr ""
+"Tworzy podumowanie wszystkich obiektów tego projektu oraz wszystkich ich "
+"skryptów."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Remove all the Viewers from this project."
+msgstr "Usuń wszystkich widzów z tego projektu."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "refer to masters"
+msgstr "odnieś się do mistrzów"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "remove all viewers"
+msgstr "usuń wszystkich przeglądających"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "sound library"
+msgstr "biblioteka dźwięków"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "status of scripts"
+msgstr "status skryptów"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "summary of scripts"
+msgstr "streszczenie skryptów"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Take measures that may help fix up some things about a faulty or problematical project."
+msgstr ""
+"Podejmij środki, które pomogą w rozwiązaniu trudności z wadliwymi lub "
+"problematycznymi projektami."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "The place where all your trashed morphs go."
+msgstr "Miejsce, w którym lądują wyrzucone morfy."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "unhide hidden objects"
+msgstr "uwidocznij ukryte obiekty"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "unlock locked objects"
+msgstr "odblokuj zablokowane obiekty"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "view trash contents"
+msgstr "zobacz zawartość kosza"
+
+#: Morphic-Kernel,TheWorldMenu>>uniTilesClassicString
+msgid "classic tiles"
+msgstr "klasyczne płytki"
+
+#: Morphic-Worlds,PasteUpMorph>>attemptCleanupReporting:
+msgid "{1} [or more] repair(s) made"
+msgstr "{1} [lub więcej] dokonanych napraw"
+
+#: Morphic-Worlds,PasteUpMorph>>autoExpansionString
+msgid "auto-phrase-expansion"
+msgstr "automatyczne rozwijanie wyrażeń"
+
+#: Morphic-Worlds,PasteUpMorph>>autoViewingString
+msgid "automatic viewing"
+msgstr "automatyczna wizualizacja"
+
+#: Morphic-Worlds,PasteUpMorph>>batchPenTrailsString
+msgid "batch pen trails"
+msgstr "pomieszaj ślady pisaka"
+
+#: Morphic-Worlds,PasteUpMorph>>becomeLikeAHolder
+msgid ""
+"This view is ALREADY\n"
+"behaving like a holder, which\n"
+"is to say, it is set to indicate the\n"
+"cursor and to have auto-line-layout."
+msgstr ""
+"W tym widoku\n"
+"widać zachowanie wstrymania, które\n"
+"jest ustawione w celu zaznaczenia\n"
+"kursora i autmatycznego wyrównywania."
+
+#: Morphic-Worlds,PasteUpMorph>>behaveLikeAHolderString
+msgid "behave like a holder"
+msgstr "wstrzymanie"
+
+#: Morphic-Worlds,PasteUpMorph>>deleteBackgroundPainting
+msgid ""
+"There is presently no\n"
+"background painting\n"
+"to delete."
+msgstr ""
+"Nie ma obecnie żadnego\n"
+"obrazu tła do usunięcia."
+
+#: Morphic-Worlds,PasteUpMorph>>fenceEnabledString
+msgid "fence enabled"
+msgstr "ogrodzenie włączone"
+
+#: Morphic-Worlds,PasteUpMorph>>modernizeBJProject
+msgid "Supplies"
+msgstr "Zasoby"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Allow this area to be separately governed by its own controls."
+msgstr ""
+"Pozwól, aby ta przestrzeń była zarządzana osobno przez jej własne "
+"sterowniki."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Bring back all objects whose current coordinates keep them from being visible, so that at least a portion of each of my interior objects can be seen."
+msgstr ""
+"Zmień pozycję wszystkich obiektów, których obecne współrzędne nie pozwalają "
+"ich zobaczyć, tak aby przynajmniej część każdego z moich wewnętrznych "
+"obiektów była widzialna."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Design your own graph paper and use it as the background texture here."
+msgstr "Zaprojektuj własną grafikę i użyj jej tutaj jako tekstury tła."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "delete background painting"
+msgstr "usuń grafikę z tła"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "delete the graphic that forms the background for this me."
+msgstr "usuń grafikę stanowiącą tło dla tego \"ja\"."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "governs whether, when an object is touched inside me, a viewer should automatically be launched for it"
+msgstr ""
+"kontroluje czy, gdy obiekt zostanie poruszony, przeglądarka powinna być "
+"automatycznie uruchomiona."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "if currently showing thumbnails governs the standard height for them"
+msgstr "jeśli są widoczne miniatury, kontroluj ich standardową wysokość"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Make viewers for all players which have user-written scripts in this playfield."
+msgstr ""
+"Utwórz przeglądarki dla wszystkich graczy, którzy mają skrypty użytkownika w "
+"tym polu gry."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "make detachable"
+msgstr "odłącz"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "make graph paper..."
+msgstr "stwórz papier milimetrowy..."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "playfield options"
+msgstr "opcje pola graczy"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Rearranges my contents in random order"
+msgstr "Przestawia moją zawartość w losowej kolejności"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Remove the viewers for all players in this playfield. This will save space before you publish this project"
+msgstr ""
+"Usuwa przeglądarki wszystkich graczy w tym polu gry. Oszczędzi to miejsca "
+"zanim opublikujesz ten projekt."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "remove viewers of all players"
+msgstr "Usuwa przeglądarki wszystkich graczy"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "round up strays"
+msgstr "zaokrąglaj w górę"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Set the spacing to be used when gridding is on"
+msgstr "Ustaw rozstawienie, które ma zostać użyte, gdy siatka jest włączona."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "set grid spacing..."
+msgstr "ustaw rozstawienie na siatce..."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "set thumbnail height..."
+msgstr "ustaw wysokość miniatur..."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "show viewers of all players"
+msgstr "pokaż przeglądarki wszystkich graczy"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "shuffle contents"
+msgstr "wymieszaj zawartość"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "use a pale yellow-and-blue background texture here."
+msgstr "użyj tekstury w kolorze bladożółtym i bladoniebieskim."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "use standard texture"
+msgstr "użyj standardowej tekstury"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether auto-line-layout, resize-to-fit, and indicate-cursor should be set to true; useful for animation control, etc."
+msgstr ""
+"ustala, czy automatyczny układ linii, dopasowywanie i wskazywanie kursora "
+"mają zostać ustawione jako prawdziwe; przydatne dla kontroli animacji itp."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether dragging an object from the interior should produce a COPY of the object"
+msgstr ""
+"ustala, czy przeciągnięcie obiektu z wnętrza powinno spowodować jego "
+"skopiowanie"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether gridding should be used in my interior"
+msgstr "ustala, czy siatka powinna być używana w moim wnętrzu"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether I should automatically strive exactly to fit my contents"
+msgstr ""
+"ustala, czy powinienem automatycznie próbować, aby moje zawartości się "
+"zmieściły"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether large objects should be represented by thumbnail miniatures of themselves"
+msgstr ""
+"ustala, czy duże obiekty powinny być przedstawiane za pomocą swoich miniatur"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether moving objects should stop at the edge of their container"
+msgstr ""
+"ustala, czy ruchome obiekty powinny zatrzymywać się na granicy swoich "
+"zbiorników"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether objects should put up halos when the mouse is over them"
+msgstr ""
+"ustala, czy obiekty powinny się podświetlać kiedy najeżdża się na nie "
+"kursorem"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether submorphs should automatically be laid out in lines"
+msgstr "ustala, czy podmorfy powinny się automatycznie układać w linie"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the cartesian origin of the playfield should be at its lower-left corner or at the center of the playfield"
+msgstr ""
+"ustala, czy początek układu współrzędnych pola gry powinien znajdować się w "
+"dolnym lewym rogu czy pośrodku pola gry"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the grid should be shown when gridding is on"
+msgstr "czy siatka powinna być widoczna gdy jest włączona"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the \"current\" submorph should be indicated with a dark black border"
+msgstr ""
+"ustala, czy \"bieżący\" podmorf powinien zostać wyszczególniony ciemnym "
+"czarnym obramowaniem"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether tile phrases, dropped on me, should automatically sprout Scriptors around them"
+msgstr ""
+"ustala, czy wyrażenia płytek upuszczone na mnie powinny automatycznie "
+"tworzyć wokół nich skryptory"
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A tool that lets you find out about all the players used in this project"
+msgstr ""
+"Narzędzie pozwalające na uzyskanie informacji o wszystkich graczach w tym "
+"projekcie"
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "gallery of players"
+msgstr "galeria graczy"
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu
+msgid "viewing options for \"{1}\""
+msgstr "widok opcji dla \"{1}\""
+
+#: Morphic-Worlds,PasteUpMorph>>printVocabularySummary
+msgid "EToy Vocabulary"
+msgstr "Słownictwo EToy"
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid "New height for thumbnails? "
+msgstr "Nowa wysokość miniatur? "
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid "Please be reasonable!"
+msgstr "Proszę, bądź odpowiedzialny!"
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid ""
+"setting the thumbnail height is only\n"
+"applicable when you are currently\n"
+"showing thumbnails."
+msgstr ""
+"Ustawienie wielkości miniatur\n"
+"dotyczy tylko sytuacji, w której\n"
+"są one aktualnie widoczne."
+
+#: Morphic-Worlds,PasteUpMorph>>viewingByIconString
+msgid "view by icon"
+msgstr "widok według ikon"
+
+#: Morphic-Worlds,PasteUpMorph>>viewingByNameString
+msgid "view by name"
+msgstr "widok według nazw"
+
+#: Morphic-Worlds,PasteUpMorph>>viewingBySizeString
+msgid "view by size"
+msgstr "widok według rozmiaru"
+
+#: Morphic-Worlds,PasteUpMorph>>viewingNonOverlappingString
+msgid "view with line layout"
+msgstr "widok z układem liniowym"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "add"
+msgstr "dodaj"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "divide"
+msgstr "podziel"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "divide & truncate"
+msgstr "podziel i przytnij"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "larger value"
+msgstr "większa wartość"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "multiply"
+msgstr "pomnóż"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "remainder when divided by"
+msgstr "reszta z dzielenia przez"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "smaller value"
+msgstr "mniejsza wartość"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "subtract"
+msgstr "odejmij"
+
+#: Morphic-Worlds,StandardScriptingSystem>>goButton
+msgid "Resume running all paused scripts"
+msgstr "Uruchom wszystkie zatrzymane skrypty"
+
+#: Morphic-Worlds,StandardScriptingSystem>>helpStringForOperator:
+msgid "Sorry, no help available here"
+msgstr "Niestety, brak pomocy w tym miejscu"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "divisible by"
+msgstr "podzielne przez"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings,TileMorph>>options
+msgid "equal"
+msgstr "równa się"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "greater than"
+msgstr "większy od"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "greater than or equal"
+msgstr "większy bądź równy"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "less than"
+msgstr "mniejszy od"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "less than or equal"
+msgstr "mniejszy bądź równy"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings,TileMorph>>options
+msgid "not equal"
+msgstr "nierówny"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseEnter"
+msgstr "przy wejściu myszy"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseEnterDragging"
+msgstr "przy wejściu przeciągającej myszy"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseLeave"
+msgstr "przy wyjściu myszy"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseLeaveDragging"
+msgstr "przy wyjściu przeciągającej myszy"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid " or "
+msgstr " lub "
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "More events:"
+msgstr "Więcej zdarzeń:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "ready to run all the time"
+msgstr "gotowy do uruchomienia cały czas"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run all the time"
+msgstr "uruchomiony cały czas"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run when called"
+msgstr "uruchom po wywołaniu"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run when mouse goes down on me"
+msgstr "uruchom po kliknięciu myszą"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "User custom events:"
+msgstr "Prywatne zdarzenia użytkownika:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when I am being closed"
+msgstr "gdy jestem zamykany"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when I am being opened"
+msgstr "gdy jestem otwierany"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse comes back up"
+msgstr "gdy przycysk myszy jest zwolniony"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse enters my bounds, button down"
+msgstr "gdy mysz wkracza w moje granice, przycisk w dół"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse enters my bounds, button up"
+msgstr "gdy mysz wkracza w moje granice, przycisk w górę"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse exits my bounds, button down"
+msgstr "gdy mysz opuszcza moje granice, przycisk w dół"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse exits my bounds, button up"
+msgstr "gdy mysz opuszcza moje granice, przycisk w górę"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "while mouse still down"
+msgstr "gdy przycisk myszy jest wciąż wciśnięty"
+
+#: Morphic-Worlds,StandardScriptingSystem>>stepButton
+msgid "Run every paused script exactly once.  Keep the mouse button down over \"Step\" and everything will keep running until you release it"
+msgstr ""
+"Uruchom każdy wstrzymany skrypt dokładnie raz.  Trzymaj wciśnięty przycisk "
+"myszy nad \"Step\" i wszystko będzie działać, aż do zwolnienia przycisku."
+
+#: Morphic-Worlds,StandardScriptingSystem>>stopButton
+msgid "Pause all ticking scripts."
+msgstr "Wstrzymaj wszystkie tykające skrypty."
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "add a vertex at beginning"
+msgstr "dodaj wierzchołek na początku"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "add a vertex at end"
+msgstr "dodaj wierzchołek na końcu"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "align after"
+msgstr "wyrównaj po"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "clear all pen trails"
+msgstr "wyczyść wszystkie ślady pisaka"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "clear pen trails"
+msgstr "wyczyść ślady pisaka"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "color sees"
+msgstr "kolor widzi"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "dial to"
+msgstr "wykręć"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "distance to"
+msgstr "odległość do"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "do"
+msgstr "zrób"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "forward by"
+msgstr "do przodu o"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "include at beginning"
+msgstr "dodaj na początku"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "include at end"
+msgstr "dodaj na końcu"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "insert a vertex at cursor"
+msgstr "dodaj wierzchołek przy kursorze"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "is over color"
+msgstr "jest nad kolorem"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "line is curved"
+msgstr "linia jest krzywa"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "line is opened"
+msgstr "linia jest otwarta"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "listening"
+msgstr "słuchanie"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "look like"
+msgstr "upodobnij się do"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "make sound"
+msgstr "Wydaj dźwięk"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "no arrowheads on pens"
+msgstr "bez strzałek na pisakach"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "play"
+msgstr "odtwórz"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "play frequency of"
+msgstr "odtwórz częstotliwość"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "remove all vertices but cursor"
+msgstr "usuń wszystkie wierzchołki oprócz kursora"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "remove the vertex at cursor"
+msgstr "usuń wierzchołek przy kursorze"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "send to all"
+msgstr "wyślij do wszystkich"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "start painting in"
+msgstr "zacznij malować w"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "start recording"
+msgstr "zacznij nagrywać"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:,StandardScriptingSystem>>wordingForOperator:
+msgid "stop"
+msgstr "zatrzymaj"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "turn by"
+msgstr "obróć przez"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "attach an unlabeled readout to the object which shows the value of this variable"
+msgstr ""
+"dołącz odczyt bez etykiet to obiektu, który pokazuje wartość tej zmiennej"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "attached labeled watcher"
+msgstr "przyczepiony obserwator w etykietą"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "attached watcher"
+msgstr "załączony obserwator"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "detailed watcher"
+msgstr "szczegółowy obserwator"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "make a readout showing the name and value of this variable, and attach it to the object itself"
+msgstr ""
+"stwórz odczyt pokazujący nazwę i wartość tej zmiennej oraz dołącz go do "
+"obiektu"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "obtain a labeled readout which shows the object name and the name and value of this variable"
+msgstr ""
+"otrzymaj odczyt z etykietami, który pokazuje nazwę obiektu oraz nazwę i "
+"wartość tej zmiennej"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "obtain an unlabeled readout which shows the value of this variable"
+msgstr "otrzymaj odczyt bez etykiet, który pokazuje wartość tej zmiennej"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "simple watcher"
+msgstr "prosty obserwator"
+
+#: Protocols-Type_Vocabularies,DataType>>updatingTileForTarget:partName:getter:setter:
+msgid "readout string"
+msgstr "wyświetl ciąg"
+
+#: Protocols-Type_Vocabularies,NumberType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "decimal places..."
+msgstr "części dziesiętne..."
+
+#: Protocols-Type_Vocabularies,NumberType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "Lets you choose how many decimal places should be shown in readouts for this variable"
+msgstr ""
+"Pozwala na określenie, ile części dziesiętnych powinno być widocznych w "
+"odczycie tej zmiennej"
+
+#: Protocols-Type_Vocabularies,StringType>>defaultArgumentTile
+msgid "abc"
+msgstr "abc"
+
+#: UserObjects,Player150132>>setVersion
+msgid "version"
+msgstr "wersja"
+
+#~ msgid "currently"
+#~ msgstr "obecnie"
+
+#~ msgid "choose attachment edge"
+#~ msgstr "wybierz krawędź załącznika"
+
+#~ msgid "now"
+#~ msgstr "teraz"
+
+#~ msgid "Sounds"
+#~ msgstr "Dźwięki"
+
+#~ msgid "sorry -- no slots of that type"
+#~ msgstr "niestety -- nie ma gniazda tego typu"
+
+#~ msgid "Region"
+#~ msgstr "Region"
+
+#~ msgid "Subject"
+#~ msgstr "Temat"
+
+#~ msgid "Target Age"
+#~ msgstr "Wiek docelowy"
+
+#~ msgid "name for new variable: "
+#~ msgstr "nazwa nowej zmiennej: "
+
+#~ msgid "New name for \""
+#~ msgstr "Nowa nazwa dla \""
+
+#~ msgid "change value type"
+#~ msgstr "zmień typ wartości"
+
+#~ msgid "rename \"{1}\""
+#~ msgstr "zmień nazwę \"{1}\""
+
+#~ msgid "kedama"
+#~ msgstr "kedama"

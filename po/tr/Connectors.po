@@ -1,0 +1,1166 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:06-0000\n"
+"PO-Revision-Date: 2010-08-27 16:06-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Connectors\n"
+
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "attachmentOwnerChanged"
+msgstr "ek sahibi değişti"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "connectedTo"
+msgstr "-e bağlandı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationConnected"
+msgstr "hedef bağlandı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationDisconnecting"
+msgstr "hedef ayrılıyor"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "disconnectedFrom"
+msgstr "bağlantı koptu"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "if set, viewers will display the 'connection' vocabulary even for Morphs that aren't connected to by Connectors."
+msgstr "İşaretlendiğinde, izleyiciler bağlı olmayan morflar için bile 'bağlantı' sözlüğü gösterecektir."
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after a connector has connected to me"
+msgstr "bir bağlayıcı bana bağlanır bağlanmaz"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my first end has been connected"
+msgstr "ilk ucum bağlanır bağlanmaz"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my second end has been connected"
+msgstr "ikinci ucum bağlanır bağlanmaz"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before a connector is going to disconnect from me"
+msgstr "bir bağlantı benden kopmadan hemen önce"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my first end is going to be disconnected"
+msgstr "ilk ucum ayrılmadan hemen önce"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my second end is going to be disconnected"
+msgstr "ikinci ucum ayrılmadan hemen önce"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceConnected"
+msgstr "kaynak bağlandı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceDisconnecting"
+msgstr "kaynak bağlantısı kesiliyor"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "when either of the morphs to which I'm connected have changed their owner or been grabbed or dropped with the hand."
+msgstr "Bağlandığım en morfların sahibinin değişip değişmediği ya da elle tutulup ya da bırakılmadığı."
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newRandomButton
+msgid "RandomConnector"
+msgstr "Rastgele bağlayıcı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newWithArrow
+msgid "Arrow"
+msgstr "Ok"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector"
+msgstr "Basit bir bağlayıcı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector that bends smoothly"
+msgstr "Yavaşca kıvrılan basit bağlayıcı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector with an arrowhead"
+msgstr "Ok başı olan basit bağlantı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic smooth Connector with an arrowhead"
+msgstr "Ok başı olan kıvrılan basit bağlantı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A blank buttton flap"
+msgstr "Boş gösterge kanadı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A button that makes fancy Connectors at random"
+msgstr "Rastgele süslü bağlantılar yapan buton"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A Maker Button with a Connector loaded"
+msgstr "Bağlayıcı yüklü Buton yapıcı bir düğme"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap"
+msgstr "Önceden yüklenmiş bağlantılar kanadı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Button Flap"
+msgstr "Buton kanadı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connector Button"
+msgstr "Bağlayıcı butonu"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors Flap"
+msgstr "Bağlayıcı kanadı"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Random Connectors"
+msgstr "Rastgele bağlayıcılar"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicArrowMenuItemsTo:event:
+msgid "arrow sizes"
+msgstr "ok boyutları"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "add label"
+msgstr "etiket ekle"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete"
+msgstr "sil."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border color..."
+msgstr "çizginin kontur rengi..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border width..."
+msgstr "çizginin kontur genişliği..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line color..."
+msgstr "çizgi rengi..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line width..."
+msgstr "çizgi genişliği..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "make button"
+msgstr "düğme oluştur"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:
+msgid "straighten"
+msgstr "düzleştir"
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make segmented line"
+msgstr "parçalı çizgi yarat "
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make smooth line"
+msgstr "düz çizgi yap"
+
+#: Connectors-Base,NCAAConnectorMorph>>addEndItemsFor:to:event:
+msgid "new arrow..."
+msgstr "yeni ok..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate"
+msgstr "çoğalt"
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate model and view"
+msgstr "modeli ve görünümü çoğalt"
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+"Kontur genişliğini arttırmak için\n"
+"oku bu noktadan uzağa taşı. \n"
+"Onay için tıkla."
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidth:
+msgid "New line border width?"
+msgstr "yeni çizgi kontur genişliği?"
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase line width.\n"
+"Click when done."
+msgstr ""
+"Çizgi genişliğini arttırmak için \n"
+"imleci bu noktadan uzağa sürükle. \n"
+"Bitince tıkla."
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidth:
+msgid "New line width?"
+msgstr "yeni çizgi genişliği?"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "hide handles"
+msgstr "işaretçileri gizle"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "işaretçileri göster"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "be orthogonal"
+msgstr "dikey ol"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "stop being orthogonal"
+msgstr "dikeyliğe son ver"
+
+#: Connectors-Base,NCAAConnectorMorph>>yellowButtonDown:onEnd:,NCSchematicConnectorMorph>>yellowButtonDown:onEnd:
+msgid "end..."
+msgstr "son..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add arbitrary shape..."
+msgstr "istediğiniz şekli ekle..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add pre-made shape..."
+msgstr "önceden hazırlanmış şekli ekle..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "attach to..."
+msgstr "ekleme yap..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to center"
+msgstr "merkeze bağlan"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest attachment point"
+msgstr "en yakın ekleme noktasına bağlan"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point"
+msgstr "en yakın noktaya bağlan"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point to center"
+msgstr "merkeze en yakın noktaya bağlan"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to relative point..."
+msgstr "göreli noktaya bağlan..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete shape..."
+msgstr "şekli sil..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "display attachments"
+msgstr "eklemeleri göster"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "no connection preference"
+msgstr "bağlantı tercihiz yok"
+
+#: Connectors-Base,NCConstraintMorph>>attachToSelectedMorph:,NCConstraintMorph>>deleteSelectedMorph:
+msgid "Select Morph"
+msgstr "Morf seç"
+
+#: Connectors-Base,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "connect to nothing"
+msgstr "hiçbir şeye bağlanma"
+
+#: Connectors-Base,NCLineEndConstraintMorph>>innocuousName
+msgid "connector end"
+msgstr "bağlayıcı bitimi"
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "A Connector whose endpoints automatically become dots when connected."
+msgstr "Bağlandığında bitiş uçları otomatik olarak nokta olan bağlayıcı"
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "Schematic Connector"
+msgstr "Şematik bağlayıcı"
+
+#: Connectors-Info,ConnectorsInfo_class>>postInstall,NCAAConnectorMorph_class>>initialize
+msgid "if set, Connectors will use labels that try to re-position themselves to stay out of the way."
+msgstr "İşaretlendiğinde, bağlayıcı etiketleri kendilerini yoldan çekilmek üzere yeniden konumlandırmaya çalışırlar."
+
+#: Connectors-Lines_and_Curves,NCLineMorph>>changeArrowScaleInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase the size of the arrows.\n"
+"Click when done."
+msgstr "Okun büyüklüğünü arttırmak için imleci bu noktadan uzaklaştır. Tamamsa tıkla."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add mouse up action"
+msgstr "mouse'u yukarı taşıma hareketi ekle."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "move"
+msgstr "hareket ettir"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "properties..."
+msgstr "özellikler..."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "remove mouse up action"
+msgstr "mouse'u yukarı kaldırma hareketini sil."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "resize"
+msgstr "tekrar biçimlendirmek"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:
+msgid "grab"
+msgstr "kavramak"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "lock text"
+msgstr "metni kilitle"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "unlock text"
+msgstr "metin kilidini aç"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addDebugMenuItemsTo:event:
+msgid "inspect"
+msgstr "denetle."
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate view only"
+msgstr "sadece görüntüyü kopyala"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "lock all text"
+msgstr "tüm metni kilitle"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "set all fonts to..."
+msgstr "tüm yazı tiplerini ata..."
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "unlock all text"
+msgstr "bütün metnin kilidini aç"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>antiAliasString
+msgid "smooth edges"
+msgstr "düzgün kenarlar"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFontFor:
+msgid "Choose font for text:"
+msgstr "Metin için font seç:"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFont,NCDisplayTextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "Font seç:"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML package shape"
+msgstr "UML paket şekli"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "UML Package"
+msgstr "UML paketi"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add swim lane"
+msgstr "yüzme kulvarı ekle"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete swim lane"
+msgstr "yüzme kulvarını sil"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A circle shape with text inside"
+msgstr "Metnin içeren çember şekli"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A diamond shape with text inside"
+msgstr "Metnin içeren elmas biçimi"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A happy face"
+msgstr "Gülen yüz"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A pointing hand shape with text inside"
+msgstr "El işareti içindeki metnin"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A sad face"
+msgstr "Üzgün yüz"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "AND Gate"
+msgstr "VE geçidi"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'and gate' shape with text inside"
+msgstr "metin içeren 'VE geçidi' şekli"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'or gate' shape with text inside"
+msgstr "Metin içeren 'YADA geçidi' şekli"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'xor gate' shape with text inside"
+msgstr "Metin içeren 'XOR geçidi' şekli"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Another pointing hand"
+msgstr "İşaret eden başka bir el"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "CircleCurve"
+msgstr "Yuvarlak eğrisi"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Diamond"
+msgstr "Elmas"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Happy face"
+msgstr "Gülen yüz"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "OR Gate"
+msgstr "OR geçidi"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand"
+msgstr "İşaret eden el"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand2"
+msgstr "İşaret eden el2"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Sad face"
+msgstr "Üzgün yüz"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "XOR Gate"
+msgstr "XOR geçidi"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "An ellipse or circle"
+msgstr "oval ya da çember"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "Ellipse"
+msgstr "oval"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "An elliptical or circular shape with text"
+msgstr "Metin içeren oval ya da yuvarlak şekil "
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Text Ellipse"
+msgstr "Metin içeren elips"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "A UML note shape"
+msgstr "UML (birleşik modelleme dili) işareti şekli"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "Note"
+msgstr "Not"
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "Embed pin into..."
+msgstr "Pim'i içine yerleştir..."
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "<do not embed>"
+msgstr "<gömme>"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn off smoothing"
+msgstr "yumuşatmayı kapat"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn on smoothing"
+msgstr "yumuşatmayı aç"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "set scaling"
+msgstr "büyütmeyi ayarla"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing off"
+msgstr "yumuşatmayı kapat"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing on"
+msgstr "yumuşatmayı aç"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol that can read its text from a Squeak class"
+msgstr "UML sembol çeşidi, yazılı metni Squeak çeşidinden okuyabilir"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "STClass"
+msgstr "ST çeşidi"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become composite"
+msgstr "tümleşikleş"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become scrollable composite"
+msgstr "kaydırılabilir tümleşik"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add line"
+msgstr "satır ekle."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text"
+msgstr "metin ekle"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text block"
+msgstr "Metin bloğu ekle"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete line"
+msgstr "satırı sil"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text"
+msgstr "metni sil"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text block"
+msgstr "metin bloğunu sil"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "emphasis..."
+msgstr "vurgu..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "set font for this text"
+msgstr "bu yazı için font belirle"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "text properties..."
+msgstr "metin özellikleri..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>hideTextBlockString
+msgid "hide lower text"
+msgstr "metnin alt kısmını gösterme"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol"
+msgstr "UML çeşidi sembolü"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "Class"
+msgstr "Sınıf"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "acceptedTextContents"
+msgstr "kabul edilmiş metin içeriği"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "when text is accepted into a text morph by hitting Enter or losing focus"
+msgstr "yazı bir metin morfuna eklendiğinde, 'enter'a basarak veya odak değiştirerek kabul et"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "A raw piece of text (with a context menu) which you can edit into anything you want"
+msgstr "(İçerik menüsü olan) düzenlenebilen yazının ham hali"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Enhanced Text"
+msgstr "Geliştirilmiş yazı"
+
+#: Connectors-Text,NCDisplayTextMorph>>addTextMenuItemsTo:event:
+msgid "choose font..."
+msgstr "font seç..."
+
+#: Connectors-Text,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Text that you can grab and move around (click to edit)"
+msgstr "sürükleyip hareket ettirebildiğin metin (düzenlemek için tıkla)"
+
+#: Connectors-Text-Base,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached."
+msgstr "Başka bir morfa bırakalabilen ya da menü seçeneğiyle eklenebilen işaret. Ekleneceği morfu takip edecek."
+
+#: Connectors-Text-Base,NCLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "font..."
+msgstr "font..."
+
+#: Connectors-Text-Base,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached, trying to stay out of the way."
+msgstr "Menü seçimi ya da bırakma yoluyla başka bir morfa eklenebilen etiket ve bu etiket eklendiği morfu takip eder ancak onadan uzak durur."
+
+#: Connectors-Text-Base,NCSmartLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "change margins"
+msgstr "kenarları değiştir"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnCRString
+msgid "accept on CR"
+msgstr "Enter'e basınca kabul et"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnFocusLossString
+msgid "accept on focus loss"
+msgstr "odak kaybı olunca kabul et"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "Kabul"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "İptal"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild
+msgid "Connector Properties for {1}"
+msgstr "{1} için bağlayıcı özellikleri"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "yapılan değişiklikleri iptal et ve paneli kapat."
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "yapılan değişiklikleri kaydet ve paneli kapat."
+
+#: Connectors-Tools,NCArrowDictionaryMenu_class>>chooseArrowGlyphFor:selector:
+msgid "Arrows"
+msgstr "Oklar"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>chooseArrowGlyphFor:selector:
+msgid "OK"
+msgstr "Tamam"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid "New key? "
+msgstr "Yeni tuş?"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid ""
+"sorry, that conflicts with\n"
+"the name of another\n"
+"entry in this dictionary"
+msgstr ""
+"üzgünüm; bu, sözlükteki başka \n"
+"bir kayıtla karışıklık \n"
+"yarattı."
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Copy the name of this graphic to the clipboard"
+msgstr "bu grafiğin ismini panoya kopyala."
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "copy name"
+msgstr "adı kopyala"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Find an entry by name"
+msgstr "isme göre kayıt ara"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "find..."
+msgstr "bul..."
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "make new arrow"
+msgstr "yeni ok yarat"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Open an Arrow editor"
+msgstr "ok düzenleyici aç"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Remove this arrow from the dictionary"
+msgstr "sözlükten bu oku kaldır "
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Rename this arrow"
+msgstr "oku yeniden adlandır"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "remove"
+msgstr "sil"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "rename"
+msgstr "yeniden adlandır."
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>adjusterWindow
+msgid "Attachment Point Adjuster"
+msgstr "Ekleme noktası ayarı"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "Attachment Adjuster"
+msgstr "Ek Ayarlayıcı"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArrayButton
+msgid "Add Array"
+msgstr "Dizi Değişken ekle"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArray
+msgid "Enter the number of H and/or V APs to create; use 0 for none"
+msgstr "H ve/veya V sayısını gir, APs oluşturmak için bas; boş için 0 kullan"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addAttacherButton
+msgid "Add"
+msgstr "Ekle"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "Default"
+msgstr "Varsayılan"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "None"
+msgstr "Hiçbiri"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make movable"
+msgstr "Hareket edebilir hale getir"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make non-movable"
+msgstr "Hareket edemez hale getir"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid off"
+msgstr "Izgarayı kapat"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid on"
+msgstr "Izgarayı aç"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for State Machine drawings"
+msgstr "durum cihazı tablosu için düğme çubuğu"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for UML Class Diagrams"
+msgstr "UML diagramı düğme çubuğu"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for state machine drawings"
+msgstr "Makine durum cihazı çizimleri için önceden baülayıcı yüklenmiş bağlantı kanadı."
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for UML class diagram drawings"
+msgstr "UML grafik çizimleri için önceden yüklenmiş bağlantı kanadı"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "An empty buttonBar that you can add to"
+msgstr "Buton ekleyebileceğiniz boş gösterge çubuğu"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class ButtonBar"
+msgstr "Buton tipi çubuğu"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class diagram Flap"
+msgstr "grafik tipi kanadı"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM ButtonBar"
+msgstr "FSM gösterge çubuğu"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM Flap"
+msgstr "FSM kanadı"
+
+#: Connectors-Tools,NCButtonBar>>addButtonAndInform,NCButtonBar>>addButtonAndInformAt:,NCPartsBin>>addButtonAndInform,NCPartsBin>>addButtonAndInformAt:
+msgid "Drop a Morph on the button."
+msgstr "Buton üzerine morf bırak"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "add bar label"
+msgstr "çubuk etiketi ekle"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:
+msgid "add button"
+msgstr "buton ekle"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "change bar label text"
+msgstr "çubuk başlığı etiketini değiştir"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "collapse"
+msgstr "çökmek"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "remove bar label"
+msgstr "çubuk etiketini kaldır"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "set bar label font"
+msgstr "çubuk etiketi fontu belirle"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn off button labels"
+msgstr "buton etiketlerini kapat"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn on button labels"
+msgstr "buton başlıklarını aç"
+
+#: Connectors-Tools,NCButtonBar>>changeLabel
+msgid "Enter label:"
+msgstr "Etiket gir:"
+
+#: Connectors-Tools,NCButtonBar>>promptForFont,NCLabelMorph>>promptForFont
+msgid "Choose label font:"
+msgstr "Etiket için font belirle:"
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin
+msgid "A tool that lets you edit Connectors arrow shapes."
+msgstr "Bağlantı çubuklarının oklarını düzenlemenizi sağlayan bir araç"
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin,NCGlyphEditor_class>>newStandAlone
+msgid "Arrow Editor"
+msgstr "Ok Düzenleyici"
+
+#: Connectors-Tools,NCGlyphEditor>>chooseFont
+msgid "Choose Font"
+msgstr "Font seç"
+
+#: Connectors-Tools,NCGlyphEditor>>font:
+msgid "You must choose a TrueType font"
+msgstr "TrueType fontu seçmeniz gerekir"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Arrow scales"
+msgstr "ok ölçüleri"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Choose font"
+msgstr "Font seç"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Clear clicks"
+msgstr "Tıklamaları sil"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Install"
+msgstr "Yükle"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Make morph"
+msgstr "Morf yap"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Rotate"
+msgstr "Döndür"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Sample"
+msgstr "Örnek"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Toggle dots"
+msgstr "Noktaları değiştir"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Write code"
+msgstr "Kod yaz"
+
+#: Connectors-Tools,NCGlyphEditor>>install
+msgid "Install with what name?"
+msgstr "Kurulum adı nedir?"
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Constructor text is on clipboard."
+msgstr "Oluşturucu metin panodadır."
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Install in which selector?"
+msgstr "Hangi aygıta kurulsun?"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change action selector"
+msgstr "hareket seçiciyi değiştir"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change arguments"
+msgstr "argümanları değiştir"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change when to act"
+msgstr "hareket etme zamanını değiştir"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "erase pixels of color..."
+msgstr "bu renkteki pikselleri sil..."
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "recolor pixels of color..."
+msgstr "bu renkteki pikselleri yeniden renkelndir..."
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "remove label"
+msgstr "etiket sil"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "replace target"
+msgstr "hedefi değiştir"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "resize image"
+msgstr "resmi boyutlandır"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "set target"
+msgstr "hedefi belirle"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "update image"
+msgstr "görüntüyü güncelle"
+
+#: Connectors-Tools,NCMakerButton>>doButtonAction
+msgid "Drop a Morph on me so that I can have something to make!"
+msgstr "ilgilenmem için üzerime bir morf sürükleyip bırak!"
+
+#: Connectors-Tools,NCMakerButton>>replaceTarget
+msgid "Drop a Morph on me"
+msgstr "Üzerime bir morf bırak"
+
+#: Connectors-Tools,NCMakerButton>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed.\n"
+"Some possibilities:"
+msgstr "Bu düğmeye basıldığında hedefe gönderilecek seçiciyi belirle. Bazı olasılıklar:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a Connector properties panel for the morph"
+msgstr "morf için bağlayıcı özellikleri paneli aç."
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a text properties panel for the morph"
+msgstr "morf için yazı özellikleri paneli aç."
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:,TextMorph_class>>boldAuthoringPrototype
+msgid "Text"
+msgstr "yazı"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "Properties for {1}"
+msgstr "{1} için özellikler"
+
+#: Etoys-Scripting,Player>>createSlotFor:
+msgid "name for new variable: "
+msgstr "yeni değişken için isim:_"
+
+#: MorphicExtras-Flaps,Flaps_class>>newClassDiagramConnectorsFlap
+msgid "Class Diagrams"
+msgstr "Sınıf diagramları"
+
+#: MorphicExtras-Flaps,Flaps_class>>newConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin,NCButtonBar_class>>supplementaryPartsDescriptions,NCDisplayTextMorph_class>>supplementaryPartsDescriptions,NCEllipseMorph_class>>supplementaryPartsDescriptions,NCGlyphEditor_class>>descriptionForPartsBin,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions,NCLabelMorph_class>>supplementaryPartsDescriptions,NCMakerButton_class>>descriptionForPartsBin,NCSchematicConnectorMorph_class>>descriptionForPartsBin,NCSmartLabelMorph_class>>supplementaryPartsDescriptions,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "Bağlayıcılar"
+
+#: MorphicExtras-Flaps,Flaps_class>>newNCPartsBinFlap
+msgid "My Flap"
+msgstr "Benim kanadım"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector"
+msgstr "Basit bağlayıcı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector with an arrowhead"
+msgstr "ok başlı basit bağlayıcı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector"
+msgstr "Basit eğri bağlayıcı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector with an arrowhead"
+msgstr "ok başlı basit eğri bağlayıcı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A buttonBar for customizing"
+msgstr "özelleştirmek için tuş çubuğu"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "A handy Morph-generating button"
+msgstr "hazır morf oluşturma tuşu"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label"
+msgstr "etiket"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label that positions itself"
+msgstr "kendiliğinden yerleşen etiket"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A new button flap"
+msgstr "yeni tuş bayrağı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "A rectangle with text, or a button"
+msgstr "yazılı ya da tuşlu dikdörtgen"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A simple shape with a context menu"
+msgstr "içerik menüsü şekli"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "AP Adjuster"
+msgstr "AP ayarlayıcısı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Basic Shape"
+msgstr "basit şekil"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "ButtonBar"
+msgstr "tuş takımı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "Connector"
+msgstr "bağlayıcı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "ConnectorArrow"
+msgstr "bağlayıcı ok"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy Connector"
+msgstr "bükümlü bağlayıcı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy ConnectorArrow"
+msgstr "bükümlü bağlayıcı ok"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Display text that you can move"
+msgstr "hareket ettirebileceğiniz metni düzenle."
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCLabelMorph>>initializeToStandAlone,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Label"
+msgstr "etiket"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "Maker Button"
+msgstr "yapıcı tuş"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "New Button Flap"
+msgstr "yeni tuş bayrağı"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Smart Label"
+msgstr "akıll etiket"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Text Rectangle"
+msgstr "Metin dikdörtgeni"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "This lets you adjust the attachment points on a dropped Morph"
+msgstr "büyütülmüş morfda eklenme noktalarını düzenlemenizi sağlar."
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCGrabbableDisplayTextMorph_class>>authoringPrototype,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Title"
+msgstr "başlık"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A state transition for UML State Diagrams"
+msgstr "UML durum grafiği için durum geçişi"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML composite state shape"
+msgstr "UML oluşumlu durum hali"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML end state shape"
+msgstr "UML son durum hali"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape"
+msgstr "UML durum hali"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape with scrollbars"
+msgstr "UML durum hali kaydırma çubuğu"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML start state shape"
+msgstr "UML başlangıç durum hali"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Composite State"
+msgstr "oluşum hali"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "End State"
+msgstr "son durum"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Scrolled State"
+msgstr "sarılı durum"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Start State"
+msgstr "başlangıç durumu"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "State"
+msgstr "durum"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "State Transition"
+msgstr "durum geçişi"
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "balloon-help font..."
+msgstr "balon yardım yazısı fontu..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "Connectors label font..."
+msgstr "bağlayıcı etiket fontu..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "code font..."
+msgstr "kod fontu..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "default text font..."
+msgstr "varsayılan metin fontu..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "flaps font..."
+msgstr "kanat fontu..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "list font..."
+msgstr "font listele..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "menu font..."
+msgstr "menü fontu..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "window-title font..."
+msgstr "pencere-başlık fontu..."
+

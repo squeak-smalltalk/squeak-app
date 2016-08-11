@@ -1,0 +1,280 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-26 23:20-0000\n"
+"PO-Revision-Date: 2012-03-09 00:51+0200\n"
+"Last-Translator: Luis Valente <is.valente@gmail.com>\n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Sugar\n"
+"X-Etoys-SystemVersion: etoys5.0 of 26 March 2012 update 2403\n"
+
+#: Sugar,SugarDatastoreDirectory>>createDirectory:,SugarDatastoreDirectory>>deleteDirectory:,SugarDatastoreDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "operação não suportada"
+
+#: Sugar,SugarDatastoreDirectory>>deleteFileNamed:
+msgid "Use the journal to delete entries"
+msgstr "Use o Diário para apagar suas entradas"
+
+#: Sugar,SugarDatastoreDirectory>>moniker
+msgid "Journal"
+msgstr "Diário"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "make XO bundle"
+msgstr "construir pacote XO"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "wrap as an OLPC XO bundle"
+msgstr "empacotar como pacote OLPC XO"
+
+#: Sugar,SugarLauncher_class>>wrapAsXOBundle:
+msgid "Making bundle"
+msgstr "Construir pacote"
+
+#: Sugar,SugarLauncher>>badgeFlap,SugarLauncher>>deleteBadges
+msgid "Buddies"
+msgstr "Amigos"
+
+#: Sugar,SugarLauncher>>chooser:response:,SugarLauncher>>resumeJournalEntry:
+msgid "untitled"
+msgstr "sem título"
+
+#: Sugar,SugarLauncher>>createJournalEntryFor:filename:mimetype:
+msgid "Etoys"
+msgstr "Etoys"
+
+#: Sugar,SugarLauncher>>handleStream:mimetype:titled:
+msgid "Cannot open {1}"
+msgstr "Não foi possível abrir {1}"
+
+#: Sugar,SugarLauncher>>invite:
+msgid "Inviting buddy ..."
+msgstr "A convidar parceiro ..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Joining activity ..."
+msgstr "A aderir à atividade ..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Looking for shared activity ..."
+msgstr "À procura de atividade partilhada ..."
+
+#: Sugar,SugarLauncher>>open:title:mimetype:
+msgid "Opening journal entry"
+msgstr "Abrindo entrada no Diário"
+
+#: Sugar,SugarLauncher>>quit
+msgid ""
+"Are you sure you want to quit Etoys?\n"
+"(the project will NOT be saved)"
+msgstr ""
+"Tem a certeza que deseja sair do Etoys?\n"
+"(O projecto não irá ser guardado)"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Etoys Project"
+msgstr "Projeto Etoys"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Unnamed"
+msgstr "Sem nome"
+
+#: Sugar,SugarNavigatorBar_class>>current,SugarNavigatorBar_class>>putUpInitialBalloonHelp,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Sugar Navigator Flap"
+msgstr "Aba de Navegação do Sugar"
+
+#: Sugar,SugarNavigatorBar_class>>findAnythingMorph
+msgid "Find..."
+msgstr "Procurar..."
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "File Dialog"
+msgstr "Diálogo de Ficheiros"
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "The list of files and directories"
+msgstr "A lista de ficheiros e pastas"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Present a virtual display that approximates the actual OLPC display in resolution, centered within the actual Squeak display window."
+msgstr ""
+"Mostra um ecrã virtual que se aproxima em resolução do ecrã real de um OLPC, "
+"que fica centralizado dentro da janela do Squeak."
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Scale the Squeak display so that it appears to have the same resolution as an OLPC display.  If you resize the Squeak window to approximate the physical dimensions of the real OLPC display, this will result in an appearance that closely resembles the appearance on an OLPC screen."
+msgstr ""
+"Muda a escala da tela do Squeak de forma que ela pareça ter a mesma "
+"resolução de um ecrã OLPC. Se mudar o tamanho da janela do Squeak de forma "
+"que se aproxime das dimensões físicas do ecrã de um OLPC, resultará num "
+"visual muito próximo do ecrã real do laptop."
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Use the normal Squeak display, without applying any special scaling."
+msgstr ""
+"Utilizar a tela padrão do Squeak sem aplicar nenhuma alteração de escala "
+"especial."
+
+#: Sugar,SugarNavigatorBar>>buildAndOpenHelpFlap,SugarNavigatorBar>>toggleHelp
+msgid "Help"
+msgstr "Ajuda"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "FIND"
+msgstr "PROCURA"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "Find an entry in the Journal.  Hold mouse button down for further options."
+msgstr ""
+"Procurar uma entrada no Journal.  Mantenha o botão premido para mais opções."
+
+#: Sugar,SugarNavigatorBar>>buttonHideNavBar
+msgid "hide the tool bar"
+msgstr "esconder a barra de ferramentas"
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "Keep a copy of the current project in the Journal. Hold mouse button down for further options."
+msgstr ""
+"Guardar uma cópia do projeto atual no Jounal. Manteha o rato premido para "
+"mais opções."
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "PUBLISH IT!"
+msgstr "PUBLIQUE!"
+
+#: Sugar,SugarNavigatorBar>>buttonLanguage
+msgid "Click here to choose your language."
+msgstr "Clique aqui para escolher a sua língua."
+
+#: Sugar,SugarNavigatorBar>>buttonPaint
+msgid "Make a painting"
+msgstr "Fazer uma pintura"
+
+#: Sugar,SugarNavigatorBar>>buttonShare
+msgid "Enable sharing. When another user joins, you can exchange objects."
+msgstr ""
+"Permitir partilha. Quando outro utilizador se juntar, pode trocar objetos."
+
+#: Sugar,SugarNavigatorBar>>buttonShowNavBar
+msgid "show the tool bar"
+msgstr "mostrar a barra de ferramentas"
+
+#: Sugar,SugarNavigatorBar>>buttonStop
+msgid "Quit Etoys (with saving)"
+msgstr "Sair do Etoys(O Projecto irá ser guardado)"
+
+#: Sugar,SugarNavigatorBar>>buttonUndo
+msgid "Undo the last change"
+msgstr "Desfazer a última alteração"
+
+#: Sugar,SugarNavigatorBar>>buttonZoom
+msgid "Click here to toggle using the full screen."
+msgstr "Clique para alternar para ecrã inteiro."
+
+#: Sugar,SugarNavigatorBar>>chooseScreenSetting
+msgid "display mode"
+msgstr "modo da tela"
+
+#: Sugar,SugarNavigatorBar>>makeBadgeLabelIn:
+msgid "Make a Badge"
+msgstr "Fazer uma Divisa"
+
+#: Sugar,SugarNavigatorBar>>makeMyNeighborhoodLabelIn:
+msgid "My Neighborhood"
+msgstr "Minha Vizinhança"
+
+#: Sugar,SugarNavigatorBar>>makePrivateLabelIn:
+msgid "Private"
+msgstr "Privado"
+
+#: Sugar,SugarNavigatorBar>>paintButtonInitialExplanation
+msgid ""
+"To start,\n"
+"click here\n"
+"to create\n"
+"a new\n"
+"painting."
+msgstr ""
+"Para iniciar,\n"
+"clique aqui\n"
+"para criar\n"
+"um novo\n"
+"desenho."
+
+#: Sugar,SugarNavigatorBar>>projectNameFieldBalloonHelp
+msgid ""
+"This is the name of current project.\n"
+"You can edit it as well."
+msgstr ""
+"Este é o nome do projeto atual.\n"
+"Também o pode editar."
+
+#: Sugar,SugarNavigatorBar>>setEdge:,SugarNavigatorBar>>setupSuppliesFlap,SugarNavigatorBar>>toggleSupplies,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Supplies"
+msgstr "Suprimentos"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Centered Virtual Extent"
+msgstr "Extensão Virtual Centralizada"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "No Scaling"
+msgstr "Não usa escala"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Scaled Virtual Extent"
+msgstr "Extensão virtual em escala"
+
+#: Sugar,SugarNavigatorBar>>stringForFullScreenToggle
+msgid "Full Screen"
+msgstr "Ecrã inteiro"
+
+#: Sugar,SugarNavigatorBar>>suppliesButtonInitialExplanation
+msgid ""
+"Or, click to see Supplies.  \n"
+"Choose an object or \n"
+"choose the Object Catalog for more choices."
+msgstr ""
+"Ou, click para ver os acessórios.  \n"
+"Escolha um objeto ou \n"
+"escolha o Catálogo de Objetos para mais opções."
+
+#: Sugar,SugarNavigatorBar>>toggleHelp
+msgid "There are no QuickGuides installed"
+msgstr "Não se encontram instalados nenhum Guia Rápido"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "cor..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "destruir este flap"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "altura..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "cor de destaque..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "usar o visual cinza padrão"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "usa o visual verde padrão"
+
+#: Sugar,SugarNavTab>>wording
+msgid "Sugar Navigation Flap"
+msgstr "Aba de navegação do Sugar"

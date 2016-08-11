@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:28-0000\n"
+"PO-Revision-Date: 2010-08-27 15:28-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Network\n"
+
+
+#: Network-Kernel,InternetConfiguration_class>>initialize
+msgid "If true, set http proxy automatically on startUp. Only works on MacOS X for now"
+msgstr ""
+
+#: Network-Kernel,NetNameResolver_class>>promptUserForHostAddressDefault:
+msgid "Host name or address?"
+msgstr "El nom o l'adreça del servidor."
+
+#: Network-Protocols,HTTPSocket_class>>httpShowPage:
+msgid "Document could not be fetched"
+msgstr "No s'ha pogut desar el document '<1>'."
+
+#: Network-Protocols,HTTPSocket_class>>retry:asking:ifGiveUp:
+msgid "Retry\\Give Up"
+msgstr "Avança els subtítols"
+
+#: Network-RemoteDirectory,PRServerDirectory>>createDirectory:,PRServerDirectory>>deleteFileNamed:,PRServerDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "L'ordre no és compatible"
+
+#: Network-RemoteDirectory,PRServerDirectory>>queryProjectsAndShow:,PRServerDirectory>>writeProject:inFileNamed:fromDirectory:
+msgid "Server responded: {1}"
+msgstr "El servidor de correu %S ha respost:"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid "Enter a new file name"
+msgstr "Introduïu un nom p&er al nou perfil:"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "Upload for {1} did not succeed ({2})."
+msgstr "L'ordre USER no ha tingut èxit."
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "(uploading {1}...)"
+msgstr "S'està pujant"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>showQueryAsPVM:
+msgid "No projects found for your criteria"
+msgstr ""
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "Server responded "
+msgstr "El servidor de correu %S ha respost:"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "(uploading "
+msgstr "S'està pujant"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "...)"
+msgstr ""
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "An editor for the http proxy settings"
+msgstr ""
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "http proxy editor"
+msgstr "Detalls del servidor intermediari de HTTP"
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Proxy Server Named: '{1}' port: {2}."
+msgstr "Port del servidor intermediari de nivell superior:"
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Stop using Proxy Server."
+msgstr "S'ha rebutjat la connexió al servidor intermediari"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept"
+msgstr "Accepta"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept the proxy settings"
+msgstr "Connecta ignorant la configuració del servidor intermediari"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel"
+msgstr "Cancel.lar"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel the proxy settings"
+msgstr "Connecta ignorant la configuració del servidor intermediari"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Port:"
+msgstr "Port del servidor:"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Server Name:"
+msgstr "Nom del servidor:"
+
+#: Network-UI,HTTPProxyEditor>>initialize
+msgid "HTTP Proxy Editor"
+msgstr "Detalls del servidor intermediari de HTTP"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this attachment"
+msgstr "Veure el fitxer adjunt en línia"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this image attachment"
+msgstr "Crea una nova vista per a aquesta imatge en una altra finestra"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "\\save this attachment"
+msgstr "Anomena i desa l'adjunt..."
+

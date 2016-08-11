@@ -1,0 +1,4957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:06-0000\n"
+"PO-Revision-Date: 2010-08-27 16:06-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Morphic\n"
+
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "choose new graphic"
+msgstr "yeni grafik seç"
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "grab new graphic"
+msgstr "yeni grafik al"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change first color"
+msgstr "ilk rengi değiştir"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change second color"
+msgstr "ikinci rengi değiştir"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "linear gradient"
+msgstr "doğrusal geçişleme"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "radial gradient"
+msgstr "merkezsel geçişleme"
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change orientation"
+msgstr "yönü değiştir"
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change origin"
+msgstr "merkezi değiştir"
+
+#: Morphic-Basic,AlignmentMorph_class>>columnPrototype
+msgid "Things dropped into here will automatically be organized into a column. Once you have added your own items here, you will want to remove the sample colored rectangles that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr "Buraya düşen şeyler otomatik olarak bir sütunda düzenlenir. Bir kere kendi öğelerinizi buraya eklediğinizde, başlangıçta olan örnek renkli dikdörtgenleri kaldırmak isteyeceksiniz ve yardım kutusunu kendi öğelerinizden biriyle değiştirmek isteyeceksiniz!"
+
+#: Morphic-Basic,AlignmentMorph_class>>rowPrototype
+msgid "Things dropped into here will automatically be organized into a row. Once you have added your own items here, you will want to remove the sample colored eggs that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr "Buraya düşen şeyler otomatik olarak satırda düzenlenir. Bir kere kendi öğelerini buraya eklediğinizde, başlangıçta olan renkli taslağı kaldırmak isteyeceksiniz ve yardım kutusunu kendi öğelerinizden biriyle değiştirmek isteyeceksiniz!"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "A circular shape"
+msgstr "Yuvarlak bir şekil"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "An attachment point for Connectors that you can embed in another Morph."
+msgstr "Başka bir morfun içine koyabileceğiniz bağlayıcı ekleme noktası."
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Circle"
+msgstr "Daire"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "Bağlayıcılar"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,LineMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Graphics"
+msgstr "Grafikler"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Pin"
+msgstr "Pin"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
+msgstr "Hareket eden düzgün eğridir ya da katı eğik. noktayı hareket ettirmek ve elle kontrol için shift tuşuna basarak tıkla. Halo menüsünü kullanarak, bunu çokgene çevirebilirsiniz veya \"açık\" hale getirebilirsin."
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,JoystickMorph_class>>descriptionForPartsBin,PasteUpMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Basic"
+msgstr "temel"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "Curve"
+msgstr "eğri"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin
+msgid "An elliptical or circular shape"
+msgstr "oval ya da yuvarlak şekil"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Ellipse"
+msgstr "oval"
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "A non-editable picture.  If you use the Paint palette to make a picture, you can edit it afterwards."
+msgstr "Düzenlenemeyen resim. Resim yapmak için boyama aracını kullanırsan, sonrasında resmi düzenleyebilirsin."
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "Image"
+msgstr "resim"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "A non-editable picture of something"
+msgstr "düzenleme yapılamayan resim"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "Picture"
+msgstr "Resim"
+
+#: Morphic-Basic,ImageMorph>>opacityString
+msgid "opaque"
+msgstr "ışık geçirmeyen"
+
+#: Morphic-Basic,ImageMorph>>readFromFile
+msgid "Please enter the image file name"
+msgstr "resim dosya adını gir."
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "A straight line.  Shift-click to get handles and move the ends."
+msgstr "Düz çizgi. Noktayı hareket ettirmek ve elle kontrol etmek için shift-tıkla."
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "Line"
+msgstr "Satır"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "extract this frame"
+msgstr "bu kareyi çıkar..."
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "movie..."
+msgstr "film..."
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "next frame"
+msgstr "diğer çerçeve"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play loop"
+msgstr "döngüyü oynat."
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play once"
+msgstr "bir kere oynat."
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "previous frame"
+msgstr "önceki çerçeve"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "stop playing"
+msgstr "oynatmayı durur"
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "A series of connected line segments, which may be a closed solid, or a zig-zag line.  Shift-click to get handles and move the points."
+msgstr "Birbirine bağlı doğru parçası serisi. Kapalı ya da zik-zak çizen bir çizgi haline gelebilir. Elle kontrol etmek ve noktaları hareket ettirmek için shift-tıkla."
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "Polygon"
+msgstr "Çokgen"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "customize arrows"
+msgstr "okları ihtiyaca göre düzenle."
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "specify dashed line"
+msgstr "çizgili çizgiyi belirt."
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "standard arrows"
+msgstr "standart oklar"
+
+#: Morphic-Basic,PolygonMorph>>customizeArrows:
+msgid ""
+"Move cursor left and right\n"
+"to change arrow length and style.\n"
+"Move it up and down to change width.\n"
+"Click when done."
+msgstr "Okun uzunluğunu ve stilini değiştirmek için imleci sağa sola oynat. Genişliğini değiştirmek için yukarı aşağı oynat. Onay için tıkla."
+
+#: Morphic-Basic,PolygonMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "işaretçileri göster"
+
+#: Morphic-Basic,PolygonMorph>>openOrClosePhrase
+msgid "closed"
+msgstr "kapalı"
+
+#: Morphic-Basic,PolygonMorph>>smoothPhrase
+msgid "curve"
+msgstr "eğri"
+
+#: Morphic-Basic,PolygonMorph>>specifyDashedLine
+msgid ""
+"Enter a dash specification as\n"
+"{ major dash length. minor dash length. minor dash color }\n"
+"The major dash will have the normal border color.\n"
+"A blank response will remove the dash specification.\n"
+"[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
+"where the 4th ityem is zero, and the 5th is the number of pixels\n"
+"by which the dashes will move in each step of animation]"
+msgstr "kısa çizgi tanımlamasını { ana kısa çizgi uzunluğu. küçük çizgi uzunluğu. küçük kısa çizgi rengi} olarak gir. ana kısa çizgi normal sınır renginde olacaktır. boş yanıt, kısa çizgi düzenlemelerini siler. [not: 5 parça verebilirsin, örneğin {10. 5. beyaz renk. 0. 3} burada dördüncü parça sıfırdır ve beşinci parça çözünürlük numarasıdır. bununla kısa çizgiler animasyonun her adımında hareket eder."
+
+#: Morphic-Basic,RectangleMorph_class>>descriptionForPartsBin
+msgid "A rectangular shape, with border and fill style"
+msgstr "kontur ve istenen stiliyle dikdörtgen şekil"
+
+#: Morphic-Basic,SketchMorph_class>>defaultNameStemForInstances
+msgid "Sketch"
+msgstr "Çizim"
+
+#: Morphic-Basic,SketchMorph>>addBorderToShape:
+msgid "Please enter the desired border width"
+msgstr "lütfen istenen kontur genişliğini gir."
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "call this my base graphic"
+msgstr "ana grafiğim olarak adlandır"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "choose new graphic..."
+msgstr "yeni grafik seç..."
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "restore base graphic"
+msgstr "ana grafiği düzenle"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "set as background"
+msgstr "arka plan olarak belirle"
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid ""
+"oops, this menu is a for a morph that\n"
+"has been replaced, probably because a\n"
+"\"look like\" script was run.  Please dismiss\n"
+"the menu and get a new one!.  Sorry!"
+msgstr ""
+"Üzgünüz! bu menü morf için yapılmıştı, \n"
+"muhtemelen değişti. \n"
+"lütfen menüyü sil ve yeni bir\n"
+"tane oluştur!"
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic
+msgid "this already *was* your baseGraphic"
+msgstr "zaten ana grafikte var"
+
+#: Morphic-Basic,SketchMorph>>collapse
+msgid "A collapsed version of {1}.  Click to open it back up."
+msgstr ""
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "choose the color you want to replace"
+msgstr "değiştirmek istediğiniz rengi seç"
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "now choose the color you want to replace it with"
+msgstr "şimdi bununla değiştirmek istediğiniz rengi seç"
+
+#: Morphic-Basic,SketchMorph>>reduceColorPalette:
+msgid ""
+"Please enter a number greater than one.\n"
+"(note: this cannot be undone, so answer zero\n"
+"to abort if you need to make a backup first)"
+msgstr "Lütfen 1'den büyük bir sayı seç. (not: geri alması yok, yedekleme yapmaya ihtiyacınız varsa şimdi sıfır yaz)."
+
+#: Morphic-Basic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid "This object is *already* showing its baseGraphic"
+msgstr "bu nesne zaten ana grafiğini gösteriyor"
+
+#: Morphic-Basic,SketchMorph>>useInterpolationString
+msgid "smooth image"
+msgstr "düz resim"
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change emphasis"
+msgstr "vurguyu değiştir."
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change font"
+msgstr "fontni değiştir."
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A  data field which will have a different value on every card of the background"
+msgstr "Arka planın her kartında farklı bir değeri olan data alanı. "
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A piece of text that will occur on every card of the background"
+msgstr "Arka planın her kartında görünen metin parçası"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A text field with a rounded shadowed border, with a fancy font."
+msgstr "Yuvarlak ve gölgeli sınırı olan süslü yazı tipli metin alanı."
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Field"
+msgstr "Arka plan alanı"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Label"
+msgstr "Arka plan etiketi"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Fancy Text"
+msgstr "süslü yazı"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Simple Text"
+msgstr "Basit yazı"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you wish"
+msgstr "istediğiniz yere ekleyebileceğiniz bir metin"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add predecessor"
+msgstr "önce geleni ekle"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add successor"
+msgstr "sonra geleni ekle"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane menu..."
+msgstr "kod bölmesinin menüsü ..."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane shift menu..."
+msgstr "kod bölmesinin kaydırma menüsü..."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "fill owner's shape"
+msgstr "kullanıcı'nın şeklini doldur"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "follow owner's curve"
+msgstr "kullanıcı'nın eğrisini takip et"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "holder for characters"
+msgstr "karakterler dosyası"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "rectangular bounds"
+msgstr "dikdörtgen sınırlar"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "reverse direction"
+msgstr "ters yön"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "set baseline"
+msgstr "ana hatları oluştur."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text margins..."
+msgstr "metin kenar boşlukları..."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text properties..."
+msgstr "metin özellikleri..."
+
+#: Morphic-Basic,TextMorph>>addFillStyleMenuItems:hand:
+msgid "text color..."
+msgstr "yazı rengi..."
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, bounds are automatically adjusted to fit the contents."
+msgstr "İşaretlendiğinde, sınırlar içeriğe uymak için otomatik olarak uyarlanırlar."
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, contents will automatically be translated upon a locale change"
+msgstr "kontrol edildiğinde, içerikler otomatik olarak lokal değişikliğe tercüme edilirler"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, text is automatically wrapped to fit horizontally within the boundaries specifed."
+msgstr "İşaretlendiğinde, metin belirlenen sınırlara uymak için otomatik olarak sarılır."
+
+#: Morphic-Basic,TextMorph>>addTextMenuItemsTo:event:
+msgid "font for entire text..."
+msgstr "tüm metin için font..."
+
+#: Morphic-Basic,TextMorph>>addTranslationItemsTo:
+msgid "translations..."
+msgstr "çeviriler..."
+
+#: Morphic-Basic,TextMorph>>autoFitString
+msgid "text auto fit"
+msgstr "yazı otomatik uyumu"
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid ""
+"Move cursor down and to the right\n"
+"to increase margin inset.\n"
+"Click when done."
+msgstr "Kenar boşluğu ekini arttrmak için imleci aşağı ve sağa oynat. Bitince tıkla."
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid "margin change for "
+msgstr "kenar boşluğunu değiştir."
+
+#: Morphic-Basic,TextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "Font seç:"
+
+#: Morphic-Basic,TextMorph>>translatableString
+msgid "translatable"
+msgstr "çevrilebilir"
+
+#: Morphic-Basic,TextMorph>>wrapString
+msgid "text wrap to bounds"
+msgstr "yazının sınırlara sıkıştırılması"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn off smoothing"
+msgstr "yumuşatmayı kapat"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn on smoothing"
+msgstr "yumuşatmayı aç"
+
+#: Morphic-Books,QuickGuideHolderMorph>>load
+msgid "guide is missing"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>loadPages,QuickGuideMorph>>showDescriptionMenu:
+msgid "Index"
+msgstr "içerik"
+
+#: Morphic-Books,QuickGuideMorph>>loadPages
+msgid "index"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Menu to see another Guide"
+msgstr "diğer rehberi görmek için kullanılan menü"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Next page"
+msgstr "diğer sayfa"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Previous page"
+msgstr "önceki sayfa"
+
+#: Morphic-Books,QuickGuideMorph>>showDescriptionMenu:
+msgid "Quick Guides"
+msgstr "hızlı rehber"
+
+#: Morphic-Components,ComponentLayout>>addCustomMenuItems:hand:
+msgid "inspect model in morphic"
+msgstr "kontrol modeli"
+
+#: Morphic-Components,FunctionComponent>>addCustomMenuItems:hand:
+msgid "add pin"
+msgstr "kişisel kimlik numarası ekle."
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model"
+msgstr "herşeyi örneğe yerleştir."
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model slots"
+msgstr "herşeyi örnek kısımlara yerleştir"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model"
+msgstr "mouse'u aşağı çekmeyi örnekle"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model slot"
+msgstr "örnek kısma mouse'u aşağı çekmeyi yerleştir"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model"
+msgstr "mouse'u hareket ettirmeyi örnekle"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model slot"
+msgstr "mouse'u hareket ettirmeyi örnek kısma yerleştir"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseDown selector..."
+msgstr "mouseAşağı seçicisini belirle..."
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseMove selector..."
+msgstr "mouseHareket seçicisini belirle..."
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseUp selector..."
+msgstr "mouseYukarı seçicisini belirle..."
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "An example of how to use double-click in moprhic"
+msgstr "çift-tıklamayı gösteren örnek"
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "DoubleClick"
+msgstr "çift tıklama"
+
+#: Morphic-Demo,DoubleClickExample>>balloonText
+msgid ""
+"Double-click on me to change my color; \n"
+"single-click on me to change border color;\n"
+"hold mouse down within me and then move it to grow \n"
+"(if I'm red) or shrink (if I'm blue)."
+msgstr ""
+"rengimi değiştirmek için çift tıkla;\n"
+"kontur rengini değiştirmek için tek tıkla;\n"
+"büyütmek(kırmızıysam) ya da küçültmek (maviysem)\n"
+"için mouse'u üzerimde aşağıda tutup hareket ettir."
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "An extreme-wide-angle lens"
+msgstr "çok-geniş-açılı lensler"
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "FishEye"
+msgstr "balık gözü"
+
+#: Morphic-Demo,FishEyeMorph>>chooseMagnification
+msgid "Magnification is fixed, sorry."
+msgstr "Büyütme oranı sabittir, üzgünüm."
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "An eye which follows the cursor"
+msgstr "İmleci takip eden göz"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "Just for Fun"
+msgstr "eğlence için"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "MovingEye"
+msgstr "hareketli göz"
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "An analog clock face"
+msgstr "Analog saat yüzü"
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "Clock"
+msgstr "saat"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to change the font used to display the numbers."
+msgstr "Numaraları göstermek için kullanılan fontu değiştirmenize izin verir."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color for the hands of the watch.  Note that actual *watch* color can be changed simply by using the halo's recoloring handle."
+msgstr "Saatin kolları için yeni bir renk seçmene imkan sağlar. Gerçek *saat* rengi sadece halo'nun renklendirme tablosuyla da değiştirilebilir."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color to be used during PM hours for the center portion of the watch; during AM hours, a lighter shade of the same color will be used."
+msgstr "Saatin merkez kısmı için öğleden sonra saatlerde kullanılmak üzere renk seçmene imkan sağlar; sabah saatlerinde ise, aynı rengin daha hafif ve gölgeli biçimi kullanılır."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change center color..."
+msgstr "merkez rengini değiştir..."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change font..."
+msgstr "fontu değiştir..."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change hands color..."
+msgstr "ellerin rengini değiştir..."
+
+#: Morphic-Demo,WatchMorph>>antiAliasString
+msgid "anti-aliasing"
+msgstr "uyuşmayan"
+
+#: Morphic-Demo,WatchMorph>>romanNumeralString
+msgid "roman numerals"
+msgstr "roma rakamları"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid " Mouse-down action"
+msgstr "mouse'u aşağıya kaydırma hareketi"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid "If the button is to act when the mouse goes down"
+msgstr "mouse aşağıya giderken tuş hareket ederse"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid " Mouse-up action"
+msgstr "mouse'u yukarıya taşıma hareketi"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid "If the button is to act when the mouse goes up"
+msgstr "mouse yukarıya giderken tuş hareket ederse"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonSelectorReport
+msgid "Action: "
+msgstr "hareket:_"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Drop another morph here to change the target and action of this button. (Only some morphs will work)"
+msgstr "hedefi ve bu tuşun hareketini değiştirmek için buraya başka bir morf bırak. (sadece bazı morflar çalışır)"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Target: "
+msgstr "hedef:_"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid " Mouse-down look "
+msgstr "mouse-aşağı görünümü_"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse is clicked in it."
+msgstr "Mouse içinde tıklatıldığında tuşun görünümünü değiştirmek için buraya başka bir morf bırak."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid " Mouse-enter look "
+msgstr "mouse-giriş görünümü_"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse enters it."
+msgstr "Mouse içeri girdiğinde tuşun görünümünü değiştirmek için buraya başka bir morf bırak."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid " Change morph "
+msgstr "Morfu değiştir"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid "Drop another morph here to change the visual appearance of this button. Or click here to get a menu of possible replacement morphs."
+msgstr "Bu tuşun görünümünü değiştirmek için buraya başka bir morf bırak. Diğer seçenekleri menüde görmek için buraya tıkla."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownColorPicker
+msgid "mouse-down halo color"
+msgstr "mouse-aşağı halo rengi"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownHaloWidth,ButtonPropertiesMorph>>paneForMouseOverHaloWidth
+msgid "Drag in here to change the halo width"
+msgstr "halo genişliğini değiştirmek için buraya bırak."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseOverColorPicker
+msgid "mouse-over halo color"
+msgstr "mouse-üzerinde halo rengi"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForRepeatingInterval
+msgid "Drag in here to change how often the button repeats while the mouse is down"
+msgstr "mouse aşağıdayken tuş tekrarının sıklığını değiştirmek için buraya bırak."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid " Mouse-down repeating "
+msgstr "mouse-aşağı tekrar_"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid "Turn repeating while mouse is held down on or off"
+msgstr "mouse aşağıdayken tekrarı aç ya da kapat."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid " Mouse-over highlighting"
+msgstr "mouse-üzerinde vurgulama"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid "Turn mouse-over highlighting on or off"
+msgstr "mouse-üzerinde vurgulamayı aç ya da kapat."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "Kabul"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Add label"
+msgstr "Etiket ekle"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "add some text to the button"
+msgstr "tuşa bazı metinler ekle"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Button Properties for {1}"
+msgstr "{1} için tuş özellikleri"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel"
+msgstr "İptal"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "yapılan değişiklikleri iptal et ve paneli kapat."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "yapılan değişiklikleri kaydet ve paneli kapat."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Main"
+msgstr "Ana"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "open a main properties panel for the morph"
+msgstr "morf için ana özellikler panelini aç."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,Morph>>balloonHelpTextForHandle:
+msgid "Remove"
+msgstr "Çıkar"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Remove label"
+msgstr "etiketi çıkar."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove text from the button"
+msgstr "yazıyı tuştan çıkar."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove the button properties of this morph"
+msgstr "bu morfun tuş özelliklerini çıkar."
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseDownHaloWidth
+msgid "mouse-down halo width: "
+msgstr "mouse-aşağı halo genişliği"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseOverHaloWidth
+msgid "mouse-over halo width: "
+msgstr "mouse-üzerinde halo genişliği"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForRepeatingInterval
+msgid "interval: "
+msgstr "aralık:"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>buildPanel
+msgid "Etoys is trying to open your web browser.\\If it does not work, you can sign up at:\\\\"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel this login operation."
+msgstr "Yayınlama işlemini iptal et."
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please enter your login name"
+msgstr "lütfen oturum açma adını gir."
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please make the name 24 characters or less"
+msgstr "Lütfen 24 ya da daha az karakterli bir isim oluştur."
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please remove any funny characters"
+msgstr "lütfen komik tüm karakterleri çıkar."
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton2
+msgid "Close this dialog"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>rebuild
+msgid "Login to Squeakland"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>okButton2,FreeCellStatistics>>makeOkButton
+msgid "OK"
+msgstr "Tamam"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Password:"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Username:"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "(create account)"
+msgstr ""
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "ChineseCheckers"
+msgstr "çin daması"
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "Halma - the classic board game of Chinese Checkers, written by Dan Ingalls"
+msgstr "Halma- klasik çin daması oyunu, Dan Ingalls tarafından yazılmıştır."
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "animate moves"
+msgstr "hamle yap."
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "don't animate moves"
+msgstr "hamle yapma."
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:,Tetris>>makeGameControls
+msgid "new game"
+msgstr "yeni oyun"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "reset..."
+msgstr "sıfırla..."
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many humans?"
+msgstr "kaç insan?"
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many players?"
+msgstr "kaç oyuncu?"
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "Cipher"
+msgstr "şifre"
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "The Cipher Panel: A playground for cryptograms, by Dan Ingalls"
+msgstr "şifre paneli: şifre ile yazılı oyun tipi, Dan Ingalls tarafından."
+
+#: Morphic-Games,CipherPanel_class>>randomComment
+msgid "none"
+msgstr "hiçbiri"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "clear cipher typing"
+msgstr "şifrelemeyi temizle."
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "enter a new cipher"
+msgstr "yeni bir şifre gir."
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "quote from Squeak"
+msgstr "Squeak'tan alıntı"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher help"
+msgstr "şifre yardımını göster."
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher hints"
+msgstr "şifre ipuçlarını göster."
+
+#: Morphic-Games,CipherPanel>>buttonRow
+msgid "clear typing"
+msgstr "yazıyı temizle."
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show help"
+msgstr "yardımı göster."
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show hints"
+msgstr "ipuçlarını göster."
+
+#: Morphic-Games,CipherPanel>>clearTyping,CipherPanel>>encodedQuote:,CrosticPanel>>clearTyping
+msgid "Are you sure you want to discard all typing?"
+msgstr "tüm yazıları çıkarmak istediğinizden emin misin?"
+
+#: Morphic-Games,CipherPanel>>enterANewCipher
+msgid "Type a cipher text to work on here below..."
+msgstr "Burada çalışmak için şifre yazısı yaz..."
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid "About the Cipher Panel"
+msgstr "şifre paneli hakkında"
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid ""
+"The Cipher Panel displays an encrypted message.  The encryption is a simple substitution code;  each letter of the alphabet has been changed to a different one.\n"
+"\n"
+"You can solve the cipher by clicking above any letter in the message, and typing the letter you think it should be.  The Cipher Panel automatically makes the same substitution anywhere else that letter occurs in the encoded message.\n"
+"\n"
+"If you are having trouble, you can use the command menu to 'show cipher hints'.  That will display how many of each letter occurs, which is often a help in solving ciphers."
+msgstr ""
+"Şifre paneli şifreli mesajları gösterir. Bu şifreleme basit bir yerdeğiştirme şeklindedir. Alfabedeki her harf başka bir tanesiyle yer değişir. \n"
+"\n"
+"Şifreyi çözmek için mesajın üzerindeki herhangi bir harfin üzerine tıklayarak ve olması gerektiğini düşündüğünüz harfi buraya yazabilirsin.  Şifre paneli otomatik olarak aynı yerdeğiştirmeyi harfin bulunduğu başka yerlerde de yapar. \n"
+"\n"
+"Eğer bir sorun yaşıyorsanız, 'şifre ipuçlarını göster' menü linkine tıklayabilirsin. Bu size her harfin kaç kez göründüğünü gösterir ki şifreyi çözmek için genelde yararlıdır."
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"Most bodies of english text follow a general pattern of letter usage.  The following are the most common letters, in approximate order of frequency:\n"
+"\tE  T  A  O  N  I  R  S  H\n"
+"The following are the most common digraphs:\n"
+"\tEN  ER  RE  NT  TH  ON  IN\n"
+"\n"
+"The message you are trying to decode has the following specific statistics:"
+msgstr "pek çok ingilizce metin genel bir harf kullanım modeli izler. _ aşağıdakiler en çok kullanılan harflerdir, yaklaşık sıklık düzeninde: E T A O N I R S Haşağıdakiler en yaygın tek sesli harflerdir:EN ER RE NT TH ON INşifresini çözmeye çalıştığınız mesajın belirli istatistikleri aşağıdadır:"
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid "Some Useful Statistics"
+msgstr "bazı yararlı istatistikler"
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"\n"
+"\n"
+"Good luck!"
+msgstr ""
+"\n"
+"\n"
+"bol şans!"
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "Crostic"
+msgstr "crostic"
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "The Crostic Panel: A classic word diagram game, by Dan Ingalls"
+msgstr "crostic panel: Dan Ingalls'ın klasik kelime grafik oyunudur."
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "clear crostic typing"
+msgstr "crostic yazıyı temizle."
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "open crostic file..."
+msgstr "crostic dosyayı aç..."
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic errors"
+msgstr "crostic hataları göster."
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic help"
+msgstr "crostic yardımı göster."
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic hints"
+msgstr "crostic ipuçlarını göster."
+
+#: Morphic-Games,CrosticPanel>>buttonRow,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "clear"
+msgstr "temizle."
+
+#: Morphic-Games,CrosticPanel>>buttonRow,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>openMenu
+msgid "open..."
+msgstr "aç..."
+
+#: Morphic-Games,CrosticPanel>>buttonRow
+msgid "show errors"
+msgstr "hataları göster."
+
+#: Morphic-Games,CrosticPanel>>initializeToStandAlone,CrosticPanel_class>>newFromFile:
+msgid "mal-formed crostic file"
+msgstr "tekrar oluşturulmuş crostic dosya"
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Is it OK to discard this crostic?"
+msgstr "bu crostic'i atıyor muyuz?"
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Select a Crostic File..."
+msgstr "Crostic puzzle dosyası seç..."
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid "About the Crostic Panel"
+msgstr "crostic panel hakkında"
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid ""
+"The Crostic Panel presents an acrostic puzzle for solution.  As you type in answers for the clues, the letters also get entered in the text of the hidden quote.  Conversely, as you guess words in the quote, those letters will fill in missing places in your answers.  In addition, the first letters of all the answers together form the author's name and title of the work from which the quote is taken.\n"
+"\n"
+"If you wish to make up other acrostic puzzles, follow the obvious file format in the sampleFile method.  If you wish to print an acrostic to work it on paper, then change the oldStyle method to return true, and it will properly cross-index all the cells.\n"
+"\n"
+"Have fun."
+msgstr "Crostic paneli, çözüm için bir akrostik yapbozu temsil eder. _ ipucu için cevaplara yazdığınız gibi, harfler gizli alıntının içine de girebilirler. _ tersine, alıntıdaki harfleri tahmin etmeniz gibi, bu harfler cevaplarınızdaki boş yerleri dolduracaklardır. _ayrıca, tüm cevapların ilk harfleri beraber yazarın adını ve alıntının alındığı çalışmanın başlığını oluştururlar. başka acrostik yapbozlar da yapmak isterseniz, 'örnek dosya' metodundaki belli dosay formatınıtakip et. _ kağıt üzerinde acrostic yapbozu yapmak isterseniz, 'eski stil'metodunu doğruya geç olarak değiştir ve böylece tüm parçalara geçer. iyi eğlenceler"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"As hints, you will be given the five longest answers.\n"
+"Do you really want to do this?"
+msgstr "İpuçlarında, size en uzun beş cevap verilecektir. bunu gerçekten istiyor musun?"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Crostic Hints"
+msgstr "crostik ipuçları"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Good luck!"
+msgstr "bol şans!"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"The five longest answers are...\n"
+msgstr ""
+"En uzun beş cevap gösteriliyor... \n"
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "A unique solitaire card game"
+msgstr "tek solitaire kart oyunu"
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "FreeCell"
+msgstr "freecell"
+
+#: Morphic-Games,FreeCell>>helpText
+msgid ""
+"The objective of FreeCell is to move all of the cards to the four \"home cells\" in the upper right corner.  Each home cell will hold one suit and must be filled sequentially starting with the Ace.\n"
+"\n"
+"There are four \"free cells\" in the upper left corner that can each hold one card.  Cards can be moved from the bottom of a stack to a free cell or to another stack.  \n"
+"\n"
+"When moving a card to another stack, it must have a value that is one less than the exposed card and of a different color."
+msgstr "freecell oyununun amacı tüm kartları sağ üstteki kutularına toplamaktır. _her kutu kendi cinsini barındırır ve as'tan başlayarak toplanmalıdır. sol üstte dört boş kutu vardır, bunlar birer tane tutabilirler. _kartlar bir sıranın aşağısından bu soldaki kutulardan birine alınabilirler ya da başka bir sıranın sonuna taşınabilirler. bir kartı başka bir sıraya taşırken, kartın değeri gideceği sıradaki kartın değerinden bir az olmalı ve farklı bir renkte olmalıdır."
+
+#: Morphic-Games,FreeCell>>help
+msgid "FreeCell Help"
+msgstr "freecell yardım"
+
+#: Morphic-Games,FreeCell>>makeCardsRemainingDisplay
+msgid "Cards Left: "
+msgstr "soldaki kartlar:_"
+
+#: Morphic-Games,FreeCell>>makeElapsedTimeDisplay
+msgid "Elapsed Time: "
+msgstr "geçen zaman:_"
+
+#: Morphic-Games,FreeCell>>makeGameNumberDisplay
+msgid "Game #: "
+msgstr "oyun #:_"
+
+#: Morphic-Games,FreeCell>>makeHelpButton,Morph>>balloonHelpTextForHandle:,SameGame>>makeControls
+msgid "Help"
+msgstr "yardım"
+
+#: Morphic-Games,FreeCell>>makeNewGameButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "New game"
+msgstr "yeni oyun"
+
+#: Morphic-Games,FreeCell>>makePickGameButton
+msgid "Pick game"
+msgstr "oyun seç."
+
+#: Morphic-Games,FreeCell>>makeQuitButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "Quit"
+msgstr "çıkmak"
+
+#: Morphic-Games,FreeCell>>makeSameGameButton
+msgid "Same game"
+msgstr "aynı oyun"
+
+#: Morphic-Games,FreeCell>>makeStatisticsButton
+msgid "Statistics"
+msgstr "istatistikler"
+
+#: Morphic-Games,FreeCell>>promptForSeed
+msgid ""
+"Pick a game number between 1 and 32000.\n"
+"or\n"
+"set the hardness of the next game by typing 'H 30'.\n"
+"Above 100 is very hard.  Zero is standard game.\n"
+"Current hardness is: "
+msgstr ""
+"1 ile 32. 000 arasında bir oyun numarası seç.\n"
+"ya da\n"
+"'H 30' yazarak bir sonraki oyunun zorluk seviyesini belirle. \n"
+"100 üzeri çok zordur. Sıfır standart oyundur. \n"
+"Şu andaki zorluk derecesi:"
+
+#: Morphic-Games,FreeCellBoard>>pickGame:
+msgid ""
+"Game #1 is a special case\n"
+"for performance analysis"
+msgstr "oyun#1 performans analizi için özel bir durumdur."
+
+#: Morphic-Games,FreeCellStatistics>>display
+msgid "FreeCell Statistics"
+msgstr "freecell istatistikleri"
+
+#: Morphic-Games,FreeCellStatistics>>makeResetButton
+msgid "Reset"
+msgstr "sıfırlamak"
+
+#: Morphic-Games,FreeCellStatistics>>printReplaysOn:
+msgid "With replays: "
+msgstr "tekrarlı:_"
+
+#: Morphic-Games,FreeCellStatistics>>printSessionOn:
+msgid "This session: "
+msgstr "bu bölüm:_"
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Current: "
+msgstr "şimdiki:_"
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Streaks: "
+msgstr "süre:_"
+
+#: Morphic-Games,FreeCellStatistics>>printTotalOn:
+msgid "Total: "
+msgstr "toplam:_"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " loss"
+msgstr "kayıp"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " losses"
+msgstr "zararlar"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " win"
+msgstr "kazanmak"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " wins"
+msgstr "kazananlar"
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Find those mines"
+msgstr "mayınları bul."
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Mines"
+msgstr "mayınlar"
+
+#: Morphic-Games,Mines>>helpString
+msgid ""
+"Mines is a quick and dirty knock-off of the Minesweeper game found on Windows. I used this to teach myself Squeak. I liberally borrowed from the <SameGame> example, so the code should look pretty familiar, though like any project it has rapidly ...morphed... to reflect my own idiosyncracies. Note especially the lack of any idiomatic structure to the code - I simply haven't learned them yet.\n"
+"\n"
+"Mines is a very simple, yet extremely frustrating, game to play. The rules are just this: there are 99 mines laid down on the board. Find them without \"\"finding\"\" them. Your first tile is free - click anywhere. The tiles will tell you how many mines are right next to it, including the diagonals. If you uncover the number '2', you know that there are two mines hidden in the adjacent tiles. If you think you have found a mine, you can flag it by either 'shift' clicking, or click with the 'yellow' mouse button. Once you have flagged all of the mines adjacent to a numbered tile, you can click on the tile again to uncover the rest. Of course, you could be wrong about those too... \n"
+"\n"
+"You win once you have uncovered all of the tiles that do not contain mines. Good luck...\n"
+"\n"
+"David A. Smith\n"
+"dastrs@bellsouth.net"
+msgstr "mayınlar, windows'ta bulunan hızlı bir mayın bulma oyunudur. ben bunu kendime Squeak'ı öğretmek için kullanıyorum. <aynı oyun>örneğinden ödünç aldım, bu yüzden şifre çok benzer olmalıydı, benim kendi mizacımı yansıttığı halde herhangi bir proje gibi hızlı canlandırılıyor. şifrenin deyimsel yapısının eksikliğini dikkate al-henüz bunları öğrenemedim. mayınlar çok basit ve heyecanlı bir oyundur. kurallar sadece şunlardır: oyun panosunun altında 99 mayın var. Bunları üzerlerine tıklamadan bulmaya çalış. İlk hamlenizi panoda istediğiniz yere yapabilirsin. Hamleler diagonel olarak çevrenizde kaç mayın olduğunu gösterir. 2 numarasını açarsanız, bitişik kutulardan iki tanesinde mayın olduğunu anlarsın. bir mayının yerini bulduğunuzu düşünüyorsanız, 'shift' tuşuna basarak ya da 'sarı' mouse tuşunu tıklayarak buraya bir flep koyabilirsin. numaralandırılmış bir kutunun çevresindeki tüm mayınları fleple gösterdiğinizde, gerisini açmak için numaralı kutuya tekrar tıklayabilirsin. tabiki, bunları yaparken hata yapmış da olabilirsin... mayın içermeyen tüm kutuları açtığınızda oyunu kazanırsın. İyi şanslar... David A. Smithdastrs@bellsouth. net"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "  New game  "
+msgstr "Yeni oyun"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Mines:"
+msgstr "mayınlar:"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Time:"
+msgstr "zaman:"
+
+#: Morphic-Games,PlayingCard_class>>initialize
+msgid "corrupted imageData"
+msgstr "bozuk resim datası"
+
+#: Morphic-Games,PlayingCardDeck>>acceptDroppingMorph:event:
+msgid "move card"
+msgstr "kartı hareket ettir."
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "A board game implementedby Tim Olson, based on a game originally written for UNIX by Eiji Fukumoto."
+msgstr "Tim Olson tarafından tamamlanan pano oyunu. Temeli UNIX için Eiji Fukumoto tarafından yazılan orijinal bir oyuna dayanmaktadır."
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "Same"
+msgstr "aynı"
+
+#: Morphic-Games,SameGame>>helpString
+msgid ""
+"The object of SameGame is to maximize your score by removing tiles from the board.  Tiles are selected and removed by clicking on a tile that has at least one adjacent tile of the same color (where adjacent is defined as up, down, left, or right).\n"
+"\n"
+"The first click selects a group of adjacent tiles, a second click in that group will remove it from the board, sliding tiles down and right to fill the space of the removed group.  If you wish to select a different group, simply click on it instead.\n"
+"\n"
+"The score increases by \"(selection - 2) squared\", so you want to maximize the selection size as much as possible.  However, making small strategic selections may allow you to increase the size of a later selection.\n"
+"\n"
+"If you are having a hard time finding a group, the \"Hint\" button will find one and select it for you (although it is likely not the best group to select!).\n"
+"\n"
+"When there are no more groups available, the score display will flash with your final score.  Your final score is reduced by 1 for each tile remaining on the board.  If you manage to remove all tiles, your final score is increased by a bonus of 5 times the number of tiles on a full board.\n"
+"\n"
+"Come on, you can beat that last score!  Click \"New game\"  ;-)\n"
+"\n"
+"SameGame was originally written by Eiji Fukumoto for UNIX and X; this version is based upon the same game concept, but was rewritten from scratch."
+msgstr "SameGame oyununun amacı, kutuları panodan kaldırarak puanını arttırmaktır. _ bitişiğinde en az bir tane aynı renkte kutu olan kutuların üstüne tıklayarak seçebilir ya da kaldırabilirsiniz(bitişik üst, alt, sol, sağ anlamındadır. )ilk tıklama bitişikteki kutuları seçer, bu gruptaki ikinci tıklama bunu panodan siler, kutuları aşağı ve sağa kaydırarak boş kalan yerleri doldurabilirsin. _başka bir grup seçmek için onun üzerine tıklamanız yeterli. puan \"(seçim-2)tam\"ile yükselir, bu yüzden seçim boyutunu mümkün olduğunca arttırmaya çalışırsın. _fakat, küçük stratejik seçimler yapmak size sonraki seçimin boyutunu büyütmenize imkan sağlayabilir. bir grup bulmakta zorlanıyorsanız, \"ipucu\" tuşu bir tane bulur ve sizin için bunu seçer(tabiki en iyi grubu seçmez!)fazladan grup yoksa, puan östergesi sizin son puanınızı gösterir. _panoda kalan her kutu için puanınızdan 1 düşülür. _tüm kutuları silmeyi başarırsanız, son puanınız tüm panodaki kutuların 5katı kadar bonus puanla artar. hadi, bu son puanı yakalayabilirsiniz!_ \"yeni oyun\"a tıkla_;)aynı oyun orijinal olarak Eiji Fukumoto tarafından UNIX ve X için yazılmıştır; bu versiyonu aynı oyun konseptine dayanıyor fakat scratch'ten tekrar yazılmıştır."
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Hint"
+msgstr "ipucu"
+
+#: Morphic-Games,SameGame>>makeControls,Tetris>>showScoreDisplay
+msgid "Score:"
+msgstr "puan:"
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Selection:"
+msgstr "seçim:"
+
+#: Morphic-Games,SameGameBoard>>removeSelection
+msgid "remove selection"
+msgstr "seçimi kaldır."
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris"
+msgstr "tetris"
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris, yes Tetris"
+msgstr "tetris, evet tetris"
+
+#: Morphic-Games,Tetris>>makeGameControls
+msgid "pause"
+msgstr "mola"
+
+#: Morphic-Games,Tetris>>makeGameControls,TheWorldMenu>>buildWorldMenu
+msgid "quit"
+msgstr "çıkış"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "drop"
+msgstr "iptal etmek"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the left"
+msgstr "sola kaydır."
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the right"
+msgstr "sağa kaydır."
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate anticlockwise"
+msgstr "saat yönünün tersine çevir."
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate clockwise"
+msgstr "saat yönünde çevir."
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "A fine game of chess"
+msgstr "satranç oyunu"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "Chess"
+msgstr "satranç"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin,ChineseCheckers_class>>descriptionForPartsBin,CipherPanel_class>>descriptionForPartsBin,CrosticPanel_class>>descriptionForPartsBin,FreeCell_class>>descriptionForPartsBin,Mines_class>>descriptionForPartsBin,SameGame_class>>descriptionForPartsBin
+msgid "Games"
+msgstr "oyunlar"
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Auto  "
+msgstr ""
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Help  "
+msgstr "yardım"
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  New  "
+msgstr ""
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Play  "
+msgstr "oynat."
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Quit  "
+msgstr "çıkmak"
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Redo  "
+msgstr ""
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Undo  "
+msgstr ""
+
+#: Morphic-Games-Chess,ChessMorph>>findBestMove
+msgid "I suggest: "
+msgstr "tavsiye ediyorum:_"
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border"
+msgstr "kontur"
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border color..."
+msgstr "kontur rengi..."
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border style..."
+msgstr "kontur biçimi..."
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border width..."
+msgstr "kontur genişliği..."
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid "border change"
+msgstr "kontur değişikliği"
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+"Kontur genişliğini arttırmak için\n"
+"oku bu noktadan uzağa taşı. \n"
+"Onay için tıkla."
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "yükle."
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,Morph_class>>serviceLoadMorphFromFile
+msgid "load as morph"
+msgstr "morf olarak yükle."
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "child layout"
+msgstr "yavru anahat"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "horizontal resizing"
+msgstr "yatay tekrar biçimlendirme"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "vertical resizing"
+msgstr "düşey tekrar biçimlendirme"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy Postscript"
+msgstr "Postskripti kopyala."
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy text"
+msgstr "metni kopyala."
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy to paste buffer"
+msgstr "arabelleği yapıştırmak için kopyala."
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:
+msgid "copy & print..."
+msgstr "kopyala & yazdır..."
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "print Postscript to file..."
+msgstr "Postscript'i dosyaya bas..."
+
+#: Morphic-Kernel,Morph>>addDebuggingItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>debugMenu
+msgid "debug..."
+msgstr "hata ayıklama..."
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "drop shadow"
+msgstr "gölgeyi kaldır."
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow color..."
+msgstr "gölge rengi..."
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow offset..."
+msgstr "Gölge kayması..."
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "desktop"
+msgstr "masa üstü"
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "embed into"
+msgstr "içine yerleşmek"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "BMP file"
+msgstr "BMP dosya"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "export..."
+msgstr "dışarı aktar..."
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "GIF file"
+msgstr "GIF dosyası"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "JPEG file"
+msgstr "JPEG dosyası"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "PNG file"
+msgstr "PNG dosyası"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "bitmap fill"
+msgstr "nokta esaslı doldurma"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:
+msgid "change color..."
+msgstr "renk değiştir..."
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "default fill"
+msgstr "geçerli doldurma"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,TextMorph>>addFillStyleMenuItems:hand:
+msgid "fill style"
+msgstr "doldurma biçimi"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "gradient fill"
+msgstr "Geçişli doldurma"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "solid fill"
+msgstr "aralıksız doldurma"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the color of this object"
+msgstr "bu nesnenin rengini değiştir."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the size of this object"
+msgstr "bu nesnenin boyutunu değiştir."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Delete this object -- warning -- can be destructive!"
+msgstr "bu nesneyi silmek--dikkat--yıkıcı olabilir!"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "delete"
+msgstr "sil."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "duplicate"
+msgstr "çoğalt"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "grab"
+msgstr "kavramak"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a copy of this object"
+msgstr "bu nesnenin bir kopyasını bana yedekle."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a tile represting this object"
+msgstr "Bu nesneyi temsil eden bir karo belirle."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "halo actions..."
+msgstr "halo etkileri..."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Make a new sibling of this object and hand it to me"
+msgstr "bu nesnenin kardeşini kopyalayıp bana kaydet."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "make a sibling"
+msgstr "kardeşini oluştur "
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a property sheet for me. Allows changing lots of stuff at once."
+msgstr ""
+"Benim için bir özellik kağıdı aç.\n"
+"Bir kerede pek çok değişiklik \n"
+"yapmanıza olanak sağlar."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a tool that will facilitate tile scripting of this object."
+msgstr "bu nesnenin karo betiklemesini kolaylaştıran bir araç aç."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a Viewer that will allow everything about this object to be seen and controlled."
+msgstr "Bu nesne hakkında herşeyi görebilmenize ve kontrol edebilmenize imkan veren bir gösterici aç."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open an Inspector on this object"
+msgstr "bu nesnenin bir denetleyicisini aç."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Pick this object up -- warning, since this removes it from its container, it can have adverse effects."
+msgstr "bu nesneyi yakala --dikkat, bu hareket nesnenin asıl yerini değiştirdiği için, ters etkileri de olabilir."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "property sheet"
+msgstr "özellik kağıdı"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "resize"
+msgstr "tekrar biçimlendirmek"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "set color"
+msgstr "renk belirle."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile browser"
+msgstr "karo tarayıcı"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile representing this object"
+msgstr "Bu nesneyi temsil edecek bir karo yap"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "viewer"
+msgstr "gösterici"
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "change layout inset..."
+msgstr "anahat iç boşluğunu değiştir..."
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "layout"
+msgstr "anahat"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock all contents"
+msgstr "tüm içeriklerin kilidini aç."
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock \"{1}\""
+msgstr "\"{1} kilitsiz"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock..."
+msgstr "kilit aç..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "add mouse up action"
+msgstr "mouse'u yukarı taşıma hareketi ekle."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "adhere to edge..."
+msgstr "kenara yapış..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "arrowheads on pen trails..."
+msgstr "kalem izlerinde ok uçları..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "balloon help for this object"
+msgstr "bu nesne için ekranda balon içinde çıkan yardım"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "delete existing path"
+msgstr "var olan yolu sil."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "draw new path"
+msgstr "yeni bir yol çiz."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "extras..."
+msgstr "ekstralar..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "follow existing path"
+msgstr "var olan yolu izle"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "GeeMail stuff..."
+msgstr "Geemail ilintili..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "hand me tiles to fire this button"
+msgstr "bu karoyu çalıştırmak için bir buton ekle "
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "put in a window"
+msgstr "bir pencereye koy."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "remove mouse up action"
+msgstr "mouse'u yukarı kaldırma hareketini sil."
+
+#: Morphic-Kernel,Morph>>addMorphFrontFromWorldPosition:
+msgid "add slot for {1}"
+msgstr "{1} için yer ekle."
+
+#: Morphic-Kernel,Morph>>addMouseUpAction
+msgid "MouseUp expression:"
+msgstr "mouse yukarı hareketinin anlamı"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "add a border around this shape..."
+msgstr "bu şeklin çevresine kontur ekle..."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "erase pixels of color"
+msgstr "rengin çözünürlüğünü sil."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "insert into movie"
+msgstr "filmin içine ekle."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "painting..."
+msgstr "boyama..."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "recolor pixels of color"
+msgstr "rengin çözünürlüğünü tekrar renklendir."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reduce color palette"
+msgstr "renk paletini azaltın."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "repaint"
+msgstr "tekrar boyamak"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reset forward-direction"
+msgstr "ileriye yönelmeyi sıfırla."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "restore original aspect ratio"
+msgstr "orijinal açı oranını tekrar düzenle."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "set rotation center"
+msgstr "dönüş merkezi belirle."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "set rotation style"
+msgstr "dönüş biçimi belirle."
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "bring to front"
+msgstr "öne getir."
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "embed..."
+msgstr "gömmek.."
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "present a menu of potential embeddeding targets for this object, and embed it in the one chosen."
+msgstr "bu nesne için yerleştirilecek potansiyel hedeflerinin bir menüsünü göster ve bunu seçilenin içine yerleştir."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell positioning"
+msgstr "ünite yerleştirmesi"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell spacing"
+msgstr "ünite boşluğu"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change cell inset..."
+msgstr "kenarla içerik arasındaki boşluğu değiştir..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change max cell size..."
+msgstr "maksimum hücre boyutunu değiştir..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change min cell size..."
+msgstr "minimum hücre boyutunu değiştir..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list centering"
+msgstr "listenin ortalama yöntemi"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list direction"
+msgstr "liste yönü"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list spacing"
+msgstr "boşluğu listele."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:,Morph>>hasTableLayoutString
+msgid "table layout"
+msgstr "tablo anahatları"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap centering"
+msgstr "sarma merkezi"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap direction"
+msgstr "sarma yönü"
+
+#: Morphic-Kernel,Morph>>addTextAnchorMenuItems:hand:
+msgid "text anchor"
+msgstr "metin sabitleyici"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "when \"locked\", I am inert to all user interactions"
+msgstr "kilitlendiğinde, tüm kullanıcı paylaşımlarına hareketsiz kalırım."
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether direction handles are shown with the halo"
+msgstr "yön tuşlarının halo'yla birlikte gösterilip gösterilmediği"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I am open to having objects dropped into me"
+msgstr "İçime bırakılan nesneleri almaya hazır olup olmadığım"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be reistant to easy deletion via the pink X handle"
+msgstr "pembe x tuşuyla kolay silinmeye karşı dirençli olup olmamam gerektiği"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be resistant to a drag done by mousing down on me"
+msgstr "mouse'u üzerimde aşağı kaydırmayla sürüklenmeye karşı dirençli olup olmamam gerektiği"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether my corners should be rounded"
+msgstr "köşelerimin yuvarlak olup olmaması gerektiği"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether the parts of objects within me that are outside my bounds should be masked."
+msgstr "Benimle yapışık olan nesnelerin dışımda kalan parçalarının maskelenip maskelenmediği. "
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom"
+msgstr "alt"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom left"
+msgstr "sol alt"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom right"
+msgstr "sağ alt"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "center"
+msgstr "merkez"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "left"
+msgstr "sol"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "right"
+msgstr "sağ"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top"
+msgstr "üst"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top left"
+msgstr "sol üst"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top right"
+msgstr "sağ üst"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Center of rotation (hold down shift key and drag to change it)"
+msgstr "dönmenin merkezi (shift tuşunu basılı tut ve değiştirmek için sürükle. )"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change color (press shift for more properties)"
+msgstr "renk değiştir (daha çok özellik için shift tuşuna bas)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change font"
+msgstr "fontni değiştir."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change scale"
+msgstr "ölçeği değiştir."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change size (press shift to preserve aspect)"
+msgstr "Boyutu değiştir (oranı korumak için shift tuşuna bas)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change style"
+msgstr "biçimi değiştir."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose a new graphic"
+msgstr "yeni grafik seç."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose forward direction"
+msgstr "ileri yönelimi seç."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Collapse"
+msgstr "Küçült"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Debug (press shift to inspect morph)"
+msgstr "hata ayıklamak ( morfu denetlemek için shift tuşuna bas)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate"
+msgstr "çoğaltmak"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate (press shift to make a sibling)"
+msgstr "Çoğalt (kardeş oluşturmak için shift tuşuna bas)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Emphasis & alignment"
+msgstr "vurgu & hizalama"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Fewer halo handles"
+msgstr "daha az halo tuşu"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a scratch script"
+msgstr "scratch betiği yap."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling"
+msgstr "Bir kardeş oluştur"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling (press shift to make simple duplicate)"
+msgstr "Bir kardeş oluştur (basit çoğaltma yapmak için shift tuşuna bas)."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a tile representing this object"
+msgstr "Bu nesneyi temsil edecek bir karo yap"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Menu"
+msgstr "menü"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "More halo handles"
+msgstr "daha çok halo tuşu"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move"
+msgstr "Taşı"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move to trash"
+msgstr "Çöpe at"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Open a Viewer for me"
+msgstr "benim için bir gösterici aç."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint background"
+msgstr "arka planı boya."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint new object"
+msgstr "yeni bir nesne boya."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Pick up"
+msgstr "Yakala"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Present the Viewing menu"
+msgstr "gösterge menüsünü göster."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Property Sheet (press shift for simple recolor)"
+msgstr "özellikler listesi (yeniden renklendirmek için shift tuşuna bas)."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Remove from screen"
+msgstr "ekrandan kaldır."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Repaint"
+msgstr "tekrar boyamak"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Rotate"
+msgstr "Döndür"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "See the script for this button"
+msgstr "bu tuş için betiği göster."
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Set center of rotation"
+msgstr "dönüş merkezini belirle."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "control-menu..."
+msgstr "kontrol menüsü..."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore model"
+msgstr "model araştırmak"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore morph"
+msgstr "morf araştırmak"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "inspect model"
+msgstr "modeli kontrol etmek"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph"
+msgstr "morfu kontrol et"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph (in MVC)"
+msgstr "morfu kontrol et (MVC içinde)"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect owner chain"
+msgstr "kullanıcı zincirini kontrol etmek"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect player"
+msgstr "oynatıcıları kontrol etmek"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect properties"
+msgstr "özellikleri kontrol etmek"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "internal name "
+msgstr "iç isim_"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "make own subclass"
+msgstr "kendi yan sınıfını yapmak"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "model protocol"
+msgstr "model kuralı"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "morph protocol"
+msgstr "morf kuralı"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a Viewer on this Morph, rather than on its Player"
+msgstr "oynatıcının üzerinde açmak yerine bu morfda bir gösterici aç."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a viewer on my Player -- this is the same thing you get if you click on the cyan \"View\" halo handle"
+msgstr "Oynatıcmın üzerinde bir gösterge aç--cam göbeği rengindeki \"görünüm\" halo tuşuna basmakla da aynı şeyi elde edersin."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "save morph in file"
+msgstr "morfu bir dosyaya kaydet."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start drawing again"
+msgstr "çizime yeniden başla."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start stepping again"
+msgstr "yürümeye tekrar başla."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Morph"
+msgstr "morf için gösterici"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Player"
+msgstr "oynatıcı için gösterici"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "add halo"
+msgstr "halo ekle."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "attach to resource"
+msgstr "kaynağa ekle."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "become this world's model"
+msgstr "bu sahnenin modeli yap."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "browse hierarchy"
+msgstr "sıralamaya göz at."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "explore"
+msgstr "araştırmak"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "go behind"
+msgstr "aslını araştırmak"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save as resource"
+msgstr "kaynak olarak kaydet."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save morph as prototype"
+msgstr "morfu prototip olarak kaydet."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set variable name..."
+msgstr "değişken isimi ata..."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "show actions"
+msgstr "hareketleri göster."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "submorphs..."
+msgstr "alt morflar..."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "update from resource"
+msgstr "kaynaktan güncelle."
+
+#: Morphic-Kernel,Morph>>dismissViaHalo
+msgid "dismiss "
+msgstr "çıkarmak_"
+
+#: Morphic-Kernel,Morph>>editBalloonHelpContent:
+msgid "Edit the balloon help text for "
+msgstr "balon içindeki yardım metnini düzenle."
+
+#: Morphic-Kernel,Morph>>editMenuButtonDefinition
+msgid " menu definition"
+msgstr "menü tanımı"
+
+#: Morphic-Kernel,Morph>>embedInto:
+msgid "Embed {1} into..."
+msgstr "{1}i içine yerleştir..."
+
+#: Morphic-Kernel,Morph>>exportAsBMP,Morph>>exportAsGIF,Morph>>exportAsJPEG,Morph>>exportAsPNG
+msgid "Please enter the name"
+msgstr "lütfen isim gir."
+
+#: Morphic-Kernel,Morph>>hasClipLayoutCellsString
+msgid "clip to cell size"
+msgstr "ünite boyutunu kırp."
+
+#: Morphic-Kernel,Morph>>hasClipSubmorphsString
+msgid "provide clipping"
+msgstr "kırpmayı sağla."
+
+#: Morphic-Kernel,Morph>>hasDirectionHandlesString
+msgid "direction handles"
+msgstr "yön tuşları"
+
+#: Morphic-Kernel,Morph>>hasDisableTableLayoutString
+msgid "disable layout in tables"
+msgstr "tablodaki anahat düzenini iptal et"
+
+#: Morphic-Kernel,Morph>>hasDocumentAnchorString
+msgid "Document"
+msgstr "döküman"
+
+#: Morphic-Kernel,Morph>>hasDragAndDropEnabledString
+msgid "accept drops"
+msgstr "iptal etmeyi kabul et"
+
+#: Morphic-Kernel,Morph>>hasDropShadowString
+msgid "show shadow"
+msgstr "gölgeyi göster."
+
+#: Morphic-Kernel,Morph>>hasInlineAnchorString
+msgid "Inline"
+msgstr "sıralı"
+
+#: Morphic-Kernel,Morph>>hasNoLayoutString
+msgid "no layout"
+msgstr "anahat düzeni yok"
+
+#: Morphic-Kernel,Morph>>hasParagraphAnchorString
+msgid "Paragraph"
+msgstr "paragraf"
+
+#: Morphic-Kernel,Morph>>hasProportionalLayoutString
+msgid "proportional layout"
+msgstr "orantılı anahat düzeni"
+
+#: Morphic-Kernel,Morph>>hasReverseCellsString
+msgid "reverse table cells"
+msgstr "ters tablo ünitesi"
+
+#: Morphic-Kernel,Morph>>hasRubberBandCellsString
+msgid "rubber band cells"
+msgstr "lastik bant ünitesi"
+
+#: Morphic-Kernel,Morph>>helpButton
+msgid "click here for help"
+msgstr "yardım için buraya tıkla."
+
+#: Morphic-Kernel,Morph>>inspectMorphsProperties
+msgid "no properties to inspect, sorry"
+msgstr "kontrol edilecek bir özellik yok, üzgünüm."
+
+#: Morphic-Kernel,Morph>>lockedString
+msgid "be locked"
+msgstr "Kilitli olsun"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a background color"
+msgstr "arka plan rengi seç."
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a line color"
+msgstr "çizgi rengi seç."
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Enter grid size"
+msgstr "grid koordinat boyutu seç."
+
+#: Morphic-Kernel,Morph>>makeMultipleSiblings:
+msgid "how many siblings do you want?"
+msgstr "kaç kardeş yaratmak istiyorsunuz?"
+
+#: Morphic-Kernel,Morph>>maybeAddCollapseItemTo:
+msgid "collapse"
+msgstr "çökmek"
+
+#: Morphic-Kernel,Morph>>menuButton
+msgid "click here to get a menu with further options"
+msgstr "daha fazla seçenek içeren menüyü görmek için buraya tıkla."
+
+#: Morphic-Kernel,Morph>>noHelpString
+msgid "Help not yet supplied"
+msgstr "yardım henüz oluşturulmadı."
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "Choose orientation..."
+msgstr "Oryantasyon seç..."
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "File name? (\"{1}\" will be added to end)"
+msgstr "dosya adı? (\"{1} sona eklenecektir)"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid ""
+"portrait (tall)\n"
+"landscape (wide)"
+msgstr "düşey (uzun)yatay (geniş)"
+
+#: Morphic-Kernel,Morph>>resistsRemovalString
+msgid "resist being deleted"
+msgstr "silinmeye karşı dayanıklı"
+
+#: Morphic-Kernel,Morph>>roundedCornersString
+msgid "round corners"
+msgstr "yuvarlak köşeler"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "File name? (\".morph\" will be added to end)"
+msgstr "dosya adı? (\"morf\" sona eklenecektir)"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "my {1}"
+msgstr "benim {1}"
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid "morph's SqueakPage property is out of date"
+msgstr "morfun Squeak sayfası özelliğinin tarihi geçmiştir."
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid ""
+"url of a place to store this object.\n"
+"Must begin with file:// or ftp://"
+msgstr ""
+"bu nesnenin yerleştirileceği yerin url'si.\n"
+"file:// veya ftp:// ile başlamak zorundadır."
+
+#: Morphic-Kernel,Morph>>setArrowheads
+msgid "Head size for arrowheads: "
+msgstr "ok uçları için uç boyutu"
+
+#: Morphic-Kernel,Morph>>showEmbedMenu
+msgid "embed {1} in..."
+msgstr "{1}'i içine yerleştir..."
+
+#: Morphic-Kernel,Morph>>stickinessString
+msgid "resist being picked up"
+msgstr "Seçilmeye dirensin."
+
+#: Morphic-Kernel,Morph>>targetFromMenu:popupAt:
+msgid "Target for {1}"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>undoGrabCommand
+msgid "move "
+msgstr "hareket ettirmek_"
+
+#: Morphic-Kernel,Morph>>unlockOneSubpart
+msgid "Who should be be unlocked?"
+msgstr "kim kilitli olmalıdır?"
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "close editing"
+msgstr "düzenlemeyi kapat."
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "open editing"
+msgstr "düzenlemeyi aç."
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "A tool that lets you browse and load packages from SqueakMap, an index of Squeak code available on the internet"
+msgstr "Squeak haritasından paketler araştırıp yüklemenize olanak sağlayan araç, Squeak kodu göstergesi internette mevcuttur."
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "Package Loader"
+msgstr "Dosya yükleyici"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "appearance..."
+msgstr "görünüm..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "apply a graph-paper-like texture background to the desktop."
+msgstr "masa üstüne grafiksel-kağıt-benzeri dokulu arka plan uygula."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose the standard fonts to use for code, lists, menus, window titles, etc."
+msgstr "Kodlama, listeleme, menüler, pencere başlıkları vb. için standart bir font belirle."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color should be used for text highlighting in Morphic."
+msgstr "Metin vurgusu için morfik'de hangi rengin kullanılacağını seç."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for highlighting which pane has the keyboard focus"
+msgstr "hangi panelin klavye ayarında kullanıldığını vurgulamak için bir renk seç."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for the text insertion point in Morphic."
+msgstr "Metin ekleme noktası için morfik'de hangi rengin kullanılacağını seç."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose a uniform color to use as desktop background."
+msgstr "masa üstü arka planı olarak kullanmak için tek renk belirle."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose how many bits per pixel."
+msgstr "her pikselde kaç bit olduğunu belirle."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose second color to use as gradient for desktop background."
+msgstr "masa üstü arka planında kullanmak için geçişlemenin ikinci rengini belirle."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose the shape to be used in arrowheads on pen trails."
+msgstr "kalem çizimlerinde ok uçları yerine kullanılacak şekli belirle."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose theme..."
+msgstr "tema seç..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "clear turtle trails from desktop"
+msgstr "tanecik izlerini masa üstünden temizle."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen off"
+msgstr "tam ekranı kapat."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen on"
+msgstr "tam ekranı aç."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether menu colors should be derived from the desktop color."
+msgstr "Menü renklerinin masa üstü renginden türeyip türememesi gerektiğini yönetir."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether morphic windows and menus should have rounded corners."
+msgstr "Morfik pencerelerinin ve menülerin yuvarlak köşeli olup olmaması gerektiğini yönetir."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "if in full-screen mode, takes you out of it."
+msgstr "tam ekran modunda, sizi ekrandan atar."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "insertion point color..."
+msgstr "eklenti noktası rengi..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "keyboard focus color"
+msgstr "klavye ayar rengi"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Lets you specify colors for standard system windows."
+msgstr "standart sistem pencerelerinin renklerini seçmenizi sağlar."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Opens a \"Preferences Panel\" which allows you to alter many settings"
+msgstr "pek çok ayarı değiştirmenize olanak sağlayan \"tercihler paneli\" aç."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Presents you with a menu of themes; each item's balloon-help will tell you about the theme.  If you choose a theme, many different preferences that come along with that theme are set at the same time; you can subsequently change any settings by using a Preferences Panel"
+msgstr "Tema menüsünü gösterir; her temanın balon içindeki yardım yazısı temayı anlatır. Eğer bir tema seçersen, bu temayla beraber gelen bir sürü seçenek aynı anda kurulur; tercihler panelini kullanarak herhangi bir ayarı değiştirebilirsin."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "pen-trail arrowhead size..."
+msgstr "kalem izinde ok ucu boyutu"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "puts you in full-screen mode, if not already there."
+msgstr "tam ekran modunda değilseniz, sizi tam ekan moduna geçirir."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "remove any pigment laid down on the desktop by objects moving with their pens down."
+msgstr "Masa üstünde kalemi aşağı olan nesnelerin bıraktığı lekeleri kaldırır."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set desktop color..."
+msgstr "masaüstü rengini belirle..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set display depth..."
+msgstr "görüntüleme derinliğini belirle..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set gradient color..."
+msgstr "geçişleme rengini belirle..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "system fonts..."
+msgstr "sistem fontları..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "text highlight color..."
+msgstr "metin vurgu rengi..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "use texture background"
+msgstr "metinsel arka planı kullan."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "window colors..."
+msgstr "pencere renkleri..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of choices useful for authoring"
+msgstr "yönetim için yararlı menü seçenekleri"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of commands relating to use of projects"
+msgstr "projelerin kullanımıyla bağlantılı komut menüsü"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of options pertaining to this object as viewed as a playfield"
+msgstr "bu projeye ait oyun alanı gibi görünen seçenekler menüsü"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu relating to use of flaps.  For best results, use \"keep this menu up\""
+msgstr "Kanatları kullanmayla ilgili menü. En iyi sonuç için, \"menüyü yukarıda tut\" u kullan."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A tool for finding and obtaining many kinds of objects"
+msgstr "birçok değişik nesneyi bulmak ve elde etmek için kullanılan araç "
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "a menu of debugging items"
+msgstr "hata ayıklama menüsü"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>changesMenu
+msgid "changes..."
+msgstr "değişiklikler..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "do..."
+msgstr "yap..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "flaps..."
+msgstr "kanatlar..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>helpMenu
+msgid "help..."
+msgstr "yardım..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "new morph..."
+msgstr "yeni morf..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "Offers a variety of ways to create new objects"
+msgstr "yeni nesneler yaratmak için değişik yollar sunar."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "objects (o)"
+msgstr "nesneler (o)"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu
+msgid "open a code editor on the method that defines this menu"
+msgstr "metodta bu menüyü belirleyecek bir şifre düzenleyici aç."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "projects..."
+msgstr "projeler..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up a menu offering many controls over appearance."
+msgstr "görünüm üzerine birçok denetim öğesi sunabilecek bir menü koy."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up an editible list of convenient expressions, and evaluate the one selected."
+msgstr "Uygun ifadelerin değiştirilebilir listesini ortaya koy ve seçileni incele."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "puts up a menu of useful items for updating the system, determining what version you are running, and much else"
+msgstr "sistemi güncellemek için yararlı parçaların bir menüsünü koy, bu hangi versiyonu kullandığınızı ve bazı başka bilgileri almanıza olanak sağlar."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "windows..."
+msgstr "pencereler..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "give the current image a new version-stamped name and save it under that name on disk."
+msgstr "Şu anki imaja yeni bir versiyon-belirleme adı ver ve bu isimle diske kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "jump to project..."
+msgstr "projeye geç..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "load a project from a file"
+msgstr "dosyadan bir proje yükle "
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "load project from file..."
+msgstr "dosyadan proje yükle..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "previous project"
+msgstr "önceki proje"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "print PS to file..."
+msgstr "PS'i dosyaya yazdır..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "put up a list of all projects, letting me choose one to go to"
+msgstr "tüm projelerin bir listesini yap, bana da bakmam için bir tane seç."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "quit out of Squeak."
+msgstr "Squeak'ten çık."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
+msgstr "ekranı tekrar boya -- istenmeyen görüntüleri kaldırmak için yararlıdır."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "restore display (r)"
+msgstr "görüntüyü tekrar yerleştir (r)."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "return to the most-recently-visited project"
+msgstr "en çok bakılan projeye geri dön."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save"
+msgstr "kaydet"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save and quit"
+msgstr "kaydet ve çık."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as new version"
+msgstr "yeni versiyon olarak kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as..."
+msgstr "... farklı kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save project on file..."
+msgstr "projeyi dosyaya kaydet..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current image on disk, and quit out of Squeak."
+msgstr "şu anki imajı diske kaydet ve Squeak'tan çık."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk"
+msgstr "resmin şu anki versiyonunu diske kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk under a new name."
+msgstr "imajın şu anki versiyonunu yeni bir isimle diske kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save this project on a file"
+msgstr "bu projeyi bir dosyaya kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "write the world into a postscript file"
+msgstr "sahneyi dipnot dosyasına yaz."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "Brings an open change sorter to the front, creating one if necessary, and makes it the active window"
+msgstr "ön kısma açık bir değişiklik düzenleyici getirir, gerekli olursa yeni bir tane yaratır ve onu aktif pencere yapar."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse changed methods"
+msgstr "değişen metodlara göz at."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse recent submissions"
+msgstr "şu anki bildirilere göz at."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Check the current change set for halts, references to the Transcript, etc., and if any such thing is found, open up a message-list browser detailing all possible slips."
+msgstr "Şu anki duraklama değişikliklerini, transkriptleri referansları vb. kontrol et ve herhangi birşey bulursan, olası çözümleri içeren mesaj listesini aç."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a file holding the logged changes (going as far back as you wish), and open a window on that file."
+msgstr "Değişikliklerin kaydını içeren bir dosya yap (istediğiniz kadar geri gidebilirsiniz) ve bu dosyada bir pencere aç."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a new change set and make it the current one."
+msgstr "Yeni bir değişiklik seti oluştur ve onu şu an geçerli olan yap."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "check change set for slips"
+msgstr "internet modem protokolünün değişiklik setini kontrol et."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "create new change set..."
+msgstr "yeni bir değişiklik seti yarat..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "dual change sorter"
+msgstr "ikili değişiklik düzenleyici"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "file out current change set"
+msgstr "şu anki değişiklik setini dosyadan çıkar."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "find a change sorter (C)"
+msgstr "değişiklik düzenleyici bul (C)."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "find recent submissions (R)"
+msgstr "şu anki bildirimi bul (R)."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Isolate this project and its subprojects from the rest of the system.  Changes to methods here will be revoked when you leave this project."
+msgstr "Bu projeyi ve onun yan projelerini sistemin geri kalan kısmından ayır. Projeden ayrıldığınızda metodlardaki değişiklikler iptal edilecektir."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "isolate changes of this project"
+msgstr "bu projedeki değişiklikleri ayır."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Make an open recent-submissions browser be the front-window, expanding a collapsed one or creating a new one if necessary.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted, latest first.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions at the top of the browser."
+msgstr "açık yeni-bildirimler tarayıcısını ön pencere yap, ufak bir tanesini genişletiniz ya da gerekliyse yeni bir tane yarat. _ yeni-bildirimler tarayıcısı, sunulan en yeni metodları sondan başa doğru sıralayarak gösteren mesaj listesi tarayıcısıdır. _ eğer bu tarayıcı içinde değişiklikler sunarsanız, güncellenirler ve her zaman en yeni olan bilgileri en üstte tutarlar."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a 3-paned changed-set viewing tool"
+msgstr "3 panelli değişiklik seti gösterge aracını aç."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change sorter that shows you two change sets at a time, making it easy to copy and move methods and classes between them."
+msgstr "değişiklik sıralayıcı her seferde iki değişiklik gösterir. Aralarında metodlarla ve sınıfları kopyalanmaya kolay hale getirir."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change-list browser on the latter part of the changes log.  You can use this browser to recover logged changes which were not saved in your image, in the event of a crash or other interruption."
+msgstr "Değişiklik günlüğünün son kısmında değişiklik listesi tarayıcısı aç. Bu tarayıcıyı, bir hata sırasında ya da karışıklıkta imaja kaydedilmeyen çökme nedenei değişiklikleri tekrar bulmak için kullanabilirsin."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a message-list browser showing all methods in the current change set"
+msgstr "tüm metodları şu anki değişiklik setinde gösteren mesaj listesi tarayıcısı aç."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a new recent-submissions browser.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions."
+msgstr "yeni bir bildirim tarayıcısı aç. _ şu anki bildirim tarayıcısı, düzenlenen en son metodları gösteren mesaj listesi tarayıcısıdır. _ bu tarayıcı içinde değişiklikleri düzenlerseniz, güncellenirler ve her zaman en yeni bildirimi gösterirler."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "propagate changes upward"
+msgstr "değişiklikleri yukarıya doğru çoğalt."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recent log file..."
+msgstr "son günlük dosyası..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recently logged changes..."
+msgstr "güncedeki son değişiklikler.."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Save a file that, when reloaded, reconstitutes the current World."
+msgstr "Tekrar yüklendiğinde şu anki sahneyi tekrar oluşturabilecek bir dosya kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "save world as morph file"
+msgstr "sahneyi morf dosyası olarak kaydet"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "simple change sorter"
+msgstr "basit değişiklik düzenleyici"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "The changes made in this isolated project will propagate to projects up to the next isolation layer."
+msgstr "Bir tek bu projede yapılan değişiklikler bir sonraki ayırma bölümüne göre diğer projelere çoğaltılacaktır."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Write the current change set out to a file whose name reflects the change set name and the current date & time."
+msgstr "Şu anki değişiklik setini bir dosyaya yaz. Bu dosyanın adı değişiklik setinin adını ve şu anki tarih ve zaman ayarlarını yansıtsın."
+
+#: Morphic-Kernel,TheWorldMenu>>cleanUpWorld
+msgid ""
+"This will remove all windows except those\n"
+"containing unsubmitted text edits, and will\n"
+"also remove all non-window morphs (other\n"
+"than flaps) found on the desktop.  Are you\n"
+"sure you want to do this?"
+msgstr ""
+"Bu işlem, gönderilmemiş metin değişiklikleri içerenler \n"
+"hariç tüm pencereleri kapatır. Ayrıca pencerede \n"
+"olmayan tüm morfları da kapatır. (fleplerdan ayrı \n"
+"olarak). Bunu yapmk istediğinizden emin misin?"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "call #tempCommand"
+msgstr "geçici komut#'ı ara."
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "define #tempCommand"
+msgstr "geçici komut#'ı tanımla."
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "explore world"
+msgstr "sahneyi araştır"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "inspect world"
+msgstr "sahneyi incele"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "open process browser"
+msgstr "işlem tarayıcıyı aç."
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start MessageTally"
+msgstr "mesaj sayacını başlat."
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start/browse MessageTally"
+msgstr "mesaj sayacı taraması başlat."
+
+#: Morphic-Kernel,TheWorldMenu>>editShowSourceMenu
+msgid "show-source menu"
+msgstr "kaynak gösterilen menü"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "a window full of useful expressions."
+msgstr "yararlı ifadeler ile dolu bir pencere."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "annotation setup..."
+msgstr "ek açıklama kurulumu..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "Click here to get a little window that will allow you to specify which types of annotations, in which order, you wish to see in the annotation panes of browsers and other tools"
+msgstr "tarayıcının açıklama panelinde ve diğer araçlarda hangi çeşit ve hangi sırada açıklama istediğinizi özelleştirmenizi sağlayan küçük bir pencere açmak için buraya tıkla."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "choose the language in which tiles should be displayed."
+msgstr "karoların görünmesi gerektiği dili seç."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "commands for doing multi-machine \"telemorphic\" experiments"
+msgstr "çoklu \"telemorfik\" deneyimleri için komutlar"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "command-key help"
+msgstr "komut şifre yardımı"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "current version information."
+msgstr "Güncel sürüm bilgileri."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "definition for..."
+msgstr "... için tanımlama"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "font size summary"
+msgstr "yazı boyutu özeti"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "graphical imports"
+msgstr "grafiksel anlam"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "helps find menu items buried in submenus."
+msgstr "yan menüde saklanan alt menü parçalarını bulmanıza yardım eder."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "if connected to the internet, use this to look up the definition of an English word."
+msgstr "internete bağlandığında, ingilizce bir kelimenin anlamına bakmak için bunu kullan."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "lets you view and change the system's standard library of graphics."
+msgstr "Sistemin standart grafik kitaplığını görmenize ve değiştirmenize olanak sağlar."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "load latest code updates via the internet"
+msgstr "internette güncellenen son kodları yükle."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "obtain some intriguing data about the vm."
+msgstr "Sanal makine hakkında şaşırtıcı bilgiler elde eder."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "perform a full garbage-collection and report how many bytes of space remain in the image."
+msgstr "Tam bir atık toplama yapar ve imajın içinde kaç bayt'lık yer kaldığını bildirir."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "purge undo records"
+msgstr "önceki kayıtları siler."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "save space by removing all the undo information remembered in all projects."
+msgstr "Tüm projelerde kullanılan geri al bilgilerini silerek bellek aç."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set author initials..."
+msgstr "yazar başharflerini gir..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set language..."
+msgstr "dil belirle..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "space left"
+msgstr "kalan boşluk"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "standard graphics library"
+msgstr "standart grafik kitaplığı"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of keyboard shortcuts."
+msgstr "klavye kısa yolları özeti."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of names and sizes of available fonts."
+msgstr "var olan yazı tiplerinin adları ve boyut özetleri."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "supply initials to be used to identify the author of code and other content."
+msgstr "kod ve diğer içeriklerin yazarını tespit etmek için baş harflerini belirt."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "telemorphic..."
+msgstr "telemorfik..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "turning sound off will completely disable Squeak's use of sound."
+msgstr "Buradaki sesi kapatmak Squeak'ın ses kullanımını tamamen etkisiz hale getirir."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "update code from server"
+msgstr "kodu sunucudan güncelle."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "useful expressions"
+msgstr "yararlı anlatımlar"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view and change various options."
+msgstr "değişik seçenekleri göster ve değiştir."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view the global repository called ImageImports; you can easily import external graphics into ImageImports via the FileList"
+msgstr "resim içerikeri denen büyük havuzu göster; dış grafikleri dosya listesi yardımıyla kolayca resim içeriklerine ekleyebilirsin."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "vm statistics"
+msgstr "sanal bellek istatistikleri"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "world menu help"
+msgstr "sahne menü yardımı"
+
+#: Morphic-Kernel,TheWorldMenu>>loadProject
+msgid "Select a File:"
+msgstr "bir dosya seç."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "Add a new morph"
+msgstr "yeni bir morf ekle."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from a file..."
+msgstr "... dosyadan"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from alphabetical list"
+msgstr "alfabetik listeden"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from paste buffer"
+msgstr "arabellekten"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab flood area from screen"
+msgstr "akıcı alanı ekrandan yakala."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rectangle from screen"
+msgstr "dikdörtgeni ekrandan yakala."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rubber band from screen"
+msgstr "lastik şeridi ekrandan yakala."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab with lasso from screen"
+msgstr "ekrandan kementle yakala."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make link to project..."
+msgstr "projeye bağ oluştur..."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make new drawing"
+msgstr "yeni çizim yap."
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A five-paned tool that lets you see all the code in the system"
+msgstr "sistemdeki tüm kodları görmenizi sağlayan 5 panelli araç"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A place for recording \"event movies\" using the Event Recorder"
+msgstr "olay kaydediciyi kullanarak olay filmlerini kaydettiği yer"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to browse any file"
+msgstr "herhangi bir dosyayı taramanızı sağlayan araç"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to compare and manipulate two change sets concurrently"
+msgstr "iki değişiklik setini aynı anda karşılaştırmanızı ve hareket ettirmenizi sağlayan araç"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to view the methods in a single change set"
+msgstr "tek bir değişiklik setinde metodları görmenizi sağlayan araç"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for discovering methods"
+msgstr "metodları keşfetmenizi sağlayan araç"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for finding and editing methods that contain any given keyword in their names."
+msgstr "İsimlerinde herhangi bir anahtar kelime bulunduran metodları bulma ve düzenlemeyi sağlayan araç"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window for composing text"
+msgstr "metin oluşturmak için pencere"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window used to report messages sent to Transcript"
+msgstr "ikinci belgeye yollanan mesajları raporlamada kullanılan pencere"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "browser (b)"
+msgstr "tarayıcı (b)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new morphic project"
+msgstr "yeni bir morf projesi oluştur."
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new project of the classic \"mvc\" style"
+msgstr "klasik mvc stilinde yeni bir proje oluştur."
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "event theatre"
+msgstr "olay tiyatrosu"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file list"
+msgstr "dosya listesi"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file..."
+msgstr "dosya..."
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Lets you open a window on a single file"
+msgstr "tek bir dosya penceresi aç"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "message names (W)"
+msgstr "mesaj adı (W)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "method finder"
+msgstr "metod bulucu"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "morphic project"
+msgstr "morf proje"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "mvc project"
+msgstr "mvc proje"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "package-pane browser"
+msgstr "paket-panel tarayıcı"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Similar to the regular browser, but adds an extra pane at top-left that groups class-categories that start with the same prefix"
+msgstr "normal tarayıcıya yakın, ama sol üstte aynı ön ekle başlayan sınıf kategorilerini guruplamaya yarayan ekstra paneli vardır."
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "transcript (t)"
+msgstr "ikinci belge (t)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "workspace (k)"
+msgstr "çalışma alanı (k)"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new morphic project"
+msgstr "yeni morf projesi yarat."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new mvc project"
+msgstr "yeni mvc projesi yarat."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to next project"
+msgstr "diğer projeye geç."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to previous project"
+msgstr "bir önceki projeye git."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "Opens a window that shows names and relationships of all the projects in your system."
+msgstr "Sisteminizdeki projelerin isimlerini ve ilişkilerini gösteren bir pencere açar."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "revert to saved copy"
+msgstr "kaydedilen haline dön."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save for future revert"
+msgstr "ileride olabilecek değişiklikler için kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save on server (also makes a local copy)"
+msgstr "sunucuya kaydet ( yerel bir kopya da yapar)."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save project on local file only"
+msgstr "projeyi sadece yerel dosyada sakla."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save to a different server"
+msgstr "başka bir sunucuya kaydet."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "see if server version is more recent..."
+msgstr "Sunucu versiyonunun daha güncel olup olmadığını denetle."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "show project hierarchy"
+msgstr "proje sıralamasını göster."
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "can't seem to find that project"
+msgstr "bu projeyi bulamıyor."
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "Select a project"
+msgstr "bir proje seç."
+
+#: Morphic-Kernel,TheWorldMenu>>quitSession
+msgid "Save changes before quitting?"
+msgstr "Çıkmadan önce değişiklikleri kaydedecek misin?"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Choose a file\n"
+"to load"
+msgstr ""
+"yüklenecek bir dosya\n"
+"seç."
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Sorry, no suitable files found\n"
+"(names should end with .morph, .gif,\n"
+".bmp, .jpeg, .jpe, .jp, or .form)"
+msgstr ""
+"Üzgünüz, uygun dosya bulunamadı.\n"
+"(uzantılar .morph, .gif, \n"
+".bmp, .jpeg, .jpe, .jp, veya .form ile bitmeli)"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid "unrecognized image file format"
+msgstr "tanımlanmayan resim dosyası formatı"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "connect remote user"
+msgstr "uzaktaki kullanıcıya bağlan."
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect all remote users"
+msgstr "uzaktaki tüm kullanıcılarla bağlantıyı kes."
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect remote user"
+msgstr "uzaktaki kullanıcıyla bağlantıyı kes."
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "local host address"
+msgstr "bağlanılabilecek yerel bilgisayar adresi"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "Telemorphic"
+msgstr "telemorfik"
+
+#: Morphic-Kernel,TheWorldMenu>>setDisplayDepth
+msgid "Choose a display depth"
+msgstr "görüntü derinliği seç."
+
+#: Morphic-Kernel,TheWorldMenu>>vmStatistics
+msgid "VM Statistics"
+msgstr "sanal bellek istatistikleri"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open fileList  to the front, creating one if necessary, and makes it the active window"
+msgstr "Açık dosya listesini öne getirir. Gerekliyse yeni bir pencere yaratır ve onu aktif yapar."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open MessageNames window to the front, creating one if necessary, and makes it the active window"
+msgstr "ön kısma açık mesaj isimleri getirir_ gerekliyse yeni bir tane yaratır, ve onu aktif pencere yapar."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open Transcript to the front, creating one if necessary, and makes it the active window"
+msgstr "ön kısma açık ikinci belge getirir_ gerekliyse yeni bir tane yaratır, ve onu aktif pencere yapar."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Close the topmost window if possible."
+msgstr "Mümkünse en üstteki pencereyi kapat."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "close top window (w)"
+msgstr "üst pencereyi kapat (w)."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all objects"
+msgstr "tüm nesneleri daralt."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all windows"
+msgstr "tüm pencereleri daralt."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all non-window morphs lying on the world."
+msgstr "Sahnede bulunan penceresiz morfları sil."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all windows that do not have unsaved text edits."
+msgstr "Kaydedilmemiş metin düzeltmelerinin olduğu tüm pencereleri sil."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete both of the above"
+msgstr "yukarıdakilerin hepsini sil."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete non-windows"
+msgstr "penceresiz olanları sil."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete unchanged windows"
+msgstr "değişmeyen pencereleri sil."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "deletes all unchanged windows and also all non-window morphs lying on the world, other than flaps."
+msgstr "Kanatlardan başka, değişmeyen tüm pencereleri ve sahnedeki tüm açılmayan pencereleri sil."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Expand all collapsed windows and other collapsed objects back to their expanded forms."
+msgstr "Küçültülen tüm pencereleri ve küçülmüş diğer nesneleri eski genişletilmiş hallerine getir."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "expand all"
+msgstr "hepsini genişlet."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a fileList (L)"
+msgstr "bir dosya listesi bul (L)."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a transcript (t)"
+msgstr "ikinci bir belge bul (t)."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed browsers..."
+msgstr "değişen tarayıcıları bul..."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed windows..."
+msgstr "Değişen pencereleri bul..."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find message names (W)"
+msgstr "mesaj adı bul (W)."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make all windows fully visible on the screen"
+msgstr "tüm pencereleri ekranda görünür kıl."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make the topmost window become the backmost one, and activate the window just beneath it."
+msgstr "En öndeki pencereyi en gerideki yapıp onun altındaki pencereyi aktif hale getir."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "move windows onscreen"
+msgstr "pencere görüntülerini hareket ettir."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "Bildirilmeyen değişiklikleri olan pencerelerin bir listesini gösterir; listeden birini seçerseniz, bu aktif pencere olur."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows; if you choose one from the list, it becomes the active window."
+msgstr "Tüm pencerelerin bir listesini gösterir; listeden birini seçerseniz, bu aktif pencere olur."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of browsers that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "Bildirilmeyen değişiklikleri olan tarayıcıların bir listesini gösterir; listeden bir tanesini seçersen, bu aktif pencere olur."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows and all other objects on the desktop to labeled tabs"
+msgstr "masa üstündeki tüm açık pencereleri ve tüm diğer nesneleri belirlenmiş sekmelere indirger."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows to collapsed forms that only show titles."
+msgstr "Tüm açık pencereleri sadece başlıkları gösteren küçük formlara dönüştürür."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "send top window to back (\\)"
+msgstr "üst pencereyi arkaya gönder (\\)."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid ""
+"stagger: new windows positioned so you can see a portion of each one.\n"
+"                tile: new windows positioned so that they do not overlap others, if possible."
+msgstr ""
+"Basamaklama: Yeni pencereler her birinin bir kısmını örtecek şekilde yerleştirilsin. \n"
+"Döşeme: Yeni pencereler üst üste gelmeyecek şekilde yerleştirilsin."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "windows"
+msgstr "pencereler"
+
+#: Morphic-Kernel,TheWorldMenu>>worldMenuHelp
+msgid "Where in the world menu is..."
+msgstr "Sahne menüsünde bulunduğu yer..."
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "change caption"
+msgstr "başlığı değiştir."
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:
+msgid "open in recording theatre"
+msgstr "kayıtlı tiyatroda aç."
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoDismissString,PlaybackInvoker>>autoDismissString
+msgid "auto dismiss"
+msgstr "otomatik silme"
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoStartString,PlaybackInvoker>>autoStartString
+msgid "auto start"
+msgstr "otomatik başlatma"
+
+#: Morphic-Mentoring,EventPlaybackButton>>changeCaption,EventRecordingSpace>>setCaption,PlaybackInvoker>>changeCaption
+msgid "Please edit the caption"
+msgstr "lütfen başlığı düzenle."
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "Display this event-movie in a form such that its score can be viewed and edited."
+msgstr "Olay-filmi skoru gösterilebilen ve düzeltilebilen bir formatta gösterir."
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "open for score-editing"
+msgstr "skor düzeltmek için aç."
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:,TheWorldMenu>>buildShowSourceMenu
+msgid "edit this menu"
+msgstr "bu menüyü düzenle."
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "inspect"
+msgstr "denetle."
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "play again"
+msgstr "tekrar oyna."
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "rewind"
+msgstr "geri sar"
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "A framework for creating tutorial snippets"
+msgstr "eğitsel programcıklar oluşturmak için taslak"
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "multimedya"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "no, let me reconsider"
+msgstr "hayır, tekrar incelemeliyim."
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid ""
+"The current recording has not been saved, and will be\n"
+"lost if you do this; are you sure you want to proceed?"
+msgstr "şu anki kayıt kaydedilmedi ve bunu yaparsanız silinecek; bunu yapmak istediğinizden emin misin?"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "yes, abandon this Event Theatre"
+msgstr "evet, bu olay tiyatrosunu bırak."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Allows you to provide a message to be presented to a user as balloon-help when the mouse lingers over buttons that trigger playback of the tape of this event theatre"
+msgstr "mouse tuşlar üzerinde takılıp kaldığında ve bu olay tiyatrosunu geri oynattığında kullanıcıya balon içinde yardım mesajı göndermeyi sağlar."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "abandon any event-roll that may be associated with this theatre."
+msgstr "Bu sahneyle ilgili olabilecek herhangi bir olay-sarımını bırak."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add navigator flap"
+msgstr "yön bulma bayrağı ekle."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add sugar navigator flap"
+msgstr "sugar yön bulma bayrağı ekle."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add supplies flap"
+msgstr "tedarik bayrağı ekle."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "delete old versions"
+msgstr "eski versiyonları sil."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "event roll"
+msgstr "olay sarımı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "open a horizontal piano-roll-like tool for the viewing and editing the events of this event theatre."
+msgstr "Bu sahnedeki olaylarını görmek ve düzenlemek için yatay piyano-sarım benzeri bir araç."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Recording Options"
+msgstr "kayıt seçenekleri"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove event-roll"
+msgstr "olay-sarımını kaldır."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove navigatorFlap"
+msgstr "yön bulma bayrağını kaldır."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove sugar navigatorFlap"
+msgstr "sugar yön bulma bayrağını kaldır."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove suppliesFlap"
+msgstr "tedarik bayrağını kaldır."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "revert to version..."
+msgstr "sürüme geri dön"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "set balloon help"
+msgstr "balon yardımını kur."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "shrink event tape"
+msgstr "olay bant kaydını küçült."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "convert to canonical coordinates (broken)"
+msgstr "kurallara uygun koordinatlara geç (bozulmuş)."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event recorder"
+msgstr "olay kaydediciyi kontrol et."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "inspect event roll"
+msgstr "olay sarımını kontrol et."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event tape"
+msgstr "olay bant kaydını kontrol et."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event theatre"
+msgstr "olay tiyatrosunu kontrol et."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect nav bar"
+msgstr "net mal değeri tablosunu kontrol et."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect sound recorder"
+msgstr "ses kaydediciyi kontrol et."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "More options"
+msgstr "daha fazla seçenek"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "more..."
+msgstr "daha çok..."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "movie-clip player"
+msgstr "film-kırpma oynatıcı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "parse event tape"
+msgstr "olay bant kaydını ayrıştır."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addNavigatorFlap,EventRecordingSpace>>addNavigatorFlap
+msgid "Navigator"
+msgstr "yön bulucu"
+
+#: Morphic-Mentoring,EventRecordingSpace>>convertToCanonicalForm
+msgid "Caution: this is broken!"
+msgstr "dikkat: bu kırık!"
+
+#: Morphic-Mentoring,EventRecordingSpace>>editMenuButtonDefinition
+msgid "Event Theatre menu Definition"
+msgstr "olay tiyatrosu menü tanımı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>helpString
+msgid ""
+"The Event Theatre provides a framework for authoring \"event-movies\".  It uses custom variants of the Navigator, the Supplies flap, the painting system, property sheets, Viewer flaps, etc., all of which reside within the controlled confines of the Theatre.\n"
+"\n"
+"To author an event-movie, get a  new Event Theatre from the Objects catalog or from the \"open...\" branch of the desktop menu.\n"
+"\n"
+"1. Resize the Theatre, using the halo, to the delivery size desired for playback.\n"
+"\n"
+"2. Use the menu in the controls panel to add or delete Supplies and Navigator flaps as desired.\n"
+"\n"
+"3. Edit the \"caption\" by clicking on the text that says \"Untitled\" and typing your desired caption.  This caption is affixed to playback buttons, and, generally, provides a way to identify the event-movie.\n"
+"\n"
+"4. Set up the \"initial conditions\" for the event-movie you're about to record (e.g., paint a background, provide some explanatory text, add objects you want to be present at the start of the movie.) When the recording is first opened by the user for playback, and whenever the recording has been rewound, this is exactly what it will look like.\n"
+"\n"
+"5. When ready to start the recording, press the \"Record\" button. A red border will be seen around the recorder, to indicate that recording is in progress.  Recording will continue until you hit the ESC key.\n"
+"\n"
+"6. Note that if you  want to include sound in your recording, you can add it directly during playback, or you can produce voiceover externally and add it in later using the Event Roll.\n"
+"\n"
+"7. Now proceed to \"do\", with the mouse and keyboard, whatever you wish to record.   For best results, all mouse gestures should be made within the interior of the Theatre.\n"
+"\n"
+"8. Hit ESC when done recording.\n"
+"\n"
+"9. To review what you've recorded, press \"Play\". If unhappy with the result, repeat steps 1-8.\n"
+"\n"
+"10.  If you're happy with the result, and now wish to add a sound, open the sound panel, then click Play to replay the recording, and whenever you wish to add a snippet of voiceover, click on the \"Start Recording Voiceover\" button, and start talking, and when done with that snippet click the \"Stop Recording Voiceover\" button.  Once the playback finishes, the added voiceover(s) will become part of the event tape, and will be seen in the event roll.\n"
+"\n"
+"11. When you're happy with the result, hit the \"Publish\" button, to get a playback button. There are currently two choices:\n"
+"\n"
+"a. Iconic Button - Initially provides a picture of the initial scene of the movie, scaled 0.3x, and overlaid with the word HINT.  When the user clicks on such a button, the event-movie is played back in an ephemeral \"playback theatre\", and after the playback is done, the playback theatre shrinks down to a 0.5x scale-downed picture of the *final* scene of the movie.  Subsequent hitting of the button will again invoke a playback.\n"
+"\n"
+"b. Textual Button - a simple labeled button which, when pressed, triggers playback of the event tape.\n"
+"\n"
+"12. The playback buttons you obtain when you \"Publish\" can be placed anywhere, such as on the page of a book. You can control, via a playback-button's halo menu, whether or not it should be \"auto-start\", and whether or not \"auto-dismiss\". When the user presses the button, a \"Playback\" space will open, which resembles an Event Theatre, but has only playback-relevant controls.   A playback set up for both auto-start and auto-dismiss comes without any controls.\n"
+"\n"
+"13.  To edit the \"event tape\" of a recording you have made in an Event Theatre, and for a generally good time, click on the interlocking-circles icon to obtain a tool that allows you to visualize and to edit a \"score\" or \"piano roll\" of the event tape.\n"
+"\n"
+"\n"
+"Summary of terms\n"
+"\n"
+"Event Theatre\n"
+"  The main tool for creating an Event Tape.\n"
+"\n"
+"Event Roll\n"
+"  An auxiliary tool showing the full \"score\" of an Event Tape. \n"
+"\n"
+"Event Tape\n"
+"  The results of an event-theatre session;  an interaction sequence that can be played back.\n"
+"\n"
+"Event Recording\n"
+"  A term interchangeable with \"Event Tape.\"\n"
+"\n"
+"Event Movie\n"
+"  What you see when you play back an Event Tape.\n"
+"\n"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>initializeFromPlaybackButton:
+msgid "caution - old playback; button lacks vital data."
+msgstr "uyarı - eski oynatım tuşu; tuş önemli bilgileri içermemektedir."
+
+#: Morphic-Mentoring,EventRecordingSpace>>inspectEventRoll
+msgid "Event Roll for "
+msgstr "İçin olay bant sarımı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeHorizontalRoll
+msgid "Nothing recorded yet"
+msgstr "henüz birşey kaydedilmemiştir."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon existing recording and start a new one."
+msgstr "Var olan kayıtları yok et ve yeni bir kayıda başla."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon this effort and throw away this window"
+msgstr "çalışmayı bırak ve pencereyi kapat."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Add a voiceover to the existing event-recorded sequence "
+msgstr "var olan olay kayıt sırasına seslendirme ekle."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,Tetris>>makeGameControls
+msgid "Pause"
+msgstr "duraklat."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,PlaybackInvoker_class>>defaultNameStemForInstances
+msgid "Play"
+msgstr "oynat."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record"
+msgstr "Kayıt"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record Again"
+msgstr "tekrar kayıt yap."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Replay this sequence"
+msgstr "bu sırayı tekrar oynat."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Reset to the starting condition for this recording"
+msgstr "bu kayıt için başlamış durumları sıfırla."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume"
+msgstr "yeniden başlamak"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume playback"
+msgstr "geri oynatımı yeniden başlat."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Rewind"
+msgstr "geri sar"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording"
+msgstr "kayıt yapmaya başla."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording Voiceover"
+msgstr "seslendirmeyi kaydetmeye başla."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop"
+msgstr "Duraklat."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop playing or recording this panel"
+msgstr "bu oturumu oynatmayı ya da kaydetmeyi durur."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop Record Voiceover"
+msgstr "seslendirme kaydını durur."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show this theatre's script in a piano-roll-like format for visualizaitoin and editing."
+msgstr "Gözünde canlandırma ve düzenleme için bu sahnenin betiğini piyano-bant sarımı benzeri formatta göster."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show/hide voice controls"
+msgstr "ses kontrollerini göster/sakla."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Temporarily pause this playback"
+msgstr "bu geri oynatımı geçici olarak durur."
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "When you hit this, you will be handed a button which, when it is clicked,  will open up an Event Player in which the recording can be played back."
+msgstr "Bunu tıkladığında, içinde kayıtların geri oynatılabildiği olay oynatıcı bir tuş açılacaktır."
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "Choose a version to restore"
+msgstr "geri yükleme için bir versiyon seç."
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "no versions available, sorry"
+msgstr "üzgünüm, bir version bulunamadı."
+
+#: Morphic-Mentoring,EventRecordingSpace>>parseEventTape,EventRecordingSpace>>shrinkTape
+msgid "nothing recorded yet"
+msgstr "henüz kaydedilen birşey yoktur."
+
+#: Morphic-Mentoring,EventRecordingSpace>>populateControlsPanel
+msgid "Hit ESC to stop recording"
+msgstr "kaydı durdurmak için ESC'yi tıkla."
+
+#: Morphic-Mentoring,EventRecordingSpace>>presentHelp,EventRecordingSpace_class>>defaultNameStemForInstances,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Event Theatre"
+msgstr "olay tiyatrosu"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Iconic button"
+msgstr "sembolik tuş"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Textual button"
+msgstr "metinsel tuş"
+
+#: Morphic-Mentoring,EventRecordingSpace>>setBalloonHelp
+msgid "Edit the balloon help to be supplied for playback buttons made for this event movie"
+msgstr "bu olay filminde geri oynatım tuşları olarak tedarik edilen balon yardımlarını düzenle."
+
+#: Morphic-Mentoring,EventRecordingSpace>>setCaption
+msgid "Your Title Goes Here"
+msgstr "başlığınız buraya gidiyor."
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr "Karo betiklemede kullanılan buton; betik içerdiği oyun alanının metodu olacaktır."
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A device for making sound recordings."
+msgstr "ses kayıt cihazı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "A joystick-like control"
+msgstr "joystick gibi kontrol"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A multi-paged structure"
+msgstr "çok-sayfalı yapısı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "A place for assembling parts or for staging animations"
+msgstr "biraraya gelmiş parçalar için ya da morfları sergilemek için bir yer"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A place for storing alternative pictures in an animation, etc."
+msgstr "Animasyondaki alternatif resimleri saklamak için bir yer."
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A rectangle"
+msgstr "dikdörtgen"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A slider for showing and setting numeric values."
+msgstr "Sayı değerlerini gösterip değiştiren kaydıraç."
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A star"
+msgstr "yıldız"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool for discarding objects"
+msgstr "nesneleri çıkarma aracı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool listing all the scripted objects in the project."
+msgstr "Projedeki tüm betikleri listeler."
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool that lets you browse the catalog of available objects"
+msgstr "var olan nesnelerin kataloglarını indirme aracı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "All Scripts"
+msgstr "bütün betikler"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "An ellipse or circle"
+msgstr "oval ya da çember"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Book"
+msgstr "kitap"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,SimpleButtonMorph_class>>defaultNameStemForInstances
+msgid "Button"
+msgstr "tuş"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Holder"
+msgstr "tutacak"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "Joystick"
+msgstr "oyun kolu"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Object Catalog"
+msgstr "nesne kataloğu"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Players"
+msgstr "oynatıcılar"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "Playfield"
+msgstr "oyun alanı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,RectangleMorph_class>>descriptionForPartsBin
+msgid "Rectangle"
+msgstr "dikdörtgen"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Slider"
+msgstr "kaydıraç"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Sound Recorder"
+msgstr "ses kaydedici"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Star"
+msgstr "yıldız"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Stop, Step, and Go buttons for controlling all your scripts at once.  The tool can also be \"opened up\" to control each script in your project individually."
+msgstr "Dur, Adım ve Git tuşları, tüm betiklerinizi kontrol etmek içindir. Bu araç aynı zamanda betikleri tek tek de kontrol edebilir."
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>nonwrappingPrototype,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text"
+msgstr "yazı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you desire."
+msgstr "İstediğin herşeye ekleyebileceğin yazı"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Trash"
+msgstr "çöp kutusu"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarSuppliesFlapTab,InteriorSugarNavBar>>toggleSupplies
+msgid "Supplies"
+msgstr "Kaynaklar"
+
+#: Morphic-Mentoring,EventRecordingSpace>>usingVoiceString
+msgid "record voice during event recording"
+msgstr "olay kaydındaki kayıt sesi "
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "allows you to supply a precise scale-factor manually."
+msgstr "belirli ölçeği elle girişini sağlar."
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "change scale..."
+msgstr "ölçek değiştir..."
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "normally not necessary, but if you suspect that edits you have made in this event roll have not been fully appreciated by the event theatre, choose this to force the event theatre to reflect what you see in the event roll."
+msgstr "Normalde gerekli değil, fakat bu olay bant sarımında yaptığınız değişikliklerin olay sahne tarafından değerlenmediğinden şüpheleniyorsanız, güncellemeyi zorlamak için bunu seç."
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "retrofit to event-theatre"
+msgstr "olay tiyatrosunu geri uyarla."
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "allows you to back up to any earlier version of the event tape."
+msgstr "kaydın önceki versiyonlarına yedekleme yapmanı sağlar."
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- change the definition of this menu."
+msgstr "hata ayıklama -- bu menünün tanımını değiştir."
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- open an Inspector on this event roll"
+msgstr "hata ayıklama -- bu olay bant sarımında bir denetleyici aç."
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the red roll cursor"
+msgstr "hata ayıklama -- kırmızı bant sarımı imlecini güncelle."
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the scrollbar"
+msgstr "hata ayıklama -- kaydırma çubuğunu güncelle."
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "Event-Roll Options"
+msgstr "olay- bant sarımı seçenekleri"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update cursor"
+msgstr "imleci güncelle."
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update scrollbar"
+msgstr "kaydırma çubuğunu güncelle."
+
+#: Morphic-Mentoring,EventRollMorph>>changeScale
+msgid "Milliseconds per pixel [currently "
+msgstr "her milisaniye başına düşen çözünürlük [şu anda_"
+
+#: Morphic-Mentoring,EventRollMorph>>helpString
+msgid ""
+"An Event Roll is a used to visualize and edit the score, or \"tape\", of an Event Theatre's \"event movie\".\n"
+"\n"
+"The Roll shows three \"tracks\", one for all Mouse events, one for Keyboard events, and one for all other events, such as sound.\n"
+"\n"
+"You can *remove* any item from an event roll by just picking it up with the mouse and dropping it anywhere outside the roll (such as on the desktop or in the trash-can.)  If in doubt about the effect of removing an item, you can put it on the desktop, play the revised tape, then pick up the event from the desktop and drop it back near where you found it in the event roll, and replay again to compare.\n"
+"\n"
+"You can *reposition* any item in an event roll by picking it up with the mouse and dropping it anywhere else in the roll.  CAUTION:  Items in the mouse-event track should not be dropped such that they overlap -- see caveat below under \"Tips\".\n"
+"\n"
+"You can drag various kinds of items *into* the roll.  For example, you can drop a \"Morph\" or a \"Tile\" obtained from a SoundRecorder, and you can drop a \"button\" representing another event-recorded sequence (though it is not at the moment recommended to do the latter.)  One straightforward way of adding voiceovers to an existing event recording is to play back the recording while selectively making individual snippets of voice recordings using a separate, standard Squeak SoundRecording tool.  After you are satisfied with a recording, obtain a \"morph\" from the sound-recording tool, and position it as desired in the event roll.\n"
+"\n"
+"You can *resize* items in the \"mouse\" track of an event roll.  When you stretch or shrink a mouse-sequence, the events within the sequence get remapped linearly within the duration represented by the new size of the sequence as seen in the event roll.  [CAUTION:  Do not resize a mouse item such that it will overlap an adjacent one.  It is a bug that this is even allowed.]\n"
+"\n"
+"In addition to adding separately-recorded voiceovers using the mechanism described in item 3 above, there is a built-in voiceover mechanism in the Event Theatre.  Whenever you are playing back an existing event-recording in an Event Theatre, a \"Record Voiceover\" button will appear.  If you press this, the playback of the event recording will continue and you can record a voiceover to go with any portion you wish.  When you are done recording a snippet, you can hit the \"stop recording voiceover\" button; playback will continue, and you can subsequently, on this pass or any future one, add more voiceover snippets.  To remove a voiceover snippet, simply drag it out of the event roll; to reposition it, simply pick it up with the mouse and drop it back into the event roll at the desired position.\n"
+"\n"
+"When you make a change in an Event Roll, it will immediately change the tape of the Event Theatre, so that when you replay the event-movie you will immediately see see the change.  If you are unhappy with the change, there is a one-level \"undo\" available which will revert the EventTheatre to its state before the last edit you made in the EventRoll.  There is also a \"deeper\" level of \"undo\" available that will revert the EventTheatre (and hence the associated EventRoll) to the initial state they were in when you first launched the event roll.\n"
+"\n"
+"\n"
+"Keyboard Track\n"
+"\n"
+"You can reposition or delete any keyboard-track item.\n"
+"\n"
+"Color conventions in the keyboard track: (These will change soon!)\n"
+"\n"
+"\tWhite\tSimple lower-case character, no modifier key pressed\n"
+"\tRed\t\tShift-key pressed\n"
+"\tGreen\tAlt-key pressed\n"
+"\tYellow\tControl-key pressed\n"
+"\n"
+"\tYellow\tA \"space\" character\n"
+"\tBlue\t\tA \"backspace\" character\n"
+"\n"
+"Unprintable characters are shown in red with the ascii value displayed, e.g. #13 for a \"return\" character.\n"
+"\n"
+"*Important Tips*\n"
+"\n"
+"(1)  To get the halo on an object inside an EventRoll, hold down the SHIFT key as you halo-click on the object.\n"
+"\n"
+"(2)  DO NOT reposition or resize mouse-track items such that any two of them overlap, since this will result in the events represented by the two items getting co-mingled in such a way that they you will never be able to separate them again, and the mixture will have crazy results.  It is a bug that you are allowed to drop mouse-track items such that they overlap.  So please, DO NOT DO IT!  If by accident you do, you might be interested in trying out some of the revert mechanisms in the system.\n"
+msgstr ""
+
+#: Morphic-Mentoring,EventRollMorph>>makeButtonsPanel
+msgid "Abandon  this piano roll.  If you have made changes and wish them to be propagated back to the originating event-theatre, be sure to do that before abandoning the piano roll."
+msgstr "Bu piyano bant sarımını kapat. Değişiklik yapmak ve bunları orijinal sahneye geri yaymak istiyorsanız, bunu piyano bant sarımını kapatmadan yaptığından emin ol."
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "keyboard"
+msgstr "klavye"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "media"
+msgstr "araçlar"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "mouse"
+msgstr "mouse"
+
+#: Morphic-Mentoring,EventRollMorph>>presentHelp
+msgid "Event Roll"
+msgstr "olay bant sarımı"
+
+#: Morphic-Mentoring,EventTimeline>>defaultNameStemForInstances
+msgid "event timeline"
+msgstr "olay zaman çizgisi"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "renk..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "bu bayrağı yok et."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "yükseklik..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "belirginleştirme rengi..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "geçerli gri görünümü kullan."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "geçerli yeşil görünümü kullan."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>changeNaviHeight
+msgid "new height of the bar"
+msgstr "çubuğun yeni yüksekliği"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>edgeString
+msgid "cling to edge... (current: {1})"
+msgstr "kenara yapıştır... (şu an:{1})"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>finishInitialization
+msgid "Navigator Flap"
+msgstr "Gezici kanadı"
+
+#: Morphic-Mentoring,KeyboardEventMorph>>addCustomMenuItems:hand:
+msgid "Change character"
+msgstr "karakteri değiştir."
+
+#: Morphic-Mentoring,KeyboardEventMorph>>changeCharacter
+msgid "New character? "
+msgstr "yeni karakter?_"
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play"
+msgstr "oynamak"
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play the event in isolation."
+msgstr "olayı yalnız oynat"
+
+#: Morphic-Mentoring,MentoringEventRecorder>>caption
+msgid "Untitled"
+msgstr "başlıksız"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "graphical view"
+msgstr "grafiksel görünüm"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Lets you visualize all the individual events that constitute this sequence in an onionskin overlay to the event theatre."
+msgstr "Bu sıralamayı ince katmanda oluşturan tüm tek olayları sahnede canlandır."
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Presents the constituent events of this sequence in a scrolling list for your inspection."
+msgstr "Kontrol için, bu sıradaki olayları kaydırmalı liste halinde göster."
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "textual view"
+msgstr "metinsel görünüm"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "imprint HINT"
+msgstr "ipucunu göster."
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "open for editing"
+msgstr "düzenlemek için aç."
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show caption"
+msgstr "başlık göster."
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show final picture"
+msgstr "son halini göster."
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show initial picture"
+msgstr "ilk halini göster."
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtButtonPositionString
+msgid "playback at button position"
+msgstr "tuş pozisyonunda geri oynatım"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtContainerOriginString
+msgid "playback at container origin"
+msgstr "bulunduğu yerin merkezinde geri oynatım"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtScreenCenterString
+msgid "playback at screen center"
+msgstr "ekran ortasında geri oynatım"
+
+#: Morphic-Mentoring,PlaybackInvoker>>postPlaybackImageFeatureString
+msgid "post-playback feature"
+msgstr "sonra- geri oynatım özelliği"
+
+#: Morphic-Mentoring,TextualEventSequenceDisplayer>>mouseEventSequenceMorph:
+msgid "Each line represents an event in the event sequence I represent"
+msgstr "her satır olay sıralamasında bir olayı temsil etmektedir."
+
+#: Morphic-Mentoring,Worldlet>>initialize
+msgid "screen"
+msgstr "ekran"
+
+#: Morphic-Menus,MenuIcons_class>>iconForMenuItem:
+msgid "undo (z)"
+msgstr "geri al (z)"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add item..."
+msgstr "öge ekle..."
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add line"
+msgstr "satır ekle."
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add title..."
+msgstr "başlık ekle..."
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "detach submenu"
+msgstr "yan menü ayır."
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set target..."
+msgstr "hedef belirle..."
+
+#: Morphic-PartsBin,PartsWindow>>addCustomMenuItems:hand:
+msgid "parts window controls..."
+msgstr "parçalar ekranının kontrolü..."
+
+#: Morphic-PDA,MonthMorph>>addCustomMenuItems:hand:
+msgid "jump to year..."
+msgstr "yıla geç..."
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Choose another year"
+msgstr "başka bir yıl seç."
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Type in a year"
+msgstr "bir yıl yaz."
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "A Personal Digital Assistant"
+msgstr "bir kişisel dijital asistan"
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "PDA"
+msgstr "PDA"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy list to clipboard"
+msgstr "listeyi panoya kopyala."
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy selection to clipboard"
+msgstr "seçtiklerinizi panoya kopyala."
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "list font..."
+msgstr "font listele..."
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>setListFont
+msgid "Choose the font for this list"
+msgstr "bu liste için font seç."
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>accept
+msgid ""
+"Caution! This method may have been\n"
+"changed elsewhere since you started\n"
+"editing it here.  Accept anyway?"
+msgstr ""
+"Dikkat! Siz burada düzenlemeye \n"
+"başladığınızdan beri bu metod başka\n"
+"bir yerde değişikliğe uğramış olabilir. \n"
+"Yinede kabul ediyor musun?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>promptForCancel
+msgid ""
+"Changes have not been saved.\n"
+"Is it OK to cancel those changes?"
+msgstr ""
+"Değişiklikler kaydedilmedi. \n"
+"Değişikliklerin iptalini onaylıyormusun?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>toggleAnnotationPaneSize
+msgid ""
+"Move cursor farther from\n"
+"this point to increase pane.\n"
+"Click when done."
+msgstr ""
+"Paneli büyütmek için imleci \n"
+"bu noktadan ileriye taşı. \n"
+"Bitince tıkla."
+
+#: Morphic-Support,SelectionMorph_class>>defaultNameStemForInstances
+msgid "Selection"
+msgstr "seçim"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align bottom edges"
+msgstr "alt kenarları hizala."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers horizontally"
+msgstr "merkezleri yatay olarak hizala."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers vertically"
+msgstr "merkezleri dikey olarak hizala."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align left edges"
+msgstr "sol kenarları hizala."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align right edges"
+msgstr "sağ kenarları hizala."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align top edges"
+msgstr "üst kenarları hizala."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute horizontally"
+msgstr "yatay olarak dağıt."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute vertically"
+msgstr "dikey olarak dağıt."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a column"
+msgstr "bir sütuna yerleştir."
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a row"
+msgstr "bir sıraya yerleştir."
+
+#: Morphic-Support,SelectionMorph>>externalName
+msgid "Selected {1} objects"
+msgstr "seçilen {1} nesneler"
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "A scrolling data field which will have a different value on every card of the background"
+msgstr "arka planın her kartında farklı bir değeri olan kaydırılabilir data alanı"
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "Scrolling Field"
+msgstr "Kaydırma Alanı"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "bold"
+msgstr "koyu"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "centered"
+msgstr "ortalanmış"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "italic"
+msgstr "eğik"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "justified"
+msgstr "hizalı"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "left flush"
+msgstr "sol hiza"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "narrow"
+msgstr "dar"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "normal"
+msgstr "normal"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "right flush"
+msgstr "sağ hiza"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "struck out"
+msgstr "üstü çizli"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "underlined"
+msgstr "altı çizili"
+
+#: Morphic-TrueType,TTSampleFontMorph>>getSmoothingLevel
+msgid "more smoothing"
+msgstr "daha çok yumuşatma"
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "A short text in a beautiful font.  Use the resize handle to change size."
+msgstr "Güzel bir font'da kısa bir metindir. Boyutu değiştirmek için''yeniden ölçeklendir'' tutamacını kullan."
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "TrueType banner"
+msgstr "True Type fontunda başlık"
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "edit contents..."
+msgstr "içeriği düzenle..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "how to find more fonts..."
+msgstr "daha fazla yazı biçimi bulabilmek için..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "load font from web..."
+msgstr "fontu webden yükle..."
+
+#: Morphic-Widgets,BalloonMorph_class>>chooseBalloonFont
+msgid ""
+"Select the font to be\n"
+"used for balloon help"
+msgstr "balon yardım yazısı için fontni seç."
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "Clipboard"
+msgstr "pano"
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "This object will always show whatever is on the text clipboard"
+msgstr "metin panosunda ne olursa olsun bu nesne gösterilecektir."
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "do not stay up"
+msgstr "durmak"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "stay up"
+msgstr "uyanık kal"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update continuously"
+msgstr "devamlı olarak güncellenmek"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update only at end"
+msgstr "sadece sonda güncellenmek"
+
+#: Morphic-Widgets,ColorPickerMorph>>delete
+msgid "color change"
+msgstr "renk değişimi"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "adjust translucency"
+msgstr "yarı şeffaf düzenlemek"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "restore original color"
+msgstr "orijinal rengi geri yükle."
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "shows selected color"
+msgstr "seçilen renkleri gösterir."
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "dismiss color picker"
+msgstr "renk toplayıcıyı çıkarır."
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "move this color-picker to another position, and keep it on the screen until dismissed with the X button  "
+msgstr "Renk seçiciyi başka bir konuma taşır ve bunu X tuşuyla çıkarana kadar ekranda tutar."
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "open a full property sheet"
+msgstr "tüm özelliklerin bulunduğu bir sayfa aç."
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Forward direction (hold down shift key and drag to change it)"
+msgstr "İlerleme yönü ( değiştirmek için shift tuşunu basılı tut ve sürükle. )"
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Rotation center (hold down the shift key and drag to change it)"
+msgstr "döndürme merkezi (shift tuşunu basılı tutun ve buradan tutarak değiştir)"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Really throw this away"
+msgstr "bunu gerçekten sil."
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Um, no, let me reconsider"
+msgstr "um, hayır, tekrar düşünmeliyim."
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Yes"
+msgstr "evet"
+
+#: Morphic-Widgets,HaloMorph>>startGrow:with:,HaloMorph>>startScale:with:
+msgid "resize "
+msgstr "yeniden boyutlandırmak"
+
+#: Morphic-Widgets,HaloMorph>>startRot:with:
+msgid "rotate "
+msgstr "döndürmek"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Choose which physical device is associated with the joystick."
+msgstr "Joystick ile hangi fiziksel aygıtın ilişkin olduğunu seç."
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Governs whether this joystick should track the motions of a real, physical joystick attached to the computer."
+msgstr "Bu joystickin bilgisayara bağlı gerçek bir joysitiğin hareketlerini izlemesi gerekip gerekmediğini yönetir."
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set X range"
+msgstr "X sırasını kur."
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set Y range"
+msgstr "Y sırasını kur."
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "When auto-center is on, every time you let go of the Joystick knob, it springs back to the neutral position at the center of the device"
+msgstr "otomatik merkez açıksa, her seferinde Joystick kontrol düğmesine gidersiniz, ve o da aletin merkez pozisyonuna geri döner."
+
+#: Morphic-Widgets,JoystickMorph>>autoCenterString
+msgid "auto-center"
+msgstr "otomatik merkez"
+
+#: Morphic-Widgets,JoystickMorph>>chooseJoystickNumber
+msgid "Joystick device number (currently {1})"
+msgstr "joystick alet numarası (şu an {1})"
+
+#: Morphic-Widgets,JoystickMorph>>joystickNumberString
+msgid "set real joystick number (now {1})"
+msgstr "gerçek joystick sayısını gir (şimdi {1})."
+
+#: Morphic-Widgets,JoystickMorph>>realJoystickString
+msgid "track real joystick"
+msgstr "gerçek joystick'i izle."
+
+#: Morphic-Widgets,JoystickMorph>>setXRange
+msgid "Type the maximum value for the X axis"
+msgstr "X ekseni için maksimum değeri gir."
+
+#: Morphic-Widgets,JoystickMorph>>setYRange
+msgid "Type the maximum value for the Y axis"
+msgstr "Y ekseni için maksimum değeri gir ."
+
+#: Morphic-Widgets,JoystickMorph>>trackRealJoystick
+msgid "Number of joystick to track?"
+msgstr "izlenecek joystick sayısı?"
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen color"
+msgstr "kalem rengi"
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen size"
+msgstr "kalem boyutu"
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress color..."
+msgstr "süreç rengi..."
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress value..."
+msgstr "ilerleme değeri..."
+
+#: Morphic-Widgets,ProgressBarMorph>>changeProgressValue:
+msgid "Enter new value (0 - 1.0)"
+msgstr "yeni değer gir (0-1. 0)"
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "A rectangle which continuously reports its size in pixels"
+msgstr "boyutunu devamlı olarak piksel şeklinde açıklayan dikdörtgen"
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "Ruler"
+msgstr "cetvel"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change action selector"
+msgstr "hareket seçiciyi değiştir"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change arguments"
+msgstr "argümanları değiştir"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change when to act"
+msgstr "hareket etme zamanını değiştir"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "clear target"
+msgstr "hedefi temizle."
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page sound"
+msgstr "sayfa sesi ekle"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page visual"
+msgstr "sayfa görüntüsü ekle"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set target"
+msgstr "hedefi belirle"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addLabelItemsTo:hand:
+msgid "change label"
+msgstr "etiketi değiştir."
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr "bu tuşa basıldığında hedefe yollanan seçiciyi lütfen yaz"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonDown"
+msgstr "aşağı tuşu"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonUp"
+msgstr "yukarı tuşu"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr "durumlardan birini seç"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "startDrag"
+msgstr "sürüklemeye başla."
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "whilePressed"
+msgstr "basılı olduğunda"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr "periyotlarla ayrılan bu tuşa bastığınızda hedefe yollanan argümanları lütfen yaz"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setLabel
+msgid "Please enter a new label for this button"
+msgstr "bu tuş için yeni bir etiket gir"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setTarget
+msgid "Enter an expression that create the target"
+msgstr "hedefi oluşturan bir açıklama gir."
+
+#: Morphic-Widgets,TinyPaint>>addCustomMenuItems:hand:
+msgid "fill"
+msgstr "doldur"
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "decimal places..."
+msgstr "ondalık haneleri..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font size..."
+msgstr "font boyutu..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font style..."
+msgstr "font biçimi..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>setPrecision
+msgid "How many decimal places? (currently {1})"
+msgstr "kaç ondalık basamak var? (şu an {1})"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu
+msgid "change name..."
+msgstr "ad değiştir..."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make closable"
+msgstr "kapanabilir yap."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make draggable"
+msgstr "sürüklenebilir yap."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make next-to-topmost"
+msgstr "en üste en yakın yap."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make unclosable"
+msgstr "kapanmayan hale getir."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make undraggable"
+msgstr "sürüklenmeyen hale getir."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,Morph>>addStandardHaloMenuItemsTo:hand:,SystemWindow>>buildWindowMenu
+msgid "send to back"
+msgstr "geri gönder."
+
+#: Morphic-Windows,FillInTheBlankMorph>>createAcceptButton
+msgid "Accept(s)"
+msgstr "kabul etmek(s)"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createCancelButton
+msgid "Cancel(l)"
+msgstr "iptal etmek(l)"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createQueryTextMorph:
+msgid "query"
+msgstr "sorgu"
+
+#: Morphic-Windows,PreDebugWindow>>setBalloonTextForCloseBox
+msgid "abandon this execution by closing this window"
+msgstr "pencereyi kapatarak uygulamaya son ver."
+
+#: Morphic-Windows,ProjectViewMorph_class>>defaultNameStemForInstances
+msgid "ProjectView"
+msgstr "proje görünümü"
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "proje olarak yükle."
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "dosyadan projeyi aç."
+
+#: Morphic-Windows,ProjectViewMorph>>balloonText
+msgid ""
+"Click here to enter the\n"
+"project named\n"
+"\"{1}\""
+msgstr "projenin adını \"{1}\"olarak girmek için tıkla."
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "cancel - do not delete anything"
+msgstr "iptal et- bir şeyi silme."
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid ""
+"Do you really want to delete the\n"
+"project named {1}\n"
+"and all its contents?"
+msgstr "adı {1} olan projeyi ve tüm içeriğini silmeyi gerçekten istiyor musun?"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "no - delete icon but keep the project"
+msgstr "hayır - ikonu sil ama projeyi koru."
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "yes - delete icon and delete the project"
+msgstr "evet - ikonu sil ve projeyi de sil."
+
+#: Morphic-Windows,ProjectViewMorph>>editTheName:
+msgid "The project is not present and may not be renamed now"
+msgstr "proje şu an görünmüyor ve belki şu an tekrar isimlendirilmemiştir."
+
+#: Morphic-Windows,ProjectViewMorph>>enter
+msgid "Project not found"
+msgstr "proje bulunamadı."
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "ENTER ACTIVE"
+msgstr "GİRİŞ AKTİF"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "enter this project"
+msgstr "bu projeye gir."
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "expunge this project"
+msgstr "bu projeyi çıkar."
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "Project Named \\\"{1}\""
+msgstr "\\\"{1}\"isimli proje"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH to a different server"
+msgstr "başka bir sunucuda YAYINLA."
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH (also saves a local copy)"
+msgstr "YAYINLAMAK (yerel bir kopyasını da yapar. )"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "see if server version is more recent"
+msgstr "sunucu versiyonunun daha yeni olup olmadığına bak."
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar inboard"
+msgstr "kaydırma çubuğunu içte yap."
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar retractable"
+msgstr "kaydırma çubuğunu geri çekilebilir yap."
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on left"
+msgstr "soldaki kaydırma çubuğu"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on right"
+msgstr "sağdaki kaydırma çubuğu"
+
+#: Morphic-Windows,SystemWindow>>addCustomMenuItems:hand:
+msgid "edit label..."
+msgstr "etiket düzenle..."
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "change title..."
+msgstr "başlık değiştir..."
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "full screen"
+msgstr "tam ekran"
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "window color..."
+msgstr "pencere rengi..."
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createCollapseBox
+msgid "collapse this window"
+msgstr "bu pencere düştü."
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand
+msgid "expand this window"
+msgstr "bu pencereyi büyüt."
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createExpandBox,SystemWindow>>expandBoxHit
+msgid "expand to full screen"
+msgstr "tam ekran yap."
+
+#: Morphic-Windows,SystemWindow>>createCloseBox
+msgid "close this window"
+msgstr "bu pencereyi kapat."
+
+#: Morphic-Windows,SystemWindow>>createMenuBox,SystemWindow>>initializeLabelArea
+msgid "window menu"
+msgstr "pencere menüsü"
+
+#: Morphic-Windows,SystemWindow>>expandBoxHit,SystemWindow>>expandBoxHit
+msgid "contract to original size"
+msgstr "orijinal boyutuna kısalt."
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "close window"
+msgstr "pencereyi kapat."
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "collapse/expand window"
+msgstr "pencereyi küçültmek/genişletmek"
+
+#: Morphic-Windows,SystemWindow>>initialize
+msgid "Untitled Window"
+msgstr "isimsiz pencere"
+
+#: Morphic-Windows,SystemWindow>>relabel
+msgid "New title for this window"
+msgstr "bu pencere için yeni isim"
+
+#: Morphic-Worlds,PasteUpMorph_class>>defaultNameStemForInstances
+msgid "playfield"
+msgstr "oyun alanı"
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "Variable named \"{1}\"  in player named \"{2}\" changed to point to Dot"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "{1} item(s) fixed up"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "change the color or pattern of the desktop background that lies behind everything else on the screen."
+msgstr "Ekranda herşeyin arkasında görünen masa üstü arka plan rengini ya da desenini değiştir."
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "desktop color..."
+msgstr "masaüstü rengi..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "its governing pen trails drawn within"
+msgstr "içinde çizilen kalem izlerini kontrol eder"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "pen trails..."
+msgstr "kalem izleri..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens down"
+msgstr "tüm kalemleri bırak."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrowheads"
+msgstr "tüm kalemler okbaşlarını gösterir."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrows"
+msgstr "tüm kalemler okları gösterir."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show dots"
+msgstr "tüm kalemler noktaları gösterir."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show lines"
+msgstr "tüm kalemler çizgileri gösterir."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens up"
+msgstr "tüm kalemleri al."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "clear pen trails"
+msgstr "kalem izlerini temizle."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "if true, detailed movement of pens between display updates is ignored.  Thus multiple line segments drawn within a script may not be seen individually."
+msgstr "Doğruysa, ekran güncellemeleri arasındaki kalem hareketleri görünmeyecektir.  Böylece, bir betik içine sürüklenen çoklu satır bölümleri tek başlarına görünmeyeceklerdir."
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "playfield options..."
+msgstr "oyun alanı seçenekleri..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:
+msgid "send contents back to donor"
+msgstr "içerikleri vericiye geri yolla."
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define application view"
+msgstr "uygulama görünümünü belirle."
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define factory view"
+msgstr "üretim görünümünü belirle."
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "expand"
+msgstr "genişlemek"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "reduce"
+msgstr "azalmak"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show application view"
+msgstr "uygulama görünümünü göster."
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show factory view"
+msgstr "üretim görünümünü göster."
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show whole world view"
+msgstr "tüm sahne görünümünü göster."
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "world scale and clip..."
+msgstr "sahne ölçeği ve kırpma..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>helpMenu
+msgid "about this system..."
+msgstr "bu sistem hakkında..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "authoring tools..."
+msgstr "düzenleme araçları..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "display mode..."
+msgstr "görüntü durumu"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>appearanceMenu,TheWorldMenu>>helpMenu
+msgid "preferences..."
+msgstr "tercihler..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "redraw screen (r)"
+msgstr "ekranı tekrar düzenle (r)."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "world menu..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>assureNotPaintingElse:
+msgid ""
+"Sorry, you can only paint\n"
+"one object at a time"
+msgstr "üzgünüm, bir seferde sadece tek bir nesneyi boyayabilirsin."
+
+#: Morphic-Worlds,PasteUpMorph>>autoLineLayoutString
+msgid "auto-line-layout"
+msgstr "otomatik-satır-düzeni"
+
+#: Morphic-Worlds,PasteUpMorph>>buildDebugMenu:
+msgid "abandon costume history"
+msgstr "model geçmişini bırak."
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Delete\\Keep"
+msgstr "sil. \\kaydet."
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Hand is holding a Morph in its paste buffer:\\"
+msgstr "el, eklenen arabelleğinde morf tutuyor."
+
+#: Morphic-Worlds,PasteUpMorph>>closeUnchangedWindows
+msgid ""
+"Do you really want to close all windows\n"
+"except those with unaccepted edits?"
+msgstr "onaylanmayan değişiklikler içeren bu pencere dışındaki tüm pencereleri gerçekten kapatmak istiyor musun?"
+
+#: Morphic-Worlds,PasteUpMorph>>defaultNameStemForInstances
+msgid "world"
+msgstr "Sahne"
+
+#: Morphic-Worlds,PasteUpMorph>>deleteNonWindows
+msgid ""
+"Do you really want to discard all objects\n"
+"that are not in windows?"
+msgstr "pencerede bulunmayan tüm nesneleri çıkarmak istediğinizden emin misin?"
+
+#: Morphic-Worlds,PasteUpMorph>>findWindow:,TheWorldMenu>>windowsMenu
+msgid "find window"
+msgstr "pencere bul."
+
+#: Morphic-Worlds,PasteUpMorph>>griddingString
+msgid "use gridding"
+msgstr "bölme kullan."
+
+#: Morphic-Worlds,PasteUpMorph>>gridVisibleString
+msgid "grid visible when gridding"
+msgstr "bölme yaparken görünen bölümler"
+
+#: Morphic-Worlds,PasteUpMorph>>indicateCursorString
+msgid "indicate cursor"
+msgstr "imleci göster"
+
+#: Morphic-Worlds,PasteUpMorph>>innocuousName
+msgid "flap"
+msgstr "flep"
+
+#: Morphic-Worlds,PasteUpMorph>>installFlaps
+msgid "Building Viewers..."
+msgstr "Göstericiler oluşturuluyor..."
+
+#: Morphic-Worlds,PasteUpMorph>>isOpenForDragNDropString
+msgid "open to drag & drop"
+msgstr "sürükle ve bırak seçeneğini aç."
+
+#: Morphic-Worlds,PasteUpMorph>>isPartsBinString
+msgid "parts bin"
+msgstr "parçalar kutusu"
+
+#: Morphic-Worlds,PasteUpMorph>>mouseOverHalosString
+msgid "mouse-over halos"
+msgstr "mouse'u halonun üzerine taşı."
+
+#: Morphic-Worlds,PasteUpMorph>>originAtCenterString
+msgid "origin-at-center"
+msgstr "merkezdeki orijin"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "add new card"
+msgstr "yeni kart ekle."
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "card und stack"
+msgstr "kart ve ek bellek"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "delete this card"
+msgstr "bu kartı sil."
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "explain designations"
+msgstr "gösterimi açıkla."
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to next card"
+msgstr "diğer karta geç."
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to previous card"
+msgstr "önceki karta geç."
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show background objects"
+msgstr "arka plan nesnelerini göster."
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show designations"
+msgstr "gösterimleri göster."
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show foreground objects"
+msgstr "ön plan nesnelerini göster."
+
+#: Morphic-Worlds,PasteUpMorph>>presentDesktopColorMenu
+msgid "desktop color"
+msgstr "masa üstü rengi"
+
+#: Morphic-Worlds,PasteUpMorph>>putUpPenTrailsSubmenu
+msgid "pen trails"
+msgstr "kalem izleri"
+
+#: Morphic-Worlds,PasteUpMorph>>resizeToFitString
+msgid "resize to fit"
+msgstr "uydurmak için yeniden boyutlandır."
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec,PasteUpMorph>>setGridSpec
+msgid "Must be a Point with coordinates (for example 10@10)"
+msgstr "koordinatlarıyla bir nokta olmalıdır (örneğin 10'da 10)"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid origin (usually 0@0):"
+msgstr "yeni bölme orijini (genellikle 0a0)"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid spacing:"
+msgstr "yeni bölme boşluğu:"
+
+#: Morphic-Worlds,PasteUpMorph>>showSourceKeyHit
+msgid "etoys source"
+msgstr "etoys kaynağı"
+
+#: Morphic-Worlds,PasteUpMorph>>showThumbnailString
+msgid "show thumbnails"
+msgstr "tırnak işaretlerini göster."
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "personalize..."
+msgstr "kişiselleştir..."
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "World"
+msgstr "Sahne"
+
+#: Morphic-Worlds,Presenter>>allKnownScriptSelectors
+msgid "script"
+msgstr "betik-"
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually,Presenter>>reportPlayersAndScripts
+msgid "there are no scripted players"
+msgstr "Betikli oynatıcı yoktur."
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually
+msgid "there are no scripts in this project!"
+msgstr "bu projede yazılı metin yok!"
+
+#: Morphic-Worlds,Presenter>>createStandardPlayer
+msgid "dot"
+msgstr "nokta"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid " scripts:"
+msgstr "betikler:"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "All scripts in this project"
+msgstr "bu projedeki tüm betikler"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "named"
+msgstr "adlandırılmış"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "'s"
+msgstr "'in "
+
+#: Morphic-Worlds,StandardScriptingSystem>>removeFromSoundLibrary:
+msgid " tiles reverted to \"clink\""
+msgstr "\"tıklamaya\" dönüşen karolar"
+
+#: Morphic-Worlds,StandardScriptingSystem>>renameSound:newName:
+msgid " tile(s) changed to \""
+msgstr "\"değişen parça(lar) "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "1 if argument is positive, -1 if argument is negative, 0 if argument is zero."
+msgstr "Argüman pozitifse 1, negatifse -1, sıfırsa 0."
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "a randomly chosen integer between 1 and the argument"
+msgstr "1 ve argüman arasında rastgele seçilmiş tamsayı"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "absolute value"
+msgstr "tam değer"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in degrees, whose tangent is the argument"
+msgstr "tanjantı argüman olan açı, derece cinsinden"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in radians, whose tangent is the argument"
+msgstr "tanjantı argüman olan açı, radyan cinsinden"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "cube root of the argument"
+msgstr "argümanın küpkökü"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "exponential (e to the power of the argument)"
+msgstr "üstel (e üssü argüman)"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "logarithm, base 10"
+msgstr "10 tabanında logaritma"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "natural logarithm"
+msgstr "doğal logaritma"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "square root of the argument"
+msgstr "argümanın karekökü"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument multiplied by itself"
+msgstr "kendisiyle çarpılan argüman"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument times itself, times itself again"
+msgstr "argüman çarpı kendisi, çarpı kendisi tekrar"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer closest to the argument."
+msgstr "Argümana en yakın tamsayı."
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer nearest to the argument toward zero"
+msgstr "argümana en yakın sıfıra doğru tamsayı"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the negative of the argument"
+msgstr "argümanın negatif değeri"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of degrees equivalent to the argument which is assumed to be expressed in radians"
+msgstr "radyan cinsinden açıklanan argümanın derece cinsinden değerleri "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of radians equivalent to the argument, which is expressed in degrees."
+msgstr "Derece cinsinden açıklanan argümanın radyan cinsinden değeri. "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the product of all the whole numbers between 1 and the argument"
+msgstr "1 ve argüman arasındaki tüm tam sayıların çarpımı"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trignometric sine, argument in degrees"
+msgstr "trigonometrik sinüs, derece cinsinden"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in degrees"
+msgstr "trigonometrik kosinüs, derece cinsinden"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in radians"
+msgstr "trigonometrik kosinüs, radyan cinsinden"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric sine, argument in radians"
+msgstr "trigonometrik sinüs, radyan cinsinden"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in degrees"
+msgstr "trigonometrik tanjant, derece cinsinden"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in radians"
+msgstr "trigonometrik tanjant, radyan cinsinden"
+

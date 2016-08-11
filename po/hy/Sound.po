@@ -1,0 +1,904 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2011-12-08 04:53+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Sound\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonSound
+msgid "Change sound volume"
+msgstr "Փոխել ձայնի ուժգնությունը"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "open wave editor"
+msgstr "բացել տատաումների խմբագիրը"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "read file"
+msgstr "կարդալ ֆայլը"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "File name?"
+msgstr "Ֆայլի անու՞նը"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "Sorry, I cannot find that file"
+msgstr "Ներեցեք, չեմ կարող գտնել այդ ֆայլը"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,ScorePlayerMorph>>makeControls,SoundLibraryTool>>addButtonRow
+msgid "Play"
+msgstr "Նվագարկել"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows
+msgid "Save"
+msgstr "Պահպանել"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,SoundLibraryTool>>addButtonRow,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Stop"
+msgstr "Կանգնեցնել"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:
+msgid "open a wave-editor tool with this sound as its iniital sound"
+msgstr "բացել տատանումների խմբագիրը այս ձայնով, որպես դրա նախնական ձայն"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:,RecordingControls>>addMenuButtonItemsTo:
+msgid "wave editor"
+msgstr "տատանումների խմբագիր"
+
+#: Sound-Interface,AnonymousSoundMorph>>addToSoundLibrary
+msgid "kindly give the sound a name: "
+msgstr "խնդրեմ անվանեք ձայնը: "
+
+#: Sound-Interface,AnonymousSoundMorph>>initialize
+msgid "Unnamed"
+msgstr "Անանուն"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid ""
+" seconds.\n"
+"Double-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
+msgstr ""
+" վայրկյաններ:\n"
+"Սեղմել երկու անգամ ձայնը լսելու համար: \"ավելացնել ձայնադարանին\" , որն առկա է "
+"լուսարձակող մենյուի մեջ:   Բացի այդ հարմար է ներդնել իրադարձությունների "
+"դիագրամայում և ստեղնաշարի օբյեկտում:"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid "Holds a recorded sound of duration "
+msgstr "Ձայնագրված վայրկյանների տևողությունը "
+
+#: Sound-Interface,CodecDemoMorph>>addCustomMenuItems:hand:
+msgid "select codec"
+msgstr "ընտրել կոդեկ"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "new MIDI controller"
+msgstr "նոր MIDI սարքավորում"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via built in synth"
+msgstr "նվագարկել ներկառուցված սինթեզատորի միջոցով"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via MIDI"
+msgstr "նվագարկել MIDI սարքավորման միջոցով"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "A device for making sound recordings."
+msgstr "Ձայնի ձայնագրման սարքավորում"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,ScorePlayerMorph_class>>descriptionForPartsBin,SoundLibraryTool_class>>descriptionForPartsBin,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "Մուլտիմեդիա"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin
+msgid "SoundRecorder"
+msgstr "Ձայնի ձայնագրում"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Play the current recording from its beginning"
+msgstr "Նվագարկել ընթացիկ ձայնագրությունը սկզբից"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Record"
+msgstr "Ձայնագրել"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Save the current recording for future use."
+msgstr "Պահպանել ընթացիկ ձայնագրությունը ապագա օգտագործման համար:"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Start a new recording"
+msgstr "Մեկնարկել նոր ձայնագրություն"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Stop current recording or playback"
+msgstr "Կանգնեցնել ընթացիկ ձայնագրությունը կամ կրկնանվագարկումը"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose compression..."
+msgstr "ընտրել խտացումը"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose which data-compression scheme should be used to encode the recording."
+msgstr ""
+"ընտրել տվյալների խտացման ինչ նախագիծ է օգտագործվելու ձայնագրությունը "
+"ծածկագրելու համար:"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hand me a sound token"
+msgstr "տվեք ինձ ձայնի նշանը"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hands you a lozenge representing the current sound,  which you can drop into a piano-roll or an event-roll, or later add to the sound library.  Double-click on it to hear the sound"
+msgstr ""
+"Ստեղծել ձայնի ներկայացումը վանդակի տեսքով, որը կարող եք ներդնել "
+"իրադարձությունների դիագրամայի կամ ստեղնաշարի օբյեկտի մեջ, կամ ավելի ուշ "
+"ներդնել ձայնադարանում: ՍԵղմել երկու անգամ ձայնը լսելու համար"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "help"
+msgstr "օգնություն"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "open up the wave-editor tool to visualize and to edit the sound recorded"
+msgstr ""
+"բացել տատանման խմբագրի գործիքը` ձայնագրված ձայնը տեսնելու և խմբագրելու համար"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "opens a flap which contains instructions"
+msgstr "բացում է կարգադրություններով էջանշանը"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "remove any blanks space at the beginning and/or end of the recording.  Caution -- this feature seems to be broken, at least on some platforms, so use at your own risk.  For safety, save this sound in its untrimmed form before venturing to trim."
+msgstr ""
+"ջնջել ցանկացած ազատ հատված ձայնագրության սկզբից և/կամ վերջից: Զգույշ-- այս "
+"հատկությունը չի աշխատում, որոշ հարթություններում, այսպիսով օգտագործել դա ձեր "
+"պատասխանատվության ներքո : Ապահովության համար, պահպանել այս ձայնը չմշակված "
+"տարբերակով մինչ համարձակվելը մշակել այն:"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "Sound Recorder Options"
+msgstr "Ձայնագրության Պարամետրերը"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "trim"
+msgstr "կտրել եզրերը"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "Drag to set the record level"
+msgstr "Քաշել` ձայնագրության մակարդակը կարգավորելու նպատակով"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "maximum record-level"
+msgstr "ձայնագրության առավելագույն մակարդակը"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "minimum record-level"
+msgstr "ձայնագրության նվազագույն մակարդակը"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Compression method\\Currently: {1}"
+msgstr "Խտացման մեթոդ\\Այժմ: {1}"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "GSM (simple compression)"
+msgstr "GSM (պարզ խտացում)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "No compression"
+msgstr "Առանց խտացման"
+
+#: Sound-Interface,RecordingControls>>chooseCodec,RecordingControls>>chooseCodec
+msgid "None"
+msgstr "Ոչինչ"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Speex (for speech)"
+msgstr "Speex (խոսքի համար)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Vorbis (for music)"
+msgstr "Vorbis (երաժշտության համար)"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "no sound recorded yet"
+msgstr "ձայնն առայժմ չի ձայնագրվել"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "Recorded sound duration: {1} second(s)"
+msgstr "Ձայնագրության տևողությունը. {1} վայրկյան(ներ)"
+
+#: Sound-Interface,RecordingControls>>helpString
+msgid ""
+"\n"
+"Press \"Record\" to start recording.  Press Stop when finished recording.\n"
+"\n"
+"After making a recording, you can:\n"
+"   Press \"Play\" to play back the recording.\n"
+"   Press \"Record\" to start a new recording\n"
+"      (the old one would be discarded).\n"
+"   Press \"Save\" to save the recording in the sound library.\n"
+"\n"
+"Press the menu icon to get a menu with further options.\n"
+"\n"
+"If you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n"
+"\n"
+"If you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n"
+"  You can double-click on the sound token to hear the sound again.\n"
+"  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n"
+"  You can drop the sound token into a PianoRoll or an EventRoll.\n"
+msgstr ""
+"\n"
+"Սեղմել \"Ձայնագրել\" ձայնագրությունը սկսելու համար: Սեղմել Կանգնել կոճակը, երբ "
+"ձայնագրումն ավարտվի:   \n"
+"\n"
+"Ձայնագրումն ավարտելուց հետո, դուք կարող եք: \n"
+"Սեղմել \"Նվագարկել\"` ձայնագրությունը լսելու համար:\n"
+"Սեղմել \"Ձայնագրել\"` նոր ձայնագրություն անելու համար:\n"
+" (հին տարբերակը կջնջվի): \n"
+"ՍԵղմել \"Պահպանել\"`ձայնագրությունը ձայնադարանում պահպանելու համար: n (հին "
+"տարբերակը կջնջվի): \n"
+"Սեղմել մենյուի նշանի վրա տեսնելու մենյուն հետագա տարբերակների համար: \n"
+"\n"
+"Եթե ցանկանում եք վկայակոչել սկրիպտերում առկա ձայնը, պետք է ավելացնեք այն "
+"ձայնադարանին, դա անելու համար սեղմել \"Պահպանել\", անհրաժեշտ է անուն տալ դրա "
+"համար: \n"
+"Եթե ցանկանում եք օգտագործել ձայնը, բայց սկրիպտերում դրանք վկայակոչելու "
+"անհրաժեշտություն չկա, նրան անուն տալ հարկավոր չէ, փոխարենը օգտագործեք \"տուր "
+"ինձ ձայնի նշանը\", որը կգտնեք մենյույում, այն ձեզ կտրամադրի փոքրիկ \"ձայնի "
+"նշան\" օբյեկտ, որը կարող եք օգտագործել տարբեր ճանապարհներով: \n"
+"... Դուք կարող եք երկու անգամ սեղմել ձայնի նշանի վրա ձայնը կրկին լսելու "
+"համար:\n"
+"...կարող եք պահպանել ձայնը օգտագործելով լուսարձակ մենյուի ձայնի նշանը\n"
+"...Կարող եք ներդնել ձայնի նշանը  Ձայնագրման Գծապատկերի կամ Ստեղնաշարի մեջ:\n"
+
+#: Sound-Interface,RecordingControls>>makeStatusLight
+msgid "When red, it means you are currently recording"
+msgstr "Եթե կարմիր է նշանակում է ձայնագրությունը ընթացքի մեջ է"
+
+#: Sound-Interface,RecordingControls>>putUpAndOpenHelpFlap,RecordingControls>>putUpHelpFlap,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "Sound Recorder"
+msgstr "Ձայնի Ձայնագրում"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit
+msgid "Sound name?"
+msgstr "Ձայնի անու±նը:"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit,RecordingControls>>saveButtonHit
+msgid "unnamed"
+msgstr "անանուն"
+
+#: Sound-Interface,RecordingControls>>setButtonEnablement
+msgid "Discard the current recording and start making a fresh recording"
+msgstr "Դադարեցնել ընթացիկ ձայնագրությունը և սկսել նորը"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid " second(s) trimmed"
+msgstr " վայրկյան(ներ) կտրված է"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid ""
+"Caution:  this is dangerous and destructive!\n"
+"Do you really want to \"trim\" your recording?\n"
+"(It might be smart to save the untrimmed\n"
+"version in a sound token before trimming)"
+msgstr ""
+"Նախազգուշացում. սա վտանգավոր և վնասակար է: Դուք իսկապե±ս ցանկանում եք կտրել "
+"ձեր ձայնագրությունը: (Ճիշտ կլինի պահպանել չկտրված տարբերակը )"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid "unable to trim any more, sorry"
+msgstr "Գործողությունը չի կատարվել"
+
+#: Sound-Interface,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "A tool for managing the sound library"
+msgstr "Ձայնադրումը ղեկավարելու գործիք"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Add a new sound to the sound library from a file"
+msgstr "Ֆայլից ձայնադարանին ավելացնել նոր ձայն"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete"
+msgstr "Ջնջել"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete the selected sound from the sound library"
+msgstr "Ջնջել ընտրված ձայնը ձայնադարանից"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Hands you a tile representing the selected sound"
+msgstr "Տրամադրում է ընտրված ձայնը ներկայացնող վանդակ"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "If the selected sound is playing, stop it"
+msgstr "Եթե ընտրված ձայնը նվագում է` կանգնեցնել այն"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Load"
+msgstr "Բեռնել"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Play the selected sound"
+msgstr "Նվագարկել ընտրված ձայնը"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename"
+msgstr "Վերանվանել"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename the selected sound"
+msgstr "Վերանվանել ընտրված ձայնը"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Tile"
+msgstr "Վանդակ"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "GSM compress sound"
+msgstr "GSM ձայնի խտացում"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Speex compress sound"
+msgstr "Ogg Speex ձայնի խտացում"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Vorbis compress sound"
+msgstr "Ogg Vorbisձայնի խտացում"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "open a tool which, operating with the selected sound as a point of departure, will allow you to construct a new \"instrument\""
+msgstr ""
+"բացել գործիք, որը գործելով ընտրված ձայնի հետ թույլ կտա ստեղծել նոր "
+"\"երաժշտական գործիք\""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Wave editor"
+msgstr "Տատանումների խմբագիր"
+
+#: Sound-Interface,SoundLibraryTool>>addHeaderRow,SoundLibraryTool>>presentHelp,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "Sound Library"
+msgstr "Ձայնադարան"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:,SoundLibraryTool>>deleteSound,SoundLibraryTool>>renameSound
+msgid "No sound selected"
+msgstr "Ձայնը ընտրված չէ"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:
+msgid "You can not compress this sound"
+msgstr "Չեք կարող խտացնել այս ձայնը"
+
+#: Sound-Interface,SoundLibraryTool>>deleteSound
+msgid "You can not delete this sound"
+msgstr "Չեք կարող ջնջել այս ձայնը"
+
+#: Sound-Interface,SoundLibraryTool>>helpString
+msgid ""
+"This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n"
+"\n"
+"Click on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n"
+"\n"
+"Play button -- press this to start playing the selected sound.\n"
+"\n"
+"Stop button -- if the selected sound is playing, pressing this will stop it.\n"
+"\n"
+"Tile button -- Click on this to obtain a scripting tile representing the selected sound.\n"
+"\n"
+"Rename button -- allows you to rename the selected sound.\n"
+"\n"
+"Delete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n"
+"\n"
+"Load button -- allows you to load a sound into the Sound Library from a file.\n"
+"\n"
+"You can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n"
+"\n"
+"Note: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n"
+"\n"
+"Additionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
+msgstr ""
+"Այս գործիքը թույլ է տալիս տեսնել և ղեկավարել \"Ձայնադարանը\", որը անվանված "
+"ձայների ցուցակն է և կարող է օգտագործվել վանդակների և սկրիպտերի համակարգում: \n"
+"\n"
+"Սեղմել ցուցակի մեջ առկա ձայնի անվան վրա` այն ընտրելու համար:     Պատուհանի "
+"վերևի հատվածում գտնվող կոճակները աշխատում են միայն ընտրված ձայնի հետ: \n"
+"\n"
+"Նվագարկել կոճակը--սեղմել այս նվագարկելու ընտրված ձայնը: \n"
+"\n"
+"Դադարի կոճակ--եթե ընտրված ձայնը նվագում է, այս կոճակը սեղմելով այն կդադարի: \n"
+"\n"
+"Վանդակի կոճակ--ՍԵղմել այս կոճակը ընտրված ձայնը վերարտադրելու վանդակի "
+"սկրիպտավորում ստանալու համար:\n"
+"\n"
+"Վերանվանել կոճակ--թույլ է տալիս վերանվանել ընտրված ձայնը: \n"
+" \n"
+"Ջնջել կոճակ --թույլ է տալիս ջնջել ընտրված ձայնը Ձայնադարանից: Բոլոր "
+"վանդակները, որոնք հիմնվում են այս ձայնի վրա կհիմնվեն  \"կռկռոցի\" վրա: \n"
+"\n"
+"Բեռնել կոճակ--թույլ է տալիս ձայնը ֆայլից բեռնել Ձայնադարան: \n"
+"\n"
+"Կարող եք նաև Ձայնադարան ձայներ ավելացնել օգտագործելով Ձայնագրման Սարք, "
+"ինչպես նաև քաշելով արտաքին ձայնի ֆայլ etoys (օրինակ`  .wav կամ .aif ֆայլ) \n"
+"\n"
+"Նշում. համակարգում առկա \"համընդհանուր\" ձայները չեն կարող վերանվանվել կամ "
+"ջնջվել: \n"
+"\n"
+"Բացի այդ, ընտրված ձայնի համար \"տատանումների խմբագիրը\" բացելու համար "
+"նախատեսված հրահանգը  կարող եք գտնել լուսարձակող մենյուի մեջ:"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "Please give a name for this sound"
+msgstr "Խնդրեմ անվանեք այս ձայնը"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "sorry, that name is already taken"
+msgstr "ներեցեք, այդ անունն արդեն գոյություն ունի"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "New name for "
+msgstr "Նոր անուն ...համար "
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "sorry, that name is already used."
+msgstr "Այդ անվանումն արդեն գոյություն ունի:"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "You can not rename this sound"
+msgstr "Դուք չեք կարող վերանվանել այս ձայնը"
+
+#: Sound-Interface,SoundLibraryTool>>showCompressionString
+msgid "show compression"
+msgstr "ցուցադրել խտացումը"
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "A device for analyzing sound input"
+msgstr "Սարք ձայնի աղբյուրը վերլուծելու համար"
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Spectrum Analyzer"
+msgstr "Սպեկտրի Տարրալուծիչ"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Start"
+msgstr "Մեկնարկ"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set display type"
+msgstr "արտացոլման տիպ"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "Ֆուրյեի արագ փոխակերպման չափսը"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "հաճախականություն"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>makeStatusLight,SpectrumAnalyzerMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "Միացված"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "display type (currently {1})"
+msgstr "արտացոլման տիպ (այժմ {1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "signal"
+msgstr "ազդանշան"
+
+# ազդանշանի ցուցադրումը
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "sonogram"
+msgstr "սպեկտոգրամ"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "spectrum"
+msgstr "սպեկտր"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setFFTSize
+msgid "FFT size (currently {1})"
+msgstr "Ֆուրյեի արագ փոխակերպման չափսը (այժմ {1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setSamplingRate
+msgid "Sampling rate (currently {1})"
+msgstr "Հաճախականությունը (այժմ {1})"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "          rest          "
+msgstr "          դադար          "
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "chord"
+msgstr "ակորդ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "del"
+msgstr "ջնջել"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "dotted"
+msgstr "կետային"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "eighth"
+msgstr "ութերորդ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "half"
+msgstr "կես"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "legato"
+msgstr "առանց ընդհատման"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "normal"
+msgstr "նորմալ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quarter"
+msgstr "քառորդ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quints"
+msgstr "կվինտա"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "sixteenth"
+msgstr "տասնվեցերորդ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "staccato"
+msgstr "ընդհատ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "triplets"
+msgstr "եռյակ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "whole"
+msgstr "ամբողջ"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "add channel"
+msgstr "ավելացնել ալիք"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "close MIDI port"
+msgstr "փակել երաժշտական գործիքների թվային ինտերֆեյսի կետը"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu,ScorePlayerMorph>>invokeMenu
+msgid "reload instruments"
+msgstr "վերբեռնել երաժշտական գործիքները"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "set MIDI port"
+msgstr "տեղադրել երաժշտական գործիքների թվային ինտերֆեյսի կետը"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "add movie clip player"
+msgstr "ավելացնել վիդեո նվագարկիչ"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "close drag and drop"
+msgstr "անջատել բռնել և քաշել ֆունկցիան"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "contract time"
+msgstr "կրճատել ժամանակը"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "expand time"
+msgstr "ավելացնել ժամանակը"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "open drag and drop"
+msgstr "միացնել բռնել և քաշել ֆունկցիան"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "add keyboard"
+msgstr "ավելացնել ստեղնաշար"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "copy"
+msgstr "կրկնօրինակ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "cut"
+msgstr "կտրել"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide beat lines"
+msgstr "թաքցնել ռիթմի գծերը"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide measure lines"
+msgstr "թաքցնել չափման տողերը"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste"
+msgstr "տեղադրել"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste..."
+msgstr "տեղադրել..."
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show beat lines"
+msgstr "ցուցադրել ռիթմի գծերը"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show measure lines"
+msgstr "ցույց տալ չափման տողերը"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "sig     "
+msgstr "ազդանշան     "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "time   "
+msgstr "ժամանակ   "
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid " Mediates between a score such as a MIDIScore, a PianoRollScoreMorph, and the actual SoundPlayer synthesizer"
+msgstr ""
+" Հանդես է գալիս որպես MIDIScore, PianoRollScoreMorph տիպի պարտիտուրաների ու "
+"նվագարկիչ սիտեզատորի կապող օղակ:"
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid "ScorePlayer"
+msgstr "Նվագարկիչ"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open"
+msgstr "բացել"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open in midi player"
+msgstr "բացել midi նվագարկիչը"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open the midi-player tool on this file"
+msgstr "բացել տվյալ ֆայլը midi նվագարկչում"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "make a pause marker"
+msgstr "ստեղծել դադարի նշան"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "open a MIDI file"
+msgstr "բացել MIDI ֆայլը"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as AIFF file"
+msgstr "պահպանել որպես AIFF ֆայլ"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as Sun AU file"
+msgstr "պահպանել որպես Sun AU ֆայլ"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as WAV file"
+msgstr "պահպանել որպես Ձայնային ֆայլ"
+
+#: Sound-Scores,ScorePlayerMorph>>makeAPauseEvent:
+msgid "[pause]"
+msgstr "[Դադար]"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Disable sound reverb"
+msgstr "Անջատել ձայնի արձագանքը"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Menu"
+msgstr "Մենյու"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a menu"
+msgstr "Բացել մենյուն"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a PianoRoll"
+msgstr "Բացել Ստեղնաշարը"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause"
+msgstr "Դադար"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause playback"
+msgstr "Դադարեցնել կրկնանվագարկումը"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "PianoRoll"
+msgstr "Ստեղնաշար"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Play the score"
+msgstr "Նվագարկել ձայնագրությունը"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Playback jumps back to start and continue playing"
+msgstr "Ետ վերադառնալ և շարունակել ձայնագրությունը"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Repeat"
+msgstr "Կրկնել"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Reverb Disable"
+msgstr "Անջատել արձագանքը"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind"
+msgstr "ետ նվագարկել"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind to score start"
+msgstr "Ետ տալ"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "Choose a MIDI file to open"
+msgstr "Ընտրել MIDI ֆայլը"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "No .mid/.midi files found in the Squeak directory"
+msgstr "Squeak գրացուցակում mid/.midi ֆայլեր չկան"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "L"
+msgstr "L"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "R"
+msgstr "R"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid " fast"
+msgstr " ...արագ"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "Playback speed"
+msgstr "Կրկնանվագարկման արագությունը"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "slow "
+msgstr "դանդաղ "
+
+#: Sound-Scores,ScorePlayerMorph>>saveAsAIFF,ScorePlayerMorph>>saveAsSunAudio,ScorePlayerMorph>>saveAsWAV
+msgid "New file name?"
+msgstr "Նոր ֆայլի անու±նը:"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid " end"
+msgstr " վերջ"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "Shows current position in the score"
+msgstr "Ցույց է տալիս ձայնագրության ընթացիկ դիրքը"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "start "
+msgstr "սկիզբ "
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue"
+msgstr "Շարունակել"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue playing a paused presentation"
+msgstr "Շարունակել նվագարկել դադարեցված ձայնագրությունը"
+
+#: Sound-Scores,ScorePlayerMorph>>trackNumAndMuteButtonFor:
+msgid "Mute"
+msgstr "Անձայն"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid " loud"
+msgstr " ...բարձր"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "soft  "
+msgstr "ցածր...  "
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "Volume slider"
+msgstr "Ձայնի մակարդակը"
+
+#: Sound-Scores,SimpleMIDIPort_class>>inputPortNumFromUser
+msgid "MIDI port for input:"
+msgstr "մուտքի MIDI կետը"
+
+#: Sound-Scores,SimpleMIDIPort_class>>outputPortNumFromUser
+msgid "MIDI port for output:"
+msgstr "ելքի MIDI կետը"
+
+#: Sound-Synthesis,SampledSound_class>>soundNamed:
+msgid " not found in the Sound Library"
+msgstr " Ձայնադարանում չի գտնվել"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "camera"
+msgstr "տեսախցիկ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chirp"
+msgstr "ծլվլոց"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chomp"
+msgstr "ճպճպոց"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "click"
+msgstr "քլիք"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "clink"
+msgstr "զնգոց"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "coyote"
+msgstr "կոյոտ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "croak"
+msgstr "կռռոց"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "horn"
+msgstr "շեփոր"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "laugh"
+msgstr "ծիծաղ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "meow"
+msgstr "մյաու"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "motor"
+msgstr "շարժիչ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "peaks"
+msgstr "ճռճռոց"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scrape"
+msgstr "քերոց"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scratch"
+msgstr "քերծվածք"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scritch"
+msgstr "զընգ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "silence"
+msgstr "լռություն"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "splash"
+msgstr "ճողփյուն"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "warble"
+msgstr "դայլայլ"
+
+#: Sound-Synthesis,SoundRecorder>>verifyExistenceOfRecordedSound
+msgid "please record a sound first"
+msgstr "խնդրեմ առաջինը ձայնագրեք ձայնը"

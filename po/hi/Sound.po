@@ -1,0 +1,874 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:40-0000\n"
+"PO-Revision-Date: 2010-08-27 15:40-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Sound\n"
+
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonSound
+msgid "Change sound volume"
+msgstr "आवाज कम-ज्यादा करें"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "open wave editor"
+msgstr "वेव संपादक खोलें"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "read file"
+msgstr "फ़ाइल पढ़ें"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "File name?"
+msgstr "फ़ाइल नाम?"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "Sorry, I cannot find that file"
+msgstr "क्षमा करें, वह फ़ाइल ढूंढा नहीं जा सका"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,ScorePlayerMorph>>makeControls,SoundLibraryTool>>addButtonRow
+msgid "Play"
+msgstr "बजाएँ"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows
+msgid "Save"
+msgstr "सहेजें"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,SoundLibraryTool>>addButtonRow,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Stop"
+msgstr "रूकें"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:
+msgid "open a wave-editor tool with this sound as its iniital sound"
+msgstr "इस ध्वनि के साथ इसे आरंभिक ध्वनि मानते हुए एक वेव-संपादक खोलें"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:,RecordingControls>>addMenuButtonItemsTo:
+msgid "wave editor"
+msgstr "वेव संपादक"
+
+#: Sound-Interface,AnonymousSoundMorph>>addToSoundLibrary
+msgid "kindly give the sound a name: "
+msgstr "कृपया ध्वनि को एक नाम दें: "
+
+#: Sound-Interface,AnonymousSoundMorph>>initialize
+msgid "Unnamed"
+msgstr "अनाम"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid ""
+" seconds.\n"
+"Double-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
+msgstr ""
+" सेकंड.\n"
+"ध्वनि सुनने के लिए दोहरा क्लिक करें. \"ध्वनि लाइब्रेरी में जोड़ें\" हेलो मेन्यू में उपलब्ध है. किसी पियानो-रोल या घटना-रोल में छोड़ने के लिए भी उपयुक्त है"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid "Holds a recorded sound of duration "
+msgstr "अवधि की रेकार्ड की गई ध्वनि रखता है "
+
+#: Sound-Interface,CodecDemoMorph>>addCustomMenuItems:hand:
+msgid "select codec"
+msgstr "कोडेक चुनें"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "new MIDI controller"
+msgstr "नया मिडी नियंत्रक"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via built in synth"
+msgstr "अंतर्निर्मित सिंथेसाइजर से बजाएँ"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via MIDI"
+msgstr "मिडी के जरिए बजाएँ"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "A device for making sound recordings."
+msgstr "ध्वनि रेकॉर्डिंग के लिए एक उपकरण."
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,ScorePlayerMorph_class>>descriptionForPartsBin,SoundLibraryTool_class>>descriptionForPartsBin,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "मल्टीमीडिया"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin
+msgid "SoundRecorder"
+msgstr "ध्वनि-रेकॉर्डर"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Play the current recording from its beginning"
+msgstr "वर्तमान रेकॉर्डिंग को शुरू से बजाएँ"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Record"
+msgstr "रेकॉर्ड"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Save the current recording for future use."
+msgstr "वर्तमान रेकॉर्डिंग को भविष्य में प्रयोग के लिए सहेजें."
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Start a new recording"
+msgstr "नया रेकॉर्डिंग चालू करें"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Stop current recording or playback"
+msgstr "वर्तमान रेकॉर्डिंग या प्लेबैक बन्द करें"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose compression..."
+msgstr "संपीडन चुनें..."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose which data-compression scheme should be used to encode the recording."
+msgstr "रेकॉर्डिंग को एनकोड करने के लिए कौन सा डाटा-संपीडन स्कीम प्रयोग में लिया जाए यह चुनें."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hand me a sound token"
+msgstr "मुझे ध्वनि टोकन दें"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hands you a lozenge representing the current sound,  which you can drop into a piano-roll or an event-roll, or later add to the sound library.  Double-click on it to hear the sound"
+msgstr "आपको वर्तमान ध्वनि का प्रतिनिधित्व करता लोजेंज देता है, जिसे आप एक पियानो-रोल या एक घटना-रोल में छोड़ सकते हैं, या बाद में ध्वनि लाइब्रेरी में जोड़ सकते हैं. ध्वनि सुनने के लिए इस पर डबल क्लिक करें"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "help"
+msgstr "मदद"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "open up the wave-editor tool to visualize and to edit the sound recorded"
+msgstr "वेव-संपादक औजार खोलता है जो रेकॉर्डेड ध्वनि को संपादित व विजुअलाइज करने देता है"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "opens a flap which contains instructions"
+msgstr "फ्लैप खोलता है जिसमें निर्देश हैं"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "remove any blanks space at the beginning and/or end of the recording.  Caution -- this feature seems to be broken, at least on some platforms, so use at your own risk.  For safety, save this sound in its untrimmed form before venturing to trim."
+msgstr "शुरुआत और / या रिकॉर्डिंग के अंत में किसी भी खाली जगह को हटा दें. चेतावनी -- यह सुविधा कुछ बगी है, कम से कम कुछ प्लेटफार्मों पर, अतः आप अपने जोखिम पर इस्तेमाल करें. सुरक्षा के लिए, ट्रिम करने से पहले मूल स्थिति में अपनी ध्वनि को सहेज लें."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "Sound Recorder Options"
+msgstr "ध्वनि रेकॉर्डर विकल्प"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "trim"
+msgstr "काँट-छाँट"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "Drag to set the record level"
+msgstr "रेकॉर्ड स्तर सेट करने के लिए खींचें"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "maximum record-level"
+msgstr "अधिकतम रेकॉर्-स्तर"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "minimum record-level"
+msgstr "न्यूनतम रेकॉर्ड-स्तर"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Compression method\\Currently: {1}"
+msgstr "संपीडन विधि\\वर्तमान: {1}"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "GSM (simple compression)"
+msgstr "जीएसएम (सामान्य संपीडन)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "No compression"
+msgstr "कोई संपीडन नहीं"
+
+#: Sound-Interface,RecordingControls>>chooseCodec,RecordingControls>>chooseCodec
+msgid "None"
+msgstr "कुछ नहीं"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Speex (for speech)"
+msgstr "स्पीक्स (वार्ता के लिए)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Vorbis (for music)"
+msgstr "वॉर्बिस (संगीत के लिए)"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "no sound recorded yet"
+msgstr "अभी कोई ध्वनि रेकॉर्ड किया हुआ नहीं"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "Recorded sound duration: {1} second(s)"
+msgstr "रेकार्ड किया हुआ ध्वनि अवधि: {1} सेकण्ड(s)"
+
+#: Sound-Interface,RecordingControls>>helpString
+msgid ""
+"\n"
+"Press \"Record\" to start recording.  Press Stop when finished recording.\n"
+"\n"
+"After making a recording, you can:\n"
+"   Press \"Play\" to play back the recording.\n"
+"   Press \"Record\" to start a new recording\n"
+"      (the old one would be discarded).\n"
+"   Press \"Save\" to save the recording in the sound library.\n"
+"\n"
+"Press the menu icon to get a menu with further options.\n"
+"\n"
+"If you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n"
+"\n"
+"If you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n"
+"  You can double-click on the sound token to hear the sound again.\n"
+"  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n"
+"  You can drop the sound token into a PianoRoll or an EventRoll.\n"
+msgstr ""
+"\n"
+"रिकॉर्डिंग शुरू करने के लिए दबाएँ \"रिकार्ड\". जब रिकॉर्डिंग सम्पन्न हो जाए तब बन्द करें को दबाएँ. \n"
+"\n"
+"एक रिकॉर्डिंग करने के बाद, आप यह कर सकते हैं: \n"
+"    दबाएँ \"चलायें\" रिकॉर्डिंग को प्लेबैक करने के लिए. \n"
+"    दबाएँ \"रिकार्ड\" एक नई रिकॉर्डिंग शुरू करने के लिए \n"
+"      (पुराना खारिज किया जाएगा). \n"
+"    दबाएँ \"सहेजें\" रेकॉर्डिंग को ध्वनि लाइब्रेरी में सहेजने के लिए. \n"
+"\n"
+"मेन्यू प्रतीक को दबाएँ और अधिक विकल्पों वाले मेन्यू प्राप्त करने के लिए. \n"
+"\n"
+"यदि आप स्क्रिप्ट में ध्वनि का उल्लेख चाहते हैं, तो आपको इसे साउंड लाइब्रेरी में जोड़ने की जरूरत है, इसके लिए सहेजें को दबाएँ; आपको इसके लिए एक नाम देने की आवश्यकता होगी. \n"
+"\n"
+"यदि आप ध्वनि को रखना चाहते हैं लेकिन स्क्रिप्ट में उल्लेख नहीं चाहते हैं, तो आपको इसका नाम बदलने की जरूरत नहीं है. इसके बदले प्रयोग करें \"मुझे एक ध्वनि टोकन दें\" जो मेनू में मिलेगा, \"ध्वनि टोकन\" प्राप्त करने के लिए, जिसे कि आप बाद में विभिन्न तरीकों से उपयोग कर सकते हैं: \n"
+"  आप ध्वनि टोकन पर आवाज को फिर से सुनने के लिए डबल क्लिक कर सकते हैं. \n"
+"  आप ध्वनि को सहेजने का निश्चय कर सकते हैं साउंड टोकन के हालो मेन्यू में एक वस्तु का उपयोग करके. \n"
+"  आप ध्वनि टोकन को पियानो-रोल या घटना-रोल में छोड़ सकते हैं. \n"
+
+#: Sound-Interface,RecordingControls>>makeStatusLight
+msgid "When red, it means you are currently recording"
+msgstr "जब लाल हो, तो इसका अर्थ है कि आप अभी रेकॉर्ड कर रहे हैं"
+
+#: Sound-Interface,RecordingControls>>putUpAndOpenHelpFlap,RecordingControls>>putUpHelpFlap,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "Sound Recorder"
+msgstr "ध्वनि रेकॉर्डर"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit
+msgid "Sound name?"
+msgstr "ध्वनि नाम?"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit,RecordingControls>>saveButtonHit
+msgid "unnamed"
+msgstr "अनाम"
+
+#: Sound-Interface,RecordingControls>>setButtonEnablement
+msgid "Discard the current recording and start making a fresh recording"
+msgstr "वर्तमान रेकॉर्डिंग छोड़ दें तथा नया रेकार्डिंग शुरू करें"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid " second(s) trimmed"
+msgstr " सेकण्ड(s) काटा गया"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid ""
+"Caution:  this is dangerous and destructive!\n"
+"Do you really want to \"trim\" your recording?\n"
+"(It might be smart to save the untrimmed\n"
+"version in a sound token before trimming)"
+msgstr ""
+"चेतावनी: यह खतरनाक और विनाशकारी है!\n"
+"क्या आप सचमुच अपनी रेकॉर्डिंग को \"ट्रिम\" करना चाहते हैं?\n"
+"(यह समझदारी भरा कदम होगा बिना ट्रिम किए\n"
+"ध्वनि संस्करण को पहले सहेज लिया जाए)"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid "unable to trim any more, sorry"
+msgstr "खेद है, और अधिक काटने में असमर्थ"
+
+#: Sound-Interface,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "A tool for managing the sound library"
+msgstr "ध्वनि लाइब्रेरी प्रबंधन हेतु एक औजार"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Add a new sound to the sound library from a file"
+msgstr "फ़ाइल से ध्वनि लाइब्रेरी में नई ध्वनि भरें"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete"
+msgstr "मिटाएँ"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete the selected sound from the sound library"
+msgstr "ध्वनि लाइब्रेरी से चयनित ध्वनि को मिटाएँ"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Hands you a tile representing the selected sound"
+msgstr "चयनित ध्वनि का प्रतिनिधित्व करता एक टाइल आपको देता है"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "If the selected sound is playing, stop it"
+msgstr "यदि चयनित ध्वनि बजाया जा रहा हो, तो इसे बन्द करें"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Load"
+msgstr "लोड"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Play the selected sound"
+msgstr "चयनित ध्वनि बजाएँ"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename"
+msgstr "नाम बदलें"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename the selected sound"
+msgstr "चयनित ध्वनि का नाम बदलें"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Tile"
+msgstr "टाइल"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "GSM compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Speex compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Vorbis compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "open a tool which, operating with the selected sound as a point of departure, will allow you to construct a new \"instrument\""
+msgstr "एक उपकरण खोलें, जो प्रस्थान के एक बिंदु के रूप में चयनित ध्वनि के साथ संचालित होते हुए, आपको एक नए \"वाद्य-यंत्र\" का निर्माण करने की सुविधा देता है"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Wave editor"
+msgstr "वेव-संपादक"
+
+#: Sound-Interface,SoundLibraryTool>>addHeaderRow,SoundLibraryTool>>presentHelp,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "Sound Library"
+msgstr "ध्वनि लाइब्रेरी"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:,SoundLibraryTool>>deleteSound,SoundLibraryTool>>renameSound
+msgid "No sound selected"
+msgstr "कोई ध्वनि चुना नहीं गया"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:
+msgid "You can not compress this sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>deleteSound
+msgid "You can not delete this sound"
+msgstr "आप इस ध्वनि को मिटा नहीं सकते"
+
+#: Sound-Interface,SoundLibraryTool>>helpString
+msgid ""
+"This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n"
+"\n"
+"Click on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n"
+"\n"
+"Play button -- press this to start playing the selected sound.\n"
+"\n"
+"Stop button -- if the selected sound is playing, pressing this will stop it.\n"
+"\n"
+"Tile button -- Click on this to obtain a scripting tile representing the selected sound.\n"
+"\n"
+"Rename button -- allows you to rename the selected sound.\n"
+"\n"
+"Delete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n"
+"\n"
+"Load button -- allows you to load a sound into the Sound Library from a file.\n"
+"\n"
+"You can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n"
+"\n"
+"Note: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n"
+"\n"
+"Additionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
+msgstr ""
+"यह उपकरण आपको \"ध्वनि लाइब्रेरी\" देखने और प्रबंधन करने देता है, जो कि नामित ध्वनि की सूची है जिसे टाइल-स्क्रिप्टिंग सिस्टम में इस्तेमाल किया जा सकता है\n"
+"\n"
+"चुनने के लिए किसी ध्वनि नाम सूची में क्लिक करें. औजार के शीर्ष पर बटन आपके द्वारा चुने गए ध्वनि के लिए लागू होते हैं. \n"
+"\n"
+"प्ले बटन -- चयनित ध्वनि बजाना शुरू करने के लिए इसे दबाएँ\n"
+"\n"
+"बंद करें बटन -- अगर चयनित ध्वनि बज रहा है, इसे दबाने से यह बंद हो जाएगा. \n"
+"\n"
+"टाइल बटन -- चयनित ध्वनि का प्रतिनिधित्व करती स्क्रिप्टिंग टाइल प्राप्त करने के लिए इस पर क्लिक करें. \n"
+"\n"
+"बटन का नाम बदलें -- आपको चयनित ध्वनि को पुनर्नामित करने की अनुमति देता है. \n"
+"\n"
+"बटन को मिटाएँ -- आपको ध्वनि लाइब्रेरी से चयनित ध्वनि नष्ट करने के लिए अनुमति देता है. सभी टाइलें जो पूर्व में यह ध्वनि की ओर इशारा करती थीं वे अब \"क्रोक\" को इंगित करेंगीं. \n"
+"\n"
+"लोड बटन - आपको ध्वनि लाइब्रेरी में एक ध्वनि एक फाइल से लोड करने की अनुमति देता है. \n"
+"\n"
+"आप ध्वनि लाइब्रेरी में ध्वनि रिकॉर्डर का उपयोग कर ध्वनि जोड़ सकते हैं, और ईटॉय में बाह्य ध्वनि फाइल को खींच कर भी (उदा. फ़ाइलें जिनमें wav. या .aif एक्सटेंशन हों) यह कर सकते हैं. \n"
+"\n"
+"ध्यान दें: तंत्र में अंतर्निर्मित \"सार्वभौमिक\" ध्वनि को मिटाया या पुनर्नामित नहीं किया जा सकेगा. \n"
+"\n"
+"इसके अतिरिक्त, औजार के हालो मेन्यू में  चयनित ध्वनि में \"वेव संपादक\" औजार खोलने के लिए एक कमांड मिलेगा."
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "Please give a name for this sound"
+msgstr "इस ध्वनि के लिए एक नाम दें"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "sorry, that name is already taken"
+msgstr "माफ करें, यह नाम पहले ही ले लिया गया है"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "New name for "
+msgstr "के लिए नया नाम "
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "sorry, that name is already used."
+msgstr "माफ करें, यह नाम पहले ही उपयोग में है."
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "You can not rename this sound"
+msgstr "आप इस ध्वनि का नाम नहीं बदल सकते"
+
+#: Sound-Interface,SoundLibraryTool>>showCompressionString
+msgid "show compression"
+msgstr ""
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "A device for analyzing sound input"
+msgstr "ध्वनि इनपुट को एनालाइज करने का एक उपकरण"
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Spectrum Analyzer"
+msgstr "स्पेक्ट्रम एनॉलाइज़र"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Start"
+msgstr "प्रारंभ"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set display type"
+msgstr "डिस्प्ले किस्म सेट करें"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "एफएफटी आकार सेट करें"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "सेंपलिंग दर सेट करें"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>makeStatusLight,SpectrumAnalyzerMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "चालू"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "display type (currently {1})"
+msgstr "प्रदर्शक प्रकार (वर्तमान {1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "signal"
+msgstr "सिग्नल"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "sonogram"
+msgstr "सोनोग्राम"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "spectrum"
+msgstr "वर्णक्रम"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setFFTSize
+msgid "FFT size (currently {1})"
+msgstr "एफएफटी आकार (वर्तमान {1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setSamplingRate
+msgid "Sampling rate (currently {1})"
+msgstr "सेंपलिंग दर (वर्तमान {1})"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "          rest          "
+msgstr "          रेस्ट          "
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "chord"
+msgstr "कार्ड"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "del"
+msgstr "मिटाएँ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "dotted"
+msgstr "बिंदुमय"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "eighth"
+msgstr "आठवां"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "half"
+msgstr "आधा"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "legato"
+msgstr "लेगाटो"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "normal"
+msgstr "सामान्य"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quarter"
+msgstr "चौथाई"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quints"
+msgstr "क्विंट्स"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "sixteenth"
+msgstr "सोलहवां"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "staccato"
+msgstr "स्टाकाटो"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "triplets"
+msgstr "तिड़वें"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "whole"
+msgstr "संपूर्ण"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "add channel"
+msgstr "चैनल जोड़ें"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "close MIDI port"
+msgstr "मिडी पोर्ट बन्द करें"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu,ScorePlayerMorph>>invokeMenu
+msgid "reload instruments"
+msgstr "वाद्ययंत्र फिर से लोड करें"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "set MIDI port"
+msgstr "मिडी पोर्ट सेट करें"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "add movie clip player"
+msgstr "मूवी क्लिप प्लेयर जोड़ें"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "close drag and drop"
+msgstr "खींचना और छोड़ना बन्द करें"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "contract time"
+msgstr "अनुबंध समय"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "expand time"
+msgstr "समय बढ़ाएँ"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "open drag and drop"
+msgstr "खींचना और छोड़ना खोलें"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "add keyboard"
+msgstr "कुंजीपट जोड़ें"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "copy"
+msgstr "नक़ल"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "cut"
+msgstr "काटें"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide beat lines"
+msgstr "बीट लाइनें छुपाएँ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide measure lines"
+msgstr "मापक लाइनें छुपाएँ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste"
+msgstr "चिपकाएँ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste..."
+msgstr "चिपकाएँ..."
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show beat lines"
+msgstr "बीट लाइनें दिखाएँ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show measure lines"
+msgstr "मापक पंक्तियाँ दिखाएँ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "sig     "
+msgstr "हस्ता.     "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "time   "
+msgstr "समय   "
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid " Mediates between a score such as a MIDIScore, a PianoRollScoreMorph, and the actual SoundPlayer synthesizer"
+msgstr " मिडी-स्कोर, पियानो-रोल-स्कोर-मार्फ तथा वास्तविक ध्वनि-प्लेयर सिंथेसाइजर के बीच एक स्कोर को मेडियेट करता है"
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid "ScorePlayer"
+msgstr "स्कोर-प्लेयर"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open"
+msgstr "खोलें"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open in midi player"
+msgstr "मिडी प्लेयर में खोलें"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open the midi-player tool on this file"
+msgstr "इस फ़ाइल में मिडी-प्लेयर औजार खोलें"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "make a pause marker"
+msgstr "ठहरें चिह्न बनाएँ"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "open a MIDI file"
+msgstr "MIDI फ़ाइल खोलें"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as AIFF file"
+msgstr "AIFF फ़ाइल रुप में सहेजें"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as Sun AU file"
+msgstr "Sun AU फ़ाइल रुप में सहेजें"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as WAV file"
+msgstr "WAV फ़ाइल रुप में सहेजें"
+
+#: Sound-Scores,ScorePlayerMorph>>makeAPauseEvent:
+msgid "[pause]"
+msgstr "[ठहरें]"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Disable sound reverb"
+msgstr "ध्वनि रीवर्ब अक्षम करें"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Menu"
+msgstr "मेन्यू"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a menu"
+msgstr "मेन्यू खोलें"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a PianoRoll"
+msgstr "पियानो-रोल खोलें"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause"
+msgstr "ठहरें"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause playback"
+msgstr "बजाना ठहराएँ"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "PianoRoll"
+msgstr "पियानो-रोल"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Play the score"
+msgstr "अंक प्ले करें"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Playback jumps back to start and continue playing"
+msgstr "प्लेबैक वापस प्रारंभ पर जाता है और बजाना चालू करता है"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Repeat"
+msgstr "दोहराएँ"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Reverb Disable"
+msgstr "रीवर्ब अक्षम करें"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind"
+msgstr "रीवाइंड"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind to score start"
+msgstr "स्कोर प्रारंभ में रीवाइंड करें"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "Choose a MIDI file to open"
+msgstr "खोलने के लिए MIDI फ़ाइल चुनें"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "No .mid/.midi files found in the Squeak directory"
+msgstr "स्क्वैर डिरेक्ट्री में कोई .mid/.midi फ़ाइलें नहीं मिलीं"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "L"
+msgstr "बा"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "R"
+msgstr "दा"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid " fast"
+msgstr " तेज"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "Playback speed"
+msgstr "प्लेबैक गति"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "slow "
+msgstr "धीमा "
+
+#: Sound-Scores,ScorePlayerMorph>>saveAsAIFF,ScorePlayerMorph>>saveAsSunAudio,ScorePlayerMorph>>saveAsWAV
+msgid "New file name?"
+msgstr "नया फ़ाइल नाम?"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid " end"
+msgstr " अंत"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "Shows current position in the score"
+msgstr "स्कोर में वर्तमान स्थिति दिखाता है"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "start "
+msgstr "प्रारंभ "
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue"
+msgstr "जारी रखें"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue playing a paused presentation"
+msgstr "ठहरा प्रजेन्टेशन प्ले करता है"
+
+#: Sound-Scores,ScorePlayerMorph>>trackNumAndMuteButtonFor:
+msgid "Mute"
+msgstr "मौन"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid " loud"
+msgstr " तेज"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "soft  "
+msgstr "सॉफ्ट  "
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "Volume slider"
+msgstr "आवाज़ निर्धारक स्लाइडर"
+
+#: Sound-Scores,SimpleMIDIPort_class>>inputPortNumFromUser
+msgid "MIDI port for input:"
+msgstr "इनपुट के लिए मिडी पोर्ट:"
+
+#: Sound-Scores,SimpleMIDIPort_class>>outputPortNumFromUser
+msgid "MIDI port for output:"
+msgstr "आउटपुट के लिए मिडी पोर्ट:"
+
+#: Sound-Synthesis,SampledSound_class>>soundNamed:
+msgid " not found in the Sound Library"
+msgstr " ध्वनि लाइब्रेरी में नहीं मिला"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "camera"
+msgstr "कैमरा"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chirp"
+msgstr "चिर्प"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chomp"
+msgstr "चॉम्प"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "click"
+msgstr "क्लिक"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "clink"
+msgstr "क्लिंक"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "coyote"
+msgstr "कोयोटे"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "croak"
+msgstr "क्रोक"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "horn"
+msgstr "हॉर्न"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "laugh"
+msgstr "हँसी"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "meow"
+msgstr "मियाउ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "motor"
+msgstr "मोटर"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "peaks"
+msgstr "पीक्स"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scrape"
+msgstr "स्क्रेप"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scratch"
+msgstr "स्क्रैच"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scritch"
+msgstr "स्क्रिच"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "silence"
+msgstr "खामोशी"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "splash"
+msgstr "स्प्लैश"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "warble"
+msgstr "वार्बल"
+
+#: Sound-Synthesis,SoundRecorder>>verifyExistenceOfRecordedSound
+msgid "please record a sound first"
+msgstr "कृपया पहले ध्वनि रेकार्ड करें"
+

@@ -1,0 +1,81 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2010-09-20 14:47+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
+"X-Etoys-Domain: Compression\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Compression-Streams,GZipReadStream_class>>serviceDecompressToFile,GZipReadStream_class>>serviceDecompressToFile
+msgid "decompress to file"
+msgstr "descomprimirlo creando un archivo"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install"
+msgstr "instalar"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install into new change set"
+msgstr "instalar en un conjunto de cambios nuevo"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install the decompressed contents of the file as a body of code in the image: create a new change set and file-in the selected file into it"
+msgstr ""
+"instala el contenido descomprimido del fichero como un cuerpo de texto en la "
+"imagen: crea un nuevo conjunto de cambios e introduce dentro el fichero "
+"seleccionado"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "file in the entire decompressed contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr ""
+"cargar el contenido completo del archivo, que debería contener el código "
+"Smalltalk (formato \"chunk\") del archivo de salida"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "cargar archivo entero"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "filein"
+msgstr "cargaArchivo"
+
+#: Compression-Streams,GZipReadStream_class>>serviceViewDecompress,GZipReadStream_class>>serviceViewDecompress
+msgid "view decompressed"
+msgstr "ver descomprimido"
+
+#: Compression-Streams,GZipReadStream_class>>uncompressedFileName:
+msgid ""
+"{1}\n"
+"appears to be a compressed file.\n"
+"Do you want to uncompress it?"
+msgstr ""
+"{1}\n"
+"parece ser un archivo comprimido.\n"
+"¿Quieres descomprimirlo?"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file"
+msgstr "comprimir archivo"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file using gzip compression, making a new file"
+msgstr "comprime el archivo usando compresión gzip, hace un archivo nuevo"
+
+#: Compression-Streams,InflateStream>>upToEndWithProgressBar
+msgid "Unzip a stream"
+msgstr "Descomprimiendo un flujo de datos"
+
+#: Compression-Streams,ZipReadStream>>verifyCrc
+msgid "Wrong CRC-32 (expected {1} got {2}) (proceed to ignore)"
+msgstr ""
+"CRC-32 erroneo (se esperaba {1} pero se obtuvo {2}) (pulse Continuar para "
+"ignorar el problema)"

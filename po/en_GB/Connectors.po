@@ -1,0 +1,1219 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-12 21:47-0000\n"
+"PO-Revision-Date: 2012-03-15 05:43+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Connectors\n"
+"X-Etoys-SystemVersion: etoys5.0 of 12 March 2012 update 2401\n"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "attachmentOwnerChanged"
+msgstr "attachmentOwnerChanged"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "connectedTo"
+msgstr "connectedTo"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationConnected"
+msgstr "destinationConnected"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationDisconnecting"
+msgstr "destinationDisconnecting"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "disconnectedFrom"
+msgstr "disconnectedFrom"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "if set, viewers will display the 'connection' vocabulary even for Morphs that aren't connected to by Connectors."
+msgstr ""
+"if set, viewers will display the 'connection' vocabulary even for Morphs "
+"that aren't connected to by Connectors."
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after a connector has connected to me"
+msgstr "immediately after a connector has connected to me"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my first end has been connected"
+msgstr "immediately after my first end has been connected"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my second end has been connected"
+msgstr "immediately after my second end has been connected"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before a connector is going to disconnect from me"
+msgstr "immediately before a connector is going to disconnect from me"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my first end is going to be disconnected"
+msgstr "immediately before my first end is going to be disconnected"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my second end is going to be disconnected"
+msgstr "immediately before my second end is going to be disconnected"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceConnected"
+msgstr "sourceConnected"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceDisconnecting"
+msgstr "sourceDisconnecting"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "when either of the morphs to which I'm connected have changed their owner or been grabbed or dropped with the hand."
+msgstr ""
+"when either of the morphs to which I'm connected have changed their owner or "
+"been grabbed or dropped with the hand."
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newRandomButton
+msgid "RandomConnector"
+msgstr "RandomConnector"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newWithArrow
+msgid "Arrow"
+msgstr "Arrow"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector"
+msgstr "A basic Connector"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector that bends smoothly"
+msgstr "A basic Connector that bends smoothly"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector with an arrowhead"
+msgstr "A basic Connector with an arrowhead"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic smooth Connector with an arrowhead"
+msgstr "A basic smooth Connector with an arrowhead"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A blank button flap"
+msgstr "A blank button flap"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A button that makes fancy Connectors at random"
+msgstr "A button that makes fancy Connectors at random"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A Maker Button with a Connector loaded"
+msgstr "A Maker Button with a Connector loaded"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap"
+msgstr "A pre-loaded Connectors flap"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Button Flap"
+msgstr "Button Flap"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connector Button"
+msgstr "Connector Button"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors Flap"
+msgstr "Connectors Flap"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Random Connectors"
+msgstr "Random Connectors"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicArrowMenuItemsTo:event:
+msgid "arrow sizes"
+msgstr "arrow sizes"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "add label"
+msgstr "add label"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete"
+msgstr "delete"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border color..."
+msgstr "line border colour..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border width..."
+msgstr "line border width..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line color..."
+msgstr "line colour..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line width..."
+msgstr "line width..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "make button"
+msgstr "make button"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:
+msgid "straighten"
+msgstr "straighten"
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make segmented line"
+msgstr "make segmented line"
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make smooth line"
+msgstr "make smooth line"
+
+#: Connectors-Base,NCAAConnectorMorph>>addEndItemsFor:to:event:
+msgid "new arrow..."
+msgstr "new arrow..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate"
+msgstr "duplicate"
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate model and view"
+msgstr "duplicate model and view"
+
+#: Connectors-Base,NCAAConnectorMorph>>addLabel
+msgid "new label"
+msgstr "new label"
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidth:
+msgid "New line border width?"
+msgstr "New line border width?"
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase line width.\n"
+"Click when done."
+msgstr ""
+"Move cursor farther from\n"
+"this point to increase line width.\n"
+"Click when done."
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidth:
+msgid "New line width?"
+msgstr "New line width?"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "hide handles"
+msgstr "hide handles"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "show handles"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "be orthogonal"
+msgstr "be orthogonal"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "stop being orthogonal"
+msgstr "stop being orthogonal"
+
+#: Connectors-Base,NCAAConnectorMorph>>yellowButtonDown:onEnd:,NCSchematicConnectorMorph>>yellowButtonDown:onEnd:
+msgid "end..."
+msgstr "end..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add arbitrary shape..."
+msgstr "add arbitrary shape..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add pre-made shape..."
+msgstr "add pre-made shape..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "attach to..."
+msgstr "attach to..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to center"
+msgstr "connect to centre"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest attachment point"
+msgstr "connect to nearest attachment point"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point"
+msgstr "connect to nearest point"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point to center"
+msgstr "connect to nearest point to centre"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to relative point..."
+msgstr "connect to relative point..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete shape..."
+msgstr "delete shape..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "display attachments"
+msgstr "display attachments"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "no connection preference"
+msgstr "no connection preference"
+
+#: Connectors-Base,NCConstraintMorph>>attachToSelectedMorph:,NCConstraintMorph>>deleteSelectedMorph:
+msgid "Select Morph"
+msgstr "Select Morph"
+
+#: Connectors-Base,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "connect to nothing"
+msgstr "connect to nothing"
+
+#: Connectors-Base,NCLineEndConstraintMorph>>innocuousName
+msgid "connector end"
+msgstr "connector end"
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "A Connector whose endpoints automatically become dots when connected."
+msgstr "A Connector whose endpoints automatically become dots when connected."
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "Schematic Connector"
+msgstr "Schematic Connector"
+
+#: Connectors-Info,ConnectorsInfo_class>>postInstall,NCAAConnectorMorph_class>>initialize
+msgid "if set, Connectors will use labels that try to re-position themselves to stay out of the way."
+msgstr ""
+"if set, Connectors will use labels that try to re-position themselves to "
+"stay out of the way."
+
+#: Connectors-Lines_and_Curves,NCLineMorph>>changeArrowScaleInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase the size of the arrows.\n"
+"Click when done."
+msgstr ""
+"Move cursor farther from\n"
+"this point to increase the size of the arrows.\n"
+"Click when done."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add mouse up action"
+msgstr "add mouse up action"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "move"
+msgstr "move"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "properties..."
+msgstr "properties..."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "remove mouse up action"
+msgstr "remove mouse up action"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "resize"
+msgstr "resize"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:
+msgid "grab"
+msgstr "grab"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "lock text"
+msgstr "lock text"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "unlock text"
+msgstr "unlock text"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addDebugMenuItemsTo:event:
+msgid "inspect"
+msgstr "inspect"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate view only"
+msgstr "duplicate view only"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "lock all text"
+msgstr "lock all text"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "set all fonts to..."
+msgstr "set all fonts to..."
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "unlock all text"
+msgstr "unlock all text"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>antiAliasString
+msgid "smooth edges"
+msgstr "smooth edges"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFontFor:
+msgid "Choose font for text:"
+msgstr "Choose font for text:"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFont,NCDisplayTextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "Choose font:"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML package shape"
+msgstr "A UML package shape"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "UML Package"
+msgstr "UML Package"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add swim lane"
+msgstr "add swim lane"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete swim lane"
+msgstr "delete swim lane"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A circle shape with text inside"
+msgstr "A circle shape with text inside"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A diamond shape with text inside"
+msgstr "A diamond shape with text inside"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A happy face"
+msgstr "A happy face"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A pointing hand shape with text inside"
+msgstr "A pointing hand shape with text inside"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A sad face"
+msgstr "A sad face"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "AND Gate"
+msgstr "AND Gate"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'and gate' shape with text inside"
+msgstr "An 'and gate' shape with text inside"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'or gate' shape with text inside"
+msgstr "An 'or gate' shape with text inside"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'xor gate' shape with text inside"
+msgstr "An 'xor gate' shape with text inside"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Another pointing hand"
+msgstr "Another pointing hand"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "CircleCurve"
+msgstr "CircleCurve"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Diamond"
+msgstr "Diamond"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Happy face"
+msgstr "Happy face"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "OR Gate"
+msgstr "OR Gate"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand"
+msgstr "Pointing Hand"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand2"
+msgstr "Pointing Hand2"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Sad face"
+msgstr "Sad face"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "XOR Gate"
+msgstr "XOR Gate"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "An ellipse or circle"
+msgstr "An ellipse or circle"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "Ellipse"
+msgstr "Ellipse"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "An elliptical or circular shape with text"
+msgstr "An elliptical or circular shape with text"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Text Ellipse"
+msgstr "Text Ellipse"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "A UML note shape"
+msgstr "A UML note shape"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "Note"
+msgstr "Note"
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "Embed pin into..."
+msgstr "Embed pin into..."
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "<do not embed>"
+msgstr "<do not embed>"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn off smoothing"
+msgstr "turn off smoothing"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn on smoothing"
+msgstr "turn on smoothing"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "set scaling"
+msgstr "set scaling"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing off"
+msgstr "turn smoothing off"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing on"
+msgstr "turn smoothing on"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol that can read its text from a Squeak class"
+msgstr "A UML class symbol that can read its text from a Squeak class"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "STClass"
+msgstr "STClass"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become composite"
+msgstr "become composite"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become scrollable composite"
+msgstr "become scrollable composite"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add line"
+msgstr "add line"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text"
+msgstr "add text"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text block"
+msgstr "add text block"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete line"
+msgstr "delete line"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text"
+msgstr "delete text"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text block"
+msgstr "delete text block"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "emphasis..."
+msgstr "emphasis..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "set font for this text"
+msgstr "set font for this text"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "text properties..."
+msgstr "text properties..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>hideTextBlockString
+msgid "hide lower text"
+msgstr "hide lower text"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol"
+msgstr "A UML class symbol"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "Class"
+msgstr "Class"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "acceptedTextContents"
+msgstr "acceptedTextContents"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "when text is accepted into a text morph by hitting Enter or losing focus"
+msgstr ""
+"when text is accepted into a text morph by hitting Enter or losing focus"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "A raw piece of text (with a context menu) which you can edit into anything you want"
+msgstr ""
+"A raw piece of text (with a context menu) which you can edit into anything "
+"you want"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Enhanced Text"
+msgstr "Enhanced Text"
+
+#: Connectors-Text,NCDisplayTextMorph>>addTextMenuItemsTo:event:
+msgid "choose font..."
+msgstr "choose font..."
+
+#: Connectors-Text,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Text that you can grab and move around (click to edit)"
+msgstr "Text that you can grab and move around (click to edit)"
+
+#: Connectors-Text-Base,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached."
+msgstr ""
+"A label that can be attached to another morph by dropping or menu choice and "
+"will follow the morph to which it is attached."
+
+#: Connectors-Text-Base,NCLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "font..."
+msgstr "font..."
+
+#: Connectors-Text-Base,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached, trying to stay out of the way."
+msgstr ""
+"A label that can be attached to another morph by dropping or menu choice and "
+"will follow the morph to which it is attached, trying to stay out of the "
+"way."
+
+#: Connectors-Text-Base,NCSmartLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "change margins"
+msgstr "change margins"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnCRString
+msgid "accept on CR"
+msgstr "accept on CR"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnFocusLossString
+msgid "accept on focus loss"
+msgstr "accept on focus loss"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "Accept"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "Cancel"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild
+msgid "Connector Properties for {1}"
+msgstr "Connector Properties for {1}"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "cancel changes made and close panel"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "keep changes made and close panel"
+
+#: Connectors-Tools,NCArrowDictionaryMenu_class>>chooseArrowGlyphFor:selector:
+msgid "Arrows"
+msgstr "Arrows"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>chooseArrowGlyphFor:selector:
+msgid "OK"
+msgstr "OK"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid "New key? "
+msgstr "New key? "
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid ""
+"sorry, that conflicts with\n"
+"the name of another\n"
+"entry in this dictionary"
+msgstr ""
+"sorry, that conflicts with\n"
+"the name of another\n"
+"entry in this dictionary"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Copy the name of this graphic to the clipboard"
+msgstr "Copy the name of this graphic to the clipboard"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "copy name"
+msgstr "copy name"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Find an entry by name"
+msgstr "Find an entry by name"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "find..."
+msgstr "find..."
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "make new arrow"
+msgstr "make new arrow"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Open an Arrow editor"
+msgstr "Open an Arrow editor"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Remove this arrow from the dictionary"
+msgstr "Remove this arrow from the dictionary"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Rename this arrow"
+msgstr "Rename this arrow"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "remove"
+msgstr "remove"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "rename"
+msgstr "rename"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>adjusterWindow
+msgid "Attachment Point Adjuster"
+msgstr "Attachment Point Adjuster"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "Attachment Adjuster"
+msgstr "Attachment Adjuster"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArrayButton
+msgid "Add Array"
+msgstr "Add Array"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArray
+msgid "Enter the number of H and/or V APs to create; use 0 for none"
+msgstr "Enter the number of H and/or V APs to create; use 0 for none"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addAttacherButton
+msgid "Add"
+msgstr "Add"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "Default"
+msgstr "Default"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "None"
+msgstr "None"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make movable"
+msgstr "Make movable"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make non-movable"
+msgstr "Make non-movable"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid off"
+msgstr "Turn grid off"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid on"
+msgstr "Turn grid on"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for State Machine drawings"
+msgstr "A buttonBar for State Machine drawings"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for UML Class Diagrams"
+msgstr "A buttonBar for UML Class Diagrams"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for state machine drawings"
+msgstr "A pre-loaded Connectors flap for state machine drawings"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for UML class diagram drawings"
+msgstr "A pre-loaded Connectors flap for UML class diagram drawings"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "An empty buttonBar that you can add to"
+msgstr "An empty buttonBar that you can add to"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class ButtonBar"
+msgstr "Class ButtonBar"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class diagram Flap"
+msgstr "Class diagram Flap"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM ButtonBar"
+msgstr "FSM ButtonBar"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM Flap"
+msgstr "FSM Flap"
+
+#: Connectors-Tools,NCButtonBar>>addButtonAndInform,NCButtonBar>>addButtonAndInformAt:,NCPartsBin>>addButtonAndInform,NCPartsBin>>addButtonAndInformAt:
+msgid "Drop a Morph on the button."
+msgstr "Drop a Morph on the button."
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "add bar label"
+msgstr "add bar label"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:
+msgid "add button"
+msgstr "add button"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "change bar label text"
+msgstr "change bar label text"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "collapse"
+msgstr "collapse"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "remove bar label"
+msgstr "remove bar label"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "set bar label font"
+msgstr "set bar label font"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn off button labels"
+msgstr "turn off button labels"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn on button labels"
+msgstr "turn on button labels"
+
+#: Connectors-Tools,NCButtonBar>>changeLabel
+msgid "Enter label:"
+msgstr "Enter label:"
+
+#: Connectors-Tools,NCButtonBar>>promptForFont,NCLabelMorph>>promptForFont
+msgid "Choose label font:"
+msgstr "Choose label font:"
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin
+msgid "A tool that lets you edit Connectors arrow shapes."
+msgstr "A tool that lets you edit Connectors arrow shapes."
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin,NCGlyphEditor_class>>newStandAlone
+msgid "Arrow Editor"
+msgstr "Arrow Editor"
+
+#: Connectors-Tools,NCGlyphEditor>>chooseFont
+msgid "Choose Font"
+msgstr "Choose Font"
+
+#: Connectors-Tools,NCGlyphEditor>>font:
+msgid "You must choose a TrueType font"
+msgstr "You must choose a TrueType font"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Arrow scales"
+msgstr "Arrow scales"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Choose font"
+msgstr "Choose font"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Clear clicks"
+msgstr "Clear clicks"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Install"
+msgstr "Install"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Make morph"
+msgstr "Make morph"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Rotate"
+msgstr "Rotate"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Sample"
+msgstr "Sample"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Toggle dots"
+msgstr "Toggle dots"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Write code"
+msgstr "Write code"
+
+#: Connectors-Tools,NCGlyphEditor>>install
+msgid "Install with what name?"
+msgstr "Install with what name?"
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Constructor text is on clipboard."
+msgstr "Constructor text is on clipboard."
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Install in which selector?"
+msgstr "Install in which selector?"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change action selector"
+msgstr "change action selector"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change arguments"
+msgstr "change arguments"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change when to act"
+msgstr "change when to act"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "erase pixels of color..."
+msgstr "erase pixels of colour..."
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "recolor pixels of color..."
+msgstr "recolour pixels of colour..."
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "remove label"
+msgstr "remove label"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "replace target"
+msgstr "replace target"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "resize image"
+msgstr "resize image"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "set target"
+msgstr "set target"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "update image"
+msgstr "update image"
+
+#: Connectors-Tools,NCMakerButton>>doButtonAction
+msgid "Drop a Morph on me so that I can have something to make!"
+msgstr "Drop a Morph on me so that I can have something to make!"
+
+#: Connectors-Tools,NCMakerButton>>replaceTarget
+msgid "Drop a Morph on me"
+msgstr "Drop a Morph on me"
+
+#: Connectors-Tools,NCMakerButton>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed.\n"
+"Some possibilities:"
+msgstr ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed.\n"
+"Some possibilities:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "adopt graph paper as fill style"
+msgstr "adopt graph paper as fill style"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "Graph paper"
+msgstr "Graph paper"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a Connector properties panel for the morph"
+msgstr "open a Connector properties panel for the morph"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a text properties panel for the morph"
+msgstr "open a text properties panel for the morph"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:,TextMorph_class>>boldAuthoringPrototype
+msgid "Text"
+msgstr "Text"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "add controls for gradient and border to the panel"
+msgstr "add controls for gradient and border to the panel"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "Fewer controls"
+msgstr "Fewer controls"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "More controls"
+msgstr "More controls"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "Properties for {1}"
+msgstr "Properties for {1}"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "show only color picker for solid color"
+msgstr "show only colour picker for solid colour"
+
+#: Etoys-Scripting,Player>>createSlotFor:
+msgid "name for new variable: "
+msgstr "name for new variable: "
+
+#: MorphicExtras-Flaps,Flaps_class>>newClassDiagramConnectorsFlap
+msgid "Class Diagrams"
+msgstr "Class Diagrams"
+
+#: MorphicExtras-Flaps,Flaps_class>>newConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin,NCButtonBar_class>>supplementaryPartsDescriptions,NCDisplayTextMorph_class>>supplementaryPartsDescriptions,NCEllipseMorph_class>>supplementaryPartsDescriptions,NCGlyphEditor_class>>descriptionForPartsBin,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions,NCLabelMorph_class>>supplementaryPartsDescriptions,NCMakerButton_class>>descriptionForPartsBin,NCSchematicConnectorMorph_class>>descriptionForPartsBin,NCSmartLabelMorph_class>>supplementaryPartsDescriptions,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "Connectors"
+
+#: MorphicExtras-Flaps,Flaps_class>>newNCPartsBinFlap
+msgid "My Flap"
+msgstr "My Flap"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector"
+msgstr "A basic connector"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector with an arrowhead"
+msgstr "A basic connector with an arrowhead"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector"
+msgstr "A basic curved connector"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector with an arrowhead"
+msgstr "A basic curved connector with an arrowhead"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A buttonBar for customizing"
+msgstr "A buttonBar for customising"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "A handy Morph-generating button"
+msgstr "A handy Morph-generating button"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label"
+msgstr "A label"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label that positions itself"
+msgstr "A label that positions itself"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A new button flap"
+msgstr "A new button flap"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "A rectangle with text, or a button"
+msgstr "A rectangle with text, or a button"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A simple shape with a context menu"
+msgstr "A simple shape with a context menu"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "AP Adjuster"
+msgstr "AP Adjuster"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Basic Shape"
+msgstr "Basic Shape"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "ButtonBar"
+msgstr "ButtonBar"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "Connector"
+msgstr "Connector"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "ConnectorArrow"
+msgstr "ConnectorArrow"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy Connector"
+msgstr "Curvy Connector"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy ConnectorArrow"
+msgstr "Curvy ConnectorArrow"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Display text that you can move"
+msgstr "Display text that you can move"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCLabelMorph>>initializeToStandAlone,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Label"
+msgstr "Label"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "Maker Button"
+msgstr "Maker Button"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "New Button Flap"
+msgstr "New Button Flap"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Smart Label"
+msgstr "Smart Label"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Text Rectangle"
+msgstr "Text Rectangle"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "This lets you adjust the attachment points on a dropped Morph"
+msgstr "This lets you adjust the attachment points on a dropped Morph"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCGrabbableDisplayTextMorph_class>>authoringPrototype,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Title"
+msgstr "Title"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A state transition for UML State Diagrams"
+msgstr "A state transition for UML State Diagrams"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML composite state shape"
+msgstr "A UML composite state shape"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML end state shape"
+msgstr "A UML end state shape"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape"
+msgstr "A UML State shape"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape with scrollbars"
+msgstr "A UML State shape with scrollbars"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML start state shape"
+msgstr "A UML start state shape"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Composite State"
+msgstr "Composite State"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "End State"
+msgstr "End State"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Scrolled State"
+msgstr "Scrolled State"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Start State"
+msgstr "Start State"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "State"
+msgstr "State"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "State Transition"
+msgstr "State Transition"
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "balloon-help font..."
+msgstr "balloon-help font..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "Connectors label font..."
+msgstr "Connectors label font..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "code font..."
+msgstr "code font..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "default text font..."
+msgstr "default text font..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "flaps font..."
+msgstr "flaps font..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "list font..."
+msgstr "list font..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "menu font..."
+msgstr "menu font..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "window-title font..."
+msgstr "window-title font..."
+
+#~ msgid "Basic"
+#~ msgstr "Basic"

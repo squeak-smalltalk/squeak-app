@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:55-0000\n"
+"PO-Revision-Date: 2010-08-27 15:55-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Network\n"
+
+
+#: Network-Kernel,InternetConfiguration_class>>initialize
+msgid "If true, set http proxy automatically on startUp. Only works on MacOS X for now"
+msgstr "که ریښتیا وي. د ایچ ټي ټي پي پروکسي په اتوماتیک ډول د پېل کېدا سره وټاکه. اوس یواځې د ماکوس ایکس لپاره کار کوي"
+
+#: Network-Kernel,NetNameResolver_class>>promptUserForHostAddressDefault:
+msgid "Host name or address?"
+msgstr "د کوربه نوم یا پته؟"
+
+#: Network-Protocols,HTTPSocket_class>>httpShowPage:
+msgid "Document could not be fetched"
+msgstr "لاسوند را نه وړل شو"
+
+#: Network-Protocols,HTTPSocket_class>>retry:asking:ifGiveUp:
+msgid "Retry\\Give Up"
+msgstr "بیاهڅه\\پرېږده"
+
+#: Network-RemoteDirectory,PRServerDirectory>>createDirectory:,PRServerDirectory>>deleteFileNamed:,PRServerDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "عمل چې ندی ملاتړ شوی"
+
+#: Network-RemoteDirectory,PRServerDirectory>>queryProjectsAndShow:,PRServerDirectory>>writeProject:inFileNamed:fromDirectory:
+msgid "Server responded: {1}"
+msgstr "پالنګر ځواب ورکړ: }۱{"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid "Enter a new file name"
+msgstr "د یوې نوې دوتنې نوم ورکړه"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr "په دغه دوتنه دپاسه ولیکه بل نوم غوره کړه لغو کړه"
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "Upload for {1} did not succeed ({2})."
+msgstr "لېښل لپاره د }۱{ بریالي نه شو (}۲{)."
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "(uploading {1}...)"
+msgstr "(لېښل کېږي }۱{...)"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>showQueryAsPVM:
+msgid "No projects found for your criteria"
+msgstr "ستا د مقیاس کومه پروژه ونه موندل شوه"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "Server responded "
+msgstr "پالنګر ځواب ورکړ "
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "(uploading "
+msgstr "(لېښل کېږي) "
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "...)"
+msgstr "...)"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "An editor for the http proxy settings"
+msgstr "د ایچ ټي ټي پي د پرکسي امستنې ایډیټور"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "http proxy editor"
+msgstr "ایچ ټي ټي پي‌پرکسي‌ایډیټور"
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Proxy Server Named: '{1}' port: {2}."
+msgstr "نوم شوی پرکسي پالنګر: '}۱{' درشل: }۲{."
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Stop using Proxy Server."
+msgstr "د پرکسي پالنګر کارول بس کړه."
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept"
+msgstr "منل"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept the proxy settings"
+msgstr "د پرکسي امستنې ومنه"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel"
+msgstr "لغوه"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel the proxy settings"
+msgstr "د پرکسي امستنې لغوه کړه"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Port:"
+msgstr "درشل:"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Server Name:"
+msgstr "د پالنګر نوم:"
+
+#: Network-UI,HTTPProxyEditor>>initialize
+msgid "HTTP Proxy Editor"
+msgstr "ایچ ټي ټي پي پرکسي ایډیټور"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this attachment"
+msgstr "دا مل وګوره"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this image attachment"
+msgstr "دا د انځور مل وګوره"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "\\save this attachment"
+msgstr "دا مل وساته"
+

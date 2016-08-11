@@ -1,0 +1,257 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:59-0000\n"
+"PO-Revision-Date: 2010-08-27 15:59-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Sugar\n"
+
+
+#: Sugar,SugarDatastoreDirectory>>createDirectory:,SugarDatastoreDirectory>>deleteDirectory:,SugarDatastoreDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "операция не поддерживается"
+
+#: Sugar,SugarDatastoreDirectory>>deleteFileNamed:
+msgid "Use the journal to delete entries"
+msgstr "Используйте журнал для удаления элементов"
+
+#: Sugar,SugarDatastoreDirectory>>moniker
+msgid "Journal"
+msgstr "Журнал"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "make XO bundle"
+msgstr "создать XO пакет"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "wrap as an OLPC XO bundle"
+msgstr "обернуть в XO пакет"
+
+#: Sugar,SugarLauncher_class>>wrapAsXOBundle:
+msgid "Making bundle"
+msgstr "Создание пакетов"
+
+#: Sugar,SugarLauncher>>badgeFlap,SugarLauncher>>deleteBadges
+msgid "Buddies"
+msgstr "Контакты"
+
+#: Sugar,SugarLauncher>>chooser:response:,SugarLauncher>>resumeJournalEntry:
+msgid "untitled"
+msgstr "безымянный"
+
+#: Sugar,SugarLauncher>>createJournalEntryFor:filename:mimetype:
+msgid "Etoys"
+msgstr "eToys"
+
+#: Sugar,SugarLauncher>>handleStream:mimetype:titled:
+msgid "Cannot open {1}"
+msgstr "Нельзя открыть {1}"
+
+#: Sugar,SugarLauncher>>invite:
+msgid "Inviting buddy ..."
+msgstr ""
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Joining activity ..."
+msgstr "Присоединение к Активности..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Looking for shared activity ..."
+msgstr "Искать общую Активность..."
+
+#: Sugar,SugarLauncher>>open:title:mimetype:
+msgid "Opening journal entry"
+msgstr "Открыть элемент журнала"
+
+#: Sugar,SugarLauncher>>quit
+msgid ""
+"Are you sure you want to quit Etoys?\n"
+"(the project will NOT be saved)"
+msgstr ""
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Etoys Project"
+msgstr "Проект eToys"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Unnamed"
+msgstr "Новый"
+
+#: Sugar,SugarNavigatorBar_class>>current,SugarNavigatorBar_class>>putUpInitialBalloonHelp,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Sugar Navigator Flap"
+msgstr "Sugar навигатор"
+
+#: Sugar,SugarNavigatorBar_class>>findAnythingMorph
+msgid "Find..."
+msgstr "Поиск..."
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "File Dialog"
+msgstr "Файлы"
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "The list of files and directories"
+msgstr "Список файлов и каталогов"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Present a virtual display that approximates the actual OLPC display in resolution, centered within the actual Squeak display window."
+msgstr "Открыть в центре экрана виртуальный дисплей соответствующий OLPC разрешению"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Scale the Squeak display so that it appears to have the same resolution as an OLPC display.  If you resize the Squeak window to approximate the physical dimensions of the real OLPC display, this will result in an appearance that closely resembles the appearance on an OLPC screen."
+msgstr "Изменить разрешение экрана так, чтобы оно соответствовало разрешению OLPC"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Use the normal Squeak display, without applying any special scaling."
+msgstr "Использовать изначальное разрешение экрана"
+
+#: Sugar,SugarNavigatorBar>>buildAndOpenHelpFlap,SugarNavigatorBar>>toggleHelp
+msgid "Help"
+msgstr "Справка"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "FIND"
+msgstr "Поиск"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "Find an entry in the Journal.  Hold mouse button down for further options."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonHideNavBar
+msgid "hide the tool bar"
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "Keep a copy of the current project in the Journal. Hold mouse button down for further options."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "PUBLISH IT!"
+msgstr "Опубликовать"
+
+#: Sugar,SugarNavigatorBar>>buttonLanguage
+msgid "Click here to choose your language."
+msgstr "Выбрать язык интерфейса"
+
+#: Sugar,SugarNavigatorBar>>buttonPaint
+msgid "Make a painting"
+msgstr "Создать рисунок"
+
+#: Sugar,SugarNavigatorBar>>buttonShare
+msgid "Enable sharing. When another user joins, you can exchange objects."
+msgstr "Сделать ваш еToys общим, что позволит другим пользователям обмениваться с вами объектами"
+
+#: Sugar,SugarNavigatorBar>>buttonShowNavBar
+msgid "show the tool bar"
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonStop
+msgid "Quit Etoys (with saving)"
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonUndo
+msgid "Undo the last change"
+msgstr "Отменить последнее изменение"
+
+#: Sugar,SugarNavigatorBar>>buttonZoom
+msgid "Click here to toggle using the full screen."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>chooseScreenSetting
+msgid "display mode"
+msgstr "режим экрана"
+
+#: Sugar,SugarNavigatorBar>>makeBadgeLabelIn:
+msgid "Make a Badge"
+msgstr "Сделать Значок"
+
+#: Sugar,SugarNavigatorBar>>makeMyNeighborhoodLabelIn:
+msgid "My Neighborhood"
+msgstr "Мои соседи"
+
+#: Sugar,SugarNavigatorBar>>makePrivateLabelIn:
+msgid "Private"
+msgstr "Частный"
+
+#: Sugar,SugarNavigatorBar>>paintButtonInitialExplanation
+msgid ""
+"To start,\n"
+"click here\n"
+"to create\n"
+"a new\n"
+"painting."
+msgstr ""
+"Для создания\n"
+"нового изображения,\n"
+"кликните здесь."
+
+#: Sugar,SugarNavigatorBar>>projectNameFieldBalloonHelp
+msgid ""
+"This is the name of current project.\n"
+"You can edit it as well."
+msgstr ""
+"Это имя текущего проекта.\n"
+"Вы можете его редактировать."
+
+#: Sugar,SugarNavigatorBar>>setEdge:,SugarNavigatorBar>>setupSuppliesFlap,SugarNavigatorBar>>toggleSupplies,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Supplies"
+msgstr "Инструменты"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Centered Virtual Extent"
+msgstr "Центрировать виртуальный экран"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "No Scaling"
+msgstr "Не масштабировать"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Scaled Virtual Extent"
+msgstr "Масштабированный виртуальный экран"
+
+#: Sugar,SugarNavigatorBar>>stringForFullScreenToggle
+msgid "Full Screen"
+msgstr "на полный экран"
+
+#: Sugar,SugarNavigatorBar>>suppliesButtonInitialExplanation
+msgid ""
+"Or, click to see Supplies.  \n"
+"Choose an object or \n"
+"choose the Object Catalog for more choices."
+msgstr ""
+"Для создания нового объекта откройте\n"
+"этот каталог Инструментов."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "цвет..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "удалить закладку"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "высота..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "подсветка..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "использовать стандартный серый цвет"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "использовать стандартный зелёный цвет"
+
+#: Sugar,SugarNavTab>>wording
+msgid "Sugar Navigation Flap"
+msgstr "sugar навигатор"
+

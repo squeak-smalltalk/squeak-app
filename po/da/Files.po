@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2011-04-26 01:42+0200\n"
+"Last-Translator: Aputsiaq <aj@isit.gl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.1\n"
+"X-Etoys-Domain: Files\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Attempt to rename a non-existent file"
+msgstr "Forsøg på at omdøbe en fil som ikke eksisterer"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"delete old version\n"
+"cancel"
+msgstr ""
+"slet gammel version\n"
+"annullér"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Failed to rename file"
+msgstr "Mislykkedes med at omdøbe fil"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"Trying to rename a file to be\n"
+"{1}\n"
+"and it already exists."
+msgstr ""
+"Forsøger at omdøbe en fil til\n"
+"{1}\n"
+"og den eksisterer allerede."
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "file in the entire contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr ""
+"arkivér alt indholdet fra filen, der forventes at indholde Smalltalk-kode i "
+"formatet fileout (\"chunk\")"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "fileIn hele filen"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "filein"
+msgstr "filein"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove lfs"
+msgstr "fjern linjeskift"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds"
+msgstr "fjern linjeskift"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds in file"
+msgstr "fjern linjeskift i fil"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:
+msgid ""
+"create a new file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"opret en ny fil\n"
+"vælg et andet navn\n"
+"annullér"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>fileExistsUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Enter a new file name"
+msgstr "Indtast et nyt filnavn"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid ""
+"{1}\n"
+"does not exist."
+msgstr ""
+"{1}\n"
+"eksisterer ikke."
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Could not delete the old version of that file"
+msgstr "Kunne ikke slette den gamle version af den fil"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "overwrite that file\\choose another name\\cancel"
+msgstr "overskriv denne fil\\vælg et andet navn\\annullér"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Please close this to abort file opening"
+msgstr "Luk venligst denne for at afbryde åbning af fil"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"eksisterer allerede."
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Cancel"
+msgstr "Annullér"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Choose another name"
+msgstr "Vælg et andet navn"

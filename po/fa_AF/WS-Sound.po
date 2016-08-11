@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:35-0000\n"
+"PO-Revision-Date: 2010-08-27 15:35-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: WS-Sound\n"
+
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>defaultNameStemForInstances,WsPhonePadMorph_class>>descriptionForPartsBin,WsPhonePadMorph_class>>registerInFlapsRegistry,WsPhonePadMorph_class>>registerInFlapsRegistry
+msgid "PhonePad"
+msgstr "لايه تلفون"
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>descriptionForPartsBin
+msgid "A device for dialing by tone."
+msgstr "يك دستگاهي براي شماره گيري توسط آهنگ."
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "چندرسانه ی"
+
+#: WS-Sound-Interface,WsPhonePadMorph>>addCustomMenuItems:hand:
+msgid "dial to..."
+msgstr "زنگ زدن به..."
+
+#: WS-Sound-Interface,WsPhonePadMorph>>dialTo
+msgid "Phone number?"
+msgstr "شماره تلفون؟"
+
+#: WS-Sound-Interface,WsWorldStethoscope>>rangeFinderModeOn
+msgid "You should adjust 'cut off level' to find range well."
+msgstr "شماباید قسمت قطع شده رامیزان کنید تا محدوده را خوبترپیدا کنید"
+
+#: WS-Sound-Interface,WsWorldStethoscope>>setFFTSize
+msgid "FFT size (currently "
+msgstr "اندازه FFT (فعلاً "
+
+#: WS-Sound-Interface,WsWorldStethoscope>>setSamplingRate
+msgid "Sampling rate (currently "
+msgstr "ميزان نمونه گيري "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>defaultNameStemForInstances,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
+msgid "WorldStethoscope"
+msgstr "گوشي ضربان سنج جهاني"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
+msgid "A device for analyzing phenomena as sounds"
+msgstr "يك دستگاهي براي تجزيه پديده ها چون صداها"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Menu"
+msgstr "لیست"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Start"
+msgstr "شروع"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Stop"
+msgstr "توقف"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
+msgid "calibration  "
+msgstr "درجه بندی  "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
+msgid "cut off level"
+msgstr "برش سطح"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addDataGraph
+msgid "Data"
+msgstr "اطلاعات"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSignalGraph
+msgid "Signal"
+msgstr "علامت"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSonogram
+msgid "Sonogram"
+msgstr "سونوگرام"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSpectrumGraph
+msgid "Spectrum"
+msgstr "بینایی"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
+msgid "hide adjustments"
+msgstr "تنظيمات را پنهان كن"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
+msgid "show adjustments"
+msgstr "تنظيمات را نشان بده"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
+msgid "AC "
+msgstr "AC "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
+msgid "Bias"
+msgstr "تمایل به یک طرف"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "add a graph..."
+msgstr "یک گراف اضافه کنید"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "data"
+msgstr "اطلاعات"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "اندازه تعیین کن FFT"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "میزان نمونه گیری را تعیین کن"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "signal"
+msgstr "علامت"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "sonogram"
+msgstr "سونوگرام"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "spectrum"
+msgstr "بینایی"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "روشن"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>rangeFinderModeString
+msgid "range finder mode"
+msgstr "حالت دريافتگر محدوده"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>sortByFrequencyString
+msgid "sort by frequency"
+msgstr "دسته بندی  توسط فریکانس"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>sortByLevelString
+msgid "sort by level"
+msgstr "دست بندی توسط سطح"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
+msgid "AC"
+msgstr "AC"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
+msgid "DC"
+msgstr "DC"
+

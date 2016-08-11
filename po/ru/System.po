@@ -1,0 +1,1206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:59-0000\n"
+"PO-Revision-Date: 2010-08-27 15:59-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: System\n"
+
+
+#: System-Changes,ChangeSet_class>>currentChangeSetString,SmalltalkImage>>currentChangeSetString,SystemDictionary>>currentChangeSetString
+msgid "Current Change Set: "
+msgstr "Текущий набор изменений: "
+
+#: System-Changes,ChangeSet_class>>defaultName,Project>>doWeWantToRename,SystemDictionary>>makeSqueaklandReleasePhaseCleanup
+msgid "Unnamed"
+msgstr "Новый"
+
+#: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
+msgid ""
+"The preferred change set directory ('{1}') does not exist.\n"
+"Create it or use the default directory ({2})?"
+msgstr "Каталог ('{1}') для сохранения изменений не найден.Создать новый каталог или использовать стандартный каталог ({2})?"
+
+#: System-Download,ProjectLauncher>>loginAs:
+msgid ""
+"Sorry, I cannot find the user list.\n"
+"(this may be due to a network problem)\n"
+"Please hit Cancel if you wish to use Squeak."
+msgstr ""
+"Нет возможности найти список пользователей.\n"
+"(возможно в следствии сетевых проблем)\n"
+"Нажмите Отмену, если хотите использовать Squeak"
+
+#: System-Download,ProjectLauncher>>loginAs:
+msgid "Unknown user: "
+msgstr "Неизвестный пользователь: "
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge"
+msgstr "объединить"
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge the translation file"
+msgstr "объединить файл перевода"
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge the translation file into the language named like the file"
+msgstr "Добавить файл перевода в язык с именем как у файла"
+
+#: System-Localization,InternalTranslator>>loadFromStream:
+msgid "Loading "
+msgstr "Чтение "
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "Cannot load additional fonts"
+msgstr ""
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "cancel"
+msgstr "отмена"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "enable Pango"
+msgstr ""
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "load font"
+msgstr ""
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid ""
+"This language needs additional fonts.\n"
+"Do you want to install the fonts?"
+msgstr ""
+"Этот язык требует дополнительных шрифтов.\n"
+"Установить шрифты?"
+
+#: System-Object_Storage,DiskProxy>>printOn:
+msgid "{1} (not loaded yet)"
+msgstr ""
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid ""
+"Let me type the name now\n"
+"Let me think about it\n"
+"Let me find a conversion file on the disk"
+msgstr ""
+"Ввести имя файла\n"
+"Мне надо подумать\n"
+"Найти версии этого файла на диске"
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid "Name of the modern class {1} should translate to:"
+msgstr "Имя нового класса {1} должно быть транслировано в:"
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid ""
+"Reading an instance of {1}.\n"
+"Which modern class should it translate to?"
+msgstr ""
+"Прочитать экземпляр {1}.\n"
+"В какой новый класс надо это транслировать?"
+
+#: System-Preferences,Preference>>helpString
+msgid "no help available"
+msgstr "помощь не доступна"
+
+#: System-Preferences,Preference>>isDisabledOnStartupString
+msgid "disable preference on startup"
+msgstr ""
+
+#: System-Preferences,Preference>>isEnabledOnStartupString
+msgid "enable preference on startup"
+msgstr ""
+
+#: System-Preferences,Preference>>isNotSetOnStartupString
+msgid "do not set preference on startup"
+msgstr ""
+
+#: System-Preferences,Preference>>isProjectLocalString
+msgid "each project has its own setting"
+msgstr "каждый проект имеет свои собственные свойства"
+
+#: System-Preferences,Preferences_class>>addPreferenceForCelesteShowingAttachmentsFlag
+msgid "If true, Celeste (e-mail reader) annotates messages in it's list that have attachments.  This is a performance hit and by default is off."
+msgstr "Если флаг установлен, Celeste (почтовый клиент) будет помечать письма имеющий прикреплённые объекты. Эта опция влияет на производительность и поэтому отключена по умолчанию."
+
+#: System-Preferences,Preferences_class>>addPreferenceForOptionalCelesteStatusPane
+msgid "If true, Celeste (e-mail reader) includes a status pane."
+msgstr "Если флаг установлен, Celeste (почтовый клиент) будет включать панель статуса."
+
+#: System-Preferences,Preferences_class>>automaticFlapLayoutString
+msgid "automatic flap layout"
+msgstr "автоматическое расположение закладок"
+
+#: System-Preferences,Preferences_class>>browseThemes
+msgid "no themes found"
+msgstr "тема не найдена"
+
+#: System-Preferences,Preferences_class>>chooseButtonFont
+msgid ""
+"Select the font to be\n"
+"used for buttons"
+msgstr "Шрифт для текста кнопок"
+
+#: System-Preferences,Preferences_class>>chooseCodeFont
+msgid "Choose the font to be used for displaying code"
+msgstr "Шрифт для отображения исходного кода"
+
+#: System-Preferences,Preferences_class>>chooseEToysButtonFont
+msgid "Choose the etoy button font"
+msgstr "Шрифт для etoy кнопоки"
+
+#: System-Preferences,Preferences_class>>chooseEToysCodeFont
+msgid "Choose the etoy code font"
+msgstr "Шрифт для отображения исходного кода etoy"
+
+#: System-Preferences,Preferences_class>>chooseEToysFont
+msgid "Choose the eToys font"
+msgstr "eToys шрифт"
+
+#: System-Preferences,Preferences_class>>chooseEToysTitleFont
+msgid "Choose the etoy title font"
+msgstr "Шрифт для заголовков eToys"
+
+#: System-Preferences,Preferences_class>>chooseFlapsFont
+msgid "Choose a flaps font"
+msgstr "Шрифт закладок"
+
+#: System-Preferences,Preferences_class>>chooseListFont
+msgid "Choose the standard list font"
+msgstr "Шрифт стандартного списка"
+
+#: System-Preferences,Preferences_class>>chooseMenuFont
+msgid "Choose the standard menu font"
+msgstr "Шрифт стандартного меню"
+
+#: System-Preferences,Preferences_class>>chooseSystemFont
+msgid "Choose the default text font"
+msgstr "Шрифт стандартного текста"
+
+#: System-Preferences,Preferences_class>>chooseWindowTitleFont
+msgid "Choose the window title font"
+msgstr "Шрифт заголовков окон"
+
+#: System-Preferences,Preferences_class>>classicTilesSettingToggled,Preferences_class>>largeTilesSettingToggled
+msgid ""
+"note that this will only have a noticeable\n"
+"effect if the universalTiles preference is\n"
+"set to true, which it currently is not"
+msgstr "Предупреждение. Использование этой опции окажет заметное воздействие на внешний вид Мира"
+
+#: System-Preferences,Preferences_class>>disable:,Preferences_class>>enable:
+msgid "this preference was added idiosyncratically and has no help message."
+msgstr "эта опция была добавлена случайно и не имеет подсказки"
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid "About Preferences"
+msgstr "О настройке"
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid "Alphabetical listing of all Preferences"
+msgstr "Алфавитный список свойств"
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid ""
+"Many aspects of the system are governed by the settings of various \"Preferences\".  \n"
+"\n"
+"Click on any of brown tabs at the top of the panel to see all the preferences in that category.  \n"
+"Or type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n"
+"\n"
+"To find out more about any particular Preference, hold the mouse over it for a moment and balloon help will appear.  Also, a complete list of all the Preferences, with documentation for each, is included below.\n"
+"\n"
+"Preferences whose names are in shown in bold in the Preferences Panel are designated as being allowed to vary from project to project; those whose name are not in bold are \"global\", which is to say, they apply equally whatever project you are in.\n"
+"\n"
+"Click on the name of any preference to get a menu which allows you to *change* whether the preference should vary from project to project or should be global, and also allows you to browse all the senders of the preference, and to discover all the categories under which the preference has been classified, and to be handed a button that you can drop wherever you please that will control the preference.\n"
+"\n"
+"If you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n"
+"\n"
+"Also, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
+msgstr ""
+"Множество параметров позволяющих настроить поведение системы.\n"
+"\n"
+"Кликните на одно из названий в панели находящейся сверху для того, чтобы получить все параметры соответствующей категории. Введите строку поиска в единственное текстовое поле вкладки \"?\" и нажмите кнопку \"Поиск\", все параметры чьи имена и пояснительные тексты содержат введённую строку появятся во вкладке \"searching results\".\n"
+"\n"
+"Для получения пояснительного текста для каждого параметра задержите указатель мыши над ним.\n"
+"\n"
+"Параметры помеченные жирным шрифтом имеют различные значения для разных проектов (иначе значение параметра одно и тоже для всех проектов).\n"
+"\n"
+"Кликните любой параметр для получение его меню. Меню позволяет изменить глобальный статус параметра (смотрите предыдущий абзац), просмотреть код который использует этот параметр, получить список категорий которым принадлежит параметр, а также создать кнопку для управления этим параметром.\n"
+"\n"
+"Вы можете сохранить свои параметры кнопкой \"Сохранить персональные изменения\" во вкладке \"?\", чтобы позже иметь возможность вернуться к ним кнопкой \"Восстановить персональные значения\".\n"
+"\n"
+"Возможно также единовременно установить множество параметров выбором \"темы\".  Для этого необходимо использовать меню \"главное меню/внешний вид.../тема...\"."
+
+#: System-Preferences,Preferences_class>>initializePreferencePanel:in:
+msgid "Use the ? category to find preferences by keyword; the results of your search will show up here"
+msgstr "Используйте ? категорию для поиска свойств по имени"
+
+#: System-Preferences,Preferences_class>>installTheme:
+msgid ""
+"Theme {1} is now installed.\n"
+"Many of the changes will only be\n"
+"noticeable in new windows that you\n"
+"create from now on."
+msgstr ""
+"Тема {1} установлена.\n"
+"Многие свойства будут использованы\n"
+"только для вновь открытых окон."
+
+#: System-Preferences,Preferences_class>>menuColorString
+msgid "start menu-color-from-world"
+msgstr "включить цвет-меню-как-в-мире"
+
+#: System-Preferences,Preferences_class>>menuColorString
+msgid "stop menu-color-from-world"
+msgstr "отключить цвет-меню-как-в-мире"
+
+#: System-Preferences,Preferences_class>>navigatorShowingString
+msgid "show navigator (N)"
+msgstr "навигатор (N)"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "browse themes"
+msgstr "исходный код"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "Choose a theme to install"
+msgstr "Выберите тему для установки"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "Puts up a tool that will allow you to view and edit the code underlying all of the available themes"
+msgstr "Показать исходный код всех тем"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "about this system..."
+msgstr "о системе..."
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "load latest code updates"
+msgstr "загрузить последний обновлённый код"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "personal"
+msgstr "персональный"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "previous project"
+msgstr "предыдущий проект"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "start using vectors"
+msgstr "включить использование векторов"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "stop using vectors"
+msgstr "отключить использование векторов"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "Whether prevailing flaps should be shown in the project right now or not."
+msgstr "Показывать закладки справа"
+
+#: System-Preferences,Preferences_class>>preferencesControlPanel,Preferences_class>>registerInFlapsRegistry
+msgid "Preferences"
+msgstr "Настройка"
+
+#: System-Preferences,Preferences_class>>printStandardSystemFonts
+msgid "Current system font settings"
+msgstr "Текущий настройки шрифтов"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "balloon-help font..."
+msgstr "всплывающая подсказка..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "button font..."
+msgstr "кнопки..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the default font to be used for code and  in workspaces, transcripts, etc."
+msgstr "Шрифт по умолчанию."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used for textual code in etoys"
+msgstr "Шрифт для отображения исходного кода eToys."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used for (some) buttons."
+msgstr "Шрифт для отображения текста кнопок(некоторых)."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in code panes."
+msgstr "Шрифт для окон с исходным кодом."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in list panes"
+msgstr "Шрифт для отображения списков."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in menus"
+msgstr "Шрифт для отображения меню."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in window titles."
+msgstr "Шрифт для отображения заголовков окон."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on etoy buttons"
+msgstr "Шрифт для отображения текста eToys кнопок."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on etoy tiles"
+msgstr "Шрифт для отображения текста Тайлов."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on textual flap tabs"
+msgstr "Шрифт для отображения текста закладок."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used titles in etoys"
+msgstr "Шрифт для отображения заголовков eToys."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "choose the font to be used when presenting balloon help."
+msgstr "Шрифт для отображения всплывающих подсказок."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "code font..."
+msgstr "программы..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "default text font..."
+msgstr "по умолчанию..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy button font..."
+msgstr "кнопка eToys..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy code font..."
+msgstr "код eToys..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy tile font..."
+msgstr "тайлы eToys..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy title font..."
+msgstr "заголовки eToys..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "flaps font..."
+msgstr "закладки..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "If any font settings have changed since you pinned this menu up, this will allow the menu to rebuilt to reflect current font choices."
+msgstr "Перерисовать меню используя новый шрифты"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "list font..."
+msgstr "списки..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "menu font..."
+msgstr "меню..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Open a window showing the current font settings"
+msgstr "Открыть окно отображающее список текущих шрифтов"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "refresh this menu"
+msgstr "обновить меню"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "restore default font choices"
+msgstr "восстановить значения по умолчания"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Standard System Fonts"
+msgstr "Стандартные системные шрифты"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "show current font choices"
+msgstr "текущие шрифты"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Use the standard system font defaults"
+msgstr "Использовать стандартные системные шрифты"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "window-title font..."
+msgstr "заголовки окон..."
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Allows you to control numerous options"
+msgstr "Настройка множества опций"
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Allows you to specify the annotations to be shown in the annotation panes of browsers, etc."
+msgstr "Править текст аннотаций отображающийся в панели аннотаций различных браузеров"
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Annotations"
+msgstr "Аннотации"
+
+#: System-Preferences,Preferences_class>>restorePersonalPreferences
+msgid "There are no personal preferences saved in this image yet"
+msgstr "Нет персональных настроек сохранённых в образе системы"
+
+#: System-Preferences,Preferences_class>>restorePreferencesFromDisk
+msgid "there was an error restoring the preferences"
+msgstr "Ошибка во время восстановления настроек"
+
+#: System-Preferences,Preferences_class>>restorePreferencesFromDisk
+msgid "you haven't saved your preferences yet!"
+msgstr "Вы ещё не сохранили свои настройки!"
+
+#: System-Preferences,Preferences_class>>roundedCornersString
+msgid "start rounding window corners"
+msgstr "Округлять углы окон"
+
+#: System-Preferences,Preferences_class>>roundedCornersString
+msgid "stop rounding window corners"
+msgstr "Не округлять углы окон"
+
+#: System-Preferences,Preferences_class>>setArrowheads
+msgid "Default size of arrowheads on pen trails "
+msgstr "Размер по умолчанию для указателей Треков "
+
+#: System-Preferences,Preferences_class>>soundEnablingString
+msgid "turn sound off"
+msgstr "отключить звуки"
+
+#: System-Preferences,Preferences_class>>soundEnablingString
+msgid "turn sound on"
+msgstr "включить звуки"
+
+#: System-Preferences,Preferences_class>>staggerPolicyString
+msgid "stagger windows"
+msgstr "перекрывать окна"
+
+#: System-Preferences,Preferences_class>>storePreferencesToDisk
+msgid "there was an error storing your preferences to disk"
+msgstr "Ошибка во время записи настроек на диск"
+
+#: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
+msgid "change theme..."
+msgstr "изменить тему..."
+
+#: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
+msgid "Numerous \"Preferences\" govern many things about the way Squeak looks and behaves.  Set individual preferences using a \"Preferences\" panel.  Set an entire \"theme\" of many Preferences all at the same time by pressing this \"change theme\" button and choosing a theme to install.  Look in category \"themes\" in Preferences class to see what each theme does; add your own methods to the \"themes\" category and they will show up in the list of theme choices."
+msgstr "Множество настроек управляющим отображением. Для изменения индивидуальных настроек используйте меню \"настройка\". Используйте меню \"тема\" для изменения целого набора параметров. Исходный код тем можно найти в меню \"тема/исходный код\""
+
+#: System-Preferences,Preferences_class>>windowColorHelp
+msgid "About Window Colors"
+msgstr "О Цвет окон"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Bright"
+msgstr "Яркость"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Click for an explanation of this panel"
+msgstr "Справка"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Pastel"
+msgstr "Пастель"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use standard bright colors for all windows."
+msgstr "Использовать стандартные цвета"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use standard pastel colors for all windows."
+msgstr "Использовать стандартные пастельные цвета"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use white backgrounds for all standard windows."
+msgstr "Использовать белый фон для всех окон"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "White"
+msgstr "Белый"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel,Preferences_class>>windowSpecificationPanel
+msgid "Window Colors"
+msgstr "Цвет окон"
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Do you want to check for updates\\or maintenance fixes on the server?"
+msgstr "Вы хотите проверить последние обновления на сервере?"
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Remember to save you image to make this setting permant."
+msgstr "Не забудьте сохранить ваши изменения в образе системы для того чтобы сделать эти изменения постоянными"
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Yes, Update\\No, Not now\\Don't ask again"
+msgstr "Да, Обновить\\Нет, не сейчас\\Больше не спрашивать"
+
+#: System-Support,BooleanPreferenceView>>offerPersistenceMenu
+msgid ""
+"{1} is in secure mode.\n"
+"You cannot access the persistent preferences now.\n"
+"To change them, start {1} without loading a project."
+msgstr ""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Allows you to find out which category, or categories, this preference belongs to."
+msgstr "Найти категорию/категории которой принадлежит данный параметр"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "browse senders"
+msgstr "использование"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Copy the name of the preference to the text clipboard, so that you can paste into code somewhere"
+msgstr "Копировать имя свойства в буфер обмена, для последующей вставки в код"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "copy this name to clipboard"
+msgstr "копировать имя в буфер обмена"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "hand me a button for this preference"
+msgstr "кнопка свойства"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Some preferences are best applied uniformly to all projects, and others are best set by each individual project.  If this item is checked, then this preference will be printed in bold and will have a separate value for each project"
+msgstr "Некоторый свойства подходят для всех проектов, некоторые нет. Если установить флаг, то это свойство будет выведено утолщенным шрифтом и иметь разные значения в каждом проекте"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Store a value for this preference on file. On startup, it will be automatically restored."
+msgstr ""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "set automatically on startup..."
+msgstr ""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "show category..."
+msgstr "категория..."
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "This will open a method-list browser on all methods that the send the preference \""
+msgstr "Открыть браузер методов использующих свойство \""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Will give you a button that governs this preference, which you may deposit wherever you wish"
+msgstr "Создать кнопку управления свойством"
+
+#: System-Support,BooleanPreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Click here for a menu of options regarding this preference.  Click on the checkbox to the left to toggle the setting of this preference"
+msgstr "Меню управления данным свойством"
+
+#: System-Support,CurrentProjectRefactoring_class>>showTabsString
+msgid "show flaps (F)"
+msgstr "показать закладки (F)"
+
+#: System-Support,CurrentProjectRefactoring_class>>suppressFlapsString
+msgid "show shared tabs (F)"
+msgstr "показать общие вкладки (F)"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "circular halos with icons inside"
+msgstr "округлое гало меню"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "classic"
+msgstr "классический"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "custom"
+msgstr "пользовательский"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "customizable halos"
+msgstr "настраиваемое гало"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "fewer, larger halos"
+msgstr "меньше/больше гало"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "iconic"
+msgstr "в виде пиктограмм"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "plain circular halos"
+msgstr "простое округлое гало"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "simple"
+msgstr "простой"
+
+#: System-Support,HaloThemePreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Click here to edit the method that defines the custom halos"
+msgstr "Править метод определяющий пользовательское гало"
+
+#: System-Support,HaloThemePreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Edit custom halos"
+msgstr "Править пользовательское гало"
+
+#: System-Support,MczInstaller_class>>serviceLoadVersion
+msgid "load"
+msgstr "загрузить"
+
+#: System-Support,MczInstaller_class>>serviceLoadVersion
+msgid "load a package version"
+msgstr "загрузить версию пакета"
+
+#: System-Support,PreferencesPanel_class>>windowColorSpecification
+msgid "A tool for expressing personal preferences for numerous options."
+msgstr "Персональная настройка множества параметров"
+
+#: System-Support,PreferencesPanel_class>>windowColorSpecification
+msgid "Preferences Panel"
+msgstr "Настройки"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to get some hints on use of this Preferences Panel"
+msgstr "Подсказка по использованию панели настроек"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to load all the preferences from their saved values on disk."
+msgstr "Загрузить сохраненные настройки"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to reset all the preferences to their standard default values."
+msgstr "Сбросить все пользовательские настройки и вернуться в системным значениям по умолчанию"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to reset all the preferences to their values in your Personal Preferences."
+msgstr "Отменить текущие правки и вернуться сохраненным параметрам"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to save the current constellation of Preferences settings as your personal defaults; you can get them all reinstalled with a single gesture by clicking the \"Restore my Personal Preferences\"."
+msgstr "Сохранить текущие изменения"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to save the current constellation of Preferences settings to a file; you can get them all reinstalled with a single gesture by clicking \"Restore Settings From Disk\"."
+msgstr "Сохранить текущие изменения в файл"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to view all the values stored in the system Parameters dictionary"
+msgstr "Показать содержимое системного каталога настроек"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Help!"
+msgstr "Помощь"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Inspect Parameters"
+msgstr "Инспектировать настройки"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore all Default Preference Settings"
+msgstr "Восстановить значения по умолчанию"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore my Personal Preferences"
+msgstr "Восстановить персональные значения"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore Settings from Disk"
+msgstr "Восстановить настройки из файла"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Save Current Settings as my Personal Preferences"
+msgstr "Сохранить персональные изменения"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Save Current Settings to Disk"
+msgstr "Сохранить изменения в файл"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Search"
+msgstr "Поиск"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Search Preferences for:"
+msgstr "Поиск параметров:"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Type what you want to search for here, then hit the \"Search\" button, or else hit RETURN or ENTER"
+msgstr "Введите строку поиска и нажмите кнопку \"Поиск\" и клавишу Enter"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Type what you want to search for in the box above, then click here (or hit RETURN or ENTER) to start the search; results will appear in the \"search results\" category."
+msgstr "Введите строку поиска и нажмите кнопку \"Поиск\" и клавишу Enter. Результат поиска будет содержаться во вкладке \"результаты поиска\""
+
+#: System-Support,PreferencesPanel>>addModelItemsToWindowMenu:
+msgid "find preference... (f)"
+msgstr "поиск настроек... (f)"
+
+#: System-Support,PreferencesPanel>>addModelItemsToWindowMenu:
+msgid "inspect parameters"
+msgstr "инспектировать параметры"
+
+#: System-Support,PreferencesPanel>>findPreference:
+msgid "Search for preferences containing:"
+msgstr "Поиск настроек содержащих:"
+
+#: System-Support,PreferencesPanel>>searchString
+msgid "Type here, hit Search"
+msgstr "Введите строку поиска"
+
+#: System-Support,Project_class>>mostRecent:onServer:,Project_class>>sweep:
+msgid "server is unavailable"
+msgstr "сервер недоступен"
+
+#: System-Support,Project>>acceptDetailsAndStoreProjectWithForget:,Project>>acceptDetailsAndStoreProject:,Project>>storeOnServerAssumingNameValid,Project>>storeOnServerWithNoInteraction,Project>>storeOnServerWithNoInteractionThenQuit
+msgid "Publishing"
+msgstr "Публикации"
+
+#: System-Support,Project>>armsLengthCommand:withDescription:
+msgid "The top project can't do that"
+msgstr "Текущий проект не может это обработать"
+
+#: System-Support,Project>>assureFlapIntegrity,Project>>setFlaps,RealEstateAgent_class>>reduceByFlaps:
+msgid "Painting"
+msgstr "Рисование"
+
+#: System-Support,Project>>assureFlapIntegrity
+msgid "Scripting"
+msgstr "Написание скриптов"
+
+#: System-Support,Project>>assureFlapIntegrity,Project>>setFlaps
+msgid "Stack Tools"
+msgstr "Стек"
+
+#: System-Support,Project>>beIsolated
+msgid "Must be in this project to isolate it"
+msgstr "Должен находиться в текущем проекте"
+
+#: System-Support,Project>>chooseNaturalLanguage
+msgid "choose language"
+msgstr "язык интерфейса"
+
+#: System-Support,Project>>chooseNaturalLanguage
+msgid "This controls the human language in which tiles should be viewed.  It is potentially extensible to be a true localization mechanism, but initially it only works in the classic tile scripting system.  Each project has its own private language choice"
+msgstr "Управлять выбором языка Тайла. Каждый проект имеет свои собственные настройки языка"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "I cannot locate the project\\"
+msgstr "Нельзя найти проект\\"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "Yes, make it up\\No, skip it"
+msgstr "Да\\Нет, пропустить"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "\\Would you like me to create a new project\\with that name?"
+msgstr "\\Создать новый проект\\с этим именем?"
+
+#: System-Support,Project>>displayFontProgress
+msgid "$\tFixing fonts\t$\t"
+msgstr "$\tМоноширинные шрифты\t$\t"
+
+#: System-Support,Project>>displaySavingProgress
+msgid "Saving"
+msgstr "Сохранение"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Are you sure you want to destroy this Project\\ and revert to an older version?\\\\(From the parent project, click on this project's thumbnail.)"
+msgstr "Вы действительно хотите удалить этот проект\\ и вернуться к старой версии?\\\\(Из родительского проекта кликните на пиктограмму проекта.)"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Cancel"
+msgstr "Отмена"
+
+#: System-Support,Project>>enter:revert:saveForRevert:,Project>>enter:revert:saveForRevert:,Project>>revert
+msgid "nothing to revert to"
+msgstr "нет информации для восстановления"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Revert to saved version"
+msgstr "Вернуться к сохранённой версии"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "This project is not all here. I will try to load a complete version."
+msgstr "Проект присутствует не полностью. Я попытаюсь загрузить полную версию."
+
+#: System-Support,Project>>exit,Project>>saveForRevert
+msgid "Can't exit the top project"
+msgstr "Нельзя выйти из последнего проекта"
+
+#: System-Support,Project>>exportSegmentFileName:directory:withoutInteraction:
+msgid ""
+"Would you like to include all the changes in the change set\n"
+"\tas part of this publishing operation?"
+msgstr "Вы хотите включить все изменения в публикуемый набор изменений?"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid ""
+"Do not write file\n"
+"Write file anyway\n"
+"Debug"
+msgstr ""
+"Не записывать файл\n"
+"Записывать в любом случае\n"
+"Отладка"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "Segment not written"
+msgstr "Сегмент не записан"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "(collecting resources...)"
+msgstr "(сбор ресурсов...)"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "\\Project's own world is not in the segment."
+msgstr "Собственный Мир проекта не найден в сегменте."
+
+#: System-Support,Project>>finalEnterActions,Project>>finalEnterActions,Project>>finalEnterActions
+msgid "Sugar Navigator Flap"
+msgstr "Sugar навигатор"
+
+#: System-Support,Project>>finalEnterActions
+msgid "show the tool bar"
+msgstr ""
+
+#: System-Support,Project>>helpGuideIfOpen
+msgid "Help"
+msgstr "Справка"
+
+#: System-Support,Project>>loadFromServer:
+msgid "A newer version exists on the server."
+msgstr "На сервер существует новая версия."
+
+#: System-Support,Project>>loadFromServer:
+msgid "can't find file on server for {1}"
+msgstr "файл {1} не найден на сервере"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Load it\\Cancel"
+msgstr "Загрузить\\Отмена"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Loading"
+msgstr "Чтение"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Reload anyway\\Cancel"
+msgstr "Перезагрузить в любом случае\\Отмена"
+
+#: System-Support,Project>>loadFromServer:
+msgid "That server has an older version of the project."
+msgstr "Этот сервер содержит более старую версию проекта."
+
+#: System-Support,Project>>loadFromServer:
+msgid "The only changes are the ones you made here."
+msgstr "Только изменения сделанные вами."
+
+#: System-Support,Project>>navigatorFlapVisible,Project>>setFlaps,Project>>updateLocaleDependentsWithPreviousSupplies:gently:,Project>>updateLocaleDependentsWithPreviousSupplies:gently:,ProjectLoading_class>>loadImageSegment:fromDirectory:withProjectView:numberOfFontSubstitutes:substituteFont:mgr:
+msgid "Navigator"
+msgstr "Навигатор"
+
+#: System-Support,Project>>okToChange
+msgid ""
+"Really delete the project\n"
+"{1}\n"
+"and all its contents?"
+msgstr ""
+"Действительно удалить проект\n"
+"{1}\n"
+"и всё его содержимое?"
+
+#: System-Support,Project>>okToChange
+msgid ""
+"The project {1}\n"
+"contains sub-projects.  You must remove these\n"
+"explicitly before removing their parent."
+msgstr ""
+"Проект {1}\n"
+"содержит под проекты, необходимо\n"
+"удалить их перед удалением текущего."
+
+#: System-Support,Project>>setFlaps
+msgid "Objects"
+msgstr "Объекты"
+
+#: System-Support,Project>>setFlaps
+msgid "Squeak"
+msgstr "Squeak"
+
+#: System-Support,Project>>setFlaps
+msgid "Supplies"
+msgstr "Инструменты"
+
+#: System-Support,Project>>setFlaps
+msgid "Tools"
+msgstr "Инструменты"
+
+#: System-Support,Project>>setFlaps
+msgid "Widgets"
+msgstr "Виджеты"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "Project password"
+msgstr "Пароль проекта"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "Store anyway\\Cancel"
+msgstr "Сохранить в любом случае\\Отмена"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "WARNING"
+msgstr "Предупреждение"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\Please cancel, rename this project, and see what is there."
+msgstr "Отменить текущее действие, переименуйте проект и проверьте его содержимое."
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\Project: "
+msgstr "\\Проект: "
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\THIS PROJECT HAS NEVER BEEN SAVED"
+msgstr "\\Проект ни разу не сохранялся"
+
+#: System-Support,Project>>storeOnServerInnards,Project>>storeOnServerWithNoInteractionInnards
+msgid "\\There are newer version(s) in the local directory"
+msgstr "\\Локальный каталог содержит более новые версии"
+
+#: System-Support,Project>>storeOnServerInnards,Project>>storeOnServerWithNoInteractionInnards
+msgid "\\There are newer version(s) on the server"
+msgstr "\\Сервер содержит более новые версии"
+
+#: System-Support,Project>>tellAFriend:
+msgid ""
+"Since this project has not been saved yet,\n"
+"I cannot tell someone where it is."
+msgstr "Необходимо хотя бы один раз сохранить проект перед публикацией"
+
+#: System-Support,Project>>tryToFindAServerWithMe
+msgid "This project thinks it has never been on a server"
+msgstr "Этот проект ни разу не был на сервере"
+
+#: System-Support,Project>>tryToFindAServerWithMe
+msgid "Try to find a server\\Cancel"
+msgstr "Искать сервер\\Отмена"
+
+#: System-Support,Project>>useLocaleString
+msgid "use localized language"
+msgstr ""
+
+#: System-Support,Project>>windowReqNewLabel:
+msgid "Sorry that name is already used"
+msgstr "Имя уже существует"
+
+#: System-Support,ProjectHistory>>mostRecentThread
+msgid "Please name this thread."
+msgstr "Дайте имя этой ветке."
+
+#: System-Support,ProjectLoading_class>>checkStream:
+msgid ""
+"It looks like a problem occurred while\n"
+"getting this project. It may be temporary,\n"
+"so you may want to try again,"
+msgstr "Ошибки при получении проекта. Вы ещё раз попытаться,"
+
+#: System-Support,ProjectLoading_class>>loadSqueakPage:
+msgid ""
+"This is not a PasteUpMorph or\n"
+"exported Project."
+msgstr "Это не экспортированный проект."
+
+#: System-Support,ProjectLoading_class>>openName:stream:fromDirectory:withProjectView:clearOriginFlag:,ProjectLoading_class>>openSexpProjectDict:stream:fromDirectory:withProjectView:
+msgid "No project found in this file"
+msgstr "Данный файл не содержит проектов"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install"
+msgstr "установить"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install SAR"
+msgstr "установить Squeak архив (SAR)"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install this Squeak ARchive into the image."
+msgstr "установить Squeak архив (SAR) в образ системы."
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid "Do not load it"
+msgstr "Не загружать это"
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid "Load it anyways"
+msgstr "Загрузить в любом случае"
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid ""
+"You are about to load some insecure content.\n"
+"If you continue, access to files as well as\n"
+"some other capabilities will be limited."
+msgstr ""
+"Вы пытаетесь загрузить не безопасные данные.\n"
+"Если вы продолжите, то доступ к файлам\n"
+"и некоторые другие возможности будут ограничены."
+
+#: System-Support,SmalltalkImage>>aboutThisSystem
+msgid "License"
+msgstr ""
+
+#: System-Support,SmalltalkImage>>aboutThisSystem
+msgid "Show license?"
+msgstr ""
+
+#: System-Support,SmalltalkImage>>getFileNameFromUser,SystemDictionary>>getFileNameFromUser
+msgid "New File Name?"
+msgstr "Новое имя файла?"
+
+#: System-Support,SmalltalkImage>>getFileNameFromUser,SystemDictionary>>getFileNameFromUser
+msgid "{1} already exists. Overwrite?"
+msgstr "{1} уже существует. Перезаписать?"
+
+#: System-Support,SmalltalkImage>>lastUpdateString
+msgid "latest update: #"
+msgstr "последнее обновление: №"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid " (case-insensitive)"
+msgstr " (независимо от регистра)"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid " (case-sensitive)"
+msgstr " (зависимо от регистра)"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid "Methods with string "
+msgstr "Методы со строкой "
+
+#: System-Support,SystemVersion_class>>checkAndApplyUpdates:
+msgid "There are updates available. Do you want to install them now?"
+msgstr "Найдены обновления. Установить их сейчас?"
+
+#: System-Support,Utilities_class>>authorInitialsFromUser
+msgid "Please type your initials: "
+msgstr "Введите свои инициалы: "
+
+#: System-Support,Utilities_class>>authorInitialsToStamp
+msgid "<no author>"
+msgstr "<нет автора>"
+
+#: System-Support,Utilities_class>>chooseFileWithSuffix:
+msgid "Choose a file"
+msgstr "Выбрать файл"
+
+#: System-Support,Utilities_class>>chooseUpdateList
+msgid ""
+"Choose a group of servers\n"
+"from which to fetch updates."
+msgstr "Укажите группу серверов с которых вы хотите получать обновления."
+
+#: System-Support,Utilities_class>>maybeEmptyTrash
+msgid "Do you really want to empty the trash?"
+msgstr "Вы действительно хотите очистить мусорную корзину?"
+
+#: System-Support,Utilities_class>>offerCommonRequestsInMorphic
+msgid "Common Requests"
+msgstr "Общие запросы"
+
+#: System-Support,Utilities_class>>offerCommonRequestsInMorphic
+msgid "edit this list"
+msgstr "править список"
+
+#: System-Support,Utilities_class>>openCommandKeyHelp
+msgid "Command Key Actions"
+msgstr "Действия командных клавиш"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "Load the latest packages from the default repository?"
+msgstr ""
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid ""
+"No new updates on the server\n"
+msgstr ""
+"Нет новых обновлений на сервере\n"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "Stop looking\\Try next server"
+msgstr "Отмена\\Проверить следующий сервер"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid ""
+"\n"
+"Would you like to try the next server?\n"
+"(Normally, all servers are identical, but sometimes a\n"
+"server won't let us store new files, and gets out of date.)"
+msgstr ""
+"\n"
+"Проверить следующий сервер?"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "{1} new update file(s) processed."
+msgstr "{1} новый файлов обработано."
+
+#: System-Support,Utilities_class>>registerInFlapsRegistry
+msgid "A message browser that tracks the most recently-submitted methods"
+msgstr "Браузер последних сообщений"
+
+#: System-Support,Utilities_class>>registerInFlapsRegistry
+msgid "Recent"
+msgstr "Последнее"
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "Click here to empty the trash."
+msgstr "Очистить мусорную корзину."
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "EMPTY"
+msgstr "Пусто"
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid ""
+"Objects you drag into the trash will automatically be saved here, one object per page, in case you need them later.  To disable this feature set the \"preserveTrash\" Preference to false.\n"
+"\n"
+"You can individually expunge objects by hitting the - control, and you can empty out all the objects in the trash can by hitting the \"EMPTY\" button at top right."
+msgstr ""
+"Все удаленные объекты сохраняются в этой корзине. Для того чтобы изменить это поведение отключите параметр \"preserveTrash\" в окне \"настройка\"\n"
+"\n"
+"Вы можете очистить корзину вручную, на кликнув кнопку \"Очистить\" в правом верхнем углу окна"
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "scraps"
+msgstr "страница"
+
+#: System-Support,Utilities_class>>setAuthorName
+msgid "Please type your name:"
+msgstr "Введите ваше имя:"
+
+#: System-Support,Utilities_class>>setAuthorName
+msgid "Your Name"
+msgstr "Ваше имя"
+
+#: System-Support,Utilities_class>>trashTitle
+msgid "  ({1} pages)"
+msgstr "  ({1} страниц)"
+
+#: System-Support,Utilities_class>>trashTitle
+msgid "T R A S H"
+msgstr "Мусор"
+
+#: System-Support,Utilities_class>>updateFromDefaultRepository
+msgid "Repository unavailable"
+msgstr ""
+
+#: System-Support,Utilities_class>>updateFromDefaultRepository
+msgid ""
+"Update completed.\n"
+"System version is now:\n"
+"{1}"
+msgstr ""
+

@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:35-0000\n"
+"PO-Revision-Date: 2010-08-27 15:35-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Compression\n"
+
+
+#: Compression-Streams,GZipReadStream_class>>serviceDecompressToFile,GZipReadStream_class>>serviceDecompressToFile
+msgid "decompress to file"
+msgstr "ناهمفشرده شدن به سند"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install"
+msgstr "نصب کردن"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install into new change set"
+msgstr "درداخل مجموعه جدید نصب نمایید"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install the decompressed contents of the file as a body of code in the image: create a new change set and file-in the selected file into it"
+msgstr "محتویات نا همفشرده شده سند را به حیث بدنه رمزدرداخل تصویرنصب نمایید/تغییرتعیین جدید وسندی را درسند انتخاب شده درداخل این ایجاد میسازد"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "file in the entire decompressed contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr "سند درتمام محتویات ناهم فشرده شده ازفایل/ که توقع میرود رمزحرف کوچک شامل آن باشد"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "سند درتمام سند"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "filein"
+msgstr "سند در"
+
+#: Compression-Streams,GZipReadStream_class>>serviceViewDecompress,GZipReadStream_class>>serviceViewDecompress
+msgid "view decompressed"
+msgstr "دید ناهم فشرده شده"
+
+#: Compression-Streams,GZipReadStream_class>>uncompressedFileName:
+msgid ""
+"{1}\n"
+"appears to be a compressed file.\n"
+"Do you want to uncompress it?"
+msgstr ""
+"{1}ظاهرمیشود که سند فشرده شده باشد\n"
+"آیامیخواهیدکه این را غیرفشرده بسازید؟"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file"
+msgstr "سند را بهم فشرده گردان"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file using gzip compression, making a new file"
+msgstr "سند را بااستفاده ازفشردن فشارچی فشرده بسازید سند جدیدی ساخته میشود"
+
+#: Compression-Streams,InflateStream>>upToEndWithProgressBar
+msgid "Unzip a stream"
+msgstr "فشاروارد نکردن به یک جریان"
+
+#: Compression-Streams,ZipReadStream>>verifyCrc
+msgid "Wrong CRC-32 (expected {1} got {2}) (proceed to ignore)"
+msgstr "اشتباه CRC-32  توقع داشته {1} بدست آورداقدام کردن به نادیده گرفتن"
+

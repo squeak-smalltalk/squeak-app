@@ -1,0 +1,262 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:44-0000\n"
+"PO-Revision-Date: 2010-09-03 16:56+0200\n"
+"Last-Translator: korakurider <korakurider@gmail.com>\n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.3\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of "
+"25 August 2010)\n"
+"X-Etoys-Domain: Sugar\n"
+
+#: Sugar,SugarDatastoreDirectory>>createDirectory:,SugarDatastoreDirectory>>deleteDirectory:,SugarDatastoreDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "操作がサポートされていません"
+
+#: Sugar,SugarDatastoreDirectory>>deleteFileNamed:
+msgid "Use the journal to delete entries"
+msgstr "ジャーナルを使って削除してください"
+
+#: Sugar,SugarDatastoreDirectory>>moniker
+msgid "Journal"
+msgstr "ジャーナル"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "make XO bundle"
+msgstr "XOバンドルを作成"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "wrap as an OLPC XO bundle"
+msgstr "OLPC XOのバンドルを作成する"
+
+#: Sugar,SugarLauncher_class>>wrapAsXOBundle:
+msgid "Making bundle"
+msgstr "バンドルを作成しています"
+
+#: Sugar,SugarLauncher>>badgeFlap,SugarLauncher>>deleteBadges
+msgid "Buddies"
+msgstr ""
+
+#: Sugar,SugarLauncher>>chooser:response:,SugarLauncher>>resumeJournalEntry:
+msgid "untitled"
+msgstr "(名称未設定)"
+
+#: Sugar,SugarLauncher>>createJournalEntryFor:filename:mimetype:
+msgid "Etoys"
+msgstr "Etoys"
+
+#: Sugar,SugarLauncher>>handleStream:mimetype:titled:
+msgid "Cannot open {1}"
+msgstr "{1}を開けません"
+
+#: Sugar,SugarLauncher>>invite:
+msgid "Inviting buddy ..."
+msgstr ""
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Joining activity ..."
+msgstr "アクティビティに参加しています..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Looking for shared activity ..."
+msgstr ""
+
+#: Sugar,SugarLauncher>>open:title:mimetype:
+msgid "Opening journal entry"
+msgstr "ジャーナルのエントリを開いています"
+
+#: Sugar,SugarLauncher>>quit
+msgid ""
+"Are you sure you want to quit Etoys?\n"
+"(the project will NOT be saved)"
+msgstr ""
+"本当にEtoysを終了しますか？\n"
+"（プロジェクトは保存されません）"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Etoys Project"
+msgstr "Etoysプロジェクト"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Unnamed"
+msgstr "名無し"
+
+#: Sugar,SugarNavigatorBar_class>>current,SugarNavigatorBar_class>>putUpInitialBalloonHelp,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Sugar Navigator Flap"
+msgstr "シュガー・ナビゲータ フラップ"
+
+#: Sugar,SugarNavigatorBar_class>>findAnythingMorph
+msgid "Find..."
+msgstr "探す..."
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "File Dialog"
+msgstr "ファイルダイアログ"
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "The list of files and directories"
+msgstr "ファイルとディレクトリの一覧"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Present a virtual display that approximates the actual OLPC display in resolution, centered within the actual Squeak display window."
+msgstr "実際のOLPCコンピュータの解像度を模擬する仮想の画面を、スクィークのウィンドウの中央に表示します"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Scale the Squeak display so that it appears to have the same resolution as an OLPC display.  If you resize the Squeak window to approximate the physical dimensions of the real OLPC display, this will result in an appearance that closely resembles the appearance on an OLPC screen."
+msgstr "スクィークの画面を拡大縮小して、OLPCコンピュータと同じ解像度を持っているように見せます。スクィークのウィンドウのサイズを調整して、実際のOLPCコンピュータの物理的な解像度にあわせれば、見かけ上OLPCコンピュータの画面上の表示に近いものになります。"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Use the normal Squeak display, without applying any special scaling."
+msgstr "特別な拡大縮小を行わず、スクィークの通常の表示を使用します"
+
+#: Sugar,SugarNavigatorBar>>buildAndOpenHelpFlap,SugarNavigatorBar>>toggleHelp
+msgid "Help"
+msgstr "ヘルプ"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "FIND"
+msgstr "探す"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "Find an entry in the Journal.  Hold mouse button down for further options."
+msgstr "ジャーナルの中でエントリを探す。マウスボタンを押し続けるとオプションを表示します。"
+
+#: Sugar,SugarNavigatorBar>>buttonHideNavBar
+msgid "hide the tool bar"
+msgstr "ツールバーを隠す"
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "Keep a copy of the current project in the Journal. Hold mouse button down for further options."
+msgstr "現在のプロジェクトのコピーをジャーナルに保存します。マウスボタンを押し続けるとオプションを表示します。"
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "PUBLISH IT!"
+msgstr "公開する!"
+
+#: Sugar,SugarNavigatorBar>>buttonLanguage
+msgid "Click here to choose your language."
+msgstr "言語を選択します"
+
+#: Sugar,SugarNavigatorBar>>buttonPaint
+msgid "Make a painting"
+msgstr "絵を描きます"
+
+#: Sugar,SugarNavigatorBar>>buttonShare
+msgid "Enable sharing. When another user joins, you can exchange objects."
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonShowNavBar
+msgid "show the tool bar"
+msgstr "ツールバーを表示する"
+
+#: Sugar,SugarNavigatorBar>>buttonStop
+msgid "Quit Etoys (with saving)"
+msgstr "Etoysを終了する（プロジェクトは保存されます）"
+
+#: Sugar,SugarNavigatorBar>>buttonUndo
+msgid "Undo the last change"
+msgstr "最後の変更を取り消します"
+
+#: Sugar,SugarNavigatorBar>>buttonZoom
+msgid "Click here to toggle using the full screen."
+msgstr "全画面を使うかどうかを切り替えます"
+
+#: Sugar,SugarNavigatorBar>>chooseScreenSetting
+msgid "display mode"
+msgstr "表示モード"
+
+#: Sugar,SugarNavigatorBar>>makeBadgeLabelIn:
+msgid "Make a Badge"
+msgstr "バッジを作る"
+
+#: Sugar,SugarNavigatorBar>>makeMyNeighborhoodLabelIn:
+msgid "My Neighborhood"
+msgstr "となりの人"
+
+#: Sugar,SugarNavigatorBar>>makePrivateLabelIn:
+msgid "Private"
+msgstr "自分"
+
+#: Sugar,SugarNavigatorBar>>paintButtonInitialExplanation
+msgid ""
+"To start,\n"
+"click here\n"
+"to create\n"
+"a new\n"
+"painting."
+msgstr ""
+"ここをクリックして\n"
+"新しくお絵かきを始めます"
+
+#: Sugar,SugarNavigatorBar>>projectNameFieldBalloonHelp
+msgid ""
+"This is the name of current project.\n"
+"You can edit it as well."
+msgstr ""
+"現在のプロジェクトの名前です。\n"
+"編集もできます。"
+
+#: Sugar,SugarNavigatorBar>>setEdge:,SugarNavigatorBar>>setupSuppliesFlap,SugarNavigatorBar>>toggleSupplies,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Supplies"
+msgstr "部品"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Centered Virtual Extent"
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "No Scaling"
+msgstr "拡大縮小しない"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Scaled Virtual Extent"
+msgstr "画面サイズに合わせて拡大縮小する"
+
+#: Sugar,SugarNavigatorBar>>stringForFullScreenToggle
+msgid "Full Screen"
+msgstr "全画面"
+
+#: Sugar,SugarNavigatorBar>>suppliesButtonInitialExplanation
+msgid ""
+"Or, click to see Supplies.  \n"
+"Choose an object or \n"
+"choose the Object Catalog for more choices."
+msgstr ""
+"または、ここをクリックすると部品箱が見れます。\n"
+"オブジェクトを選んでください、または\n"
+"オブジェクトカタログからもっとたくさんの\n"
+"オブジェクトを選べます。"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "色..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "このフラップを捨てる"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "高さ..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "選択の色..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "デフォルトの白黒表示を使う"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "デフォルトの緑表示を使う"
+
+#: Sugar,SugarNavTab>>wording
+msgid "Sugar Navigation Flap"
+msgstr "シュガー ナビゲーション フラップ"

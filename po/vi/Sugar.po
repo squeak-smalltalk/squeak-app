@@ -1,0 +1,259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:08-0000\n"
+"PO-Revision-Date: 2010-08-27 16:08-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Sugar\n"
+
+
+#: Sugar,SugarDatastoreDirectory>>createDirectory:,SugarDatastoreDirectory>>deleteDirectory:,SugarDatastoreDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "thao tác không được hỗ trợ"
+
+#: Sugar,SugarDatastoreDirectory>>deleteFileNamed:
+msgid "Use the journal to delete entries"
+msgstr "Dùng nhật ký để xoá mục nhập"
+
+#: Sugar,SugarDatastoreDirectory>>moniker
+msgid "Journal"
+msgstr "Nhật ký"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "make XO bundle"
+msgstr "tạo bó XO"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "wrap as an OLPC XO bundle"
+msgstr "bao bọc dưới dạng bó XO OLPC"
+
+#: Sugar,SugarLauncher_class>>wrapAsXOBundle:
+msgid "Making bundle"
+msgstr "Đang tạo bó"
+
+#: Sugar,SugarLauncher>>badgeFlap,SugarLauncher>>deleteBadges
+msgid "Buddies"
+msgstr "Bạn bè"
+
+#: Sugar,SugarLauncher>>chooser:response:,SugarLauncher>>resumeJournalEntry:
+msgid "untitled"
+msgstr "không tên"
+
+#: Sugar,SugarLauncher>>createJournalEntryFor:filename:mimetype:
+msgid "Etoys"
+msgstr "Etoys"
+
+#: Sugar,SugarLauncher>>handleStream:mimetype:titled:
+msgid "Cannot open {1}"
+msgstr "Không mở được  {1}"
+
+#: Sugar,SugarLauncher>>invite:
+msgid "Inviting buddy ..."
+msgstr "Đang mời bạn thân ..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Joining activity ..."
+msgstr "Đang vào hoạt động ..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Looking for shared activity ..."
+msgstr "Đang tìm hoạt động chia sẻ ..."
+
+#: Sugar,SugarLauncher>>open:title:mimetype:
+msgid "Opening journal entry"
+msgstr "Đang mở mục nhập nhật ký"
+
+#: Sugar,SugarLauncher>>quit
+msgid ""
+"Are you sure you want to quit Etoys?\n"
+"(the project will NOT be saved)"
+msgstr ""
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Etoys Project"
+msgstr "Dự án Etoys"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Unnamed"
+msgstr "Không tên"
+
+#: Sugar,SugarNavigatorBar_class>>current,SugarNavigatorBar_class>>putUpInitialBalloonHelp,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Sugar Navigator Flap"
+msgstr "Ngăn kéo duyệt Sugar"
+
+#: Sugar,SugarNavigatorBar_class>>findAnythingMorph
+msgid "Find..."
+msgstr "Tìm..."
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "File Dialog"
+msgstr "Hộp thoại Tập tin"
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "The list of files and directories"
+msgstr "Danh sách các tập tin và thư mục"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Present a virtual display that approximates the actual OLPC display in resolution, centered within the actual Squeak display window."
+msgstr "Đưa ra một ô hiển thị ảo xấp xỉ với ô hiển thị OLPC thật theo độ phân giải, đặt vào giữa cửa sổ hiển thị Squeak thật."
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Scale the Squeak display so that it appears to have the same resolution as an OLPC display.  If you resize the Squeak window to approximate the physical dimensions of the real OLPC display, this will result in an appearance that closely resembles the appearance on an OLPC screen."
+msgstr "Co giãn ô hiển thị Squeak để hình như có cùng một độ phân giải với một ô hiển thị OLPC. Nếu bạn thay đổi kích cỡ của cửa sổ Squeak để xấp xỉ với các chiều vật lý của ô hiển thị OLPC thật thì rất hình như hình thức trên một màn hình OLPC."
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Use the normal Squeak display, without applying any special scaling."
+msgstr "Sử dụng ô hiển thị Squeak bình thường mà không áp dụng chức năng co giãn đặc biệt nào."
+
+#: Sugar,SugarNavigatorBar>>buildAndOpenHelpFlap,SugarNavigatorBar>>toggleHelp
+msgid "Help"
+msgstr "Trợ giúp"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "FIND"
+msgstr "TÌM"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "Find an entry in the Journal.  Hold mouse button down for further options."
+msgstr "Tìm một mục nhập nào đó trong Nhật ký. Ấn giữ nút chuột để thấy thêm tuỳ chọn."
+
+#: Sugar,SugarNavigatorBar>>buttonHideNavBar
+msgid "hide the tool bar"
+msgstr "ẩn thanh công cụ"
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "Keep a copy of the current project in the Journal. Hold mouse button down for further options."
+msgstr "Bảo tồn bản sao dự án hiện thời trong Nhật ký. Ấn giữ nút chuột để thấy thêm tuỳ chọn."
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "PUBLISH IT!"
+msgstr "XUẤT BẢN!"
+
+#: Sugar,SugarNavigatorBar>>buttonLanguage
+msgid "Click here to choose your language."
+msgstr "Nhấn vào đây để chọn ngôn ngữ."
+
+#: Sugar,SugarNavigatorBar>>buttonPaint
+msgid "Make a painting"
+msgstr "Tạo một bức vẽ"
+
+#: Sugar,SugarNavigatorBar>>buttonShare
+msgid "Enable sharing. When another user joins, you can exchange objects."
+msgstr "Hiệu lực chức năng chia sẻ. Khi nào một người dùng khác cũng tham gia thì có thể trao đổi đối tượng."
+
+#: Sugar,SugarNavigatorBar>>buttonShowNavBar
+msgid "show the tool bar"
+msgstr "hiện thanh công cụ"
+
+#: Sugar,SugarNavigatorBar>>buttonStop
+msgid "Quit Etoys (with saving)"
+msgstr ""
+
+#: Sugar,SugarNavigatorBar>>buttonUndo
+msgid "Undo the last change"
+msgstr "Hồi phục lại sự sửa đổi lần cuối"
+
+#: Sugar,SugarNavigatorBar>>buttonZoom
+msgid "Click here to toggle using the full screen."
+msgstr "Nhấn vào đây để bật/tắt sử dụng toàn màn hình."
+
+#: Sugar,SugarNavigatorBar>>chooseScreenSetting
+msgid "display mode"
+msgstr "chế độ hiển thị"
+
+#: Sugar,SugarNavigatorBar>>makeBadgeLabelIn:
+msgid "Make a Badge"
+msgstr "Tạo một Dấu hiệu"
+
+#: Sugar,SugarNavigatorBar>>makeMyNeighborhoodLabelIn:
+msgid "My Neighborhood"
+msgstr "Hàng xóm mình"
+
+#: Sugar,SugarNavigatorBar>>makePrivateLabelIn:
+msgid "Private"
+msgstr "Riêng"
+
+#: Sugar,SugarNavigatorBar>>paintButtonInitialExplanation
+msgid ""
+"To start,\n"
+"click here\n"
+"to create\n"
+"a new\n"
+"painting."
+msgstr ""
+"Để bắt đầu,\n"
+"nhấn vào đây\n"
+"để tạo một\n"
+"bức vẽ mới."
+
+#: Sugar,SugarNavigatorBar>>projectNameFieldBalloonHelp
+msgid ""
+"This is the name of current project.\n"
+"You can edit it as well."
+msgstr ""
+"Đây là tên của dự án hiện thời.\n"
+"Bạn cũng có khả năng chỉnh sửa tên này."
+
+#: Sugar,SugarNavigatorBar>>setEdge:,SugarNavigatorBar>>setupSuppliesFlap,SugarNavigatorBar>>toggleSupplies,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Supplies"
+msgstr "Đồ phụ tùng"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Centered Virtual Extent"
+msgstr "Quy mô ảo đặt vào giữa"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "No Scaling"
+msgstr "Không co giãn"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Scaled Virtual Extent"
+msgstr "Quy mô ảo đã co giãn"
+
+#: Sugar,SugarNavigatorBar>>stringForFullScreenToggle
+msgid "Full Screen"
+msgstr "Toàn màn hình"
+
+#: Sugar,SugarNavigatorBar>>suppliesButtonInitialExplanation
+msgid ""
+"Or, click to see Supplies.  \n"
+"Choose an object or \n"
+"choose the Object Catalog for more choices."
+msgstr ""
+"Hoặc nhấn vào để thấy các Đồ phụ tùng.\n"
+"Chọn một đối tượng nào đó,\n"
+"hoặc chọn Phân loại Đối tượng để thấy thêm tuỳ chọn."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "màu..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "hủy ngăn kéo này"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "cao..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "màu tô sáng..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "dùng hình thức màu xám mặc định"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "dùng hình thức màu lục mặc định"
+
+#: Sugar,SugarNavTab>>wording
+msgid "Sugar Navigation Flap"
+msgstr "Ngăn kéo tìm đường Sugar"
+

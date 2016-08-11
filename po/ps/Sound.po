@@ -1,0 +1,870 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:55-0000\n"
+"PO-Revision-Date: 2010-08-27 15:55-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Sound\n"
+
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonSound
+msgid "Change sound volume"
+msgstr "د غږ درجه بدلول"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "open wave editor"
+msgstr "د څپو ایډیټور خلاص کړه"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "read file"
+msgstr "دوتنه ولوله"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "File name?"
+msgstr "د دوتنې نوم؟"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "Sorry, I cannot find that file"
+msgstr "وبښئ. زه دغه دوتنه نشم موندلی"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,ScorePlayerMorph>>makeControls,SoundLibraryTool>>addButtonRow
+msgid "Play"
+msgstr "چلول"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows
+msgid "Save"
+msgstr "ساتل"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,SoundLibraryTool>>addButtonRow,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Stop"
+msgstr "بندول"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:
+msgid "open a wave-editor tool with this sound as its iniital sound"
+msgstr "د دې غږ یوه څپه-ایډیټور وسیله د دې د لومړني غږ په ډول پرانیزه"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:,RecordingControls>>addMenuButtonItemsTo:
+msgid "wave editor"
+msgstr "څپه ایډیټور"
+
+#: Sound-Interface,AnonymousSoundMorph>>addToSoundLibrary
+msgid "kindly give the sound a name: "
+msgstr "مهرباني وکړئ غږ ته یو نوم ورکړئ: "
+
+#: Sound-Interface,AnonymousSoundMorph>>initialize
+msgid "Unnamed"
+msgstr "بې نومه"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid ""
+" seconds.\n"
+"Double-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
+msgstr ""
+" ثانیې.\n"
+"د غږ د اورېدلو لپاره دوه ځل کلیک کړه.  \"غږتون ته یې ورزیات کړه\" چې د هاله په غورنۍ کې موجوده ده.  د پیانو په پټه یا د پېښې په پټه کې د ایښودلو لپاره هم مناسب دی"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid "Holds a recorded sound of duration "
+msgstr "د دورانیې یو ثبت شوی غږ نیسي "
+
+#: Sound-Interface,CodecDemoMorph>>addCustomMenuItems:hand:
+msgid "select codec"
+msgstr "کوډیک انتخاب کړه"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "new MIDI controller"
+msgstr "نوی ایم ایي ډي‌ایي سمبالوونکی"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via built in synth"
+msgstr "د جوړ شوي سینت په واسطه وغږوه"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via MIDI"
+msgstr "د ایم ایي ډي ایي په واسطه وغږوه"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "A device for making sound recordings."
+msgstr "د غږ د ریکارډونو جوړولو آله."
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,ScorePlayerMorph_class>>descriptionForPartsBin,SoundLibraryTool_class>>descriptionForPartsBin,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "ګڼرسنۍ"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin
+msgid "SoundRecorder"
+msgstr "غږ ثبتوونکی"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Play the current recording from its beginning"
+msgstr "اوسنی تثبیت له سره وغږوه"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Record"
+msgstr "ثبتول"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Save the current recording for future use."
+msgstr "اوسنی تثبیت د راتلونکي د استعمال لپاره خوندي‌کړه."
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Start a new recording"
+msgstr "نوی تثبیت پېل کړه"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Stop current recording or playback"
+msgstr "اوسنی تثبیت یا بیا غږول ودروه"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose compression..."
+msgstr "کېښکل غوره کړه..."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose which data-compression scheme should be used to encode the recording."
+msgstr "غوره کړه چې کوم د ډاټا کېښکلو سکیم باید د تثبیت د کوډولو لپاره وکارول شي."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hand me a sound token"
+msgstr "ما ته یوه د غږ نښه راکړه"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hands you a lozenge representing the current sound,  which you can drop into a piano-roll or an event-roll, or later add to the sound library.  Double-click on it to hear the sound"
+msgstr "تا ته یو لوزي درکوي چې اوسنی غږ وړاندې کوي. کوم چې ته په یو پیانو-پټۍ‌یا پېښه-پټۍ کې ایښودلی شې. یا یې وروسته په غږتون کې زیاتولی شې.  د غږ د اورېدلو لپاره پرې دوه ځل کلیک کړه"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "help"
+msgstr "مرسته"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "open up the wave-editor tool to visualize and to edit the sound recorded"
+msgstr "د ثبت شوي غږ د ایډیټ کولو او کتلو لپاره د څپه-ایډیټر وسیله پرانیزه"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "opens a flap which contains instructions"
+msgstr "یو رپ پرانیزي چې لارښودنې پکې شاملې دي"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "remove any blanks space at the beginning and/or end of the recording.  Caution -- this feature seems to be broken, at least on some platforms, so use at your own risk.  For safety, save this sound in its untrimmed form before venturing to trim."
+msgstr "د تثبیت په پېل او\\یا پای کې کوم خالي ځای لیرې کړه.  احتیاط -- دا فیچر ښکاري چې مات شوی وي. لږ تر لږه په ځینو ځایونو کې. نو په خپل مسوولیت یې وکاروه.  د خوندیتوب لپاره.‌دا غږ پرېکولو ته له تللو مخکې یو ځل بې سینګاره خوندي کړه."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "Sound Recorder Options"
+msgstr "د غږ د ثبتولو غوراوي"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "trim"
+msgstr "پرې کول"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "Drag to set the record level"
+msgstr "د تثبیت د کچې د ټاکلو لپاره راکاږه"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "maximum record-level"
+msgstr "د تثبیت زیات نه زیات کچه"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "minimum record-level"
+msgstr "د تثبیت کم نه کم کچه"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Compression method\\Currently: {1}"
+msgstr "د کېښکلو طریقه\\دا مهال. }۱{"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "GSM (simple compression)"
+msgstr "جي ایس ایم (ساده کېښکل)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "No compression"
+msgstr "نه کېښکل"
+
+#: Sound-Interface,RecordingControls>>chooseCodec,RecordingControls>>chooseCodec
+msgid "None"
+msgstr "هيڅ"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Speex (for speech)"
+msgstr "سپیکس (د وینا لپاره)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Vorbis (for music)"
+msgstr "وربیس (د موسیقۍ لپاره)"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "no sound recorded yet"
+msgstr "تراوسه کوم غږ ندی ثبت شوی"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "Recorded sound duration: {1} second(s)"
+msgstr "د ثبت شوي غږ موده: }۱{ ثانیه(ې)"
+
+#: Sound-Interface,RecordingControls>>helpString
+msgid ""
+"\n"
+"Press \"Record\" to start recording.  Press Stop when finished recording.\n"
+"\n"
+"After making a recording, you can:\n"
+"   Press \"Play\" to play back the recording.\n"
+"   Press \"Record\" to start a new recording\n"
+"      (the old one would be discarded).\n"
+"   Press \"Save\" to save the recording in the sound library.\n"
+"\n"
+"Press the menu icon to get a menu with further options.\n"
+"\n"
+"If you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n"
+"\n"
+"If you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n"
+"  You can double-click on the sound token to hear the sound again.\n"
+"  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n"
+"  You can drop the sound token into a PianoRoll or an EventRoll.\n"
+msgstr ""
+"\n"
+"د ثبتولو لپاره \"ثبت\" کېکاږه.  د ثبت له پای وروسته درول کېکاږه\n"
+"\n"
+"له ثبتولو وروسته. ته کولی شې: \"غږول\" کېکاږې د ثبت د بیاغږولو لپاره.\n"
+"   د نوي ثبت د پېل لپاره \"ثبت\" کېکاږه (پخوانی به لغوه شي).\n"
+"   په غږتون کې د تثبیت د خوندي کولو لپاره \"خوندي کول\" کېکاږه.\n"
+"\n"
+"نورو غوراویو سره د غورنۍ ترلاسه کولو لپاره د غورنۍ نښه کېکاږه.\n"
+"\n"
+"که ته غواړې چې په متنونو کې غږ ته لاړ شې. نو ضروري ده چې غږتون ته یې زیات کړې. د دې لپاره خوندي کول کېکاږه؛ په تا ضروري‌ده چې یو نوم ورته ورکړې.\n"
+"\n"
+"که ته د غږ بېرته راګرځول غواړې او په متنونو کې یادولو ته یې اړتیا نلرې. نو د نوم ورکولو ضرورت نشته؛ د هغې په ځای \"د غږ نښه راکړه\" وکاروه. چې په غورنۍ کې شته. د یوې ورکوټې \"غږ نښې\" څیز ترلاسه کولو لپاره چې وروسته یې ته په یو شمېر چارو کې کارولی شې: ته د غږ د بیا اورېدلو لپاره د غږ په نښه دوه ځل کلیک کولی شې.\n"
+"  ته د غږ د نښې د هالې په غورنۍ کې د یو څیز په کارولو سره د غږ د خوندي کولو پرېکړه هم کولی شې. \n"
+"  ته د غږ نښه په پیانو پټۍ یا پېښې پټۍ کې ایښودلی شې.\n"
+
+#: Sound-Interface,RecordingControls>>makeStatusLight
+msgid "When red, it means you are currently recording"
+msgstr "کله چې سور وي. د دې مانا دا ده چې ته اوس ثبتوې"
+
+#: Sound-Interface,RecordingControls>>putUpAndOpenHelpFlap,RecordingControls>>putUpHelpFlap,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "Sound Recorder"
+msgstr "غږ ثبتوونکی"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit
+msgid "Sound name?"
+msgstr "د غږ نوم؟"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit,RecordingControls>>saveButtonHit
+msgid "unnamed"
+msgstr "بې نومه"
+
+#: Sound-Interface,RecordingControls>>setButtonEnablement
+msgid "Discard the current recording and start making a fresh recording"
+msgstr "اوسنی تثبیت لغوه کړه او یو تازه تثبیت پېل کړه"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid " second(s) trimmed"
+msgstr " ثانیه(ې) پرې شو"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid ""
+"Caution:  this is dangerous and destructive!\n"
+"Do you really want to \"trim\" your recording?\n"
+"(It might be smart to save the untrimmed\n"
+"version in a sound token before trimming)"
+msgstr ""
+"احتیاط: دا خطرناک او تباه کوونکی دی!\n"
+"ایا ته ریښتیا خپل ریکارډنګ \"پرې کول\" غواړې؟\n"
+"(دا به اوښیارتیا وي چې د غږ نښې ناپرېکړل شوې بڼه له پرېکولو وړاندې خوندي کړې)"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid "unable to trim any more, sorry"
+msgstr "وبښئ. نور د پرېکولو توان نلري"
+
+#: Sound-Interface,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "A tool for managing the sound library"
+msgstr "د غږتون د منظمولو وسیله"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Add a new sound to the sound library from a file"
+msgstr "د یوې دوتنې څخه غږتون ته یو نوی غږ ورزیات کړه"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete"
+msgstr "ړنګول"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete the selected sound from the sound library"
+msgstr "د غږتون څخه انتخاب شوی غږ ړنګ کړه"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Hands you a tile representing the selected sound"
+msgstr "یوه خښته درکوي چې د انتخاب شوي غږ استازیتوب کوي"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "If the selected sound is playing, stop it"
+msgstr "که انتخاب شوی غږ غږېږي. وې دروه"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Load"
+msgstr "لېښيدل"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Play the selected sound"
+msgstr "انتخاب شوی غږ وغږوه"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename"
+msgstr "بل نوم"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename the selected sound"
+msgstr "انتخاب شوي غږ ته بل نوم ورکړه"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Tile"
+msgstr "خښته"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "GSM compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Speex compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Vorbis compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "open a tool which, operating with the selected sound as a point of departure, will allow you to construct a new \"instrument\""
+msgstr "یوه اله پرانیزه چې د انتخاب شوي غږ سره د تلونکي ټکي په توګه فعالیت کوي. چې درته د یوې نوي‌\"اوزار\" د جوړولو اجازه درکړي"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Wave editor"
+msgstr "څپه ایډیټور"
+
+#: Sound-Interface,SoundLibraryTool>>addHeaderRow,SoundLibraryTool>>presentHelp,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "Sound Library"
+msgstr "غږتون"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:,SoundLibraryTool>>deleteSound,SoundLibraryTool>>renameSound
+msgid "No sound selected"
+msgstr "غږ ندی انتخاب شوی"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:
+msgid "You can not compress this sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>deleteSound
+msgid "You can not delete this sound"
+msgstr "ته دا غږ نشې ړنګولی"
+
+#: Sound-Interface,SoundLibraryTool>>helpString
+msgid ""
+"This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n"
+"\n"
+"Click on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n"
+"\n"
+"Play button -- press this to start playing the selected sound.\n"
+"\n"
+"Stop button -- if the selected sound is playing, pressing this will stop it.\n"
+"\n"
+"Tile button -- Click on this to obtain a scripting tile representing the selected sound.\n"
+"\n"
+"Rename button -- allows you to rename the selected sound.\n"
+"\n"
+"Delete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n"
+"\n"
+"Load button -- allows you to load a sound into the Sound Library from a file.\n"
+"\n"
+"You can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n"
+"\n"
+"Note: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n"
+"\n"
+"Additionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
+msgstr ""
+"دا اله درته د غږتون د کتلو او منظمولو اجازه درکوي. کوم چې د هغو نومول شویو غږونو لیست دی چې د خښتې-متنولو په سیستم کې کارول کېدای شي.\n"
+"\n"
+"په لیست کې د یو غږ د انتخابولو لپاره د هغې په نوم کلیک کړه.  د الې په سر کې تڼۍ په هغه غږ تطبیقېږي چې تا انتخاب کړی دی.\n"
+"\n"
+"د غږولو تڼۍ -- د غوره شوي غږ د غږولو د پېل لپاره دا کېکاږه.\n"
+"\n"
+"د درولو تڼۍ -- که غوره شوی غږ غږېږي. د دې کېکاږل به يې ودروي.\n"
+"\n"
+"د خښتې تڼۍ -- د یوې متنیزې خښتې چې د غوره شوي غږ استازیتوب کوي د ترلاسه کولو لپاره په دې کلیک کړه.\n"
+"\n"
+"تڼۍ ته بل نوم ورکړه -- اجازه درکوي‌چې غوره شوي‌غږ ته بل نوم ورکړې.\n"
+"\n"
+"تڼۍ ړنګه کړه -- اجازه درکوي چې غوره شوی غږ د غږتون څخه ړنګ کړې.  هغه ټولې خښتې چې په رسمي ډول دې غږ ته اشاره شوي به بدلې شي او د دې په ځای به \"کغ کغ\" ته اشاره شي. \n"
+"\n"
+"تڼۍ راوچته کړه -- اجازه درکوي چې د یوې دوتنې څخه غږتون ته یو غږ راوچت کړې.\n"
+"\n"
+"ته غږتون ته د غږ ثبتوونکي په کارولو هم غږونه ورزیاتولی شې. او همدارنګه بلوبتوکو ته هم د خارجي غږ دوتنې په راښکلو سره (یانې هغه دوتنه چې د ډبلیو شای وي یا ای ایي ایف غځېدون لري).\n"
+"\n"
+"یادونه: هغه \"کایناتي\" غږونه چې په سیستم کې جوړ شوي دي نومونه یې بدلیدای یا ړنګېدای نشي.\n"
+"\n"
+"برسېره پر دې. د غوره شوي غږ د پرانیستلو لپاره د \"څپه ایډیټور\" د قوماندې اله د الو د هالې په  غورنۍ کې موندل کیدای شي."
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "Please give a name for this sound"
+msgstr "لطفاً دې غږ ته یو نوم ورکړئ"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "sorry, that name is already taken"
+msgstr "وبښئ. دا نوم لا د مخه ورکړل شوی دی"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "New name for "
+msgstr "لپاره نوی نوم "
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "sorry, that name is already used."
+msgstr "وبښئ. دا نوم لا د مخه کارول شوی دی."
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "You can not rename this sound"
+msgstr "ته دې غږ ته بل نوم نشې ورکولی"
+
+#: Sound-Interface,SoundLibraryTool>>showCompressionString
+msgid "show compression"
+msgstr ""
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "A device for analyzing sound input"
+msgstr "د غږ د بڼې د جاجولو وزله"
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Spectrum Analyzer"
+msgstr "منظر جاجوونکی"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Start"
+msgstr "پیل"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set display type"
+msgstr "د ښودلو ډول وټاکه"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "ایف ایف ټي کچه وټاکه"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "د بېلګه کولو کچه وټاکه"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>makeStatusLight,SpectrumAnalyzerMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "په"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "display type (currently {1})"
+msgstr "د ښودلو ډول (دا مهال }۱{)"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "signal"
+msgstr "سګنال"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "sonogram"
+msgstr "سونوګرام"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "spectrum"
+msgstr "منظر"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setFFTSize
+msgid "FFT size (currently {1})"
+msgstr "ایف ایف ټي کچه (دا مهال }۱{)"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setSamplingRate
+msgid "Sampling rate (currently {1})"
+msgstr "د بېلګه کولو کچه (دا مهال }۱{)"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "          rest          "
+msgstr "          نور          "
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "chord"
+msgstr "یو کوونکی"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "del"
+msgstr "ړنګول"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "dotted"
+msgstr "ټکی شوی"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "eighth"
+msgstr "اتم"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "half"
+msgstr "نیم"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "legato"
+msgstr "لیګاټو"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "normal"
+msgstr "نورمال"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quarter"
+msgstr "درېمه برخه"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quints"
+msgstr "پینځمې برخې"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "sixteenth"
+msgstr "شپاړسمه"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "staccato"
+msgstr "منقطع"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "triplets"
+msgstr "درې ګوني"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "whole"
+msgstr "ټول"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "add channel"
+msgstr "چینل زیات کړه"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "close MIDI port"
+msgstr "د ایم ایي ډي ایي درشل بند کړه"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu,ScorePlayerMorph>>invokeMenu
+msgid "reload instruments"
+msgstr "اوزار بیا راپورته کړه"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "set MIDI port"
+msgstr "د ایم ایي ډي ایي‌درشل وټاکه"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "add movie clip player"
+msgstr "د فیلم ټوټه غږوونی ورزیات کړه"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "close drag and drop"
+msgstr "راکښل او ایښودل بند کړه"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "contract time"
+msgstr "د تړون وخت"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "expand time"
+msgstr "وخت وغځوه"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "open drag and drop"
+msgstr "راکښل او ایښودل پرانیزه"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "add keyboard"
+msgstr "کیلیدړه پرانیزه"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "copy"
+msgstr "کاپي"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "cut"
+msgstr "غوڅ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide beat lines"
+msgstr "غورځېدونکې کرښې پټې کړه"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide measure lines"
+msgstr "د اندازې کرښې پټې کړه"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste"
+msgstr "سریښ"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste..."
+msgstr "سريښل..."
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show beat lines"
+msgstr "غورځېدونکې کرښې وښیه"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show measure lines"
+msgstr "د اندازې کرښې وښیه"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "sig     "
+msgstr "امضا     "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "time   "
+msgstr "وخت   "
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid " Mediates between a score such as a MIDIScore, a PianoRollScoreMorph, and the actual SoundPlayer synthesizer"
+msgstr " د یو سکور لکه میډي سکور. پیانورول سکور مورف. او د اصلي غږغږووني د ترکیبوونکي ترمنځ منځګړتوب کوي"
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid "ScorePlayer"
+msgstr "شمېرګیم"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open"
+msgstr "پرانېستل"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open in midi player"
+msgstr "په میډي غږووني کې پرانیزه"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open the midi-player tool on this file"
+msgstr "د میډي-غږووني اله په دې دوتنه کې پرانیزه"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "make a pause marker"
+msgstr "ځنډ نښوونکی جوړ کړه"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "open a MIDI file"
+msgstr "ایم ايي ډي‌ایي دوتنه پرانیزه"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as AIFF file"
+msgstr "د ایف دوتنې په توګه خوندي کړه"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as Sun AU file"
+msgstr "د سن او دوتنې په توګه خوندي‌ کړه"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as WAV file"
+msgstr "د واو دوتنې په توګه خوندي کړه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeAPauseEvent:
+msgid "[pause]"
+msgstr "[ځنډ]"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Disable sound reverb"
+msgstr "د غږ انعکاس غیر فعال کړه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Menu"
+msgstr "غورنۍ"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a menu"
+msgstr "غورنۍ پرانیزه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a PianoRoll"
+msgstr "پیانو پټه پرانیزه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause"
+msgstr "ځنډ"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause playback"
+msgstr "بیاغږول وځنډوه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "PianoRoll"
+msgstr "پیانوپټه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Play the score"
+msgstr "شمېر وچلوه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Playback jumps back to start and continue playing"
+msgstr "بیاغږول بېرته پېل ته ټوپ وهي او غږولو ته دوام ورکوي"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Repeat"
+msgstr "تکرار"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Reverb Disable"
+msgstr "انعکاس غېرفعال کړه"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind"
+msgstr "له سره ول"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind to score start"
+msgstr "د شمېر پېل ته بیا ورشه"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "Choose a MIDI file to open"
+msgstr "د ایم ایي ډي‌ایي دوتنه د پرانیستلو لپاره غوره کړه"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "No .mid/.midi files found in the Squeak directory"
+msgstr "په بوږن ډایریکټري کې د میډ یا میډي کومه دوتنه ونه موندل شوه"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "L"
+msgstr "ل"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "R"
+msgstr "ر"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid " fast"
+msgstr " تېز"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "Playback speed"
+msgstr "د بياغږونې چټکتيا"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "slow "
+msgstr "کرار "
+
+#: Sound-Scores,ScorePlayerMorph>>saveAsAIFF,ScorePlayerMorph>>saveAsSunAudio,ScorePlayerMorph>>saveAsWAV
+msgid "New file name?"
+msgstr "د نوې دوتنې نوم؟"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid " end"
+msgstr " پای"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "Shows current position in the score"
+msgstr "په شمېر کې اوسنی حالت ښيي"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "start "
+msgstr "پیل "
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue"
+msgstr "دوام"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue playing a paused presentation"
+msgstr "د ځنډول شوې طرحې چلولو ته دوام ورکړه"
+
+#: Sound-Scores,ScorePlayerMorph>>trackNumAndMuteButtonFor:
+msgid "Mute"
+msgstr "ګونګ"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid " loud"
+msgstr " جیګ (غږ)"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "soft  "
+msgstr "پوست  "
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "Volume slider"
+msgstr "غږ اړوونکی"
+
+#: Sound-Scores,SimpleMIDIPort_class>>inputPortNumFromUser
+msgid "MIDI port for input:"
+msgstr "ننوتۍ لپاره د ایم ایي‌ډي‌ایي درشل:"
+
+#: Sound-Scores,SimpleMIDIPort_class>>outputPortNumFromUser
+msgid "MIDI port for output:"
+msgstr "وتۍ لپاره د ایم ایي ډي ایي درشل:"
+
+#: Sound-Synthesis,SampledSound_class>>soundNamed:
+msgid " not found in the Sound Library"
+msgstr " په غږتون کې ونه موندل شو"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "camera"
+msgstr "کامره"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chirp"
+msgstr "چرېدل"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chomp"
+msgstr "شخوند"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "click"
+msgstr "ټک"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "clink"
+msgstr "شرنګ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "coyote"
+msgstr "ګیدړه"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "croak"
+msgstr "کغ کغ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "horn"
+msgstr "هارن"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "laugh"
+msgstr "خندا"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "meow"
+msgstr "میاو"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "motor"
+msgstr "موټر"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "peaks"
+msgstr "څوکې"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scrape"
+msgstr "کباړ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scratch"
+msgstr "ګرول"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scritch"
+msgstr "کریغه"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "silence"
+msgstr "چوپتیا"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "splash"
+msgstr "اوبه شیندل"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "warble"
+msgstr "چوڼېدل"
+
+#: Sound-Synthesis,SoundRecorder>>verifyExistenceOfRecordedSound
+msgid "please record a sound first"
+msgstr "لطفاً غږ لومړی ثبت کړئ"
+

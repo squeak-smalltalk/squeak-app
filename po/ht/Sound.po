@@ -1,0 +1,836 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:41-0000\n"
+"PO-Revision-Date: 2010-08-27 15:41-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Sound\n"
+
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonSound
+msgid "Change sound volume"
+msgstr "Sanche volim son an"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "open wave editor"
+msgstr "louvri editè son an"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "read file"
+msgstr "li fichye"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "File name?"
+msgstr "Non fichye"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "Sorry, I cannot find that file"
+msgstr "Dezole, mwen pa ka jwenn fichye sa"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,ScorePlayerMorph>>makeControls,SoundLibraryTool>>addButtonRow
+msgid "Play"
+msgstr "jwe"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows
+msgid "Save"
+msgstr "Sovgade"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,SoundLibraryTool>>addButtonRow,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Stop"
+msgstr "Kanpe"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:
+msgid "open a wave-editor tool with this sound as its iniital sound"
+msgstr "louvri yon zouti edition son ak son sa kòm son inisyal"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:,RecordingControls>>addMenuButtonItemsTo:
+msgid "wave editor"
+msgstr "editè son"
+
+#: Sound-Interface,AnonymousSoundMorph>>addToSoundLibrary
+msgid "kindly give the sound a name: "
+msgstr "emableman bay son an yon non: _"
+
+#: Sound-Interface,AnonymousSoundMorph>>initialize
+msgid "Unnamed"
+msgstr "San non"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid ""
+" seconds.\n"
+"Double-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
+msgstr ""
+"segond.\n"
+"Double klike pou tande son an. _ \"ajoute nan librèry son\"disponib nan meni halo. _ egalman apwopriye pou depoze nan yon anchènman piano oubyen nan yon anchènman evenman "
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid "Holds a recorded sound of duration "
+msgstr "Konsève dirasyon yon son anrejistre _"
+
+#: Sound-Interface,CodecDemoMorph>>addCustomMenuItems:hand:
+msgid "select codec"
+msgstr "seleksyone yon codec"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "new MIDI controller"
+msgstr "Nouvo kontwolè MIDI"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via built in synth"
+msgstr "jwe a pati de yon sentetizè entegre"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via MIDI"
+msgstr "jwe a pati de MIDI"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "A device for making sound recordings."
+msgstr "Aparèy pou anrejistre son"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,ScorePlayerMorph_class>>descriptionForPartsBin,SoundLibraryTool_class>>descriptionForPartsBin,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "Miltimedya"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin
+msgid "SoundRecorder"
+msgstr "Aparèy anregistreman"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Play the current recording from its beginning"
+msgstr "Jwe anrejistreman kouran depi nan kòmansman"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Record"
+msgstr "anrejistre"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Save the current recording for future use."
+msgstr "Sove anrejistreman kouran pou yon lòt fwa."
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Start a new recording"
+msgstr "Kòmanse yon nouvo anrejistreman"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Stop current recording or playback"
+msgstr ""
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose compression..."
+msgstr "Chwazi konpresyon..."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose which data-compression scheme should be used to encode the recording."
+msgstr "Chwazi ki chema konpresyon done ki dwe itilize pou ankode anrejistreman."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hand me a sound token"
+msgstr "Ban-m yon jeton son"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hands you a lozenge representing the current sound,  which you can drop into a piano-roll or an event-roll, or later add to the sound library.  Double-click on it to hear the sound"
+msgstr "Bay ou yon lozanj ki reprezante son kouran an,_ ke ou ka depoze nan yon roulo piano oubyen yon roulo evènman, oubyen ajoute-l nan librèri son an pita._ Double klike sou li pou tande son an"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "help"
+msgstr "èd"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "open up the wave-editor tool to visualize and to edit the sound recorded"
+msgstr "Louvri zouti edisyon son an pou vizyalize epi korije son ki te anrejistre-a"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "opens a flap which contains instructions"
+msgstr "louvri yon volè ki gen enstriksyon yo"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "remove any blanks space at the beginning and/or end of the recording.  Caution -- this feature seems to be broken, at least on some platforms, so use at your own risk.  For safety, save this sound in its untrimmed form before venturing to trim."
+msgstr "retire nenpòt espas vid nan kòmansman ak/oubyen nan finisman anrejistreman._ Atansyon -- fonksyon sa sanble kraze, o mwen sou kèk platfòm, se responsabilite ou si ou sèvi-l._ Pou sekirite sove son sa sou fòm inisyal li avan ou tante fè rediksyon."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "Sound Recorder Options"
+msgstr "Obsyon aparèy anrejistreman son"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "trim"
+msgstr "redwi"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "Drag to set the record level"
+msgstr "Glise pou pozisyone nivo anrejistreman"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "maximum record-level"
+msgstr "nivo anrejistreman maksimòm"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "minimum record-level"
+msgstr "Nivo anrejistreman minimòm"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Compression method\\Currently: {1}"
+msgstr "Metòd konpresyon\\aktyèlman: {1}"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "GSM (simple compression)"
+msgstr "GSM (konpresyon senp)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "No compression"
+msgstr "San konpresyon"
+
+#: Sound-Interface,RecordingControls>>chooseCodec,RecordingControls>>chooseCodec
+msgid "None"
+msgstr "Okenn"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Speex (for speech)"
+msgstr "Speex (pour pale)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Vorbis (for music)"
+msgstr "Vorbis (pou mizik)"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "no sound recorded yet"
+msgstr "Pa gen son ki ankò anrejistre"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "Recorded sound duration: {1} second(s)"
+msgstr "Dirasyon son ki te anrejistre-a: {1} segond(yo)"
+
+#: Sound-Interface,RecordingControls>>helpString
+msgid ""
+"\n"
+"Press \"Record\" to start recording.  Press Stop when finished recording.\n"
+"\n"
+"After making a recording, you can:\n"
+"   Press \"Play\" to play back the recording.\n"
+"   Press \"Record\" to start a new recording\n"
+"      (the old one would be discarded).\n"
+"   Press \"Save\" to save the recording in the sound library.\n"
+"\n"
+"Press the menu icon to get a menu with further options.\n"
+"\n"
+"If you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n"
+"\n"
+"If you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n"
+"  You can double-click on the sound token to hear the sound again.\n"
+"  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n"
+"  You can drop the sound token into a PianoRoll or an EventRoll.\n"
+msgstr ""
+
+#: Sound-Interface,RecordingControls>>makeStatusLight
+msgid "When red, it means you are currently recording"
+msgstr "Lè li rouj, sa vle di wap anrejistre"
+
+#: Sound-Interface,RecordingControls>>putUpAndOpenHelpFlap,RecordingControls>>putUpHelpFlap,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "Sound Recorder"
+msgstr "Aparèy anregistreman"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit
+msgid "Sound name?"
+msgstr "Non son?"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit,RecordingControls>>saveButtonHit
+msgid "unnamed"
+msgstr "san non"
+
+#: Sound-Interface,RecordingControls>>setButtonEnablement
+msgid "Discard the current recording and start making a fresh recording"
+msgstr "Anile anrejistreman kouran an epi kòmanse yon nouvo anrejistreman"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid " second(s) trimmed"
+msgstr "Segond(yo) redwi"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid ""
+"Caution:  this is dangerous and destructive!\n"
+"Do you really want to \"trim\" your recording?\n"
+"(It might be smart to save the untrimmed\n"
+"version in a sound token before trimming)"
+msgstr ""
+"Atansyon:_ Sa danje epi li destriktif!\n"
+"Eske ou vle vrèman netwaye anrejistreman?\n"
+"(Se petèt yon bon lide pou sove vèsyon sa\n"
+"nan yon jeton son avan ou demare netwayaj la)"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid "unable to trim any more, sorry"
+msgstr "pa kapab redwi pi plis, dezole"
+
+#: Sound-Interface,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "A tool for managing the sound library"
+msgstr "Yon zouti pou manevre librèry son an"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Add a new sound to the sound library from a file"
+msgstr "Ajoute yon nouvo son nan librèri son an a pati de yon fichye"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete"
+msgstr "Efase"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete the selected sound from the sound library"
+msgstr "Efase son ki seleksyone-a nan librèri son an"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Hands you a tile representing the selected sound"
+msgstr "Bay mwen yon brik ki reprezante son seleksyone-a"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "If the selected sound is playing, stop it"
+msgstr "Si son ki seleksyone-a ap jwe, kanpe-l"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Load"
+msgstr "Chaje"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Play the selected sound"
+msgstr "Jwe son ki seleksyone-a"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename"
+msgstr "Rebay non"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename the selected sound"
+msgstr "Chanje non son ki seleksyone-a"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Tile"
+msgstr "Brik"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "GSM compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Speex compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Vorbis compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "open a tool which, operating with the selected sound as a point of departure, will allow you to construct a new \"instrument\""
+msgstr "louvri yon zouti ki, fonksyone ak son seleksyone-a tankou se yon pwen de depa, sa va pèmèt ou konstri yon nouvo \"enstriman\""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Wave editor"
+msgstr "Editè son"
+
+#: Sound-Interface,SoundLibraryTool>>addHeaderRow,SoundLibraryTool>>presentHelp,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "Sound Library"
+msgstr "librèri son"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:,SoundLibraryTool>>deleteSound,SoundLibraryTool>>renameSound
+msgid "No sound selected"
+msgstr "Pa gen son ki seleksyone"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:
+msgid "You can not compress this sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>deleteSound
+msgid "You can not delete this sound"
+msgstr "Ou pa ka efase son sa"
+
+#: Sound-Interface,SoundLibraryTool>>helpString
+msgid ""
+"This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n"
+"\n"
+"Click on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n"
+"\n"
+"Play button -- press this to start playing the selected sound.\n"
+"\n"
+"Stop button -- if the selected sound is playing, pressing this will stop it.\n"
+"\n"
+"Tile button -- Click on this to obtain a scripting tile representing the selected sound.\n"
+"\n"
+"Rename button -- allows you to rename the selected sound.\n"
+"\n"
+"Delete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n"
+"\n"
+"Load button -- allows you to load a sound into the Sound Library from a file.\n"
+"\n"
+"You can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n"
+"\n"
+"Note: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n"
+"\n"
+"Additionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "Please give a name for this sound"
+msgstr "Bay yon non pou son sa souple"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "sorry, that name is already taken"
+msgstr "Dezole non sa deja pwan non sa"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "New name for "
+msgstr "Nouvo non pou_"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "sorry, that name is already used."
+msgstr "Dezole non sa deja sèvi"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "You can not rename this sound"
+msgstr "Ou pa ka bay son sa yon lòt non"
+
+#: Sound-Interface,SoundLibraryTool>>showCompressionString
+msgid "show compression"
+msgstr ""
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "A device for analyzing sound input"
+msgstr "Yon aparèy pou analize rantre son"
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Spectrum Analyzer"
+msgstr "Analizè spèk"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Start"
+msgstr "Demare"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set display type"
+msgstr "Chanje afichaj"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "chanje dimansyon FFT"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "ajiste frekans echantiyon an"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>makeStatusLight,SpectrumAnalyzerMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "Louvri"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "display type (currently {1})"
+msgstr "afiche tip (kouramman{1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "signal"
+msgstr "siyal"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "sonogram"
+msgstr "sonogram"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "spectrum"
+msgstr "spèk"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setFFTSize
+msgid "FFT size (currently {1})"
+msgstr "Dimansyon FFT (kouramman {1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setSamplingRate
+msgid "Sampling rate (currently {1})"
+msgstr "Frekans echantiyon (kouramman {1})"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "          rest          "
+msgstr "rès_"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "chord"
+msgstr "akò"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "del"
+msgstr "efase"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "dotted"
+msgstr "Pwentiye"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "eighth"
+msgstr "Wityèm"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "half"
+msgstr "mwatye"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "legato"
+msgstr "legato"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "normal"
+msgstr "nòmal"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quarter"
+msgstr "Yon ka"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quints"
+msgstr ""
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "sixteenth"
+msgstr "sizyèm"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "staccato"
+msgstr "stakato"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "triplets"
+msgstr "triplets"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "whole"
+msgstr "antye"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "add channel"
+msgstr "ajoute chanèl"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "close MIDI port"
+msgstr "fèmen yon pòt MIDI"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu,ScorePlayerMorph>>invokeMenu
+msgid "reload instruments"
+msgstr "rechaje enstriman yo"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "set MIDI port"
+msgstr "chwazi yon pòt MIDI"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "add movie clip player"
+msgstr "Ajoute yon lèktè klip video"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "close drag and drop"
+msgstr "Fèmen clise epi depoze"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "contract time"
+msgstr "tan konpresyon"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "expand time"
+msgstr "tan ogmantasyon"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "open drag and drop"
+msgstr "Louvri glise epi depoze"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "add keyboard"
+msgstr "ajoute klavye"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "copy"
+msgstr "kopye"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "cut"
+msgstr "koupe"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide beat lines"
+msgstr "kache liy batman yo"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide measure lines"
+msgstr "kache ba mezi yo"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste"
+msgstr "kole"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste..."
+msgstr "pase..."
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show beat lines"
+msgstr "montre liy batman yo"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show measure lines"
+msgstr "montre ba mezi yo"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "sig     "
+msgstr "sig_"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "time   "
+msgstr "tan_"
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid " Mediates between a score such as a MIDIScore, a PianoRollScoreMorph, and the actual SoundPlayer synthesizer"
+msgstr "Entèmediyè ant yon patisyon tankou yon MIDIScore, yon PianoRollScoreMorph ak vrè Sentetizè SoundPlayer-a"
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid "ScorePlayer"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open"
+msgstr "louvri"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open in midi player"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open the midi-player tool on this file"
+msgstr "Ouvè zouti midi-player fichye sa"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "make a pause marker"
+msgstr "Fè yon senbòl poz"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "open a MIDI file"
+msgstr "Ouvè yon fichye MIDI"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as AIFF file"
+msgstr "anrejistre tankou fichye AIFF"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as Sun AU file"
+msgstr "anrejistre tankou fichye AU"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as WAV file"
+msgstr "anrejistre tankou fichye WAV"
+
+#: Sound-Scores,ScorePlayerMorph>>makeAPauseEvent:
+msgid "[pause]"
+msgstr "[Poz]"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Disable sound reverb"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Menu"
+msgstr "Meni"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a menu"
+msgstr "Ouvè yon meni"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a PianoRoll"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause"
+msgstr "poz"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause playback"
+msgstr "Poz anregistreman"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "PianoRoll"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Play the score"
+msgstr "Jwe patisyon an"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Playback jumps back to start and continue playing"
+msgstr "Anregistreman an retounen nan kòmansman epi li kontinye jwe"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Repeat"
+msgstr "Repete"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Reverb Disable"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind"
+msgstr "Rebobine"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind to score start"
+msgstr "Retounen nan kòmansman patisyon an"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "Choose a MIDI file to open"
+msgstr "Chwazi yon fichye fim pou louvri"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "No .mid/.midi files found in the Squeak directory"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "L"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "R"
+msgstr ""
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid " fast"
+msgstr "Rapid"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "Playback speed"
+msgstr "Vitès anregistreman"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "slow "
+msgstr "Dousman"
+
+#: Sound-Scores,ScorePlayerMorph>>saveAsAIFF,ScorePlayerMorph>>saveAsSunAudio,ScorePlayerMorph>>saveAsWAV
+msgid "New file name?"
+msgstr "Nouvo non fichye?"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid " end"
+msgstr "fini"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "Shows current position in the score"
+msgstr "Montre aktyel pozisyon nan patisyon an"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "start "
+msgstr "kòmanse _"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue"
+msgstr "Kontinye"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue playing a paused presentation"
+msgstr "Kontinye jwe yon prezantasyon ki poz"
+
+#: Sound-Scores,ScorePlayerMorph>>trackNumAndMuteButtonFor:
+msgid "Mute"
+msgstr "Silans"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid " loud"
+msgstr "fò"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "soft  "
+msgstr "Dou"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "Volume slider"
+msgstr "Bouton volim"
+
+#: Sound-Scores,SimpleMIDIPort_class>>inputPortNumFromUser
+msgid "MIDI port for input:"
+msgstr ""
+
+#: Sound-Scores,SimpleMIDIPort_class>>outputPortNumFromUser
+msgid "MIDI port for output:"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>soundNamed:
+msgid " not found in the Sound Library"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "camera"
+msgstr "Kamera"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chirp"
+msgstr "Chuchote"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chomp"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "click"
+msgstr "Clike"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "clink"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "coyote"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "croak"
+msgstr "Coase"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "horn"
+msgstr "Klaxon"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "laugh"
+msgstr "Ri"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "meow"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "motor"
+msgstr "Motè"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "peaks"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scrape"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scratch"
+msgstr "Grate"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scritch"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "silence"
+msgstr "Silans"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "splash"
+msgstr ""
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "warble"
+msgstr ""
+
+#: Sound-Synthesis,SoundRecorder>>verifyExistenceOfRecordedSound
+msgid "please record a sound first"
+msgstr "Tanpri anrejistre yon son anvan"
+

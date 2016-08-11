@@ -1,0 +1,1159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:44-0000\n"
+"PO-Revision-Date: 2010-08-27 15:44-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Connectors\n"
+
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "attachmentOwnerChanged"
+msgstr ""
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "connectedTo"
+msgstr "私に接続された"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationConnected"
+msgstr "終端が接続された"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationDisconnecting"
+msgstr "終端を切断中"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "disconnectedFrom"
+msgstr "私から切断された"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "if set, viewers will display the 'connection' vocabulary even for Morphs that aren't connected to by Connectors."
+msgstr "ONの時、コネクターで接続されていないモーフについても、「接続」ボキャブラリが表示されます"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after a connector has connected to me"
+msgstr "私にコネクターが接続された直後"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my first end has been connected"
+msgstr "私の1つ目の端が接続された直後"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my second end has been connected"
+msgstr "私の2つ目の端が接続された直後"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before a connector is going to disconnect from me"
+msgstr "コネクターが私から切断される直前"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my first end is going to be disconnected"
+msgstr "私の始端が切断される直前"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my second end is going to be disconnected"
+msgstr "私の2つ目の端が切断される直前"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceConnected"
+msgstr "始端が接続された"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceDisconnecting"
+msgstr "始端を切断中"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "when either of the morphs to which I'm connected have changed their owner or been grabbed or dropped with the hand."
+msgstr ""
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newRandomButton
+msgid "RandomConnector"
+msgstr "ランダムコネクター"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newWithArrow
+msgid "Arrow"
+msgstr "矢印"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector"
+msgstr "基本コネクタ"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector that bends smoothly"
+msgstr "滑らかにカーブする基本コネクタ"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector with an arrowhead"
+msgstr "矢印つき基本コネクタ"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic smooth Connector with an arrowhead"
+msgstr "矢印付きの滑らかな基本コネクタ"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A blank buttton flap"
+msgstr "空のボタンフラップ"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A button that makes fancy Connectors at random"
+msgstr "ランダムに素敵なコネクタを作るボタン"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A Maker Button with a Connector loaded"
+msgstr ""
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap"
+msgstr ""
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Button Flap"
+msgstr "ボタン・フラップ"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connector Button"
+msgstr "コネクター・ボタン"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors Flap"
+msgstr "コネクター・フラップ"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Random Connectors"
+msgstr "ランダム・コネクター"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicArrowMenuItemsTo:event:
+msgid "arrow sizes"
+msgstr "矢印サイズ"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "add label"
+msgstr "ラベル追加"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete"
+msgstr "削除"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border color..."
+msgstr "境界線の色"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border width..."
+msgstr "境界線の幅"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line color..."
+msgstr "線の色"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line width..."
+msgstr "線の幅"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "make button"
+msgstr "ボタンを作る"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:
+msgid "straighten"
+msgstr "直線化"
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make segmented line"
+msgstr "点線にする"
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make smooth line"
+msgstr "線を滑らかにする"
+
+#: Connectors-Base,NCAAConnectorMorph>>addEndItemsFor:to:event:
+msgid "new arrow..."
+msgstr "新しい矢印..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate"
+msgstr "複製"
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate model and view"
+msgstr "モデルを複製して表示"
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidth:
+msgid "New line border width?"
+msgstr ""
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase line width.\n"
+"Click when done."
+msgstr ""
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidth:
+msgid "New line width?"
+msgstr "新しい線幅?"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "hide handles"
+msgstr "ハンドルを隠す"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "ハンドルを表示"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "be orthogonal"
+msgstr "直角にする"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "stop being orthogonal"
+msgstr "直角にならないようにする"
+
+#: Connectors-Base,NCAAConnectorMorph>>yellowButtonDown:onEnd:,NCSchematicConnectorMorph>>yellowButtonDown:onEnd:
+msgid "end..."
+msgstr "終了..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add arbitrary shape..."
+msgstr "自由なシェイプを追加"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add pre-made shape..."
+msgstr "予め作ったシェイプを追加"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "attach to..."
+msgstr "くっつける..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to center"
+msgstr "中心に接続"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest attachment point"
+msgstr "最も近い接続点に接続"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point"
+msgstr "最も近い点に接続"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point to center"
+msgstr "中心に最も近い点に接続"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to relative point..."
+msgstr "関連する点に接続..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete shape..."
+msgstr "シェイプの削除"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "display attachments"
+msgstr "アタッチメントを表示"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "no connection preference"
+msgstr ""
+
+#: Connectors-Base,NCConstraintMorph>>attachToSelectedMorph:,NCConstraintMorph>>deleteSelectedMorph:
+msgid "Select Morph"
+msgstr "モーフを選択"
+
+#: Connectors-Base,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "connect to nothing"
+msgstr ""
+
+#: Connectors-Base,NCLineEndConstraintMorph>>innocuousName
+msgid "connector end"
+msgstr ""
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "A Connector whose endpoints automatically become dots when connected."
+msgstr ""
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "Schematic Connector"
+msgstr "模式図用コネクター"
+
+#: Connectors-Info,ConnectorsInfo_class>>postInstall,NCAAConnectorMorph_class>>initialize
+msgid "if set, Connectors will use labels that try to re-position themselves to stay out of the way."
+msgstr ""
+
+#: Connectors-Lines_and_Curves,NCLineMorph>>changeArrowScaleInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase the size of the arrows.\n"
+"Click when done."
+msgstr ""
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add mouse up action"
+msgstr "マウスアップアクションを追加"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "move"
+msgstr "移動"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "properties..."
+msgstr "プロパティ"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "remove mouse up action"
+msgstr "マウスアップアクションを削除"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "resize"
+msgstr "サイズ変更"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:
+msgid "grab"
+msgstr "つかむ"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "lock text"
+msgstr "テキストの保護"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "unlock text"
+msgstr "テキストの保護解除"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addDebugMenuItemsTo:event:
+msgid "inspect"
+msgstr "検査"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate view only"
+msgstr "ビューのみを複製する"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "lock all text"
+msgstr "全てのテキストを保護"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "set all fonts to..."
+msgstr "全てのフォントをこれに設定する..."
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "unlock all text"
+msgstr "全てのテキストの保護解除"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>antiAliasString
+msgid "smooth edges"
+msgstr "エッジを滑らかにする"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFontFor:
+msgid "Choose font for text:"
+msgstr "テキストのフォントを選択:"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFont,NCDisplayTextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "フォントを選択:"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML package shape"
+msgstr "UMLパッケージシェイプ"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "UML Package"
+msgstr "UMLパッケージ"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add swim lane"
+msgstr "スイムレーンを追加する"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete swim lane"
+msgstr "スイムレーンを削除する"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A circle shape with text inside"
+msgstr "中にテキストのある円"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A diamond shape with text inside"
+msgstr "中にテキストのあるひし形"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A happy face"
+msgstr "ニコニコマーク"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A pointing hand shape with text inside"
+msgstr "中にテキストのある指差ししている手"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A sad face"
+msgstr "泣き虫マーク"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "AND Gate"
+msgstr "論理積ゲート"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'and gate' shape with text inside"
+msgstr "中にテキストのある論理積ゲート"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'or gate' shape with text inside"
+msgstr "中にテキストのある論理和ゲート"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'xor gate' shape with text inside"
+msgstr "中にテキストのある排他的論理和ゲート"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Another pointing hand"
+msgstr "別の指差し形状の手"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "CircleCurve"
+msgstr "円弧"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Diamond"
+msgstr "ひし形"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Happy face"
+msgstr "ニコニコマーク"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "OR Gate"
+msgstr "論理和ゲート"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand"
+msgstr "指差し形状の手"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand2"
+msgstr "指差し形状の手2"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Sad face"
+msgstr "泣き虫マーク"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "XOR Gate"
+msgstr "排他的論理和ゲート"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "An ellipse or circle"
+msgstr "楕円あるいは円"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "Ellipse"
+msgstr "楕円"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "An elliptical or circular shape with text"
+msgstr "テキスト付き楕円もしくは円"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Text Ellipse"
+msgstr "テキスト入り楕円"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "A UML note shape"
+msgstr "UMLノートシェイプ"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "Note"
+msgstr "ノート"
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "Embed pin into..."
+msgstr "ピンを埋め込む先..."
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "<do not embed>"
+msgstr ""
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn off smoothing"
+msgstr "スムージングを止める"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn on smoothing"
+msgstr "スムージングを有効にする"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "set scaling"
+msgstr "倍率設定"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing off"
+msgstr "滑らか表示をオフ"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing on"
+msgstr "滑らか表示をオン"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol that can read its text from a Squeak class"
+msgstr "Squeakクラスからテキストを読むことの出来るUMLクラスシンボル"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "STClass"
+msgstr "STクラス"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become composite"
+msgstr "コンポジットになる"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become scrollable composite"
+msgstr "スクロール可能コンポジットになる"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add line"
+msgstr "分割線を追加…"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text"
+msgstr "テキストを追加"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text block"
+msgstr "テキストブロックを追加"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete line"
+msgstr "線を削除"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text"
+msgstr "テキストを削除"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text block"
+msgstr "テキストブロックを削除"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "emphasis..."
+msgstr "強調..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "set font for this text"
+msgstr "テキストにフォントを設定"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "text properties..."
+msgstr "テキスト・プロパティ..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>hideTextBlockString
+msgid "hide lower text"
+msgstr "下側のテキストを隠す"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol"
+msgstr "UMLクラスシンボル"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "Class"
+msgstr "クラス"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "acceptedTextContents"
+msgstr "テキスト入力が受け付けられた"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "when text is accepted into a text morph by hitting Enter or losing focus"
+msgstr "Enter入力するかフォーカスを失うことで、テキストモーフへの入力テキストが受け付けられるときです"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "A raw piece of text (with a context menu) which you can edit into anything you want"
+msgstr "何でも書き込める生のテキスト（コンテクストメニュー付き）"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Enhanced Text"
+msgstr "強調されたテキスト"
+
+#: Connectors-Text,NCDisplayTextMorph>>addTextMenuItemsTo:event:
+msgid "choose font..."
+msgstr "フォントの選択"
+
+#: Connectors-Text,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Text that you can grab and move around (click to edit)"
+msgstr "つかんで動かせるテキスト（編集するにはクリック）"
+
+#: Connectors-Text-Base,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached."
+msgstr ""
+
+#: Connectors-Text-Base,NCLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "font..."
+msgstr "フォント..."
+
+#: Connectors-Text-Base,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached, trying to stay out of the way."
+msgstr ""
+
+#: Connectors-Text-Base,NCSmartLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "change margins"
+msgstr "マージンを変更"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnCRString
+msgid "accept on CR"
+msgstr "改行で受けつける"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnFocusLossString
+msgid "accept on focus loss"
+msgstr "フォーカスを失ったとき受け付ける"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "了解"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "取消"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild
+msgid "Connector Properties for {1}"
+msgstr "{1}のコネクタプロパティ"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "変更を取り消してパネルを閉じます"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "変更を反映してパネルを閉じます"
+
+#: Connectors-Tools,NCArrowDictionaryMenu_class>>chooseArrowGlyphFor:selector:
+msgid "Arrows"
+msgstr "矢印"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>chooseArrowGlyphFor:selector:
+msgid "OK"
+msgstr "了解"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid "New key? "
+msgstr "新しいキー? "
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid ""
+"sorry, that conflicts with\n"
+"the name of another\n"
+"entry in this dictionary"
+msgstr "この辞書の別のエントリの名前とぶつかっています"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Copy the name of this graphic to the clipboard"
+msgstr "このグラフィックの名前をクリップボードにコピー"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "copy name"
+msgstr "名前をコピー"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Find an entry by name"
+msgstr "エントリを名前で探す"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "find..."
+msgstr "検索..."
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "make new arrow"
+msgstr "新しい矢印を作る"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Open an Arrow editor"
+msgstr "矢印エディターを開く"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Remove this arrow from the dictionary"
+msgstr "辞書からこの矢印を削除"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Rename this arrow"
+msgstr "この矢印の名前を変える"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "remove"
+msgstr "削除"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "rename"
+msgstr "名前を変更する"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>adjusterWindow
+msgid "Attachment Point Adjuster"
+msgstr "接続点エディター"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "Attachment Adjuster"
+msgstr "接続点エディター"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArrayButton
+msgid "Add Array"
+msgstr "配列の追加"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArray
+msgid "Enter the number of H and/or V APs to create; use 0 for none"
+msgstr ""
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addAttacherButton
+msgid "Add"
+msgstr "追加"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "Default"
+msgstr "デフォルト"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "None"
+msgstr "無し"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make movable"
+msgstr "動かせるようにする"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make non-movable"
+msgstr "動かせないようにする"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid off"
+msgstr "グリッドをオフ"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid on"
+msgstr "グリッドをオン"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for State Machine drawings"
+msgstr "状態遷移図描画用ボタンバー"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for UML Class Diagrams"
+msgstr "UMLクラス図用ボタンバー"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for state machine drawings"
+msgstr "状態遷移図のためのコネクターを登録したフラップ"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for UML class diagram drawings"
+msgstr "UMLクラス図描画用のコネクターを登録したフラップ"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "An empty buttonBar that you can add to"
+msgstr "にくっつけられる空のボタンバー"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class ButtonBar"
+msgstr "クラスボタンバー"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class diagram Flap"
+msgstr "クラスダイアグラムフラップ"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM ButtonBar"
+msgstr "FSMボタンバー"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM Flap"
+msgstr "FSMフラップ"
+
+#: Connectors-Tools,NCButtonBar>>addButtonAndInform,NCButtonBar>>addButtonAndInformAt:,NCPartsBin>>addButtonAndInform,NCPartsBin>>addButtonAndInformAt:
+msgid "Drop a Morph on the button."
+msgstr "ボタンの上にモーフを置く"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "add bar label"
+msgstr "バーラベルを追加"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:
+msgid "add button"
+msgstr "ボタンを追加"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "change bar label text"
+msgstr "バーラベルテキストを変更"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "collapse"
+msgstr "たたむ"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "remove bar label"
+msgstr "バーラベルを削除"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "set bar label font"
+msgstr "バーラベルのフォントを設定"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn off button labels"
+msgstr "ボタンラベルを隠す"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn on button labels"
+msgstr "ボタンラベルを表示"
+
+#: Connectors-Tools,NCButtonBar>>changeLabel
+msgid "Enter label:"
+msgstr "ラベルを入力:"
+
+#: Connectors-Tools,NCButtonBar>>promptForFont,NCLabelMorph>>promptForFont
+msgid "Choose label font:"
+msgstr "ラベルフォントを選択:"
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin
+msgid "A tool that lets you edit Connectors arrow shapes."
+msgstr "コネクタ矢印シェイプを変更できるツール"
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin,NCGlyphEditor_class>>newStandAlone
+msgid "Arrow Editor"
+msgstr "矢印エディター"
+
+#: Connectors-Tools,NCGlyphEditor>>chooseFont
+msgid "Choose Font"
+msgstr "フォントを選択"
+
+#: Connectors-Tools,NCGlyphEditor>>font:
+msgid "You must choose a TrueType font"
+msgstr "TrueTypeフォントを選択してください"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Arrow scales"
+msgstr ""
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Choose font"
+msgstr "フォントを選択"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Clear clicks"
+msgstr ""
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Install"
+msgstr "インストール"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Make morph"
+msgstr "モーフを作成"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Rotate"
+msgstr "回転する"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Sample"
+msgstr ""
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Toggle dots"
+msgstr ""
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Write code"
+msgstr "コードを書く"
+
+#: Connectors-Tools,NCGlyphEditor>>install
+msgid "Install with what name?"
+msgstr "どんな名前でインストールする?"
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Constructor text is on clipboard."
+msgstr ""
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Install in which selector?"
+msgstr "どのセレクターにインストールする?"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change action selector"
+msgstr "アクションセレクタを変更"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change arguments"
+msgstr "引数を変更"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change when to act"
+msgstr "いつ起動するかを変更"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "erase pixels of color..."
+msgstr "カラーピクセルを消去"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "recolor pixels of color..."
+msgstr "ピクセルのカラーの指定しなおし"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "remove label"
+msgstr "ラベルの除去"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "replace target"
+msgstr "ターゲットの置き換え"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "resize image"
+msgstr "イメージのサイズ変更"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "set target"
+msgstr "ターゲットの指定"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "update image"
+msgstr "イメージの更新"
+
+#: Connectors-Tools,NCMakerButton>>doButtonAction
+msgid "Drop a Morph on me so that I can have something to make!"
+msgstr ""
+
+#: Connectors-Tools,NCMakerButton>>replaceTarget
+msgid "Drop a Morph on me"
+msgstr "モーフをここに置いて下さい"
+
+#: Connectors-Tools,NCMakerButton>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed.\n"
+"Some possibilities:"
+msgstr ""
+"ボタンが押されたときにターゲットに\n"
+"送られるセレクタを指定してください"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a Connector properties panel for the morph"
+msgstr "このモーフのコネクタープロパティパネルを開きます"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a text properties panel for the morph"
+msgstr "このモーフのテキストプロパティパネルを開きます"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:,TextMorph_class>>boldAuthoringPrototype
+msgid "Text"
+msgstr "テキスト"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "Properties for {1}"
+msgstr "{1}のプロパティ"
+
+#: Etoys-Scripting,Player>>createSlotFor:
+msgid "name for new variable: "
+msgstr "新しい変数名: "
+
+#: MorphicExtras-Flaps,Flaps_class>>newClassDiagramConnectorsFlap
+msgid "Class Diagrams"
+msgstr "クラス図"
+
+#: MorphicExtras-Flaps,Flaps_class>>newConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin,NCButtonBar_class>>supplementaryPartsDescriptions,NCDisplayTextMorph_class>>supplementaryPartsDescriptions,NCEllipseMorph_class>>supplementaryPartsDescriptions,NCGlyphEditor_class>>descriptionForPartsBin,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions,NCLabelMorph_class>>supplementaryPartsDescriptions,NCMakerButton_class>>descriptionForPartsBin,NCSchematicConnectorMorph_class>>descriptionForPartsBin,NCSmartLabelMorph_class>>supplementaryPartsDescriptions,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "コネクター"
+
+#: MorphicExtras-Flaps,Flaps_class>>newNCPartsBinFlap
+msgid "My Flap"
+msgstr "私のフラップ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector"
+msgstr "基本コネクタ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector with an arrowhead"
+msgstr "矢印つき基本コネクタ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector with an arrowhead"
+msgstr "矢印付きの滑らかな基本コネクタ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A buttonBar for customizing"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "A handy Morph-generating button"
+msgstr "便利なモーフ生成ボタン"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label"
+msgstr "ラベル"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label that positions itself"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A new button flap"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "A rectangle with text, or a button"
+msgstr "テキストもしくはボタン付き長方形"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A simple shape with a context menu"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "AP Adjuster"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Basic Shape"
+msgstr "基本的な図形"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "ButtonBar"
+msgstr "ボタン・バー"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "Connector"
+msgstr "コネクター"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "ConnectorArrow"
+msgstr "矢印コネクター"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy Connector"
+msgstr "曲線コネクター"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy ConnectorArrow"
+msgstr "曲線矢印コネクター"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Display text that you can move"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCLabelMorph>>initializeToStandAlone,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Label"
+msgstr "ラベル"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "Maker Button"
+msgstr "モーフ・メーカー"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "New Button Flap"
+msgstr "新しいボタンフラップ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Smart Label"
+msgstr "スマート・ラベル"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Text Rectangle"
+msgstr "テキスト入り四角形"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "This lets you adjust the attachment points on a dropped Morph"
+msgstr "ドロップされたモーフのアタッチメントポイントを調整できます。"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCGrabbableDisplayTextMorph_class>>authoringPrototype,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Title"
+msgstr "タイトル"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A state transition for UML State Diagrams"
+msgstr "UML状態図の状態遷移"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML composite state shape"
+msgstr "UMLコンポジット状態シェイプ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML end state shape"
+msgstr "UML終了状態シェイプ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape"
+msgstr "UML状態シンボル"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape with scrollbars"
+msgstr "UMLスクロールバー付き状態シェイプ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML start state shape"
+msgstr "UML開始状態シェイプ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Composite State"
+msgstr "コンポジット状態"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "End State"
+msgstr "終了状態"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Scrolled State"
+msgstr ""
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Start State"
+msgstr "開始状態"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "State"
+msgstr "状態"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "State Transition"
+msgstr "状態遷移"
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "balloon-help font..."
+msgstr "バルーンヘルプのフォント..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "Connectors label font..."
+msgstr "コネクターのラベルフォント..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "code font..."
+msgstr "コード・フォント..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "default text font..."
+msgstr "デフォルトのテキストフォント..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "flaps font..."
+msgstr "フラップのフォント..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "list font..."
+msgstr "リストのフォント..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "menu font..."
+msgstr "メニューのフォント..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "window-title font..."
+msgstr "ウィンドウタイトルのフォント..."
+

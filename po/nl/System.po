@@ -1,0 +1,1228 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:52-0000\n"
+"PO-Revision-Date: 2010-08-27 15:52-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: System\n"
+
+
+#: System-Changes,ChangeSet_class>>currentChangeSetString,SmalltalkImage>>currentChangeSetString,SystemDictionary>>currentChangeSetString
+msgid "Current Change Set: "
+msgstr "Huidige Wijzigingen Set: "
+
+#: System-Changes,ChangeSet_class>>defaultName,Project>>doWeWantToRename,SystemDictionary>>makeSqueaklandReleasePhaseCleanup
+msgid "Unnamed"
+msgstr "Naamloos"
+
+#: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
+msgid ""
+"The preferred change set directory ('{1}') does not exist.\n"
+"Create it or use the default directory ({2})?"
+msgstr ""
+"De voorkeurswijzigingensetmap ('{1}') bestaat niet.\n"
+"Maak die aan of gebruik de standaard map ({2})?"
+
+#: System-Download,ProjectLauncher>>loginAs:
+msgid ""
+"Sorry, I cannot find the user list.\n"
+"(this may be due to a network problem)\n"
+"Please hit Cancel if you wish to use Squeak."
+msgstr ""
+"Sorry, ik kan de gebruikerlijst niet vinden.\n"
+"(dit kan komen door een netwerkprobleem)\n"
+"Alstublieft druk op Annuleer als je Squeak wil gebruiken."
+
+#: System-Download,ProjectLauncher>>loginAs:
+msgid "Unknown user: "
+msgstr "Onbekende gebruiker: "
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge"
+msgstr "voeg samen"
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge the translation file"
+msgstr "voeg vertaalbestand samen"
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge the translation file into the language named like the file"
+msgstr "voeg vertaalbestand samen in de taal genaamd zoals dit bestand"
+
+#: System-Localization,InternalTranslator>>loadFromStream:
+msgid "Loading "
+msgstr "Aan het inlezen "
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "Cannot load additional fonts"
+msgstr "Kan geen aanvullende lettertypes inlezen"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "cancel"
+msgstr "annuleer"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "enable Pango"
+msgstr "maak Pango beschikbaar"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "load font"
+msgstr "laad lettertype"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid ""
+"This language needs additional fonts.\n"
+"Do you want to install the fonts?"
+msgstr ""
+"Deze taal heeft aanvullende lettertypes nodig.\n"
+"Wil je die lettertypes installeren?"
+
+#: System-Object_Storage,DiskProxy>>printOn:
+msgid "{1} (not loaded yet)"
+msgstr ""
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid ""
+"Let me type the name now\n"
+"Let me think about it\n"
+"Let me find a conversion file on the disk"
+msgstr ""
+"Laat me nu de naam typen\n"
+"Laat me erover nadenken\n"
+"Laat me een conversiebestand zoeken op de schijf"
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid "Name of the modern class {1} should translate to:"
+msgstr "Naam van de moderne klasse {1} moet vertaald worden als:"
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid ""
+"Reading an instance of {1}.\n"
+"Which modern class should it translate to?"
+msgstr ""
+"Een exemplaar aan het lezen van {1}.\n"
+"Naar welke moderne klasse moet het vertaald worden?"
+
+#: System-Preferences,Preference>>helpString
+msgid "no help available"
+msgstr "geen hulp beschikbaar"
+
+#: System-Preferences,Preference>>isDisabledOnStartupString
+msgid "disable preference on startup"
+msgstr ""
+
+#: System-Preferences,Preference>>isEnabledOnStartupString
+msgid "enable preference on startup"
+msgstr ""
+
+#: System-Preferences,Preference>>isNotSetOnStartupString
+msgid "do not set preference on startup"
+msgstr ""
+
+#: System-Preferences,Preference>>isProjectLocalString
+msgid "each project has its own setting"
+msgstr "ieder project heeft zijn eigen instellingen"
+
+#: System-Preferences,Preferences_class>>addPreferenceForCelesteShowingAttachmentsFlag
+msgid "If true, Celeste (e-mail reader) annotates messages in it's list that have attachments.  This is a performance hit and by default is off."
+msgstr "Als waar, markeert Celeste (e-mail lezer) berichten in z'n lijst die toegevoegde bestanden hebben.  Dit kost prestatie en is standaard uit."
+
+#: System-Preferences,Preferences_class>>addPreferenceForOptionalCelesteStatusPane
+msgid "If true, Celeste (e-mail reader) includes a status pane."
+msgstr "Als waar, bevat Celeste (e-mail lezer) een statuspaneel."
+
+#: System-Preferences,Preferences_class>>automaticFlapLayoutString
+msgid "automatic flap layout"
+msgstr "automatische flapindeling"
+
+#: System-Preferences,Preferences_class>>browseThemes
+msgid "no themes found"
+msgstr "geen thema's gevonden"
+
+#: System-Preferences,Preferences_class>>chooseButtonFont
+msgid ""
+"Select the font to be\n"
+"used for buttons"
+msgstr ""
+"Selecteer het lettertype om te \n"
+"gebruiken voor knoppen"
+
+#: System-Preferences,Preferences_class>>chooseCodeFont
+msgid "Choose the font to be used for displaying code"
+msgstr "Kies het lettertype dat gebruikt wordt om code te tonen"
+
+#: System-Preferences,Preferences_class>>chooseEToysButtonFont
+msgid "Choose the etoy button font"
+msgstr "Kies het etoys knop lettertype"
+
+#: System-Preferences,Preferences_class>>chooseEToysCodeFont
+msgid "Choose the etoy code font"
+msgstr "Kies het etoys code lettertype"
+
+#: System-Preferences,Preferences_class>>chooseEToysFont
+msgid "Choose the eToys font"
+msgstr "Kies het eToys lettertype"
+
+#: System-Preferences,Preferences_class>>chooseEToysTitleFont
+msgid "Choose the etoy title font"
+msgstr "Kies het etoy titel lettertype"
+
+#: System-Preferences,Preferences_class>>chooseFlapsFont
+msgid "Choose a flaps font"
+msgstr "Kies een flaps lettertype"
+
+#: System-Preferences,Preferences_class>>chooseListFont
+msgid "Choose the standard list font"
+msgstr "Kies het standaard lijst lettertype"
+
+#: System-Preferences,Preferences_class>>chooseMenuFont
+msgid "Choose the standard menu font"
+msgstr "Kies het standaard menu lettertype"
+
+#: System-Preferences,Preferences_class>>chooseSystemFont
+msgid "Choose the default text font"
+msgstr "Kies het standaard tekst lettertype"
+
+#: System-Preferences,Preferences_class>>chooseWindowTitleFont
+msgid "Choose the window title font"
+msgstr "Kies het venstertitel lettertype"
+
+#: System-Preferences,Preferences_class>>classicTilesSettingToggled,Preferences_class>>largeTilesSettingToggled
+msgid ""
+"note that this will only have a noticeable\n"
+"effect if the universalTiles preference is\n"
+"set to true, which it currently is not"
+msgstr ""
+"merk op dat dit slechts een merkbaar\n"
+"effect als de universalTiles voorkeur is\n"
+"ingesteld op waar, wat het momenteel niet is"
+
+#: System-Preferences,Preferences_class>>disable:,Preferences_class>>enable:
+msgid "this preference was added idiosyncratically and has no help message."
+msgstr "deze voorkeur is eigenzinnig toegevoegd en heeft geen hulpbericht."
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid "About Preferences"
+msgstr "Over Voorkeuren"
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid "Alphabetical listing of all Preferences"
+msgstr "Alfabetische ;ijst van alle voorkeuren"
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid ""
+"Many aspects of the system are governed by the settings of various \"Preferences\".  \n"
+"\n"
+"Click on any of brown tabs at the top of the panel to see all the preferences in that category.  \n"
+"Or type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n"
+"\n"
+"To find out more about any particular Preference, hold the mouse over it for a moment and balloon help will appear.  Also, a complete list of all the Preferences, with documentation for each, is included below.\n"
+"\n"
+"Preferences whose names are in shown in bold in the Preferences Panel are designated as being allowed to vary from project to project; those whose name are not in bold are \"global\", which is to say, they apply equally whatever project you are in.\n"
+"\n"
+"Click on the name of any preference to get a menu which allows you to *change* whether the preference should vary from project to project or should be global, and also allows you to browse all the senders of the preference, and to discover all the categories under which the preference has been classified, and to be handed a button that you can drop wherever you please that will control the preference.\n"
+"\n"
+"If you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n"
+"\n"
+"Also, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
+msgstr ""
+"Veel aspecten van het systeem worden beheerst door de instellingen van verschillende \"Voorkeuren\".  \n"
+"\n"
+"Klik op een van de bruine tabs aan de bovenkant van het paneel om alle voorkeuren in die categorie te zien.  \n"
+"Of type in het vak boven de knop Zoeken, klik dan op Zoeken, en alle bijpassende Voorkeuren van wat je typte verschijnen in de \"zoekresultaten\" categorie.  Een voorkeur wordt geacht te passen bij je zoekopdracht indien ofwel de naam overeenkomt met de tekens *of* als er iets in de ballon hulp van de voorkeuren overeenkomt met de zoektekst.\n"
+"\n"
+"Om meer te weten over een bepaalde Voorkeur, houd de muis er even boven en de ballonhulp zal verschijnen.  Ook is een complete lijst van alle Voorkeuren, met documentatie voor elk, hieronder opgenomen.\n"
+"\n"
+"Voorkeuren wier namen zijn vetgedrukt in het Voorkeuren Paneel kunnen van project tot project variëren; degenen wier naam niet vet zijn \"globaal\", dat wil zeggen, ze zijn altijd van toepassing, ongeacht project dat u in bent.\n"
+"\n"
+"Klik op de naam van een voorkeur voor een menu waarmee je kunt *wijzigen* of de voorkeur van project tot project verschilt of dat die globaal moet zijn, en ook kunt u bladeren door alle afzenders van de voorkeur, en ontdek alle categorieën waarin de voorkeur is ingedeeld, en om een knop te krijgen die je kunt neerzetten waar u maar wilt, dat zal de voorkeur te besturen.\n"
+"\n"
+"Als u tevreden bent met uw huidige voorkeuren instellingen, kunt u de knop \"Huidige instellingen opslaan als mijn persoonlijke voorkeuren\" drukken.  Zodra je dat hebt gedaan, kunt u op elk moment in de toekomst \"Herstel mijn persoonlijke voorkeuren\" drukken en al uw opgeslagen instellingen zijn meteen hersteld.\n"
+"\n"
+"Ook kunt u \"thema's\" gebruiken om verscheidene voorkeuren in een keer in te stellen, klik op de \"wijzig thema...\" knop in de Squeak flap of in het Voorkeuren venster, of zoek het thema's item in het Uiterlijk-menu."
+
+#: System-Preferences,Preferences_class>>initializePreferencePanel:in:
+msgid "Use the ? category to find preferences by keyword; the results of your search will show up here"
+msgstr "Gebruik de ? categorie om voorkeuren te zoeken op sleutelwoord, het resultaat van het zoeken wordt hierboven getoond"
+
+#: System-Preferences,Preferences_class>>installTheme:
+msgid ""
+"Theme {1} is now installed.\n"
+"Many of the changes will only be\n"
+"noticeable in new windows that you\n"
+"create from now on."
+msgstr ""
+"Thema {1} is nu geïnstalleerd.\n"
+"Veel wijzigingen worden alleen merkbaar\n"
+"in nieuwe vensters die je van nu af\n"
+"aanmaakt."
+
+#: System-Preferences,Preferences_class>>menuColorString
+msgid "start menu-color-from-world"
+msgstr "start menukleur-van-wereld"
+
+#: System-Preferences,Preferences_class>>menuColorString
+msgid "stop menu-color-from-world"
+msgstr "stop menukleur-van-wereld"
+
+#: System-Preferences,Preferences_class>>navigatorShowingString
+msgid "show navigator (N)"
+msgstr "toon navigator (N)"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "browse themes"
+msgstr "blader thema's"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "Choose a theme to install"
+msgstr "Kies te installeren thema"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "Puts up a tool that will allow you to view and edit the code underlying all of the available themes"
+msgstr "Zet een werktuig op om de code, die onder alle beschikbare thema's ligt, te bekijken en te bewerken"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "about this system..."
+msgstr "over dit systeem..."
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "load latest code updates"
+msgstr "laad nieuwste code updates"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "personal"
+msgstr "persoonlijk"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "previous project"
+msgstr "vorige project"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "start using vectors"
+msgstr "start gebruik vectoren"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "stop using vectors"
+msgstr "stop gebruik vectoren"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "Whether prevailing flaps should be shown in the project right now or not."
+msgstr "Of de nu overheersende kleppen van het project nu wel of niet getoond moeten worden."
+
+#: System-Preferences,Preferences_class>>preferencesControlPanel,Preferences_class>>registerInFlapsRegistry
+msgid "Preferences"
+msgstr "Voorkeur"
+
+#: System-Preferences,Preferences_class>>printStandardSystemFonts
+msgid "Current system font settings"
+msgstr "Huidige systeemlettertype instellingen"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "balloon-help font..."
+msgstr "ballon-hulp lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "button font..."
+msgstr "knop lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the default font to be used for code and  in workspaces, transcripts, etc."
+msgstr "Kies standaard lettertype voor gebruik in code en  in werkruimte, afschriften etc."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used for textual code in etoys"
+msgstr "Kies het lettertype voor gebruik bij tekstuele code in etoys"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used for (some) buttons."
+msgstr "Kies het lettertype voor gebruik bij (dommige) knoppen."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in code panes."
+msgstr "Kies het lettertype voor gebruik in code panelen."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in list panes"
+msgstr "Kies het lettertype voor gebruik in lijstpanelen"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in menus"
+msgstr "Kies het lettertype voor gebruik in menu's"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in window titles."
+msgstr "Kies het lettertype voor gebruik in venstertitels."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on etoy buttons"
+msgstr "Kies het lettertype voor gebruik op etoy knoppen"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on etoy tiles"
+msgstr "Kies het lettertype voor gebruik op etoy tegels"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on textual flap tabs"
+msgstr "Kies het lettertype voor gebruik op tekst klep tabs"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used titles in etoys"
+msgstr "Kies het lettertype voor gebruik bij titels in etoys"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "choose the font to be used when presenting balloon help."
+msgstr "kies het lettertype voor gebruik bij het tonen van ballonhulp."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "code font..."
+msgstr "code lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "default text font..."
+msgstr "standaard lekst lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy button font..."
+msgstr "etoy knop lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy code font..."
+msgstr "etoy code lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy tile font..."
+msgstr "etoy tegel lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy title font..."
+msgstr "etoy titel lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "flaps font..."
+msgstr "kleppen lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "If any font settings have changed since you pinned this menu up, this will allow the menu to rebuilt to reflect current font choices."
+msgstr "Als een lettertype instelling gewijzigd is sinds je dit menu hebt vastgezet, kun je hiermee het menu opnieuw opbouwen om de lettertype aanpassingen te verwerken."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "list font..."
+msgstr "lijst lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "menu font..."
+msgstr "menu lettertype..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Open a window showing the current font settings"
+msgstr "Open een venster om de huidige lettertype instellingen te tonen"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "refresh this menu"
+msgstr "ververs dit menu"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "restore default font choices"
+msgstr "herlaad standaard lettertype keuzes"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Standard System Fonts"
+msgstr "Standaard Systeem Lettertypes"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "show current font choices"
+msgstr "toon huidige lettertype keuzes"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Use the standard system font defaults"
+msgstr "Gebruik de standaard systeem lettertype standaarden"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "window-title font..."
+msgstr "venstertitel lettertype..."
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Allows you to control numerous options"
+msgstr "Stelt je in staat om talloze mogelijkheden te besturen"
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Allows you to specify the annotations to be shown in the annotation panes of browsers, etc."
+msgstr "Stelt je in staat om opmerkingen op te geven en te tonen in het opmerkingenvak van de browser, etc."
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Annotations"
+msgstr "Annotaties"
+
+#: System-Preferences,Preferences_class>>restorePersonalPreferences
+msgid "There are no personal preferences saved in this image yet"
+msgstr "Er zijn nog geen persoonlijke voorkeuren bewaard bij deze afbeelding"
+
+#: System-Preferences,Preferences_class>>restorePreferencesFromDisk
+msgid "there was an error restoring the preferences"
+msgstr "er was een fout bij het herladen van de voorkeuren"
+
+#: System-Preferences,Preferences_class>>restorePreferencesFromDisk
+msgid "you haven't saved your preferences yet!"
+msgstr "je hebt je voorkeuren nog niet opgeslagen!"
+
+#: System-Preferences,Preferences_class>>roundedCornersString
+msgid "start rounding window corners"
+msgstr "start afronden vensterhoeken"
+
+#: System-Preferences,Preferences_class>>roundedCornersString
+msgid "stop rounding window corners"
+msgstr "stop afronden vensterhoeken"
+
+#: System-Preferences,Preferences_class>>setArrowheads
+msgid "Default size of arrowheads on pen trails "
+msgstr "Standaard grootte van pijlpunten op pensporen "
+
+#: System-Preferences,Preferences_class>>soundEnablingString
+msgid "turn sound off"
+msgstr "zet geluid uit"
+
+#: System-Preferences,Preferences_class>>soundEnablingString
+msgid "turn sound on"
+msgstr "zet geluid aan"
+
+#: System-Preferences,Preferences_class>>staggerPolicyString
+msgid "stagger windows"
+msgstr "wankelende vensters"
+
+#: System-Preferences,Preferences_class>>storePreferencesToDisk
+msgid "there was an error storing your preferences to disk"
+msgstr "er was een fout bij het opslaan van jouw voorkeuren op schijf"
+
+#: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
+msgid "change theme..."
+msgstr "wijzig thema..."
+
+#: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
+msgid "Numerous \"Preferences\" govern many things about the way Squeak looks and behaves.  Set individual preferences using a \"Preferences\" panel.  Set an entire \"theme\" of many Preferences all at the same time by pressing this \"change theme\" button and choosing a theme to install.  Look in category \"themes\" in Preferences class to see what each theme does; add your own methods to the \"themes\" category and they will show up in the list of theme choices."
+msgstr "Talrijke \"Voorkeuren\" regelen veel dingen over de manier waarop Squeak eruit ziet en zich gedraagt.  Stel individuele voorkeuren in met behulp van een \"Voorkeuren\" paneel.  Stel een hele \"thema\" van vele Voorkeuren allemaal op hetzelfde moment in door het indrukken van deze \"verander thema\" knop en kies het thema om te installeren.  Kijk in de categorie \"thema's\" in het Voorkeuren-klasse om te zien wat elk thema doet, voeg je eigen methoden toe aan de \"thema's\" categorie en ze zullen verschijnen in de lijst van thema keuzes."
+
+#: System-Preferences,Preferences_class>>windowColorHelp
+msgid "About Window Colors"
+msgstr "Over Venster Kleuren"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Bright"
+msgstr "Helder"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Click for an explanation of this panel"
+msgstr "Klik voor een uitleg van dit paneel"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Pastel"
+msgstr "Pastel"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use standard bright colors for all windows."
+msgstr "Gebruik standaard heldere kleuren voor alle vensters."
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use standard pastel colors for all windows."
+msgstr "Gebruik standaard pastel kleur voor alle vensters."
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use white backgrounds for all standard windows."
+msgstr "Gebruik witte achtergrond voor alle standaard vensters."
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "White"
+msgstr "Wit"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel,Preferences_class>>windowSpecificationPanel
+msgid "Window Colors"
+msgstr "Venster Kleuren"
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Do you want to check for updates\\or maintenance fixes on the server?"
+msgstr "Wil je controleren voor updates\\of onderhoud op de server?"
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Remember to save you image to make this setting permant."
+msgstr "Onthoud dat je de afbeelding moet opslaan in deze instelling vast te houden."
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Yes, Update\\No, Not now\\Don't ask again"
+msgstr "Ja, Bijwerken\\Nee, Niet nu\\Vraag niet meer"
+
+#: System-Support,BooleanPreferenceView>>offerPersistenceMenu
+msgid ""
+"{1} is in secure mode.\n"
+"You cannot access the persistent preferences now.\n"
+"To change them, start {1} without loading a project."
+msgstr ""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Allows you to find out which category, or categories, this preference belongs to."
+msgstr "Hiermee kun je zoeken bij welke categorie, or categorieën, deze voorkeur hoort."
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "browse senders"
+msgstr "blader verzenders"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Copy the name of the preference to the text clipboard, so that you can paste into code somewhere"
+msgstr "Kopieer de naam van de voorkeur naar het tekstklembord, zodat je het ergens in de code kan plakken"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "copy this name to clipboard"
+msgstr "kopieer deze naam naar klembord"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "hand me a button for this preference"
+msgstr "geef me een knop voor deze voorkeur"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Some preferences are best applied uniformly to all projects, and others are best set by each individual project.  If this item is checked, then this preference will be printed in bold and will have a separate value for each project"
+msgstr "Sommige voorkeuren kunnen het best voor alle projecten hetzelfde worden toegepast, en andere het beste voor ieder project afzonderlijk.  Als dit item is aangevinkt, wordt deze voorkeur vetgedrukt en krijgt een aparte waarde voor ieder project"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Store a value for this preference on file. On startup, it will be automatically restored."
+msgstr ""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "set automatically on startup..."
+msgstr ""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "show category..."
+msgstr "toon categorie..."
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "This will open a method-list browser on all methods that the send the preference \""
+msgstr "Dit opent een methodelijstbladeraar op alle methodes die de voorkeur versturen \""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Will give you a button that governs this preference, which you may deposit wherever you wish"
+msgstr "Geeft je een knop dat deze voorkeur, die je kunt neerzetten waar je maar wilt, bepaalt"
+
+#: System-Support,BooleanPreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Click here for a menu of options regarding this preference.  Click on the checkbox to the left to toggle the setting of this preference"
+msgstr "Klik hier voor een menu met opties voor deze voorkeur.  Klik op het selectievakje links om de voorkeurinstelling te wisselen"
+
+#: System-Support,CurrentProjectRefactoring_class>>showTabsString
+msgid "show flaps (F)"
+msgstr "toon flaps (F)"
+
+#: System-Support,CurrentProjectRefactoring_class>>suppressFlapsString
+msgid "show shared tabs (F)"
+msgstr "toon gedeelde tabs (F)"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "circular halos with icons inside"
+msgstr "ronde halos met pictogrammen binnenin"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "classic"
+msgstr "klassiek"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "custom"
+msgstr "aangepast"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "customizable halos"
+msgstr "aanpasbare halos"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "fewer, larger halos"
+msgstr "minder, grotere halos"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "iconic"
+msgstr "pictogrammisch"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "plain circular halos"
+msgstr "eenvoudige ronde halos"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "simple"
+msgstr "eenvoudig"
+
+#: System-Support,HaloThemePreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Click here to edit the method that defines the custom halos"
+msgstr "Klik hier om de methode die de aangepaste halos definieert te bewerken"
+
+#: System-Support,HaloThemePreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Edit custom halos"
+msgstr "Bewerk aangepaste halos"
+
+#: System-Support,MczInstaller_class>>serviceLoadVersion
+msgid "load"
+msgstr "laad"
+
+#: System-Support,MczInstaller_class>>serviceLoadVersion
+msgid "load a package version"
+msgstr "laad een pakket versie"
+
+#: System-Support,PreferencesPanel_class>>windowColorSpecification
+msgid "A tool for expressing personal preferences for numerous options."
+msgstr "Een werktuig om persoonlijke voorkeuren uit te drukken voor talloze opties."
+
+#: System-Support,PreferencesPanel_class>>windowColorSpecification
+msgid "Preferences Panel"
+msgstr "Voorkeuren Paneel"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to get some hints on use of this Preferences Panel"
+msgstr "Klik hier om wat hints te krijgen voor gebruik van dit Voorkeuren Paneel"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to load all the preferences from their saved values on disk."
+msgstr "Klik hier om alle voorkeuren te laden van de bewaarde waarden op schijf."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to reset all the preferences to their standard default values."
+msgstr "Klik hier om al de voorkeuren naar de standaard waarde terug te zetten."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to reset all the preferences to their values in your Personal Preferences."
+msgstr "Klik hier om al de voorkeuren naar de waarde van jouw Persoonlijke Voorkeuren terug te zetten."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to save the current constellation of Preferences settings as your personal defaults; you can get them all reinstalled with a single gesture by clicking the \"Restore my Personal Preferences\"."
+msgstr "Klik hier om de huidige samenstelling van Voorkeursinstellingen als je persoonlijke standaard op te slaan; je kunt ze alemaal herinstalleren met een enkel gebaar door te klikken op \"Herlaad mijn Persoonlijke Voorkeuren\"."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to save the current constellation of Preferences settings to a file; you can get them all reinstalled with a single gesture by clicking \"Restore Settings From Disk\"."
+msgstr "Klik hier om de huidige samenstelling van Voorkeursinstellingen in een bestand op te slaan; je kunt ze herinstalleren met een enkel gebaar door te klikken op \"Herlaad Instellingen Van Schijf\"."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to view all the values stored in the system Parameters dictionary"
+msgstr "Klik hier om alle waarden opgeslagen in de systeem Parameters woordenboek te bekijken"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Help!"
+msgstr "Help!"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Inspect Parameters"
+msgstr "Inspecteer Parameters"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore all Default Preference Settings"
+msgstr "Herlaad alle Standaard Voorkeurs Instellingen"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore my Personal Preferences"
+msgstr "Herlaad mijn Persoonlijke Voorkeuren"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore Settings from Disk"
+msgstr "Herlaad Instellingen van Schijf"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Save Current Settings as my Personal Preferences"
+msgstr "Bewaar Huidige Instellingen als mijn Persoonlijke Voorkeuren"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Save Current Settings to Disk"
+msgstr "Bewaar Huidige Instellingen op Schijf"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Search"
+msgstr "Zoek"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Search Preferences for:"
+msgstr "Zoek Voorkeuren voor:"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Type what you want to search for here, then hit the \"Search\" button, or else hit RETURN or ENTER"
+msgstr "Type hier wat je wilt zoeken, druk dan op de \"Zoek\" knop, of anders druk op RETURN of ENTER"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Type what you want to search for in the box above, then click here (or hit RETURN or ENTER) to start the search; results will appear in the \"search results\" category."
+msgstr "Type in het bovenstaande vakje wat je wilt zoeken, klik dan hier (of druk op RETURN of ENTER) om het zoeken te starten; resultaten verschijnen in de \"zoekresutaten\" categorie."
+
+#: System-Support,PreferencesPanel>>addModelItemsToWindowMenu:
+msgid "find preference... (f)"
+msgstr "zoek voorkeur... (f)"
+
+#: System-Support,PreferencesPanel>>addModelItemsToWindowMenu:
+msgid "inspect parameters"
+msgstr "inspecteer parameters"
+
+#: System-Support,PreferencesPanel>>findPreference:
+msgid "Search for preferences containing:"
+msgstr "Zoek voor voorkeuren bevatende:"
+
+#: System-Support,PreferencesPanel>>searchString
+msgid "Type here, hit Search"
+msgstr "Type hier, druk op Zoek"
+
+#: System-Support,Project_class>>mostRecent:onServer:,Project_class>>sweep:
+msgid "server is unavailable"
+msgstr "server is niet beschikbaar"
+
+#: System-Support,Project>>acceptDetailsAndStoreProjectWithForget:,Project>>acceptDetailsAndStoreProject:,Project>>storeOnServerAssumingNameValid,Project>>storeOnServerWithNoInteraction,Project>>storeOnServerWithNoInteractionThenQuit
+msgid "Publishing"
+msgstr "Publicerend"
+
+#: System-Support,Project>>armsLengthCommand:withDescription:
+msgid "The top project can't do that"
+msgstr "Het bovenste project kan dat niet doen"
+
+#: System-Support,Project>>assureFlapIntegrity,Project>>setFlaps,RealEstateAgent_class>>reduceByFlaps:
+msgid "Painting"
+msgstr "Schilderij"
+
+#: System-Support,Project>>assureFlapIntegrity
+msgid "Scripting"
+msgstr "Scripting"
+
+#: System-Support,Project>>assureFlapIntegrity,Project>>setFlaps
+msgid "Stack Tools"
+msgstr "Opslag Gereedschap"
+
+#: System-Support,Project>>beIsolated
+msgid "Must be in this project to isolate it"
+msgstr "Moet in dit project zijn om het af te zonderen"
+
+#: System-Support,Project>>chooseNaturalLanguage
+msgid "choose language"
+msgstr "kies een taal"
+
+#: System-Support,Project>>chooseNaturalLanguage
+msgid "This controls the human language in which tiles should be viewed.  It is potentially extensible to be a true localization mechanism, but initially it only works in the classic tile scripting system.  Each project has its own private language choice"
+msgstr "Dit bestuurt de menselijke taal waarin de tegels bekeken moeten worden.  Het is mogelijk uitbreidbaar tot een echt lokalisatiemechanisme, maar in het begin werkt het alleen in het klassieke scripting systeem.  Elk project heeft zijn eigen taalkeuze"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "I cannot locate the project\\"
+msgstr "Ik kan het project niet lokaliseren\\"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "Yes, make it up\\No, skip it"
+msgstr "Ja, maak het op\\Nee, sla het over"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "\\Would you like me to create a new project\\with that name?"
+msgstr "\\Wil je dat ik een nieuw project maak\\met deze naam?"
+
+#: System-Support,Project>>displayFontProgress
+msgid "$\tFixing fonts\t$\t"
+msgstr "$\tRepareer lettertypes\t$\t"
+
+#: System-Support,Project>>displaySavingProgress
+msgid "Saving"
+msgstr "Bewarend"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Are you sure you want to destroy this Project\\ and revert to an older version?\\\\(From the parent project, click on this project's thumbnail.)"
+msgstr "Weet je zeker dat je dit Project wilt vernietigen\\ en wilt terugkeren naar een oudere versie?\\\\(Vanuit het ouderproject, klik op de miniatuur van dit project.)"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: System-Support,Project>>enter:revert:saveForRevert:,Project>>enter:revert:saveForRevert:,Project>>revert
+msgid "nothing to revert to"
+msgstr "niets om naar terug te keren"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Revert to saved version"
+msgstr "Keer terug naar bewaarde versie"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "This project is not all here. I will try to load a complete version."
+msgstr "Dit project is niet alles hier. Ik probeer een volledige versie te laden."
+
+#: System-Support,Project>>exit,Project>>saveForRevert
+msgid "Can't exit the top project"
+msgstr "Kan het bovenste project niet verlaten"
+
+#: System-Support,Project>>exportSegmentFileName:directory:withoutInteraction:
+msgid ""
+"Would you like to include all the changes in the change set\n"
+"\tas part of this publishing operation?"
+msgstr ""
+"Wil je alle wijzigingen in de wijzigingenset toevoegen\n"
+"\tals deel van deze publicatie bewerking?"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid ""
+"Do not write file\n"
+"Write file anyway\n"
+"Debug"
+msgstr ""
+"Schrijf bestand niet\n"
+"Schrijf bestand toch\n"
+"Debug"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "Segment not written"
+msgstr "Segment niet gescheven"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "(collecting resources...)"
+msgstr "(verzamelen bronnen...)"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "\\Project's own world is not in the segment."
+msgstr "\\Project's eigen wereld is niet in het segment."
+
+#: System-Support,Project>>finalEnterActions,Project>>finalEnterActions,Project>>finalEnterActions
+msgid "Sugar Navigator Flap"
+msgstr "Sugar Navigator Klep"
+
+#: System-Support,Project>>finalEnterActions
+msgid "show the tool bar"
+msgstr "toon werktuig balk"
+
+#: System-Support,Project>>helpGuideIfOpen
+msgid "Help"
+msgstr "Hulp"
+
+#: System-Support,Project>>loadFromServer:
+msgid "A newer version exists on the server."
+msgstr "Een nieuwere versie bestaat op de server."
+
+#: System-Support,Project>>loadFromServer:
+msgid "can't find file on server for {1}"
+msgstr "kan bestand op de server niet vinden voor {1}"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Load it\\Cancel"
+msgstr "Laad het\\Annuleer"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Loading"
+msgstr "Aan het laden"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Reload anyway\\Cancel"
+msgstr "Herlaad toch\\Annuleer"
+
+#: System-Support,Project>>loadFromServer:
+msgid "That server has an older version of the project."
+msgstr "Die server heeft een oudere versie van het project."
+
+#: System-Support,Project>>loadFromServer:
+msgid "The only changes are the ones you made here."
+msgstr "De enige wijzigingen zijn diegene die je hier gemaakt hebt."
+
+#: System-Support,Project>>navigatorFlapVisible,Project>>setFlaps,Project>>updateLocaleDependentsWithPreviousSupplies:gently:,Project>>updateLocaleDependentsWithPreviousSupplies:gently:,ProjectLoading_class>>loadImageSegment:fromDirectory:withProjectView:numberOfFontSubstitutes:substituteFont:mgr:
+msgid "Navigator"
+msgstr "Navigator"
+
+#: System-Support,Project>>okToChange
+msgid ""
+"Really delete the project\n"
+"{1}\n"
+"and all its contents?"
+msgstr ""
+"Verwijder dit project echt\n"
+"{1}\n"
+"en de gehele inhoud?"
+
+#: System-Support,Project>>okToChange
+msgid ""
+"The project {1}\n"
+"contains sub-projects.  You must remove these\n"
+"explicitly before removing their parent."
+msgstr ""
+"Het project {1}\n"
+"bevat sub-projecten.  Je moet deze\n"
+"apart verwijderen voordat je de ouder verwijdert."
+
+#: System-Support,Project>>setFlaps
+msgid "Objects"
+msgstr "Objecten"
+
+#: System-Support,Project>>setFlaps
+msgid "Squeak"
+msgstr "Piep"
+
+#: System-Support,Project>>setFlaps
+msgid "Supplies"
+msgstr "Bevoorrading"
+
+#: System-Support,Project>>setFlaps
+msgid "Tools"
+msgstr "Werktuigen"
+
+#: System-Support,Project>>setFlaps
+msgid "Widgets"
+msgstr "Widgets"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "Project password"
+msgstr "Project wachtwoord"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "Store anyway\\Cancel"
+msgstr "Sla toch op\\Annuleer"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\Please cancel, rename this project, and see what is there."
+msgstr "\\Alsjeblieft annulleer, hernoem dit proejct, en kijk wat er is."
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\Project: "
+msgstr "\\Project: "
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\THIS PROJECT HAS NEVER BEEN SAVED"
+msgstr "\\DIT PROJECT IS NOOIT OPGESLAGEN"
+
+#: System-Support,Project>>storeOnServerInnards,Project>>storeOnServerWithNoInteractionInnards
+msgid "\\There are newer version(s) in the local directory"
+msgstr "\\Er zijn nieuwere versie(s) in de lokale map"
+
+#: System-Support,Project>>storeOnServerInnards,Project>>storeOnServerWithNoInteractionInnards
+msgid "\\There are newer version(s) on the server"
+msgstr "\\Er zijn nieuwere versie(s) op de server"
+
+#: System-Support,Project>>tellAFriend:
+msgid ""
+"Since this project has not been saved yet,\n"
+"I cannot tell someone where it is."
+msgstr ""
+"Omdat dit project nog niet opgeslagen is,\n"
+"kan ik iemand niet vertellen waar het is."
+
+#: System-Support,Project>>tryToFindAServerWithMe
+msgid "This project thinks it has never been on a server"
+msgstr "Dit project denkt dat het nooit op de server is geweest"
+
+#: System-Support,Project>>tryToFindAServerWithMe
+msgid "Try to find a server\\Cancel"
+msgstr "Probeer een server te vinden\\Annuleer"
+
+#: System-Support,Project>>useLocaleString
+msgid "use localized language"
+msgstr ""
+
+#: System-Support,Project>>windowReqNewLabel:
+msgid "Sorry that name is already used"
+msgstr "Het spijt me, maar die naam is al in gebruik"
+
+#: System-Support,ProjectHistory>>mostRecentThread
+msgid "Please name this thread."
+msgstr "Alsjeblieft geef deze draad een naam."
+
+#: System-Support,ProjectLoading_class>>checkStream:
+msgid ""
+"It looks like a problem occurred while\n"
+"getting this project. It may be temporary,\n"
+"so you may want to try again,"
+msgstr ""
+"Het lijkt erop dat er een probleem is opgetreden bij het\n"
+"ophalen van dit project. Het kan een tijdelijke zijn,\n"
+"dus misschien wil je het nog een keer proberen,"
+
+#: System-Support,ProjectLoading_class>>loadSqueakPage:
+msgid ""
+"This is not a PasteUpMorph or\n"
+"exported Project."
+msgstr ""
+"Dit is geen PlakOpMorf or\n"
+"geexporteerd Project."
+
+#: System-Support,ProjectLoading_class>>openName:stream:fromDirectory:withProjectView:clearOriginFlag:,ProjectLoading_class>>openSexpProjectDict:stream:fromDirectory:withProjectView:
+msgid "No project found in this file"
+msgstr "Geen project gevonden in dit bestand"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install"
+msgstr "installeer"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install SAR"
+msgstr "installeer SAR"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install this Squeak ARchive into the image."
+msgstr "installeer dit Squeak ARchief in deze afbeelding."
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid "Do not load it"
+msgstr "Laad het niet"
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid "Load it anyways"
+msgstr "Laad het toch"
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid ""
+"You are about to load some insecure content.\n"
+"If you continue, access to files as well as\n"
+"some other capabilities will be limited."
+msgstr ""
+"Je probeert onveilige inhoud te laden.\n"
+"Als je doorgaat, wordt toegang tot bestanden en ook\n"
+"sommige andere mogelijkheden bepekt."
+
+#: System-Support,SmalltalkImage>>aboutThisSystem
+msgid "License"
+msgstr "Licentie"
+
+#: System-Support,SmalltalkImage>>aboutThisSystem
+msgid "Show license?"
+msgstr "Toon licentie?"
+
+#: System-Support,SmalltalkImage>>getFileNameFromUser,SystemDictionary>>getFileNameFromUser
+msgid "New File Name?"
+msgstr "Nieuwe Bestandsnaam?"
+
+#: System-Support,SmalltalkImage>>getFileNameFromUser,SystemDictionary>>getFileNameFromUser
+msgid "{1} already exists. Overwrite?"
+msgstr "{1} bestaat al. Overschrijven?"
+
+#: System-Support,SmalltalkImage>>lastUpdateString
+msgid "latest update: #"
+msgstr "laatste update: #"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid " (case-insensitive)"
+msgstr " (hoofdletterongevoelig)"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid " (case-sensitive)"
+msgstr " (hoofdlettergevoelig)"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid "Methods with string "
+msgstr "Methoden met rij "
+
+#: System-Support,SystemVersion_class>>checkAndApplyUpdates:
+msgid "There are updates available. Do you want to install them now?"
+msgstr "Er zijn updates beschikbaar. Wil je ze nu installeren?"
+
+#: System-Support,Utilities_class>>authorInitialsFromUser
+msgid "Please type your initials: "
+msgstr "Alstublieft type je initialen: "
+
+#: System-Support,Utilities_class>>authorInitialsToStamp
+msgid "<no author>"
+msgstr "<geen auteur>"
+
+#: System-Support,Utilities_class>>chooseFileWithSuffix:
+msgid "Choose a file"
+msgstr "Kies een bestand"
+
+#: System-Support,Utilities_class>>chooseUpdateList
+msgid ""
+"Choose a group of servers\n"
+"from which to fetch updates."
+msgstr ""
+"Kies een groep van servers\n"
+"waarvan de updates worden opgehaald."
+
+#: System-Support,Utilities_class>>maybeEmptyTrash
+msgid "Do you really want to empty the trash?"
+msgstr "Wil je echt de afval legen?"
+
+#: System-Support,Utilities_class>>offerCommonRequestsInMorphic
+msgid "Common Requests"
+msgstr "Gewone Vragen"
+
+#: System-Support,Utilities_class>>offerCommonRequestsInMorphic
+msgid "edit this list"
+msgstr "bewerk deze lijst"
+
+#: System-Support,Utilities_class>>openCommandKeyHelp
+msgid "Command Key Actions"
+msgstr "Commando Toets Acties"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "Load the latest packages from the default repository?"
+msgstr ""
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid ""
+"No new updates on the server\n"
+msgstr ""
+"Geen nieuwe updates op deze server\n"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "Stop looking\\Try next server"
+msgstr "Stop kijken\\Probeer volgende server"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid ""
+"\n"
+"Would you like to try the next server?\n"
+"(Normally, all servers are identical, but sometimes a\n"
+"server won't let us store new files, and gets out of date.)"
+msgstr ""
+"\n"
+"Wil je de volgende server proberen?\n"
+"(Normaal zijn alle servers gelijk, maar soms laat\n"
+"een server je geen nieuwe bestanden opslaan en veroudert.)"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "{1} new update file(s) processed."
+msgstr "{1} nieuwe update bestand(en) verwerkt."
+
+#: System-Support,Utilities_class>>registerInFlapsRegistry
+msgid "A message browser that tracks the most recently-submitted methods"
+msgstr "Een berichtenbekijker die de meest-recent-uitgevoerde methodes volgt"
+
+#: System-Support,Utilities_class>>registerInFlapsRegistry
+msgid "Recent"
+msgstr "Recent"
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "Click here to empty the trash."
+msgstr "Klik hier om de afval te legen."
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "EMPTY"
+msgstr "LEEG"
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid ""
+"Objects you drag into the trash will automatically be saved here, one object per page, in case you need them later.  To disable this feature set the \"preserveTrash\" Preference to false.\n"
+"\n"
+"You can individually expunge objects by hitting the - control, and you can empty out all the objects in the trash can by hitting the \"EMPTY\" button at top right."
+msgstr ""
+"Voorwerpen die je naar de afval sleept worden automatisch hier bewaard, één voorwerp per pagina, voor het geval je ze later nodig hebt.  Om deze mogelijkheid uit te zetten moet je de \"bewaarAfval\" Voorkeur op onwaar zetten.\n"
+"\n"
+"Je kunt individuele voorwerpen wissen door op de - besturing, en je kunt alle voorwerpen uit de afval legen door op de \"LEEG\" knop linksboven te drukken."
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "scraps"
+msgstr "kliekjes"
+
+#: System-Support,Utilities_class>>setAuthorName
+msgid "Please type your name:"
+msgstr "Alstublieft type je naam:"
+
+#: System-Support,Utilities_class>>setAuthorName
+msgid "Your Name"
+msgstr "Je Naam"
+
+#: System-Support,Utilities_class>>trashTitle
+msgid "  ({1} pages)"
+msgstr "  ({1} pagina's)"
+
+#: System-Support,Utilities_class>>trashTitle
+msgid "T R A S H"
+msgstr "A F V A L"
+
+#: System-Support,Utilities_class>>updateFromDefaultRepository
+msgid "Repository unavailable"
+msgstr ""
+
+#: System-Support,Utilities_class>>updateFromDefaultRepository
+msgid ""
+"Update completed.\n"
+"System version is now:\n"
+"{1}"
+msgstr ""
+

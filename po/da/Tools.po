@@ -1,0 +1,885 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-03-07 13:58+0200\n"
+"Last-Translator: Aputsiaq Niels <aj@isit.gl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Tools\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "A viewer and editor for Zip archive files"
+msgstr "En fremviser og et redigeringsværktøj til zip-arkivfiler"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "Zip Tool"
+msgstr "Zip-værktøj"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip,ArchiveViewer_class>>serviceAddToNewZip
+msgid "add file to new zip"
+msgstr "tilføj fil til ny zip"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip
+msgid "to new zip"
+msgstr "til ny zip"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all"
+msgstr "udpak alle"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all files to a user-specified directory"
+msgstr "udpak alle filer til en brugerdefineret katalog"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all to..."
+msgstr "udpak alle til..."
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open in zip viewer"
+msgstr "åben i zip-fremviser"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open zip"
+msgstr "åbn zip"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>openNewArchive
+msgid "Select Zip archive to open..."
+msgstr "Vælg zip-arkiv som skal åbnes..."
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid ""
+" is used by one or more members\n"
+"in your archive, and cannot be overwritten.\n"
+"Try writing to another file name"
+msgstr ""
+" bruges af én eller flere medlemmer\n"
+"i dit arkiv, og kan ikke overskrives.\n"
+"Forsøg at skrive til et andet filnavn"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Destination Zip File Name:"
+msgstr "Mål zip-filnavn:"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Prepended File:"
+msgstr "Tilføjet fil:"
+
+#: Tools-Base,CodeHolder>>addModelItemsToWindowMenu:
+msgid "what to show..."
+msgstr "det som skal vises..."
+
+#: Tools-Base,CodeHolder>>offerWhatToShowMenu,CodeHolder>>offerWhatToShowMenu
+msgid "What to show"
+msgstr "Det som skal vises"
+
+#: Tools-Base,MethodHolder>>addModelMenuItemsTo:forMorph:hand:
+msgid "whose script is this?"
+msgstr "hvis skript er dette?"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<no> create textual references to dropped morphs"
+msgstr "<no> opret tekstuelle referencer til droppede morfer"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<yes> create textual references to dropped morphs"
+msgstr "<yes> opret tekstuelle referencer til droppede morfer"
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "append contents of file..."
+msgstr "tilføj indholdet fra fil..."
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "save contents to file..."
+msgstr "gem indholdet til fil..."
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry
+msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
+msgstr ""
+"En browser er et værktøj som lader dig se al koden fra alle klasser i "
+"systemet"
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry,Browser_class>>windowColorSpecification
+msgid "Browser"
+msgstr "Browser"
+
+#: Tools-Browser,Browser_class>>windowColorSpecification
+msgid "The standard \"system browser\" tool that allows you to browse through all the code in the system"
+msgstr ""
+"Standardværktøjet \"system browser\" som lader dig gennemse al koden i "
+"systemet"
+
+#: Tools-Browser,Browser>>noCommentNagString
+msgid "THIS CLASS HAS NO COMMENT!"
+msgstr "DENNE KLASSE HAR INGEN KOMMENTAR!"
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "A tool finding, viewing, and editing all methods whose names contiane a given character sequence."
+msgstr ""
+"Et redskab at finde, få vist og redigere alle metoder hvis navne indeholder "
+"en given tegnsekvens."
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "Message Names"
+msgstr "Navne på beskeder"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "A list of messages (e.g. senders, implementors)"
+msgstr "En liste med beskeder (f.eks. afsendere, udførende kræfter)"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "Message List"
+msgstr "Beskedliste"
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "A system browser with an extra pane at top-left for module."
+msgstr "En system-browser med en ekstra rude øverst til venstre for modul."
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "Package Browser"
+msgstr "Pakke-browser"
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "A tool for finding methods by giving sample arguments and values."
+msgstr "Et værktøj til at finde metoder ved at give prøveargumenter og værdier."
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "Method Finder"
+msgstr "Metodefinder"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changelist browser"
+msgstr "ændringsliste-browser"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changes"
+msgstr "ændringer"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "open a changelist tool on this file"
+msgstr "åben et værktøj for ændringslister for denne fil"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "open a changelist tool on recent changes in file"
+msgstr "åben et værktøj for ændringslister for nylige ændringer i fil"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes"
+msgstr "seneste ændringer"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes in file"
+msgstr "de seneste ændringer i filen"
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "A tool that presents a list of all the changes found in an external file."
+msgstr ""
+"Et værktøj, der viser en liste over alle de ændringer, der findes i en "
+"ekstern fil."
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "Change List"
+msgstr "Ændringsliste"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
+msgstr ""
+"Et værktøj, der gør det muligt at få vist og manipulere alle kodeændringer i "
+"et enkelt ændringssæt"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Set"
+msgstr "Ændringssæt"
+
+#: Tools-Changes,ChangeSorter_class>>removeEmptyUnnamedChangeSets
+msgid "Unnamed"
+msgstr "Unavngivnet"
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification
+msgid "A tool that lets you see the code for one change set at a time."
+msgstr "Et værktøj, der kan du se koden for én ændringssæt ad gangen."
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Sorter"
+msgstr "Ændringssortering"
+
+#: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
+msgid ""
+"This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+msgstr ""
+"Denne kommando kræver, at de \n"
+"valgte ændringssæt på de to sider\n"
+"af ændringsorteringen *ikke*\n"
+"er de samme."
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a class comment."
+msgstr "Et værktøj til at få vist tidligere versioner af en klassekommentar."
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "Class Comment Versions Browser"
+msgstr "Browser til versioner af klassekommentarer"
+
+#: Tools-Changes,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Shows two change sets side by side"
+msgstr "Viser to ændringssæt side om side"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Dual Change Sorter"
+msgstr "Dobbelt ændringssortering"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Lets you view and manipulate two change sets concurrently."
+msgstr "Lader dig se og manipulere to ændringssæt samtidigt."
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a method."
+msgstr "Et værktøj til at få vist tidligere versioner af en metode."
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "Versions Browser"
+msgstr "Versions-browser"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Comparison from {1} to {2}"
+msgstr "Sammenligning fra {1} til {2}"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Exact Match"
+msgstr "Nøjagtigt Match"
+
+#: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
+msgid "{1} (in {2})"
+msgstr "{1} (i {2})"
+
+#: Tools-Changes,VersionsBrowser>>versionsMenu:
+msgid "Versions"
+msgstr "Versioner"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "Debugger"
+msgstr "Fejlsøger"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "The system debugger."
+msgstr "Systemfejlsøgeren."
+
+#: Tools-Debugger,Debugger>>askForCategoryIn:default:
+msgid "Please provide a good category for the new method!"
+msgstr "Angiv venligst en god kategori til den nye metode!"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Abandon"
+msgstr "Forlad"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "abandon this execution by closing this window"
+msgstr "forlad denne afvikling ved at lukke dette vindue"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "bring up a debugger"
+msgstr "bring en fejlsøger frem"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "continue execution"
+msgstr "fortsæt udførelse"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Debug"
+msgstr "Fejlsøg"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Proceed"
+msgstr "Fortsæt"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Store log"
+msgstr "Gem log"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "write a log of the encountered problem"
+msgstr "skriv en log over det opståede problem"
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred in\\{3} of {2}.\\Fix your script(s), hit 'Abandon' and try again."
+msgstr ""
+"Der opstod en fejl i\\{3} af {2}.\\Fix din skript(s), tryk 'Forlad' og prøv "
+"igen."
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
+msgstr ""
+"Der opstod en fejl; du må sandsynligvis blot trykke 'forlad'.  Beklager!"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>selectAndBrowseFile:
+msgid "What files?"
+msgstr "Hvilke filer?"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCodeFiles
+msgid "browse code files"
+msgstr "gennemse kodefiler"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code"
+msgstr "kode"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code-file browser"
+msgstr "browser for kodefiler"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "open a \"file-contents browser\" on this file, allowing you to view and selectively load its code"
+msgstr ""
+"åbne en \"browser til filindhold\" for denne fil, så du kan få vist og "
+"selektivt indlæse dens kode"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "File Contents Browser"
+msgstr "Browser for filindhold"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "Lets you view the contents of a file as code, in a browser-like tool."
+msgstr "Lader dig se indholdet af fil som kode, i et browser-lignende værktøj."
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Class exists already in the system"
+msgstr "Klasse findes allerede i systemet"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Existing method removed by this change-set"
+msgstr "Eksisterende metode som fjernes ved denne ændringssæt"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Method already exists"
+msgstr "Metoden findes allerede"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New class"
+msgstr "Ny klasse"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New method"
+msgstr "Ny metode"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Removal request for a method that is not present in this image"
+msgstr ""
+"Anmodning om fjernelse af en metode, der ikke er tilstede i dette billede"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid " already exists in the package"
+msgstr " findes allerede i pakken"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid "Please type new class name"
+msgstr "Indtast venligst nyt klassenavn"
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry
+msgid "A File List is a tool for browsing folders and files on disks and on ftp types."
+msgstr ""
+"En filliste er et værktøj til gennemse mapper og filer på diske og FTP-"
+"typer."
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry,FileList_class>>windowColorSpecification
+msgid "File List"
+msgstr "Filliste"
+
+#: Tools-FileList,FileList_class>>windowColorSpecification
+msgid "A tool for looking at files"
+msgstr "Et værktøj til at se på filer med"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "New {1} Name?"
+msgstr "Nyt {1} navn?"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "{1}Name"
+msgstr "{1}Navn"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "  -- Folder Summary --"
+msgstr "  -- Mappen Oversigt --"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "NO FILE SELECTED"
+msgstr "INGEN FIL VALGT"
+
+#: Tools-FileList,FileList>>deleteDirectory
+msgid "Directory must be empty"
+msgstr "Katalog skal være tomt"
+
+#: Tools-FileList,FileList>>deleteDirectory,FileList>>deleteFile
+msgid "Really delete {1}?"
+msgstr "Vil du virkelig slette {1}?"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "accept (s)"
+msgstr "godkend (s)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cancel (l)"
+msgstr "annullér (l)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "copy (c)"
+msgstr "kopiér (c)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cut (x)"
+msgstr "klip (x)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do again (j)"
+msgstr "gentag (j)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do it (d)"
+msgstr "gør det (d)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "fileIn selection (G)"
+msgstr "filIn-markering (G)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find again (g)"
+msgstr "find igen (g)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find...(f)"
+msgstr "find...(f)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "inspect it (i)"
+msgstr "undersøg det (i)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:,FileList>>serviceAllFileOptions,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "more..."
+msgstr "mere..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste (v)"
+msgstr "indsæt (v)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste..."
+msgstr "indsæt..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "print it (p)"
+msgstr "udskriv det (p)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "set search string (h)"
+msgstr "angiv søgestreng (h)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "undo (z)"
+msgstr "fortryd (z)"
+
+#: Tools-FileList,FileList>>fullFileListMenu:shifted:
+msgid "all possible file operations"
+msgstr "alle mulige filhandlinger"
+
+#: Tools-FileList,FileList>>put:
+msgid "No fileName is selected"
+msgstr "Intet filNavn er markeret"
+
+#: Tools-FileList,FileList>>put:
+msgid ""
+"{1} contents cannot\n"
+"meaningfully be saved at present."
+msgstr ""
+"{1} indhold kan ikke\n"
+"gemmes meningsfuldt i øjeblikket."
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 5000 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 5000 characters."
+msgstr ""
+"Fil '{1}' er {2} byte lang.\n"
+"Du kan anvende kommandoen 'get' til at læse hele filen.\n"
+"\n"
+"Her er de første 5000 tegn...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... slut på de første 5000 tegn."
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:,FileList>>readServerBrief
+msgid "For some reason, this file cannot be read"
+msgstr "Af en eller anden grund, så kan denne fil ikke læses"
+
+#: Tools-FileList,FileList>>readServerBrief
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 3500 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 3500 characters."
+msgstr ""
+"Fil '{1}' er {2} byte lang.\n"
+"Du kan anvende kommandoen 'get' til at læse hele filen.\n"
+"\n"
+"Her er de første 3500 tegn...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... slut på de første 3500 tegn."
+
+#: Tools-FileList,FileList>>removeVersionNumberFromFileName
+msgid "do you want to clobber the existing"
+msgstr "vil du overskrive det eksisterende"
+
+#: Tools-FileList,FileList>>renameFile
+msgid "NewFileName?"
+msgstr "NytFilNavn?"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "add new directory"
+msgstr "tiføj nyt katalog"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "adds a new, empty directory (folder)"
+msgstr "tilføjer et nyt, tomt katalog (mappe)"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "add new file"
+msgstr "tilføj ny fil"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "create a new,. empty file, and add it to the current directory."
+msgstr "opret en ny, tom fil og tilføj den til det nuværende katalog."
+
+#: Tools-FileList,FileList>>serviceAllFileOptions
+msgid "show all the options available"
+msgstr "vis alle de tilgængelige indstillinger"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast"
+msgstr "udsend"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast as update"
+msgstr "udsend som opdatering"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast file as update"
+msgstr "udsend fil som opdatering"
+
+#: Tools-FileList,FileList>>serviceCompressFile,FileList>>serviceCompressFile
+msgid "compress"
+msgstr "komprimér"
+
+#: Tools-FileList,FileList>>serviceCompressFile
+msgid "compress file"
+msgstr "komprimér fil"
+
+#: Tools-FileList,FileList>>serviceCopyName,FileList>>serviceCopyName
+msgid "copy name to clipboard"
+msgstr "kopier navn til udklipsholder"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete"
+msgstr "slet"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete the seleted item"
+msgstr "slet markerede element"
+
+#: Tools-FileList,FileList>>serviceGetEncodedText,FileList>>serviceGetEncodedText
+msgid "view as encoded text"
+msgstr "vis som indkodet tekst"
+
+#: Tools-FileList,FileList>>serviceGetHex,FileList>>serviceGetHex
+msgid "view as hex"
+msgstr "vis som hex"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "get entire file"
+msgstr "hent hele filen"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "if the file has only been partially read in, because it is very large, read the entire file in at this time."
+msgstr ""
+"hvis filen kun er blevet indlæst delvist , fordi den er meget stor, så "
+"indlæs hele filen denne gang."
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from file name"
+msgstr "fjern versionsnummer fra filnavn"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from filename"
+msgstr "fjern versionsnummer fra filnavn"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version #"
+msgstr "fjern version #"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename"
+msgstr "omdøb"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename file"
+msgstr "omdøb fil"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "by date"
+msgstr "per dato"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "date"
+msgstr "dato"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "sort entries by date"
+msgstr "sortér poster per dato"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "by name"
+msgstr "efter navn"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "name"
+msgstr "navn"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "sort entries by name"
+msgstr "sortér poster efter navn"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "by size"
+msgstr "efter størrelse"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "size"
+msgstr "størrelse"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "sort entries by size"
+msgstr "sortér poster efter størrelse"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "open a new Workspace whose contents are set to the contents of this file"
+msgstr ""
+"åben et nyt Arbejdsområde hvis indhold er sat til at indholdet for denne fil"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "workspace with contents"
+msgstr "arbejdsområde med indhold"
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "add server..."
+msgstr "tilføj server..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "delete directory..."
+msgstr "slet katalog..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "recent..."
+msgstr "seneste..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "remove server..."
+msgstr "fjern server..."
+
+#: Tools-FileList,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,PopUpMenu_class>>informCenteredAboveCursor:,PopUpMenu_class>>inform:
+msgid "OK"
+msgstr "OK"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "return without saving"
+msgstr "vend tilbage uden at gemme"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save"
+msgstr "Gem"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save in the place specified above"
+msgstr "Gem i det ovenfor angivne sted"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save on local disk only"
+msgstr "Gem kun på lokal disk"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "saves in the Squeaklets folder"
+msgstr "gemmer i mappen Squeaklets"
+
+#: Tools-FileList,FileList2_class>>morphicViewFileSelectorForSuffixes:
+msgid "Please select a file"
+msgstr "Vælg venligst en fil"
+
+#: Tools-FileList,FileList2_class>>morphicViewGeneralLoaderInWorld:
+msgid "Find..."
+msgstr "Find..."
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
+msgid "Load A Project"
+msgstr "Indlæs et projekt"
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
+msgid "Publish This Project"
+msgstr "Udgiv dette projekt"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Network Error"
+msgstr "Netværksfejl"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Unknown Error"
+msgstr "Ukendt fejl"
+
+#: Tools-FileList,FileList2>>serviceCancel,FileList2>>serviceCancel
+msgid "cancel"
+msgstr "annullér"
+
+#: Tools-FileList,FileList2>>serviceCancel
+msgid "hit here to cancel "
+msgstr "tryk for at annullere "
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "hit here to accept the current selection"
+msgstr "tryk her for at godkende den aktuelle markering"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "ok"
+msgstr "ok"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "okay"
+msgstr "okay"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "indlæs"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "indlæs som projekt"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "åben projekt fra fil"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log in to share projects on the Squeakland server"
+msgstr "Log ind for at dele projekter på Squeakland-serveren"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log out from the Squeakland server"
+msgstr "Log ud fra Squeakland-server"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Login"
+msgstr "Logind"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Logout"
+msgstr "Logud"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance,FileList2>>updateLoginButtonAppearance
+msgid "Your Squeakland user name"
+msgstr "Dit Squeakland-brugernavn"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "(not logged in)"
+msgstr "(ikke logget ind)"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:,PopUpMenu_class>>confirm:orCancel:
+msgid "Cancel"
+msgstr "Annullér"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:
+msgid "Cancel this search"
+msgstr "Annullér denne søgning"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:
+msgid ""
+"overwrite that file\n"
+"select another file"
+msgstr ""
+"overskriv den fil\n"
+"vælg en anden fil"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"findes allerede."
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "No"
+msgstr "Nej"
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "Yes"
+msgstr "Ja"
+
+#: Tools-Menus,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "start over..."
+msgstr "start forfra..."
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"Can't delete {1}\n"
+"Select another file"
+msgstr ""
+"Kan ikke slette {1}\n"
+"Vælg en anden fil"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"overskriv den fil\n"
+"vælg et andet navn\n"
+"annullér"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid "Select Another File"
+msgstr "Vælg en anden fil"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:
+msgid "Enter a new file name"
+msgstr "Skriv et nyt filnavn"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:,StandardFileMenu_class>>newFileFrom:,StandardFileMenu_class>>oldFileFrom:
+msgid "Select a File:"
+msgstr "Vælg en fil:"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "A Process Browser shows you all the running processes"
+msgstr "En Proces-browser viser dig alle kørende processer"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "Processes"
+msgstr "Processer"

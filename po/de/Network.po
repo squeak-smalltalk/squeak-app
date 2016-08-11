@@ -1,0 +1,134 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2010-08-27 15:29-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+"X-Etoys-Domain: Network\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Network-Kernel,InternetConfiguration_class>>initialize
+msgid "If true, set http proxy automatically on startUp. Only works on MacOS X for now"
+msgstr ""
+"Wenn ausgewählt, wird der festgelegte http- Proxy automatisch beim "
+"Hochfahren gestartet. Das funktioniert derzeit nur bei MacOS X."
+
+#: Network-Kernel,NetNameResolver_class>>promptUserForHostAddressDefault:
+msgid "Host name or address?"
+msgstr "Hostname oder Adresse?"
+
+#: Network-Protocols,HTTPSocket_class>>httpShowPage:
+msgid "Document could not be fetched"
+msgstr "Dokument konnte nicht geholt werden"
+
+#: Network-Protocols,HTTPSocket_class>>retry:asking:ifGiveUp:
+msgid "Retry\\Give Up"
+msgstr "Wiederholen\\Abbrechen"
+
+#: Network-RemoteDirectory,PRServerDirectory>>createDirectory:,PRServerDirectory>>deleteFileNamed:,PRServerDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "Operation nicht unterstützt"
+
+#: Network-RemoteDirectory,PRServerDirectory>>queryProjectsAndShow:,PRServerDirectory>>writeProject:inFileNamed:fromDirectory:
+msgid "Server responded: {1}"
+msgstr "Server antwortet: {1}"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid "Enter a new file name"
+msgstr "Neuen Dateinamen angeben"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"Datei überschreiben\n"
+"Einen anderen Namen wählen\n"
+"Abbrechen"
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "Upload for {1} did not succeed ({2})."
+msgstr "Hochladen für {1} fehlgeschlagen ({2})."
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "(uploading {1}...)"
+msgstr "(hochladen von {1}...)"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>showQueryAsPVM:
+msgid "No projects found for your criteria"
+msgstr "Keine Projekte zu deinen Angaben gefunden"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "Server responded "
+msgstr "Server antwortet "
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "(uploading "
+msgstr "(hochladen "
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "...)"
+msgstr "...)"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "An editor for the http proxy settings"
+msgstr "Ein Editor für die HTTP-Proxy-Einstellungen"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "http proxy editor"
+msgstr "HTTP-Proxy-Editor"
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Proxy Server Named: '{1}' port: {2}."
+msgstr "Proxy-Server Name: '{1}' port: {2}."
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Stop using Proxy Server."
+msgstr "Keinen Proxy-Server verwenden."
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept"
+msgstr "OK"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept the proxy settings"
+msgstr "Proxy-Einstellungen übernehmen"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel the proxy settings"
+msgstr "Proxy-Einstellungen verwerfen"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Port:"
+msgstr "Port:"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Server Name:"
+msgstr "Server-Name:"
+
+#: Network-UI,HTTPProxyEditor>>initialize
+msgid "HTTP Proxy Editor"
+msgstr "HTTP-Proxy-Editor"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this attachment"
+msgstr "Diesen Anhang öffnen"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this image attachment"
+msgstr "Diesen Bild-Anhang öffnen"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "\\save this attachment"
+msgstr "\\Diesen Anhang speichern"

@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:06-0000\n"
+"PO-Revision-Date: 2010-08-27 16:06-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Network\n"
+
+
+#: Network-Kernel,InternetConfiguration_class>>initialize
+msgid "If true, set http proxy automatically on startUp. Only works on MacOS X for now"
+msgstr "doğruysa, http proxy'yi başlangıçta otomatik olarak kur. şu an sadece MacOS X 'de çalışır."
+
+#: Network-Kernel,NetNameResolver_class>>promptUserForHostAddressDefault:
+msgid "Host name or address?"
+msgstr "bağlanabileceğiniz bilgisayarın adı ya da yeri?"
+
+#: Network-Protocols,HTTPSocket_class>>httpShowPage:
+msgid "Document could not be fetched"
+msgstr "dosya getirilemiyor."
+
+#: Network-Protocols,HTTPSocket_class>>retry:asking:ifGiveUp:
+msgid "Retry\\Give Up"
+msgstr "tekrar dene\\vazgeç."
+
+#: Network-RemoteDirectory,PRServerDirectory>>createDirectory:,PRServerDirectory>>deleteFileNamed:,PRServerDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "işlem desteklenmiyor."
+
+#: Network-RemoteDirectory,PRServerDirectory>>queryProjectsAndShow:,PRServerDirectory>>writeProject:inFileNamed:fromDirectory:
+msgid "Server responded: {1}"
+msgstr "Sunucu yanıtı: {1}"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid "Enter a new file name"
+msgstr "yeni bir dosya adı gir."
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"bu dosyanın üzerine yaz\n"
+". başka bir isim seç\n"
+". iptal et."
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "Upload for {1} did not succeed ({2})."
+msgstr "{1} upload ({2})'yi başarılı olmadı."
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "(uploading {1}...)"
+msgstr "(yükleniyor {1}... )"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>showQueryAsPVM:
+msgid "No projects found for your criteria"
+msgstr "bu seçeneğinize uygun proje bulunamadı."
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "Server responded "
+msgstr "ilgili sunucu_"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "(uploading "
+msgstr "(yükleniyor_"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "...)"
+msgstr "... )"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "An editor for the http proxy settings"
+msgstr "http ayarları düzenleyicisi"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "http proxy editor"
+msgstr "http ayar düzenleyici"
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Proxy Server Named: '{1}' port: {2}."
+msgstr "Vekil sunucu adı: '{1} giriş: {2}."
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Stop using Proxy Server."
+msgstr "Vekil sunucu kullanmayı durur."
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept"
+msgstr "Kabul"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept the proxy settings"
+msgstr "Proxy ayarlarını kabul et."
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel"
+msgstr "İptal"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel the proxy settings"
+msgstr "Proxy ayarlarını iptal et."
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Port:"
+msgstr "Port:"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Server Name:"
+msgstr "Sunucu Adı:"
+
+#: Network-UI,HTTPProxyEditor>>initialize
+msgid "HTTP Proxy Editor"
+msgstr "HTTP Proxy düzenleyici"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this attachment"
+msgstr "eklentiyi göster."
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this image attachment"
+msgstr "resim eklentisini göster."
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "\\save this attachment"
+msgstr "\\eklentiyi kaydet."
+

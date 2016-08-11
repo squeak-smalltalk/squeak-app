@@ -1,0 +1,860 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:27-0000\n"
+"PO-Revision-Date: 2010-08-27 15:27-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Tools\n"
+
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "A viewer and editor for Zip archive files"
+msgstr "জিপ আর্কাইভ ফাইলের একজন পর্যালোচক এবং সম্পাদক"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "Zip Tool"
+msgstr "জিপ টুল"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip,ArchiveViewer_class>>serviceAddToNewZip
+msgid "add file to new zip"
+msgstr "নতুন জিপে ফাইল সংরক্ষণ করো"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip
+msgid "to new zip"
+msgstr "একটি নতুন জিপ"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all"
+msgstr "সব এক্সট্র্যাক্ট করো"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all files to a user-specified directory"
+msgstr "একটি ব্যবহাকারী-উল্লেখিত ডিরেক্টরীতে সব ফাইল এক্সট্র্যাক্ট করো"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all to..."
+msgstr "সব এক্সট্র্যাক্ট করো..."
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open in zip viewer"
+msgstr "জিপ পরিদর্শকে খোলো"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open zip"
+msgstr "জিপ খোলো"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>openNewArchive
+msgid "Select Zip archive to open..."
+msgstr "খোলার জন্য জিপ আর্কাইভ নির্বাচন করো..."
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid ""
+" is used by one or more members\n"
+"in your archive, and cannot be overwritten.\n"
+"Try writing to another file name"
+msgstr ""
+" তোমার আর্কাইভের এক বা একাধিক সদস্য\n"
+"দ্বারা ব্যবহার করা হচ্ছে, এবং প্রতিস্থাপন করা\n"
+"যাবেনা। অণ্য ফাইলে লেখার চেষ্টা করো"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Destination Zip File Name:"
+msgstr "গন্তব্য জিপ ফাইলের নাম:"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Prepended File:"
+msgstr "শুরুতে যোগ করা ফাইল:"
+
+#: Tools-Base,CodeHolder>>addModelItemsToWindowMenu:
+msgid "what to show..."
+msgstr "কি দেখাতে হবে..."
+
+#: Tools-Base,CodeHolder>>offerWhatToShowMenu,CodeHolder>>offerWhatToShowMenu
+msgid "What to show"
+msgstr "কি দেখাতে হবে"
+
+#: Tools-Base,MethodHolder>>addModelMenuItemsTo:forMorph:hand:
+msgid "whose script is this?"
+msgstr "এটি কার স্ক্রিপ্ট?"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<no> create textual references to dropped morphs"
+msgstr "<no> ছেড়ে দেওয়া মর্ফের টেক্সচুয়্যাল রেফারেন্স তৈরি করো"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<yes> create textual references to dropped morphs"
+msgstr "<no> ছেড়ে দেওয়া মর্ফের টেক্সচুয়্যাল রেফারেন্স তৈরি করো"
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "append contents of file..."
+msgstr "ফাইলের বিষয়বস্তু পরিশেষে যোগ করো ..."
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "save contents to file..."
+msgstr "বিষয়বস্তু ফাইলে সংরক্ষন করুন..."
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry
+msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
+msgstr "ব্রাউজার হলো একটি টুল যা তোমাকে সিস্টেমের সব ক্লাসের সব কোড দেখতে অনুমোদন করে"
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry,Browser_class>>windowColorSpecification
+msgid "Browser"
+msgstr "ব্রাউজার"
+
+#: Tools-Browser,Browser_class>>windowColorSpecification
+msgid "The standard \"system browser\" tool that allows you to browse through all the code in the system"
+msgstr "আদর্শ \"সিস্টেম ব্রাউজার\" টুল যা তোমাকে সিস্টেমের সব কোডের মধ্যে ব্রাউজ করতে অনুমোদন করে"
+
+#: Tools-Browser,Browser>>noCommentNagString
+msgid "THIS CLASS HAS NO COMMENT!"
+msgstr "THIS CLASS HAS NO COMMENT!"
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "A tool finding, viewing, and editing all methods whose names contiane a given character sequence."
+msgstr "খোঁজার, দেখার, এবং সম্পাদনা করার একটি টুল যার নাম একটি প্রদত্ত অক্ষরের ক্রম ধারণ করে।"
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "Message Names"
+msgstr "বার্তার নাম"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "A list of messages (e.g. senders, implementors)"
+msgstr "বার্তার তালিকা (e.g. প্রেরক, বাস্তবায়নকারক)"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "Message List"
+msgstr "বার্তা তালিকা"
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "A system browser with an extra pane at top-left for module."
+msgstr "মডিউলের জন্য শীর্ষ-বামে অতিরিক্ত প্যানসহ একটি সিস্টেম ব্রাউজার।"
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "Package Browser"
+msgstr "প্যাকেজ ব্রাউজার"
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "A tool for finding methods by giving sample arguments and values."
+msgstr "নমুনা আর্গুমেন্ট এবং মান দিয়ে মেথড খুঁজে বের করার একটি টুল।"
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "Method Finder"
+msgstr "যে মেথড খোঁজে"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changelist browser"
+msgstr "changelist প্রদর্শক"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changes"
+msgstr "পরিবর্তন"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "open a changelist tool on this file"
+msgstr "এই ফাইলে একটি changelist টুল খুলুন"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "open a changelist tool on recent changes in file"
+msgstr "ফাইলের সাম্প্রতিক পরিবর্তনে একটি changelist টুল খোলো"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes"
+msgstr "সাম্প্রতিক পরিবর্তন"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes in file"
+msgstr "ফাইলের সাম্প্রতিক পরিবর্তন"
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "A tool that presents a list of all the changes found in an external file."
+msgstr "একটি টুল যেখানে বহিঃস্থ ফাইলে খুঁজে পাওয়া সব পরিবর্তন থাকে।"
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "Change List"
+msgstr "পরিবর্তন তালিকা"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
+msgstr "একটি টুল যা তোমাকে একই সময়ে একক পরিবর্তন সেটের কোড পরিবর্তনসমূহ দেখতে এবং কাজে লাগাতে সম্মতি দেয়।"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Set"
+msgstr "পরিবর্তন সেট"
+
+#: Tools-Changes,ChangeSorter_class>>removeEmptyUnnamedChangeSets
+msgid "Unnamed"
+msgstr "নামবিহীন"
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification
+msgid "A tool that lets you see the code for one change set at a time."
+msgstr "একটি টুল যা তোমাকে একই সময়ে একক পরিবর্তন সেটের কোড দেখতে দেয়।"
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Sorter"
+msgstr "নির্বাচক পরিবর্তন করো"
+
+#: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
+msgid ""
+"This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+msgstr ""
+"This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a class comment."
+msgstr "একটি ক্লাস মন্তব্যের পূর্বের সংষ্করণ দেখার টুল।"
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "Class Comment Versions Browser"
+msgstr "ক্লাস মন্তব্য সংস্করণ ব্রাউজার"
+
+#: Tools-Changes,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Shows two change sets side by side"
+msgstr "পার্শ্বদেশ ধরে দুটি পরিবর্তন সেট দেখাও"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Dual Change Sorter"
+msgstr "দ্বৈত পরিবর্তন নির্বাচক"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Lets you view and manipulate two change sets concurrently."
+msgstr "তোমাকে দুই পরিবর্তন সেট একসাথে দেখতে এবং সুবিধাজনকভাবে কাজে লাগাতে দাও"
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a method."
+msgstr "একটি মেথডের পূর্বের সংস্করণ দেখার একটি টুল।"
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "Versions Browser"
+msgstr "সংষ্করণ ব্রাউজার"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Comparison from {1} to {2}"
+msgstr "{1} থেকে {2} এ তুলনা"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Exact Match"
+msgstr "প্রকৃত মিল"
+
+#: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
+msgid "{1} (in {2})"
+msgstr "{1} ({2} এ)"
+
+#: Tools-Changes,VersionsBrowser>>versionsMenu:
+msgid "Versions"
+msgstr "সংষ্করণ"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "Debugger"
+msgstr "ডিবাগার"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "The system debugger."
+msgstr "সিস্টেম ডিবাগার:"
+
+#: Tools-Debugger,Debugger>>askForCategoryIn:default:
+msgid "Please provide a good category for the new method!"
+msgstr "অনুগ্রহ করে নতুন মেথডের জন্য একটি ভালো শ্রেনী সরবরাহ করো"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Abandon"
+msgstr "বাদ দেওয়া"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "abandon this execution by closing this window"
+msgstr "এই উইন্ডো বন্ধ করে সম্পাদনা বাতিল করো"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "bring up a debugger"
+msgstr "একটি ডিবাগার আনো"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "continue execution"
+msgstr "সম্পাদন চালিয়ে যাও"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Debug"
+msgstr "ডিবাগ"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Proceed"
+msgstr "প্রক্রিয়া"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Store log"
+msgstr "লগ সংরক্সণ করো"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "write a log of the encountered problem"
+msgstr "যে সব সমস্যার মুখোমুখি হয়েছোতাদের একটি লগ লেখো"
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred in\\{3} of {2}.\\Fix your script(s), hit 'Abandon' and try again."
+msgstr "একটি ত্রুটির উৎপত্তি হয়েছে\\{২} এর {৩}।\\তোমার স্ক্রিপ্ট নির্দিষ্ট করো, 'বাতিল করো' তে চাপো এবং আবার চেষ্টা করো।"
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
+msgstr "একটি ত্রুটির উৎপত্তি হয়েছে; তোমার সম্ভবতো 'বাতিল করা' চাপতে হবে। দুঃখিত!"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>selectAndBrowseFile:
+msgid "What files?"
+msgstr "কি ফাইল?"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCodeFiles
+msgid "browse code files"
+msgstr "কোড ফািল ব্রাউজ করো"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code"
+msgstr "কোড"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code-file browser"
+msgstr "কোড-ফাইল ব্রাউজার"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "open a \"file-contents browser\" on this file, allowing you to view and selectively load its code"
+msgstr "এই ফাইলে একটি \"ফাইল-বিষয়বস্তু ব্রাউজার\" খুলো, তেমাকে দেখতে এবং এর কোড লোড করতে অনুমোদন করে"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "File Contents Browser"
+msgstr "ফাইল বিষয়বস্তুর ব্রাউজার"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "Lets you view the contents of a file as code, in a browser-like tool."
+msgstr "ব্রাউজারের-মতো টুলে, কোড হিসেবে তোমাকে সব ফাইল দেখতে দাও।"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Class exists already in the system"
+msgstr "ক্লাস exists ইতিমধ্যে সিস্টেমে বিদ্যমান"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Existing method removed  by this change-set"
+msgstr "এই পরিবর্তন-সেট দ্বারা বিদ্যমান মেথড মুছে ফেলা হয়েছে"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Method already exists"
+msgstr "পদ্ধতি ইতোমধ্যে বিদ্যামন"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New class"
+msgstr "নতুন ক্লাস"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New method"
+msgstr "নতুন পদ্ধতি"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Removal request for a method that is not present in this image"
+msgstr "একটি মেথডের অপসারণের জন্য  অনুরোধ যা এই চিত্রে উপস্থিত নেই"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid " already exists in the package"
+msgstr " ইতিমধ্যে প্যাকেজে বিদ্যমান"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid "Please type new class name"
+msgstr "অনুগ্রহ করে নতুন ক্লাসের নাম টাইপ করো"
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry
+msgid "A File List is a tool for browsing folders and files on disks and on ftp types."
+msgstr "ফাইল তালিকা হলো ডিস্ক এবং ধরণে ফোল্ডার এবং ফাইল ব্রাউজ করার একটি টুল"
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry,FileList_class>>windowColorSpecification
+msgid "File List"
+msgstr "ফাইল তালিকা"
+
+#: Tools-FileList,FileList_class>>windowColorSpecification
+msgid "A tool for looking at files"
+msgstr "ফাইল খোঁজার জন্য একটি টুল"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "New {1} Name?"
+msgstr "নতুন {1}নাম?"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "{1}Name"
+msgstr "{1}নাম"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "  -- Folder Summary --"
+msgstr "  -- ফোল্ডারের সারাংশ --"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "NO FILE SELECTED"
+msgstr "NO FILE SELECTED"
+
+#: Tools-FileList,FileList>>deleteDirectory
+msgid "Directory must be empty"
+msgstr "ডিরেক্টরী অবশ্যই ফাঁকা হতে হবে"
+
+#: Tools-FileList,FileList>>deleteDirectory,FileList>>deleteFile
+msgid "Really delete {1}?"
+msgstr "আসলেই {1} মুছে ফেলতে চাও?"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "accept (s)"
+msgstr "গ্রহন (s)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cancel (l)"
+msgstr "বাতিল (l)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "copy (c)"
+msgstr "অনুলিপি (c)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cut (x)"
+msgstr "কাটো (x)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do again (j)"
+msgstr "আবার করো (j)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do it (d)"
+msgstr "এটি করো (d)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "fileIn selection (G)"
+msgstr "fileIn নির্বাচন (G)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find again (g)"
+msgstr "আবার খোঁজো (g)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find...(f)"
+msgstr "খোঁজো...(f)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "inspect it (i)"
+msgstr "এটি পরিদর্শন করো (i)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:,FileList>>serviceAllFileOptions,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "more..."
+msgstr "আরো..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste (v)"
+msgstr "প্রতিলেপন করো (v)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste..."
+msgstr "প্রতিলেপন করো..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "print it (p)"
+msgstr "এটি মুদ্রণ করো (p)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "set search string (h)"
+msgstr "সন্ধান স্ট্রিং নির্ধারণ করো (h)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "undo (z)"
+msgstr "পূর্বাবস্থা (z)"
+
+#: Tools-FileList,FileList>>fullFileListMenu:shifted:
+msgid "all possible file operations"
+msgstr "সব সম্ভব্য ফাইল অপারেশন"
+
+#: Tools-FileList,FileList>>put:
+msgid "No fileName is selected"
+msgstr "কোনো fileName নির্বাচন করা হয়নি"
+
+#: Tools-FileList,FileList>>put:
+msgid ""
+"{1} contents cannot\n"
+"meaningfully be saved at present."
+msgstr "{1} বিষয়বস্তু অর্থবোধকভাবে এখন সংরক্ষণ করা যাবেনা"
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 5000 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 5000 characters."
+msgstr ""
+"ফাইল '{1}'  এর আকার {2} বাইট।\n"
+"সম্পূর্ণ ফাইল পড়তে তুমি 'get' কমান্ড ব্যবহার করতে পারো।\n"
+"\n"
+"এখানে প্রথম ৫০০০ অক্ষর...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... প্রথম ৫০০০ অক্ষরের শেষ।"
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:,FileList>>readServerBrief
+msgid "For some reason, this file cannot be read"
+msgstr "কোনো কারণে, ফাইলটি পড়া যাচ্ছেনা"
+
+#: Tools-FileList,FileList>>readServerBrief
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 3500 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 3500 characters."
+msgstr ""
+"ফাইল '{1}'  এর আকার {2} বাইট।\n"
+"সম্পূর্ণ ফাইল পড়তে তুমি 'get' কমান্ড ব্যবহার করতে পারো।\n"
+"\n"
+"এখানে প্রথম ৩৫০০ অক্ষর...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... প্রথম ৩৫০০ অক্ষরের শেষ।"
+
+#: Tools-FileList,FileList>>removeVersionNumberFromFileName
+msgid "do you want to clobber the existing"
+msgstr "do you want to clobber the existing"
+
+#: Tools-FileList,FileList>>renameFile
+msgid "NewFileName?"
+msgstr "NewFileName?"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "add new directory"
+msgstr "নতুন ডিরেক্টরী যোগ করো"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "adds a new, empty directory (folder)"
+msgstr "একটি নতুন, ফাঁকা ফাইল ডিরেক্টরি যোগ করো (ফোল্ডারে)"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "add new file"
+msgstr "নতুন ফাইল যোগ করো"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "create a new,. empty file, and add it to the current directory."
+msgstr "একটি নতুন ফাঁকা ফাইল তৈরি করো এবং অভিধানে যোগ  করো।"
+
+#: Tools-FileList,FileList>>serviceAllFileOptions
+msgid "show all the options available"
+msgstr "বিদ্যামান সব অপশন দেখাও"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast"
+msgstr "ব্রডকাস্ট"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast as update"
+msgstr "হালনাগাদ হিসেবে ব্রডকাস্ট করো"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast file as update"
+msgstr "হালনাগাদ হিসেবে ফাইল ব্রডকাস্ট করো"
+
+#: Tools-FileList,FileList>>serviceCompressFile,FileList>>serviceCompressFile
+msgid "compress"
+msgstr "কমপ্রেস"
+
+#: Tools-FileList,FileList>>serviceCompressFile
+msgid "compress file"
+msgstr "কমপ্রেস ফাইল"
+
+#: Tools-FileList,FileList>>serviceCopyName,FileList>>serviceCopyName
+msgid "copy name to clipboard"
+msgstr "ক্লিপবোর্ডে নাম অনুলিপি করো"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete"
+msgstr "মুছে ফেলো"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete the seleted item"
+msgstr "নির্বাচিত আইটেম মুছে ফেলো"
+
+#: Tools-FileList,FileList>>serviceGetEncodedText,FileList>>serviceGetEncodedText
+msgid "view as encoded text"
+msgstr "এনকোডেড টেক্সট হিসেবে দেখো"
+
+#: Tools-FileList,FileList>>serviceGetHex,FileList>>serviceGetHex
+msgid "view as hex"
+msgstr "হেক্স হিসেবে প্রদর্শন করো"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "get entire file"
+msgstr "সম্পূর্ণ ফাইল নাও"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "if the file has only been partially read in, because it is very large, read the entire file in at this time."
+msgstr "যদি এই ফাইলটি আংশিক পড়া হয়ে থাকে, কারণ এটি একটি খুব বড় ফাইল, এই সময়ে সম্পূর্ণ ফাইলটি পড়ো।"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from file name"
+msgstr "ফাইলের নাম থেকে সংস্করণের সংখ্যা মুছে ফেলো"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from filename"
+msgstr "ফাইলের নাম থেকে সংস্করণের সংখ্যা মুছে ফেলো"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version #"
+msgstr "সংষ্করণ # মুছে ফেলো"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename"
+msgstr "পুনরায় নামকরণ করো"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename file"
+msgstr "ফাইল পুনরায় নামকরণ করো"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "by date"
+msgstr "তারিখ অনুসারে"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "date"
+msgstr "তারিখ"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "sort entries by date"
+msgstr "তারিখ অনুযায়ী এন্ট্রি সাজাও"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "by name"
+msgstr "নাম অনুসারে"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "name"
+msgstr "নাম"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "sort entries by name"
+msgstr "নাম অনুযায়ী সাজাও"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "by size"
+msgstr "আকার অনুসারে"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "size"
+msgstr "আকার"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "sort entries by size"
+msgstr "আকার অনুযায়ী সাজাও"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "open a new Workspace whose contents are set to the contents of this file"
+msgstr "একটি কর্মপরিসর খোলো যার বিষয়বস্তু এই ফাইলের বিষয়বস্তুতে নির্ধারণ করা হবে"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "workspace with contents"
+msgstr "বিষয়বস্তুসহ কর্মপরিসর"
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "add server..."
+msgstr "সার্ভারে যোগ করো..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "delete directory..."
+msgstr "ডিরেক্টরী মুছে ফেলো..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "recent..."
+msgstr "সাম্প্রতিক..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "remove server..."
+msgstr "সার্ভার মুছে ফেলো..."
+
+#: Tools-FileList,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,PopUpMenu_class>>informCenteredAboveCursor:,PopUpMenu_class>>inform:
+msgid "OK"
+msgstr "ঠিক আছে"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "return without saving"
+msgstr "সংরক্ষণ না করে ফেরত দেয়"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save"
+msgstr "সংরক্ষণ"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save in the place specified above"
+msgstr ""
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save on local disk only"
+msgstr "শুধুমাত্র স্থানীয় ডিস্কে সংরক্ষণ করো"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "saves in the Squeaklets folder"
+msgstr "Squeaklets ফোল্ডারে সংরক্ষণ হয়"
+
+#: Tools-FileList,FileList2_class>>morphicViewFileSelectorForSuffixes:
+msgid "Please select a file"
+msgstr "অনুগ্রহ করে একটি ফাইল নির্বাচন করো"
+
+#: Tools-FileList,FileList2_class>>morphicViewGeneralLoaderInWorld:
+msgid "Find..."
+msgstr "খোঁজো..."
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
+msgid "Load A Project"
+msgstr "একটি প্রকল্প লোড করো"
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
+msgid "Publish This Project"
+msgstr "এই প্রকল্পটি প্রকাশ করো"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Network Error"
+msgstr ""
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Unknown Error"
+msgstr ""
+
+#: Tools-FileList,FileList2>>serviceCancel,FileList2>>serviceCancel
+msgid "cancel"
+msgstr "বাতিল"
+
+#: Tools-FileList,FileList2>>serviceCancel
+msgid "hit here to cancel "
+msgstr "বাতিল করতে এখানে চাপো "
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "hit here to accept the current selection"
+msgstr "বর্তমান নির্বাচন গ্রহন করতে এখানো চাপো"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "ok"
+msgstr "ঠিক আছে"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "okay"
+msgstr "ঠিক আছে"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "লোড"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "প্রকল্প হিসেবে লোড করো"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "ফাইল তেকে প্রকল্প খোলো"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log in to share projects on the Squeakland server"
+msgstr ""
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log out from the Squeakland server"
+msgstr ""
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Login"
+msgstr ""
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Logout"
+msgstr ""
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance,FileList2>>updateLoginButtonAppearance
+msgid "Your Squeakland user name"
+msgstr ""
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "(not logged in)"
+msgstr ""
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:,PopUpMenu_class>>confirm:orCancel:
+msgid "Cancel"
+msgstr "বাতিল করো"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:
+msgid "Cancel this search"
+msgstr "এই সন্ধান বাতিল করো"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:
+msgid ""
+"overwrite that file\n"
+"select another file"
+msgstr ""
+"ফাইল প্রতিস্থাপন করো\n"
+"অন্য ফাইল নির্বাচন করো"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"ইতিমধ্যে বিদ্যমান।"
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "No"
+msgstr "না"
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "Yes"
+msgstr "হ্যা"
+
+#: Tools-Menus,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "start over..."
+msgstr "আবার শুরু করো..."
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"Can't delete {1}\n"
+"Select another file"
+msgstr ""
+"{1} মুছে ফেলা যাবেনা\n"
+"অন্য ফাইল নির্বাচন করুন"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"এই ফাইলে লেখা-প্রতিস্থাপন করো\n"
+"অন্য নাম নির্বাচন করো\n"
+"বাতিল করো"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid "Select Another File"
+msgstr "অন্য একটি ফাইল নির্বাচন করো"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:
+msgid "Enter a new file name"
+msgstr "একটি নতুন ফাইলের নাম প্রবেশ করাও"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:,StandardFileMenu_class>>newFileFrom:,StandardFileMenu_class>>oldFileFrom:
+msgid "Select a File:"
+msgstr "একটি ফাইল নির্বাচন করো:"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "A Process Browser shows you all the running processes"
+msgstr "একটি  প্রক্রিয়া ব্রাউজার আপনাকে সব চলমান প্রক্রিয়া দেখায়"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "Processes"
+msgstr "প্রক্রিয়াসমূহ"
+

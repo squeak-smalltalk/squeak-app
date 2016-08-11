@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2011-12-13 00:18+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Files\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Attempt to rename a non-existent file"
+msgstr "փորձել վերանվանել գոյություն չունեցող ֆայլը"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"delete old version\n"
+"cancel"
+msgstr "ջնջել բոլոր տարբերակները/nչեղարկել"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Failed to rename file"
+msgstr "ֆայլի վերանվանման գործողությունը ձախողվեց"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"Trying to rename a file to be\n"
+"{1}\n"
+"and it already exists."
+msgstr ""
+"փորձել վերանվանել ֆայլը \n"
+"{1}\n"
+"սակայն այն արդեն գոյություն ունի"
+
+# cargar el contenido completo del archivo, que debería contener el código Smalltalk (formato "chunk") del archivo de salida
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "file in the entire contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr ""
+"բեռնել արխիվի ամբողջ պարունակությունը, որը պետք է որ պարունակի ելքի արխիվի "
+"Smalltalk (\"chunk\") ֆորմատը"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "արխիվացնել ամբողջ ֆայլը"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "filein"
+msgstr "արխիվացնել"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove lfs"
+msgstr "հեռացնել իֆ-երը"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds"
+msgstr "հեռացնել գծի ընդմիջումները"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds in file"
+msgstr "արխիվից հեռացնել գծի ընդմիջումները"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:
+msgid ""
+"create a new file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"ստեղծել նոր ֆայլ\n"
+"ընտրել այլ անուն\n"
+"չեղարկել"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>fileExistsUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Enter a new file name"
+msgstr "մուտքագրել ֆայլի նոր անուն"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid ""
+"{1}\n"
+"does not exist."
+msgstr ""
+"{1}\n"
+"գոյություն չունի"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Could not delete the old version of that file"
+msgstr "հնարավոր չէ ջնջել այդ ֆայլի հին տարբերակը"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "overwrite that file\\choose another name\\cancel"
+msgstr "նորից գրել ֆայլը\\ընտրեկլ այլ անուն\\ջնջել"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Please close this to abort file opening"
+msgstr "խնդրեմ, փակել սա ֆայլի բացման գործընթացը չեղյալ համարելու համար"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"արդեն գոյություն ունի"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Choose another name"
+msgstr "Ընտրել այլ անուն"

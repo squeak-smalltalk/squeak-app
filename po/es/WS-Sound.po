@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2010-08-27 15:33-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+"X-Etoys-Domain: WS-Sound\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>defaultNameStemForInstances,WsPhonePadMorph_class>>descriptionForPartsBin,WsPhonePadMorph_class>>registerInFlapsRegistry,WsPhonePadMorph_class>>registerInFlapsRegistry
+msgid "PhonePad"
+msgstr "MarcadorTelefónico"
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>descriptionForPartsBin
+msgid "A device for dialing by tone."
+msgstr "Un dispositivo para marcar por tonos."
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: WS-Sound-Interface,WsPhonePadMorph>>addCustomMenuItems:hand:
+msgid "dial to..."
+msgstr "llamar a..."
+
+#: WS-Sound-Interface,WsPhonePadMorph>>dialTo
+msgid "Phone number?"
+msgstr "¿Número de tf?"
+
+#: WS-Sound-Interface,WsWorldStethoscope>>rangeFinderModeOn
+msgid "You should adjust 'cut off level' to find range well."
+msgstr "Deberías ajustar el 'nivel de recorte' para encontrar bien el rango."
+
+#: WS-Sound-Interface,WsWorldStethoscope>>setFFTSize
+msgid "FFT size (currently "
+msgstr "tamaño de FFT (actual "
+
+#: WS-Sound-Interface,WsWorldStethoscope>>setSamplingRate
+msgid "Sampling rate (currently "
+msgstr "Frecuencia de muestreo (actualmente "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>defaultNameStemForInstances,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
+msgid "WorldStethoscope"
+msgstr "Estetoscopio del Mundo"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
+msgid "A device for analyzing phenomena as sounds"
+msgstr "Un dispositivo para analizar fenómenos como sonidos"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Menu"
+msgstr "Menú"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Start"
+msgstr "Comenzar"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Stop"
+msgstr "Parar"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
+msgid "calibration  "
+msgstr "calibración  "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
+msgid "cut off level"
+msgstr "nivel de corte"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addDataGraph
+msgid "Data"
+msgstr "Datos"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSignalGraph
+msgid "Signal"
+msgstr "Señal"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSonogram
+msgid "Sonogram"
+msgstr "Sonograma"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSpectrumGraph
+msgid "Spectrum"
+msgstr "Espectro"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
+msgid "hide adjustments"
+msgstr "ocultar ajustes"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
+msgid "show adjustments"
+msgstr "mostrar ajustes"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
+msgid "AC "
+msgstr "CA "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
+msgid "Bias"
+msgstr "Tendencia"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "add a graph..."
+msgstr "añadir gráfica..."
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "data"
+msgstr "datos"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "establecer tamaño de FFT"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "establecer frecuencia de muestreo"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "signal"
+msgstr "señal"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "sonogram"
+msgstr "sonograma"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "spectrum"
+msgstr "espectro"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "Encendido"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>rangeFinderModeString
+msgid "range finder mode"
+msgstr "modo telémetro"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>sortByFrequencyString
+msgid "sort by frequency"
+msgstr "ordenar por frecuencia"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>sortByLevelString
+msgid "sort by level"
+msgstr "ordenar por nivel"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
+msgid "AC"
+msgstr "corriente alternante"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
+msgid "DC"
+msgstr "corriente directa"

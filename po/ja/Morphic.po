@@ -1,0 +1,4954 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:44-0000\n"
+"PO-Revision-Date: 2010-08-27 15:44-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Morphic\n"
+
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "choose new graphic"
+msgstr "新しい画像の選択"
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "grab new graphic"
+msgstr "新しい画像を使う"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change first color"
+msgstr "最初の色を変更"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change second color"
+msgstr "第2の色の変更"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "linear gradient"
+msgstr "直線のグラデーション"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "radial gradient"
+msgstr "円形のグラデーション"
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change orientation"
+msgstr "向きの変更..."
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change origin"
+msgstr "原点の変更"
+
+#: Morphic-Basic,AlignmentMorph_class>>columnPrototype
+msgid "Things dropped into here will automatically be organized into a column. Once you have added your own items here, you will want to remove the sample colored rectangles that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr ""
+"ここにドロップされたものは自動的に列方向に並びます。\n"
+"自分で定義したものを追加した場合には、\n"
+"例として使われている長方形を取り除くと良いでしょう。\n"
+"さらにこのバルーンヘルプも変えてみてください。"
+
+#: Morphic-Basic,AlignmentMorph_class>>rowPrototype
+msgid "Things dropped into here will automatically be organized into a row. Once you have added your own items here, you will want to remove the sample colored eggs that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr ""
+"ここにドロップされたものは自動的に行方向に並びます。\n"
+"自分で定義したものを追加した場合には、\n"
+"例として使われている卵を取り除くと良いでしょう。\n"
+"さらにこのバルーンヘルプも変えてみてください。"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "A circular shape"
+msgstr "円形"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "An attachment point for Connectors that you can embed in another Morph."
+msgstr ""
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Circle"
+msgstr "円"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "コネクター"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,LineMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Graphics"
+msgstr "画像"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Pin"
+msgstr "ピン"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
+msgstr ""
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,JoystickMorph_class>>descriptionForPartsBin,PasteUpMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Basic"
+msgstr "基本"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "Curve"
+msgstr "曲線"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin
+msgid "An elliptical or circular shape"
+msgstr "円・楕円形"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Ellipse"
+msgstr "楕円"
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "A non-editable picture.  If you use the Paint palette to make a picture, you can edit it afterwards."
+msgstr "編集できない画像。ペイントツールを使って作った画像は編集できます。"
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "Image"
+msgstr "画像"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "A non-editable picture of something"
+msgstr "編集できない絵"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "Picture"
+msgstr "画像"
+
+#: Morphic-Basic,ImageMorph>>opacityString
+msgid "opaque"
+msgstr "不透明か"
+
+#: Morphic-Basic,ImageMorph>>readFromFile
+msgid "Please enter the image file name"
+msgstr "画像ファイル名を入力してください"
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "A straight line.  Shift-click to get handles and move the ends."
+msgstr "直線。シフト・クリックするとハンドルが表示されます"
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "Line"
+msgstr "直線"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "extract this frame"
+msgstr "このフレームを取り出す"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "movie..."
+msgstr "ムービー..."
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "next frame"
+msgstr "次のフレーム"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play loop"
+msgstr "繰り返し再生"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play once"
+msgstr "一度だけ再生"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "previous frame"
+msgstr "前のフレーム"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "stop playing"
+msgstr "再生停止"
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "A series of connected line segments, which may be a closed solid, or a zig-zag line.  Shift-click to get handles and move the points."
+msgstr "直線を順につないだもの。閉曲線または開曲線にできます。Shift-Clickするとハンドルが表示され、頂点を移動することができます。"
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "Polygon"
+msgstr "多角形"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "customize arrows"
+msgstr "矢印をカスタマイズ"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "specify dashed line"
+msgstr "破線を定義"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "standard arrows"
+msgstr "標準の矢印"
+
+#: Morphic-Basic,PolygonMorph>>customizeArrows:
+msgid ""
+"Move cursor left and right\n"
+"to change arrow length and style.\n"
+"Move it up and down to change width.\n"
+"Click when done."
+msgstr ""
+
+#: Morphic-Basic,PolygonMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "ハンドルを表示"
+
+#: Morphic-Basic,PolygonMorph>>openOrClosePhrase
+msgid "closed"
+msgstr "線が閉じている"
+
+#: Morphic-Basic,PolygonMorph>>smoothPhrase
+msgid "curve"
+msgstr "曲線"
+
+#: Morphic-Basic,PolygonMorph>>specifyDashedLine
+msgid ""
+"Enter a dash specification as\n"
+"{ major dash length. minor dash length. minor dash color }\n"
+"The major dash will have the normal border color.\n"
+"A blank response will remove the dash specification.\n"
+"[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
+"where the 4th ityem is zero, and the 5th is the number of pixels\n"
+"by which the dashes will move in each step of animation]"
+msgstr ""
+"破線の定義を\n"
+"{ major dash length. minor dash length. minor dash color }\n"
+"という形式で入力してください。major dashは輪郭線の色で描かれます。\n"
+"空文字列を与えると定義を消去します。\n"
+"[指定法: 5つの要素を与えた場合、第4要素は0とし、\n"
+"第5要素はアニメーションの各ステップで進む幅になります。]"
+
+#: Morphic-Basic,RectangleMorph_class>>descriptionForPartsBin
+msgid "A rectangular shape, with border and fill style"
+msgstr "四角形、枠線と塗りつぶしのスタイルを指定できる"
+
+#: Morphic-Basic,SketchMorph_class>>defaultNameStemForInstances
+msgid "Sketch"
+msgstr "スケッチ"
+
+#: Morphic-Basic,SketchMorph>>addBorderToShape:
+msgid "Please enter the desired border width"
+msgstr "輪郭線の幅を入力してください"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "call this my base graphic"
+msgstr "これを元画像にする"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "choose new graphic..."
+msgstr "新しい画像を選ぶ…"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "restore base graphic"
+msgstr "元画像にもどす"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "set as background"
+msgstr "背景として設定"
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid ""
+"oops, this menu is a for a morph that\n"
+"has been replaced, probably because a\n"
+"\"look like\" script was run.  Please dismiss\n"
+"the menu and get a new one!.  Sorry!"
+msgstr ""
+"消されてしまったはずのモーフに対してメニューが\n"
+"起動されてしまいました。すみませんが、\n"
+"新しいものを出しなおしてください。"
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic
+msgid "this already *was* your baseGraphic"
+msgstr "これはすでに元画像になっています"
+
+#: Morphic-Basic,SketchMorph>>collapse
+msgid "A collapsed version of {1}.  Click to open it back up."
+msgstr "畳まれた {1}。クリックすると元通りに開きます。"
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "choose the color you want to replace"
+msgstr "置き換えたい色を選択してください"
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "now choose the color you want to replace it with"
+msgstr "新しい色を選択してください"
+
+#: Morphic-Basic,SketchMorph>>reduceColorPalette:
+msgid ""
+"Please enter a number greater than one.\n"
+"(note: this cannot be undone, so answer zero\n"
+"to abort if you need to make a backup first)"
+msgstr ""
+"1より大きい数を入力してください。\n"
+"(注意: 一度変更すると元には戻れません。\n"
+"あらかじめコピーを作っておくことをお勧めします)"
+
+#: Morphic-Basic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid "This object is *already* showing its baseGraphic"
+msgstr "これはすでに元画像になっています"
+
+#: Morphic-Basic,SketchMorph>>useInterpolationString
+msgid "smooth image"
+msgstr "画像はなめらかか"
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change emphasis"
+msgstr "強調を変更"
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change font"
+msgstr "フォントを変更"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A  data field which will have a different value on every card of the background"
+msgstr ""
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A piece of text that will occur on every card of the background"
+msgstr ""
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A text field with a rounded shadowed border, with a fancy font."
+msgstr ""
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Field"
+msgstr "背景のフィールド"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Label"
+msgstr "背景のラベル"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Fancy Text"
+msgstr ""
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Simple Text"
+msgstr ""
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you wish"
+msgstr "なんでも好きな文字を書き込めるテキスト"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add predecessor"
+msgstr "先行者の追加"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add successor"
+msgstr "後継者の追加"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane menu..."
+msgstr "コード欄メニュー…"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane shift menu..."
+msgstr "コード欄シフトメニュー..."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "fill owner's shape"
+msgstr "オーナーの形でぬりつぶす"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "follow owner's curve"
+msgstr "入れ物のカーブに従う"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "holder for characters"
+msgstr "これらの文字を含む入れ物"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "rectangular bounds"
+msgstr "矩形の境界"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "reverse direction"
+msgstr "向きを反対にする"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "set baseline"
+msgstr "ベースラインを指定する"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text margins..."
+msgstr "テキスト余白…"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text properties..."
+msgstr "テキスト・プロパティ..."
+
+#: Morphic-Basic,TextMorph>>addFillStyleMenuItems:hand:
+msgid "text color..."
+msgstr "テキストの色…"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, bounds are automatically adjusted to fit the contents."
+msgstr "チェックされていると、大きさが内容に合わせて自動的に調整されます"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, contents will automatically be translated upon a locale change"
+msgstr "チェックされていると、言語が切り替わった時内容が自動的に翻訳版になります"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, text is automatically wrapped to fit horizontally within the boundaries specifed."
+msgstr "チェックされていると、テキストは指定された境界の幅に合うよう自動的に折り返されます"
+
+#: Morphic-Basic,TextMorph>>addTextMenuItemsTo:event:
+msgid "font for entire text..."
+msgstr "テキスト全体のフォント..."
+
+#: Morphic-Basic,TextMorph>>addTranslationItemsTo:
+msgid "translations..."
+msgstr "翻訳..."
+
+#: Morphic-Basic,TextMorph>>autoFitString
+msgid "text auto fit"
+msgstr "テキストを自動割付するか"
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid ""
+"Move cursor down and to the right\n"
+"to increase margin inset.\n"
+"Click when done."
+msgstr ""
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid "margin change for "
+msgstr ""
+
+#: Morphic-Basic,TextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "フォントを選択:"
+
+#: Morphic-Basic,TextMorph>>translatableString
+msgid "translatable"
+msgstr "翻訳可能"
+
+#: Morphic-Basic,TextMorph>>wrapString
+msgid "text wrap to bounds"
+msgstr "テキストを折り返すか"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn off smoothing"
+msgstr "スムージングを止める"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn on smoothing"
+msgstr "スムージングを有効にする"
+
+#: Morphic-Books,QuickGuideHolderMorph>>load
+msgid "guide is missing"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>loadPages,QuickGuideMorph>>showDescriptionMenu:
+msgid "Index"
+msgstr "目次"
+
+#: Morphic-Books,QuickGuideMorph>>loadPages
+msgid "index"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Menu to see another Guide"
+msgstr "別のガイドを表示するメニュー"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Next page"
+msgstr "次のページ"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Previous page"
+msgstr "前のページ"
+
+#: Morphic-Books,QuickGuideMorph>>showDescriptionMenu:
+msgid "Quick Guides"
+msgstr "クイックガイド"
+
+#: Morphic-Components,ComponentLayout>>addCustomMenuItems:hand:
+msgid "inspect model in morphic"
+msgstr "モデルの検査"
+
+#: Morphic-Components,FunctionComponent>>addCustomMenuItems:hand:
+msgid "add pin"
+msgstr "ピンの追加"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model"
+msgstr "すべてのイベントをモデルに関連付ける"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model slots"
+msgstr "すべてのイベントをモデルのスロットに関連付けます"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model"
+msgstr "マウスダウンイベントをモデルに関連付ける"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model slot"
+msgstr "マウスダウンイベントをモデルのスロットに関連付ける"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model"
+msgstr "マウスムーブイベントをモデルに関連付ける"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model slot"
+msgstr "マウスムーブイベントをモデルのスロットに関連付けます"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseDown selector..."
+msgstr "マウスダウン時のセレクタを設定"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseMove selector..."
+msgstr "マウスムーブ時のセレクタを設定"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseUp selector..."
+msgstr "マウスアップ時のセレクタを設定"
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "An example of how to use double-click in moprhic"
+msgstr "モーフィックでのダブルクリックの使用例"
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "DoubleClick"
+msgstr "ダブル・クリック"
+
+#: Morphic-Demo,DoubleClickExample>>balloonText
+msgid ""
+"Double-click on me to change my color; \n"
+"single-click on me to change border color;\n"
+"hold mouse down within me and then move it to grow \n"
+"(if I'm red) or shrink (if I'm blue)."
+msgstr ""
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "An extreme-wide-angle lens"
+msgstr "超広角のレンズ"
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "FishEye"
+msgstr "魚眼レンズ"
+
+#: Morphic-Demo,FishEyeMorph>>chooseMagnification
+msgid "Magnification is fixed, sorry."
+msgstr "倍率は固定されています。ごめんなさい。"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "An eye which follows the cursor"
+msgstr "カーソルを見続ける眼"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "Just for Fun"
+msgstr ""
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "MovingEye"
+msgstr "目玉"
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "An analog clock face"
+msgstr "アナログ時計"
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "Clock"
+msgstr "時計"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to change the font used to display the numbers."
+msgstr "数値を表示する時のフォントを変えることができます。"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color for the hands of the watch.  Note that actual *watch* color can be changed simply by using the halo's recoloring handle."
+msgstr "針の色を変えることができます。時計の色は、色の変更ハロを使って変えることができます。"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color to be used during PM hours for the center portion of the watch; during AM hours, a lighter shade of the same color will be used."
+msgstr "午後に異なる色を中央部分に表示できるようにします。午前中は薄い色が使われます。"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change center color..."
+msgstr "中央の色を変更..."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change font..."
+msgstr "フォントの変更..."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change hands color..."
+msgstr "針の色を変更..."
+
+#: Morphic-Demo,WatchMorph>>antiAliasString
+msgid "anti-aliasing"
+msgstr "アンチ・エイリアス"
+
+#: Morphic-Demo,WatchMorph>>romanNumeralString
+msgid "roman numerals"
+msgstr "ローマ数字"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid " Mouse-down action"
+msgstr " マウスダウンの動作"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid "If the button is to act when the mouse goes down"
+msgstr "マウスボタンが押されたときに反応するかどうか"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid " Mouse-up action"
+msgstr " マウスアップ時の動作"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid "If the button is to act when the mouse goes up"
+msgstr "マウスボタンが離されたときに反応するかどうか"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonSelectorReport
+msgid "Action: "
+msgstr "アクション: "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Drop another morph here to change the target and action of this button. (Only some morphs will work)"
+msgstr "別のモーフをドロップするとボタン動作の対象を変えることができます(一部のモーフだけが使用できます)。"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Target: "
+msgstr "ターゲット: "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid " Mouse-down look "
+msgstr " マウスダウン時の見た目 "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse is clicked in it."
+msgstr "別のモーフをドロップするとクリックされたときの見た目を変えることができます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid " Mouse-enter look "
+msgstr " マウスが入ったときの見た目 "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse enters it."
+msgstr "別のモーフをドロップするとマウスが入ったときの見た目を変えることができます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid " Change morph "
+msgstr " モーフの変更 "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid "Drop another morph here to change the visual appearance of this button. Or click here to get a menu of possible replacement morphs."
+msgstr "別のモーフをドロップするとボタンの見た目を変えることができます。ここをクリックすると変更できるモーフのメニューが表示されます。"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownColorPicker
+msgid "mouse-down halo color"
+msgstr "マウスダウン時の強調色"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownHaloWidth,ButtonPropertiesMorph>>paneForMouseOverHaloWidth
+msgid "Drag in here to change the halo width"
+msgstr "この中でドラッグするとハロの幅を変えられます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseOverColorPicker
+msgid "mouse-over halo color"
+msgstr "マウスが入った時の強調色"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForRepeatingInterval
+msgid "Drag in here to change how often the button repeats while the mouse is down"
+msgstr ""
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid " Mouse-down repeating "
+msgstr " マウスダウン時のリピート機能 "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid "Turn repeating while mouse is held down on or off"
+msgstr "マウスボタンを押し続けている間のリピートをするかしないかを切り替えます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid " Mouse-over highlighting"
+msgstr " マウスオーバー時のハイライト"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid "Turn mouse-over highlighting on or off"
+msgstr "マウスオーバー時のハイライトあり/なしを切り替えます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "了解"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Add label"
+msgstr "ラベルの追加"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "add some text to the button"
+msgstr "ボタンにテキストをつけます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Button Properties for {1}"
+msgstr "{1}のボタンプロパティ"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel"
+msgstr "取消"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "変更を取り消してパネルを閉じます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "変更を反映してパネルを閉じます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Main"
+msgstr "メイン"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "open a main properties panel for the morph"
+msgstr "メインのプロパティ設定画面に戻ります"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,Morph>>balloonHelpTextForHandle:
+msgid "Remove"
+msgstr "削除する"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Remove label"
+msgstr "ラベルを消去"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove text from the button"
+msgstr "ボタンからテキストを取り除きます"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove the button properties of this morph"
+msgstr "このモーフからボタン・プロパティを削除します"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseDownHaloWidth
+msgid "mouse-down halo width: "
+msgstr "マウスダウン時の強調幅: "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseOverHaloWidth
+msgid "mouse-over halo width: "
+msgstr "マウスオーバー時の強調幅: "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForRepeatingInterval
+msgid "interval: "
+msgstr "間隔: "
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>buildPanel
+msgid "Etoys is trying to open your web browser.\\If it does not work, you can sign up at:\\\\"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel this login operation."
+msgstr "ログインをやめます"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please enter your login name"
+msgstr "ログイン名を入力してください"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please make the name 24 characters or less"
+msgstr "名前は24文字以下にしてください。"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please remove any funny characters"
+msgstr "変な文字を取り除いてください"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton2
+msgid "Close this dialog"
+msgstr "このダイアログを閉じる"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>rebuild
+msgid "Login to Squeakland"
+msgstr "スクイークランドにログインする"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>okButton2,FreeCellStatistics>>makeOkButton
+msgid "OK"
+msgstr "了解"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Password:"
+msgstr "パスワード:"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Username:"
+msgstr "ユーザ名:"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "(create account)"
+msgstr "(アカウントを作成)"
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "ChineseCheckers"
+msgstr "チャイニーズ・チェッカー"
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "Halma - the classic board game of Chinese Checkers, written by Dan Ingalls"
+msgstr "Halma - 古典的な中国式チェッカー。Dan Ingalls作。"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "animate moves"
+msgstr "移動をアニメーション表示"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "don't animate moves"
+msgstr "移動をアニメーション表示しない"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:,Tetris>>makeGameControls
+msgid "new game"
+msgstr "新しいゲーム"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "reset..."
+msgstr "リセット..."
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many humans?"
+msgstr ""
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many players?"
+msgstr ""
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "Cipher"
+msgstr ""
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "The Cipher Panel: A playground for cryptograms, by Dan Ingalls"
+msgstr "Cipher。Dan Ingalls作による暗号遊び"
+
+#: Morphic-Games,CipherPanel_class>>randomComment
+msgid "none"
+msgstr "なし"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "clear cipher typing"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "enter a new cipher"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "quote from Squeak"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher help"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher hints"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>buttonRow
+msgid "clear typing"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show help"
+msgstr "ヘルプを表示"
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show hints"
+msgstr "ヒントを表示"
+
+#: Morphic-Games,CipherPanel>>clearTyping,CipherPanel>>encodedQuote:,CrosticPanel>>clearTyping
+msgid "Are you sure you want to discard all typing?"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>enterANewCipher
+msgid "Type a cipher text to work on here below..."
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid "About the Cipher Panel"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid ""
+"The Cipher Panel displays an encrypted message.  The encryption is a simple substitution code;  each letter of the alphabet has been changed to a different one.\n"
+"\n"
+"You can solve the cipher by clicking above any letter in the message, and typing the letter you think it should be.  The Cipher Panel automatically makes the same substitution anywhere else that letter occurs in the encoded message.\n"
+"\n"
+"If you are having trouble, you can use the command menu to 'show cipher hints'.  That will display how many of each letter occurs, which is often a help in solving ciphers."
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"Most bodies of english text follow a general pattern of letter usage.  The following are the most common letters, in approximate order of frequency:\n"
+"\tE  T  A  O  N  I  R  S  H\n"
+"The following are the most common digraphs:\n"
+"\tEN  ER  RE  NT  TH  ON  IN\n"
+"\n"
+"The message you are trying to decode has the following specific statistics:"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid "Some Useful Statistics"
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"\n"
+"\n"
+"Good luck!"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "Crostic"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "The Crostic Panel: A classic word diagram game, by Dan Ingalls"
+msgstr "Crostic。Dan Ingalls作による、古典的な言葉遊びのパズル"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "clear crostic typing"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "open crostic file..."
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic errors"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic help"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic hints"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>buttonRow,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "clear"
+msgstr "を消す"
+
+#: Morphic-Games,CrosticPanel>>buttonRow,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>openMenu
+msgid "open..."
+msgstr "開く…"
+
+#: Morphic-Games,CrosticPanel>>buttonRow
+msgid "show errors"
+msgstr "エラーを表示"
+
+#: Morphic-Games,CrosticPanel>>initializeToStandAlone,CrosticPanel_class>>newFromFile:
+msgid "mal-formed crostic file"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Is it OK to discard this crostic?"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Select a Crostic File..."
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid "About the Crostic Panel"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid ""
+"The Crostic Panel presents an acrostic puzzle for solution.  As you type in answers for the clues, the letters also get entered in the text of the hidden quote.  Conversely, as you guess words in the quote, those letters will fill in missing places in your answers.  In addition, the first letters of all the answers together form the author's name and title of the work from which the quote is taken.\n"
+"\n"
+"If you wish to make up other acrostic puzzles, follow the obvious file format in the sampleFile method.  If you wish to print an acrostic to work it on paper, then change the oldStyle method to return true, and it will properly cross-index all the cells.\n"
+"\n"
+"Have fun."
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"As hints, you will be given the five longest answers.\n"
+"Do you really want to do this?"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Crostic Hints"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Good luck!"
+msgstr ""
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"The five longest answers are...\n"
+msgstr ""
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "A unique solitaire card game"
+msgstr "とっても珍しい一人カードゲーム"
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "FreeCell"
+msgstr "フリーセル"
+
+#: Morphic-Games,FreeCell>>helpText
+msgid ""
+"The objective of FreeCell is to move all of the cards to the four \"home cells\" in the upper right corner.  Each home cell will hold one suit and must be filled sequentially starting with the Ace.\n"
+"\n"
+"There are four \"free cells\" in the upper left corner that can each hold one card.  Cards can be moved from the bottom of a stack to a free cell or to another stack.  \n"
+"\n"
+"When moving a card to another stack, it must have a value that is one less than the exposed card and of a different color."
+msgstr ""
+
+#: Morphic-Games,FreeCell>>help
+msgid "FreeCell Help"
+msgstr "フリーセルのヘルプ"
+
+#: Morphic-Games,FreeCell>>makeCardsRemainingDisplay
+msgid "Cards Left: "
+msgstr "残りカード: "
+
+#: Morphic-Games,FreeCell>>makeElapsedTimeDisplay
+msgid "Elapsed Time: "
+msgstr "経過時間: "
+
+#: Morphic-Games,FreeCell>>makeGameNumberDisplay
+msgid "Game #: "
+msgstr "ゲーム番号:"
+
+#: Morphic-Games,FreeCell>>makeHelpButton,Morph>>balloonHelpTextForHandle:,SameGame>>makeControls
+msgid "Help"
+msgstr "ヘルプ"
+
+#: Morphic-Games,FreeCell>>makeNewGameButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "New game"
+msgstr "新しいゲーム"
+
+#: Morphic-Games,FreeCell>>makePickGameButton
+msgid "Pick game"
+msgstr "ゲームを選ぶ"
+
+#: Morphic-Games,FreeCell>>makeQuitButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "Quit"
+msgstr "終了"
+
+#: Morphic-Games,FreeCell>>makeSameGameButton
+msgid "Same game"
+msgstr "同じゲーム"
+
+#: Morphic-Games,FreeCell>>makeStatisticsButton
+msgid "Statistics"
+msgstr "統計値"
+
+#: Morphic-Games,FreeCell>>promptForSeed
+msgid ""
+"Pick a game number between 1 and 32000.\n"
+"or\n"
+"set the hardness of the next game by typing 'H 30'.\n"
+"Above 100 is very hard.  Zero is standard game.\n"
+"Current hardness is: "
+msgstr ""
+
+#: Morphic-Games,FreeCellBoard>>pickGame:
+msgid ""
+"Game #1 is a special case\n"
+"for performance analysis"
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>display
+msgid "FreeCell Statistics"
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>makeResetButton
+msgid "Reset"
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>printReplaysOn:
+msgid "With replays: "
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>printSessionOn:
+msgid "This session: "
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Current: "
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Streaks: "
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>printTotalOn:
+msgid "Total: "
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " loss"
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " losses"
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " win"
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " wins"
+msgstr ""
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Find those mines"
+msgstr "地雷を探せ"
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Mines"
+msgstr "地雷"
+
+#: Morphic-Games,Mines>>helpString
+msgid ""
+"Mines is a quick and dirty knock-off of the Minesweeper game found on Windows. I used this to teach myself Squeak. I liberally borrowed from the <SameGame> example, so the code should look pretty familiar, though like any project it has rapidly ...morphed... to reflect my own idiosyncracies. Note especially the lack of any idiomatic structure to the code - I simply haven't learned them yet.\n"
+"\n"
+"Mines is a very simple, yet extremely frustrating, game to play. The rules are just this: there are 99 mines laid down on the board. Find them without \"\"finding\"\" them. Your first tile is free - click anywhere. The tiles will tell you how many mines are right next to it, including the diagonals. If you uncover the number '2', you know that there are two mines hidden in the adjacent tiles. If you think you have found a mine, you can flag it by either 'shift' clicking, or click with the 'yellow' mouse button. Once you have flagged all of the mines adjacent to a numbered tile, you can click on the tile again to uncover the rest. Of course, you could be wrong about those too... \n"
+"\n"
+"You win once you have uncovered all of the tiles that do not contain mines. Good luck...\n"
+"\n"
+"David A. Smith\n"
+"dastrs@bellsouth.net"
+msgstr ""
+
+#: Morphic-Games,Mines>>makeControls
+msgid "  New game  "
+msgstr " 　新しいゲーム  "
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Mines:"
+msgstr "地雷:"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Time:"
+msgstr "回数:"
+
+#: Morphic-Games,PlayingCard_class>>initialize
+msgid "corrupted imageData"
+msgstr ""
+
+#: Morphic-Games,PlayingCardDeck>>acceptDroppingMorph:event:
+msgid "move card"
+msgstr "カードを動かす"
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "A board game implementedby Tim Olson, based on a game originally written for UNIX by Eiji Fukumoto."
+msgstr "Eiji FukumotoのUNIX版を元にTim Olsenが書いたゲーム。"
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "Same"
+msgstr "保存"
+
+#: Morphic-Games,SameGame>>helpString
+msgid ""
+"The object of SameGame is to maximize your score by removing tiles from the board.  Tiles are selected and removed by clicking on a tile that has at least one adjacent tile of the same color (where adjacent is defined as up, down, left, or right).\n"
+"\n"
+"The first click selects a group of adjacent tiles, a second click in that group will remove it from the board, sliding tiles down and right to fill the space of the removed group.  If you wish to select a different group, simply click on it instead.\n"
+"\n"
+"The score increases by \"(selection - 2) squared\", so you want to maximize the selection size as much as possible.  However, making small strategic selections may allow you to increase the size of a later selection.\n"
+"\n"
+"If you are having a hard time finding a group, the \"Hint\" button will find one and select it for you (although it is likely not the best group to select!).\n"
+"\n"
+"When there are no more groups available, the score display will flash with your final score.  Your final score is reduced by 1 for each tile remaining on the board.  If you manage to remove all tiles, your final score is increased by a bonus of 5 times the number of tiles on a full board.\n"
+"\n"
+"Come on, you can beat that last score!  Click \"New game\"  ;-)\n"
+"\n"
+"SameGame was originally written by Eiji Fukumoto for UNIX and X; this version is based upon the same game concept, but was rewritten from scratch."
+msgstr ""
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Hint"
+msgstr "ヒント"
+
+#: Morphic-Games,SameGame>>makeControls,Tetris>>showScoreDisplay
+msgid "Score:"
+msgstr "スコア:"
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Selection:"
+msgstr "選択:"
+
+#: Morphic-Games,SameGameBoard>>removeSelection
+msgid "remove selection"
+msgstr "選択を削除"
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris"
+msgstr "テトリス"
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris, yes Tetris"
+msgstr "テトリスつったらテトリスだい"
+
+#: Morphic-Games,Tetris>>makeGameControls
+msgid "pause"
+msgstr "ポーズ"
+
+#: Morphic-Games,Tetris>>makeGameControls,TheWorldMenu>>buildWorldMenu
+msgid "quit"
+msgstr "終了"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "drop"
+msgstr "落とす"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the left"
+msgstr "左へ移動"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the right"
+msgstr "右へ移動"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate anticlockwise"
+msgstr "反時計回り"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate clockwise"
+msgstr "時計回り"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "A fine game of chess"
+msgstr "チェスゲーム"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "Chess"
+msgstr "チェス"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin,ChineseCheckers_class>>descriptionForPartsBin,CipherPanel_class>>descriptionForPartsBin,CrosticPanel_class>>descriptionForPartsBin,FreeCell_class>>descriptionForPartsBin,Mines_class>>descriptionForPartsBin,SameGame_class>>descriptionForPartsBin
+msgid "Games"
+msgstr "ゲーム"
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Auto  "
+msgstr "  自動  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Help  "
+msgstr "  ヘルプ  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  New  "
+msgstr "  新規  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Play  "
+msgstr "  再生  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Quit  "
+msgstr "  終了  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Redo  "
+msgstr "  やり直し  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Undo  "
+msgstr "  元にもどす  "
+
+#: Morphic-Games-Chess,ChessMorph>>findBestMove
+msgid "I suggest: "
+msgstr ""
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border"
+msgstr "輪郭線"
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border color..."
+msgstr "輪郭線の色…"
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border style..."
+msgstr "線の形…"
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border width..."
+msgstr "輪郭線の幅…"
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid "border change"
+msgstr "輪郭線の変更"
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "ロード"
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,Morph_class>>serviceLoadMorphFromFile
+msgid "load as morph"
+msgstr "モーフを読み込みます"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "child layout"
+msgstr "子レイアウト"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "horizontal resizing"
+msgstr "水平方向のサイズ調整"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "vertical resizing"
+msgstr "垂直方向のサイズ調整"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy Postscript"
+msgstr "ポストスクリプトにしてコピーバッファへ"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy text"
+msgstr "テキストをコピーする"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy to paste buffer"
+msgstr "ペーストバッファにコピー"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:
+msgid "copy & print..."
+msgstr "コピー&印刷…"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "print Postscript to file..."
+msgstr "ポストスクリプトをファイルに出力…"
+
+#: Morphic-Kernel,Morph>>addDebuggingItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>debugMenu
+msgid "debug..."
+msgstr "デバッグ…"
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "drop shadow"
+msgstr "かげをつける"
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow color..."
+msgstr "かげの色…"
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow offset..."
+msgstr "かげの位置…"
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "desktop"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "embed into"
+msgstr "埋め込む先"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "BMP file"
+msgstr "BMP ファイル"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "export..."
+msgstr "書き出し…"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "GIF file"
+msgstr "GIF ファイル"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "JPEG file"
+msgstr "JPEG ファイル"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "PNG file"
+msgstr "PNGファイル"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "bitmap fill"
+msgstr "ビットマップのぬりつぶし"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:
+msgid "change color..."
+msgstr "色の変更…"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "default fill"
+msgstr "デフォルトのぬりつぶし"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,TextMorph>>addFillStyleMenuItems:hand:
+msgid "fill style"
+msgstr "ぬりつぶし方"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "gradient fill"
+msgstr "グラデーションのぬりつぶし"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "solid fill"
+msgstr "単一色のぬりつぶし"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the color of this object"
+msgstr "このオブジェクトの色を変える"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the size of this object"
+msgstr "このオブジェクトの大きさを変える"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Delete this object -- warning -- can be destructive!"
+msgstr "このオブジェクトを削除します。不可逆操作なので注意してください"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "delete"
+msgstr "削除"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "duplicate"
+msgstr "複製"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "grab"
+msgstr "つかむ"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a copy of this object"
+msgstr "このオブジェクトのコピーを作る"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a tile represting this object"
+msgstr "このオブジェクトをあらわすタイルを出す"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "halo actions..."
+msgstr "ハロの動作…"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Make a new sibling of this object and hand it to me"
+msgstr "兄弟を一つ作り、マウスカーソルにつけます"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "make a sibling"
+msgstr "兄弟を一つ作る"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a property sheet for me. Allows changing lots of stuff at once."
+msgstr "プロパティ・シートを開きます。さまざまな属性を一度に変更できます。"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a tool that will facilitate tile scripting of this object."
+msgstr "タイル・スクリプティング用のブラウザを開きます。"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a Viewer that will allow everything about this object to be seen and controlled."
+msgstr "このオブジェクトを覗くためのビューワを開きます。"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open an Inspector on this object"
+msgstr "インスペクタを開きます"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Pick this object up -- warning, since this removes it from its container, it can have adverse effects."
+msgstr "このオブジェクトをつかむ。このオブジェクトが入れ物から取り出されることに注意してください。"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "property sheet"
+msgstr "プロパティシート"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "resize"
+msgstr "サイズ変更"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "set color"
+msgstr "色を設定"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile browser"
+msgstr "タイルブラウザ"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile representing this object"
+msgstr "このオブジェクトを表すタイル"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "viewer"
+msgstr "ビューワ"
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "change layout inset..."
+msgstr "レイアウトインセットを変更"
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "layout"
+msgstr "レイアウト"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock all contents"
+msgstr "すべての内容のロックを解除"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock \"{1}\""
+msgstr "\"{1}\"のロックを解除する"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock..."
+msgstr "ロック解除…"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "add mouse up action"
+msgstr "マウスアップアクションを追加"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "adhere to edge..."
+msgstr "端にくっつける…"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "arrowheads on pen trails..."
+msgstr "ペンの軌跡に矢印をつける..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "balloon help for this object"
+msgstr "このオブジェクトのバルーンヘルプ"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "delete existing path"
+msgstr "描いた道筋を削除"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "draw new path"
+msgstr "新しい道筋を描く"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "extras..."
+msgstr "特別…"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "follow existing path"
+msgstr "描いた道筋をたどる"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "GeeMail stuff..."
+msgstr "GeeMail関係..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "hand me tiles to fire this button"
+msgstr "このボタンを起動するタイルを出す"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "put in a window"
+msgstr "ウィンドウに入れる"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "remove mouse up action"
+msgstr "マウスアップアクションを削除"
+
+#: Morphic-Kernel,Morph>>addMorphFrontFromWorldPosition:
+msgid "add slot for {1}"
+msgstr "{1}に変数を追加しますか？"
+
+#: Morphic-Kernel,Morph>>addMouseUpAction
+msgid "MouseUp expression:"
+msgstr "マウスアップ時に実行する式:"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "add a border around this shape..."
+msgstr "この形の周りに縁を付ける"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "erase pixels of color"
+msgstr "指定した色の画素を消す"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "insert into movie"
+msgstr "ムービーに挿入"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "painting..."
+msgstr "お絵描き…"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "recolor pixels of color"
+msgstr "画素を指定した色に変更"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reduce color palette"
+msgstr "カラーパレットを圧縮"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "repaint"
+msgstr "再描画"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reset forward-direction"
+msgstr "進行方向を初期化"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "restore original aspect ratio"
+msgstr "元の縦横比に戻す"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "set rotation center"
+msgstr "回転の中心を設定"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "set rotation style"
+msgstr "回転方法の設定"
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "bring to front"
+msgstr "前に出す"
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "embed..."
+msgstr "埋め込む..."
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "present a menu of potential embeddeding targets for this object, and embed it in the one chosen."
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell positioning"
+msgstr "セルの配置"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell spacing"
+msgstr "セルの余白"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change cell inset..."
+msgstr "セルの余白..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change max cell size..."
+msgstr "セルの大きさの最大値..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change min cell size..."
+msgstr "セルの大きさの最小値..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list centering"
+msgstr "リストのセンタリング"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list direction"
+msgstr "並べる方向"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list spacing"
+msgstr "並べる余白"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:,Morph>>hasTableLayoutString
+msgid "table layout"
+msgstr "表型レイアウト"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap centering"
+msgstr "折り返しのセンタリング"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap direction"
+msgstr "折り返す方向"
+
+#: Morphic-Kernel,Morph>>addTextAnchorMenuItems:hand:
+msgid "text anchor"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "when \"locked\", I am inert to all user interactions"
+msgstr "ロックされているときにすべての操作を無視するかどうか"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether direction handles are shown with the halo"
+msgstr "このハロといっしょに向きハンドルを表示するかどうか"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I am open to having objects dropped into me"
+msgstr "自分にドロップされたオブジェクトを受け入れるかどうか"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be reistant to easy deletion via the pink X handle"
+msgstr "ピンクのXボタンで簡単に削除できるかどうかです"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be resistant to a drag done by mousing down on me"
+msgstr "自分の上のマウスダウンによるドラッグができるかどうか"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether my corners should be rounded"
+msgstr "角が丸いかどうかです"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether the parts of objects within me that are outside my bounds should be masked."
+msgstr "子のはみ出している部分を隠すかどうか"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom"
+msgstr "下端"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom left"
+msgstr "左下"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom right"
+msgstr "右下"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "center"
+msgstr "中央"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "left"
+msgstr "左端"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "right"
+msgstr "右端"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top"
+msgstr "上端"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top left"
+msgstr "左上"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top right"
+msgstr "右上"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Center of rotation (hold down shift key and drag to change it)"
+msgstr "回転の中心（シフトを押しながらドラッグして変更できます）"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change color (press shift for more properties)"
+msgstr ""
+"色の変更(シフトを押すとさらに多くの\n"
+"プロパティを設定できます)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change font"
+msgstr "フォントを変える"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change scale"
+msgstr "拡大率を変える"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change size (press shift to preserve aspect)"
+msgstr ""
+"大きさの変更(シフトを押すと\n"
+"縦横比を維持します)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change style"
+msgstr "スタイルを変える"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose a new graphic"
+msgstr "新しい画像の選択"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose forward direction"
+msgstr "進行方向を選ぶ"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Collapse"
+msgstr "たたむ"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Debug (press shift to inspect morph)"
+msgstr "デバッグ (シフトを押すとモーフの検査になります)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate"
+msgstr "複製する"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate (press shift to make a sibling)"
+msgstr "複製 (シフトを押すと兄弟を作ります)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Emphasis & alignment"
+msgstr "強調と文字揃え"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Fewer halo handles"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a scratch script"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling"
+msgstr "兄弟を一つ作る"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling (press shift to make simple duplicate)"
+msgstr ""
+"兄弟を作る (シフトを押すと単純に\n"
+"複製を作ります)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a tile representing this object"
+msgstr "このオブジェクトを表すタイルを作る"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Menu"
+msgstr "メニュー"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "More halo handles"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move"
+msgstr "動かす"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move to trash"
+msgstr "ゴミ箱へ移動"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Open a Viewer for me"
+msgstr "ビューワを開く"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint background"
+msgstr "背景を描く"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint new object"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Pick up"
+msgstr "つまむ"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Present the Viewing menu"
+msgstr "ビュー・メニューの表示"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Property Sheet (press shift for simple recolor)"
+msgstr ""
+"プロパティシート\n"
+"(シフトを押すと簡単な色パレットが出ます)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Remove from screen"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Repaint"
+msgstr "描き直し"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Rotate"
+msgstr "回転する"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "See the script for this button"
+msgstr "このボタンのスクリプトを見る"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Set center of rotation"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "control-menu..."
+msgstr ""
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore model"
+msgstr "モデルを探索する"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore morph"
+msgstr "モーフを探索する"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "inspect model"
+msgstr "モデルの検査"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph"
+msgstr "モーフの検査"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph (in MVC)"
+msgstr "MVCでモーフの検査"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect owner chain"
+msgstr "オーナー列の検査"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect player"
+msgstr "プレイヤの検査"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect properties"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "internal name "
+msgstr ""
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "make own subclass"
+msgstr "自分のサブクラスを作る"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "model protocol"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "morph protocol"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a Viewer on this Morph, rather than on its Player"
+msgstr "プレイヤの代わりに、モーフのビューワを開く。"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a viewer on my Player -- this is the same thing you get if you click on the cyan \"View\" halo handle"
+msgstr "プレイヤのビューワを開く。これは水色のビュー・ハロをクリックするのと同じです。"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "save morph in file"
+msgstr "モーフをファイルへ保存"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start drawing again"
+msgstr "描画を再開する"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start stepping again"
+msgstr "stepを再開する"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Morph"
+msgstr "モーフのビューワ"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Player"
+msgstr "プレイヤのビューワ"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "add halo"
+msgstr "ハロを追加"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "attach to resource"
+msgstr "リソースを付加"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "become this world's model"
+msgstr "このオブジェクトをワールドのモデルにする。"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "browse hierarchy"
+msgstr "階層ブラウザを開く"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "explore"
+msgstr "探索"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "go behind"
+msgstr "背後に送る"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save as resource"
+msgstr "リソースとして保存する"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save morph as prototype"
+msgstr "モーフの元として保存する"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set variable name..."
+msgstr "変数名を設定…"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "show actions"
+msgstr "アクションを表示"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "submorphs..."
+msgstr "サブモーフ..."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "update from resource"
+msgstr "リソースから更新する"
+
+#: Morphic-Kernel,Morph>>dismissViaHalo
+msgid "dismiss "
+msgstr "閉じる"
+
+#: Morphic-Kernel,Morph>>editBalloonHelpContent:
+msgid "Edit the balloon help text for "
+msgstr "バルーンヘルプテキストを編集"
+
+#: Morphic-Kernel,Morph>>editMenuButtonDefinition
+msgid " menu definition"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>embedInto:
+msgid "Embed {1} into..."
+msgstr "{1}を埋め込む先..."
+
+#: Morphic-Kernel,Morph>>exportAsBMP,Morph>>exportAsGIF,Morph>>exportAsJPEG,Morph>>exportAsPNG
+msgid "Please enter the name"
+msgstr "名前を入力"
+
+#: Morphic-Kernel,Morph>>hasClipLayoutCellsString
+msgid "clip to cell size"
+msgstr "セルの大きさで切り取る"
+
+#: Morphic-Kernel,Morph>>hasClipSubmorphsString
+msgid "provide clipping"
+msgstr "切り取るか"
+
+#: Morphic-Kernel,Morph>>hasDirectionHandlesString
+msgid "direction handles"
+msgstr "向きハンドルを表示するか"
+
+#: Morphic-Kernel,Morph>>hasDisableTableLayoutString
+msgid "disable layout in tables"
+msgstr "表型レイアウト機能を無効にする"
+
+#: Morphic-Kernel,Morph>>hasDocumentAnchorString
+msgid "Document"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>hasDragAndDropEnabledString
+msgid "accept drops"
+msgstr "ドロップを受け入れるか"
+
+#: Morphic-Kernel,Morph>>hasDropShadowString
+msgid "show shadow"
+msgstr "かげを表示するか"
+
+#: Morphic-Kernel,Morph>>hasInlineAnchorString
+msgid "Inline"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>hasNoLayoutString
+msgid "no layout"
+msgstr "レイアウトの有無"
+
+#: Morphic-Kernel,Morph>>hasParagraphAnchorString
+msgid "Paragraph"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>hasProportionalLayoutString
+msgid "proportional layout"
+msgstr "比例レイアウト"
+
+#: Morphic-Kernel,Morph>>hasReverseCellsString
+msgid "reverse table cells"
+msgstr "表のセルを反転する"
+
+#: Morphic-Kernel,Morph>>hasRubberBandCellsString
+msgid "rubber band cells"
+msgstr "セルを伸び縮みさせる"
+
+#: Morphic-Kernel,Morph>>helpButton
+msgid "click here for help"
+msgstr "ここをクリックするとヘルプが表示されます"
+
+#: Morphic-Kernel,Morph>>inspectMorphsProperties
+msgid "no properties to inspect, sorry"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>lockedString
+msgid "be locked"
+msgstr "モーフがロックされているか"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a background color"
+msgstr "背景色を選んでください"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a line color"
+msgstr "線の色を選んでください"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Enter grid size"
+msgstr "グリッドの幅を入力してください"
+
+#: Morphic-Kernel,Morph>>makeMultipleSiblings:
+msgid "how many siblings do you want?"
+msgstr "兄弟をいくつ作りますか?"
+
+#: Morphic-Kernel,Morph>>maybeAddCollapseItemTo:
+msgid "collapse"
+msgstr "たたむ"
+
+#: Morphic-Kernel,Morph>>menuButton
+msgid "click here to get a menu with further options"
+msgstr "ここを押すと追加のオプションメニューが表示されます"
+
+#: Morphic-Kernel,Morph>>noHelpString
+msgid "Help not yet supplied"
+msgstr "ヘルプがありません"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "Choose orientation..."
+msgstr "用紙の向き..."
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "File name? (\"{1}\" will be added to end)"
+msgstr "ファイル名は？(自動的に{1}が付加されます)"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid ""
+"portrait (tall)\n"
+"landscape (wide)"
+msgstr ""
+"ポートレイト (縦長)\n"
+"ランドスケープ (横長)"
+
+#: Morphic-Kernel,Morph>>resistsRemovalString
+msgid "resist being deleted"
+msgstr "削除できないか"
+
+#: Morphic-Kernel,Morph>>roundedCornersString
+msgid "round corners"
+msgstr "角は丸いか"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "File name? (\".morph\" will be added to end)"
+msgstr "ファイル名は？(拡張子”.moprh\"が付加されます)"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "my {1}"
+msgstr "私の {1}"
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid "morph's SqueakPage property is out of date"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid ""
+"url of a place to store this object.\n"
+"Must begin with file:// or ftp://"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>setArrowheads
+msgid "Head size for arrowheads: "
+msgstr "矢尻の大きさ "
+
+#: Morphic-Kernel,Morph>>showEmbedMenu
+msgid "embed {1} in..."
+msgstr "{1}を埋め込む先..."
+
+#: Morphic-Kernel,Morph>>stickinessString
+msgid "resist being picked up"
+msgstr "モーフがつかめないか"
+
+#: Morphic-Kernel,Morph>>targetFromMenu:popupAt:
+msgid "Target for {1}"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>undoGrabCommand
+msgid "move "
+msgstr "移動 "
+
+#: Morphic-Kernel,Morph>>unlockOneSubpart
+msgid "Who should be be unlocked?"
+msgstr ""
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "close editing"
+msgstr "編集を閉じる"
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "open editing"
+msgstr "編集を開く"
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "A tool that lets you browse and load packages from SqueakMap, an index of Squeak code available on the internet"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "Package Loader"
+msgstr "パッケージ・ローダ"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "appearance..."
+msgstr "外観…"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "apply a graph-paper-like texture background to the desktop."
+msgstr "方眼紙様の背景を使います"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose the standard fonts to use for code, lists, menus, window titles, etc."
+msgstr "コード、リスト、メニュー、タイトルなどで使うフォントを選びます。"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color should be used for text highlighting in Morphic."
+msgstr "モーフィックで使うテキスト選択時の色を選びます。"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for highlighting which pane has the keyboard focus"
+msgstr "どの欄がキーボード・フォーカスを持つかを示す強調色を選びます。"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for the text insertion point in Morphic."
+msgstr "モーフィックでのテキストカーソルの色を選びます。"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose a uniform color to use as desktop background."
+msgstr "背景を単一色にし、その色を指定します"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose how many bits per pixel."
+msgstr "一ピクセルあたりのビット数を指定します"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose second color to use as gradient for desktop background."
+msgstr "背景をグラデーションにするために、二番目の色を指定します"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose the shape to be used in arrowheads on pen trails."
+msgstr "矢印型ペン軌跡の形状を指定します"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose theme..."
+msgstr "テーマの選択..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "clear turtle trails from desktop"
+msgstr "ペン軌跡をデスクトップから消す"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen off"
+msgstr "全画面表示をやめる"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen on"
+msgstr "全画面表示にする"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether menu colors should be derived from the desktop color."
+msgstr "メニューの色をデスクトップの色を元に決めるかどうかを指定します。"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether morphic windows and menus should have rounded corners."
+msgstr "ウィンドウやメニューの角を丸めるかどうかを指定します"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "if in full-screen mode, takes you out of it."
+msgstr "全画面モードの場合、ウィンドウにの中に入れます"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "insertion point color..."
+msgstr "テキストカーソルの色..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "keyboard focus color"
+msgstr "キーボード・フォーカスの色"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Lets you specify colors for standard system windows."
+msgstr "標準的なツールのウィンドウの色を指定できます"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Opens a \"Preferences Panel\" which allows you to alter many settings"
+msgstr "プリファレンス・パネルを開いていろいろな設定を変更できます"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Presents you with a menu of themes; each item's balloon-help will tell you about the theme.  If you choose a theme, many different preferences that come along with that theme are set at the same time; you can subsequently change any settings by using a Preferences Panel"
+msgstr "テーマを一覧から選びます。それぞれの項目にはバルーンヘルプがあります。テーマを変更すると、多くの設定を一度に変えることができます。後から個別に変更することもできます。"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "pen-trail arrowhead size..."
+msgstr "ペン軌跡の矢印の大きさ..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "puts you in full-screen mode, if not already there."
+msgstr "(そうでない場合)フルスクリーンモードにします。"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "remove any pigment laid down on the desktop by objects moving with their pens down."
+msgstr "オブジェクトのペンによって描かれた軌跡をすべて消します"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set desktop color..."
+msgstr "デスクトップ色の設定..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set display depth..."
+msgstr "ディスプレイ・ビット深度の設定..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set gradient color..."
+msgstr "グラデーションの色を設定..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "system fonts..."
+msgstr "システム・フォント..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "text highlight color..."
+msgstr "テキスト選択の色..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "use texture background"
+msgstr "模様入りの背景を使う"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "window colors..."
+msgstr "ウィンドウの色..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of choices useful for authoring"
+msgstr "オーサリングに役立つ項目を持つメニューです"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of commands relating to use of projects"
+msgstr "プロジェクトの使用法に関係したコマンドのメニューです"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of options pertaining to this object as viewed as a playfield"
+msgstr "このオブジェクトを遊び場として見たときに関係するメニューです"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu relating to use of flaps.  For best results, use \"keep this menu up\""
+msgstr "フラップの使用法に関係するメニューです。このメニューを表示したままにしておくと便利です"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A tool for finding and obtaining many kinds of objects"
+msgstr "多種のオブジェクトを探すためのツールです"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "a menu of debugging items"
+msgstr "デバッグ用アイテムのメニューです"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>changesMenu
+msgid "changes..."
+msgstr "変更…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "do..."
+msgstr "実行…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "flaps..."
+msgstr "フラップ…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>helpMenu
+msgid "help..."
+msgstr "ヘルプ…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "new morph..."
+msgstr "新しいモーフ…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "Offers a variety of ways to create new objects"
+msgstr "新しいオブジェクトを作成する様々な方法を提供します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "objects (o)"
+msgstr "オブジェクト (o)"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu
+msgid "open a code editor on the method that defines this menu"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "projects..."
+msgstr "プロジェクト…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up a menu offering many controls over appearance."
+msgstr "外観について、多くのコントロールを持つメニューを開きます"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up an editible list of convenient expressions, and evaluate the one selected."
+msgstr "編集可能な便利な式のリストを開きます。選択したものは評価できます。"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "puts up a menu of useful items for updating the system, determining what version you are running, and much else"
+msgstr "システムを更新したり、どのバージョンを実行しているかなど、多くの有用な項目のメニューを開きます"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "windows..."
+msgstr "ウィンドウ…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "give the current image a new version-stamped name and save it under that name on disk."
+msgstr "現在のイメージを新しい版番号付きの名前でディスクに保存します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "jump to project..."
+msgstr "プロジェクトへジャンプ"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "load a project from a file"
+msgstr "ファイルからプロジェクトを読み込みます"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "load project from file..."
+msgstr "プロジェクトをファイルから読込…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "previous project"
+msgstr "前のプロジェクト"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "print PS to file..."
+msgstr "PSをファイルに印刷"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "put up a list of all projects, letting me choose one to go to"
+msgstr "全プロジェクトリストから、移動先を選択します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "quit out of Squeak."
+msgstr "スクィークを終了します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
+msgstr "スクリーンを再表示します -- ゴミやカーソルなど不要物を消すときに便利です"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "restore display (r)"
+msgstr "ディスプレイを再表示 (r)"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "return to the most-recently-visited project"
+msgstr "直前に使っていたプロジェクトへ戻ります"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save"
+msgstr "保存"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save and quit"
+msgstr "保存して終了"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as new version"
+msgstr "新しい版として保存"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as..."
+msgstr "別名で保存…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save project on file..."
+msgstr "プロジェクトをファイルに保存…"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current image on disk, and quit out of Squeak."
+msgstr "現在のイメージを保存してスクィークを終了します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk"
+msgstr "現在の版のイメージをディスクに保存します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk under a new name."
+msgstr "現在の版のイメージを新しい名前でディスクに保存します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save this project on a file"
+msgstr "このプロジェクトをファイルに保存します"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "write the world into a postscript file"
+msgstr "ワールドをポストスクリプトファイルに書き出します"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "Brings an open change sorter to the front, creating one if necessary, and makes it the active window"
+msgstr "すでに存在しているチェンジソーター、あるいは新しく作ったものを前面に持ってきます。"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse changed methods"
+msgstr "現在のチェンジセットのメソッドをブラウズ"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse recent submissions"
+msgstr "最近の変更をブラウズ"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Check the current change set for halts, references to the Transcript, etc., and if any such thing is found, open up a message-list browser detailing all possible slips."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a file holding the logged changes (going as far back as you wish), and open a window on that file."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a new change set and make it the current one."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "check change set for slips"
+msgstr "現在のチェンジセットのスリップをチェック"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "create new change set..."
+msgstr "チェンジセットを作成..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "dual change sorter"
+msgstr "デュアル・チェンジ・ソーター"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "file out current change set"
+msgstr "現在のチェンジセットをファイルアウト"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "find a change sorter (C)"
+msgstr "チェンジソーターを探す (C)"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "find recent submissions (R)"
+msgstr "最近の変更ブラウザを開く (R)"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Isolate this project and its subprojects from the rest of the system.  Changes to methods here will be revoked when you leave this project."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "isolate changes of this project"
+msgstr "プロジェクトの変更を分離"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Make an open recent-submissions browser be the front-window, expanding a collapsed one or creating a new one if necessary.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted, latest first.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions at the top of the browser."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a 3-paned changed-set viewing tool"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change sorter that shows you two change sets at a time, making it easy to copy and move methods and classes between them."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change-list browser on the latter part of the changes log.  You can use this browser to recover logged changes which were not saved in your image, in the event of a crash or other interruption."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a message-list browser showing all methods in the current change set"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a new recent-submissions browser.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "propagate changes upward"
+msgstr "プロジェクトの変更を伝搬"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recent log file..."
+msgstr "最近のログファイル..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recently logged changes..."
+msgstr "最近記録された変更..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Save a file that, when reloaded, reconstitutes the current World."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "save world as morph file"
+msgstr "ワールドをモーフで保存"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "simple change sorter"
+msgstr "シンプル・チェンジ・ソーター"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "The changes made in this isolated project will propagate to projects up to the next isolation layer."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Write the current change set out to a file whose name reflects the change set name and the current date & time."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>cleanUpWorld
+msgid ""
+"This will remove all windows except those\n"
+"containing unsubmitted text edits, and will\n"
+"also remove all non-window morphs (other\n"
+"than flaps) found on the desktop.  Are you\n"
+"sure you want to do this?"
+msgstr ""
+"保存されていないテキストを持たないウィンドウと\n"
+"ウィンドウでないモーフを削除します。\n"
+"本当に実行しますか?"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "call #tempCommand"
+msgstr "#tempCommandを呼ぶ"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "define #tempCommand"
+msgstr "#tempCommandを定義"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "explore world"
+msgstr "ワールドを探索する"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "inspect world"
+msgstr "ワールドの検査"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "open process browser"
+msgstr "プロセスブラウザを開く"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start MessageTally"
+msgstr "MessageTallyを開始"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start/browse MessageTally"
+msgstr "MessageTallyを開始してブラウズ"
+
+#: Morphic-Kernel,TheWorldMenu>>editShowSourceMenu
+msgid "show-source menu"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "a window full of useful expressions."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "annotation setup..."
+msgstr "アノテーション設定..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "Click here to get a little window that will allow you to specify which types of annotations, in which order, you wish to see in the annotation panes of browsers and other tools"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "choose the language in which tiles should be displayed."
+msgstr "タイル表示に使う言語を選びます。"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "commands for doing multi-machine \"telemorphic\" experiments"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "command-key help"
+msgstr "コマンドキーの機能を見る"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "current version information."
+msgstr "現在のバージョン情報"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "definition for..."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "font size summary"
+msgstr "フォントの一覧"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "graphical imports"
+msgstr "画像ライブラリ"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "helps find menu items buried in submenus."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "if connected to the internet, use this to look up the definition of an English word."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "lets you view and change the system's standard library of graphics."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "load latest code updates via the internet"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "obtain some intriguing data about the vm."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "perform a full garbage-collection and report how many bytes of space remain in the image."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "purge undo records"
+msgstr "アンドゥ情報のクリア"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "save space by removing all the undo information remembered in all projects."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set author initials..."
+msgstr "開発者のイニシャルを設定..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set language..."
+msgstr "言語を設定…"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "space left"
+msgstr "残りのスペース"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "standard graphics library"
+msgstr "標準画像ライブラリ"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of keyboard shortcuts."
+msgstr "コマンドキーの一覧を表示します。"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of names and sizes of available fonts."
+msgstr "スクイークで使えるフォントの 名前と大きさの一覧を表示します"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "supply initials to be used to identify the author of code and other content."
+msgstr "ソースコードやその他のコンテンツの作者がわかるよう、イニシャルを入力します"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "telemorphic..."
+msgstr "テレモーフ..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "turning sound off will completely disable Squeak's use of sound."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "update code from server"
+msgstr "サーバーからアップデートを取得"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "useful expressions"
+msgstr "役に立つ式"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view and change various options."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view the global repository called ImageImports; you can easily import external graphics into ImageImports via the FileList"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "vm statistics"
+msgstr "VM情報"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "world menu help"
+msgstr "ワールドメニューのどこに何があるか"
+
+#: Morphic-Kernel,TheWorldMenu>>loadProject
+msgid "Select a File:"
+msgstr "ファイルの選択:"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "Add a new morph"
+msgstr "新しいモーフの追加"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from a file..."
+msgstr "ファイルから..."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from alphabetical list"
+msgstr "アルファベット順のリストから作ります。"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from paste buffer"
+msgstr "ペーストバッファから作ります。"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab flood area from screen"
+msgstr "同色の連続した領域から作ります。"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rectangle from screen"
+msgstr "画面上の長方形を指定します。"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rubber band from screen"
+msgstr "画面上にゴムひもを張るようにして作ります。"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab with lasso from screen"
+msgstr "画面上を線で囲んで作ります。"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make link to project..."
+msgstr "プロジェクトへのリンクを作ります..."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make new drawing"
+msgstr "新しいお絵描きを作ります"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A five-paned tool that lets you see all the code in the system"
+msgstr "枠が5つあるコード閲覧用ツール。"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A place for recording \"event movies\" using the Event Recorder"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to browse any file"
+msgstr "ファイルをブラウズできるツール"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to compare and manipulate two change sets concurrently"
+msgstr "２つのチェンジセットを比較したり同時に操作できるツール"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to view the methods in a single change set"
+msgstr "チェンジセット内のメソッドを表示するツール"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for discovering methods"
+msgstr "メソッドを見つけるためのツール"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for finding and editing methods that contain any given keyword in their names."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window for composing text"
+msgstr "テキスト入力できるウインドウ"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window used to report messages sent to Transcript"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "browser (b)"
+msgstr "ブラウザ (b)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new morphic project"
+msgstr "新しいモーフィックプロジェクトを作ります。"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new project of the classic \"mvc\" style"
+msgstr "MVCスタイルの新しいプロジェクトを作ります。"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "event theatre"
+msgstr "イベントシアター"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file list"
+msgstr "ファイル・リスト"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file..."
+msgstr "ファイル..."
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Lets you open a window on a single file"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "message names (W)"
+msgstr "メッセージ名 (W)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "method finder"
+msgstr "メソッド・ファインダ"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "morphic project"
+msgstr "モーフィック・プロジェクト"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "mvc project"
+msgstr "MVCプロジェクト"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "package-pane browser"
+msgstr "パッケージ欄付きブラウザ"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Similar to the regular browser, but adds an extra pane at top-left that groups class-categories that start with the same prefix"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "transcript (t)"
+msgstr "トランスクリプト (t)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "workspace (k)"
+msgstr "ワークスペース (k)"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new morphic project"
+msgstr "新しくプロジェクトを作る"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new mvc project"
+msgstr "新しくMVCプロジェクトを作る"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to next project"
+msgstr "次のプロジェクト"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to previous project"
+msgstr "前のプロジェクト"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "Opens a window that shows names and relationships of all the projects in your system."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "revert to saved copy"
+msgstr "保存されているコピーの状態に戻す"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save for future revert"
+msgstr "後で元に戻せるよう保存"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save on server (also makes a local copy)"
+msgstr "サーバーと手元のディスクの両方に保存する"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save project on local file only"
+msgstr "手元のディスクにだけプロジェクトを保存する"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save to a different server"
+msgstr "異なるサーバーに保存する"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "see if server version is more recent..."
+msgstr "新しいバージョンが公開されているかを確認"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "show project hierarchy"
+msgstr "プロジェクト階層の表示"
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "can't seem to find that project"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "Select a project"
+msgstr "プロジェクトを選択"
+
+#: Morphic-Kernel,TheWorldMenu>>quitSession
+msgid "Save changes before quitting?"
+msgstr "終了する前に変更を保存しますか?"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Choose a file\n"
+"to load"
+msgstr ""
+"読み込むファイルを\n"
+"選んでください。"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Sorry, no suitable files found\n"
+"(names should end with .morph, .gif,\n"
+".bmp, .jpeg, .jpe, .jp, or .form)"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid "unrecognized image file format"
+msgstr "認識できない画像ファイル形式です"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "connect remote user"
+msgstr "リモートユーザに接続"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect all remote users"
+msgstr "全てのリモートユーザを切断"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect remote user"
+msgstr "リモートユーザを切断"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "local host address"
+msgstr "ローカルホストアドレス"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "Telemorphic"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>setDisplayDepth
+msgid "Choose a display depth"
+msgstr "ディスプレイのビット深度を選んでください。"
+
+#: Morphic-Kernel,TheWorldMenu>>vmStatistics
+msgid "VM Statistics"
+msgstr "VM情報"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open fileList  to the front, creating one if necessary, and makes it the active window"
+msgstr "すでに存在しているファイルリスト、あるいは新しく作ったものを前面に持ってきます。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open MessageNames window to the front, creating one if necessary, and makes it the active window"
+msgstr "すでに存在しているメッセージ名検索ウィンドウ、あるいは新しく作ったものを前面に持ってきます。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open Transcript to the front, creating one if necessary, and makes it the active window"
+msgstr "すでに存在しているトランスクリプト、あるいは新しく作ったものを前面に持ってきます。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Close the topmost window if possible."
+msgstr "可能なとき最前のウインドウを閉じます。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "close top window (w)"
+msgstr "最前面のウィンドウを閉じる (w)"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all objects"
+msgstr "全てのオブジェクトをたたむ"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all windows"
+msgstr "全てのウィンドウを最小化"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all non-window morphs lying on the world."
+msgstr "ウィンドウでないすべてのモーフをワールドから削除します。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all windows that do not have unsaved text edits."
+msgstr "未保存のテキストエディタを持っていない全てのウィンドウを削除します"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete both of the above"
+msgstr "変更のない全てを閉じる"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete non-windows"
+msgstr "非ウィンドウを閉じる"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete unchanged windows"
+msgstr "変更のないウィンドウを閉じる"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "deletes all unchanged windows and also all non-window morphs lying on the world, other than flaps."
+msgstr "全ての未変更のウィンドウと、フラップ以外のワールド上のウィンドウでないモーフ全てを削除します"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Expand all collapsed windows and other collapsed objects back to their expanded forms."
+msgstr "たたまれている全てのウィンドウとその他のオブジェクトを元の広げた状態に戻します"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "expand all"
+msgstr "全てを広げる"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a fileList (L)"
+msgstr "ファイルリストを探す (L)"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a transcript (t)"
+msgstr "トランスクリプトを探す (t)"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed browsers..."
+msgstr "変更したブラウザ..."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed windows..."
+msgstr "変更したウィンドウ..."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find message names (W)"
+msgstr "メッセージ名検索ツールを探す (W)"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make all windows fully visible on the screen"
+msgstr "全てのウィンドウを画面上で全部見えるようにします"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make the topmost window become the backmost one, and activate the window just beneath it."
+msgstr "一番上のウィンドウを一番後ろに回し、その下のウィンドウをアクティブにします"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "move windows onscreen"
+msgstr "ウィンドウを画面内に移動"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "変更が未保存の全ウィンドウのリストを表示します。リストから一つ選ぶと、そのウィンドウがアクティブになります。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows; if you choose one from the list, it becomes the active window."
+msgstr "全ウィンドウのリストを表示します。リストから一つ選ぶと、そのウィンドウがアクティブになります。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of browsers that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "変更が未保存のブラウザのリストを表示します。リストから一つ選ぶと、そのウィンドウがアクティブになります。"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows and all other objects on the desktop to labeled tabs"
+msgstr "デスクトップ上に開かれている全てのウィンドウとその他オブジェクトを、ラベルつきタブに縮めます"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows to collapsed forms that only show titles."
+msgstr "開かれている全ウィンドウをたたんで、タイトルだけ表示させます"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "send top window to back (\\)"
+msgstr "最前面のウィンドウを後ろへ (\\\\)"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid ""
+"stagger: new windows positioned so you can see a portion of each one.\n"
+"                tile: new windows positioned so that they do not overlap others, if possible."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "windows"
+msgstr "ウィンドウ"
+
+#: Morphic-Kernel,TheWorldMenu>>worldMenuHelp
+msgid "Where in the world menu is..."
+msgstr "ワールドメニューのどこに何があるか"
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "change caption"
+msgstr "表題を変更"
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:
+msgid "open in recording theatre"
+msgstr ""
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoDismissString,PlaybackInvoker>>autoDismissString
+msgid "auto dismiss"
+msgstr ""
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoStartString,PlaybackInvoker>>autoStartString
+msgid "auto start"
+msgstr ""
+
+#: Morphic-Mentoring,EventPlaybackButton>>changeCaption,EventRecordingSpace>>setCaption,PlaybackInvoker>>changeCaption
+msgid "Please edit the caption"
+msgstr "表題を編集してください"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "Display this event-movie in a form such that its score can be viewed and edited."
+msgstr ""
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "open for score-editing"
+msgstr ""
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:,TheWorldMenu>>buildShowSourceMenu
+msgid "edit this menu"
+msgstr "このメニューを編集"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "inspect"
+msgstr "検査"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "play again"
+msgstr "もう一度再生"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "rewind"
+msgstr "巻き戻し"
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "A framework for creating tutorial snippets"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "マルチメディア"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "no, let me reconsider"
+msgstr "あー、いいえ、考えさせてください"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid ""
+"The current recording has not been saved, and will be\n"
+"lost if you do this; are you sure you want to proceed?"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "yes, abandon this Event Theatre"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Allows you to provide a message to be presented to a user as balloon-help when the mouse lingers over buttons that trigger playback of the tape of this event theatre"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "abandon any event-roll that may be associated with this theatre."
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add navigator flap"
+msgstr "ナビゲータフラップを追加"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add sugar navigator flap"
+msgstr "Sugarナビゲータフラップを追加"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add supplies flap"
+msgstr "Suppliesフラップを追加"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "delete old versions"
+msgstr "古いバージョンを削除"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "event roll"
+msgstr "イベントロール"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "open a horizontal piano-roll-like tool for the viewing and editing the events of this event theatre."
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Recording Options"
+msgstr "記録オプション"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove event-roll"
+msgstr "イベントロールを削除"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove navigatorFlap"
+msgstr "ナビゲータフラップを削除"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove sugar navigatorFlap"
+msgstr "Sugarナビゲータフラップを削除"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove suppliesFlap"
+msgstr "Suppliesフラップを削除"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "revert to version..."
+msgstr "過去のバージョンに戻す..."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "set balloon help"
+msgstr "バルーンヘルプをつける"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "shrink event tape"
+msgstr "イベントテープを縮める"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "convert to canonical coordinates (broken)"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event recorder"
+msgstr "イベントレコーダーを検査"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "inspect event roll"
+msgstr "イベントロールを検査"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event tape"
+msgstr "イベントテープを検査"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event theatre"
+msgstr "イベントシアターを検査"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect nav bar"
+msgstr "ナビゲータを検査"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect sound recorder"
+msgstr "サウンドレコーダーを検査"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "More options"
+msgstr "追加のオプション"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "more..."
+msgstr "さらに..."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "movie-clip player"
+msgstr "ムービープレイヤ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "parse event tape"
+msgstr "イベントテープを解釈"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addNavigatorFlap,EventRecordingSpace>>addNavigatorFlap
+msgid "Navigator"
+msgstr "ナビゲータ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>convertToCanonicalForm
+msgid "Caution: this is broken!"
+msgstr "警告：これは故障しています"
+
+#: Morphic-Mentoring,EventRecordingSpace>>editMenuButtonDefinition
+msgid "Event Theatre menu Definition"
+msgstr "イベントシアターのメニュー定義"
+
+#: Morphic-Mentoring,EventRecordingSpace>>helpString
+msgid ""
+"The Event Theatre provides a framework for authoring \"event-movies\".  It uses custom variants of the Navigator, the Supplies flap, the painting system, property sheets, Viewer flaps, etc., all of which reside within the controlled confines of the Theatre.\n"
+"\n"
+"To author an event-movie, get a  new Event Theatre from the Objects catalog or from the \"open...\" branch of the desktop menu.\n"
+"\n"
+"1. Resize the Theatre, using the halo, to the delivery size desired for playback.\n"
+"\n"
+"2. Use the menu in the controls panel to add or delete Supplies and Navigator flaps as desired.\n"
+"\n"
+"3. Edit the \"caption\" by clicking on the text that says \"Untitled\" and typing your desired caption.  This caption is affixed to playback buttons, and, generally, provides a way to identify the event-movie.\n"
+"\n"
+"4. Set up the \"initial conditions\" for the event-movie you're about to record (e.g., paint a background, provide some explanatory text, add objects you want to be present at the start of the movie.) When the recording is first opened by the user for playback, and whenever the recording has been rewound, this is exactly what it will look like.\n"
+"\n"
+"5. When ready to start the recording, press the \"Record\" button. A red border will be seen around the recorder, to indicate that recording is in progress.  Recording will continue until you hit the ESC key.\n"
+"\n"
+"6. Note that if you  want to include sound in your recording, you can add it directly during playback, or you can produce voiceover externally and add it in later using the Event Roll.\n"
+"\n"
+"7. Now proceed to \"do\", with the mouse and keyboard, whatever you wish to record.   For best results, all mouse gestures should be made within the interior of the Theatre.\n"
+"\n"
+"8. Hit ESC when done recording.\n"
+"\n"
+"9. To review what you've recorded, press \"Play\". If unhappy with the result, repeat steps 1-8.\n"
+"\n"
+"10.  If you're happy with the result, and now wish to add a sound, open the sound panel, then click Play to replay the recording, and whenever you wish to add a snippet of voiceover, click on the \"Start Recording Voiceover\" button, and start talking, and when done with that snippet click the \"Stop Recording Voiceover\" button.  Once the playback finishes, the added voiceover(s) will become part of the event tape, and will be seen in the event roll.\n"
+"\n"
+"11. When you're happy with the result, hit the \"Publish\" button, to get a playback button. There are currently two choices:\n"
+"\n"
+"a. Iconic Button - Initially provides a picture of the initial scene of the movie, scaled 0.3x, and overlaid with the word HINT.  When the user clicks on such a button, the event-movie is played back in an ephemeral \"playback theatre\", and after the playback is done, the playback theatre shrinks down to a 0.5x scale-downed picture of the *final* scene of the movie.  Subsequent hitting of the button will again invoke a playback.\n"
+"\n"
+"b. Textual Button - a simple labeled button which, when pressed, triggers playback of the event tape.\n"
+"\n"
+"12. The playback buttons you obtain when you \"Publish\" can be placed anywhere, such as on the page of a book. You can control, via a playback-button's halo menu, whether or not it should be \"auto-start\", and whether or not \"auto-dismiss\". When the user presses the button, a \"Playback\" space will open, which resembles an Event Theatre, but has only playback-relevant controls.   A playback set up for both auto-start and auto-dismiss comes without any controls.\n"
+"\n"
+"13.  To edit the \"event tape\" of a recording you have made in an Event Theatre, and for a generally good time, click on the interlocking-circles icon to obtain a tool that allows you to visualize and to edit a \"score\" or \"piano roll\" of the event tape.\n"
+"\n"
+"\n"
+"Summary of terms\n"
+"\n"
+"Event Theatre\n"
+"  The main tool for creating an Event Tape.\n"
+"\n"
+"Event Roll\n"
+"  An auxiliary tool showing the full \"score\" of an Event Tape. \n"
+"\n"
+"Event Tape\n"
+"  The results of an event-theatre session;  an interaction sequence that can be played back.\n"
+"\n"
+"Event Recording\n"
+"  A term interchangeable with \"Event Tape.\"\n"
+"\n"
+"Event Movie\n"
+"  What you see when you play back an Event Tape.\n"
+"\n"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>initializeFromPlaybackButton:
+msgid "caution - old playback; button lacks vital data."
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>inspectEventRoll
+msgid "Event Roll for "
+msgstr "次のもののイベントロール: "
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeHorizontalRoll
+msgid "Nothing recorded yet"
+msgstr "まだ記録されていません"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon existing recording and start a new one."
+msgstr "古い記録を放棄して、新しく記録を始めます"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon this effort and throw away this window"
+msgstr "作業をやめて、このウィンドウを放棄します"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Add a voiceover to the existing event-recorded sequence "
+msgstr "記録済のシーケンスにナレーションを追加"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,Tetris>>makeGameControls
+msgid "Pause"
+msgstr "一時停止"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,PlaybackInvoker_class>>defaultNameStemForInstances
+msgid "Play"
+msgstr "再生"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record"
+msgstr "録音"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record Again"
+msgstr "もう一度記録"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Replay this sequence"
+msgstr "このシーケンスを再生"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Reset to the starting condition for this recording"
+msgstr "この記録を始めたときの条件にリセットする"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume"
+msgstr "再開"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume playback"
+msgstr "再生を再開"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Rewind"
+msgstr "巻き戻し"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording"
+msgstr "記録開始"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording Voiceover"
+msgstr "ナレーションの記録を開始"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop"
+msgstr "停止"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop playing or recording this panel"
+msgstr "このパネルの再生・記録を終了"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop Record Voiceover"
+msgstr "ナレーションの記録を終了"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show this theatre's script in a piano-roll-like format for visualizaitoin and editing."
+msgstr "このイベントシアターのスクリプトを、視覚化と編集のためのピアノロールのような形式で表示"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show/hide voice controls"
+msgstr "音声コントロールを表示/非表示"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Temporarily pause this playback"
+msgstr "この再生を一時的に中断"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "When you hit this, you will be handed a button which, when it is clicked,  will open up an Event Player in which the recording can be played back."
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "Choose a version to restore"
+msgstr "復元するバージョンを選択"
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "no versions available, sorry"
+msgstr "バージョンがありません"
+
+#: Morphic-Mentoring,EventRecordingSpace>>parseEventTape,EventRecordingSpace>>shrinkTape
+msgid "nothing recorded yet"
+msgstr "まだ記録されていません"
+
+#: Morphic-Mentoring,EventRecordingSpace>>populateControlsPanel
+msgid "Hit ESC to stop recording"
+msgstr "ESCキーで記録を終了"
+
+#: Morphic-Mentoring,EventRecordingSpace>>presentHelp,EventRecordingSpace_class>>defaultNameStemForInstances,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Event Theatre"
+msgstr "イベントシアター"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Iconic button"
+msgstr "アイコンのボタン"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Textual button"
+msgstr "文字のボタン"
+
+#: Morphic-Mentoring,EventRecordingSpace>>setBalloonHelp
+msgid "Edit the balloon help to be supplied for playback buttons made for this event movie"
+msgstr "このイベントムービーの再生ボタンにつけるバルーンヘルプを編集"
+
+#: Morphic-Mentoring,EventRecordingSpace>>setCaption
+msgid "Your Title Goes Here"
+msgstr "タイトルがここに入ります"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr "タイルスクリプティングで使うためのボタン。スクリプトはボタンの入っている遊び場に定義されます。"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A device for making sound recordings."
+msgstr "音声の録音をするための装置"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "A joystick-like control"
+msgstr "ジョイスティックのようなコントロール"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A multi-paged structure"
+msgstr "複数ページつづり"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "A place for assembling parts or for staging animations"
+msgstr "部品を組みたてたり、アニメーションを上演したりするための遊び場"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A place for storing alternative pictures in an animation, etc."
+msgstr "アニメーションなどで使う替わる絵を入れる入れ物"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A rectangle"
+msgstr "四角形"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A slider for showing and setting numeric values."
+msgstr "数値を表示したり設定するためのスライダ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A star"
+msgstr "星"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool for discarding objects"
+msgstr "オブジェクト用ごみ箱"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool listing all the scripted objects in the project."
+msgstr "スクリプトがつけられたオブジェクトを表示するツールです"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool that lets you browse the catalog of available objects"
+msgstr "使えるオブジェクトのカタログを見ることができます"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "All Scripts"
+msgstr "全スクリプト"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "An ellipse or circle"
+msgstr "楕円あるいは円"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Book"
+msgstr "本"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,SimpleButtonMorph_class>>defaultNameStemForInstances
+msgid "Button"
+msgstr "ボタン"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Holder"
+msgstr "入れ物"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "Joystick"
+msgstr "ジョイスティック"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Object Catalog"
+msgstr "オブジェクトのカタログ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Players"
+msgstr "プレイヤ一覧"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "Playfield"
+msgstr "遊び場"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,RectangleMorph_class>>descriptionForPartsBin
+msgid "Rectangle"
+msgstr "四角形"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Slider"
+msgstr "スライダ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Sound Recorder"
+msgstr "サウンド・レコーダー"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Star"
+msgstr "星"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Stop, Step, and Go buttons for controlling all your scripts at once.  The tool can also be \"opened up\" to control each script in your project individually."
+msgstr ""
+"ストップ、ステップ、ゴーボタンを使ってスクリプトを一度に操作することができます。\n"
+"このツールを「開く」と、それぞれのスクリプトを別々に操作することもできます。"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>nonwrappingPrototype,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text"
+msgstr "テキスト"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you desire."
+msgstr "なんでも好きな文字を書き込めるテキスト"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Trash"
+msgstr "ゴミ箱"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarSuppliesFlapTab,InteriorSugarNavBar>>toggleSupplies
+msgid "Supplies"
+msgstr "部品"
+
+#: Morphic-Mentoring,EventRecordingSpace>>usingVoiceString
+msgid "record voice during event recording"
+msgstr "イベントを記録している間音声を記録"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "allows you to supply a precise scale-factor manually."
+msgstr "正確な倍率をマニュアル入力できます"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "change scale..."
+msgstr "倍率を変更..."
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "normally not necessary, but if you suspect that edits you have made in this event roll have not been fully appreciated by the event theatre, choose this to force the event theatre to reflect what you see in the event roll."
+msgstr "普通は不要ですが、もしこのイベントロールで行った編集がイベントシアターでうまく取り扱えない恐れがある場合、これを選択して、イベントシアターがイベントロールで見たものを強制的に反映させてください"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "retrofit to event-theatre"
+msgstr "イベントシアターにあわせて改造"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "allows you to back up to any earlier version of the event tape."
+msgstr "古いバージョンのイベントテープに戻せます"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- change the definition of this menu."
+msgstr "デバッグ中--このメニューの定義を変更"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- open an Inspector on this event roll"
+msgstr "デバッグ中--このイベントロールのインスペクタを開く"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the red roll cursor"
+msgstr "デバッグ中--赤いロールカーソルを更新"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the scrollbar"
+msgstr "デバッグ中--スクロールバーを更新"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "Event-Roll Options"
+msgstr "イベントロールのオプション"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update cursor"
+msgstr "カーソルを更新"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update scrollbar"
+msgstr "スクロールバーを更新"
+
+#: Morphic-Mentoring,EventRollMorph>>changeScale
+msgid "Milliseconds per pixel [currently "
+msgstr "ミリ秒/ピクセル [現在 "
+
+#: Morphic-Mentoring,EventRollMorph>>helpString
+msgid ""
+"An Event Roll is a used to visualize and edit the score, or \"tape\", of an Event Theatre's \"event movie\".\n"
+"\n"
+"The Roll shows three \"tracks\", one for all Mouse events, one for Keyboard events, and one for all other events, such as sound.\n"
+"\n"
+"You can *remove* any item from an event roll by just picking it up with the mouse and dropping it anywhere outside the roll (such as on the desktop or in the trash-can.)  If in doubt about the effect of removing an item, you can put it on the desktop, play the revised tape, then pick up the event from the desktop and drop it back near where you found it in the event roll, and replay again to compare.\n"
+"\n"
+"You can *reposition* any item in an event roll by picking it up with the mouse and dropping it anywhere else in the roll.  CAUTION:  Items in the mouse-event track should not be dropped such that they overlap -- see caveat below under \"Tips\".\n"
+"\n"
+"You can drag various kinds of items *into* the roll.  For example, you can drop a \"Morph\" or a \"Tile\" obtained from a SoundRecorder, and you can drop a \"button\" representing another event-recorded sequence (though it is not at the moment recommended to do the latter.)  One straightforward way of adding voiceovers to an existing event recording is to play back the recording while selectively making individual snippets of voice recordings using a separate, standard Squeak SoundRecording tool.  After you are satisfied with a recording, obtain a \"morph\" from the sound-recording tool, and position it as desired in the event roll.\n"
+"\n"
+"You can *resize* items in the \"mouse\" track of an event roll.  When you stretch or shrink a mouse-sequence, the events within the sequence get remapped linearly within the duration represented by the new size of the sequence as seen in the event roll.  [CAUTION:  Do not resize a mouse item such that it will overlap an adjacent one.  It is a bug that this is even allowed.]\n"
+"\n"
+"In addition to adding separately-recorded voiceovers using the mechanism described in item 3 above, there is a built-in voiceover mechanism in the Event Theatre.  Whenever you are playing back an existing event-recording in an Event Theatre, a \"Record Voiceover\" button will appear.  If you press this, the playback of the event recording will continue and you can record a voiceover to go with any portion you wish.  When you are done recording a snippet, you can hit the \"stop recording voiceover\" button; playback will continue, and you can subsequently, on this pass or any future one, add more voiceover snippets.  To remove a voiceover snippet, simply drag it out of the event roll; to reposition it, simply pick it up with the mouse and drop it back into the event roll at the desired position.\n"
+"\n"
+"When you make a change in an Event Roll, it will immediately change the tape of the Event Theatre, so that when you replay the event-movie you will immediately see see the change.  If you are unhappy with the change, there is a one-level \"undo\" available which will revert the EventTheatre to its state before the last edit you made in the EventRoll.  There is also a \"deeper\" level of \"undo\" available that will revert the EventTheatre (and hence the associated EventRoll) to the initial state they were in when you first launched the event roll.\n"
+"\n"
+"\n"
+"Keyboard Track\n"
+"\n"
+"You can reposition or delete any keyboard-track item.\n"
+"\n"
+"Color conventions in the keyboard track: (These will change soon!)\n"
+"\n"
+"\tWhite\tSimple lower-case character, no modifier key pressed\n"
+"\tRed\t\tShift-key pressed\n"
+"\tGreen\tAlt-key pressed\n"
+"\tYellow\tControl-key pressed\n"
+"\n"
+"\tYellow\tA \"space\" character\n"
+"\tBlue\t\tA \"backspace\" character\n"
+"\n"
+"Unprintable characters are shown in red with the ascii value displayed, e.g. #13 for a \"return\" character.\n"
+"\n"
+"*Important Tips*\n"
+"\n"
+"(1)  To get the halo on an object inside an EventRoll, hold down the SHIFT key as you halo-click on the object.\n"
+"\n"
+"(2)  DO NOT reposition or resize mouse-track items such that any two of them overlap, since this will result in the events represented by the two items getting co-mingled in such a way that they you will never be able to separate them again, and the mixture will have crazy results.  It is a bug that you are allowed to drop mouse-track items such that they overlap.  So please, DO NOT DO IT!  If by accident you do, you might be interested in trying out some of the revert mechanisms in the system.\n"
+msgstr ""
+
+#: Morphic-Mentoring,EventRollMorph>>makeButtonsPanel
+msgid "Abandon  this piano roll.  If you have made changes and wish them to be propagated back to the originating event-theatre, be sure to do that before abandoning the piano roll."
+msgstr ""
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "keyboard"
+msgstr "キーボード"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "media"
+msgstr "メディア"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "mouse"
+msgstr "マウス"
+
+#: Morphic-Mentoring,EventRollMorph>>presentHelp
+msgid "Event Roll"
+msgstr "イベントロール"
+
+#: Morphic-Mentoring,EventTimeline>>defaultNameStemForInstances
+msgid "event timeline"
+msgstr "イベントの時系列"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "色..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "このフラップを捨てる"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "高さ..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "選択の色..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "デフォルトの白黒表示を使う"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "デフォルトの緑表示を使う"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>changeNaviHeight
+msgid "new height of the bar"
+msgstr "バーの新しい高さ"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>edgeString
+msgid "cling to edge... (current: {1})"
+msgstr "くっつく先... (現在: {1})"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>finishInitialization
+msgid "Navigator Flap"
+msgstr "ナビゲータ・フラップ"
+
+#: Morphic-Mentoring,KeyboardEventMorph>>addCustomMenuItems:hand:
+msgid "Change character"
+msgstr "文字を変更"
+
+#: Morphic-Mentoring,KeyboardEventMorph>>changeCharacter
+msgid "New character? "
+msgstr "新しい文字? "
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play"
+msgstr "再生"
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play the event in isolation."
+msgstr ""
+
+#: Morphic-Mentoring,MentoringEventRecorder>>caption
+msgid "Untitled"
+msgstr "(名称未設定)"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "graphical view"
+msgstr ""
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Lets you visualize all the individual events that constitute this sequence in an onionskin overlay to the event theatre."
+msgstr ""
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Presents the constituent events of this sequence in a scrolling list for your inspection."
+msgstr ""
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "textual view"
+msgstr ""
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "imprint HINT"
+msgstr ""
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "open for editing"
+msgstr "編集のため開く"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show caption"
+msgstr "キャプションを表示"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show final picture"
+msgstr "最後の絵を表示"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show initial picture"
+msgstr "最初の絵を表示"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtButtonPositionString
+msgid "playback at button position"
+msgstr "ボタンの位置で再生"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtContainerOriginString
+msgid "playback at container origin"
+msgstr ""
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtScreenCenterString
+msgid "playback at screen center"
+msgstr "画面中央で再生"
+
+#: Morphic-Mentoring,PlaybackInvoker>>postPlaybackImageFeatureString
+msgid "post-playback feature"
+msgstr ""
+
+#: Morphic-Mentoring,TextualEventSequenceDisplayer>>mouseEventSequenceMorph:
+msgid "Each line represents an event in the event sequence I represent"
+msgstr ""
+
+#: Morphic-Mentoring,Worldlet>>initialize
+msgid "screen"
+msgstr "画面"
+
+#: Morphic-Menus,MenuIcons_class>>iconForMenuItem:
+msgid "undo (z)"
+msgstr "元にもどす (z)"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add item..."
+msgstr "項目を追加…"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add line"
+msgstr "分割線を追加…"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add title..."
+msgstr "表題を追加…"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "detach submenu"
+msgstr "入れ子メニューを分離"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set target..."
+msgstr "対象を設定…"
+
+#: Morphic-PartsBin,PartsWindow>>addCustomMenuItems:hand:
+msgid "parts window controls..."
+msgstr ""
+
+#: Morphic-PDA,MonthMorph>>addCustomMenuItems:hand:
+msgid "jump to year..."
+msgstr "年へジャンプ..."
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Choose another year"
+msgstr "別の年を選択"
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Type in a year"
+msgstr "年をタイプ入力"
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "A Personal Digital Assistant"
+msgstr "携帯電子秘書"
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "PDA"
+msgstr "PDA"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy list to clipboard"
+msgstr "リストをクリップボードにコピーする"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy selection to clipboard"
+msgstr "選択範囲をクリップボードにコピーする"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "list font..."
+msgstr "リストのフォント..."
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>setListFont
+msgid "Choose the font for this list"
+msgstr ""
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>accept
+msgid ""
+"Caution! This method may have been\n"
+"changed elsewhere since you started\n"
+"editing it here.  Accept anyway?"
+msgstr "注意! このメソッドは別のところで変更された可能性があります。保存しますか?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>promptForCancel
+msgid ""
+"Changes have not been saved.\n"
+"Is it OK to cancel those changes?"
+msgstr ""
+"変更はまだ保存されていません。\n"
+"この変更を取り消しても良いですか?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>toggleAnnotationPaneSize
+msgid ""
+"Move cursor farther from\n"
+"this point to increase pane.\n"
+"Click when done."
+msgstr ""
+
+#: Morphic-Support,SelectionMorph_class>>defaultNameStemForInstances
+msgid "Selection"
+msgstr "選択"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align bottom edges"
+msgstr "下端に整列"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers horizontally"
+msgstr "中央に水平に整列"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers vertically"
+msgstr "中央に垂直に整列"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align left edges"
+msgstr "左端に整列"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align right edges"
+msgstr "右端に整列"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align top edges"
+msgstr "上端に整列"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute horizontally"
+msgstr "水平方向に散らかす"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute vertically"
+msgstr "垂直方向に散らかす"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a column"
+msgstr "列に配置"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a row"
+msgstr "行に配置"
+
+#: Morphic-Support,SelectionMorph>>externalName
+msgid "Selected {1} objects"
+msgstr "{1}個のオブジェクトを選択"
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "A scrolling data field which will have a different value on every card of the background"
+msgstr ""
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "Scrolling Field"
+msgstr ""
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "bold"
+msgstr "太字"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "centered"
+msgstr "中央寄せ"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "italic"
+msgstr "斜体"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "justified"
+msgstr "均等"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "left flush"
+msgstr "左寄せ"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "narrow"
+msgstr "狭く"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "normal"
+msgstr "ノーマル"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "right flush"
+msgstr "右寄せ"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "struck out"
+msgstr "取り消し線"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "underlined"
+msgstr "下線"
+
+#: Morphic-TrueType,TTSampleFontMorph>>getSmoothingLevel
+msgid "more smoothing"
+msgstr "スムージングを強くする"
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "A short text in a beautiful font.  Use the resize handle to change size."
+msgstr "きれいなフォントで表示される短いテキスト。 ハロで大きさを変更できる"
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "TrueType banner"
+msgstr "トゥルータイプ横断幕"
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "edit contents..."
+msgstr "文字列の編集..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "how to find more fonts..."
+msgstr "より多くのフォントの探し方..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "load font from web..."
+msgstr "フォントをwebから読み込む..."
+
+#: Morphic-Widgets,BalloonMorph_class>>chooseBalloonFont
+msgid ""
+"Select the font to be\n"
+"used for balloon help"
+msgstr "バルーンヘルプに使うフォントを選択"
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "Clipboard"
+msgstr "クリップボード"
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "This object will always show whatever is on the text clipboard"
+msgstr "クリップボードの内容を表示し続けるオブジェクト"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "do not stay up"
+msgstr "画面に残らないようにする"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "stay up"
+msgstr "画面に残す"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update continuously"
+msgstr "継続的に更新する"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update only at end"
+msgstr "最後の時点でのみ更新する"
+
+#: Morphic-Widgets,ColorPickerMorph>>delete
+msgid "color change"
+msgstr "色の変更"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "adjust translucency"
+msgstr "透明度の調整"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "restore original color"
+msgstr "元の色に戻す"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "shows selected color"
+msgstr "選択された色を表示"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "dismiss color picker"
+msgstr ""
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "move this color-picker to another position, and keep it on the screen until dismissed with the X button  "
+msgstr ""
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "open a full property sheet"
+msgstr ""
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Forward direction (hold down shift key and drag to change it)"
+msgstr "進行方向（シフトを押しながらドラッグして変更できます）"
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Rotation center (hold down the shift key and drag to change it)"
+msgstr "回転の中心 (シフトを押しながらドラッグして、変更できます)"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Really throw this away"
+msgstr "本当にこれを捨てますか?"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Um, no, let me reconsider"
+msgstr "あー、いいえ、考えさせてください"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Yes"
+msgstr "はい"
+
+#: Morphic-Widgets,HaloMorph>>startGrow:with:,HaloMorph>>startScale:with:
+msgid "resize "
+msgstr "サイズ変更"
+
+#: Morphic-Widgets,HaloMorph>>startRot:with:
+msgid "rotate "
+msgstr "通常回転"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Choose which physical device is associated with the joystick."
+msgstr "このジョイスティックと関連付けられている物理デバイスを指定します"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Governs whether this joystick should track the motions of a real, physical joystick attached to the computer."
+msgstr "コンピュータに接続された物理的なジョイスティックの入力を使うかどうかです"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set X range"
+msgstr "X軸の範囲設定"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set Y range"
+msgstr "Y軸の範囲設定"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "When auto-center is on, every time you let go of the Joystick knob, it springs back to the neutral position at the center of the device"
+msgstr "自動復帰がオンの場合は、ジョイスティックを離すたびに自動的に中央に戻ります"
+
+#: Morphic-Widgets,JoystickMorph>>autoCenterString
+msgid "auto-center"
+msgstr "自動復帰"
+
+#: Morphic-Widgets,JoystickMorph>>chooseJoystickNumber
+msgid "Joystick device number (currently {1})"
+msgstr "ジョイスティックのデバイス番号(現在: {1})"
+
+#: Morphic-Widgets,JoystickMorph>>joystickNumberString
+msgid "set real joystick number (now {1})"
+msgstr "物理ジョイスティック番号(現在 {1})"
+
+#: Morphic-Widgets,JoystickMorph>>realJoystickString
+msgid "track real joystick"
+msgstr "本物のジョイスティックに追従"
+
+#: Morphic-Widgets,JoystickMorph>>setXRange
+msgid "Type the maximum value for the X axis"
+msgstr "X軸の最大値を指定してください"
+
+#: Morphic-Widgets,JoystickMorph>>setYRange
+msgid "Type the maximum value for the Y axis"
+msgstr "Y軸の最大値を指定してください"
+
+#: Morphic-Widgets,JoystickMorph>>trackRealJoystick
+msgid "Number of joystick to track?"
+msgstr ""
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen color"
+msgstr "ペンの色"
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen size"
+msgstr "ペンの太さ"
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress color..."
+msgstr ""
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress value..."
+msgstr ""
+
+#: Morphic-Widgets,ProgressBarMorph>>changeProgressValue:
+msgid "Enter new value (0 - 1.0)"
+msgstr "新しい値を入力 (0 - 1.0)"
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "A rectangle which continuously reports its size in pixels"
+msgstr "自分の大きさを示しつづける長方形"
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "Ruler"
+msgstr "定規"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change action selector"
+msgstr "アクションセレクタを変更"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change arguments"
+msgstr "引数を変更"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change when to act"
+msgstr "いつ起動するかを変更"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "clear target"
+msgstr "対象をクリア"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page sound"
+msgstr "ページサウンドの設定"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page visual"
+msgstr "ページ視覚効果の設定"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set target"
+msgstr "ターゲットの指定"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addLabelItemsTo:hand:
+msgid "change label"
+msgstr "ラベルを変更"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr ""
+"ボタンが押されたときにターゲットに\n"
+"送られるセレクタを指定してください"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonDown"
+msgstr "マウスダウン"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonUp"
+msgstr "マウスアップ"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr "起動する条件を選んでください"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "startDrag"
+msgstr "ドラッグ開始"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "whilePressed"
+msgstr "マウスダウン継続"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+"ターゲットに送る引数を\n"
+"ピリオドで区切って指定してください"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setLabel
+msgid "Please enter a new label for this button"
+msgstr "このボタンの新しいラベルを入力"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setTarget
+msgid "Enter an expression that create the target"
+msgstr "ターゲットを指定する式を入力してください"
+
+#: Morphic-Widgets,TinyPaint>>addCustomMenuItems:hand:
+msgid "fill"
+msgstr "塗りつぶし"
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "decimal places..."
+msgstr "小数の桁数…"
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font size..."
+msgstr "フォントの大きさ..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font style..."
+msgstr "フォントの種類..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>setPrecision
+msgid "How many decimal places? (currently {1})"
+msgstr "小数の桁数は? (現在 {1})"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu
+msgid "change name..."
+msgstr "名前を変更..."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make closable"
+msgstr "閉じられるようにする"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make draggable"
+msgstr "ドラッグできるようにする"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make next-to-topmost"
+msgstr "次のものを最前面に出す"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make unclosable"
+msgstr "閉じられないようにする"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make undraggable"
+msgstr "ドラッグできなくする"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,Morph>>addStandardHaloMenuItemsTo:hand:,SystemWindow>>buildWindowMenu
+msgid "send to back"
+msgstr "後に送る"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createAcceptButton
+msgid "Accept(s)"
+msgstr "了解(s)"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createCancelButton
+msgid "Cancel(l)"
+msgstr "取消(l)"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createQueryTextMorph:
+msgid "query"
+msgstr "質問"
+
+#: Morphic-Windows,PreDebugWindow>>setBalloonTextForCloseBox
+msgid "abandon this execution by closing this window"
+msgstr "ウィンドウを閉じてデバッグを中止します"
+
+#: Morphic-Windows,ProjectViewMorph_class>>defaultNameStemForInstances
+msgid "ProjectView"
+msgstr ""
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "プロジェクトを読み込みます"
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "ファイルからプロジェクトを開く"
+
+#: Morphic-Windows,ProjectViewMorph>>balloonText
+msgid ""
+"Click here to enter the\n"
+"project named\n"
+"\"{1}\""
+msgstr ""
+"クリックすると\n"
+"\"{1}\"プロジェクトに入ります。"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "cancel - do not delete anything"
+msgstr ""
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid ""
+"Do you really want to delete the\n"
+"project named {1}\n"
+"and all its contents?"
+msgstr ""
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "no - delete icon but keep the project"
+msgstr ""
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "yes - delete icon and delete the project"
+msgstr ""
+
+#: Morphic-Windows,ProjectViewMorph>>editTheName:
+msgid "The project is not present and may not be renamed now"
+msgstr ""
+
+#: Morphic-Windows,ProjectViewMorph>>enter
+msgid "Project not found"
+msgstr ""
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "ENTER ACTIVE"
+msgstr "アクティブにする"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "enter this project"
+msgstr "このプロジェクトに入る"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "expunge this project"
+msgstr "このプロジェクトを削除"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "Project Named \\\"{1}\""
+msgstr "プロジェクト \\\"{1}\""
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH to a different server"
+msgstr "異なるサーバーに公開"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH (also saves a local copy)"
+msgstr "公開する (ローカルコピーも保存)"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "see if server version is more recent"
+msgstr "サーバーに新しいバージョンがあるか調べる"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar inboard"
+msgstr "スクロールバーを内側に入れる"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar retractable"
+msgstr "格納されるスクロールバーにする"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on left"
+msgstr "スクロールバーを左に置く"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on right"
+msgstr "スクロールバーを右に置く"
+
+#: Morphic-Windows,SystemWindow>>addCustomMenuItems:hand:
+msgid "edit label..."
+msgstr "ラベルの編集..."
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "change title..."
+msgstr "表題を変更"
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "full screen"
+msgstr "全画面"
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "window color..."
+msgstr "ウィンドウの色…"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createCollapseBox
+msgid "collapse this window"
+msgstr "このウィンドウをたたむ"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand
+msgid "expand this window"
+msgstr "このウィンドウを広げる"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createExpandBox,SystemWindow>>expandBoxHit
+msgid "expand to full screen"
+msgstr "全画面表示"
+
+#: Morphic-Windows,SystemWindow>>createCloseBox
+msgid "close this window"
+msgstr "ウィンドウを閉じる"
+
+#: Morphic-Windows,SystemWindow>>createMenuBox,SystemWindow>>initializeLabelArea
+msgid "window menu"
+msgstr "ウィンドウメニュー"
+
+#: Morphic-Windows,SystemWindow>>expandBoxHit,SystemWindow>>expandBoxHit
+msgid "contract to original size"
+msgstr "元の大きさに縮める"
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "close window"
+msgstr "ウィンドウを閉じる"
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "collapse/expand window"
+msgstr "ウィンドウをたたむ・展開する"
+
+#: Morphic-Windows,SystemWindow>>initialize
+msgid "Untitled Window"
+msgstr ""
+
+#: Morphic-Windows,SystemWindow>>relabel
+msgid "New title for this window"
+msgstr "このウィンドウの新しい表題は？"
+
+#: Morphic-Worlds,PasteUpMorph_class>>defaultNameStemForInstances
+msgid "playfield"
+msgstr "遊び場"
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "Variable named \"{1}\"  in player named \"{2}\" changed to point to Dot"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "{1} item(s) fixed up"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "change the color or pattern of the desktop background that lies behind everything else on the screen."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "desktop color..."
+msgstr "デスクトップ色..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "its governing pen trails drawn within"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "pen trails..."
+msgstr "ペン軌跡..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens down"
+msgstr "すべてのペンを下ろす"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrowheads"
+msgstr "すべてのペンを矢尻にする"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrows"
+msgstr "すべてのペンを矢印にする"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show dots"
+msgstr "すべてのペンを点にする"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show lines"
+msgstr "すべてのペンを線にする"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens up"
+msgstr "すべてのペンを上げる"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "clear pen trails"
+msgstr "がペンの跡を消す"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "if true, detailed movement of pens between display updates is ignored.  Thus multiple line segments drawn within a script may not be seen individually."
+msgstr "画面の表示を更新する間に行われた複数の移動をまとめて一つの線分としてペン軌跡にするかどうか"
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "playfield options..."
+msgstr "遊び場の拡張機能..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:
+msgid "send contents back to donor"
+msgstr "文字内容をもとの場所に戻す"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define application view"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define factory view"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "expand"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "reduce"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show application view"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show factory view"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show whole world view"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "world scale and clip..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>helpMenu
+msgid "about this system..."
+msgstr "このシステムについて…"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "authoring tools..."
+msgstr "オーサリングツール"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "display mode..."
+msgstr "表示モード..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>appearanceMenu,TheWorldMenu>>helpMenu
+msgid "preferences..."
+msgstr "プリファレンス..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "redraw screen (r)"
+msgstr "画面を再描画 (r)"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "world menu..."
+msgstr "ワールドメニュー..."
+
+#: Morphic-Worlds,PasteUpMorph>>assureNotPaintingElse:
+msgid ""
+"Sorry, you can only paint\n"
+"one object at a time"
+msgstr ""
+"一度に出せるお絵描きツールは\n"
+"ひとつだけです"
+
+#: Morphic-Worlds,PasteUpMorph>>autoLineLayoutString
+msgid "auto-line-layout"
+msgstr "自動的に整列させる"
+
+#: Morphic-Worlds,PasteUpMorph>>buildDebugMenu:
+msgid "abandon costume history"
+msgstr "見た目の履歴を消去する"
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Delete\\Keep"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Hand is holding a Morph in its paste buffer:\\"
+msgstr "Handはペーストバッファ中のモーフをつかんでいます"
+
+#: Morphic-Worlds,PasteUpMorph>>closeUnchangedWindows
+msgid ""
+"Do you really want to close all windows\n"
+"except those with unaccepted edits?"
+msgstr "本当にセーブされていないテキストを持つウィンドウ以外を閉じますか?"
+
+#: Morphic-Worlds,PasteUpMorph>>defaultNameStemForInstances
+msgid "world"
+msgstr "ワールド"
+
+#: Morphic-Worlds,PasteUpMorph>>deleteNonWindows
+msgid ""
+"Do you really want to discard all objects\n"
+"that are not in windows?"
+msgstr "本当にウィンドウに入っていないすべてのオブジェクトを削除しますか?"
+
+#: Morphic-Worlds,PasteUpMorph>>findWindow:,TheWorldMenu>>windowsMenu
+msgid "find window"
+msgstr "ウィンドウを探す"
+
+#: Morphic-Worlds,PasteUpMorph>>griddingString
+msgid "use gridding"
+msgstr "グリッド機能を使う"
+
+#: Morphic-Worlds,PasteUpMorph>>gridVisibleString
+msgid "grid visible when gridding"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>indicateCursorString
+msgid "indicate cursor"
+msgstr "カーソルを表示する"
+
+#: Morphic-Worlds,PasteUpMorph>>innocuousName
+msgid "flap"
+msgstr "フラップ"
+
+#: Morphic-Worlds,PasteUpMorph>>installFlaps
+msgid "Building Viewers..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>isOpenForDragNDropString
+msgid "open to drag & drop"
+msgstr "ドラッグアンドドロップを許可する"
+
+#: Morphic-Worlds,PasteUpMorph>>isPartsBinString
+msgid "parts bin"
+msgstr "部品箱"
+
+#: Morphic-Worlds,PasteUpMorph>>mouseOverHalosString
+msgid "mouse-over halos"
+msgstr "マウスが入ったらハロを出す"
+
+#: Morphic-Worlds,PasteUpMorph>>originAtCenterString
+msgid "origin-at-center"
+msgstr "原点を中心にする"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "add new card"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "card und stack"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "delete this card"
+msgstr "このカードを削除"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "explain designations"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to next card"
+msgstr "次のカードへ移動"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to previous card"
+msgstr "前のカードへ移動"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show background objects"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show designations"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show foreground objects"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>presentDesktopColorMenu
+msgid "desktop color"
+msgstr "デスクトップの色"
+
+#: Morphic-Worlds,PasteUpMorph>>putUpPenTrailsSubmenu
+msgid "pen trails"
+msgstr "ペン軌跡"
+
+#: Morphic-Worlds,PasteUpMorph>>resizeToFitString
+msgid "resize to fit"
+msgstr "大きさを合わせる"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec,PasteUpMorph>>setGridSpec
+msgid "Must be a Point with coordinates (for example 10@10)"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid origin (usually 0@0):"
+msgstr "グリッドの原点 (通常 0@0)"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid spacing:"
+msgstr "グリッドの幅"
+
+#: Morphic-Worlds,PasteUpMorph>>showSourceKeyHit
+msgid "etoys source"
+msgstr "Etoysのソースコード"
+
+#: Morphic-Worlds,PasteUpMorph>>showThumbnailString
+msgid "show thumbnails"
+msgstr "サムネイルを使う"
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "personalize..."
+msgstr "パーソナライズ"
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "World"
+msgstr "ワールド"
+
+#: Morphic-Worlds,Presenter>>allKnownScriptSelectors
+msgid "script"
+msgstr "スクリプト"
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually,Presenter>>reportPlayersAndScripts
+msgid "there are no scripted players"
+msgstr "スクリプトを持ったプレイヤはありません"
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually
+msgid "there are no scripts in this project!"
+msgstr "このプロジェクトにはスクリプトがありません"
+
+#: Morphic-Worlds,Presenter>>createStandardPlayer
+msgid "dot"
+msgstr "ドット"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid " scripts:"
+msgstr " スクリプト一覧"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "All scripts in this project"
+msgstr "このプロジェクトのスクリプト一覧"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "named"
+msgstr "名前:"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "'s"
+msgstr "の"
+
+#: Morphic-Worlds,StandardScriptingSystem>>removeFromSoundLibrary:
+msgid " tiles reverted to \"clink\""
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>renameSound:newName:
+msgid " tile(s) changed to \""
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "1 if argument is positive, -1 if argument is negative, 0 if argument is zero."
+msgstr "引数が正の数なら1, 負の数なら-1, ゼロなら0"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "a randomly chosen integer between 1 and the argument"
+msgstr "1～引数の値の範囲でランダムに選んだ整数"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "absolute value"
+msgstr "絶対値"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in degrees, whose tangent is the argument"
+msgstr "正接（タンジェント）が引数の値になる、度で表された角度"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in radians, whose tangent is the argument"
+msgstr "正接（タンジェント）が引数の値になる、ラジアンで表された角度"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "cube root of the argument"
+msgstr "引数の立方根"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "exponential (e to the power of the argument)"
+msgstr "指数 (eを底とする）"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "logarithm, base 10"
+msgstr "10を底とする対数"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "natural logarithm"
+msgstr "自然対数"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "square root of the argument"
+msgstr "引数の平方根"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument multiplied by itself"
+msgstr "引数の二乗"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument times itself, times itself again"
+msgstr "引数の三乗"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer closest to the argument."
+msgstr "引数にもっとも近い整数"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer nearest to the argument toward zero"
+msgstr "引数にもっとも近い、ゼロ側の整数"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the negative of the argument"
+msgstr "引数にマイナス１をかけたもの"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of degrees equivalent to the argument which is assumed to be expressed in radians"
+msgstr "ラジアンで表された引数と同値な度の値"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of radians equivalent to the argument, which is expressed in degrees."
+msgstr "度で表された引数と同値なラジアンの値"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the product of all the whole numbers between 1 and the argument"
+msgstr "1～引数の値の数を全部お互いに掛け算した値"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trignometric sine, argument in degrees"
+msgstr "正弦（サイン）、引数は度"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in degrees"
+msgstr "余弦（コサイン）、引数は度"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in radians"
+msgstr "余弦（コサイン）、引数はラジアン"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric sine, argument in radians"
+msgstr "正弦（サイン）、引数はラジアン"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in degrees"
+msgstr "正接（タンジェント）、引数は度"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in radians"
+msgstr "正接（タンジェント）、引数はラジアン"
+

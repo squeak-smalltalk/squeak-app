@@ -1,0 +1,1359 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-03-17 06:56+0200\n"
+"Last-Translator: AlanJAS <alanjas@hotmail.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: System\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: System-Changes,ChangeSet_class>>currentChangeSetString,SmalltalkImage>>currentChangeSetString,SystemDictionary>>currentChangeSetString
+msgid "Current Change Set: "
+msgstr "Conjunto de Cambios actual: "
+
+#: System-Changes,ChangeSet_class>>defaultName,Project>>doWeWantToRename,SystemDictionary>>makeSqueaklandReleasePhaseCleanup
+msgid "Unnamed"
+msgstr "Sin nombre"
+
+#: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
+msgid ""
+"The preferred change set directory ('{1}') does not exist.\n"
+"Create it or use the default directory ({2})?"
+msgstr ""
+"El directorio preferido de conjuntos de cambio ('{1}') no existe.\n"
+"¿Crearlo o usar el directorio por omisión ({2])?"
+
+#: System-Download,ProjectLauncher>>loginAs:
+msgid ""
+"Sorry, I cannot find the user list.\n"
+"(this may be due to a network problem)\n"
+"Please hit Cancel if you wish to use Squeak."
+msgstr ""
+"Lo siento, no puedo encontrar la lista de usuarios.\n"
+"(puede deberse a un problema de red)\n"
+"Por favor, pulsa en Cancelar si deseas usar Squeak."
+
+#: System-Download,ProjectLauncher>>loginAs:
+msgid "Unknown user: "
+msgstr "Usuario desconocido: "
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge"
+msgstr "mezclar"
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge the translation file"
+msgstr "mezclar el archivo de traducción"
+
+#: System-Localization,InternalTranslator_class>>serviceMergeLanguageTranslations
+msgid "merge the translation file into the language named like the file"
+msgstr "mezclar el archivo de traducción en un lenguaje llamado como el archivo"
+
+#: System-Localization,InternalTranslator>>loadFromStream:
+msgid "Loading "
+msgstr "Cargando "
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "Cannot load additional fonts"
+msgstr "No puede cargar fuentes adicionales"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "cancel"
+msgstr "cancelar"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "enable Pango"
+msgstr "habilitar Pango"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid "load font"
+msgstr "cargar fuente"
+
+#: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
+msgid ""
+"This language needs additional fonts.\n"
+"Do you want to install the fonts?"
+msgstr ""
+"Este lenguaje necesita fuentes adicionales.\n"
+"\t¿Quieres instalarlas?"
+
+#: System-Object_Storage,DiskProxy>>printOn:
+msgid "{1} (not loaded yet)"
+msgstr "{1} (todavía no cargada)"
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid ""
+"Let me type the name now\n"
+"Let me think about it\n"
+"Let me find a conversion file on the disk"
+msgstr ""
+"Déjame escribir el nombre ahora\n"
+"Déjame que lo piense\n"
+"Déjame encontrar un fichero de conversión en el disco"
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid "Name of the modern class {1} should translate to:"
+msgstr "Nombre de la nueva clase {1} que debiera cargarla:"
+
+#: System-Object_Storage,SmartRefStream>>writeClassRenameMethod:was:fromInstVars:
+msgid ""
+"Reading an instance of {1}.\n"
+"Which modern class should it translate to?"
+msgstr ""
+"Leyendo una instancia de {1}.\n"
+"¿Qué nueva clase debiera cargarla?"
+
+#: System-Preferences,Preference>>helpString
+msgid "no help available"
+msgstr "no hay ayuda disponible"
+
+#: System-Preferences,Preference>>isDisabledOnStartupString
+msgid "disable preference on startup"
+msgstr "desactivar preferencia al iniciar"
+
+#: System-Preferences,Preference>>isEnabledOnStartupString
+msgid "enable preference on startup"
+msgstr "activar preferencia al iniciar"
+
+#: System-Preferences,Preference>>isNotSetOnStartupString
+msgid "do not set preference on startup"
+msgstr "no seleccionar preferencia al iniciar"
+
+#: System-Preferences,Preference>>isProjectLocalString
+msgid "each project has its own setting"
+msgstr "cada proyecto tiene su propia configuración"
+
+#: System-Preferences,Preferences_class>>addPreferenceForCelesteShowingAttachmentsFlag
+msgid "If true, Celeste (e-mail reader) annotates messages in it's list that have attachments.  This is a performance hit and by default is off."
+msgstr ""
+"Si está activado, Celeste (lector de correo) anota los mensajes en la lista "
+"que tiene adjuntos.  Esta característica afecta al rendimiento y por omisión "
+"está deshabilitada."
+
+#: System-Preferences,Preferences_class>>addPreferenceForOptionalCelesteStatusPane
+msgid "If true, Celeste (e-mail reader) includes a status pane."
+msgstr ""
+"Si está activado, Celeste (lector de correo) incluye un panel de estado."
+
+#: System-Preferences,Preferences_class>>automaticFlapLayoutString
+msgid "automatic flap layout"
+msgstr "presentación automática de la pestaña"
+
+#: System-Preferences,Preferences_class>>browseThemes
+msgid "no themes found"
+msgstr "no se encontró el tema"
+
+#: System-Preferences,Preferences_class>>chooseButtonFont
+msgid ""
+"Select the font to be\n"
+"used for buttons"
+msgstr ""
+"Seleccionar la fuente que será \n"
+"usada en los botones"
+
+#: System-Preferences,Preferences_class>>chooseCodeFont
+msgid "Choose the font to be used for displaying code"
+msgstr "Escoje la fuente que se usará para mostrar código"
+
+#: System-Preferences,Preferences_class>>chooseEToysButtonFont
+msgid "Choose the etoy button font"
+msgstr "Escoge la fuente para botones etoys"
+
+#: System-Preferences,Preferences_class>>chooseEToysCodeFont
+msgid "Choose the etoy code font"
+msgstr "Escoje la fuente del código etoy"
+
+#: System-Preferences,Preferences_class>>chooseEToysFont
+msgid "Choose the eToys font"
+msgstr "Escoje la fuente de los eToys"
+
+#: System-Preferences,Preferences_class>>chooseEToysTitleFont
+msgid "Choose the etoy title font"
+msgstr "Escoje la fuente del título de etoy"
+
+#: System-Preferences,Preferences_class>>chooseFlapsFont
+msgid "Choose a flaps font"
+msgstr "Escoje la fuente de las solapas"
+
+#: System-Preferences,Preferences_class>>chooseListFont
+msgid "Choose the standard list font"
+msgstr "Escoje la fuente para las listas estándar"
+
+#: System-Preferences,Preferences_class>>chooseMenuFont
+msgid "Choose the standard menu font"
+msgstr "Escoje la fuente para los menús estándar"
+
+#: System-Preferences,Preferences_class>>chooseSystemFont
+msgid "Choose the default text font"
+msgstr "Escoje la fuente predeterminada para el texto"
+
+#: System-Preferences,Preferences_class>>chooseWindowTitleFont
+msgid "Choose the window title font"
+msgstr "Escoje la fuente para los títulos de las ventanas"
+
+#: System-Preferences,Preferences_class>>classicTilesSettingToggled,Preferences_class>>largeTilesSettingToggled
+msgid ""
+"note that this will only have a noticeable\n"
+"effect if the universalTiles preference is\n"
+"set to true, which it currently is not"
+msgstr ""
+"note que esto solo tendrá un efecto\n"
+"notorio si la preferencia de mosaicos\n"
+"Universales está habilitada, y no lo está"
+
+#: System-Preferences,Preferences_class>>deletePersistedPreferences
+msgid ""
+"This will remove {1} stored preferences.\n"
+"Are you sure?"
+msgstr ""
+"Esto removerá {1} preferencia guardada.\n"
+"Estás seguro?"
+
+#: System-Preferences,Preferences_class>>disable:,Preferences_class>>enable:
+msgid "this preference was added idiosyncratically and has no help message."
+msgstr ""
+"esta preferencia fue agregada por gusto propio y no tiene mensaje de ayuda."
+
+#: System-Preferences,Preferences_class>>ensurePersistedPreferencesAccessible
+msgid ""
+"{1} is in secure mode.\n"
+"You cannot access the persistent preferences now.\n"
+"To change them, start {1} without loading a project."
+msgstr ""
+"{1} está en modo seguro.\n"
+"No puedes acceder ahora a las preferencias persistentes.\n"
+"Para cambiarlas, inicia {1} sin cargar un proyecto."
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid "About Preferences"
+msgstr "Acerca de las preferencias"
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid "Alphabetical listing of all Preferences"
+msgstr "Listado alfabético de todas las Preferencias"
+
+#: System-Preferences,Preferences_class>>giveHelpWithPreferences
+msgid ""
+"Many aspects of the system are governed by the settings of various \"Preferences\".  \n"
+"\n"
+"Click on any of brown tabs at the top of the panel to see all the preferences in that category.  \n"
+"Or type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n"
+"\n"
+"To find out more about any particular Preference, hold the mouse over it for a moment and balloon help will appear.  Also, a complete list of all the Preferences, with documentation for each, is included below.\n"
+"\n"
+"Preferences whose names are in shown in bold in the Preferences Panel are designated as being allowed to vary from project to project; those whose name are not in bold are \"global\", which is to say, they apply equally whatever project you are in.\n"
+"\n"
+"Click on the name of any preference to get a menu which allows you to *change* whether the preference should vary from project to project or should be global, and also allows you to browse all the senders of the preference, and to discover all the categories under which the preference has been classified, and to be handed a button that you can drop wherever you please that will control the preference.\n"
+"\n"
+"If you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n"
+"\n"
+"Also, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
+msgstr ""
+"Muchos aspectos del sistema se rigen por la configuración de las diversas "
+"\"Preferencias\". _ _\n"
+"\n"
+"Haga clic en cualquiera de las pestañas marrón en la parte superior del "
+"panel para ver todas las preferencias en esa categoría._ _\n"
+"O escriba en la caja por encima del botón de búsqueda, luego pulse \"Buscar\" "
+"y se publicarán \"los resultados de la búsqueda\" categoría._ _ Una "
+"preferencia es considerada en la búsqueda o bien si su nombre coincide con "
+"los caracteres *o* si algo en el globo de ayuda disponible para las "
+"preferencias de búsqueda coincide con el texto.\n"
+"\n"
+"Para obtener más información acerca de cualquier preferencia, mantenga el "
+"ratón sobre ella por un momento y globo de ayuda aparecerá. _ _Además, una "
+"lista completa de todas las preferencias, con la documentación para cada una "
+"de ellas, se incluye a continuación.\n"
+"\n"
+"Las preferencias de cuyos nombres se indican en negrita en el Panel de "
+"Preferencias son designadas como de ser autorizados a variar de un proyecto "
+"a otro, aquellos cuyo nombre no está en negrita son \"globales\", es decir, se "
+"aplican por igual independientemente de proyecto que sea.\n"
+"\n"
+"Haga clic en el nombre de cualquier preferencia para obtener un menú que le "
+"permite *cambiar* si la preferencia varía de proyecto a proyecto, o debe ser "
+"global, y también le permite navegar por todos los remitentes de la "
+"preferencia, y para descubrir todas las categorías en las que la preferencia "
+"se ha clasificado, y para que se le entregue un botón que pueda colocar "
+"donde quiera.\n"
+"\n"
+"Si le gustan todas sus Preferencias de configuración, puede que desee "
+"oprimir el botón de \"Guardar configuración actual como mis Preferencias\". _ "
+"_ Una vez hecho esto, puede en cualquier momento en el futuro oprimir "
+"\"Restaurar mis Preferencias Personales\" y todos los ajustes guardados le "
+"serán restaurados de inmediato.\n"
+"\n"
+"Asimismo, puede utilizar \"temas\" para configurar múltiples preferencias a la "
+"vez, haga clic en el botón \"cambiar el tema ...\" en la solapa Squeak o en "
+"el panel de preferencias, o buscar los temas en el menú Apariencia."
+
+#: System-Preferences,Preferences_class>>initializePreferencePanel:in:
+msgid "Use the ? category to find preferences by keyword; the results of your search will show up here"
+msgstr ""
+"Usar el caracter ? en categorías para encontrar preferencias por palabra "
+"clave; los resultados de su busqueda serán presentados aquí"
+
+#: System-Preferences,Preferences_class>>installTheme:
+msgid ""
+"Theme {1} is now installed.\n"
+"Many of the changes will only be\n"
+"noticeable in new windows that you\n"
+"create from now on."
+msgstr ""
+"El tema {1} ya está instalado.\n"
+"Muchos de los cambios no se notarán hasta que crees  nuevas ventanas."
+
+#: System-Preferences,Preferences_class>>menuColorString
+msgid "start menu-color-from-world"
+msgstr "habilitar colores de menú desde el mundo"
+
+#: System-Preferences,Preferences_class>>menuColorString
+msgid "stop menu-color-from-world"
+msgstr "deshabilitar colores de menú desde el mundo"
+
+#: System-Preferences,Preferences_class>>navigatorShowingString
+msgid "show navigator (N)"
+msgstr "mostrar explorador (N)"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "browse themes"
+msgstr "explorar temas"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "Choose a theme to install"
+msgstr "Selecciona un tema a instalar"
+
+#: System-Preferences,Preferences_class>>offerThemesMenu
+msgid "Puts up a tool that will allow you to view and edit the code underlying all of the available themes"
+msgstr ""
+"Abre una herramienta que te permitirá ver y editar el código que subyace a a "
+"todos los Temas disponibles"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "about this system..."
+msgstr "sobre este sistema..."
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "load latest code updates"
+msgstr "carga las últimas actualizaciones de código"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "personal"
+msgstr "personal"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "previous project"
+msgstr "proyecto anterior"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "start using vectors"
+msgstr "empezar a usar vectores"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "stop using vectors"
+msgstr "dejar de usar vectores"
+
+#: System-Preferences,Preferences_class>>personalizeUserMenu:
+msgid "Whether prevailing flaps should be shown in the project right now or not."
+msgstr "Si las pestañas se deben mostrar en el proyecto ahora mismo o no."
+
+#: System-Preferences,Preferences_class>>preferencesControlPanel,Preferences_class>>registerInFlapsRegistry
+msgid "Preferences"
+msgstr "Preferencias"
+
+#: System-Preferences,Preferences_class>>printStandardSystemFonts
+msgid "Current system font settings"
+msgstr "Configuración actual de las fuentes"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "balloon-help font..."
+msgstr "fuente de los bocadillos de ayuda..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "button font..."
+msgstr "fuente para los botones..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the default font to be used for code and  in workspaces, transcripts, etc."
+msgstr ""
+"Escoje la fuente predeterminada de uso para el código en espacios de "
+"trabajo, transcripts, etc."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used for textual code in etoys"
+msgstr "Escoje la fuente que se usará para mostrar código en etoys"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used for (some) buttons."
+msgstr "Escoje la fuente que se usará para (algunos) botones."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in code panes."
+msgstr "Escoje la fuente que se usará en los recuadros de código."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in connector labels."
+msgstr "Escoje la fuente que se usará en las etiquetas de los conectores."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in list panes"
+msgstr "Escoje la fuente que se usará en los recuadros de listas"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in menus"
+msgstr "Escoje la fuente que se usará en los menús"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used in window titles."
+msgstr "Escoje la fuente que se usará en los títulos de las ventanas."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on etoy buttons"
+msgstr "Escoje la fuente que se usará para botones en etoys"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on etoy tiles"
+msgstr "Escoje la fuente que se usará en los mosaicos"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used on textual flap tabs"
+msgstr "Escoje la fuente que se usará en las pestañas de textos"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Choose the font to be used titles in etoys"
+msgstr "Escoje la fuente que se usará en los títulos de etoys"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "choose the font to be used when presenting balloon help."
+msgstr "escojer la fuente que se usará al presentar los bocadillos de ayuda."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "code font..."
+msgstr "fuente de código..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "connector label font..."
+msgstr "fuente de la etiqueta de conector..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "default text font..."
+msgstr "fuente del texto predeterminada..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy button font..."
+msgstr "fuente de los botones de eToy..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy code font..."
+msgstr "fuente para código de eToy..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy tile font..."
+msgstr "fuente para mosaico de eToy..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "etoy title font..."
+msgstr "fuente para título de eToy..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "flaps font..."
+msgstr "fuente de las pestañas..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "If any font settings have changed since you pinned this menu up, this will allow the menu to rebuilt to reflect current font choices."
+msgstr ""
+"Si cualquier configuración de las fuentes hubiere cambiado desde que usted "
+"marcó este menu hacia arriba, esto le permitirá que el menú se reconstruya "
+"para reflejar la actual selección de fuentes."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "list font..."
+msgstr "listar fuentes..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "menu font..."
+msgstr "fuente de menú..."
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Open a window showing the current font settings"
+msgstr "Abrir una ventana que muestra la configuración actual de las fuentes"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "refresh this menu"
+msgstr "actualizar este menú"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "restore default font choices"
+msgstr "restaurar los valores de fuentes predeterminados"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Standard System Fonts"
+msgstr "Fuentes del Sistema Estándar"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "show current font choices"
+msgstr "mostrar opciones actuales de fuentes"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "Use the standard system font defaults"
+msgstr "Usa las fuentes predeterminadas del sistema estándar"
+
+#: System-Preferences,Preferences_class>>rebuildFontConfigurationMenu:
+msgid "window-title font..."
+msgstr "fuente del título de las ventanas..."
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Allows you to control numerous options"
+msgstr "Permite controlar numerosas opciones"
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Allows you to specify the annotations to be shown in the annotation panes of browsers, etc."
+msgstr ""
+"Permite especificar las anotaciones que deben mostrarse en los paneles de "
+"anotaciones de los exploradores, etc."
+
+#: System-Preferences,Preferences_class>>registerInFlapsRegistry
+msgid "Annotations"
+msgstr "Anotaciones"
+
+#: System-Preferences,Preferences_class>>restorePersonalPreferences
+msgid "There are no personal preferences saved in this image yet"
+msgstr "Esta imagen todavía no tiene preferencias personales guardadas"
+
+#: System-Preferences,Preferences_class>>restorePreferencesFromDisk
+msgid "there was an error restoring the preferences"
+msgstr "hubo un error restaurando las preferencias"
+
+#: System-Preferences,Preferences_class>>restorePreferencesFromDisk
+msgid "you haven't saved your preferences yet!"
+msgstr "usted no ha guardado sus preferencias todavía!"
+
+#: System-Preferences,Preferences_class>>roundedCornersString
+msgid "start rounding window corners"
+msgstr "empezar a redondear las esquinas de las ventanas"
+
+#: System-Preferences,Preferences_class>>roundedCornersString
+msgid "stop rounding window corners"
+msgstr "deja de redondear las esquinas de las ventanas"
+
+#: System-Preferences,Preferences_class>>setArrowheads
+msgid "Default size of arrowheads on pen trails "
+msgstr "Tamaño por omisión de las puntas de flecha en los trazos del lápiz "
+
+#: System-Preferences,Preferences_class>>soundEnablingString
+msgid "turn sound off"
+msgstr "apagar sonido"
+
+#: System-Preferences,Preferences_class>>soundEnablingString
+msgid "turn sound on"
+msgstr "habilitar sonido"
+
+#: System-Preferences,Preferences_class>>staggerPolicyString
+msgid "stagger windows"
+msgstr "ventanas escalonadas"
+
+#: System-Preferences,Preferences_class>>storePreferencesToDisk
+msgid "there was an error storing your preferences to disk"
+msgstr "hubo un error al almacenar tus preferencias en el disco duro"
+
+#: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
+msgid "change theme..."
+msgstr "cambiar tema..."
+
+#: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
+msgid "Numerous \"Preferences\" govern many things about the way Squeak looks and behaves.  Set individual preferences using a \"Preferences\" panel.  Set an entire \"theme\" of many Preferences all at the same time by pressing this \"change theme\" button and choosing a theme to install.  Look in category \"themes\" in Preferences class to see what each theme does; add your own methods to the \"themes\" category and they will show up in the list of theme choices."
+msgstr ""
+"Numerosas \"Preferencias\" determinan muchos elementos acerca de la apariencia "
+"y del comportamiento de Squeak. Las preferencias individuales se ajustan "
+"utilizando el panel de \"Preferencias\".  Para establecer un \"tema\" completo "
+"para varias Preferencias al mismo tiempo, se debe pulsar el botón de "
+"\"cambiar tema\" y seleccionar un tema para instalar. Para ver que se puede "
+"hacer en cada tema hay que mirar en la categoría \"temas\" en la clase de "
+"Preferencias; agrege sus propios métodos a la categoría \"temas\" y se "
+"mostrarán en la lista de la misma elección."
+
+#: System-Preferences,Preferences_class>>windowColorHelp
+msgid "About Window Colors"
+msgstr "Acerca de Colores de las Ventanas"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Bright"
+msgstr "Brillante"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Click for an explanation of this panel"
+msgstr "Pulsar para ver una explicación de este panel"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Pastel"
+msgstr "Pastel"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use standard bright colors for all windows."
+msgstr "Usar colores brillantes estándares para todas las ventanas."
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use standard pastel colors for all windows."
+msgstr "Usar colores pasteles estándares para todas las ventanas."
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "Use white backgrounds for all standard windows."
+msgstr "Usar fondos blancos para todas las ventanas estándares."
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel
+msgid "White"
+msgstr "Blanco"
+
+#: System-Preferences,Preferences_class>>windowSpecificationPanel,Preferences_class>>windowSpecificationPanel
+msgid "Window Colors"
+msgstr "Colores de las Ventanas"
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Do you want to check for updates\\or maintenance fixes on the server?"
+msgstr "¿Quieres buscar actualizaciones\\o mejoras en el servidor?"
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Remember to save you image to make this setting permant."
+msgstr "Recuerda salvar tu imagen para hacer que estos cambios permanezcan."
+
+#: System-Support,AutoStart_class>>processUpdates
+msgid "Yes, Update\\No, Not now\\Don't ask again"
+msgstr "Si, Actualizar\\No, Ahora no\\No preguntar de nuevo"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Allows you to find out which category, or categories, this preference belongs to."
+msgstr "Te permite encontrar a que categoría(s) pertenece esta preferencia."
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "browse senders"
+msgstr "examinar remitentes"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Copy the name of the preference to the text clipboard, so that you can paste into code somewhere"
+msgstr ""
+"Copia el nombre de la preferencia al portapapeles, para que puedas pegarlo "
+"en otra parte"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "copy this name to clipboard"
+msgstr "copiar este nombre al portapapeles"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "hand me a button for this preference"
+msgstr "dame un botón para esta preferencia"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Some preferences are best applied uniformly to all projects, and others are best set by each individual project.  If this item is checked, then this preference will be printed in bold and will have a separate value for each project"
+msgstr ""
+"Algunas preferencias son mejor aplicadas uniformemente para todos los "
+"proyectos, y otras son mejor aplicadas por cada proyecto individual.  Si "
+"este item es marcado, entonces esta preferencia sera impresa en negrilla y "
+"tendrá un valor separado para cada proyecto"
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Store a value for this preference on file. On startup, it will be automatically restored."
+msgstr ""
+"Guarda un valor para esta preferencia en el archivo. Al iniciar, se "
+"restablecerá automáticamente."
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "set automatically on startup..."
+msgstr "se fija automáticamente al inicio..."
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "show category..."
+msgstr "mostrar categoría..."
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "This will open a method-list browser on all methods that the send the preference \""
+msgstr ""
+"Esto abrirá un navegador lista-método en todos los métodos que envíen la "
+"preferencia\""
+
+#: System-Support,BooleanPreferenceView>>offerPreferenceNameMenu:with:in:
+msgid "Will give you a button that governs this preference, which you may deposit wherever you wish"
+msgstr ""
+"Te dará un botón que gobernará esta preferencia, el cual podrás depositar "
+"donde quieras"
+
+#: System-Support,BooleanPreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Click here for a menu of options regarding this preference.  Click on the checkbox to the left to toggle the setting of this preference"
+msgstr ""
+"Pulsa aquí para obtener un menú de opciones relativas a esta preferencia.  "
+"Pulsa en el cuadro de chequeo, a la izquierda para alternar si se activa o "
+"no esta preferencia"
+
+#: System-Support,CurrentProjectRefactoring_class>>showTabsString
+msgid "show flaps (F)"
+msgstr "mostrar solapas (F)"
+
+#: System-Support,CurrentProjectRefactoring_class>>suppressFlapsString
+msgid "show shared tabs (F)"
+msgstr "mostrar pestañas compartidas (F)"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "circular halos with icons inside"
+msgstr "halos circulares con íconos dentro"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "classic"
+msgstr "clásico"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "custom"
+msgstr "personalizado"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "customizable halos"
+msgstr "halos personalizables"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "fewer, larger halos"
+msgstr "menos, halos mas grandes"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "iconic"
+msgstr "simbólico"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "plain circular halos"
+msgstr "halos circulares simples"
+
+#: System-Support,HaloThemePreferenceView>>haloThemeRadioButtons
+msgid "simple"
+msgstr "simple"
+
+#: System-Support,HaloThemePreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Click here to edit the method that defines the custom halos"
+msgstr "Pulsa aqui para editar el método que define los halos personalizados"
+
+#: System-Support,HaloThemePreferenceView>>representativeButtonWithColor:inPanel:
+msgid "Edit custom halos"
+msgstr "Editar halos personalizados"
+
+#: System-Support,MczInstaller_class>>serviceLoadVersion
+msgid "load"
+msgstr "cargar"
+
+#: System-Support,MczInstaller_class>>serviceLoadVersion
+msgid "load a package version"
+msgstr "carga una versión del paquete"
+
+#: System-Support,PreferencesPanel_class>>windowColorSpecification
+msgid "A tool for expressing personal preferences for numerous options."
+msgstr ""
+"Una herramienta para expresar preferencias personales de numerosas opciones."
+
+#: System-Support,PreferencesPanel_class>>windowColorSpecification
+msgid "Preferences Panel"
+msgstr "Panel de Preferencias"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to delete all the preferences saved on file. On the next start, they will have their original value."
+msgstr ""
+"Clic aquí para eliminar todas las preferencias guardadas en archivo. Al "
+"iniciar nuevamente, tendrán su valor original."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to get some hints on use of this Preferences Panel"
+msgstr ""
+"Pulsa aquí para ver sugerencias para el uso de este Panel de Preferencias"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to load all the preferences from their saved values on disk."
+msgstr ""
+"Pulsa aquí para cargar los valores de preferencias guardados actualmente en "
+"el disco duro."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to reset all the preferences to their standard default values."
+msgstr ""
+"Pulsa aquí para volver todas las preferencias a sus valores por omisión "
+"estándares."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to reset all the preferences to their values in your Personal Preferences."
+msgstr "Adopta los valores que hay en Preferencias Personales."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to save the current constellation of Preferences settings as your personal defaults; you can get them all reinstalled with a single gesture by clicking the \"Restore my Personal Preferences\"."
+msgstr ""
+"Guardar como mis Preferencias Personales; son siempre reisntalables pulsando "
+"\"Restaurar mis Preferencias Personales\"."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to save the current constellation of Preferences settings to a file; you can get them all reinstalled with a single gesture by clicking \"Restore Settings From Disk\"."
+msgstr ""
+"Pulsa aquí para guardar la configuración actual de las Preferencias; puedes "
+"reinstalarlas pulsando \"Restaurar la configuración previa\"."
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Click here to view all the values stored in the system Parameters dictionary"
+msgstr ""
+"Pulsa aquí para ver todos los valores almacenados como Parámetros del "
+"sistema"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Help!"
+msgstr "¡Ayuda!"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Inspect Parameters"
+msgstr "Inspector de parámetros"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Reset preferences on startup"
+msgstr "Devolver preferencias a su valor original al iniciar"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore all Default Preference Settings"
+msgstr "Restaurar todas las preferencias predefinidas"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore my Personal Preferences"
+msgstr "Restaurar mis preferencias personales"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Restore Settings from Disk"
+msgstr "Restaurar la configuración previa"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Save Current Settings as my Personal Preferences"
+msgstr "Grabar Configuración Actual como mis Preferencias Personales"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Save Current Settings to Disk"
+msgstr "Guardar configuración actual al disco"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Search"
+msgstr "Buscar"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Search Preferences for:"
+msgstr "Buscar preferencias para:"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Type what you want to search for here, then hit the \"Search\" button, or else hit RETURN or ENTER"
+msgstr ""
+"Escribe un texto aqui sobre el que necesites información y pulsa el boton "
+"\"Buscar\" o presiona la tecla de ENTER o de RETORNO"
+
+#: System-Support,PreferencesPanel>>addHelpItemsTo:
+msgid "Type what you want to search for in the box above, then click here (or hit RETURN or ENTER) to start the search; results will appear in the \"search results\" category."
+msgstr ""
+"Escribe aquello sobre lo que quieres investigar en la caja de arriba, "
+"después pulsa aquí para empezar la búsqueda; los resultados aparecerán en la "
+"categoría \"resultados de la búsqueda\"."
+
+#: System-Support,PreferencesPanel>>addModelItemsToWindowMenu:
+msgid "find preference... (f)"
+msgstr "encontrar preferencia... (f)"
+
+#: System-Support,PreferencesPanel>>addModelItemsToWindowMenu:
+msgid "inspect parameters"
+msgstr "inspeccionar parámetros"
+
+#: System-Support,PreferencesPanel>>findPreference:
+msgid "Search for preferences containing:"
+msgstr "Buscar preferencias que contengan:"
+
+#: System-Support,PreferencesPanel>>searchString
+msgid "Type here, hit Search"
+msgstr "Escribe un texto y pulsa Buscar"
+
+#: System-Support,Project_class>>mostRecent:onServer:,Project_class>>sweep:
+msgid "server is unavailable"
+msgstr "el servidor no está disponible"
+
+#: System-Support,Project>>acceptDetailsAndStoreProjectWithForget:,Project>>acceptDetailsAndStoreProject:,Project>>storeOnServerAssumingNameValid,Project>>storeOnServerWithNoInteraction,Project>>storeOnServerWithNoInteractionThenQuit
+msgid "Publishing"
+msgstr "Publicando"
+
+#: System-Support,Project>>armsLengthCommand:withDescription:
+msgid "The top project can't do that"
+msgstr "El proyecto superior no puede realizar eso"
+
+#: System-Support,Project>>assureFlapIntegrity,Project>>setFlaps,RealEstateAgent_class>>reduceByFlaps:
+msgid "Painting"
+msgstr "Dibujo"
+
+#: System-Support,Project>>assureFlapIntegrity
+msgid "Scripting"
+msgstr "Escritura de Guiones"
+
+#: System-Support,Project>>assureFlapIntegrity,Project>>setFlaps
+msgid "Stack Tools"
+msgstr "Herramientas de pila"
+
+#: System-Support,Project>>beIsolated
+msgid "Must be in this project to isolate it"
+msgstr "Para aislarlo debe estar en este proyecto"
+
+#: System-Support,Project>>chooseNaturalLanguage
+msgid "choose language"
+msgstr "seleccionar idioma"
+
+#: System-Support,Project>>chooseNaturalLanguage
+msgid "This controls the human language in which tiles should be viewed.  It is potentially extensible to be a true localization mechanism, but initially it only works in the classic tile scripting system.  Each project has its own private language choice"
+msgstr ""
+"Esto controla el idioma en el cual los mosaidos son vistos.  Es "
+"potencialmente extensible aun auténtido mecanismo de  localización "
+"mechanism, pero en principio sólo funciona en el sistema de guiones clasico "
+"de mosaicos.   Cada proyecto tiene su propio lenguaje"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "I cannot locate the project\\"
+msgstr "No puedo localizar el proyecto\\"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "Yes, make it up\\No, skip it"
+msgstr "Si, hacerlo\\No, saltarlo"
+
+#: System-Support,Project>>decideAboutCreatingBlank:
+msgid "\\Would you like me to create a new project\\with that name?"
+msgstr "\\Quieres que yo cree un nuevo proyecto\\con ese nombre?"
+
+#: System-Support,Project>>displayFontProgress
+msgid "$\tFixing fonts\t$\t"
+msgstr "$\tReparando las fuentes\t$\t"
+
+#: System-Support,Project>>displaySavingProgress
+msgid "Saving"
+msgstr "Guardando"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Are you sure you want to destroy this Project\\ and revert to an older version?\\\\(From the parent project, click on this project's thumbnail.)"
+msgstr ""
+"¿Seguro que quieres destruir este Proyecto\\ y volver a una versión "
+"anterior?\\\\(Desde el proyecto padre, pulsa en la miniatura de este "
+"proyecto.)"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: System-Support,Project>>enter:revert:saveForRevert:,Project>>enter:revert:saveForRevert:,Project>>revert
+msgid "nothing to revert to"
+msgstr "no hay nada que deshacer"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "Revert to saved version"
+msgstr "Volver a la versión guardada"
+
+#: System-Support,Project>>enter:revert:saveForRevert:
+msgid "This project is not all here. I will try to load a complete version."
+msgstr "El proyecto no está entero. Intentaré cargar una versión completa."
+
+#: System-Support,Project>>exit,Project>>saveForRevert
+msgid "Can't exit the top project"
+msgstr "No puedo salir del proyecto principal"
+
+#: System-Support,Project>>exportSegmentFileName:directory:withoutInteraction:
+msgid ""
+"Would you like to include all the changes in the change set\n"
+"\tas part of this publishing operation?"
+msgstr ""
+"Quieres incluir todos los cambios en el change set\n"
+"\tcomo parte de esta operación de publicación?"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid ""
+"Do not write file\n"
+"Write file anyway\n"
+"Debug"
+msgstr ""
+"No escribir fichero\n"
+"Escribir de todos modos\n"
+"Depurar"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "Segment not written"
+msgstr "Segmento no escrito"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "(collecting resources...)"
+msgstr "(recopilando recursos...)"
+
+#: System-Support,Project>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
+msgid "\\Project's own world is not in the segment."
+msgstr "\\El proyecto propietario de este mundo no está en el segmento."
+
+#: System-Support,Project>>finalEnterActions,Project>>finalEnterActions,Project>>finalEnterActions
+msgid "Sugar Navigator Flap"
+msgstr "Pestaña de Navegación Sugar"
+
+#: System-Support,Project>>finalEnterActions
+msgid "show the tool bar"
+msgstr "muestra la barra de herramientas"
+
+#: System-Support,Project>>helpGuideIfOpen
+msgid "Help"
+msgstr "Ayuda"
+
+#: System-Support,Project>>loadFromServer:
+msgid "A newer version exists on the server."
+msgstr "Existe una nueva versión en el servidor."
+
+#: System-Support,Project>>loadFromServer:
+msgid "can't find file on server for {1}"
+msgstr "no se puede encontrar el archivo en el servidor par a{1}"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Load it\\Cancel"
+msgstr "Cargarlo\\Cancelar"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Loading"
+msgstr "Cargando"
+
+#: System-Support,Project>>loadFromServer:
+msgid "Reload anyway\\Cancel"
+msgstr "Recargar en cualquier caso\\Cancelar"
+
+#: System-Support,Project>>loadFromServer:
+msgid "That server has an older version of the project."
+msgstr "Este servidor tiene una versión anterior del proyecto."
+
+#: System-Support,Project>>loadFromServer:
+msgid "The only changes are the ones you made here."
+msgstr "Los únicos cambios son los que has hecho aquí."
+
+#: System-Support,Project>>navigatorFlapVisible,Project>>setFlaps,Project>>updateLocaleDependentsWithPreviousSupplies:gently:,Project>>updateLocaleDependentsWithPreviousSupplies:gently:,ProjectLoading_class>>loadImageSegment:fromDirectory:withProjectView:numberOfFontSubstitutes:substituteFont:mgr:
+msgid "Navigator"
+msgstr "Navegador"
+
+#: System-Support,Project>>okToChange
+msgid ""
+"Really delete the icon\n"
+"and remove the project\n"
+"{1} from Etoys?\n"
+"(file will still be saved on disk)"
+msgstr ""
+"Realmente eliminar el ícono\n"
+"y remover el proyecto\n"
+"{1} de Etoys?\n"
+"(el archivo continuará guardado en el disco)"
+
+#: System-Support,Project>>okToChange
+msgid ""
+"The project {1}\n"
+"contains sub-projects.  You must remove these\n"
+"explicitly before removing their parent."
+msgstr ""
+"El proyecto {1}\n"
+"contiene sub-proyectos que necesitan ser borrados explícitamente antes de "
+"eliminar el proyecto padre."
+
+#: System-Support,Project>>setFlaps
+msgid "Objects"
+msgstr "Objetos"
+
+#: System-Support,Project>>setFlaps
+msgid "Squeak"
+msgstr "Squeak"
+
+#: System-Support,Project>>setFlaps
+msgid "Supplies"
+msgstr "Provisiones"
+
+#: System-Support,Project>>setFlaps
+msgid "Tools"
+msgstr "Herramientas"
+
+#: System-Support,Project>>setFlaps
+msgid "Widgets"
+msgstr "Artefactos"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "Project password"
+msgstr "Contraseña del proyecto"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "Store anyway\\Cancel"
+msgstr "Guardar de todas formas\\Cancelar"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "WARNING"
+msgstr "PELIGRO"
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\Please cancel, rename this project, and see what is there."
+msgstr "\\Por favor cancela, renombra el proyecto y mira a ver que sucede."
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\Project: "
+msgstr "\\Proyecto: "
+
+#: System-Support,Project>>storeOnServerInnards
+msgid "\\THIS PROJECT HAS NEVER BEEN SAVED"
+msgstr "\\ESTE PROYECTO NO SE HA GUARDADO NUNCA"
+
+#: System-Support,Project>>storeOnServerInnards,Project>>storeOnServerWithNoInteractionInnards
+msgid "\\There are newer version(s) in the local directory"
+msgstr "\\Hay nuevas versiones en el directorio local"
+
+#: System-Support,Project>>storeOnServerInnards,Project>>storeOnServerWithNoInteractionInnards
+msgid "\\There are newer version(s) on the server"
+msgstr "\\Hay nuevas versiones en el servidor"
+
+#: System-Support,Project>>tellAFriend:
+msgid ""
+"Since this project has not been saved yet,\n"
+"I cannot tell someone where it is."
+msgstr ""
+"Como este proyecto aún no se ha guardado, no es posible informar acerca de "
+"su ubicación."
+
+#: System-Support,Project>>tryToFindAServerWithMe
+msgid "This project thinks it has never been on a server"
+msgstr "Este proyecto nunca ha estado en un servidor"
+
+#: System-Support,Project>>tryToFindAServerWithMe
+msgid "Try to find a server\\Cancel"
+msgstr "Buscar un servidor\\Cancelar"
+
+#: System-Support,Project>>useLocaleString
+msgid "use localized language"
+msgstr "usa idioma localizado"
+
+#: System-Support,Project>>windowReqNewLabel:
+msgid "Sorry that name is already used"
+msgstr "Este nombre ya está usado"
+
+#: System-Support,ProjectHistory>>mostRecentThread
+msgid "Please name this thread."
+msgstr "Por favor, nombra este hilo."
+
+#: System-Support,ProjectLoading_class>>checkStream:
+msgid ""
+"It looks like a problem occurred while\n"
+"getting this project. It may be temporary,\n"
+"so you may want to try again,"
+msgstr ""
+"Parece que ha habido un problema mientras\n"
+"se cargaba este proyecto. Puede ser temporal,\n"
+"así que quizás quieras intentarlo de nuevo,"
+
+#: System-Support,ProjectLoading_class>>loadSqueakPage:
+msgid ""
+"This is not a PasteUpMorph or\n"
+"exported Project."
+msgstr "Esto no es un PasteUpMorph ni un proyecto exportado."
+
+#: System-Support,ProjectLoading_class>>openName:stream:fromDirectory:withProjectView:clearOriginFlag:,ProjectLoading_class>>openSexpProjectDict:stream:fromDirectory:withProjectView:
+msgid "No project found in this file"
+msgstr "No hay ningún proyecto en este fichero"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install"
+msgstr "instalar"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install SAR"
+msgstr "instalar SAR"
+
+#: System-Support,SARInstaller_class>>serviceFileInSAR
+msgid "install this Squeak ARchive into the image."
+msgstr "instalar este archivo Squeak en la imagen."
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid "Do not load it"
+msgstr "No lo cargues"
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid "Load it anyways"
+msgstr "Cargarlo de todas formas"
+
+#: System-Support,SecurityManager>>enterRestrictedMode
+msgid ""
+"You are about to load some insecure content.\n"
+"If you continue, access to files as well as\n"
+"some other capabilities will be limited."
+msgstr ""
+"Vas a cargar contenidos poco seguros.\n"
+"Si continúas, el acceso a ficheros y \n"
+"otras capacidades serán limitadas."
+
+#: System-Support,SmalltalkImage>>aboutThisSystem
+msgid "License"
+msgstr "Licencia"
+
+#: System-Support,SmalltalkImage>>aboutThisSystem
+msgid "Show license?"
+msgstr "¿Mostrar licencia?"
+
+#: System-Support,SmalltalkImage>>getFileNameFromUser,SystemDictionary>>getFileNameFromUser
+msgid "New File Name?"
+msgstr "¿Nuevo Nombre de Archivo?"
+
+#: System-Support,SmalltalkImage>>getFileNameFromUser,SystemDictionary>>getFileNameFromUser
+msgid "{1} already exists. Overwrite?"
+msgstr "{1} ya existe. ¿Sobrescribir?"
+
+#: System-Support,SmalltalkImage>>lastUpdateStringTranslated
+msgid "latest update: #"
+msgstr "última actualización: #"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid " (case-insensitive)"
+msgstr " (sin diferenciar mayúsculas y minúsculas)"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid " (case-sensitive)"
+msgstr " (mayúsculas/minúsculas)"
+
+#: System-Support,SystemNavigation>>browseMethodsWithString:matchCase:
+msgid "Methods with string "
+msgstr "Métodos con cadena "
+
+#: System-Support,SystemVersion_class>>checkAndApplyUpdates:
+msgid "There are updates available. Do you want to install them now?"
+msgstr "Hay actualizaciones disponibles. ¿Quieres instalarlas ahora?"
+
+#: System-Support,Utilities_class>>authorInitialsFromUser
+msgid "Please type your initials: "
+msgstr "Escribe tus iniciales, por favor: "
+
+#: System-Support,Utilities_class>>authorInitialsToStamp
+msgid "<no author>"
+msgstr "<sin autor>"
+
+#: System-Support,Utilities_class>>chooseFileWithSuffix:
+msgid "Choose a file"
+msgstr "Seleccionar un fichero"
+
+#: System-Support,Utilities_class>>chooseUpdateList
+msgid ""
+"Choose a group of servers\n"
+"from which to fetch updates."
+msgstr ""
+"Escoge un grupo de servidores\n"
+"desde el que realizar actualizaciones."
+
+#: System-Support,Utilities_class>>maybeEmptyTrash
+msgid "Do you really want to empty the trash?"
+msgstr "¿Estás seguro de querer vaciar el cubo de basura?"
+
+#: System-Support,Utilities_class>>offerCommonRequestsInMorphic
+msgid "Common Requests"
+msgstr "Acciones Frecuentes"
+
+#: System-Support,Utilities_class>>offerCommonRequestsInMorphic
+msgid "edit this list"
+msgstr "editar esta lista"
+
+#: System-Support,Utilities_class>>openCommandKeyHelp
+msgid "Command Key Actions"
+msgstr "Acciones de los comandos por teclado"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "Load the latest packages from the default repository?"
+msgstr "¿Carga los últimos paquetes del repositorio estándar?"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid ""
+"No new updates on the server\n"
+msgstr "No hay actualizaciones en el servidor\n"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "Stop looking\\Try next server"
+msgstr "Dejar de buscar\\intentar en el siguiente servidor"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid ""
+"\n"
+"Would you like to try the next server?\n"
+"(Normally, all servers are identical, but sometimes a\n"
+"server won't let us store new files, and gets out of date.)"
+msgstr ""
+"\n"
+"¿Quieres intentar con el siguiente Servidor?\n"
+"(Normalmente, todos los servidores son iguales, paro algunas veces un "
+"servidor no nos permitirá almacenar nuevos ficheros, ni anticuados.)"
+
+#: System-Support,Utilities_class>>readServerUpdatesThrough:saveLocally:updateImage:
+msgid "{1} new update file(s) processed."
+msgstr "Archivos de actualización procesados: {1}."
+
+#: System-Support,Utilities_class>>registerInFlapsRegistry
+msgid "A message browser that tracks the most recently-submitted methods"
+msgstr ""
+"Un explorador de mensajes que localiza los métodos presentados más recientes"
+
+#: System-Support,Utilities_class>>registerInFlapsRegistry
+msgid "Recent"
+msgstr "Reciente"
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "Click here to empty the trash."
+msgstr "Hacer clic aquí para vaciar el cubo de basura."
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "EMPTY"
+msgstr "VACIAR"
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid ""
+"Objects you drag into the trash will automatically be saved here, one object per page, in case you need them later.  To disable this feature set the \"preserveTrash\" Preference to false.\n"
+"\n"
+"You can individually expunge objects by hitting the - control, and you can empty out all the objects in the trash can by hitting the \"EMPTY\" button at top right."
+msgstr ""
+"Los objetos que se arrojen al cubo de basura se graban automáticamente aquí, "
+"un objeto por página, por si se los necesita más tarde.  Para deshabilitar "
+"esta característica pon \"conservarBasura\" (preserveTrash) en Preferencias "
+"como falso.\n"
+"\n"
+"Se pueden eliminar objetos individales con el control -, y también vaciar "
+"totalmente el cubo de basura con el botón \"VACIAR\" de arriba a la derecha."
+
+#: System-Support,Utilities_class>>scrapsBook
+msgid "scraps"
+msgstr "basura"
+
+#: System-Support,Utilities_class>>setAuthorName
+msgid "Please type your name:"
+msgstr "Escribe tu nombre:"
+
+#: System-Support,Utilities_class>>setAuthorName
+msgid "Your Name"
+msgstr "Tu Nombre"
+
+#: System-Support,Utilities_class>>trashTitle
+msgid "  ({1} pages)"
+msgstr "  ({1} páginas)"
+
+#: System-Support,Utilities_class>>trashTitle
+msgid "T R A S H"
+msgstr "B A S U R A"
+
+#: System-Support,Utilities_class>>updateFromDefaultRepository
+msgid "Repository unavailable"
+msgstr "Repositorio no disponible"
+
+#: System-Support,Utilities_class>>updateFromDefaultRepository
+msgid ""
+"Update completed.\n"
+"System version is now:\n"
+"{1}"
+msgstr ""
+"Puesta al día completa.\n"
+"La versión del sistema ahora es:\n"
+"{1}"
+
+#~ msgid ""
+#~ "Really delete the project\n"
+#~ "{1}\n"
+#~ "and all its contents?"
+#~ msgstr ""
+#~ "Está seguro de querer borrar el proyecto\n"
+#~ "{1}\n"
+#~ "y todos sus contenidos?"

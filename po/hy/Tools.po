@@ -1,0 +1,877 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2013-07-09 21:22+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Tools\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "A viewer and editor for Zip archive files"
+msgstr "Ծրագիր` Zip արխիվների հետ աշխատելու համար"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "Zip Tool"
+msgstr "Zip գործիք"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip,ArchiveViewer_class>>serviceAddToNewZip
+msgid "add file to new zip"
+msgstr "ավելացնել ֆայլը նոր Zip -ում"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip
+msgid "to new zip"
+msgstr "նոր Zip -ում"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all"
+msgstr "հեռացնել ամբողջը"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all files to a user-specified directory"
+msgstr "տեղափոխել ամբողջ ֆայլերը օգտվողի կատալոգում"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all to..."
+msgstr "տեղափոխել ամբողջը"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open in zip viewer"
+msgstr "բացել zip պատուհանում"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open zip"
+msgstr "բացել zip-ը"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>openNewArchive
+msgid "Select Zip archive to open..."
+msgstr "Ընտրել zip արխիվը բացելու համար"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid ""
+" is used by one or more members\n"
+"in your archive, and cannot be overwritten.\n"
+"Try writing to another file name"
+msgstr ""
+" օգտագործվում է մեկ կամ ավելի անդամների կողմից\n"
+"Ձեր արխիվում, և չի կարող նորից գրվել: \n"
+"Փորձեք գրել մեկ այլ անունով"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Destination Zip File Name:"
+msgstr "Նախատեսված Zip ֆայլի անունը"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Prepended File:"
+msgstr "Առաջնորդող ֆայլը:"
+
+#: Tools-Base,CodeHolder>>addModelItemsToWindowMenu:
+msgid "what to show..."
+msgstr "ինչ ցուցադրել..."
+
+#: Tools-Base,CodeHolder>>offerWhatToShowMenu,CodeHolder>>offerWhatToShowMenu
+msgid "What to show"
+msgstr "Ինչ ցուցադրել"
+
+#: Tools-Base,MethodHolder>>addModelMenuItemsTo:forMorph:hand:
+msgid "whose script is this?"
+msgstr "ու՞մ բնօրինակն է սա"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<no> create textual references to dropped morphs"
+msgstr ""
+"<ոչ> ստեղծել տեքստային հղումներ բաց տողնված ձևափոխություններում «morphs»"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<yes> create textual references to dropped morphs"
+msgstr ""
+"<այո> ստեղծել տեքստային հղումներ բաց տողնված ձևափոխություններում «morphs»"
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "append contents of file..."
+msgstr "ավելացնել ֆայլի պարունակությունը"
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "save contents to file..."
+msgstr "պահպանել պարունակությունը ֆայլում..."
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry
+msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
+msgstr ""
+"Browser-ը - գործիք է, որը թույլ է տալիս տեսնել բոլո դասի կոդերը համակարգի "
+"մեջ"
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry,Browser_class>>windowColorSpecification
+msgid "Browser"
+msgstr "´ñ³áõ½»ñ"
+
+#: Tools-Browser,Browser_class>>windowColorSpecification
+msgid "The standard \"system browser\" tool that allows you to browse through all the code in the system"
+msgstr ""
+"«System Browser» -ը գործիք է, որը թույլ է տալիս տեսնել բոլոր կոդերը "
+"համակարգի մեջ"
+
+#: Tools-Browser,Browser>>noCommentNagString
+msgid "THIS CLASS HAS NO COMMENT!"
+msgstr "ԱՅՍ ԴԱՍԸ ՄԵԿՆԱԲԱՆՈՒԹՅՈՒՆ ՉՈՒՆԻ"
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "A tool finding, viewing, and editing all methods whose names contiane a given character sequence."
+msgstr "Գործիք` որոնելու, դիտարկելու և բոլոր մեթոդները խմբագրելու համար,"
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "Message Names"
+msgstr "Հաղորդագրության Անունը"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "A list of messages (e.g. senders, implementors)"
+msgstr "Հաղորդագրությունների ցանկը (օր. ուղարկողներ, փորձարկողներ)"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "Message List"
+msgstr "Հաղորդագրությունների ցանկ"
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "A system browser with an extra pane at top-left for module."
+msgstr "Browser` հավելյալ որոնման վահանակով"
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "Package Browser"
+msgstr "Փաթեթների Browser"
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "A tool for finding methods by giving sample arguments and values."
+msgstr ""
+"Գործիք, որը թույլ է տալիս որոնել մեթոդները ըստ փաստարկների եւ դրանց "
+"արժեքների:"
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "Method Finder"
+msgstr "Մեթոդների որոնում"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changelist browser"
+msgstr "փոփոխությունների browser"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changes"
+msgstr "փոփոխություններ"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "open a changelist tool on this file"
+msgstr "բացել փոփոխություններ կատարելու գործիքը այս ֆայլում"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "open a changelist tool on recent changes in file"
+msgstr ""
+"բացել բրաուզերի փոփոխություններ կատարելու գործիքը ֆայլում` վերջին կատարած "
+"փոփոխությունների համար"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes"
+msgstr "վերջին փոփոխությունները"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes in file"
+msgstr "ֆայլում կատարված վերջին փոփոխությունները"
+
+# Список изменений найденных во внешнем файле.
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "A tool that presents a list of all the changes found in an external file."
+msgstr "Արտաքին ֆայլում գտնված փոփոխությունների ցանկը"
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "Change List"
+msgstr "Փոփոխությունների Ցանկ"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
+msgstr ""
+"Գործիք, որը թույլատրում է տեսնելու և ղեկավարելու կոդերի բոլոր "
+"փոփոխությունները մեկ հավաքագրումով"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Set"
+msgstr "փոփոխությունների հավաքագրում"
+
+#: Tools-Changes,ChangeSorter_class>>removeEmptyUnnamedChangeSets
+msgid "Unnamed"
+msgstr "Անանուն"
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification
+msgid "A tool that lets you see the code for one change set at a time."
+msgstr "Գործիք, որը թույլատրում է տեսնել մեկ փոփոխության կոդը այդ պահին"
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Sorter"
+msgstr "Փոփոխությունների տեսակավորում"
+
+#: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
+msgid ""
+"This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+msgstr ""
+"Այս գործողությունը պահանջում է, որ վահանակներում ընտրված փոփոխությունների "
+"հավաքագրումը լինի տարբեր"
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a class comment."
+msgstr "Դիտել նախորդ դասի մեկնաբանության տարբերակները"
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "Class Comment Versions Browser"
+msgstr "դասի մեկնաբանությունների տարբերակների ցանկ"
+
+#: Tools-Changes,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Shows two change sets side by side"
+msgstr "Ցուցադրել փոփոխությունների երկու հավաքագրում իրար կողքի"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Dual Change Sorter"
+msgstr "Փոփոխությունների կրկնակի ցուցակ"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Lets you view and manipulate two change sets concurrently."
+msgstr "Փոփոխությունների հավաքագրման դիտարկում և ղեկավարում միևնույն ժամանակ"
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a method."
+msgstr "Գործիք` մեթոդի նախորդ տարբերակները դիտարկելու համար"
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "Versions Browser"
+msgstr "Տարբերակների Բրաուզեր"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Comparison from {1} to {2}"
+msgstr "Համեմատություն {1} -ը {2} -ի հետ"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Exact Match"
+msgstr "Ճիշտ համեմատում"
+
+#: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
+msgid "{1} (in {2})"
+msgstr "{1} -ը {2}) -ում"
+
+#: Tools-Changes,VersionsBrowser>>versionsMenu:
+msgid "Versions"
+msgstr "Տարբերակներ"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "Debugger"
+msgstr "Մաքրում"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "The system debugger."
+msgstr "Մաքրման համակարգը"
+
+#: Tools-Debugger,Debugger>>askForCategoryIn:default:
+msgid "Please provide a good category for the new method!"
+msgstr "Խնդրեմ տրամադրել լավ կատեգորիա նոր մեթոդի համար"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Abandon"
+msgstr "Լքել"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "abandon this execution by closing this window"
+msgstr "լքել գործողությունը` փակելով պատուհանը"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "bring up a debugger"
+msgstr "Բացել մաքրման ծրագիրը"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "continue execution"
+msgstr "շարունակել գործողությունը"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Debug"
+msgstr "Մաքրել"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Proceed"
+msgstr "Շարունակել"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Store log"
+msgstr "Պահպանել բեռնեւմը"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "write a log of the encountered problem"
+msgstr "Պահպանել սխալներին վերաբերող բոլոր հաղորդագրություննեը"
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred in\\{3} of {2}.\\Fix your script(s), hit 'Abandon' and try again."
+msgstr ""
+"Սխալ է հայտնաբերվել \\ {3} - ից {2}-ում \\ շտկել կոդը, սեղմել 'Հրաժարվել' և "
+"փորձել կրկին:"
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
+msgstr ""
+"Սխալ է հայտնաբերվել, ամենայն հավանականությամբ, պետք է սեղմել «Մերժել», "
+"Ներեցեք."
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>selectAndBrowseFile:
+msgid "What files?"
+msgstr "Ի՞նչ ֆայլ"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCodeFiles
+msgid "browse code files"
+msgstr "ֆայլի կոդերը"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code"
+msgstr "կոդ"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code-file browser"
+msgstr "ֆայլի կոդի աղբյուրը"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "open a \"file-contents browser\" on this file, allowing you to view and selectively load its code"
+msgstr ""
+"բացել պատուհան ֆայլի պարունակությամբ, որը թույլ կտա դիտելու և ընտրություն "
+"կատարելով բեռնել վերջինիս կոդը"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "File Contents Browser"
+msgstr "Ֆայլի պարունակությունը"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "Lets you view the contents of a file as code, in a browser-like tool."
+msgstr "Դիտել ֆայլի պարունակությունը որպես կոդ"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Class exists already in the system"
+msgstr "Դասը արդեն գոյություն ունի համակարգում"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Existing method removed by this change-set"
+msgstr ""
+"Գոյություն ունեցող մեթոդը հեռացվեց այս հավաքագրված փոփոխությունների միջոցով"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Method already exists"
+msgstr "Մեթոդը արդեն գոյություն ունի"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New class"
+msgstr "Նոր դաս"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New method"
+msgstr "Նոր մեթոդ"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Removal request for a method that is not present in this image"
+msgstr "Խնդրանք` հեռացնելու մեթոդը, որը գոյություն չունի ծրագրում"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid " already exists in the package"
+msgstr " արդեն գոյություն ունի փաթեփում"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid "Please type new class name"
+msgstr "Խնդրեմ, տպագրել նոր դասի անունը"
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry
+msgid "A File List is a tool for browsing folders and files on disks and on ftp types."
+msgstr "Ֆայլերի և կատալոգների ցանկ դիսկերում և / կամ FTP-ում"
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry,FileList_class>>windowColorSpecification
+msgid "File List"
+msgstr "Ֆայլի ցանկը"
+
+#: Tools-FileList,FileList_class>>windowColorSpecification
+msgid "A tool for looking at files"
+msgstr "Գործիք` ֆայլերը փնտրելու համար"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "New {1} Name?"
+msgstr "Նոր {1} Անուն"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "{1}Name"
+msgstr "{1} Անուն"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "  -- Folder Summary --"
+msgstr "  -- Թղթապանակ ամփոփում --"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "NO FILE SELECTED"
+msgstr "Ընտրված ֆայլ չկա"
+
+#: Tools-FileList,FileList>>deleteDirectory
+msgid "Directory must be empty"
+msgstr "Կատալոգը պետք է լինի դատարկ"
+
+#: Tools-FileList,FileList>>deleteDirectory,FileList>>deleteFile
+msgid "Really delete {1}?"
+msgstr "Իսկապե՞ս ջնջել{1}"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "accept (s)"
+msgstr "ընդունել (s)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cancel (l)"
+msgstr "Չեղարկել (l)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "copy (c)"
+msgstr "կրկնօրինակել (c)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cut (x)"
+msgstr "կտրել (x)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do again (j)"
+msgstr "կրկին կատարել (j)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do it (d)"
+msgstr "կատարել (d)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "fileIn selection (G)"
+msgstr "բեռնել ընդգծվածը (G)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find again (g)"
+msgstr "նորից գտնել (g)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find...(f)"
+msgstr "գտնել...(f)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "inspect it (i)"
+msgstr "ուսումնասիրել (i)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:,FileList>>serviceAllFileOptions,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "more..."
+msgstr "ավելի..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste (v)"
+msgstr "տեղադրել (v)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste..."
+msgstr "տեղադրել..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "print it (p)"
+msgstr "տպել(p)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "set search string (h)"
+msgstr "տեղադրել որոնման տողը (h)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "undo (z)"
+msgstr "չեղարկել վերջին գործողությունը (z)"
+
+#: Tools-FileList,FileList>>fullFileListMenu:shifted:
+msgid "all possible file operations"
+msgstr "ֆայլի բոլոր հնարավոր գործողությունները"
+
+#: Tools-FileList,FileList>>put:
+msgid "No fileName is selected"
+msgstr "Ֆայլի անունը ընտրված չէ"
+
+#: Tools-FileList,FileList>>put:
+msgid ""
+"{1} contents cannot\n"
+"meaningfully be saved at present."
+msgstr "{1} պարունակությունը չի պահպանվի այս պահին"
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 5000 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 5000 characters."
+msgstr ""
+"Ֆայլ '{1}' պարունակում է {2} բայթԴուք կարող եք օգտագործել 'get' հրամանը "
+"ամբողջական ֆայլը ընթերցելու համար Այստեղ են առաջին 5000 "
+"բնութագրերը.........................................\n"
+"{3}\n"
+"......................................\n"
+"5000 բնութագրերի վերջը."
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:,FileList>>readServerBrief
+msgid "For some reason, this file cannot be read"
+msgstr "Որոշակի պատճառներով այս ֆայլը չի կարող ընթերցվել"
+
+#: Tools-FileList,FileList>>readServerBrief
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 3500 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 3500 characters."
+msgstr ""
+"Ֆայլ '{1}' պարունակում է {2} բայթԴուք կարող եք օգտագործել 'get' հրամանը "
+"ամբողջական ֆայլը ընթերցելու համար Այստեղ են առաջին 3500 "
+"բնութագրերը.........................................\n"
+"{3}\n"
+"......................................\n"
+"3500 բնութագրերի վերջը."
+
+#: Tools-FileList,FileList>>removeVersionNumberFromFileName
+msgid "do you want to clobber the existing"
+msgstr "ցանկանու՞մ եք նորից ձայնագրել գոյություն ունեցող ֆայլը"
+
+#: Tools-FileList,FileList>>renameFile
+msgid "NewFileName?"
+msgstr "Նոր ֆայլի անու՞ն"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "add new directory"
+msgstr "ավելացնել նոր կատալոգ"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "adds a new, empty directory (folder)"
+msgstr "ավելացնել նոր դատարկ կատալոգ"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "add new file"
+msgstr "ավելացնել նոր ֆայլ"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "create a new,. empty file, and add it to the current directory."
+msgstr "Ստեղծել նոր, դատարկ ֆայլ, և տեղադրել այն ընթացիկ կատալոգում"
+
+#: Tools-FileList,FileList>>serviceAllFileOptions
+msgid "show all the options available"
+msgstr "ցուցադրել բոլոր հնարավոր տարբերակները"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast"
+msgstr "խմբագրել"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast as update"
+msgstr "խմբագրել որպես նոր"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast file as update"
+msgstr "խմբագրել ֆայլը որպես նոր"
+
+#: Tools-FileList,FileList>>serviceCompressFile,FileList>>serviceCompressFile
+msgid "compress"
+msgstr "փոքրացնել"
+
+#: Tools-FileList,FileList>>serviceCompressFile
+msgid "compress file"
+msgstr "փոքրացնել ֆայլը"
+
+#: Tools-FileList,FileList>>serviceCopyName,FileList>>serviceCopyName
+msgid "copy name to clipboard"
+msgstr "կրկնօրինակ անունը ցուցատախտակին"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete"
+msgstr "Ջնջել"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete the seleted item"
+msgstr "Ջնջել ընտրված էլեմենտը"
+
+#: Tools-FileList,FileList>>serviceGetEncodedText,FileList>>serviceGetEncodedText
+msgid "view as encoded text"
+msgstr "ցուցադրել «հում» տեքստը"
+
+#: Tools-FileList,FileList>>serviceGetHex,FileList>>serviceGetHex
+msgid "view as hex"
+msgstr "դիտել որպես «hex»"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "get entire file"
+msgstr "ձեռք բերել ամբողջական ֆայլը"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "if the file has only been partially read in, because it is very large, read the entire file in at this time."
+msgstr ""
+"Եթե ​​ֆայլը ընթերցվել է մասամբ (ծավալուն լինելու պատճառով), ընթերցել "
+"ամբողջական ֆայլ միևնույն ժամանակ"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from file name"
+msgstr "ֆայլի անունից հեռացնել տարբերակի համարը"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from filename"
+msgstr "ֆայլի անունից հեռացնել տարբերակի համարը"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version #"
+msgstr "հեռացնել տարբերակը #"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename"
+msgstr "վերանվանել"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename file"
+msgstr "վերանվանել ֆայլը"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "by date"
+msgstr "ըստ ամսաթվի"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "date"
+msgstr "ամսաթիվ"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "sort entries by date"
+msgstr "տեսակավորել մուտքերը ըստ ամսաթվի"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "by name"
+msgstr "ըստ անվան"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "name"
+msgstr "անուն"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "sort entries by name"
+msgstr "տեսակավորել մուտքերը ըստ անվան"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "by size"
+msgstr "ըստ չափսի"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "size"
+msgstr "չափս"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "sort entries by size"
+msgstr "տեսակավորել մուտքերը ըստ չափսի"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "open a new Workspace whose contents are set to the contents of this file"
+msgstr "Բացել նոր խմբագրություն ֆայլի ամբողջ պարունակությամբ"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "workspace with contents"
+msgstr "խմբագրություն պարունակությամբ"
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "add server..."
+msgstr "ավելացնել սերվեր..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "delete directory..."
+msgstr "ջնջել կատալոգը"
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "recent..."
+msgstr "վերջին..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "remove server..."
+msgstr "հեռցնել սերվերը..."
+
+#: Tools-FileList,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,PopUpMenu_class>>informCenteredAboveCursor:,PopUpMenu_class>>inform:
+msgid "OK"
+msgstr "OK"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "return without saving"
+msgstr "հեռանալ առանց պահպանելու"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save"
+msgstr "Պահպանել"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save in the place specified above"
+msgstr "Պահպանել հատուկ վերեվում նշված վայրում"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save on local disk only"
+msgstr "Պահպանել միայն տեղային դիսկի վրա"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "saves in the Squeaklets folder"
+msgstr "պահպանել Squeaklets թղթապանակում"
+
+#: Tools-FileList,FileList2_class>>morphicViewFileSelectorForSuffixes:
+msgid "Please select a file"
+msgstr "Խնդրեմ, ընտրել ֆայլը"
+
+#: Tools-FileList,FileList2_class>>morphicViewGeneralLoaderInWorld:
+msgid "Find..."
+msgstr "Գտնել..."
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
+msgid "Load A Project"
+msgstr "Բեռնել նախագիծը"
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
+msgid "Publish This Project"
+msgstr "Հրապարակել այս Նախագիծը"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Network Error"
+msgstr "Ցանցային վրիպում"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Unknown Error"
+msgstr "Անհայտ վրիպում"
+
+#: Tools-FileList,FileList2>>serviceCancel,FileList2>>serviceCancel
+msgid "cancel"
+msgstr "Չեղարկել"
+
+#: Tools-FileList,FileList2>>serviceCancel
+msgid "hit here to cancel "
+msgstr "սեղմել այստեղ չեղարկելու համար "
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "hit here to accept the current selection"
+msgstr "սեղմել այստեղ ընթացիկ ընտրությունը ընդունելու համար"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "ok"
+msgstr "OK"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "okay"
+msgstr "OK"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "բեռնել"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "բեռնել որպես նախագիծ"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "բացել նախագիծը ֆայլից"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log in to share projects on the Squeakland server"
+msgstr "Մուտքագրվել Squeakland սերվերում նախագծերը համատեղ օգտագործելու համար"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log out from the Squeakland server"
+msgstr "Հեռանալ Squeakland սերվերից"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Login"
+msgstr "Մուտքագրվել"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Logout"
+msgstr "Դուրս գալ"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance,FileList2>>updateLoginButtonAppearance
+msgid "Your Squeakland user name"
+msgstr "Ձեր Squeakland -ի մուտքանունը"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "(not logged in)"
+msgstr "(մուտքագրված չէ)"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:,PopUpMenu_class>>confirm:orCancel:
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:
+msgid "Cancel this search"
+msgstr "Չեղարկել այս որոնումը"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:
+msgid ""
+"overwrite that file\n"
+"select another file"
+msgstr ""
+"Նորից ձայնագրել այդ ֆայլը\n"
+"ընտրել այլ ֆայլ"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"արդեն գոյություն ունի"
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "No"
+msgstr "Ոչ"
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "Yes"
+msgstr "Այո"
+
+#: Tools-Menus,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "start over..."
+msgstr "նորից սկսել"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"Can't delete {1}\n"
+"Select another file"
+msgstr ""
+"Չի կարող ջնջել{1}\n"
+"Ընտրել այլ ֆայլ"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"Նորից գրանցել այդ ֆայլը\n"
+"ընտրել այլ անունչեղարկել"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid "Select Another File"
+msgstr "ընտրել այլ ֆայլ"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:
+msgid "Enter a new file name"
+msgstr "Մուտքագրել նոր ֆայլի անուն"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:,StandardFileMenu_class>>newFileFrom:,StandardFileMenu_class>>oldFileFrom:
+msgid "Select a File:"
+msgstr "Ընտրել Ֆայլ`"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "A Process Browser shows you all the running processes"
+msgstr "Գործընթացի Browser -ը ցույց է տալիս ընթացիկ գործընթացը"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "Processes"
+msgstr "Գործընթացներ"

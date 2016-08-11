@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:52-0000\n"
+"PO-Revision-Date: 2010-08-27 15:52-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Files\n"
+
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Attempt to rename a non-existent file"
+msgstr "Probeert een niet-bestaand bestand te hernoemen"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"delete old version\n"
+"cancel"
+msgstr ""
+"verwijder oude versie\n"
+"annuleer"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Failed to rename file"
+msgstr "Kan niet hernoemen"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"Trying to rename a file to be\n"
+"{1}\n"
+"and it already exists."
+msgstr ""
+"Probeert een bestand te hernoemen naar\n"
+"{1}\n"
+"maar dat bestaat al."
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "file in the entire contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr "bestand in de gehele inhoud van het bestand, dat naar verwachting Smalltalk code bevat in bestand-uit (\"chunk\") formaat"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "bestandIn geheel bestand"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "filein"
+msgstr "bestand in"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove lfs"
+msgstr "verwijder lfs"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds"
+msgstr "verwijder regelovergangen"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds in file"
+msgstr "verwijder regelovergangen in bestand"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:
+msgid ""
+"create a new file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"maak nieuw bestand\n"
+"kies andere naam\n"
+"annuleer"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>fileExistsUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Enter a new file name"
+msgstr "Voer een nieuwe bestandsnaam in"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid ""
+"{1}\n"
+"does not exist."
+msgstr ""
+"{1}\n"
+"bestaat niet."
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Could not delete the old version of that file"
+msgstr "Kan oude versie van dat bestand niet verwijderen"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "overwrite that file\\choose another name\\cancel"
+msgstr "overschrijf dat bestand\\kies andere naam\\cancel"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Please close this to abort file opening"
+msgstr "S.v.p. sluit dit om bestand openen af te breken"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"bestaat al."
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Choose another name"
+msgstr "Kies andere naam"
+

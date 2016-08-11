@@ -1,0 +1,893 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-03-07 22:04+0200\n"
+"Last-Translator: Markus <m.slg@gmx.de>\n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Tools\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "A viewer and editor for Zip archive files"
+msgstr "Ein Werkzeug, um Zip-Archive zu betrachten und zu bearbeiten"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "Zip Tool"
+msgstr "Zip-Werkzeug"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip,ArchiveViewer_class>>serviceAddToNewZip
+msgid "add file to new zip"
+msgstr "Datei zu neuem Zip-Archiv hinzufügen"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip
+msgid "to new zip"
+msgstr "In neues Zip-Archiv"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all"
+msgstr "Alles auspacken"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all files to a user-specified directory"
+msgstr "Alle Dateien in ein ausgewähltes Verzeichnis auspacken"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all to..."
+msgstr "Auspacken nach..."
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open in zip viewer"
+msgstr "Im Zip-Betrachter öffnen"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open zip"
+msgstr "Zip-Archiv öffnen"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>openNewArchive
+msgid "Select Zip archive to open..."
+msgstr "Zu öffnendes Zip-Archiv wählen..."
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid ""
+" is used by one or more members\n"
+"in your archive, and cannot be overwritten.\n"
+"Try writing to another file name"
+msgstr ""
+" stimmt mit einer oder mehreren Dateien\n"
+"in deinem Archiv überein und kann daher\n"
+"nicht überschrieben werden.\n"
+"Versuche es mit einem anderen Dateinamen"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Destination Zip File Name:"
+msgstr "Name des zu benutzenden Zip-Archivs:"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Prepended File:"
+msgstr "Vorangestellte Datei:"
+
+#: Tools-Base,CodeHolder>>addModelItemsToWindowMenu:
+msgid "what to show..."
+msgstr "Was angezeigt werden soll..."
+
+#: Tools-Base,CodeHolder>>offerWhatToShowMenu,CodeHolder>>offerWhatToShowMenu
+msgid "What to show"
+msgstr "Was angezeigt werden soll"
+
+#: Tools-Base,MethodHolder>>addModelMenuItemsTo:forMorph:hand:
+msgid "whose script is this?"
+msgstr "Von wem ist das Skript?"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<no> create textual references to dropped morphs"
+msgstr "<no> Text-Verweise auf abgelegte Morphe erzeugen"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<yes> create textual references to dropped morphs"
+msgstr "<yes> Text-Verweise auf abgelegte Morphe erzeugen"
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "append contents of file..."
+msgstr "Dateiinhalt anfügen..."
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "save contents to file..."
+msgstr "Inhalt in Datei speichern..."
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry
+msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
+msgstr "Ein Werkzeug zum Anzeigen des gesamten Progammtextes aller Klassen"
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry,Browser_class>>windowColorSpecification
+msgid "Browser"
+msgstr "Browser"
+
+#: Tools-Browser,Browser_class>>windowColorSpecification
+msgid "The standard \"system browser\" tool that allows you to browse through all the code in the system"
+msgstr ""
+"Der Standard \"System-Browser\", mit dem du den gesamten Programmtext im "
+"System durchsuchen kannst"
+
+#: Tools-Browser,Browser>>noCommentNagString
+msgid "THIS CLASS HAS NO COMMENT!"
+msgstr "DIESE KLASSE IST NICHT DOKUMENTIERT!"
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "A tool finding, viewing, and editing all methods whose names contiane a given character sequence."
+msgstr ""
+"Ein Werkzeug zum Suchen, Anzeigen und Bearbeiten aller Methoden mit einem "
+"bestimmten Namen oder Namensteil."
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "Message Names"
+msgstr "Nachrichten-Sucher"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "A list of messages (e.g. senders, implementors)"
+msgstr "Eine Liste von Nachrichten (z.B. Sender, Implementoren)"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "Message List"
+msgstr "Nachrichtenliste"
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "A system browser with an extra pane at top-left for module."
+msgstr "Ein System-Browser mit einem extra Kontrollfeld links oben für Module."
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "Package Browser"
+msgstr "Paketbrowser"
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "A tool for finding methods by giving sample arguments and values."
+msgstr ""
+"Ein Werkzeug zum Auffinden von Methoden durch die Angabe von Argumenten und "
+"Werten."
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "Method Finder"
+msgstr "Methoden-Sucher"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changelist browser"
+msgstr "Änderungslisten-Browser"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changes"
+msgstr "Änderungen"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "open a changelist tool on this file"
+msgstr "Öffnet eine Änderungsliste mit dieser Datei."
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "open a changelist tool on recent changes in file"
+msgstr ""
+"Zeigt die letzten Änderungen der Datei in einem Fenster (für .changes-"
+"Dateien)."
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes"
+msgstr "Letzte Änderungen"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes in file"
+msgstr "Letzte Änderungen in Datei"
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "A tool that presents a list of all the changes found in an external file."
+msgstr ""
+"Ein Werkzeug zum Anzeigen einer Liste aller Änderungen in einer externen "
+"Datei."
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "Change List"
+msgstr "Änderungsliste"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
+msgstr ""
+"Ein Werkzeug zur Verwaltung aller Programmtext-Änderungen in einer einzelnen "
+"Änderungsliste"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Set"
+msgstr "Änderungsliste"
+
+#: Tools-Changes,ChangeSorter_class>>removeEmptyUnnamedChangeSets
+msgid "Unnamed"
+msgstr "Ohne Namen"
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification
+msgid "A tool that lets you see the code for one change set at a time."
+msgstr ""
+"Ein Werkzeug zum Betrachten des Programmtext in einer bestimmten "
+"Änderungsliste."
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Sorter"
+msgstr "Änderungsverwaltung"
+
+#: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
+msgid ""
+"This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+msgstr ""
+"Die Änderungslisten auf beiden Seiten\n"
+"der Änderungsverwaltung müssen\n"
+"*unterschiedlich* sein."
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a class comment."
+msgstr ""
+"Ein Werkzeug zum Anzeigen früherer Versionen einer Klassendokumentation."
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "Class Comment Versions Browser"
+msgstr "Klassendokumentation Versionen Browser"
+
+#: Tools-Changes,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Shows two change sets side by side"
+msgstr "Zeigt zwei Änderungslisten nebeneinander"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Dual Change Sorter"
+msgstr "Doppelte Änderungsverwaltung"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Lets you view and manipulate two change sets concurrently."
+msgstr ""
+"Damit kannst du zwei Änderungslisten gleichzeitig Bearbeiten und Verändern."
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a method."
+msgstr "Ein Werkzeug zum Anzeigen früherer Versionen einer Methode."
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "Versions Browser"
+msgstr "Versionen-Browser"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Comparison from {1} to {2}"
+msgstr "Vergleich von {1} mit {2}"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Exact Match"
+msgstr "Exakte Übereinstimmung"
+
+#: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
+msgid "{1} (in {2})"
+msgstr "{1} (in {2})"
+
+#: Tools-Changes,VersionsBrowser>>versionsMenu:
+msgid "Versions"
+msgstr "Versionen"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "Debugger"
+msgstr "Fehlersuche"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "The system debugger."
+msgstr "Das System-Programm zur Fehlersuche in Programmen."
+
+#: Tools-Debugger,Debugger>>askForCategoryIn:default:
+msgid "Please provide a good category for the new method!"
+msgstr "Bitte gib eine passende Kategorie für diese neue Methode an!"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Abandon"
+msgstr "Abbrechen"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "abandon this execution by closing this window"
+msgstr "Ausführen durch Schließen des Fensters abbrechen"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "bring up a debugger"
+msgstr "Hilfsprogramm zum Softwaretesten starten"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "continue execution"
+msgstr "Weiter ausführen"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Debug"
+msgstr "Debuggen"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Proceed"
+msgstr "Fortfahren"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Store log"
+msgstr "Protokoll speichern"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "write a log of the encountered problem"
+msgstr "Fehlereintrag zum aufgetretenen Problem schreiben"
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred in\\{3} of {2}.\\Fix your script(s), hit 'Abandon' and try again."
+msgstr ""
+"Es ist ein Fehler aufgetreten in \\{3} von {2}.\\Verbessere dein(e) Skript(e), "
+"drücke 'Abbrechen' und versuch es noch einmal."
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
+msgstr ""
+"Leider ist ein Fehler aufgetreten. Das Einfachste ist, auf 'Abbrechen' zu "
+"drücken.  Tut mir leid."
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>selectAndBrowseFile:
+msgid "What files?"
+msgstr "Welche Dateien?"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCodeFiles
+msgid "browse code files"
+msgstr "Programmdateien durchsuchen"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code"
+msgstr "Programmtext"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code-file browser"
+msgstr "Programmtext-Browser"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "open a \"file-contents browser\" on this file, allowing you to view and selectively load its code"
+msgstr ""
+"Öffnet einen Programmtext-Browser mit dieser Datei, um den Programmtext "
+"betrachten und selektiv laden zu können"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "File Contents Browser"
+msgstr "Dateiinhalte-Browser"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "Lets you view the contents of a file as code, in a browser-like tool."
+msgstr ""
+"Damit kannst du den Inhalt von Dateien als Programmtext anzeigen (in einem "
+"browserartigen Werkzeug)."
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Class exists already in the system"
+msgstr "Klasse existiert bereits."
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Existing method removed by this change-set"
+msgstr "Bestehende Methode durch diese Änderungsliste entfernt"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Method already exists"
+msgstr "Funktion existiert bereits."
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New class"
+msgstr "Neue Klasse"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New method"
+msgstr "Neue Funktion"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Removal request for a method that is not present in this image"
+msgstr ""
+"Wunsch zum Entfernen einer Methode, die in diesem Image nicht vorhanden ist"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid " already exists in the package"
+msgstr " ist bereits im Paket vorhanden"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid "Please type new class name"
+msgstr "Bitte gib den neuen Klassennamen an."
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry
+msgid "A File List is a tool for browsing folders and files on disks and on ftp types."
+msgstr ""
+"Ein Werkzeug zum Durchsuchen von Verzeichnissen und Dateien auf Datenträgern "
+"und ftp-Servern."
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry,FileList_class>>windowColorSpecification
+msgid "File List"
+msgstr "Dateiliste"
+
+#: Tools-FileList,FileList_class>>windowColorSpecification
+msgid "A tool for looking at files"
+msgstr "Ein Werkzeug zum Anzeigen von Dateien"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "New {1} Name?"
+msgstr "Neuer {1} Name?"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "{1}Name"
+msgstr "{1}Name"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "  -- Folder Summary --"
+msgstr "  -- Verzeichnis-Inhalt --"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "NO FILE SELECTED"
+msgstr "KEINE DATEI AUSGEWÄHLT"
+
+#: Tools-FileList,FileList>>deleteDirectory
+msgid "Directory must be empty"
+msgstr "Das Verzeichnis muss leer sein"
+
+#: Tools-FileList,FileList>>deleteDirectory,FileList>>deleteFile
+msgid "Really delete {1}?"
+msgstr "{1} wirklich löschen?"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "accept (s)"
+msgstr "OK (s)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cancel (l)"
+msgstr "Abbrechen (l)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "copy (c)"
+msgstr "Kopieren (c)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cut (x)"
+msgstr "Ausschneiden (x)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do again (j)"
+msgstr "Wiederholen (j)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do it (d)"
+msgstr "Ausführen (d)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "fileIn selection (G)"
+msgstr "Auswahl einlesen (G)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find again (g)"
+msgstr "Nächstes Suchen (g)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find...(f)"
+msgstr "Suchen...(f)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "inspect it (i)"
+msgstr "Untersuchen (i)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:,FileList>>serviceAllFileOptions,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "more..."
+msgstr "Mehr..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste (v)"
+msgstr "Einfügen (v)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste..."
+msgstr "Einfügen..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "print it (p)"
+msgstr "Auswerten (p)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "set search string (h)"
+msgstr "Suchen nach (h)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "undo (z)"
+msgstr "Rückgängig (z)"
+
+#: Tools-FileList,FileList>>fullFileListMenu:shifted:
+msgid "all possible file operations"
+msgstr "Alle Dateioperationen"
+
+#: Tools-FileList,FileList>>put:
+msgid "No fileName is selected"
+msgstr "Kein Dateiname ist ausgewählt"
+
+#: Tools-FileList,FileList>>put:
+msgid ""
+"{1} contents cannot\n"
+"meaningfully be saved at present."
+msgstr ""
+"{1} Inhalt kann derzeit nicht\n"
+"sinnvoll gespeichert werden."
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 5000 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 5000 characters."
+msgstr ""
+"Die Datei '{1}' ist {2} Bytes groß.\n"
+"Mit dem Befehl \"ganze Datei laden\" kann sie vollständig gelesen werden.\n"
+"\n"
+"Die ersten 5000 Zeichen...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... Ende der ersten 5000 Zeichen."
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:,FileList>>readServerBrief
+msgid "For some reason, this file cannot be read"
+msgstr "Aus verschiedenen Gründen kann diese Datei nicht gelesen werden"
+
+#: Tools-FileList,FileList>>readServerBrief
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 3500 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 3500 characters."
+msgstr ""
+"Datei '{1}' ist {2} Byte groß.\n"
+"Du solltest den Befehl 'get' anwenden, um die ganze Datei lesen zu können.\n"
+"\n"
+"Hier sind die ersten 3500 Zeichen...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... Ende der ersten 3500 Zeichen."
+
+#: Tools-FileList,FileList>>removeVersionNumberFromFileName
+msgid "do you want to clobber the existing"
+msgstr "Willst du Bestehendes überschreiben?"
+
+#: Tools-FileList,FileList>>renameFile
+msgid "NewFileName?"
+msgstr "Neuer Dateiname?"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "add new directory"
+msgstr "Neues Verzeichnis hinzufügen"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "adds a new, empty directory (folder)"
+msgstr "Neues leeres Verzeichnis erzeugen"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "add new file"
+msgstr "Neue Datei hinzufügen"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "create a new,. empty file, and add it to the current directory."
+msgstr "Neue leere Datei im aktuellen Verzeichnis erzeugen."
+
+#: Tools-FileList,FileList>>serviceAllFileOptions
+msgid "show all the options available"
+msgstr "Alle verfügbaren Optionen anzeigen"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast"
+msgstr "Verbreiten"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast as update"
+msgstr "Als Aktualisierung verbreiten"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast file as update"
+msgstr "Datei als Aktualisierung zu Servern schicken"
+
+#: Tools-FileList,FileList>>serviceCompressFile,FileList>>serviceCompressFile
+msgid "compress"
+msgstr "Komprimieren"
+
+#: Tools-FileList,FileList>>serviceCompressFile
+msgid "compress file"
+msgstr "Datei komprimieren"
+
+#: Tools-FileList,FileList>>serviceCopyName,FileList>>serviceCopyName
+msgid "copy name to clipboard"
+msgstr "Dateiname in Zwischenablage kopieren"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete"
+msgstr "Löschen"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete the seleted item"
+msgstr "Ausgewähltes Element löschen"
+
+#: Tools-FileList,FileList>>serviceGetEncodedText,FileList>>serviceGetEncodedText
+msgid "view as encoded text"
+msgstr "Als dekodierten Text anzeigen"
+
+#: Tools-FileList,FileList>>serviceGetHex,FileList>>serviceGetHex
+msgid "view as hex"
+msgstr "Hex-Ansicht"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "get entire file"
+msgstr "Ganze Datei laden"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "if the file has only been partially read in, because it is very large, read the entire file in at this time."
+msgstr ""
+"Eine Datei, die wegen ihrer Größe bis jetzt nur teilweise geladen wurden, "
+"vollständig laden"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from file name"
+msgstr "Versionsnummer aus Dateinamen entfernen"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from filename"
+msgstr "Versionsnummer aus Dateinamen entfernen"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version #"
+msgstr "Version # entfernen"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename"
+msgstr "Umbenennen"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename file"
+msgstr "Datei umbenennen"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "by date"
+msgstr "Nach Datum"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "date"
+msgstr "Datum"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "sort entries by date"
+msgstr "Nach Datum sortieren"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "by name"
+msgstr "Nach Name"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "name"
+msgstr "Name"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "sort entries by name"
+msgstr "Nach Name sortieren"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "by size"
+msgstr "Nach Größe"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "size"
+msgstr "Größe"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "sort entries by size"
+msgstr "Nach Größe sortieren"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "open a new Workspace whose contents are set to the contents of this file"
+msgstr "Einen neuen Workspace öffnen mit den Inhalten dieser Datei"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "workspace with contents"
+msgstr "Inhalt in Workspace laden"
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "add server..."
+msgstr "Server hinzufügen..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "delete directory..."
+msgstr "Verzeichnis löschen..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "recent..."
+msgstr "Letzte..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "remove server..."
+msgstr "Server entfernen..."
+
+#: Tools-FileList,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,PopUpMenu_class>>informCenteredAboveCursor:,PopUpMenu_class>>inform:
+msgid "OK"
+msgstr "OK"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "return without saving"
+msgstr "Ohne Speichern verlassen"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save"
+msgstr "Speichern"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save in the place specified above"
+msgstr "Im oben ausgewählten Ort speichern"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save on local disk only"
+msgstr "Nur lokal speichern"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "saves in the Squeaklets folder"
+msgstr "Speichern im Squeaklets-Verzeichnis"
+
+#: Tools-FileList,FileList2_class>>morphicViewFileSelectorForSuffixes:
+msgid "Please select a file"
+msgstr "Datei auswählen"
+
+#: Tools-FileList,FileList2_class>>morphicViewGeneralLoaderInWorld:
+msgid "Find..."
+msgstr "Suchen..."
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
+msgid "Load A Project"
+msgstr "Projekt laden"
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
+msgid "Publish This Project"
+msgstr "Projekt veröffentlichen"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Network Error"
+msgstr "Netzwerkfehler"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Unknown Error"
+msgstr "Unbekannter Fehler"
+
+#: Tools-FileList,FileList2>>serviceCancel,FileList2>>serviceCancel
+msgid "cancel"
+msgstr "Abbrechen"
+
+#: Tools-FileList,FileList2>>serviceCancel
+msgid "hit here to cancel "
+msgstr "Hier drücken für Abbrechen "
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "hit here to accept the current selection"
+msgstr "Hier drücken um Auswahl zu bestätigen"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "ok"
+msgstr "OK"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "okay"
+msgstr "OK"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "Laden"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "Als Projekt laden"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "Projekt aus Datei laden"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log in to share projects on the Squeakland server"
+msgstr "Anmelden, um Projekte auf dem Squeakland-Server zu veröffentlichen"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log out from the Squeakland server"
+msgstr "Vom Squeakland-Server abmelden"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Login"
+msgstr "Anmelden"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Logout"
+msgstr "Abmelden"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance,FileList2>>updateLoginButtonAppearance
+msgid "Your Squeakland user name"
+msgstr "Dein Squeakland Benutzername"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "(not logged in)"
+msgstr "(nicht angemeldet)"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:,PopUpMenu_class>>confirm:orCancel:
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:
+msgid "Cancel this search"
+msgstr "Suche abbrechen"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:
+msgid ""
+"overwrite that file\n"
+"select another file"
+msgstr ""
+"Diese Datei überschreiben\n"
+"Neuen Dateinamen wählen"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"existiert bereits."
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "No"
+msgstr "Nein"
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "Yes"
+msgstr "Ja"
+
+#: Tools-Menus,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "start over..."
+msgstr "Übergehen..."
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"Can't delete {1}\n"
+"Select another file"
+msgstr ""
+"Löschen von {1} fehlgeschlagen\n"
+"Andere Datei wählen"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"Datei überschreiben\n"
+"Einen anderen Namen wählen\n"
+"Abbrechen"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid "Select Another File"
+msgstr "Andere Datei wählen"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:
+msgid "Enter a new file name"
+msgstr "Neuen Dateinamen angeben"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:,StandardFileMenu_class>>newFileFrom:,StandardFileMenu_class>>oldFileFrom:
+msgid "Select a File:"
+msgstr "Datei auswählen:"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "A Process Browser shows you all the running processes"
+msgstr "Zeigt alle laufenden Prozesse an"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "Processes"
+msgstr "Prozesse"

@@ -1,0 +1,74 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-19 21:56-0000\n"
+"PO-Revision-Date: 2012-01-06 03:48+0200\n"
+"Last-Translator: lite <litekok@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Compression\n"
+"X-Etoys-SystemVersion: etoys5.0 of 19 March 2012 update 2402\n"
+
+#: Compression-Streams,GZipReadStream_class>>serviceDecompressToFile,GZipReadStream_class>>serviceDecompressToFile
+msgid "decompress to file"
+msgstr "解压文件"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install"
+msgstr "安装"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install into new change set"
+msgstr "安装到新的变化序列"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install the decompressed contents of the file as a body of code in the image: create a new change set and file-in the selected file into it"
+msgstr "安装解压文件的内容作为图像的代码体:在选择的文件中创建一个新的变化序列和文件"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "file in the entire decompressed contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr "解压文件内容中包含的文件,它在文件输出格式中会包括对话代码"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "写入整个文件"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "filein"
+msgstr "写入文件"
+
+#: Compression-Streams,GZipReadStream_class>>serviceViewDecompress,GZipReadStream_class>>serviceViewDecompress
+msgid "view decompressed"
+msgstr "解压视图"
+
+#: Compression-Streams,GZipReadStream_class>>uncompressedFileName:
+msgid ""
+"{1}\n"
+"appears to be a compressed file.\n"
+"Do you want to uncompress it?"
+msgstr ""
+"{1}\n"
+"看上去好像是一个压缩文件.\n"
+"你想要解压这个文件吗?"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file"
+msgstr "压缩文件"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file using gzip compression, making a new file"
+msgstr "使用gzip压缩器压缩文件,产生一个新的文件"
+
+#: Compression-Streams,InflateStream>>upToEndWithProgressBar
+msgid "Unzip a stream"
+msgstr "解压一个流"
+
+#: Compression-Streams,ZipReadStream>>verifyCrc
+msgid "Wrong CRC-32 (expected {1} got {2}) (proceed to ignore)"
+msgstr "错误的CRC-32(希望是 {1} 实际得到 {2}) (着手忽略)"

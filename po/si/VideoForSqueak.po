@@ -1,0 +1,206 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:00-0000\n"
+"PO-Revision-Date: 2010-08-27 16:00-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: VideoForSqueak\n"
+
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid " height="
+msgstr " උස ="
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid " width="
+msgstr " පළල ="
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "height in pixels"
+msgstr "උස පික්සල වලින්"
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "keep ratio"
+msgstr "අනුපාතය තබාගන්න."
+
+#: VideoForSqueak-Core,ParameterDescription>>asExtentMorph
+msgid "width in pixels"
+msgstr "පළල පික්සල වලින්"
+
+#: VideoForSqueak-Core,ParameterDescription>>wordingForOption,VideoPropertiesMorph>>getLabelFor:readSelector:options:
+msgid "<unknown option>"
+msgstr "<නොදන්නා විකල්පය>"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters,V4LDeviceImplementor>>parameters
+msgid "Frame extent"
+msgstr "රාමුවේ ප්‍රමාණය."
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "show time"
+msgstr "වේලාව පෙන්වන්න"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "Type"
+msgstr "වර්ගය"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters,V4LDeviceImplementor>>parameters
+msgid "the frame extent in pixels"
+msgstr "රාමුවෙහි පික්සෙල් ප්‍රමාණය"
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "the test image includes the time"
+msgstr "පරීක්ෂණ පින්තූරයේ වේලාව අන්තර්ගතයි."
+
+#: VideoForSqueak-Core,TestDeviceImplementor>>parameters
+msgid "the type of the test image"
+msgstr "පරීක්ෂණ පින්තූරයේ වර්ගය."
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "DEFAULT - The palette the camera liknes most"
+msgstr "DEFAULT - කැමරාවට ආසන්න වර්ණ ඵලකය."
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "RGB24 - 24bit RGB"
+msgstr "RGB24 -බිටු 24  RGB"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "RGB32 - 32bit RGB"
+msgstr "RGB32 -බිටු 32  RGB"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV420"
+msgstr "YUV420"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV420P - YUV 4:2:0 Planar"
+msgstr "YUV420P - YUV 4:2:0  Planar"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUV422 - YUV422 capture"
+msgstr " YUV422 - YUV422 උපුටා ගැන්ම"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>palettes
+msgid "YUYV"
+msgstr "YUYV"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>parameters
+msgid "Palette"
+msgstr "වර්ණ ඵලකය"
+
+#: VideoForSqueak-Core,V4LDeviceImplementor>>parameters
+msgid "the palette of the test image"
+msgstr "පරීක්ෂණ පින්තූරයේ වර්ණ ඵලකය"
+
+#: VideoForSqueak-Core,VideoDevice>>closedFrame
+msgid "closed"
+msgstr "වසා ඇත"
+
+#: VideoForSqueak-Core,VideoDevice>>poisonedFrame
+msgid "no connected video device id: {1}"
+msgstr "සම්බන්ධිත දර්ශක උපකරණ හදුනාගැනීම් අංකයක් නැත."
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "A player for video devices like cameras, video capturers, etc."
+msgstr "කැමරා, දර්ශක, උපුටාගණක වැනි උපකරණ සදහා ධාවකය."
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "Camera"
+msgstr "කැමරාව"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "බහුමාධ්‍ය"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "256 colors"
+msgstr "පාට 256"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "256 grays"
+msgstr "අළුපාට 256 ක්"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "4 grays"
+msgstr "අළුපාට 4ක් "
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "black and white"
+msgstr "කළු සුදු"
+
+#: VideoForSqueak-Morphic,VideoMorph_class>>resolutions
+msgid "original"
+msgstr "ප්‍රකෘති"
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "configure video device"
+msgstr "දර්ශක උපකරණය හැඩගස්වන්න."
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "reset statistics"
+msgstr "සංඛ්‍යාත්මක දත්ත යළි පිහිටුවන්න."
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "start showing statistics (in Transcript)"
+msgstr "සංඛ්‍යාත්මක දත්ත (පිටපතෙහි) පෙන්වීම අරඹන්න."
+
+#: VideoForSqueak-Morphic,VideoMorph>>addCustomMenuItems:hand:
+msgid "stop showing statistics (in Transcript)"
+msgstr "සංඛ්‍යාත්මක දත්ත (පිටපතෙහි) පෙන්වීම නවත්වන්න. "
+
+#: VideoForSqueak-Morphic,VideoMorph>>createConfigurationDialog
+msgid "the video device has not parameters to configure"
+msgstr "දර්ශක උපකරණය හැඩගැස්වීම සදහා පරාමිතියන් නොමැත ."
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>build
+msgid "Video Device Configuration"
+msgstr "දෘශ්‍ය උපාංගය හැඩගැස්වීම"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "අනුමත කරන්න"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "අත් හරින්න"
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "සෑදූ වෙනස්කම් අවලංගුකර පැනලය වසා දමන්න."
+
+#: VideoForSqueak-Morphic,VideoMorphConfiguration>>buttonsRow,VideoPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "සෑදූ වෙනස්කම් තබාගෙන පැනලය වසා දමන්න."
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>brightnessTitle
+msgid "  Brightness ({1}%)"
+msgstr "දීප්තිය ({1}%)"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>contrastTitle
+msgid "  Contrast ({1}%)"
+msgstr "ප්‍රාභේදනය ({1}%)"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForAutoExtentToggle
+msgid " Auto Extent"
+msgstr "ස්වයංක්‍රීය ප්‍රමාණය"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForAutoExtentToggle
+msgid "Turn auto-extent on or off"
+msgstr "ස්වයංක්‍රීය-ප්‍රමාණය සජීවී හෝ අජීවී කරන්න"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForVideoParameters
+msgid "Configure Video Device"
+msgstr "දර්ශක උපකරණය හැඩගස්වන්න"
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>paneForVideoParameters
+msgid "press here to configure the video device"
+msgstr "දර්ශක උපකරණය හැඩගැස්වීමට මෙතන press කරන්න."
+
+#: VideoForSqueak-Morphic,VideoPropertiesMorph>>rebuild
+msgid "Properties for {1}"
+msgstr "{1} සඳහා වත්කම්"
+

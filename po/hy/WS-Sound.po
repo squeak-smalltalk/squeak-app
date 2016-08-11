@@ -1,0 +1,161 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2011-12-06 04:23+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: WS-Sound\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>defaultNameStemForInstances,WsPhonePadMorph_class>>descriptionForPartsBin,WsPhonePadMorph_class>>registerInFlapsRegistry,WsPhonePadMorph_class>>registerInFlapsRegistry
+msgid "PhonePad"
+msgstr "ՀեռախոսիԹվատախտակ"
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>descriptionForPartsBin
+msgid "A device for dialing by tone."
+msgstr "Հեռախոսահամարի հավաքումը տոնային ռեժիմով"
+
+#: WS-Sound-Interface,WsPhonePadMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "Մուլտիմեդիա"
+
+#: WS-Sound-Interface,WsPhonePadMorph>>addCustomMenuItems:hand:
+msgid "dial to..."
+msgstr "հավաքել համարը"
+
+#: WS-Sound-Interface,WsPhonePadMorph>>dialTo
+msgid "Phone number?"
+msgstr "Հեռախոսահամար:"
+
+#: WS-Sound-Interface,WsWorldStethoscope>>rangeFinderModeOn
+msgid "You should adjust 'cut off level' to find range well."
+msgstr ""
+"Լավագույն արդյունք ստանալու համար անհրաժեշտ է նվազեցնել որոնման չափանիշները"
+
+#: WS-Sound-Interface,WsWorldStethoscope>>setFFTSize
+msgid "FFT size (currently "
+msgstr "ԳԱՓ-ի չափսը (Ֆուրյեի Արագ Փոխակերպում) (ներկայումս "
+
+#: WS-Sound-Interface,WsWorldStethoscope>>setSamplingRate
+msgid "Sampling rate (currently "
+msgstr "Հաճախականությունը (ներկայումս "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>defaultNameStemForInstances,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
+msgid "WorldStethoscope"
+msgstr "ԱշխարհիՍտեթոսկոպ"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph_class>>descriptionForPartsBin,WsWorldStethoscopeMorph_class>>registerInFlapsRegistry
+msgid "A device for analyzing phenomena as sounds"
+msgstr "Ձայնային էֆեկտները վերլուծելու համար նախատեսված սարք"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Menu"
+msgstr "Ցանկ"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Start"
+msgstr "Մեկնարկ"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addButtonRow
+msgid "Stop"
+msgstr "Կանգնեցնել"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
+msgid "calibration  "
+msgstr "տրամաչափարկում  "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addControlsIn:
+msgid "cut off level"
+msgstr "սահման"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addDataGraph
+msgid "Data"
+msgstr "Տվյալները"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSignalGraph
+msgid "Signal"
+msgstr "Ազդանշան"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSonogram
+msgid "Sonogram"
+msgstr "Սոնոգրամ"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>addSpectrumGraph
+msgid "Spectrum"
+msgstr "Լուսապատկեր"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
+msgid "hide adjustments"
+msgstr "թաքցնել կարգավորիչները"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>adjustmentsString
+msgid "show adjustments"
+msgstr "ցուցադրել կարգավորիչները"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
+msgid "AC "
+msgstr "AC "
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>inputModeButtonRow
+msgid "Bias"
+msgstr "կանխակալություն"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "add a graph..."
+msgstr "ավելացնել գրաֆիկը"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "data"
+msgstr "տվյալներ"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "որոշել ԳԱՓ-ի չափսը (Ֆուրյեի Արագ Փոխակերպում)"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "որոշել հաճախականությունը"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "signal"
+msgstr "ազդանշան"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "sonogram"
+msgstr "սոնոգրամ"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>invokeMenu
+msgid "spectrum"
+msgstr "լուսապատկեր"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "Միացված"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>rangeFinderModeString
+msgid "range finder mode"
+msgstr "Ձայնածավալի որոնման ռեժիմը"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>sortByFrequencyString
+msgid "sort by frequency"
+msgstr "տեսակավորել ըստ հաճախականության"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>sortByLevelString
+msgid "sort by level"
+msgstr "տեսակավորել ըստ մակարդակի"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
+msgid "AC"
+msgstr "փոփոխական հոսանք"
+
+#: WS-Sound-Interface,WsWorldStethoscopeMorph>>toggleDirectMode
+msgid "DC"
+msgstr "ուղիղ հոսանք"

@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:59-0000\n"
+"PO-Revision-Date: 2010-08-27 15:59-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Compression\n"
+
+
+#: Compression-Streams,GZipReadStream_class>>serviceDecompressToFile,GZipReadStream_class>>serviceDecompressToFile
+msgid "decompress to file"
+msgstr "разжать файл"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install"
+msgstr "установить"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install into new change set"
+msgstr "установить в новый набор изменений"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install the decompressed contents of the file as a body of code in the image: create a new change set and file-in the selected file into it"
+msgstr "Установить разжатый файл как код и интегрировать его в новый набор изменений."
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "file in the entire decompressed contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr "Разжать и прочитать файл (должен содержать код Smalltalk)"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "прочитать файл"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "filein"
+msgstr "прочитать"
+
+#: Compression-Streams,GZipReadStream_class>>serviceViewDecompress,GZipReadStream_class>>serviceViewDecompress
+msgid "view decompressed"
+msgstr "окрыть в разжатой форме"
+
+#: Compression-Streams,GZipReadStream_class>>uncompressedFileName:
+msgid ""
+"{1}\n"
+"appears to be a compressed file.\n"
+"Do you want to uncompress it?"
+msgstr ""
+"{1}\n"
+"выглядит как сжатый файл.\n"
+"Разжать его ?"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file"
+msgstr "разжать файл"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file using gzip compression, making a new file"
+msgstr "сжать используя gzip компрессию, создать новый файл"
+
+#: Compression-Streams,InflateStream>>upToEndWithProgressBar
+msgid "Unzip a stream"
+msgstr "Разжать поток gzip'ом"
+
+#: Compression-Streams,ZipReadStream>>verifyCrc
+msgid "Wrong CRC-32 (expected {1} got {2}) (proceed to ignore)"
+msgstr "Неправильная контрольная сумма (CRC-32), ожидалось {1} получено {2} (действие проигнорировано)"
+

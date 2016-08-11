@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:27-0000\n"
+"PO-Revision-Date: 2010-08-27 15:27-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Files\n"
+
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Attempt to rename a non-existent file"
+msgstr "একটি বিদ্যমান নয় এমন ফাইল পুনঃনামকরণ করার চেষ্টা করো"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"delete old version\n"
+"cancel"
+msgstr ""
+"পুরাতন সংষ্করণ মুছে ফেলো\n"
+"বাতিল"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Failed to rename file"
+msgstr "ফািললের পুনঃনামকরণ করতে ব্যর্থ্য"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"Trying to rename a file to be\n"
+"{1}\n"
+"and it already exists."
+msgstr ""
+"ফাইল {1} হিসেবে পুনঃনামকরণ \n"
+"করার চেষ্টা করা হচ্ছে এবং এটি\n"
+"ইতমধ্যে বিদ্যমান।"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "file in the entire contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr "ফাইলের সব অভ্যন্তরস্থ বিষয়বস্তুতে ফাইল, যা fileout (\"পুরু খন্ড\") বিন্যাসে Smalltalk কোড ধারণ করে পারে"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "সমগ্র ফাইল fileIn"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "filein"
+msgstr "filein"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove lfs"
+msgstr "lfs মুছে ফেলো"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds"
+msgstr "রেখা ফিড মুছে ফেলো"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds in file"
+msgstr "ফাইলে রেখা ফিড মুছে ফেলো"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:
+msgid ""
+"create a new file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"একটি নতুন ফাইল তৈরি করো\n"
+"অন্য নাম নির্বাচন করো\n"
+"বাতিল"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>fileExistsUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Enter a new file name"
+msgstr "একটি নতুন ফাইলের নাম প্রবেশ করাও"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid ""
+"{1}\n"
+"does not exist."
+msgstr ""
+"{1}\n"
+"বিদ্যমান নেই।"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Could not delete the old version of that file"
+msgstr "এই ফাইলের পুরাতন সংষ্করণ মুছে ফেলা যায়নি"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "overwrite that file\\choose another name\\cancel"
+msgstr "ফাইল প্রতিস্থাপন করো\\অন্য নাম পছন্দ করো\\বাতিল করো"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Please close this to abort file opening"
+msgstr "ফাইলের খোলা পরিত্যাগ করার জন্য অনুগ্রহ করে এটি বন্ধ করো"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"ইতিমধ্যে বিদ্যমান।"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Cancel"
+msgstr "বাতিল করো"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Choose another name"
+msgstr "অন্য নাম নির্বাচন করো"
+

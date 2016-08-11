@@ -1,0 +1,1172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:40-0000\n"
+"PO-Revision-Date: 2010-08-27 15:40-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Connectors\n"
+
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "attachmentOwnerChanged"
+msgstr "संलग्नक-मालिक-परिवर्तित"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "connectedTo"
+msgstr "से-कनेक्टेड"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationConnected"
+msgstr "गंतव्य-कनेक्टेड"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "destinationDisconnecting"
+msgstr "गंतव्य-डिस्कनेक्टिंग"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "disconnectedFrom"
+msgstr "से-डिस्कनेक्टेड"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "if set, viewers will display the 'connection' vocabulary even for Morphs that aren't connected to by Connectors."
+msgstr "यदि सेट किया जाता है तो प्रदर्शक 'कनेक्शन' शब्दकोश प्रदर्शित करेगा तब भी जब मार्फ कनेक्टरों द्वारा कनेक्टेड नहीं होंगे."
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after a connector has connected to me"
+msgstr "जैसे ही कोई कनेक्टर मुझसे कनेक्ट होता है, उसके तत्काल बाद"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my first end has been connected"
+msgstr "जैसे ही मेरा पहला सिरा कनेक्ट होता है, उसके तत्काल बाद"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately after my second end has been connected"
+msgstr "जैसे ही मेरा दूसरा सिरा कनेक्ट होता है, उसके तत्काल बाद"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before a connector is going to disconnect from me"
+msgstr "जैसे ही कोई कनेक्टर मुझसे डिस्कनेक्ट होने को होता है, उसके ठीक पहले"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my first end is going to be disconnected"
+msgstr "जैसे ही कोई मेरा पहला सिरा डिस्कनेक्ट होने को होता है, उसके ठीक पहले"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "immediately before my second end is going to be disconnected"
+msgstr "जैसे ही कोई मेरा दूसरा सिरा डिस्कनेक्ट होने को होता है, उसके ठीक पहले"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceConnected"
+msgstr "स्रोत-कनेक्टेड"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "sourceDisconnecting"
+msgstr "स्रोत-डिस्कनेक्टिंग"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>initialize
+msgid "when either of the morphs to which I'm connected have changed their owner or been grabbed or dropped with the hand."
+msgstr "जब किसी भी मार्फ से जिससे मैं जुड़ा हूं, उसका मालिक बदल जाये या पकड़ लिया जाए या हाथ से छोड़ दिया जाए."
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newRandomButton
+msgid "RandomConnector"
+msgstr "बेतरतीब-कनेक्टर"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>newWithArrow
+msgid "Arrow"
+msgstr "तीर"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector"
+msgstr "मूल कनेक्टर"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector that bends smoothly"
+msgstr "मूल कनेक्टर जो आसानी से मुड़ जाता है"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic Connector with an arrowhead"
+msgstr "तीर का सिरा युक्त मूल कनेक्टर"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A basic smooth Connector with an arrowhead"
+msgstr "तीर का सिरा युक्त मूल चिकना कनेक्टर"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A blank buttton flap"
+msgstr "रिक्त बटन फ्लैप"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A button that makes fancy Connectors at random"
+msgstr "एक बटन जो बेतरतीब रोचक कनेक्टर बनाता है"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A Maker Button with a Connector loaded"
+msgstr "कनेक्टर लोड किया गया मेकर बटन"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap"
+msgstr "पूर्व से लोड किया गया कनेक्टर फ्लैप"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Button Flap"
+msgstr "बटन फ्लैप"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connector Button"
+msgstr "कनेक्टर बटन"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors Flap"
+msgstr "कनेक्टर फ्लैप"
+
+#: Connectors-Base,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Random Connectors"
+msgstr "बेतरतीब कनेक्टर"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicArrowMenuItemsTo:event:
+msgid "arrow sizes"
+msgstr "तीर आकार"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "add label"
+msgstr "लेबल जोड़ें"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete"
+msgstr "मिटाएँ"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border color..."
+msgstr "किनारा लकीर रंग..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line border width..."
+msgstr "किनारा लकीर चौड़ाई..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line color..."
+msgstr "लकीर का रंग..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:
+msgid "line width..."
+msgstr "लकीर की चौड़ाई..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "make button"
+msgstr "बटन बनाएँ"
+
+#: Connectors-Base,NCAAConnectorMorph>>addBasicMenuItemsTo:event:,NCAAConnectorMorph>>addCustomMenuItems:hand:
+msgid "straighten"
+msgstr "सीधा"
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make segmented line"
+msgstr "खण्ड युक्त लकीर बनाएँ"
+
+#: Connectors-Base,NCAAConnectorMorph>>addCustomMenuItems:hand:,NCAAConnectorMorph>>makeSegmentedOrSmoothLinePhrase
+msgid "make smooth line"
+msgstr "चिकनी लकीर बनाएँ"
+
+#: Connectors-Base,NCAAConnectorMorph>>addEndItemsFor:to:event:
+msgid "new arrow..."
+msgstr "नया तीर..."
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate"
+msgstr "अनुकृति"
+
+#: Connectors-Base,NCAAConnectorMorph>>addGraphModelYellowButtonItemsTo:event:,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate model and view"
+msgstr "मॉडल की अनुकृति बनाएँ तथा देखें"
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+"संकेतक को इस बिन्दु से दूर खींचें\n"
+"किनारा चौड़ाई बढ़ाने के लिए.\n"
+"जब पूरा हो तो क्लिक करें."
+
+#: Connectors-Base,NCAAConnectorMorph>>changeBorderWidth:
+msgid "New line border width?"
+msgstr "नया किनारा लकीर की चौड़ाई?"
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidthInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase line width.\n"
+"Click when done."
+msgstr ""
+"संकेतक को यहां से दूर खींचें\n"
+"लकीर की चौड़ाई बढ़ाने के लिए.\n"
+"जब पूरा हो तो क्लिक करें."
+
+#: Connectors-Base,NCAAConnectorMorph>>changeLineWidth:
+msgid "New line width?"
+msgstr "नया लकीर मोटाई?"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "hide handles"
+msgstr "हैंडल छुपाएँ"
+
+#: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "हैंडल्स दिखाएँ"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "be orthogonal"
+msgstr "ऑर्थोगोनल हों"
+
+#: Connectors-Base,NCAAConnectorMorph>>orthogonalityPhrase
+msgid "stop being orthogonal"
+msgstr "ऑर्थोगोनल होना बन्द करें"
+
+#: Connectors-Base,NCAAConnectorMorph>>yellowButtonDown:onEnd:,NCSchematicConnectorMorph>>yellowButtonDown:onEnd:
+msgid "end..."
+msgstr "अंत..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add arbitrary shape..."
+msgstr "मनमाना आकार जोड़ें..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add pre-made shape..."
+msgstr "पहले से बनाया आकार जोड़ें..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "attach to..."
+msgstr "में जोड़ें..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to center"
+msgstr "मध्य में जुड़ें"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest attachment point"
+msgstr "समीप के संलग्नक बिन्दु से जुड़ें"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point"
+msgstr "समीप के बिन्दु से जुड़ें"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to nearest point to center"
+msgstr "समीप के बिन्दु से मध्य में जुड़ें"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:
+msgid "connect to relative point..."
+msgstr "सापेक्ष बिन्दु से जुड़ें..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete shape..."
+msgstr "आकार मिटाएं..."
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:
+msgid "display attachments"
+msgstr "संलग्नक दिखाएँ"
+
+#: Connectors-Base,NCConstraintMorph>>addCustomMenuItems:hand:,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "no connection preference"
+msgstr "कोई कनेक्शन पसंद नहीं"
+
+#: Connectors-Base,NCConstraintMorph>>attachToSelectedMorph:,NCConstraintMorph>>deleteSelectedMorph:
+msgid "Select Morph"
+msgstr "मार्फ चुनें"
+
+#: Connectors-Base,NCConstraintMorph>>connectionWordingFor:,NCConstraintMorph>>connectionWordingFor:
+msgid "connect to nothing"
+msgstr "कुछ नहीं से कनेक्ट हों"
+
+#: Connectors-Base,NCLineEndConstraintMorph>>innocuousName
+msgid "connector end"
+msgstr "कनेक्टर का सिरा"
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "A Connector whose endpoints automatically become dots when connected."
+msgstr "एक कनेक्टर, जब कनेक्ट होता है तो जिसके एंडपाइंट स्वचालित रूप से डॉट बन जाते हैं."
+
+#: Connectors-Base,NCSchematicConnectorMorph_class>>descriptionForPartsBin
+msgid "Schematic Connector"
+msgstr "स्केमेटिक कनेक्टर"
+
+#: Connectors-Info,ConnectorsInfo_class>>postInstall,NCAAConnectorMorph_class>>initialize
+msgid "if set, Connectors will use labels that try to re-position themselves to stay out of the way."
+msgstr "यदि सेट है, कनेक्टर लेबलों का प्रयोग करेगा जो अपने स्थान को बदलेगा रस्ते से दूर रहने के लिए."
+
+#: Connectors-Lines_and_Curves,NCLineMorph>>changeArrowScaleInteractively:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase the size of the arrows.\n"
+"Click when done."
+msgstr ""
+"संकेतक को यहां से दूर खींचें\n"
+"तीर की चौड़ाई बढ़ाने के लिए.\n"
+"जब पूरा हो तो क्लिक करें."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add mouse up action"
+msgstr "माउस ऊपर क्रिया जोड़ें"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCLabelMorph>>addYellowButtonMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "move"
+msgstr "खिसकाएँ"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "properties..."
+msgstr "गुण..."
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "remove mouse up action"
+msgstr "माउस ऊपर क्रिया हटाएँ"
+
+#: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCConstraintMorph>>addYellowButtonMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:,NCMakerButton>>addYellowButtonMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
+msgid "resize"
+msgstr "आकार बदलें"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addBasicMenuItemsTo:event:,NCDisplayTextMorph>>addBasicMenuItemsTo:event:
+msgid "grab"
+msgstr "पकड़ें"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "lock text"
+msgstr "पाठ में ताला लगाएँ"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addCustomMenuItems:hand:,NCLabelMorph>>unlockOrLockTextPhrase
+msgid "unlock text"
+msgstr "पाठ से ताला हटाएँ"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addDebugMenuItemsTo:event:
+msgid "inspect"
+msgstr "निरीक्षण"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addGraphModelYellowButtonItemsTo:event:
+msgid "duplicate view only"
+msgstr "सिर्फ डुप्लीकेट दृश्य"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "lock all text"
+msgstr "सभी पाठ में ताला लगाएँ"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "set all fonts to..."
+msgstr "सभी फ़ॉन्ट्स को सेट करें..."
+
+#: Connectors-Shapes,NCBasicShapeMorph>>addTextMenuItemsTo:event:
+msgid "unlock all text"
+msgstr "सभी पाठ से ताला हटाएँ"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>antiAliasString
+msgid "smooth edges"
+msgstr "किनारा चिकना करें"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFontFor:
+msgid "Choose font for text:"
+msgstr "पाठ के लिए फ़ॉन्ट चुनें:"
+
+#: Connectors-Shapes,NCBasicShapeMorph>>promptForFont,NCDisplayTextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "फ़ॉन्ट चुनें:"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML package shape"
+msgstr "यूएमएल पैकेज आकार"
+
+#: Connectors-Shapes,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "UML Package"
+msgstr "यूएमएल पैकेज"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "add swim lane"
+msgstr "तैराकी लाइन जोड़ें"
+
+#: Connectors-Shapes,NCCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "delete swim lane"
+msgstr "तैराकी लाइन मिटाएँ"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A circle shape with text inside"
+msgstr "अंदर पाठ सहित वृत्त आकार"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A diamond shape with text inside"
+msgstr "अंदर पाठ सहित डायमंड आकार"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A happy face"
+msgstr "प्रसन्न चेहरा"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A pointing hand shape with text inside"
+msgstr "अंदर पाठ युक्त उंगली दिखाता हाथ"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "A sad face"
+msgstr "दुखी चेहरा"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "AND Gate"
+msgstr "एंड गेट"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'and gate' shape with text inside"
+msgstr "अंदर पाठ सहित 'एंड गेट' आकार"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'or gate' shape with text inside"
+msgstr "अंदर पाठ सहित 'ऑर गेट' आकार"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "An 'xor gate' shape with text inside"
+msgstr "अंदर पाठ सहित 'एक्सओऑर गेट' आकार"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Another pointing hand"
+msgstr "एक अन्य उंगली दिखाता हाथ"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "CircleCurve"
+msgstr "वृत्त-वक्र"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Diamond"
+msgstr "हीरा"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Happy face"
+msgstr "प्रसन्न चेहरा"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "OR Gate"
+msgstr "ऑर गेट"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand"
+msgstr "ऊंगली दिखाता हाथ"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Pointing Hand2"
+msgstr "ऊंगली दिखाता हाथ2"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "Sad face"
+msgstr "दुखी चेहरा"
+
+#: Connectors-Shapes,NCCurveMorph_class>>supplementaryPartsDescriptions
+msgid "XOR Gate"
+msgstr "एक्सओआर गेट"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "An ellipse or circle"
+msgstr "दीर्घवृत्त या वृत्त"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
+msgid "Ellipse"
+msgstr "दीर्घवृत्त"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "An elliptical or circular shape with text"
+msgstr "पाठ युक्त दीर्धवृत्त या वृत्त आकार"
+
+#: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Text Ellipse"
+msgstr "पाठ दीर्घवृत्त"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "A UML note shape"
+msgstr "यूएमएल नोट आकार"
+
+#: Connectors-Shapes,NCNoteMorph_class>>supplementaryPartsDescriptions
+msgid "Note"
+msgstr "टीप"
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "Embed pin into..."
+msgstr "पिन को यहाँ लगा दें..."
+
+#: Connectors-Shapes,NCPinMorph>>offerToEmbedIn:
+msgid "<do not embed>"
+msgstr "<लगाया नहीं गया>"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn off smoothing"
+msgstr "चिकना बन्द करें"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addCustomMenuItems:hand:
+msgid "turn on smoothing"
+msgstr "चिकना चालू करें"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>addYellowButtonMenuItemsTo:event:
+msgid "set scaling"
+msgstr "स्केलिंग सेट करें"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing off"
+msgstr "चिकना बन्द करें"
+
+#: Connectors-Shapes,NCScrolledCompositeStateMorph>>smoothingOnOrOffPhrase
+msgid "turn smoothing on"
+msgstr "चिकना चालू करें"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol that can read its text from a Squeak class"
+msgstr "स्क्वैक क्लास से पाठ पढ़ सकने के लिए एक यूएमएल क्लास प्रतीक"
+
+#: Connectors-Shapes,NCSTUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "STClass"
+msgstr "एसटीक्लास"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become composite"
+msgstr "कंपोजिट हों"
+
+#: Connectors-Shapes,NCStateDiagramMorph>>addYellowButtonMenuItemsTo:event:
+msgid "become scrollable composite"
+msgstr "स्क्रॉलेबल कम्पोजिट हों"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add line"
+msgstr "लकीर जोड़ें"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text"
+msgstr "पाठ जोड़ें"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "add text block"
+msgstr "पाठ ब्लॉक जोड़ें"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete line"
+msgstr "पंक्ति मिटाएँ"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text"
+msgstr "पाठ मिटाएँ"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "delete text block"
+msgstr "पाठ ब्लॉक मिटाएँ"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "emphasis..."
+msgstr "एम्फेसिस..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "set font for this text"
+msgstr "इस पाठ के लिए फ़ॉन्ट सेट करें"
+
+#: Connectors-Shapes,NCTextRectangleMorph>>addTextBlockMenuItemsTo:event:
+msgid "text properties..."
+msgstr "पाठ गुण..."
+
+#: Connectors-Shapes,NCTextRectangleMorph>>hideTextBlockString
+msgid "hide lower text"
+msgstr "निचला पाठ छुपाएँ"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML class symbol"
+msgstr "यूएमएल क्लास प्रतीक"
+
+#: Connectors-Shapes,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "Class"
+msgstr "वर्ग"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "acceptedTextContents"
+msgstr "स्वीकार्य-पाठ-सामग्रियाँ"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>initialize,NCTextMorph_class>>initialize
+msgid "when text is accepted into a text morph by hitting Enter or losing focus"
+msgstr "जब किसी पाठ मार्फ में पाठ स्वीकारा जाता है एंटर बटन दबाकर या फोकस हटने से"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "A raw piece of text (with a context menu) which you can edit into anything you want"
+msgstr "पाठ का एक कच्चा टुकड़ा (संदर्भित मेन्यू सहित) जिसे आप जैसा चाहें संपादित कर सकते हैं"
+
+#: Connectors-Text,NCDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Enhanced Text"
+msgstr "एनहैंस्ड पाठ"
+
+#: Connectors-Text,NCDisplayTextMorph>>addTextMenuItemsTo:event:
+msgid "choose font..."
+msgstr "फ़ॉन्ट चुनें..."
+
+#: Connectors-Text,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Text that you can grab and move around (click to edit)"
+msgstr "पाठ जिसे आप पकड़ सकते हैं और लेकर घूम सकते हैं (संपादन के लिए क्लिक करें)"
+
+#: Connectors-Text-Base,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached."
+msgstr "एक लेबल जिसे अन्य मार्फ में छोड़ कर या मेन्यू चयन से संलग्न किया जा सकता है, तथा उस मार्फ का अनुसरण करेगा जिससे यह संलग्न है."
+
+#: Connectors-Text-Base,NCLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "font..."
+msgstr "फ़ॉन्ट..."
+
+#: Connectors-Text-Base,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "A label that can be attached to another morph by dropping or menu choice and will follow the morph to which it is attached, trying to stay out of the way."
+msgstr "एक लेबल जिसे अन्य मार्फ में छोड़कर या मेन्यू चयन से संलग्न किया जा सकता है तथा उस मार्फ का अनुसरण करता है जिससे संलग्न है और रास्ते से अलग रहने की कोशिश करता है."
+
+#: Connectors-Text-Base,NCSmartLabelMorph>>addYellowButtonMenuItemsTo:event:
+msgid "change margins"
+msgstr "हाशिया बदलें"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnCRString
+msgid "accept on CR"
+msgstr "CR पर स्वीकारें"
+
+#: Connectors-Text-Base,NCTextMorph>>acceptOnFocusLossString
+msgid "accept on focus loss"
+msgstr "फ़ोकस हटने पर स्वीकारें"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "स्वीकृत"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild
+msgid "Connector Properties for {1}"
+msgstr "{1} कनेक्टर गुण"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "किए गए परिवर्तन रद्द करें तथा पैनल बन्द करें"
+
+#: Connectors-Tools,ConnectorPropertiesMorph>>rebuild,ObjectPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "किए गए परिवर्तन रखें तथा पैनल बन्द करें"
+
+#: Connectors-Tools,NCArrowDictionaryMenu_class>>chooseArrowGlyphFor:selector:
+msgid "Arrows"
+msgstr "तीर"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>chooseArrowGlyphFor:selector:
+msgid "OK"
+msgstr "ठीक"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid "New key? "
+msgstr "नया कुंजी? "
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
+msgid ""
+"sorry, that conflicts with\n"
+"the name of another\n"
+"entry in this dictionary"
+msgstr ""
+"खेद है, यह विरोधाभासी है\n"
+"इस शब्दकोश की अन्य प्रविष्टि\n"
+"के नाम के साथ"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Copy the name of this graphic to the clipboard"
+msgstr "इस ग्राफ़िक के नाम को क्लिपबोर्ड में नकल करें"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "copy name"
+msgstr "नाम नक़ल करें"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Find an entry by name"
+msgstr "नाम के आधार पर प्रविष्टि ढूंढें"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "find..."
+msgstr "ढूंढें..."
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "make new arrow"
+msgstr "नया तीर बनाएँ"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Open an Arrow editor"
+msgstr "तीर संपादक खोलें"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Remove this arrow from the dictionary"
+msgstr "शब्दकोश से इस तीर को हटा दें"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "Rename this arrow"
+msgstr "इस तीर का नाम बदलें"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "remove"
+msgstr "मिटाएँ"
+
+#: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
+msgid "rename"
+msgstr "नाम बदलें"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>adjusterWindow
+msgid "Attachment Point Adjuster"
+msgstr "संलग्नक पाइंट एडजस्टर"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "Attachment Adjuster"
+msgstr "संलग्नक एडजस्टर"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArrayButton
+msgid "Add Array"
+msgstr "एरे जोड़ें"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addArray
+msgid "Enter the number of H and/or V APs to create; use 0 for none"
+msgstr "H और या V APs के नंबर, बनाने के लिए भरें; नहीं के लिए 0 का प्रयोग करें"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>addAttacherButton
+msgid "Add"
+msgstr "जोड़ें"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachersString
+msgid "None"
+msgstr "कुछ नहीं"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make movable"
+msgstr "चलायमान बनाएँ"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>attachmentModeString
+msgid "Make non-movable"
+msgstr "स्थिर बनाएँ"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid off"
+msgstr "ग्रिड बन्द करें"
+
+#: Connectors-Tools,NCAttachmentPointAdjusterWindow>>griddingOnOffString
+msgid "Turn grid on"
+msgstr "ग्रिड चालू करें"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for State Machine drawings"
+msgstr "स्टेट मशीन ड्राइंग के लिए बटन-पट्टी"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A buttonBar for UML Class Diagrams"
+msgstr "यूएमएल क्लास चित्र के लिए बटन-पट्टी"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for state machine drawings"
+msgstr "स्टेट मशीन ड्राइंग के लिए प्री-लोडेड कनेक्टर्स"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "A pre-loaded Connectors flap for UML class diagram drawings"
+msgstr "यूएमएल क्लास डायग्राम ड्राइंग के लिए प्रीलोडेड कनेक्टर फ्लैप"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "An empty buttonBar that you can add to"
+msgstr "एक रिक्त बटन-पट्टी जिसे आप जोड़ सकते हैं"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class ButtonBar"
+msgstr "क्लास बटन-पट्टी"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "Class diagram Flap"
+msgstr "क्लास डायग्राम फ्लैप"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM ButtonBar"
+msgstr "एफ़एसएम बटन-पट्टी"
+
+#: Connectors-Tools,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "FSM Flap"
+msgstr "एफएसएम फ्लैप"
+
+#: Connectors-Tools,NCButtonBar>>addButtonAndInform,NCButtonBar>>addButtonAndInformAt:,NCPartsBin>>addButtonAndInform,NCPartsBin>>addButtonAndInformAt:
+msgid "Drop a Morph on the button."
+msgstr "बटन में मॉर्फ छोड़ें."
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "add bar label"
+msgstr "पट्टी लेबल जोड़ें"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:,NCPartsBin>>addYellowButtonMenuItemsTo:event:
+msgid "add button"
+msgstr "बटन जोड़ें"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "change bar label text"
+msgstr "पट्टी लेबल पाठ बदलें"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "collapse"
+msgstr "समेटें"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "remove bar label"
+msgstr "बार लेबल हटाएँ"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "set bar label font"
+msgstr "पट्टी लेबल फ़ॉन्ट सेट करें"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn off button labels"
+msgstr "बटन लेबल बन्द करें"
+
+#: Connectors-Tools,NCButtonBar>>addYellowButtonMenuItemsTo:event:
+msgid "turn on button labels"
+msgstr "बटन लेबल चालू करें"
+
+#: Connectors-Tools,NCButtonBar>>changeLabel
+msgid "Enter label:"
+msgstr "लेबल भरें:"
+
+#: Connectors-Tools,NCButtonBar>>promptForFont,NCLabelMorph>>promptForFont
+msgid "Choose label font:"
+msgstr "लेबल फ़ॉन्ट चुनें:"
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin
+msgid "A tool that lets you edit Connectors arrow shapes."
+msgstr "एक औजार जो आपको कनेक्टर के तीर आकार संपादित करने देता है."
+
+#: Connectors-Tools,NCGlyphEditor_class>>descriptionForPartsBin,NCGlyphEditor_class>>newStandAlone
+msgid "Arrow Editor"
+msgstr "तीर संपादक"
+
+#: Connectors-Tools,NCGlyphEditor>>chooseFont
+msgid "Choose Font"
+msgstr "फ़ॉन्ट चुनें"
+
+#: Connectors-Tools,NCGlyphEditor>>font:
+msgid "You must choose a TrueType font"
+msgstr "आपको एक ट्रू-टाइप फ़ॉन्ट चुनना होगा"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Arrow scales"
+msgstr "तीर स्केल्स"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Choose font"
+msgstr "फ़ॉन्ट चुनें"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Clear clicks"
+msgstr "क्लिक साफ करें"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Install"
+msgstr "संस्थापित करें"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Make morph"
+msgstr "मार्फ बनाएँ"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Rotate"
+msgstr "घुमाएँ"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Sample"
+msgstr "नमूना"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Toggle dots"
+msgstr "डॉट टॉगल करें"
+
+#: Connectors-Tools,NCGlyphEditor>>initialize
+msgid "Write code"
+msgstr "कोड लिखें"
+
+#: Connectors-Tools,NCGlyphEditor>>install
+msgid "Install with what name?"
+msgstr "किस नाम से इंस्टाल करें?"
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Constructor text is on clipboard."
+msgstr "क्लिपबोर्ड में कंस्ट्रक्टर पाठ है."
+
+#: Connectors-Tools,NCGlyphEditor>>writeConstructor
+msgid "Install in which selector?"
+msgstr "किस सलेक्टर में इंस्टाल करें?"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change action selector"
+msgstr "क्रिया चयनक बदलें"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change arguments"
+msgstr "आर्गुमेंट्स बदलें"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "change when to act"
+msgstr "कब कार्य करना है बदलें"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "erase pixels of color..."
+msgstr "रंग के पिक्सेल मिटाएँ..."
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "recolor pixels of color..."
+msgstr "रंग के पिक्सेल फिर से रंग करें..."
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "remove label"
+msgstr "लेबल मिटाएँ"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "replace target"
+msgstr "लक्ष्य बदलें"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "resize image"
+msgstr "फोटो को नया आकार दें"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "set target"
+msgstr "लक्ष्य सेट करें"
+
+#: Connectors-Tools,NCMakerButton>>addYellowButtonMenuItemsTo:event:
+msgid "update image"
+msgstr "फोटो अद्यतन करें"
+
+#: Connectors-Tools,NCMakerButton>>doButtonAction
+msgid "Drop a Morph on me so that I can have something to make!"
+msgstr "मेरे ऊपर कोई मार्फ छोड़ें ताकि मैं कुछ बना सकूं!"
+
+#: Connectors-Tools,NCMakerButton>>replaceTarget
+msgid "Drop a Morph on me"
+msgstr "मेरे ऊपर कोई मॉर्फ छोड़ें"
+
+#: Connectors-Tools,NCMakerButton>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed.\n"
+"Some possibilities:"
+msgstr ""
+"कृपया सलेक्टर टाइप करें जिसे\n"
+"जब यह बटन दबाया जाएगा तो लक्ष्य को भेजा जाएगा.\n"
+"कुछ संभावनाएँ:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a Connector properties panel for the morph"
+msgstr "मार्फ के लिए कनेक्टर गुण पैनल खोलें"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "open a text properties panel for the morph"
+msgstr "मार्प के लिए पाठ गुण पैनल खोलें"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:,TextMorph_class>>boldAuthoringPrototype
+msgid "Text"
+msgstr "पाठ"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuild
+msgid "Properties for {1}"
+msgstr "{1} के लिए गुण"
+
+#: Etoys-Scripting,Player>>createSlotFor:
+msgid "name for new variable: "
+msgstr "नए वेरिएबल के लिए नाम: "
+
+#: MorphicExtras-Flaps,Flaps_class>>newClassDiagramConnectorsFlap
+msgid "Class Diagrams"
+msgstr "क्लास आरेख"
+
+#: MorphicExtras-Flaps,Flaps_class>>newConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin,NCButtonBar_class>>supplementaryPartsDescriptions,NCDisplayTextMorph_class>>supplementaryPartsDescriptions,NCEllipseMorph_class>>supplementaryPartsDescriptions,NCGlyphEditor_class>>descriptionForPartsBin,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions,NCLabelMorph_class>>supplementaryPartsDescriptions,NCMakerButton_class>>descriptionForPartsBin,NCSchematicConnectorMorph_class>>descriptionForPartsBin,NCSmartLabelMorph_class>>supplementaryPartsDescriptions,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "कनेक्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>newNCPartsBinFlap
+msgid "My Flap"
+msgstr "मेरा फ्लैप"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector"
+msgstr "मूल कनेक्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic connector with an arrowhead"
+msgstr "तीर का सिरा युक्त मूल कनेक्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector"
+msgstr "वक्रीय मूल कनेक्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A basic curved connector with an arrowhead"
+msgstr "तीर का सिरा युक्त मूल वक्रीय कनेक्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A buttonBar for customizing"
+msgstr "मनपसंद बनाने के लिए बटन-पट्टी"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "A handy Morph-generating button"
+msgstr "मार्फ बनाने का आसान बटन"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label"
+msgstr "लेबल"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A label that positions itself"
+msgstr "लेबल अपने आप स्थान लेता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A new button flap"
+msgstr "नया बटन फ्लैप"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "A rectangle with text, or a button"
+msgstr "पाठ सहित एक आयत या एक बटन"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "A simple shape with a context menu"
+msgstr "संदर्भित मेन्यू सहित सामान्य आकार"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "AP Adjuster"
+msgstr "एपी एडजस्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Basic Shape"
+msgstr "मूल आकार"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCButtonBar_class>>supplementaryPartsDescriptions
+msgid "ButtonBar"
+msgstr "बटन-पट्टी"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions,ObjectPropertiesMorph>>addOptionalButtonsTo:
+msgid "Connector"
+msgstr "कनेक्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "ConnectorArrow"
+msgstr "कनेक्टर-तीर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy Connector"
+msgstr "वक्रीय कनेक्टर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAAConnectorMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy ConnectorArrow"
+msgstr "वक्रीय कनेक्टर-तीर"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "Display text that you can move"
+msgstr "पाठ जिसे आप खिसका सकते हैं दिखाएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCLabelMorph>>initializeToStandAlone,NCLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Label"
+msgstr "लेबल"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCMakerButton_class>>descriptionForPartsBin
+msgid "Maker Button"
+msgstr "मेकर बटन"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
+msgid "New Button Flap"
+msgstr "नया बटन फ्लैप"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCSmartLabelMorph_class>>supplementaryPartsDescriptions
+msgid "Smart Label"
+msgstr "स्मार्ट लेबल"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCTextRectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Text Rectangle"
+msgstr "पाठ आयत"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCAttachmentPointAdjusterWindow_class>>descriptionForPartsBin
+msgid "This lets you adjust the attachment points on a dropped Morph"
+msgstr "यह आपको छोड़े गए मार्फ में संलग्नक बिन्दुओं को एडजस्ट करने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,NCGrabbableDisplayTextMorph_class>>authoringPrototype,NCGrabbableDisplayTextMorph_class>>supplementaryPartsDescriptions
+msgid "Title"
+msgstr "शीर्षक"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "A state transition for UML State Diagrams"
+msgstr "यूएमएल स्टेट डायग्राम के लिए स्टेट ट्रांजीशन"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML composite state shape"
+msgstr "यूएमएल कम्पोजिट स्थिति आकार"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML end state shape"
+msgstr "यूएमएल अंत अवस्था आकार"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape"
+msgstr "यूएमएल स्थिति आकार"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "A UML State shape with scrollbars"
+msgstr "यूएमएल स्थिति आकार स्क्रॉल-पट्टी सहित"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "A UML start state shape"
+msgstr "यूएमएल प्रारंभ स्थिति आकार"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Composite State"
+msgstr "कम्पोजिट स्थिति"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "End State"
+msgstr "अंत अवस्था"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCScrolledCompositeStateMorph_class>>supplementaryPartsDescriptions
+msgid "Scrolled State"
+msgstr "स्क्रॉल स्थिति"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCEllipseMorph_class>>supplementaryPartsDescriptions
+msgid "Start State"
+msgstr "प्रारंभ स्थिति"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap,NCUMLDiagramMorph_class>>supplementaryPartsDescriptions
+msgid "State"
+msgstr "स्थिति"
+
+#: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
+msgid "State Transition"
+msgstr "अवस्था परिवर्तन"
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "balloon-help font..."
+msgstr "गुब्बारा-मदद फ़ॉन्ट..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "Connectors label font..."
+msgstr "कनेक्टर लेबल फ़ॉन्ट..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "code font..."
+msgstr "कोड फ़ॉन्ट..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "default text font..."
+msgstr "डिफ़ॉल्ट पाठ फ़ॉन्ट..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "flaps font..."
+msgstr "फ्लैप्स फ़ॉन्ट..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "list font..."
+msgstr "फ़ॉन्ट की सूची दें..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "menu font..."
+msgstr "मेन्यू फ़ॉन्ट..."
+
+#: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
+msgid "window-title font..."
+msgstr "विंडो-शीर्षक फ़ॉन्ट..."
+

@@ -1,0 +1,3029 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:47-0000\n"
+"PO-Revision-Date: 2010-08-27 15:47-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Etoys\n"
+
+
+#: Language name as you'd like it to appear in the Languages menu
+msgid "Language-Name"
+msgstr ""
+
+#: Directionality of language
+msgid "Language-Direction"
+msgstr ""
+
+
+#: Etoys-Buttons,ButtonProperties_class>>defaultNameStemForInstances,EToyVocabulary_class>>masterOrderingOfCategorySymbols,ScriptableButton_class>>defaultNameStemForInstances
+msgid "button"
+msgstr "버튼"
+
+#: Etoys-Buttons,ButtonProperties>>establishEtoyLabelWording,ScriptActivationButton>>establishLabelWording
+msgid "click to run the script \"{1}\" in player named \"{2}\""
+msgstr ""
+
+#: Etoys-Buttons,ButtonProperties>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr ""
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr ""
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseDown"
+msgstr "마우스로 누르는 순간"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseStillDown"
+msgstr "마우스로 누르고 있을 때"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseUp"
+msgstr "마우스를 누르고 땔 때"
+
+#: Etoys-Buttons,ButtonProperties>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+
+#: Etoys-Buttons,ButtonProperties>>setLabel
+msgid "Please a new label for this button"
+msgstr ""
+
+#: Etoys-Experimental,EToyCommunicatorMorph_class>>instanceReport
+msgid "IP Address\\Project\\Owner"
+msgstr ""
+
+#: Etoys-Experimental,EToyCommunicatorMorph_class>>instanceReport
+msgid "Sorted by"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>doPopUp:event:for:,EToyProjectDetailsMorph>>fillInDetails,EToyProjectDetailsMorph>>popUpEntryNamed:,EToyProjectDetailsMorph>>popUpEntryNamed:menuTitle:
+msgid "(none)"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>expandButton
+msgid "More"
+msgstr "이동하기"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>expandButton
+msgid "Show more info on this project."
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Author"
+msgstr "만든사람:"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Description"
+msgstr "설명:"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Region"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Subject"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Tags"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Target Age"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>rebuild
+msgid "Please describe this project"
+msgstr "프로젝트에 대해 설명해주세요"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>rebuild,EToyProjectQueryMorph>>rebuild
+msgid "Project Name"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectHistoryMorph_class>>descriptionForPartsBin
+msgid "A tool that lets you navigate back to recently-visited projects"
+msgstr "최근 보았던 프로젝트로 돌아가는 것을 안내해 주는 도구"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph_class>>descriptionForPartsBin
+msgid "ProjectHistory"
+msgstr "프로젝트 기록"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph>>rebuild
+msgid "Jump..."
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectQueryMorph>>rebuild
+msgid "Enter things to search for"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>cancelButton,TextPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "취소"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>cancelButton
+msgid "Cancel this Publish operation."
+msgstr "출판하기를 취소합니다."
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>fieldForProjectName
+msgid ""
+"Pick a name 24 characters or less and avoid the following characters:\n"
+"\n"
+" : < > | / \\ ? * \" ."
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>okButton
+msgid "Change my name and continue publishing."
+msgstr "주어진 제목으로 출판을 계속합니다."
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>okButton
+msgid "OK"
+msgstr "예"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "I do need a name for the project"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName,EtoyLoginMorph>>doOK
+msgid "Please make the name 24 characters or less"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "Please remove any funny characters from the name"
+msgstr ""
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "Sorry that name is already used"
+msgstr ""
+
+#: Etoys-Experimental,EtoyLoginMorph>>doOK
+msgid "Please enter your login name"
+msgstr ""
+
+#: Etoys-Experimental,EtoyLoginMorph>>doOK
+msgid "Please remove any funny characters"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>borderPrototype:help:
+msgid "This border style cannot be used here"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneFor2ndGradientColorPicker
+msgid "2nd gradient color"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderColorPicker
+msgid "Border Color"
+msgstr "테두리색"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderColorPicker
+msgid "Border style"
+msgstr "테두리 스타일"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex framed border"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex inset border"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex raised border"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple colored border"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple inset border"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple raised border"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderWidth
+msgid "Border width"
+msgstr "테두리 너비"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderWidth
+msgid "Drag in here to change the border width"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForCornerRoundingToggle
+msgid " Rounded corners"
+msgstr "둥근 모서리"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForCornerRoundingToggle
+msgid "Turn rounded corners on or off"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForDropShadowToggle
+msgid " Drop shadow color"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForDropShadowToggle
+msgid "Turn drop shadows on or off"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientDirection
+msgid "Direction"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientDirection
+msgid "Drag in here to change the direction of the gradient"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientFillToggle
+msgid " Gradient fill"
+msgstr "그라데이션"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientFillToggle
+msgid "Turn gradient fill on or off"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientOrigin
+msgid "Drag in here to change the origin of the gradient"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientOrigin
+msgid "Origin"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForLockedToggle
+msgid " Lock"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForLockedToggle
+msgid "Turn lock on or off"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForMainColorPicker
+msgid "Color"
+msgstr "색"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForRadialGradientToggle
+msgid " Radial gradient"
+msgstr "원형 그라데이션"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForRadialGradientToggle
+msgid "Turn radial gradient on or off"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForShadowOffset
+msgid "Drag in here to change the offset of the shadow"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForShadowOffset
+msgid "Offset"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForSolidFillToggle
+msgid " Solid fill"
+msgstr "한 색 채우기"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForSolidFillToggle
+msgid "Turn solid fill on or off"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForStickinessToggle
+msgid " Sticky"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForStickinessToggle
+msgid "Turn stickiness on or off"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons,ScriptableButton_class>>descriptionForPartsBin,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry
+msgid "Button"
+msgstr "버튼"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "open a button properties panel for the morph"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "open a text properties panel for the morph"
+msgstr ""
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "Text"
+msgstr "텍스트"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForApplyToWholeText
+msgid " Apply changes to entire text "
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForApplyToWholeText
+msgid "Whether to apply style changes to entire text or just selection"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForAutoFitToggle
+msgid " Auto-Fit"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForAutoFitToggle
+msgid "Turn auto-fit on or off"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForMargins
+msgid "Drag in here to change the margins of the text"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForMargins
+msgid "Margins"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForTextColorPicker
+msgid "Text Color"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForWrappingToggle
+msgid " Wrapping"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForWrappingToggle
+msgid "Turn line wrapping on or off"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "B"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "bold text"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "decrease kern"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "font changing"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "I"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "increase kern"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "italic text"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Kern+"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Kern-"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Main"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "N"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "n"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "narrow text"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "normal text"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "open a main properties panel for the morph"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "S"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Size"
+msgstr "크기"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Style"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "struck out text"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "U"
+msgstr ""
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "underlined text"
+msgstr ""
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "as object"
+msgstr "오브젝트 메뉴"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "basic"
+msgstr "기본"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "drag & drop"
+msgstr "드래그 & 드롭"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "fill & border"
+msgstr "색채우기 & 테두리"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols,StandardViewer>>likelyCategoryToShow
+msgid "geometry"
+msgstr "위치정보"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "layout"
+msgstr "레이아웃"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "miscellaneous"
+msgstr "기타"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "more geometry"
+msgstr "자세한 위치정보"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols,StandardViewer>>likelyCategoryToShow
+msgid "motion"
+msgstr "동작"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "observation"
+msgstr "관찰"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "pen use"
+msgstr "펜 사용"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "scripting"
+msgstr "스크립트 제어"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "scripts"
+msgstr "스크립트"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "search"
+msgstr "찾기"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "sound"
+msgstr "소리"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "tests"
+msgstr "테스트"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "variables"
+msgstr "변수"
+
+#: Etoys-Protocols,EToyVocabulary_class>>vocabularySummary
+msgid "command"
+msgstr ""
+
+#: Etoys-Protocols,EToyVocabulary_class>>vocabularySummary
+msgid "property"
+msgstr ""
+
+#: Etoys-Protocols-Type_Vocabularies,PlayerType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "tiles to get..."
+msgstr ""
+
+#: Etoys-Protocols-Type_Vocabularies,ScriptNameType>>defaultArgumentTile
+msgid "empty script"
+msgstr "빈 스크립트"
+
+#: Etoys-Scripting_Support,WatcherWrapper>>buildReadout:,WatcherWrapper>>reconstituteName
+msgid "{1}'s {2}"
+msgstr "{1}의 {2}"
+
+#: Etoys-Scripting_Tiles,ColorTileMorph>>addColorSwatch,ColorTileMorph>>updateWordingToMatchVocabulary,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "color"
+msgstr "색"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "No"
+msgstr "아니오"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "Test"
+msgstr "테스트"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "Yes"
+msgstr "예"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>setOperator:,PhraseTileMorph>>justDroppedInto:event:
+msgid "parenthesized"
+msgstr "괄호"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "enclose within parentheses"
+msgstr "괄호의 안으로 넣는다."
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "parentheses"
+msgstr "괄호"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions,FunctionTile>>addCustomMenuItems:hand:
+msgid "remove function"
+msgstr "함수 삭제하기"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "remove parentheses"
+msgstr "괄호 삭제하기"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "strip away the function call, leaving just its former argument in its place"
+msgstr "이전의 인수를 제 자리에 남기고 함수 호출을 버린다. "
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "strip away the parenthesises"
+msgstr "괄호를 버린다"
+
+#: Etoys-Scripting_Tiles,FunctionTile_class>>defaultNameStemForInstances
+msgid "Function"
+msgstr "함수"
+
+#: Etoys-Scripting_Tiles,MenuTile>>initialize
+msgid "send to back"
+msgstr "뒤로 보내라"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "A number readout for a Stack.  Shows current value.  Click and type the value."
+msgstr ""
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "A number readout for a Stack.  Shows current value.  Click and type the value.  Shift-click on title to edit."
+msgstr ""
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (bare)"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (fancy)"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (mid)"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,ParameterTile>>bePossessive
+msgid "Player"
+msgstr "플레이어"
+
+#: Etoys-Scripting_Tiles,ParameterTile>>bePossessive,TileMorph>>bePossessive,TileMorph>>emblazonPlayerNameOnReferenceTileWithin:,TileMorph>>retargetFrom:to:
+msgid "'s"
+msgstr "의"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTest>>mouseDown:,ScriptEditorMorph>>addYesNoToHand
+msgid "TestTile"
+msgstr "조건타일"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>mouseDown:
+msgid "Repeat Tile"
+msgstr "반복타일"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>setupCostume,PhraseTileForTimesRepeat>>setupCostume,TimesRow>>initialize
+msgid "Repeat"
+msgstr "반복하기"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>setupCostume,PhraseTileForTimesRepeat>>setupCostume
+msgid "Times"
+msgstr "번"
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph_class>>defaultNameStemForInstances
+msgid "PhraseTile"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph>>addCustomMenuItems:hand:
+msgid "Sprout a new scriptor around this phrase"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph>>try
+msgid "evaluation error"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "A random-number tile for use with tile scripting"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "A tile that will produce a random number in a given range"
+msgstr "주어진 범위의 임의의 수를 만들어내는 타일"
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "Random"
+msgstr "임의의 수"
+
+#: Etoys-Scripting_Tiles,ScriptNameTile>>adjustHelpMessage
+msgid "The name of the script to which this operation applies"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,SoundReadoutTile>>soundNameFromUser
+msgid "Sounds"
+msgstr "녹음기"
+
+#: Etoys-Scripting_Tiles,TileMorph_class>>defaultNameStemForInstances
+msgid "Tile"
+msgstr "타일"
+
+#: Etoys-Scripting_Tiles,TileMorph>>addCustomMenuItems:hand:
+msgid "hand me this object"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,TileMorph>>addCustomMenuItems:hand:
+msgid "This tile refers to an actual graphical object; use this menu item to grab that object.  Caution!  This may remove the object from a place it really ought to stay."
+msgstr ""
+
+#: Etoys-Scripting_Tiles,TileMorph>>options
+msgid "false"
+msgstr "아니오"
+
+#: Etoys-Scripting_Tiles,TileMorph>>options
+msgid "true"
+msgstr "예"
+
+#: Etoys-Scripting_Tiles,TilePadMorph>>addCustomMenuItems:hand:
+msgid "place in a function"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,TilePadMorph>>addCustomMenuItems:hand:
+msgid "restore default tile"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>initialize
+msgid "Do"
+msgstr "실행하기"
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>initialize
+msgid "Script to repeat"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,TimesRow>>initialize
+msgid "times"
+msgstr "번"
+
+#: Etoys-Scripting_Tiles,TypeListTile>>addCustomMenuItems:hand:
+msgid "choose type..."
+msgstr ""
+
+#: Etoys-Scripting_Tiles,TypeListTile>>addMenuIcon
+msgid "click here to choose a new type for this parameter"
+msgstr ""
+
+#: Etoys-Scripting_Tiles,ViewerLine>>addCustomMenuItems:hand:
+msgid "show categories"
+msgstr ""
+
+#: Etoys-Scripting,AllPlayersTool_class>>descriptionForPartsBin
+msgid "A tool showing all the players in your project"
+msgstr "사용자의 모든 플레이어를 보여주는 도구"
+
+#: Etoys-Scripting,AllPlayersTool_class>>descriptionForPartsBin,AllScriptsTool_class>>descriptionForPartsBin
+msgid "Scripting"
+msgstr "스크립트 제어"
+
+#: Etoys-Scripting,AllPlayersTool>>addCustomMenuItems:hand:
+msgid "inspect"
+msgstr "살펴보기"
+
+#: Etoys-Scripting,AllPlayersTool>>addCustomMenuItems:hand:
+msgid "reinvigorate"
+msgstr ""
+
+#: Etoys-Scripting,AllPlayersTool>>addHeaderRow
+msgid "Players in this Project"
+msgstr ""
+
+#: Etoys-Scripting,AllPlayersTool>>helpString
+msgid ""
+"Each row represents an object, or \"player\" in the project.\n"
+"Click on the menu icon to get a menu of options concerning the player.\n"
+"Click on a player's picture to reveal its location.\n"
+"Click on the turquoise eye to open the player's viewer.\n"
+"Click on a player's name to obtain a tile representing it."
+msgstr ""
+
+#: Etoys-Scripting,AllPlayersTool>>presentHelp,AllPlayersTool_class>>defaultNameStemForInstances,AllPlayersTool_class>>descriptionForPartsBin
+msgid "Players"
+msgstr "플레이어"
+
+#: Etoys-Scripting,AllPlayersTool>>presentHelp
+msgid ""
+"\n"
+"Each row represents an object, or \"player\" in the project.\n"
+"Click on the menu icon to get a menu of options concerning the player.\n"
+"Click on a player's picture to reveal its location.\n"
+"Click on the turquoise eye to open the player's viewer.\n"
+"Click on a player's name to obtain a tile representing it."
+msgstr ""
+
+#: Etoys-Scripting,AllScriptsTool_class>>descriptionForPartsBin
+msgid "A tool allowing you to monitor and change the status of all scripts in your project"
+msgstr "사용자의 모든 프로젝트의 상태를 감시하고 바꿀 수 있도록 허락하는 도구"
+
+#: Etoys-Scripting,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "A tool that lets you control all the running scripts in your world"
+msgstr "현재 객체와 겹쳐진 객체의 색깔을 나타냅니다."
+
+#: Etoys-Scripting,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "A tool that lets you see and control all the running scripts in your project"
+msgstr "프로젝트에 있는 모든 스크립트를 제어할 수 있는 도구입니다."
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "all instances"
+msgstr "모든 인스턴스"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "If checked, then entries for all instances will be shown, but if not checked, scripts for only one representative of each different kind of object will be shown.  Consult the help available by clicking on the purple ? for more information."
+msgstr ""
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "If checked, then only scripts that are paused or ticking will be shown"
+msgstr "체크 표시하면, 중지되거나 실행중인 스크립트만 보여줍니다. "
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "tickers only"
+msgstr "실행(멈춤)중인 스크립트"
+
+#: Etoys-Scripting,AllScriptsTool>>dismissButton
+msgid "Click here to remove this tool from the screen; you can get another one any time you want from the Widgets flap"
+msgstr ""
+
+#: Etoys-Scripting,AllScriptsTool>>helpString
+msgid ""
+"This tool allows you to see all the scripts for all the objects in this project.\n"
+"\n"
+"Sometimes you are only interested in those scripts that are ticking, or that are *ready* to tick when you hit the GO button (which are said to be \"paused.\")\n"
+"\n"
+"* Check \"tickers only\" if you only want to see such scripts -- i.e., scripts that are either paused or ticking.\n"
+"\n"
+"* If \"tickers only\" is *not* checked, then all scripts will be shown, whatever their status.\n"
+"\n"
+"* The other checkbox, labeled \"all instances\", only comes into play if you have created \"multiple sibling instances\" (good grief) of the same object, which share the same scripts; if you have such things, it is often convenient to see the scripts of just *one* such sibling, because it will take up less space and require less mindshare -- and note that you can control a script for an object *and* all its siblings from the menu of that one that you see, via menu items such as \"propagate status to siblings\".\n"
+"\n"
+"* If \"all instances\" is checked, scripts for all sibling instances will be shown, whereas if \"all instances\" is *not* checked, only one of each group of siblings will be selected to have its scripts shown.\n"
+"\n"
+"But how do you get \"multiple sibling instances\" of the same object?  There are several ways:\n"
+"\n"
+"(1)  Use the \"make a sibling instance\" or the \"make multiple siblings...\" menu item in the halo menu of a scripted object.\n"
+"\n"
+"(2)  Use the \"copy\" tile in a script.\n"
+"\n"
+"(3)  Request \"give me a copy now\" from the menu associated with the \"copy\" item in a Viewer.\n"
+"\n"
+"If you have on your screen multiple sibling instances of the same object, then you may or may want to see them all in the All Scripts tool, and that is what the \"all instances\" checkbox governs.\n"
+"\n"
+"Set \"all instances\" if you want a separate entry for each instance, as\n"
+"opposed to a single representative of that kind of object.\n"
+"\n"
+"Note that if you obtain a copy of an object by using the green halo handle, it will *not* be a sibling instance of the original.  It will in many ways seem to be, because it will start out its life having the same scripts as the original.  But it will then lead an independent life, so that changes to scripts of the original will not be reflected in it, and vice-versa.\n"
+"\n"
+"This is an important distinction, and an unavoidable one because people sometimes want the deep sharing of sibling instances and sometimes they clearly do not.  But the truly understandable description of these concepts and distinctions certainly lies *ahead* of us!"
+msgstr ""
+
+#: Etoys-Scripting,AllScriptsTool>>openUpButton
+msgid "open or close the lower portion that shows individual scripts"
+msgstr "개별 스크립트를 볼 수 있는 창을 아래에 열거나 닫습니다. "
+
+#: Etoys-Scripting,AllScriptsTool>>presentHelp,AllScriptsTool_class>>defaultNameStemForInstances,AllScriptsTool_class>>descriptionForPartsBin,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "All Scripts"
+msgstr "모든 스크립트 제어버튼"
+
+#: Etoys-Scripting,CategoryViewer>>addHeaderMorph
+msgid ""
+"remove this pane from the screen\n"
+"don't worry -- nothing will be lost!."
+msgstr "이 판을 화면에서 제거합니다. 걱정하지 마세요. 잃어버리는 것은 없습니다."
+
+#: Etoys-Scripting,CategoryViewer>>arrowSetterButtonFor:type:,CategoryViewer>>arrowSetterButton:args:
+msgid "drag from here to obtain an assignment phrase."
+msgstr "값주기 문구를 스크립트에 삽입하려면 여기(화살표)를 드래그합니다."
+
+#: Etoys-Scripting,CategoryViewer>>chooseCategory
+msgid "category"
+msgstr "카테고리"
+
+#: Etoys-Scripting,CategoryViewer>>infoButtonFor:,PlayerSurrogate>>rebuildRow
+msgid "Press here to get a menu"
+msgstr "메뉴를 보려면 여기를 누릅니다."
+
+#: Etoys-Scripting,CategoryViewer>>phraseForCommandFrom:
+msgid ""
+"drag and drop to \n"
+"add a new script"
+msgstr "새 스크립트를 만들려면 드래그 앤 드롭합니다."
+
+#: Etoys-Scripting,CategoryViewer>>phraseForTest
+msgid "Press here to tear off a  TEST/YES/NO unit which you can drop into your script"
+msgstr "\"테스트 상자\"를 만드려면 여기를 클릭하세요. 조건 테스트에 따라 객체가 행동합니다."
+
+#: Etoys-Scripting,CategoryViewer>>phraseForTimesRepeat
+msgid "Drag here to tear off a  Repeat/Times unit which you can drop into your script"
+msgstr "반복하기 기능을 사용하기 위하여 이것을 드래그하여 스크립트에 드롭한다"
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "can be found in the following categories"
+msgstr ""
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "is in the following category"
+msgstr ""
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "this tile is not actually suitable for use with this kind of object"
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile holding a plain number"
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile representing a function call.  Click on the function name or the arrows to change functions."
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile representing the object being scripted"
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile that will produce a random number in a given range."
+msgstr "랜덤 타일은 설정된 숫자 범위 안에서 무작위 수를 생성합니다."
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,ScriptEditorMorph>>handUserButtonDownTile,StandardScriptingSystem>>anyButtonPressedTiles,StandardScriptingSystem>>buttonDownTile
+msgid "button down?"
+msgstr "버튼 아래?"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,ScriptEditorMorph>>handUserButtonUpTile,StandardScriptingSystem>>buttonUpTile,StandardScriptingSystem>>noButtonPressedTiles
+msgid "button up?"
+msgstr "버튼 위?"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "function"
+msgstr "함수"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Gold Box"
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "number"
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Reports whether the mouse button is down"
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Reports whether the mouse button is up"
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,RandomNumberTile>>initialize,RandomNumberTile>>updateWordingToMatchVocabulary
+msgid "random"
+msgstr "랜덤"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "repeat"
+msgstr "반복하기"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Test/Yes/No panes for testing a condition."
+msgstr "조건문/네/아니오 타일은 조건문을 테스트합니다. "
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "TimesRepeat panes for running a section of code repeatedly."
+msgstr ""
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "test"
+msgstr "테스트"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "tile for me"
+msgstr ""
+
+#: Etoys-Scripting,MethodMorph_class>>defaultNameStemForInstances
+msgid "Method"
+msgstr ""
+
+#: Etoys-Scripting,Player>>addIdiosyncraticMenuItemsTo:forSlotSymol:
+msgid "give me a copy now"
+msgstr ""
+
+#: Etoys-Scripting,Player>>addIdiosyncraticMenuItemsTo:forSlotSymol:
+msgid "hand me a picture of pen trail"
+msgstr ""
+
+#: Etoys-Scripting,Player>>addInstanceVariable
+msgid "name for new variable: "
+msgstr "새 변수 이름"
+
+#: Etoys-Scripting,Player>>addInstanceVariable
+msgid "var"
+msgstr "변수"
+
+#: Etoys-Scripting,Player>>basicBeNotZero:
+msgid ""
+"Dividing by zero makes a number too\n"
+"large for even a Sorcerer to handle.\n"
+"Please change your script."
+msgstr ""
+
+#: Etoys-Scripting,Player>>basicRemoveSlotNamed:
+msgid ""
+"Caution!  There may be scripts belonging to\n"
+"other objects that may rely on the presence of\n"
+"this variable.  If there are, they may now be broken.\n"
+"You may need to fix them up manually."
+msgstr ""
+
+#: Etoys-Scripting,Player>>basicRemoveSlotNamed:
+msgid ""
+"Sorry, {1} is in\n"
+"use in a script."
+msgstr ""
+
+#: Etoys-Scripting,Player>>basicRenameSlot:newSlotName:
+msgid "Caution!  References in texutally coded scripts won't be renamed."
+msgstr ""
+
+#: Etoys-Scripting,Player>>beNotZero:
+msgid ""
+"Dividing by zero makes a number too\n"
+"\t\t\t\tlarge for even a Sorcerer to handle.\n"
+"\t\t\t\tPlease change your script."
+msgstr ""
+
+#: Etoys-Scripting,Player>>changeParameterTypeFor:
+msgid ""
+"Choose the TYPE\n"
+"for the parameter (currently {1})"
+msgstr ""
+"파라메타의 타입을\n"
+"선택하세요. (현재는 {1})"
+
+#: Etoys-Scripting,Player>>chooseSlotTypeFor:
+msgid ""
+"Choose the TYPE\n"
+"for {1}\n"
+msgstr ""
+
+#: Etoys-Scripting,Player>>chooseSlotTypeFor:
+msgid ""
+"\n"
+"(currently {2})"
+msgstr ""
+
+#: Etoys-Scripting,Player>>chooseUserSlot
+msgid "Please choose a variable"
+msgstr ""
+
+#: Etoys-Scripting,Player>>defaultScriptName
+msgid "script"
+msgstr "스크립트"
+
+#: Etoys-Scripting,Player>>handUserPictureOfPenTrail
+msgid "no pen trails present"
+msgstr ""
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "add parameter"
+msgstr "매개변수 추가"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "button to fire this script"
+msgstr "스크립트 실행 버튼 만들기"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "destroy \""
+msgstr "삭제하기 \""
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "edit balloon help"
+msgstr "도움말 편집하기"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,Player>>slotInfoButtonHitFor:inViewer:
+msgid "ok"
+msgstr ""
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "remove parameter"
+msgstr ""
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "rename  \""
+msgstr "이름 바꾸기 \""
+
+#: Etoys-Scripting,Player>>methodInterfacesForInstanceVariablesCategoryIn:
+msgid "a variable defined by this object"
+msgstr ""
+
+#: Etoys-Scripting,Player>>newCostume
+msgid "choose a costume"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "attempt repairs"
+msgstr "수리 시도하기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "browse class"
+msgstr "클래스 찾기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "Choose a different vocabulary for this Viewer."
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "choose limit class..."
+msgstr "제한적인 클래스 선택하기..."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "choose vocabulary..."
+msgstr "단어 선택하기..."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "destroy all this object's scripts"
+msgstr "이 객체의 모든 스크립트 없애기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "expunge empty scripts"
+msgstr "빈 스크립트 지우기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "forget other costumes"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "impart scripts to..."
+msgstr "스크립트 나누어주기..."
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect class"
+msgstr "클래스 조사하기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "inspect morph"
+msgstr "모프 살피기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "inspect player"
+msgstr "플레이어 살피기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect this Viewer"
+msgstr "이 뷰어를 조사하기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect this Vocabulary"
+msgstr "이 어휘 조사하기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open a lexicon that has a type-in pane for search (not recommended!)"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open a window that shows the code for this object in traditional programmer format"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open lexicon with search pane"
+msgstr "검색창과 함께 어휘목록 열기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open standard lexicon"
+msgstr "표준 어휘목록 열기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "opens a Viewer directly on the rendered morph."
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "relaunch this Viewer"
+msgstr "이 뷰어 다시 앞으로 내보내기"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "Specify what the limitClass should be for this Viewer -- i.e., the most generic class whose methods and categories should be considered here."
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "view morph directly"
+msgstr "모프 직접적으로 보기"
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid ""
+"Choose the datum\n"
+"you want to extract from {1}'s {2}"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid ""
+"Choose the TYPE\n"
+"of data to get from\n"
+"{1}'s {2}"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid "sorry -- no slots of that type"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "Add a new script that will work for this object and all of its siblings"
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "Add a new variable to this object and all of its siblings.  You will be asked to supply a name for it."
+msgstr ""
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a new script"
+msgstr "새 스크립트 추가하기"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a new variable"
+msgstr "새 변수 추가하기"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add search pane"
+msgstr "탐색판 추가하기"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "choose this to obtain a tile which represents the object associated with this script"
+msgstr "현재 뷰어메뉴에 해당하는 객체의 이름 타일을 가져온다."
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "grab this object"
+msgstr "객체 잡아오기"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "If you have misplaced the object that this Viewer is looking at, use this item to (try to) make it visible"
+msgstr "현재 뷰어메뉴에 대한 객체를 잃어버렸다면 이 메뉴를 이용하여 객체를 표시할 수 있습니다."
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptInstantiation>>offerMenuIn:
+msgid "more..."
+msgstr "더..."
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "reveal this object"
+msgstr "객체 표시하기"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "This will actually pick up the object this Viewer is looking at, and hand it to you.  Click the (left) button to drop it"
+msgstr "이 메뉴는 현재 뷰어 메뉴에 해당하는 객체를 가져옵니다. (왼쪽) 버튼을 클릭하여 내려놓을 수 있습니다."
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "tile representing this object"
+msgstr "이 객체의 이름을 타일로 만들기"
+
+#: Etoys-Scripting,Player>>renameScript:
+msgid "Script Name"
+msgstr "스크립트 이름"
+
+#: Etoys-Scripting,Player>>renameScript:
+msgid ""
+"Sorry, we do not permit you to rename\n"
+"classic-tiled scripts that are currently\n"
+"textually coded.  Go back to tile scripts\n"
+"and try again.  Humble apologies."
+msgstr ""
+
+#: Etoys-Scripting,Player>>renameSlot:
+msgid "New name for \""
+msgstr "\" 의 새로운 이름"
+
+#: Etoys-Scripting,Player>>runScript:
+msgid ""
+"Oops, object \"{1}\" no longer has\n"
+"a script named \"{2}\".\n"
+"It must have been deleted or renamed."
+msgstr ""
+
+#: Etoys-Scripting,Player>>setLocation:
+msgid "Expected a Point but instead got "
+msgstr ""
+
+#: Etoys-Scripting,Player>>setPrecisionFor:
+msgid "How many decimal places? (currently {1})"
+msgstr "소수점 몇자리까지 보여줄까요? (현재 {1})"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "change value type"
+msgstr "변수 타입 변경하기"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "grab morph"
+msgstr ""
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "remove \"{1}\""
+msgstr "삭제하기 \"{1}\""
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "rename \"{1}\""
+msgstr "이름변경하기 \"{1}\""
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "{1} is used for vector operations"
+msgstr ""
+
+#: Etoys-Scripting,Player>>tellAllSiblings:,Player>>tellSelfAndAllSiblings:
+msgid " to "
+msgstr ""
+
+#: Etoys-Scripting,Player>>tellAllSiblings:,Player>>tellSelfAndAllSiblings:
+msgid "Cannot \"tell \" "
+msgstr ""
+
+#: Etoys-Scripting,Player>>triggerScript:
+msgid ": exception in script "
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>destroyThisObject
+msgid "Already in the Trash"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "no change"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid ""
+"okay, this object is now named\n"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "Type the name you insist upon"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "there was no conflict; this object is now named "
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid ""
+"\n"
+"and the object formerly known by this name\n"
+"is now called\n"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "copy object's name to clipboard"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "destroy this object"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "forcibly rename object"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "If you want to give this object a name which conflicts with the name of some other object in the project, use this command.  The other object with the same name will in the process be given a different name."
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "inspect object"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "open viewer for this object"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "rename object"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "tile for this object"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "where is this object?"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "Click here to reveal this object"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "click here to obtain a tile that refers to this player."
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "click here to obtain this object's Viewer"
+msgstr ""
+
+#: Etoys-Scripting,PlayerSurrogate>>renamePlayer
+msgid "Type new name:"
+msgstr ""
+
+#: Etoys-Scripting,ScriptActivationButton>>addCustomMenuItems:hand:
+msgid "open underlying scriptor"
+msgstr ""
+
+#: Etoys-Scripting,ScriptActivationButton>>setLabel
+msgid "Please enter a new label for this button"
+msgstr ""
+
+#: Etoys-Scripting,ScriptableButton_class>>authoringPrototype
+msgid "script{1}"
+msgstr ""
+
+#: Etoys-Scripting,ScriptableButton_class>>descriptionForPartsBin
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr "타일 스크립팅을 사용하기 위한 버튼. 이것의 스크립트는 플레이필드 안의 메소드가 될 수도 있다."
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry
+msgid "A button whose script will be a method of the background Player"
+msgstr ""
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry
+msgid "A Scriptable button"
+msgstr "스크립트 버튼"
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry
+msgid "Scriptable Button"
+msgstr "스크립트 버튼"
+
+#: Etoys-Scripting,ScriptableButton>>initializeToStandAlone,ScriptableButton_class>>authoringPrototype
+msgid "Press me"
+msgstr ""
+
+#: Etoys-Scripting,ScriptableButton>>setLabel
+msgid "Enter a new label for this button"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addDismissButtonTo:
+msgid ""
+"Remove this script\n"
+"from the screen\n"
+"(you can open it\n"
+"again from a Viewer)"
+msgstr "화면에서 이 스크립트를 제거한다. (사용자는 뷰어에서 다시 열 수 있습니다.)"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "gold box"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "gold box items"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a numeric-constant tile"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a test-yest-no tile"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a tile for self\t"
+msgstr "이 객체의 이름을 타일로 만들기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"button down?\" tile"
+msgstr "\"버튼아래로?\"타일 꺼내기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"button up?\" tile"
+msgstr "\"버튼 위로?\" 타일 꺼내기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"function\" tile"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"random number\" tile"
+msgstr "\"랜덤 수\" 타일 꺼내기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"repeat..times\" tile"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>autoFitString
+msgid "auto fit"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "Click here to edit the name of the script."
+msgstr "스크립트의 이름을 편집하려면 여기를 클립합니다."
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "click here to get a palette of useful tiles to use in your script."
+msgstr "사용자의 스크립트에서 사용할 수 있는 유용한 타일의 팔레트를 얻으려며 여기를 클릭한다."
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "Drag from here to get a parameter tile"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>chooseFrequency
+msgid "Choose frequency (current: {1})"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>chooseFrequency,ScriptInstantiation>>presentTickingMenu
+msgid "other..."
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>destroyScript
+msgid ""
+"Caution -- this destroys this script\n"
+"permanently; are you sure you want to do this?"
+msgstr "주의 - 이 스크립트가 영구히 제거됩니다. 정말로 그렇게 하겠습니까?"
+
+#: Etoys-Scripting,ScriptEditorMorph>>destroyScript
+msgid ""
+"Sorry, this script is being called\n"
+"from another script."
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>explainStatusAlternatives,ScriptInstantiation>>explainStatusAlternatives
+msgid "Script Status"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>extent:
+msgid "To resize the script, uncheck the box below"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>initialize
+msgid "Script Editor"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "destroy this script"
+msgstr "스크립트 없애기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "detached method pane"
+msgstr "코드 창 분리하기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "edit balloon help for this script"
+msgstr "스크립트 도움말 편집"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "explain status alternatives"
+msgstr "상황선택 설명"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "fires per tick..."
+msgstr "똑딱 당 실행수"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "If you have misplaced the object bearing this script, use this item to (try to) make it visible"
+msgstr ""
+"해당 스크립트가 포함된 객체가 화면 어디에 있는지 모를 경우, \n"
+"이 메뉴를 사용하면 화면에 객체가 표시됩니다. "
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "open a little window that shows the Smalltalk code underlying this script."
+msgstr ""
+"해당 스크립트의 스몰토크 코드를 \n"
+"작은 창으로 분리하여 보여줍니다. "
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "open the viewer of the object to which this script belongs"
+msgstr "해당 스크립트가 포함되어 있는 객체의 뷰어를 엽니다. "
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "open viewer"
+msgstr "뷰어 열기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "revert to tile version"
+msgstr "타일 명령어로 보기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "revert to tile version..."
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "save this version"
+msgstr "이 버젼 저장하기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "show code textually"
+msgstr "코드원문 보기"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "This will actually pick up the object bearing this script and hand it to you.  Click the (left) button to drop it"
+msgstr "해당 스크립트가 포함된 객체를 집어옵니다. 마우스 (왼쪽) 버튼을 클릭해서 내려놓을 수 있습니다. "
+
+#: Etoys-Scripting,ScriptEditorMorph>>showingCaretsString
+msgid "show arrows"
+msgstr "확장 버튼 활성화"
+
+#: Etoys-Scripting,ScriptEditorMorph>>toggleWhetherShowingTiles
+msgid ""
+"Caution -- this script was changed\n"
+"textually; if you revert to tiles at this\n"
+"point you will lose all the changes you\n"
+"may have made textually.  Do you\n"
+"really want to do this?"
+msgstr ""
+
+#: Etoys-Scripting,ScriptEditorMorph>>typeInFrequency
+msgid "Number of firings per tick: "
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "Please describe this event:"
+msgstr "프로젝트에 대해 설명해주세요"
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "That event is already defined."
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "What is the name of your new event?"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Make the status of this script in all of my sibling instances be the same as the status you see here"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Open up a Viewer for this object"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Open up the Scriptor for this script"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "open this object's Viewer"
+msgstr "객체의 뷰어를 엽니다."
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "open this script's Scriptor"
+msgstr "실제 스크립트를 엽니다. "
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "propagate status to siblings"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "The \"more...\" branch offers you menu items that are less frequently used."
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "Caution!  This is irreversibly destructive -- it removes the script from the system."
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "Wherever this object currently is, the \"grab\" command will rip it out, and place it in your \"hand\".  This is a very drastic step, that can disassemble things that may be very hard to put back together!"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "apply my status to all siblings"
+msgstr "복제된 모든 객체에게 내 실행 상태를 적용하기"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "closing"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "define a new custom event"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "delete a custom event"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "more... "
+msgstr "더..."
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "normal"
+msgstr "표준"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "opening"
+msgstr ""
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "paused"
+msgstr "멈춤"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "ticking"
+msgstr "똑딱"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "When should this script run?"
+msgstr "이 스크립트를 언제 실행해야할까?"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "what do these mean?"
+msgstr "메뉴 사용방법 "
+
+#: Etoys-Scripting,ScriptInstantiation>>presentTickingMenu
+msgid "Ticks (now: {1}/sec)"
+msgstr "초당 실행 속도 (현재: {1}/초)"
+
+#: Etoys-Scripting,ScriptInstantiation>>statusControlRowIn:
+msgid "This is the name of the player to which this script belongs; if you click here, you will get a menu of interesting options pertaining to this player and script"
+msgstr "해당 스크립트를 가지고 있는 플레이어(객체)의 이름입니다; 이곳을 클릭하면, 해당 플레이어(객체)와 스크립트에 대한 메뉴가 나옵니다. "
+
+#: Etoys-Scripting,ScriptInstantiation>>statusControlRowIn:
+msgid "This is the name of the script to which this entry pertains."
+msgstr "해당 객체의 스크립트 이름입니다. "
+
+#: Etoys-Scripting,ScriptInstantiation>>typeInTickingRate
+msgid "Number of ticks per second: "
+msgstr ""
+
+#: Etoys-Scripting,ScriptingDomain>>addModelMenuItemsTo:forMorph:hand:
+msgid "take out of window"
+msgstr ""
+
+#: Etoys-Scripting,ScriptStatusControl>>assurePauseTickControlsShow
+msgid "Press to toggle ticking state. Hold down to set tick rate."
+msgstr "시간상태를 바꾸려면 클릭합니다. 시간비율을 조정하려면 길게 누릅니다."
+
+#: Etoys-Scripting,ScriptStatusControl>>initializeFor:
+msgid "when this script should run"
+msgstr "이 스크립트를 실행해야 하는 때"
+
+#: Etoys-Scripting,SearchingViewer>>addNamePaneTo:,SearchingViewer>>updateSearchButtonLabel
+msgid "Type some letters into the pane at right, and then press this Search button (or hit RETURN) and all tiles that match what you typed will appear in the list below."
+msgstr "오른쪽 검색창에 찾고 싶은 타일 명령어의 이름을 입력하고 찾기 버튼(또는 엔터)을 누르면 해당하는 모든 타일이 아래에 보입니다."
+
+#: Etoys-Scripting,SearchingViewer>>doSearchFrom:interactive:
+msgid "No matches found for \""
+msgstr ""
+
+#: Etoys-Scripting,SearchingViewer>>updateSearchButtonLabel
+msgid "Search"
+msgstr "찾기"
+
+#: Etoys-Scripting,SlotInformation>>documentation
+msgid "This is a variable defined by you.  Please edit this into your own meaningful documentation."
+msgstr ""
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "Click here to edit the player's name."
+msgstr "이름을 편집하려면 여기를 클릭합니다."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to add a variable\n"
+"to this object."
+msgstr "이 객체에 변수를 추가하려면 여기를 클릭합니다."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to add\n"
+"another category pane"
+msgstr "또 다른 카테고리 판을 추가하려면 여기를 클립합니다."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to get a menu\n"
+"that will allow you to\n"
+"locate this object,\n"
+"tear off a tile, etc.."
+msgstr "이 객체가 어디에 위치하는지, 타일을 떼어놓는지 등을 알게 해주는 메뉴를 얻으려면 여기를 클릭한다."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"remove this entire Viewer from the screen\n"
+"don't worry -- nothing will be lost!."
+msgstr "이 판을 화면에서 제거합니다. 걱정마세요. 잃어버리는 것은 없습니다."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "switch to next costume"
+msgstr ""
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "switch to previous costume"
+msgstr ""
+
+#: Etoys-Scripting,StandardViewer>>likelyCategoryToShow
+msgid "kedama"
+msgstr ""
+
+#: Etoys-Scripting,Viewer>>chooseVocabulary
+msgid "Choose a vocabulary"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make pictures represent the speech of a character in a comic"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make pictures represent the thoughts of a character in a comic"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make words represent the speech of a character in a comic"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make words represent the thoughts of a character in a comic"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Speech bubble"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Speech bubble (graphic)"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Thought bubble"
+msgstr ""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Thought bubble (graphic)"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>formerDescriptionForPartsBin
+msgid "A database of any sort -- slide show, rolodex, and any point in between"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "A button that takes the user to the next card in the stack"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "A button that takes the user to the previous card in the stack"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry,StackMorph_class>>registerInFlapsRegistry
+msgid "A multi-card data base"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Next Card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Previous Card"
+msgstr "이전페이지"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Some hints about how to use Stacks"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Stack Help"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph_class>>stackHelpWindow
+msgid ""
+"A \"stack\" is a place where you can create, store, view and retrieve data \"fields\" from a set of \"cards\".  Data that you want to occur on every card (such as a name and an address in an Address Stack) are represented by objects such as \"Simple Text\", \"Fancy Text\", and \"Scrolling Text\" that you obtain from the Stack Tools flap.\n"
+"\n"
+"When you look at a card in a Stack, you may be seeing three different kinds of material.  Press the § button in the stack's controls to see the current designations, and use the \"explain designations\" to get a reminder of what the three different colors mean.\n"
+"·  Things that are designated to be seen on every card, and have the same contents whichever card is being shown. (green)\n"
+"·  Things that are designated to be seen on every card, with each card having its own value for them. (orange)\n"
+"·  Things that are designated to occur only on the particular card at hand. (red)\n"
+"\n"
+"Use the \"stack/cards\" menu (in an object's halo menu) to change the designation of any object.  For example, if you have an object that is private to just one card, and you want to make it visible on all cards, use \"place onto background\".  If you further want it to hold a separate value for each separate card, use \"start holding separate data for each instance\".\n"
+"\n"
+"The normal sequence to define a Stack's structure is to obtain a blank Stack, then create your fields by grabbing what you want from the Stack Tools flap and dropping it where you want it in the stack.  For easiest use, give a name to each field (by editing the name in its halo) *before* you put it onto the background..  Those fields that you want to represent the basic data of the stack need to be given names, placed on the background, and then told to hold separate data.\n"
+"\n"
+"When you hit the + button in a stack's controls, a new card is created with default values in all the fields.  You can arrange for a particular default value to be used in a field -- do this either for one field at a time with \"be default value on new card\", or you can request that the all the values seen on a particular card serve as default by choosing \"be defaults for new cards\" from the stack's · menu.\n"
+"\n"
+"It is also possible to have multiple \"backgrounds\" in the same stack -- each different background defines a different data structure, and cards from multiple backgrounds can be freely mixed in the same stack.\n"
+"\n"
+"Besides text fields, it is also possible to have picture-valued fields -- and potentially fields with data values of any other type as well."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "book..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "clear new-page prototype"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "copy page url to clipboard"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "delete this card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "fewer card controls"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "go to card..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "hide card controls"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "insert a card"
+msgstr "카드 삽입하기"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "keep in one file"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "next card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "paste book page"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "previous card"
+msgstr "이전페이지"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "reload all from server"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "save as new-page prototype"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "search for text"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "send all pages to server"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "send this page to server"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "show card controls"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sort pages"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect for all backgrounds"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect this background only"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "stop at last page"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "uncache page sorter"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect for all backgrounds"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect this background only"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "wrap after last page"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>addCardsFromString:slotNames:
+msgid " card(s) added"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>deleteAllCardsExceptThisOne
+msgid " card(s) and all of their data?"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>deleteAllCardsExceptThisOne
+msgid "Really delete "
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>deleteCard
+msgid "Really delete this card and all of its data?"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>findViaTemplate
+msgid ""
+"No matches were found.\n"
+"Be sure the current card is mostly blank\n"
+"and only has text you want to match."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Add a new card after this one"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Click here to get a menu of options for this stack."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Delete this card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid ""
+"Fewer controls\n"
+"(if shift key pressed,\n"
+"deletes controls)"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Final card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "First card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs,StackMorph>>shortControlSpecs
+msgid "Next card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs,StackMorph>>shortControlSpecs
+msgid "Previous card"
+msgstr "이전페이지"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Show designations"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>goToCard
+msgid "no such card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>goToCard
+msgid "Which card number? "
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>insertAsBackground:resize:
+msgid "alternateBackground"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>insertAsBackground:resize:
+msgid "What should we call this new background?"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>insertCardOfBackground
+msgid ""
+"At this time, there IS only one kind of\n"
+"background in this stack, so that's\n"
+"what you'll get"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "add a card of background..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "add a card of this background"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "be defaults for new cards"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "bookish items..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Caution -- DANGER. Change the order of the variables on the cards"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Create new cards from a formatted string on the clipboard"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Create new cards from data in a file"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "debug..."
+msgstr "디버그..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "delete all cards *except* this one"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "explain designations"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "find via this template"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "find..."
+msgstr "찾기..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "first card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "insert cards from a file..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "insert cards from clipboard data"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "instance variable order..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "last card"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Make these current field values be the defaults for their respective fields on new cards"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "make a new background..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card one position earlier"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card one position later"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card to back of stack"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card to front of stack"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Sort all the cards of the current background using some field as the sort key"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu,StackMorph_class>>formerDescriptionForPartsBin,StackMorph_class>>registerInFlapsRegistry,StackMorph_class>>registerInFlapsRegistry
+msgid "Stack"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "scripts for this background"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "show designations"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "sort cards by..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid " dragNdrop"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "background color for all pages..."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "close"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "load PPT images from slide #1"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "make all pages this size"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "open"
+msgstr "열기"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "Stack / Book"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "sound effect for all pages"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "sound effect this page only"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "visual effect for all pages"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "visual effect this page only"
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>shortControlSpecs
+msgid "Click here to get a menu for this stack."
+msgstr ""
+
+#: Etoys-Stacks,StackMorph>>shortControlSpecs
+msgid ""
+"More controls\n"
+"(if shift key pressed,\n"
+"deletes controls)"
+msgstr ""
+
+#: Etoys-StarSqueak,KedamaMorph_class>>defaultNameStemForInstances
+msgid "KedamaWorld"
+msgstr "케다마월드"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions
+msgid "A Kedama World with pre-made components"
+msgstr "Kedama 월드의 초기 구성요소 열기"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Basic"
+msgstr "기본"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions
+msgid "Particles"
+msgstr "입자"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "Add a new patch variable"
+msgstr "새 변수 추가하기"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "Add a new turtle"
+msgstr ""
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "add a new breed of turtle"
+msgstr ""
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "add a new patch variable"
+msgstr "새 변수 추가하기"
+
+#: Etoys-StarSqueak,KedamaMorph>>setScale
+msgid "Set the number of pixels per patch (a number between 1 and 10)?"
+msgstr ""
+
+#: Etoys-StarSqueak,KedamaPatchMorph_class>>defaultNameStemForInstances
+msgid "patch"
+msgstr ""
+
+#: Etoys-StarSqueak,KedamaTurtleMorph_class>>defaultNameStemForInstances
+msgid "turtle"
+msgstr ""
+
+#: Etoys-StarSqueak,KedamaWhoSearchingViewer>>addNamePaneTo:,KedamaWhoSearchingViewer>>addNamePaneTo:
+msgid "Turtle"
+msgstr ""
+
+#: Etoys-StarSqueak,KedamaWhoSearchingViewer>>addNamePaneTo:
+msgid "Type a number into the pane to specify the individual turtle."
+msgstr ""
+
+#: Morphic-Kernel,Morph_class>>helpContributions
+msgid "Click here to run this script once; hold button down to run repeatedly"
+msgstr ""
+"이 스크립트를 한 번 실행합니다. \n"
+"계속 누르고 있으면 반복 실행됩니다."
+
+#: Morphic-Kernel,Morph_class>>helpContributions
+msgid "Run this command once."
+msgstr "이 명령을 한번 실행합니다."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "apply status to all siblngs"
+msgstr "복제된 모든 오브젝트에게 내 상태를 적용하기"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "apply the current status of all of my scripts to the scripts of all my siblings"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "bring all siblings to my location"
+msgstr "복제된 모든 오브젝트들을 내 위치로 이동하기"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "find all sibling instances and bring them to me"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "indicate all siblings"
+msgstr "복제된 오브젝트 확인하기"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "Make any number of sibling instances all at once"
+msgstr "한 번에 여러개의 복제를 만든다."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "Makes another morph whose player is of the same class as this one.  Both siblings will share the same scripts"
+msgstr "이것과 같은 클래스의 또 다른 모프를 만든다. 복제도 같은 스크립트를 공유한다."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make a sibling instance"
+msgstr "한 개 복제하기"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make all my sibling instances look like me."
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make all siblings look like me"
+msgstr "복제된 모든 오브젝트들의 모습을 나처럼 만들기"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make multiple siblings..."
+msgstr "여러 개 복제하기"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "momentarily show, by flashing , all of my visible siblings."
+msgstr "복제된 모든 오브젝트들이 잠시 깜박거리면서 보여진다."
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "siblings..."
+msgstr "복제..."
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "Background field, individual values"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "Background field, shared value"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "be a card in an existing stack..."
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "be default value on new card"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "become a stack of cards"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "make an instance for my data"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "put onto Background"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "remove from Background"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stacks and cards..."
+msgstr "스택과 카드"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "start holding separate data for each instance"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "start using for reference thumbnail"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stop holding separate data for each instance"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stop using for reference thumbnail"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>definePath
+msgid "no path obtained"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>insertAsStackBackground
+msgid "Please click on a Stack"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>putOnForeground
+msgid ""
+"Caution -- every card of this background\n"
+"formerly had its own value for this\n"
+"item.  If you put it on the foreground,\n"
+"the values  of this item on all other\n"
+"cards will be lost"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A searchable source of new objects."
+msgstr "찾을 수 있는 새 오브젝트 소스."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A tool that lets you see and manage all the sounds in the sound library"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "A window set up for simple scripting."
+msgstr "단순한 스크립팅을 위한 창"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Allows you to view all the scripts in the project in a traditional programmers' \"browser\" format"
+msgstr "전통 프로그래머의 “브라우저” 형식으로  프로젝트에 있는 모든 스크립트를 사용자가 볼 수 있게 한다."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "abandon unsituated players"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "attempt misc repairs"
+msgstr "수리 시도하기"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "authoring tools..."
+msgstr "저작 도구..."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "browser for scripts"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Displays a summary of all the pre-defined commands and properties in the pre-defined EToy vocabulary."
+msgstr "미리 정의된 명령어와 미리 정의된 이토이 용어 특성의 요약을 보여준다."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Empty out all the morphs that have accumulated in the trash can."
+msgstr "휴지통에 버려진 모프를 비우는 것."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Ensure that all script editors are referring to the first (alphabetically by external name) Player of their type"
+msgstr "모든 스크립트 에디터는 그들의 유형의 첫 번째 플레이어(외부 이름을 알파벳순서로 한 것에서) 에게 보내는 중임을 보장한다."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "empty trash can"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "etoy vocabulary summary"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "If any items on the world desktop are currently hidden, make them visible."
+msgstr "월드 데스크탑 위에 있는 어떤 아이템이 현재 숨겨져 있다면 그들을 보이게 한다. "
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "If any items on the world desktop are currently locked, unlock them."
+msgstr "월드 데스크탑 위에 있는 어떤 아이템이 현재 잠겨있다면 그들의 잠금을 푼다."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Lets you view the status of all the scripts belonging to all the scripted objects of the project."
+msgstr "프로젝트의 오브젝트에 속한 모든 스크립트의 상태를 볼 수 있게 한다."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "new scripting area"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "objects (o)"
+msgstr "오브젝트 (o)"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Produces a summary of scripted objects in the project, and all of their scripts."
+msgstr "프로젝트의 스크립트가 있는 오브젝트와 그의 모든 스크립트에 대한 요약을 산출한다."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Remove all the Viewers from this project."
+msgstr "이 프로젝트의 모든 뷰어를 삭제한다. "
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "refer to masters"
+msgstr "전문가에게 문의하기"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "remove all viewers"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "sound library"
+msgstr "소리 라이브러리"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "status of scripts"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "summary of scripts"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Take measures that may help fix up some things about a faulty or problematical project."
+msgstr "불완전하고 문제있는 프로젝트를 고치는데 도움이 될 수 있는 조치를 취한다."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "The place where all your trashed morphs go."
+msgstr "사용자의 버려진 모프가 가는 가는 곳."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "unhide hidden objects"
+msgstr "숨겨진 오브젝트 보이기"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "unlock locked objects"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "view trash contents"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>uniTilesClassicString
+msgid "classic tiles"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>attemptCleanupReporting:
+msgid "{1} [or more] repair(s) made"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>autoExpansionString
+msgid "auto-phrase-expansion"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>autoViewingString
+msgid "automatic viewing"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>batchPenTrailsString
+msgid "batch pen trails"
+msgstr "펜자국 지우기"
+
+#: Morphic-Worlds,PasteUpMorph>>becomeLikeAHolder
+msgid ""
+"This view is ALREADY\n"
+"behaving like a holder, which\n"
+"is to say, it is set to indicate the\n"
+"cursor and to have auto-line-layout."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>behaveLikeAHolderString
+msgid "behave like a holder"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>deleteBackgroundPainting
+msgid ""
+"There is presently no\n"
+"background painting\n"
+"to delete."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>fenceEnabledString
+msgid "fence enabled"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>modernizeBJProject
+msgid "Supplies"
+msgstr "공급"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Allow this area to be separately governed by its own controls."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Bring back all objects whose current coordinates keep them from being visible, so that at least a portion of each of my interior objects can be seen."
+msgstr "현재 좌표로 인해 보이는 오브젝트를 되돌리고, 사용자의 각각의 내부 오브젝트가 최소한 일부분은 보일 수 있도록 한다."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Design your own graph paper and use it as the background texture here."
+msgstr "사용자의 그래프 종이를 디자인하고 배경 격자무늬로 활용한다. "
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "delete background painting"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "delete the graphic that forms the background for this me."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "governs whether, when an object is touched inside me, a viewer should automatically be launched for it"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "if currently showing thumbnails governs the standard height for them"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Make viewers for all players which have user-written scripts in this playfield."
+msgstr "이 플레이필드에 사용자가 작성한 스크립트가 포함된 모든 플레이어의 뷰어가 보이게 한다. "
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "make detachable"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "make graph paper..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "playfield options"
+msgstr "플레이필드 옵션"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Rearranges my contents in random order"
+msgstr "사용자의 컨텐츠를 임의의 순서로 재배열한다."
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Remove the viewers for all players in this playfield. This will save space before you publish this project"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "remove viewers of all players"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "round up strays"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Set the spacing to be used when gridding is on"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "set grid spacing..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "set thumbnail height..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "show viewers of all players"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "shuffle contents"
+msgstr "콘텐츠 섞기"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "use a pale yellow-and-blue background texture here."
+msgstr "연한노랑-파랑이 사용된 배경 격자무늬를 사용한다. "
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "use standard texture"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether auto-line-layout, resize-to-fit, and indicate-cursor should be set to true; useful for animation control, etc"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether dragging an object from the interior should produce a COPY of the object"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether gridding should be used in my interior"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether I should automatically strive exactly to fit my contents"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether large objects should be represented by thumbnail miniatures of themselves"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether moving objects should stop at the edge of their container"
+msgstr "이동하는 오브젝트가 그들의 컨테이너의 가장자리에 오면 멈춰야만 하는지를 묻는다. "
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether objects should put up halos when the mouse is over them"
+msgstr "할로에 마우스오버 되었을 때 오브젝트가 선택되는지를 묻는다. "
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether submorphs should automatically be laid out in lines"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the cartesian origin of the playfield should be at its lower-left corner or at the center of the playfield"
+msgstr "플레이필드의 원점이 아래-왼쪽 구석에 있거나 플레이필드의 가운데에 있어야 하는지를 묻는다. "
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the grid should be shown when gridding is on"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the \"current\" submorph should be indicated with a dark black border"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether tile phrases, dropped on me, should automatically sprout Scriptors around them"
+msgstr "사용자에게 드롭 된 타일 구문이 자동으로 그 주변에 스크립터를 나오게 해야만 하는지를 묻는다."
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A tool that lets you find out about all the players used in this project"
+msgstr "이 프로젝트에 사용된 모든 플레이어에 대한 것을 찾게 해주는 도구."
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "gallery of players"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu
+msgid "viewing options for \"{1}\""
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>printVocabularySummary
+msgid "EToy Vocabulary"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid "New height for thumbnails? "
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid "Please be reasonable!"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid ""
+"setting the thumbnail height is only\n"
+"applicable when you are currently\n"
+"showing thumbnails."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>viewingByIconString
+msgid "view by icon"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>viewingByNameString
+msgid "view by name"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>viewingBySizeString
+msgid "view by size"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>viewingNonOverlappingString
+msgid "view with line layout"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "add"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "divide"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "divide & truncate"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "larger value"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "multiply"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "remainder when divided by"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "smaller value"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "subtract"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>goButton
+msgid "Resume running all paused scripts"
+msgstr "멈춰있는 스크립트를 모두 실행합니다. "
+
+#: Morphic-Worlds,StandardScriptingSystem>>helpStringForOperator:
+msgid "Sorry, no help available here"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "divisible by"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings,TileMorph>>options
+msgid "equal"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "greater than"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "greater than or equal"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "less than"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "less than or equal"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings,TileMorph>>options
+msgid "not equal"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseEnter"
+msgstr "마우스가 들어올 때"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseEnterDragging"
+msgstr "마우스로 드래그해서 들어올 때"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseLeave"
+msgstr "마우스가 나갈 때"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseLeaveDragging"
+msgstr "마우스로 드래그해서 나갈 때"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid " or "
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "More events:"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "ready to run all the time"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run all the time"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run when called"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run when mouse goes down on me"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "User custom events:"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when I am being closed"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when I am being opened"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse comes back up"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse enters my bounds, button down"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse enters my bounds, button up"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse exits my bounds, button down"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse exits my bounds, button up"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "while mouse still down"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>stepButton
+msgid "Run every paused script exactly once.  Keep the mouse button down over \"Step\" and everything will keep running until you release it"
+msgstr "멈춰있는 모든 스크립트를 정확히 한번 실행합니다. 마우스로 \"Step\" 을 누르고 있으면 계속 실행됩니다. "
+
+#: Morphic-Worlds,StandardScriptingSystem>>stopButton
+msgid "Pause all ticking scripts."
+msgstr "실행중인 모든 스크립트를 멈춥니다. "
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "add a vertex at beginning"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "add a vertex at end"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "align after"
+msgstr "오른쪽 정렬"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "clear all pen trails"
+msgstr "펜자국 모두 지우기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "clear pen trails"
+msgstr "펜자국 지우기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "color  sees"
+msgstr "색 접촉하기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "dial to"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "distance to"
+msgstr "다른 객체와의 거리"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "do"
+msgstr "실행"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "forward by"
+msgstr "진행하기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "include at beginning"
+msgstr "처음에 넣기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "include at end"
+msgstr "끝에 넣기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "insert a vertex at cursor"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "is over color"
+msgstr "색 위에있는가?"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "line is curved"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "line is opened"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "listening"
+msgstr "듣기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "look like"
+msgstr "겉모양바꾸기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "make sound"
+msgstr "소리내기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "no arrowheads on pens"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "play"
+msgstr "재생하기 "
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "play frequency of"
+msgstr "진동수 소리내기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "remove all vertices but cursor"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "remove the vertex at cursor"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "send to all"
+msgstr "모두에게 보내기"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "start painting in"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "start recording"
+msgstr ""
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:,StandardScriptingSystem>>wordingForOperator:
+msgid "stop"
+msgstr "멈춤"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "turn by"
+msgstr "돌기"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "detailed watcher"
+msgstr "자세한 값보기"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "simple watcher"
+msgstr "간단한 값보기"
+
+#: Protocols-Type_Vocabularies,DataType>>updatingTileForTarget:partName:getter:setter:
+msgid "readout string"
+msgstr ""
+
+#: Protocols-Type_Vocabularies,NumberType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "decimal places..."
+msgstr "소수점 표시..."
+
+#: Protocols-Type_Vocabularies,NumberType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "Lets you choose how many decimal places should be shown in readouts for this variable"
+msgstr "이 변수에 표시되는 소수점 위치를 선택할 수 있습니다."
+
+#: Protocols-Type_Vocabularies,StringType>>defaultArgumentTile
+msgid "abc"
+msgstr ""
+
+#: UserObjects,Player150132>>setVersion
+msgid "version"
+msgstr ""
+

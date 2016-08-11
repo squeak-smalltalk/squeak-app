@@ -1,0 +1,5080 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:49-0000\n"
+"PO-Revision-Date: 2010-08-27 15:49-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Morphic\n"
+
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "choose new graphic"
+msgstr "шинэ графикийг сонгох"
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "grab new graphic"
+msgstr "шинэ графикийг авах"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change first color"
+msgstr "анхны өнгө өөрчлөх"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change second color"
+msgstr "хоер дахь өнгө өөрчлөх"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "linear gradient"
+msgstr "шугаман градиент"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "radial gradient"
+msgstr "цацраг градиент"
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change orientation"
+msgstr "чиг өөрчлөх"
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change origin"
+msgstr "эх хувийг өөрчлөх"
+
+#: Morphic-Basic,AlignmentMorph_class>>columnPrototype
+msgid "Things dropped into here will automatically be organized into a column. Once you have added your own items here, you will want to remove the sample colored rectangles that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr "энд тавьсан-буулгасан-унагасан юмс автоматаар босоо багана дараалалд орно. Нэгэнт та өөрийн ... энд нэмсэн бол та цаашдаа өнгөт дөрвөлжингөөр эхэлсэн .. г арилгаж, мөн та энэ тайлбарыг өөрийн болгох болно"
+
+#: Morphic-Basic,AlignmentMorph_class>>rowPrototype
+msgid "Things dropped into here will automatically be organized into a row. Once you have added your own items here, you will want to remove the sample colored eggs that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr "энд тавьсан-буулгасан-унагасан юмс автоматаар хэвтээ мөрийн  дараалалд орно. Нэгэнт та өөрийн ... энд нэмсэн бол та цаашдаа өнгөт өндөгнүүдийг арилгаж, мөн та энэ тайлбарыг өөрийн болгохыг хүснэ "
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "A circular shape"
+msgstr "тойрог хэлбэрийн дүрс"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "An attachment point for Connectors that you can embed in another Morph."
+msgstr ""
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Circle"
+msgstr "тойрог"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "Залгуурууд"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,LineMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Graphics"
+msgstr "График"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Pin"
+msgstr "Хөл"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
+msgstr "мөлгөр эсвэл тод муруй. Shift-товшилтоор бариулыг авч, цэгүүдийг шилжүүлж болно. Титэм цэсийг ашиглан олон өнцөгтөд хувиргаж болохоос гадна хаахаасаа өмнө нээж болно"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,JoystickMorph_class>>descriptionForPartsBin,PasteUpMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Basic"
+msgstr "үндсэн"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "Curve"
+msgstr "муруй шугам"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin
+msgid "An elliptical or circular shape"
+msgstr "эллипс буюу тойрог хэлбэр"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Ellipse"
+msgstr "эллипс"
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "A non-editable picture.  If you use the Paint palette to make a picture, you can edit it afterwards."
+msgstr "засварлах боломжгүй зураг. Хэрэв та Будгийн нийлүүрийг хэрэглэн зураг үүсгэх гэвэл засвараа дараа нь хийж болно."
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "Image"
+msgstr "зураг, дүрс"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "A non-editable picture of something"
+msgstr "Ямар нэг юмны засварлаж болдоггүй зураг"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "Picture"
+msgstr "Зураг"
+
+#: Morphic-Basic,ImageMorph>>opacityString
+msgid "opaque"
+msgstr "бүрхэг"
+
+#: Morphic-Basic,ImageMorph>>readFromFile
+msgid "Please enter the image file name"
+msgstr "зургийн файлын нэрийг оруул"
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "A straight line.  Shift-click to get handles and move the ends."
+msgstr "шулуун шугам. Shift-товшилт хийснээр гардагчийг авч төгсгөлүүдийг зөөнө"
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "Line"
+msgstr "шугам"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "extract this frame"
+msgstr "энэ кадрыг задал"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "movie..."
+msgstr "кино"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "next frame"
+msgstr "дараагийн кадр"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play loop"
+msgstr "тойргоор тасралтгүй тоглуул"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play once"
+msgstr "нэг удаа тоглуул"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "previous frame"
+msgstr "өмнөх кадр"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "stop playing"
+msgstr "тоглохыг зогсоо"
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "A series of connected line segments, which may be a closed solid, or a zig-zag line.  Shift-click to get handles and move the points."
+msgstr "хоорондоо цуваагаар холбогдсон шугамууд нь битүү тод эсвэл огцом өөрчлөгдсөн хөрөөний шүд хэлбэрийн байж болно. Shift-Товшилтоор гардагчийг авч цэгүүдийг зөөнө "
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "Polygon"
+msgstr "Олон өнцөгт"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "customize arrows"
+msgstr "захиалгат сумнууд"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "specify dashed line"
+msgstr "таасархай шугамыг тодорхойл"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "standard arrows"
+msgstr "стандарт сумнууд"
+
+#: Morphic-Basic,PolygonMorph>>customizeArrows:
+msgid ""
+"Move cursor left and right\n"
+"to change arrow length and style.\n"
+"Move it up and down to change width.\n"
+"Click when done."
+msgstr ""
+"курсорыг зүүн, баруун тийш хөдөлгөж\n"
+"сумны урт ба хэлбэрийг өөрчилнө.\n"
+"дээш доош хөдөлгөснөөр өргнийг өөрчилнө\n"
+"Өөрчлөлтийг хийж дуусаад Товш. "
+
+#: Morphic-Basic,PolygonMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "бариулыг харуулах"
+
+#: Morphic-Basic,PolygonMorph>>openOrClosePhrase
+msgid "closed"
+msgstr "битүү, хаалттай"
+
+#: Morphic-Basic,PolygonMorph>>smoothPhrase
+msgid "curve"
+msgstr "муруй"
+
+#: Morphic-Basic,PolygonMorph>>specifyDashedLine
+msgid ""
+"Enter a dash specification as\n"
+"{ major dash length. minor dash length. minor dash color }\n"
+"The major dash will have the normal border color.\n"
+"A blank response will remove the dash specification.\n"
+"[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
+"where the 4th ityem is zero, and the 5th is the number of pixels\n"
+"by which the dashes will move in each step of animation]"
+msgstr ""
+"тасархайн тодорхойломжийг дараах байдаар оруул\n"
+"ихэнх тасархайн урт, цөөнх тасархайн урт, цөөнх тасархайн өнгө\n"
+"Ихэнх тасархай нь энгийн хүээний өнгөтэй байна\n"
+"Хоосон хариу нь тасархайн тодорхойломжийг арилгана.\n"
+"Жич: та 5 зүйлийг өгч болно жишээ нь {10. 5. Color white. 0. 3} \n"
+"Энд, 4 дэх нь тэг, 5 дахь нь пикселийг тоо\n"
+"бөгөөд амилуулалтын алхам бүрт энэ тоогоор тасархай нь хөдөлнө "
+
+#: Morphic-Basic,RectangleMorph_class>>descriptionForPartsBin
+msgid "A rectangular shape, with border and fill style"
+msgstr "хүрээ ба дүүргэлтийн хэлбэр бүхий тэгш өнцөгт "
+
+#: Morphic-Basic,SketchMorph_class>>defaultNameStemForInstances
+msgid "Sketch"
+msgstr "хар зураг, ноорог"
+
+#: Morphic-Basic,SketchMorph>>addBorderToShape:
+msgid "Please enter the desired border width"
+msgstr "өөрийн хүссэн өргөнтэй хүрээг оруулна уу"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "call this my base graphic"
+msgstr "миний суурь графикийг дуудна уу"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "choose new graphic..."
+msgstr "шинэ графикийг сонго..."
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "restore base graphic"
+msgstr "суурь графикийг сэргээн босгох"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "set as background"
+msgstr "арын дэвсгэр болгож тогтоох"
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid ""
+"oops, this menu is a for a morph that\n"
+"has been replaced, probably because a\n"
+"\"look like\" script was run.  Please dismiss\n"
+"the menu and get a new one!.  Sorry!"
+msgstr ""
+"Өөх, энэ цэс чинь орлуулсан дүрслэлд зориулсан юм байна. \n"
+"яагаад гэвэл – учир нь “адил харагдах\n"
+"програм нь ажилласан юм. Энэ цэ\n"
+"сийг орхиод шинийг авъя. Уучлаарай."
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic
+msgid "this already *was* your baseGraphic"
+msgstr "энэ чинь ер нь таны baseGraphic байж"
+
+#: Morphic-Basic,SketchMorph>>collapse
+msgid "A collapsed version of {1}.  Click to open it back up."
+msgstr ""
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "choose the color you want to replace"
+msgstr "орлуулах өнгөө сонго"
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "now choose the color you want to replace it with"
+msgstr "одоо, орлуулах гэж байгаа өнгөө сонго"
+
+#: Morphic-Basic,SketchMorph>>reduceColorPalette:
+msgid ""
+"Please enter a number greater than one.\n"
+"(note: this cannot be undone, so answer zero\n"
+"to abort if you need to make a backup first)"
+msgstr ""
+"Нэгээс их тоо оруул\n"
+"Жич: үүнийг хийхгүй байж болохгүй, танд эхлээд хуулбар хийх шаардлагатай бол\n"
+"тэг гэсэн хариу өгч болиулна "
+
+#: Morphic-Basic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid "This object is *already* showing its baseGraphic"
+msgstr "энэ объект өөрийнхөө baseGraphic-г харуулсаар байна"
+
+#: Morphic-Basic,SketchMorph>>useInterpolationString
+msgid "smooth image"
+msgstr "зөөлөн маягийн зураг"
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change emphasis"
+msgstr "онцлогийг өөрчлөх"
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change font"
+msgstr "фонтыг солих"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A  data field which will have a different value on every card of the background"
+msgstr " Ар-дэвсгэрийн карт бүрт харгалзах утгыг хадгалах өгөгдлийн талбар "
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A piece of text that will occur on every card of the background"
+msgstr " ар-дэвсгэрийн карт бүрд харгалзах текстийн Хэсэг "
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A text field with a rounded shadowed border, with a fancy font."
+msgstr "Сүүдэрлэгдсэн хүрээ бүхий, марзан фонтоор бичигдсэн текстийн талбар"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Field"
+msgstr "Дэвсгэр Талбар"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Label"
+msgstr "Дэвсгэр Шошго"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Fancy Text"
+msgstr "Марзан Текст"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Simple Text"
+msgstr "Энгийн Текст"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you wish"
+msgstr "Хүссэн зүйлдээ оруулан засварлаж болох Текст"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add predecessor"
+msgstr "өмнөх өвийн эзнийг нэмэх"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add successor"
+msgstr "өв залгамжлагчийг нэмэх"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane menu..."
+msgstr ""
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane shift menu..."
+msgstr "програмын коодын цонхыг шилжүүлэх цэс"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "fill owner's shape"
+msgstr "эзэмшигчийн дүрсийг дүүргэх"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "follow owner's curve"
+msgstr "эзэмшигчийн муруйг дагах"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "holder for characters"
+msgstr "тэмдэгтүүд агуулах сав"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "rectangular bounds"
+msgstr "тэгш өнцөгт хүрээ"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "reverse direction"
+msgstr "буцах-гэдрэг чиглэл"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "set baseline"
+msgstr "суурь шугамыг тогтоох"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text margins..."
+msgstr "текстийн гаднах талбар"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text properties..."
+msgstr "бичлэгийн шинж чанар..."
+
+#: Morphic-Basic,TextMorph>>addFillStyleMenuItems:hand:
+msgid "text color..."
+msgstr "текстийн өнгө"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, bounds are automatically adjusted to fit the contents."
+msgstr "тэмдэг тавьсан тохиолдолд, доторх агууламжийн хэмжээгээр хүрээн нь автоматаар хумигдана"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, contents will automatically be translated upon a locale change"
+msgstr "тэмдэг тавьсан тохиолдолд, доторх агууламж нь дотоод өөрчлөлтийн дагуу  автоматаар хөрвөнө"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, text is automatically wrapped to fit horizontally within the boundaries specifed."
+msgstr "тэмдэг тавьсан тохиолдолд, өгөгдсөн хүрээн дотроо текст нь хэвтээ байрлалаа дүүргэхээр авттоматаар эргэнэ."
+
+#: Morphic-Basic,TextMorph>>addTextMenuItemsTo:event:
+msgid "font for entire text..."
+msgstr "бүхэл текстийн фонт.. "
+
+#: Morphic-Basic,TextMorph>>addTranslationItemsTo:
+msgid "translations..."
+msgstr "хөрвүүлэлт.."
+
+#: Morphic-Basic,TextMorph>>autoFitString
+msgid "text auto fit"
+msgstr "текстийг автоматаар дүүргэх"
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid ""
+"Move cursor down and to the right\n"
+"to increase margin inset.\n"
+"Click when done."
+msgstr ""
+"Гадаад талбарын оруулгыг ихэсгэхийн тулд Курсорыг доош нь мөн баруун тийш хөдөлгө\n"
+"дуусгаад товш. "
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid "margin change for "
+msgstr "зориулж гадаад талбарын өөрчлөлт "
+
+#: Morphic-Basic,TextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "Фонтийг сонгох:"
+
+#: Morphic-Basic,TextMorph>>translatableString
+msgid "translatable"
+msgstr "орчуулагдах боломжтой"
+
+#: Morphic-Basic,TextMorph>>wrapString
+msgid "text wrap to bounds"
+msgstr "текстийг хүрээнд захируулан эргүүлэх"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn off smoothing"
+msgstr "толийлгохоо боль"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn on smoothing"
+msgstr "толийлгох"
+
+#: Morphic-Books,QuickGuideHolderMorph>>load
+msgid "guide is missing"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>loadPages,QuickGuideMorph>>showDescriptionMenu:
+msgid "Index"
+msgstr "Индекс"
+
+#: Morphic-Books,QuickGuideMorph>>loadPages
+msgid "index"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Menu to see another Guide"
+msgstr "Бусад Газарчийг үзэх Цэс"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Next page"
+msgstr "Дараагийн хуудас"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Previous page"
+msgstr "Өмнөх хуудас"
+
+#: Morphic-Books,QuickGuideMorph>>showDescriptionMenu:
+msgid "Quick Guides"
+msgstr "Шуурхай Газарч"
+
+#: Morphic-Components,ComponentLayout>>addCustomMenuItems:hand:
+msgid "inspect model in morphic"
+msgstr ""
+
+#: Morphic-Components,FunctionComponent>>addCustomMenuItems:hand:
+msgid "add pin"
+msgstr "хөл нэмэх"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model"
+msgstr "бүгдийг загварт зоож өгөх"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model slots"
+msgstr "бүгдийг загварын сууринд зоож өгөх"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model"
+msgstr "загварт хулганаДарахыг зоож өгөх"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model slot"
+msgstr "загварын сууринд хулганаДарахыг зоож өгөх "
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model"
+msgstr "загварт хулганаХөдлөхийг зоож өгөх "
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model slot"
+msgstr "загварт хулганаХөдлөхыг зоож өгөх "
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseDown selector..."
+msgstr "хулганаДарах сонгуурыг тавих "
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseMove selector..."
+msgstr "хулганаХөдлөх сонгуурыг тавих "
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseUp selector..."
+msgstr "хулганаСуллах сонгуурыг тавих "
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "An example of how to use double-click in moprhic"
+msgstr "Дүрслэлд хоёрлосон товшилтыг хэрхэн хэрэглэх жишээ"
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "DoubleClick"
+msgstr "ХоёрлосонТовшилт"
+
+#: Morphic-Demo,DoubleClickExample>>balloonText
+msgid ""
+"Double-click on me to change my color; \n"
+"single-click on me to change border color;\n"
+"hold mouse down within me and then move it to grow \n"
+"(if I'm red) or shrink (if I'm blue)."
+msgstr ""
+"Минйи өнгийг өөрчлөхийн тулд над дээр хоёр товш\n"
+"Хүрээний өнгийг өөрчлөхийн тулд над дээр нэг товш\n"
+"Над дээр хулганыг байрлуулаад дарсан хэвээр хөдөлгөвөл (миний өнгө улаан бол)ихсэнэ эсвэл (миний өнгө хөх бол)багасна"
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "An extreme-wide-angle lens"
+msgstr "Хэт өргөн харагдах өнцөгтэй линз"
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "FishEye"
+msgstr "ЗагасныНүд"
+
+#: Morphic-Demo,FishEyeMorph>>chooseMagnification
+msgid "Magnification is fixed, sorry."
+msgstr "Уучлаарай, өсгөлт хязгаарлагдсан байна"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "An eye which follows the cursor"
+msgstr "Курсорыг дагагч нүд"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "Just for Fun"
+msgstr ""
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "MovingEye"
+msgstr ""
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "An analog clock face"
+msgstr "Зүүтэй цагны нүүр"
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "Clock"
+msgstr "Цагын такт"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to change the font used to display the numbers."
+msgstr "Тоог харуулах дэлгэцийн фонтийг солих боломжийг танд олгоно"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color for the hands of the watch.  Note that actual *watch* color can be changed simply by using the halo's recoloring handle."
+msgstr "Энэ цагны гарны өнгийг шинээр тодорхойлох боломжийг танд олгоно. Жинхэнэ * цагны * өнгийг ердөө дахин будах багажаар өөрчилж болохыг анзаарна уу "
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color to be used during PM hours for the center portion of the watch; during AM hours, a lighter shade of the same color will be used."
+msgstr "Үдээс хойших цагны шинэ өнгийг тодорхойлох боломжийг танд олгох бөгөөд үдээс өмнөх цагийн өнгө нь мөн өнгөтэй байх боловч арай цайвардуу байна"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change center color..."
+msgstr "төв хэсгийн өнгийг өөрчлөх"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change font..."
+msgstr "фонт солих"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change hands color..."
+msgstr "гарны өнгийг солих"
+
+#: Morphic-Demo,WatchMorph>>antiAliasString
+msgid "anti-aliasing"
+msgstr ""
+
+#: Morphic-Demo,WatchMorph>>romanNumeralString
+msgid "roman numerals"
+msgstr "ром цифрүүд"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid " Mouse-down action"
+msgstr " хулгана-дарагдах үйлдэл"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid "If the button is to act when the mouse goes down"
+msgstr "Хулгана дарагдах үед хэрэв товчлуур ажиллахаар бол"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid " Mouse-up action"
+msgstr " хулганыг суллах үйлдэл"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid "If the button is to act when the mouse goes up"
+msgstr "Хулгана суллагдах үед хэрэв товчлуур ажиллахаар бол "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonSelectorReport
+msgid "Action: "
+msgstr "Ажиллагаа идэвхжилт:"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Drop another morph here to change the target and action of this button. (Only some morphs will work)"
+msgstr "Байг өөрчлөх болон товчлуурыг идэхжүүлэхийн тулд Өөр дүрийг энд буулгана (зөвхөн зарим дүр л ажиллана)"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Target: "
+msgstr "Бай:"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid " Mouse-down look "
+msgstr " хулгана дарагдахыг ажиглах "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse is clicked in it."
+msgstr "Энэ товчлуур дээр товшсон үед уг товчлуурын нүдэнд харагдах байдал нь хэрхэн гарч ирэх төлөвийг өөрчлөхийн тулд өөр дүрийг энд буулгана-дусаана "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid " Mouse-enter look "
+msgstr " хулгана-орохыг ажиглах "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse enters it."
+msgstr "Энэ товчлуур руу хулгана орох үед уг товчлуурын нүдэнд харагдах байдал нь хэрхэн өөрчлөгдөн гарч ирэх төлөвийг өөрчлөхийн тулд өөр дүрийг энд буулгана-дусаана "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid " Change morph "
+msgstr " морфийг өөрчлөх "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid "Drop another morph here to change the visual appearance of this button. Or click here to get a menu of possible replacement morphs."
+msgstr "Уг товчлуурын нүдэнд харагдах байдал нь хэрхэн гарч ирэх төлөвийг өөрчлөхийн тулд өөр дүрийг энд буулгана-дусаана. Эсвэл эндээ  товших замаар өөр боломжийн орлуулгын цэсийг дуудна"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownColorPicker
+msgid "mouse-down halo color"
+msgstr "хулганыг дарахад цацарсан өнгө гарна"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownHaloWidth,ButtonPropertiesMorph>>paneForMouseOverHaloWidth
+msgid "Drag in here to change the halo width"
+msgstr "эндээс чирэхэд цацарсан өнгөний өргөн нэмэгдэнэ"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseOverColorPicker
+msgid "mouse-over halo color"
+msgstr "цацарсан өнгө дээгүүр хулгана өнгөрөх"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForRepeatingInterval
+msgid "Drag in here to change how often the button repeats while the mouse is down"
+msgstr "энд чирснээр хулгана дараатай байх үед товчлуур хэдэн удаа давтагдаж болох тоог өөрчилж болно "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid " Mouse-down repeating "
+msgstr " хулгана дарагдсан давталт "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid "Turn repeating while mouse is held down on or off"
+msgstr "Хулгана дараатай байхад давтах горимыг асаах эсвэл унтраах "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid " Mouse-over highlighting"
+msgstr " Хулгана дээгүүр нь өнгөрөхөд тодрох горим"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid "Turn mouse-over highlighting on or off"
+msgstr "Хулгана өнгөрөхөд тодрох горимыг асаах эсвэл унтраах"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "зөвшшөрөх"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Add label"
+msgstr "Шошго нэмэх"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "add some text to the button"
+msgstr "товчлуурт текст нэмэх"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Button Properties for {1}"
+msgstr "{1}-ийн Товчлуурын онцлог чанар"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel"
+msgstr "Болих"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "хийсэн өөрчлөлтөө больж, самбарыг хаах"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "хийсэн өөрчлөлтөө хадгалж, самбарыг хаах"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Main"
+msgstr "Үндсэн"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "open a main properties panel for the morph"
+msgstr "тухайн дүрийн үндсэн чанарын самбарыг нээх"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,Morph>>balloonHelpTextForHandle:
+msgid "Remove"
+msgstr "Арилгах"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Remove label"
+msgstr "Шошгыг арилгах"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove text from the button"
+msgstr "товчлуураас текстийг арилгах"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove the button properties of this morph"
+msgstr "энэ дүрийн товчлуурын чанарыг арилгах"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseDownHaloWidth
+msgid "mouse-down halo width: "
+msgstr "хулгана дарагдсан цацралттай өргөн:"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseOverHaloWidth
+msgid "mouse-over halo width: "
+msgstr "хулгана өнгөрөх цацралттай өргөн"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForRepeatingInterval
+msgid "interval: "
+msgstr "завсар:"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>buildPanel
+msgid "Etoys is trying to open your web browser.\\If it does not work, you can sign up at:\\\\"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel this login operation."
+msgstr "Хэвлүүлэх үйлдлээ болих"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please enter your login name"
+msgstr "Нэвтрэх эрхийн нэрээ оруулна уу"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please make the name 24 characters or less"
+msgstr "24 ба түүнээс цөөн тооны тэмдэгт бүхий нэрээ үүсгэнэ үү"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please remove any funny characters"
+msgstr "Хошин тэмдэгт бүү хэрэглээрэй"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton2
+msgid "Close this dialog"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>rebuild
+msgid "Login to Squeakland"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>okButton2,FreeCellStatistics>>makeOkButton
+msgid "OK"
+msgstr "ОК"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Password:"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Username:"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "(create account)"
+msgstr ""
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "ChineseCheckers"
+msgstr "ХятадДаамч"
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "Halma - the classic board game of Chinese Checkers, written by Dan Ingalls"
+msgstr "Халма—Дан Ингалсийн бичсэн Хятад Даамчдын хөлөгт самбарт сонгодог тоглоом"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "animate moves"
+msgstr "киног амилуулах"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "don't animate moves"
+msgstr "киног бүү амилуул"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:,Tetris>>makeGameControls
+msgid "new game"
+msgstr "шинэ тоглоом"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "reset..."
+msgstr "анхны төлөвт оруулах..."
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many humans?"
+msgstr "Хэдэн хүн байна вэ?"
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many players?"
+msgstr "Хэдэн тоглогч байна вэ?"
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "Cipher"
+msgstr "Шифрлэгч"
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "The Cipher Panel: A playground for cryptograms, by Dan Ingalls"
+msgstr "Шифрлэгчийн самбар: Криптограмын тоглоомын талбай, Дан Ингалс"
+
+#: Morphic-Games,CipherPanel_class>>randomComment
+msgid "none"
+msgstr "хоосон"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "clear cipher typing"
+msgstr "шифрлэгчийн ажлыг цэвэрлэх"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "enter a new cipher"
+msgstr "шинэ шифрлэгч оруулах"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "quote from Squeak"
+msgstr "Хяхтнаа ишлэл"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher help"
+msgstr "шифрлэгчийн тухай тайлбар"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher hints"
+msgstr "шифрлэгчийн санааг харах"
+
+#: Morphic-Games,CipherPanel>>buttonRow
+msgid "clear typing"
+msgstr "шивэлтийг цэвэрлэх"
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show help"
+msgstr "тайлбар үзүүлэх"
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show hints"
+msgstr "санааг харуулах"
+
+#: Morphic-Games,CipherPanel>>clearTyping,CipherPanel>>encodedQuote:,CrosticPanel>>clearTyping
+msgid "Are you sure you want to discard all typing?"
+msgstr "Шивж байгаа ажлаа зогсоох гэж байна уу"
+
+#: Morphic-Games,CipherPanel>>enterANewCipher
+msgid "Type a cipher text to work on here below..."
+msgstr ""
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid "About the Cipher Panel"
+msgstr "Шифрлэгчийн самбарын тухай"
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid ""
+"The Cipher Panel displays an encrypted message.  The encryption is a simple substitution code;  each letter of the alphabet has been changed to a different one.\n"
+"\n"
+"You can solve the cipher by clicking above any letter in the message, and typing the letter you think it should be.  The Cipher Panel automatically makes the same substitution anywhere else that letter occurs in the encoded message.\n"
+"\n"
+"If you are having trouble, you can use the command menu to 'show cipher hints'.  That will display how many of each letter occurs, which is often a help in solving ciphers."
+msgstr ""
+"Шифрлэгчийн самбар нь коодлогдсон мессежийг харуулна. Коодлол нь энгийн орлуулгын коод байдаг. Цагаан толгойн үсэг бүр нь өөр үсгээр солигдоно. \n"
+"\n"
+"Мессежийн дурын үсэгний дээд талд товшоод ямар үсэг байх ёстойгоо шивж оруулах замаар бодлогыг бодно. Шифрлэгчийн самбар автоматаар энэ орлуулгыг коодлогдсон мессежид оруулна.\n"
+"\n"
+"Хэрэв хүндрэл гарвал, командын цэсний “шифрлэгчийн санаа” –г ашиглаж болно. Самбарт үсэг бүр хэдэн удаа гарч ирсэн, аль нь илүү хэрэгтэй байж болохыг харуулна. "
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"Most bodies of english text follow a general pattern of letter usage.  The following are the most common letters, in approximate order of frequency:\n"
+"\tE  T  A  O  N  I  R  S  H\n"
+"The following are the most common digraphs:\n"
+"\tEN  ER  RE  NT  TH  ON  IN\n"
+"\n"
+"The message you are trying to decode has the following specific statistics:"
+msgstr ""
+"Англи хэл дээрх текстийн их бие үсэг хэрэглэх ерөнхий загвартай байдаг. Доор харуулсан үсэгнүүд нь ихэнхдээ хэрэглэгддэг ба давтагдах дарааллаар нь харвал:\n"
+"\tE  T  A  O  N  I  R  S  H\n"
+"The following are the most common digraphs:\n"
+"\tEN  ER  RE  NT  TH  ON  IN\n"
+"\n"
+"Таны тайлахаар оролдож байгаа мессеж нь дараах статистик үзүүлэлттэй байна:"
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid "Some Useful Statistics"
+msgstr "Зарим Анхаармаар Статистик"
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"\n"
+"\n"
+"Good luck!"
+msgstr ""
+"\n"
+"\n"
+"Амжилт хүсъе."
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "Crostic"
+msgstr "Үгийн сүлжээ"
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "The Crostic Panel: A classic word diagram game, by Dan Ingalls"
+msgstr "Үгийн сүлжээ самбар: Үгээс бүтэх сонгодог тоглоом, Дан Инглас"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "clear crostic typing"
+msgstr "үгийн шивэх цэвэрлэх"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "open crostic file..."
+msgstr "сүлжээний файлыг нээх..."
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic errors"
+msgstr "сүлжээний алдааг харуулах"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic help"
+msgstr "үгийн сүлжээний тайлбарыг харуулах "
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic hints"
+msgstr "сүлжээний санааг харуулах"
+
+#: Morphic-Games,CrosticPanel>>buttonRow,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "clear"
+msgstr "цэвэрлэх"
+
+#: Morphic-Games,CrosticPanel>>buttonRow,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>openMenu
+msgid "open..."
+msgstr "нээх..."
+
+#: Morphic-Games,CrosticPanel>>buttonRow
+msgid "show errors"
+msgstr "алдааг харуулах"
+
+#: Morphic-Games,CrosticPanel>>initializeToStandAlone,CrosticPanel_class>>newFromFile:
+msgid "mal-formed crostic file"
+msgstr "буруу хэлбэржсэн үгийн сүлжээний файл"
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Is it OK to discard this crostic?"
+msgstr "Энэ үгийн сүлжээг болих уу "
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Select a Crostic File..."
+msgstr "Үгийн сүлжээний файлыг сонгох.."
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid "About the Crostic Panel"
+msgstr "Үгийн сүлжээний самбарын тайлбар"
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid ""
+"The Crostic Panel presents an acrostic puzzle for solution.  As you type in answers for the clues, the letters also get entered in the text of the hidden quote.  Conversely, as you guess words in the quote, those letters will fill in missing places in your answers.  In addition, the first letters of all the answers together form the author's name and title of the work from which the quote is taken.\n"
+"\n"
+"If you wish to make up other acrostic puzzles, follow the obvious file format in the sampleFile method.  If you wish to print an acrostic to work it on paper, then change the oldStyle method to return true, and it will properly cross-index all the cells.\n"
+"\n"
+"Have fun."
+msgstr ""
+"Сүлжээний самбар нь харилцан огтлолцсон оньсогооос бүрдэнэ. Хариуг шивж оруулах бүр далд байгаа ишлэлийн текст рүү үсгүүд мөн орж эхэлнэ.  Эсрэгээр,  таасан үг нь эдгээр үсэг нь хариуг бичих ёстой хоосон нүднүүдыг дүүргэж өгнө. Нэмж хэлэхэд, хариулт үгнүүдийн эхний үсгүүд нийлээд тухайн бүтээлийг зохиогчийн нэр, зохиолын нэрийг бүрдүүлнэ\n"
+"\n"
+"Хэрэв шинэ эвлүүлэх тоглоом бүтээхээр шийдсэн бол ЖишээФайл аргын форматыг мөрдөнө. Хэрэв цаасан дээр ажиллахаар бол хуучинХэлбэр аргыг өөрчилж үнэн болгоход энэ нь бүх нүдийг зохих байрлалд оруулна. \n"
+"\n"
+"Цагаа сайхан өнгөрөөгөөрэй"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"As hints, you will be given the five longest answers.\n"
+"Do you really want to do this?"
+msgstr "Зөвлөхөд, танд хамгийн урт таван хариуг өгч болох юм. Та үнэхээр үүнийг хүсч байна уу?"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Crostic Hints"
+msgstr "Сүлжээний Зөвлөмж"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Good luck!"
+msgstr "Амжилт хүсъе"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"The five longest answers are...\n"
+msgstr ""
+"Хамгийн урт таван хариу нь...\n"
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "A unique solitaire card game"
+msgstr "Хосгүй үнэт чулуун хөзөр тоглоом"
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "FreeCell"
+msgstr "ЧөлөөтҮүр"
+
+#: Morphic-Games,FreeCell>>helpText
+msgid ""
+"The objective of FreeCell is to move all of the cards to the four \"home cells\" in the upper right corner.  Each home cell will hold one suit and must be filled sequentially starting with the Ace.\n"
+"\n"
+"There are four \"free cells\" in the upper left corner that can each hold one card.  Cards can be moved from the bottom of a stack to a free cell or to another stack.  \n"
+"\n"
+"When moving a card to another stack, it must have a value that is one less than the exposed card and of a different color."
+msgstr ""
+"ЧөлөөтҮүр тоглоомын зорилго нь бүх хөзрийг баруун дээд буланд байрлах “гэрийн дөрвөн үүрэнд” зөөж байрлуулахад оршино. Эдгээр үүр тус бүр нь нэг багц хөзрийг Тамгаас эхлүүлэн дэс дараалуулан хадгалах юм. \n"
+"\n"
+"Зүүн дээд буланд дөрвөн “Чөлөөтэй үүр” байх ба тус бүр нь нэг хөзөр хадгална. Хөзрүүдийг агуулахын ёроолоос чөлөөтэй үүр рүү эсвэл өөр агуулах руу зөөж болно. \n"
+"\n"
+"Өөр агуулах руу хөзрийг зөөх үед харагдаж байгаа хөзрөөс нэг утгаар бага ба эсрэг өнгөтэй байх ёстой юм. "
+
+#: Morphic-Games,FreeCell>>help
+msgid "FreeCell Help"
+msgstr "ЧөлөөтҮүр Тайлбар"
+
+#: Morphic-Games,FreeCell>>makeCardsRemainingDisplay
+msgid "Cards Left: "
+msgstr "Үлдсэн хөзөр: "
+
+#: Morphic-Games,FreeCell>>makeElapsedTimeDisplay
+msgid "Elapsed Time: "
+msgstr "Зарцуулсан Хугацаа: "
+
+#: Morphic-Games,FreeCell>>makeGameNumberDisplay
+msgid "Game #: "
+msgstr "Тоглоомын дугаар: "
+
+#: Morphic-Games,FreeCell>>makeHelpButton,Morph>>balloonHelpTextForHandle:,SameGame>>makeControls
+msgid "Help"
+msgstr "Тусламж"
+
+#: Morphic-Games,FreeCell>>makeNewGameButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "New game"
+msgstr "Шинэ тоглоом"
+
+#: Morphic-Games,FreeCell>>makePickGameButton
+msgid "Pick game"
+msgstr ""
+
+#: Morphic-Games,FreeCell>>makeQuitButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "Quit"
+msgstr "Гарах"
+
+#: Morphic-Games,FreeCell>>makeSameGameButton
+msgid "Same game"
+msgstr "Нөгөө л тоглоом"
+
+#: Morphic-Games,FreeCell>>makeStatisticsButton
+msgid "Statistics"
+msgstr "Статистик үзүүлэлт"
+
+#: Morphic-Games,FreeCell>>promptForSeed
+msgid ""
+"Pick a game number between 1 and 32000.\n"
+"or\n"
+"set the hardness of the next game by typing 'H 30'.\n"
+"Above 100 is very hard.  Zero is standard game.\n"
+"Current hardness is: "
+msgstr "1-ээс 32000 хооронд тоглоомын дугаарыг онооно эсвэл дараагийн тоглолтын хүндрэлийн шатлалыг “Н 30” гэж тогтооно. 100-аас дээш утга хамгийн хүнд нь байна. Тэг утга нь стандарт тоглолт юм. "
+
+#: Morphic-Games,FreeCellBoard>>pickGame:
+msgid ""
+"Game #1 is a special case\n"
+"for performance analysis"
+msgstr "Тоглолт 1 нь хүчин чадалд шинжилгээ хийх тусгай тохиолдол юм. "
+
+#: Morphic-Games,FreeCellStatistics>>display
+msgid "FreeCell Statistics"
+msgstr "ЧөлөөтҮүрийн Статистик"
+
+#: Morphic-Games,FreeCellStatistics>>makeResetButton
+msgid "Reset"
+msgstr "Анхны төлөвт оруулах"
+
+#: Morphic-Games,FreeCellStatistics>>printReplaysOn:
+msgid "With replays: "
+msgstr "Дахин тоглолт: "
+
+#: Morphic-Games,FreeCellStatistics>>printSessionOn:
+msgid "This session: "
+msgstr "Энэ үе: "
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Current: "
+msgstr "Одоо: "
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Streaks: "
+msgstr ""
+
+#: Morphic-Games,FreeCellStatistics>>printTotalOn:
+msgid "Total: "
+msgstr "Нийт: "
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " loss"
+msgstr "хожигдол"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " losses"
+msgstr "хожигдлууд"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " win"
+msgstr "хожил"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " wins"
+msgstr "хожлууд"
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Find those mines"
+msgstr "Минуудыг олох"
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Mines"
+msgstr "Минууд"
+
+#: Morphic-Games,Mines>>helpString
+msgid ""
+"Mines is a quick and dirty knock-off of the Minesweeper game found on Windows. I used this to teach myself Squeak. I liberally borrowed from the <SameGame> example, so the code should look pretty familiar, though like any project it has rapidly ...morphed... to reflect my own idiosyncracies. Note especially the lack of any idiomatic structure to the code - I simply haven't learned them yet.\n"
+"\n"
+"Mines is a very simple, yet extremely frustrating, game to play. The rules are just this: there are 99 mines laid down on the board. Find them without \"\"finding\"\" them. Your first tile is free - click anywhere. The tiles will tell you how many mines are right next to it, including the diagonals. If you uncover the number '2', you know that there are two mines hidden in the adjacent tiles. If you think you have found a mine, you can flag it by either 'shift' clicking, or click with the 'yellow' mouse button. Once you have flagged all of the mines adjacent to a numbered tile, you can click on the tile again to uncover the rest. Of course, you could be wrong about those too... \n"
+"\n"
+"You win once you have uncovered all of the tiles that do not contain mines. Good luck...\n"
+"\n"
+"David A. Smith\n"
+"dastrs@bellsouth.net"
+msgstr ""
+"Минэ нь WINDOWS системд байдаг Minesweeper тоглоомын хурдан хувилбар юм. Squeak –г эзэмшихийн тулд би энэ тоглоомыг ашигласан юм. <Нөгөө л Тоглоом> жишээнээс зээлдэж авсан ба програм нь тун танил харагдах ёстой ба бусад төсөлтэй   Миний тэнэглэлийг харуулсан байхаа. Гол нь тэнэглэсэн бүтэц би ердөө эдгээрийг судлаагүй юм. \n"
+"\n"
+"Минэ тоглоом нь маш энгийн хирнээ гэнэт сэтгэлээр унамаар тоглоом. Дүрэм нь : Нийт 99 бүтээлгээтэй минэ самбар дээр байна. Тэднийг хайлгүйгээр олно. Эхний нүд чөлөөтэй тул дуртай газраа товш. Яг хэдэн  минэ байгааг диагоналийг оролцуулан хэлж өгнө. Хэрэв та 2 гэсэн тоог нээсэн бол зэргэлдээ нүдэнд хоёр минэ байна гэдгийг та мэдэж авна. Хэрэв та минэ олсон гэж үзэж байгаа бол  түүнийгээ товшилтоор эсвэл “шар” хулганы товчлуураар тэмдэглэж болно. Нэгэнт тэмдэглэсэн бол нээхийн тулд нүдийг дахин товшино . Гэхдээ, та алдсанаа хэтэрхий оройтож ...\n"
+"\n"
+"Нэгэнт л та ялсан бол цааш нь нээх шаардлагагүй. Бусад минэ агуулаагүй нүднүүд юм. Амжилт хүсъе...\n"
+"\n"
+"Дэвид А.Смит"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "  New game  "
+msgstr " Шинэ тоглоом "
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Mines:"
+msgstr "  Минүүд"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Time:"
+msgstr "Хугацаа: "
+
+#: Morphic-Games,PlayingCard_class>>initialize
+msgid "corrupted imageData"
+msgstr " эвдэрсэн зурагӨгөгдөл"
+
+#: Morphic-Games,PlayingCardDeck>>acceptDroppingMorph:event:
+msgid "move card"
+msgstr " хөзрийг зөөх"
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "A board game implementedby Tim Olson, based on a game originally written for UNIX by Eiji Fukumoto."
+msgstr ""
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "Same"
+msgstr "Нөгөө "
+
+#: Morphic-Games,SameGame>>helpString
+msgid ""
+"The object of SameGame is to maximize your score by removing tiles from the board.  Tiles are selected and removed by clicking on a tile that has at least one adjacent tile of the same color (where adjacent is defined as up, down, left, or right).\n"
+"\n"
+"The first click selects a group of adjacent tiles, a second click in that group will remove it from the board, sliding tiles down and right to fill the space of the removed group.  If you wish to select a different group, simply click on it instead.\n"
+"\n"
+"The score increases by \"(selection - 2) squared\", so you want to maximize the selection size as much as possible.  However, making small strategic selections may allow you to increase the size of a later selection.\n"
+"\n"
+"If you are having a hard time finding a group, the \"Hint\" button will find one and select it for you (although it is likely not the best group to select!).\n"
+"\n"
+"When there are no more groups available, the score display will flash with your final score.  Your final score is reduced by 1 for each tile remaining on the board.  If you manage to remove all tiles, your final score is increased by a bonus of 5 times the number of tiles on a full board.\n"
+"\n"
+"Come on, you can beat that last score!  Click \"New game\"  ;-)\n"
+"\n"
+"SameGame was originally written by Eiji Fukumoto for UNIX and X; this version is based upon the same game concept, but was rewritten from scratch."
+msgstr ""
+"Хэрээ тоглоомын хэрэгсэл нь самбараас хавтанг зөөснөөр хурдыг дээд зэргээр нэмэгдүүлэх боломжтой. Хавтан дээр товшсноор хавтанг сонгогдоно. \n"
+"\n"
+"Эхний товшилт нь зэрэгцээ байгаа талстуудын группыг сонгоно, энэ групп доторх хоёр дахь товшилт  нь самбараас түүнийг арилгана алстыг баруун ба доош нь хөврүүлэх замаар аилсан группын орон зайг эзэлнэ. Хэрэв та өөр группыг сонгохоор бол түүн дээрээ товш. \n"
+"\n"
+"Оноо нь “сонголт 2 квадрат” –оор ихсэх тэгэхээр та сонгох хэмжээгээ максимумд хүргэхийг та хүснэ. Гэхдээ стратегийн жижиг  сонголт сүүлд нь танд хэмжээг том болгох боломийг олгодог. \n"
+"\n"
+"Хэрэв группыг олоход та ихээхэн цаг зарахаар бол “САНАА” товчлуур нэгийг олж өгнө (хэдийгээр энэ нь хамгийн тохиромжтой групп байж чадахгүй ). \n"
+"\n"
+"Өөр групп байхгүй тохиолдолд таны сүүлд авсан оноог анивчуулан харуулна. Таны сүүлчийн оноо талбар дээр үлдсэн талст бүрийн тоогоор хорогдоно. Хэрэв бүх талстийг арилгаар та зохицуулбал таны сүүлчийн оноо бүтэн самбар дээрх талстын тооноос 5 дахин их шагналаар нэмэгдэнэ.\n"
+"\n"
+"Сүүлчийн оноог чи авахёстой шүү. Товш \"шинэ тоглолт\n"
+"\n"
+" SameGame –г анх Эйжи Фукумото UNIX ба X –д зориулан бичсэн бөгөөд одоогийн энэ хувилбар нь дээрх тоглоомын санаанд тулгуурлан дахин бичигдсэн. "
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Hint"
+msgstr "санаа"
+
+#: Morphic-Games,SameGame>>makeControls,Tetris>>showScoreDisplay
+msgid "Score:"
+msgstr "оноо"
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Selection:"
+msgstr "сонголт"
+
+#: Morphic-Games,SameGameBoard>>removeSelection
+msgid "remove selection"
+msgstr "сонголтыг арилга"
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris"
+msgstr "тетрис"
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris, yes Tetris"
+msgstr "тетрис   "
+
+#: Morphic-Games,Tetris>>makeGameControls
+msgid "pause"
+msgstr "завсарлага"
+
+#: Morphic-Games,Tetris>>makeGameControls,TheWorldMenu>>buildWorldMenu
+msgid "quit"
+msgstr "гарах"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "drop"
+msgstr "унагах"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the left"
+msgstr "зүүн тийш хөдөлгөх"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the right"
+msgstr "баруун тийш хөдөлгөх"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate anticlockwise"
+msgstr "цагийн зүүний эсрэг эргүүлэх"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate clockwise"
+msgstr "цагийн зүүний дагуу эргүүлэх"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "A fine game of chess"
+msgstr "Шатрын сайхан тоглолт"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "Chess"
+msgstr "Шатар"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin,ChineseCheckers_class>>descriptionForPartsBin,CipherPanel_class>>descriptionForPartsBin,CrosticPanel_class>>descriptionForPartsBin,FreeCell_class>>descriptionForPartsBin,Mines_class>>descriptionForPartsBin,SameGame_class>>descriptionForPartsBin
+msgid "Games"
+msgstr "Тоглоомууд"
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Auto  "
+msgstr " Авто "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Help  "
+msgstr " Тусламж "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  New  "
+msgstr " Шинэ "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Play  "
+msgstr " ТОглох "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Quit  "
+msgstr " Гарах "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Redo  "
+msgstr " Дахих "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Undo  "
+msgstr " Болих "
+
+#: Morphic-Games-Chess,ChessMorph>>findBestMove
+msgid "I suggest: "
+msgstr "Би бодохдоо: "
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border"
+msgstr "зах хил"
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border color..."
+msgstr "хилийн өнгө..."
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border style..."
+msgstr "хилийн хэлбэр..."
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border width..."
+msgstr "хилийн өргөн..."
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid "border change"
+msgstr ""
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+"Шулууны өргөнийг ихэсгэхийн тулд\n"
+"энэ цэгээс курсорыг холдуулан байрлуул.\n"
+"Хийж дуусаад товш."
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "ачаалах"
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,Morph_class>>serviceLoadMorphFromFile
+msgid "load as morph"
+msgstr "дүрс ачаалах"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "child layout"
+msgstr "охин байрлал"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "horizontal resizing"
+msgstr "хэвтээ тэнхэлгийн хэмжээг өөрчлөх "
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "vertical resizing"
+msgstr "босоо тэнхэлгийн хэмжээ өөрчлөх"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy Postscript"
+msgstr "жич тайлбарыг хуулах"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy text"
+msgstr "бичиглэл текст хуулах"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy to paste buffer"
+msgstr "буферийг наахын тулд хуулах"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:
+msgid "copy & print..."
+msgstr "хуулаад хэвлэх ..."
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "print Postscript to file..."
+msgstr "жич тайлбарыг файл руу гаргах"
+
+#: Morphic-Kernel,Morph>>addDebuggingItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>debugMenu
+msgid "debug..."
+msgstr "... шалгах"
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "drop shadow"
+msgstr "сүүдэр унагах"
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow color..."
+msgstr "сүүдрийн өнгө"
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow offset..."
+msgstr "сүүдэрийн шилжилт"
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "desktop"
+msgstr "ширээний компьютер"
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "embed into"
+msgstr "орохын өргөтгөл"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "BMP file"
+msgstr "ВМР өргөтгөлтэй файл"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "export..."
+msgstr "гаргах..."
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "GIF file"
+msgstr "GIF өргөтгөлтэй файл"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "JPEG file"
+msgstr "JPEG өргөтгөлтэй файл "
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "PNG file"
+msgstr " PNG өргөтгөлтэй файл "
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "bitmap fill"
+msgstr "битмап дүүргэх"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:
+msgid "change color..."
+msgstr "өнгийг өөрчлөх.."
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "default fill"
+msgstr "асуулгагүй дүүргэх"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,TextMorph>>addFillStyleMenuItems:hand:
+msgid "fill style"
+msgstr "файлын хэлбэр"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "gradient fill"
+msgstr "уусалттай дүүргэх"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "solid fill"
+msgstr "цул дүүргэлт"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the color of this object"
+msgstr "обьектийн өнгийг өөрчлөх"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the size of this object"
+msgstr "обьектийн хэмжээг өөрчлөх"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Delete this object -- warning -- can be destructive!"
+msgstr "обьектийг устгах –сануулга—сүйтгэгдэж болзошгүй"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "delete"
+msgstr "устгах"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "duplicate"
+msgstr "хувилах"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "grab"
+msgstr "амжуулах"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a copy of this object"
+msgstr "обьектийн хуулбар надад гардуулах"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a tile represting this object"
+msgstr "Энэ объектын танилцуулгын хавчуурга-пайз хийх "
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "halo actions..."
+msgstr "цацрах агшинууд..."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Make a new sibling of this object and hand it to me"
+msgstr "обьектийн тарлийг үүсгээд надад гардуулах"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "make a sibling"
+msgstr "төрөл үүсгэх"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a property sheet for me. Allows changing lots of stuff at once."
+msgstr "онцлог чанарын нүүрийг нээж өгнө. Олон юмныг нэгэн зэрэг өөрчлөх боломжтой болно."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a tool that will facilitate tile scripting of this object."
+msgstr "Энэ объектын бичмэлийг дэмжих хэрэгслийг нээх"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a Viewer that will allow everything about this object to be seen and controlled."
+msgstr "Тухайн объектын талаарх бүх зүйл, тухайлбал харагдах байдал, удирдах зэргийг зөвшөөрдөг Үзэгчийг нээх"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open an Inspector on this object"
+msgstr "Энэ Обьектийн Хянагчийг нээх"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Pick this object up -- warning, since this removes it from its container, it can have adverse effects."
+msgstr "Тухайн объектыг гаргаж ирнэ—- түүнийг агуулахаас гаргаж ирэхэд дайсагнасан үйлдэл гаргаж болзошгүйг анхаар."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "property sheet"
+msgstr "онцлог шинж чанарын хуудас"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "resize"
+msgstr "хэмжээг өөрчлөх"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "set color"
+msgstr "өнгө тавих"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile browser"
+msgstr "хайгч"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile representing this object"
+msgstr "Энэ объектын танилцуулгын хавчуурга-пайз хийх "
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "viewer"
+msgstr "Үзэгч"
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "change layout inset..."
+msgstr "гадаад байрлалын оруулгыг өөрчлөх"
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "layout"
+msgstr "үзүүлэн, гадаад байр байдал"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock all contents"
+msgstr "бүх агуулгыг онгойлгох "
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock \"{1}\""
+msgstr "\"{1}\"-г онгойлгох"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock..."
+msgstr "... онгойлгох-түгжээг нээх"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "add mouse up action"
+msgstr "хулганы даралт дээш болох үйлдлийг нэмэх"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "adhere to edge..."
+msgstr "... ирмэгийг дагах"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "arrowheads on pen trails..."
+msgstr "... үзэгний мөр дээрх сумантолгой"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "balloon help for this object"
+msgstr "энэ объектын тайлбар-тусламж"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "delete existing path"
+msgstr "байгаа замыг устгах"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "draw new path"
+msgstr "шинэ зам зурах"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "extras..."
+msgstr "илүүдэл "
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "follow existing path"
+msgstr "байгаа замыг дагах"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "GeeMail stuff..."
+msgstr ""
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "hand me tiles to fire this button"
+msgstr "энэ товчлуурыг асаахын тулд надад          өгөөч"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "put in a window"
+msgstr "цонхон дотор тавих"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "remove mouse up action"
+msgstr "хулганы даралт дээш болох үйлдлийг арилгах"
+
+#: Morphic-Kernel,Morph>>addMorphFrontFromWorldPosition:
+msgid "add slot for {1}"
+msgstr "{1}-д холбогч-зоолтуур нэмэх "
+
+#: Morphic-Kernel,Morph>>addMouseUpAction
+msgid "MouseUp expression:"
+msgstr "ХулганДээш илэрхийлэл:"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "add a border around this shape..."
+msgstr "энэ дүрсийг тойруулан хүрээ нэмж тат"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "erase pixels of color"
+msgstr "өнгөний пикселүүдийг цэвэрлэх"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "insert into movie"
+msgstr "кинонд оруулах"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "painting..."
+msgstr "зурах "
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "recolor pixels of color"
+msgstr "өнгөний пикселүүдийг дахин будах"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reduce color palette"
+msgstr "өнгөний нийлүүрийг багасгах"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "repaint"
+msgstr "дахин зурах"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reset forward-direction"
+msgstr "урагшаа-чиглэлийг анхны төлөвт оруулах"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "restore original aspect ratio"
+msgstr "дэлгэцийн харьцааг сэргээх"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "set rotation center"
+msgstr "эргэлтийн төвийг тогтоох"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "set rotation style"
+msgstr "эргэлтийн стилийг тогтоох"
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "bring to front"
+msgstr "нүүрэнд авч ирэх"
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "embed..."
+msgstr "суурилуулах"
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "present a menu of potential embeddeding targets for this object, and embed it in the one chosen."
+msgstr "энэ объектын гарцаагүй суурилагдсан-нэгтгэсэн байнуудын-зорилгуудын цэсийг танилцуулах,  мөн түүнийг нэг сонголт руу нэгтгэх"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell positioning"
+msgstr "үүр байрлуулах"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell spacing"
+msgstr "үүр хоорондын орон зай"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change cell inset..."
+msgstr "үүрийн оруулгыг өөрчлөх"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change max cell size..."
+msgstr "үүрийн максимум хэмжээг өөрчлөх"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change min cell size..."
+msgstr " үүрийн минимум хэмжээг өөрчлөх "
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list centering"
+msgstr "жагсаалтыг голлуулах"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list direction"
+msgstr "жагсаалтын чиглэл"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list spacing"
+msgstr "орон зайн жагсаалт"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:,Morph>>hasTableLayoutString
+msgid "table layout"
+msgstr "хүснэгтийн гадаад төрх"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap centering"
+msgstr "голлуулахыг эргүүлэх"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap direction"
+msgstr "буцааж эргүүлэх чиглэл"
+
+#: Morphic-Kernel,Morph>>addTextAnchorMenuItems:hand:
+msgid "text anchor"
+msgstr "тесктийн зангуу"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "when \"locked\", I am inert to all user interactions"
+msgstr "”түгжээтэй” үед, бүх хэрэглэгчийн харилцан үйлчлэлд Би оролцохгүй"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether direction handles are shown with the halo"
+msgstr "чиглэл баригчид энэ титэмтэй харагдах эсэх"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I am open to having objects dropped into me"
+msgstr " над руу унагасан объектуудыг авахын тулд Би нээгдэх эсэх"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be reistant to easy deletion via the pink X handle"
+msgstr "ягаан Х баригчаар дамжуулан хялбар устгалтанд Би эсэргүүцэх ёстой эсэх "
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be resistant to a drag done by mousing down on me"
+msgstr " над дээрх хулганы даралтаар чирэлт хийгдсэнд  Би эсэргүүцэх ёстой эсэх "
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether my corners should be rounded"
+msgstr "миний булангууд дугуй байх ёстой эсэх"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether the parts of objects within me that are outside my bounds should be masked."
+msgstr "надад байгаа объектын хэсгүүд масклагдах-нууцлагдах ёстой эсэх"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom"
+msgstr "ёроол"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom left"
+msgstr "зүүн доод"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom right"
+msgstr "баруун доод"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "center"
+msgstr "төв"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "left"
+msgstr "зүүн"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "right"
+msgstr "баруун"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top"
+msgstr "орой-үзүүр"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top left"
+msgstr "зүүн дээд"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top right"
+msgstr "баруун дээд"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Center of rotation (hold down shift key and drag to change it)"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change color (press shift for more properties)"
+msgstr "Өнгө солих (бусад онцлогуудыг харах бол shift дар)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change font"
+msgstr "Фонт өөрчлөх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change scale"
+msgstr "Масштаб өөрчлөх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change size (press shift to preserve aspect)"
+msgstr "Хэмжээг өөрчлөх ( дүр төрхийг хадгалах бол shift дар)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change style"
+msgstr "Стиль өөрчлөх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose a new graphic"
+msgstr "Шинэ график сонго"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose forward direction"
+msgstr "Урагшаа чиглэлийг сонго"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Collapse"
+msgstr "Нуралт"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Debug (press shift to inspect morph)"
+msgstr "Шалгах (морфыг шалгах бол shift дар)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate"
+msgstr "Хувилах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate (press shift to make a sibling)"
+msgstr "Хувилах (ойрын төрөл үүсгэх бол shift дар)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Emphasis & alignment"
+msgstr "Цохон тэмдэглэх ба тэгшлэх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Fewer halo handles"
+msgstr "Цөөн хэдэн титэмт баригч"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a scratch script"
+msgstr "Ноорог бичиглэл хийх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling"
+msgstr "Ойрын төрөл үүсгэх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling (press shift to make simple duplicate)"
+msgstr " Ойрын төрөл үүсгэх (энгийн хуулбар хийх бол shift дар)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a tile representing this object"
+msgstr "Энэ объектын танилцуулгын хавчуурга-пайз хийх "
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Menu"
+msgstr "Цэс"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "More halo handles"
+msgstr " Нэмэлт бусад титэм баригч"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move"
+msgstr "Хөдөлгөх-зөөвөрлөх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move to trash"
+msgstr "Хогийн савыг зөөх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Open a Viewer for me"
+msgstr "Үзүүлэгчийг надад нээж өгөх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint background"
+msgstr "Дэвсгэрийг будах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint new object"
+msgstr "Шинэ объектыг будах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Pick up"
+msgstr "Сонгож авах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Present the Viewing menu"
+msgstr "Үзүүлэгчийн цэсийг толилуулах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Property Sheet (press shift for simple recolor)"
+msgstr "Онцлог талын Хуудас (энгийн будалт бол shift дар)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Remove from screen"
+msgstr "Дэлгэцээс зайлуулах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Repaint"
+msgstr "Дахин будах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Rotate"
+msgstr "Эргүүлэх"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "See the script for this button"
+msgstr "Энэ товчлуурын бичиглэлийг харах"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Set center of rotation"
+msgstr "эргэлтийн төвийг тогтоох"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "control-menu..."
+msgstr "удирдлагын цэс..."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore model"
+msgstr "загварыг дэлгэх"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore morph"
+msgstr "морфыг дэлгэх"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "inspect model"
+msgstr "загварыг шалгах"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph"
+msgstr "морфыг шалгах"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph (in MVC)"
+msgstr " морфыг шалгах (MVC-д)"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect owner chain"
+msgstr "эзэзмшигчийн       шалгах"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect player"
+msgstr "тоглогчийг шалгах"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect properties"
+msgstr "чанаруудыг шалгах"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "internal name "
+msgstr "дотоод нэр"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "make own subclass"
+msgstr "өөрийн дэд ангийг үүсгэх"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "model protocol"
+msgstr "загварын протокол "
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "morph protocol"
+msgstr "морфын протокол"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a Viewer on this Morph, rather than on its Player"
+msgstr "Тоглогчоос өмнө Морфын Үзүүлэгчийг нээнэ, "
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a viewer on my Player -- this is the same thing you get if you click on the cyan \"View\" halo handle"
+msgstr "Миний Тоглогчийн үзүүлэгчийг нээнэ—- титмэн баригч дээр товшсонтой адил юм."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "save morph in file"
+msgstr "морфыг файлд хадгалах"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start drawing again"
+msgstr "дахин зурж эхлэх"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start stepping again"
+msgstr "дахин алхаж эхлэх"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Morph"
+msgstr "Морфын Үзүүлэгч"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Player"
+msgstr "Тоглогчийн үзүүлэгч"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "add halo"
+msgstr "титэм нэмэх"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "attach to resource"
+msgstr "нөөцөнд хавсаргах "
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "become this world's model"
+msgstr "ертөнцийн загвар болох"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "browse hierarchy"
+msgstr "эрэмбийн шатлалыг хайж задлах"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "explore"
+msgstr "судлах "
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "go behind"
+msgstr "ар тал руу очих"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save as resource"
+msgstr "нөөц маягаар хадгалах"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save morph as prototype"
+msgstr "морфыг загвар-прототип маягаар хадгалах"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set variable name..."
+msgstr "хувьсагчийн нэрийг хадгалах"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "show actions"
+msgstr "үйлдлийг харуулах"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "submorphs..."
+msgstr "дэд морф.."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "update from resource"
+msgstr "нөөцөөс сэргээх"
+
+#: Morphic-Kernel,Morph>>dismissViaHalo
+msgid "dismiss "
+msgstr "орхих"
+
+#: Morphic-Kernel,Morph>>editBalloonHelpContent:
+msgid "Edit the balloon help text for "
+msgstr "... зориулсан төвгөр тайлбар текстийг засварлах"
+
+#: Morphic-Kernel,Morph>>editMenuButtonDefinition
+msgid " menu definition"
+msgstr "цэсийн тодорхойлолт"
+
+#: Morphic-Kernel,Morph>>embedInto:
+msgid "Embed {1} into..."
+msgstr "{1}-ийг ...тэй нэгтгэх"
+
+#: Morphic-Kernel,Morph>>exportAsBMP,Morph>>exportAsGIF,Morph>>exportAsJPEG,Morph>>exportAsPNG
+msgid "Please enter the name"
+msgstr "Нэрээ оруулна уу"
+
+#: Morphic-Kernel,Morph>>hasClipLayoutCellsString
+msgid "clip to cell size"
+msgstr "үүрийн хэмжээнд барьж бэхлэх"
+
+#: Morphic-Kernel,Morph>>hasClipSubmorphsString
+msgid "provide clipping"
+msgstr "бэхлэх боломж олгох"
+
+#: Morphic-Kernel,Morph>>hasDirectionHandlesString
+msgid "direction handles"
+msgstr "чиглэл баригчууд"
+
+#: Morphic-Kernel,Morph>>hasDisableTableLayoutString
+msgid "disable layout in tables"
+msgstr " хүснэгтэнд байгаа гадаад хэлбэрийг хорих"
+
+#: Morphic-Kernel,Morph>>hasDocumentAnchorString
+msgid "Document"
+msgstr "Баримт бичиг"
+
+#: Morphic-Kernel,Morph>>hasDragAndDropEnabledString
+msgid "accept drops"
+msgstr "унагахыг зөвшөөрөх"
+
+#: Morphic-Kernel,Morph>>hasDropShadowString
+msgid "show shadow"
+msgstr "сүүдрийг харуулах"
+
+#: Morphic-Kernel,Morph>>hasInlineAnchorString
+msgid "Inline"
+msgstr "Мөрдотор"
+
+#: Morphic-Kernel,Morph>>hasNoLayoutString
+msgid "no layout"
+msgstr "гадаад хэлбэр алга"
+
+#: Morphic-Kernel,Morph>>hasParagraphAnchorString
+msgid "Paragraph"
+msgstr "Догол мөрөөс эхэлсэн текстийн хэсэг"
+
+#: Morphic-Kernel,Morph>>hasProportionalLayoutString
+msgid "proportional layout"
+msgstr "пропорциональ гадаад хэлбэр"
+
+#: Morphic-Kernel,Morph>>hasReverseCellsString
+msgid "reverse table cells"
+msgstr "хүснэгтийн үүрүүдийг урвуулах"
+
+#: Morphic-Kernel,Morph>>hasRubberBandCellsString
+msgid "rubber band cells"
+msgstr "резинэн-уян харимхай туузан үүр"
+
+#: Morphic-Kernel,Morph>>helpButton
+msgid "click here for help"
+msgstr "энд товшиж тайлбарыг авна"
+
+#: Morphic-Kernel,Morph>>inspectMorphsProperties
+msgid "no properties to inspect, sorry"
+msgstr "уучлаарай шалгах онцлогууд алга."
+
+#: Morphic-Kernel,Morph>>lockedString
+msgid "be locked"
+msgstr "түгжсэн байх"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a background color"
+msgstr "Дэвсгэр өнгийг сонго"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a line color"
+msgstr "Шугамын өнгийг сонго"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Enter grid size"
+msgstr "Торны хэмжээг оруул"
+
+#: Morphic-Kernel,Morph>>makeMultipleSiblings:
+msgid "how many siblings do you want?"
+msgstr "хэдэн орйрын төрөл хэрэгтэй вэ?"
+
+#: Morphic-Kernel,Morph>>maybeAddCollapseItemTo:
+msgid "collapse"
+msgstr "нуралт"
+
+#: Morphic-Kernel,Morph>>menuButton
+msgid "click here to get a menu with further options"
+msgstr "илүү опцуудыг авахыг хүсвэл энд товш"
+
+#: Morphic-Kernel,Morph>>noHelpString
+msgid "Help not yet supplied"
+msgstr "Тайлбар огт алга байна"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "Choose orientation..."
+msgstr "Хандлагыг сонго"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "File name? (\"{1}\" will be added to end)"
+msgstr "Файлын нэр үү? (\"{1}\"  нь төгсгөлд нэмэгдэнэ.)"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid ""
+"portrait (tall)\n"
+"landscape (wide)"
+msgstr ""
+"хөрөг (босоо)\n"
+"байгаль (хэвтээ)"
+
+#: Morphic-Kernel,Morph>>resistsRemovalString
+msgid "resist being deleted"
+msgstr "эсэргүүцэж байсан юмс устлаа"
+
+#: Morphic-Kernel,Morph>>roundedCornersString
+msgid "round corners"
+msgstr "дугуй булангууд"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "File name? (\".morph\" will be added to end)"
+msgstr "Файлын нэр үү? (\".морф\" нь төгсгөлд нэмэгдэнэ.)"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "my {1}"
+msgstr "миний {1}"
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid "morph's SqueakPage property is out of date"
+msgstr "морфын SqueakPage онцлогуудын хугацаа дууссан "
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid ""
+"url of a place to store this object.\n"
+"Must begin with file:// or ftp://"
+msgstr "Энэ объектыг хадгалах url.  file:// эсвэл ftp://-аар эхлэх ёстой."
+
+#: Morphic-Kernel,Morph>>setArrowheads
+msgid "Head size for arrowheads: "
+msgstr "сумантолгойн толгойны хэмжээ:"
+
+#: Morphic-Kernel,Morph>>showEmbedMenu
+msgid "embed {1} in..."
+msgstr "{1}-ийг ...руу нэгтгэ"
+
+#: Morphic-Kernel,Morph>>stickinessString
+msgid "resist being picked up"
+msgstr "эсэргүүцэхэд бэлэн байлгах"
+
+#: Morphic-Kernel,Morph>>targetFromMenu:popupAt:
+msgid "Target for {1}"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>undoGrabCommand
+msgid "move "
+msgstr "зөө"
+
+#: Morphic-Kernel,Morph>>unlockOneSubpart
+msgid "Who should be be unlocked?"
+msgstr "Хэн тайлагдсан байх ёстой вэ?"
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "close editing"
+msgstr "засварыг хаа"
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "open editing"
+msgstr "засварыг нээ"
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "A tool that lets you browse and load packages from SqueakMap, an index of Squeak code available on the internet"
+msgstr " SqueakMap,  интернэтэд байгаа Squeak коодын индекс –аас пакетыг хайх ба ачаалах, боломжийг танд олгох хэрэгсэл"
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "Package Loader"
+msgstr "Боодол Ачаалагч"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "appearance..."
+msgstr "гарч ирэх "
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "apply a graph-paper-like texture background to the desktop."
+msgstr " граф-цаас-маягийн хээг арын хавтгайд олгох"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose the standard fonts to use for code, lists, menus, window titles, etc."
+msgstr "програм, жагсаалт, цэс, цонх, гарчиг г.м –д хэрэглэх стандарт фонтыг сонгох"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color should be used for text highlighting in Morphic."
+msgstr "Морфик дахь текст тодруулалтанд хэрэглэгдэх өнгийг сонго"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for highlighting which pane has the keyboard focus"
+msgstr " Аль талст гарнаас хандалт авсныг тодролтоор хэлэх өнгийг сонго "
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for the text insertion point in Morphic."
+msgstr " Текст оруулах Морфик дахь цэг ямар өнгөтэй байхыг сонго"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose a uniform color to use as desktop background."
+msgstr "арын дэвсгэрт хэрэглэгдэх нэгэн хэвийн өнгийг сонго."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose how many bits per pixel."
+msgstr "нэг пикселд хэдэн бит бйахыг сонго."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose second color to use as gradient for desktop background."
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose the shape to be used in arrowheads on pen trails."
+msgstr "үзэгний мөрийн сумантолгойд ашиглагдах дүрс-хэлбэрийг сонго."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose theme..."
+msgstr "сэдийг сонго.."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "clear turtle trails from desktop"
+msgstr "арын дэлгэцээс мэлхийн мөрийг арилга"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen off"
+msgstr "бүтэн дэлгэц горимыг унтраа"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen on"
+msgstr "бүтэн дэлгэц горимыг асаа"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether menu colors should be derived from the desktop color."
+msgstr " арын суурь өнгөнөөс цэсийн өнгө уламжилж гарах эсэхийг удирдана "
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether morphic windows and menus should have rounded corners."
+msgstr "морфик цонх болон цэс нь дугуй булантай байх эсэхийг удирдана"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "if in full-screen mode, takes you out of it."
+msgstr "хэрэв бүтэн дэлгэцийн горимд байгаа бол таныг энэ төлөвөөс гаргана."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "insertion point color..."
+msgstr "оруулах цэгийн өнгө.."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "keyboard focus color"
+msgstr "гарнаас хандах үеийн өнгө"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Lets you specify colors for standard system windows."
+msgstr "стандарт системийн цонхны өнгийг тодорхойлох боломжийг танд олгоно."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Opens a \"Preferences Panel\" which allows you to alter many settings"
+msgstr "Олон төрлийн тавилуудыг өөрчлөх зориулалттай \"давуу чанарын самбар\"-г нээнэ."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Presents you with a menu of themes; each item's balloon-help will tell you about the theme.  If you choose a theme, many different preferences that come along with that theme are set at the same time; you can subsequently change any settings by using a Preferences Panel"
+msgstr "Сэдвийн цэсийг танд толилууна. Зүйл бүрт хамаарах Товгор тайлбар нь тухайн сэдийн талаар мэдээлэл өгнө. Хэрэв та сэдвийг сонгосон бол энэ сэдвийг дагалдах олон янзын онцлог чанарууд мөн үүснэ. Онцлог чанарын самбарыг ашиглан та дурын тавилуудыг өөрчилж болно. "
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "pen-trail arrowhead size..."
+msgstr "үзэгний мөрийн сумантолгойн хэмжээ"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "puts you in full-screen mode, if not already there."
+msgstr "хэрэв та бүтэн дэлгэцийн горимд байгаагүй бол таныг энэ горимд оруулна."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "remove any pigment laid down on the desktop by objects moving with their pens down."
+msgstr "үзэг буулгаатай үед, дэлгэцэн дээр объектуудыг хөдөлгөснөөс   үүсэх дэлгэцийн дурын толбыг арилгана."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set desktop color..."
+msgstr "арын өнгийг тавих"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set display depth..."
+msgstr "дэлгэцийн гүнг тавих"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set gradient color..."
+msgstr "ууссан өнгийг тавих"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "system fonts..."
+msgstr "системийн фонт.."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "text highlight color..."
+msgstr "текст тодруулах өнгө.."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "use texture background"
+msgstr "хээтэй ар-дэвсгэр хэрэглэх"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "window colors..."
+msgstr "цонхны өнгө.."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of choices useful for authoring"
+msgstr "Зохиогчид-үзүүлэнд хэрэгтэй сонголтын цэс"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of commands relating to use of projects"
+msgstr "Төслийг хэрэглэхэд хамаарах командын цэс"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of options pertaining to this object as viewed as a playfield"
+msgstr "тоглолтын талбар шиг ойлгогдох объектонд хамаарах дэд хувилбарууд-опцуудын цэс"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu relating to use of flaps.  For best results, use \"keep this menu up\""
+msgstr "Хавхагийн хэрэглээнд хамаарах цэс. Сайн үр дүн олохын тулд \"энэ цэсийг наана байлга\" хэрэглэ."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A tool for finding and obtaining many kinds of objects"
+msgstr "олон төрлийн объектыг олж авахад хэрэглэх хэрэгсэл"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "a menu of debugging items"
+msgstr "шалгах зүйлийн цэс"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>changesMenu
+msgid "changes..."
+msgstr "өөрчлөлтүүд "
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "do..."
+msgstr "хийх "
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "flaps..."
+msgstr "хавхагууд "
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>helpMenu
+msgid "help..."
+msgstr "тайлбар.."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "new morph..."
+msgstr "шинэ морф.."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "Offers a variety of ways to create new objects"
+msgstr "шинэ объект үүсгэх олон аргыг санал болгоно"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "objects (o)"
+msgstr "объектууд (о)"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu
+msgid "open a code editor on the method that defines this menu"
+msgstr "энэ цэсийг тодорхойлж байгаа аргын коод-редакторыг нээх"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "projects..."
+msgstr "төслүүд"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up a menu offering many controls over appearance."
+msgstr " төрөл бүрийн удиридлагуудыг санал болгодог цэсийг гаргах "
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up an editible list of convenient expressions, and evaluate the one selected."
+msgstr " эвтэйхэн илэрхийлэлийн засварлагдах жагсаалтыг гаргах, сонгосон нэгийг боловсруулах "
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "puts up a menu of useful items for updating the system, determining what version you are running, and much else"
+msgstr "систем сэргээх, ажиллаж байгаа хувилбар болон бусад ашигтай зүйлсийн цэсийг гаргах "
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "windows..."
+msgstr "цонх.."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "give the current image a new version-stamped name and save it under that name on disk."
+msgstr "одоогийн зурганд шинэ хувилбараар тамгалагдсан нэр олгох, энэ нэртэйгээр нь дискэнд хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "jump to project..."
+msgstr "төсөл рүү шилжих"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "load a project from a file"
+msgstr "файлаас төслтъийг ачаалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "load project from file..."
+msgstr "файлаас төслийг ачаалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "previous project"
+msgstr "өмнөх төсөл"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "print PS to file..."
+msgstr "жич-г файлд хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "put up a list of all projects, letting me choose one to go to"
+msgstr "бүх төслийг жагсаалтыг гаргах, нэгий нь сонгоод очих боломжийг надад олгох"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "quit out of Squeak."
+msgstr " Squeak –ээс гарах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
+msgstr "дэлгэцийг дахин будах— үлдэгдэл, гацсан курсор г.м арилгахад хэрэгтэй"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "restore display (r)"
+msgstr "дэлгэцийг буцааж сэргээх (r)"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "return to the most-recently-visited project"
+msgstr "байнга харьцдаг төсөл рүү буцаж очих"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save"
+msgstr "хадгал"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save and quit"
+msgstr "хадгалаад гарах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as new version"
+msgstr "шинэ хувилбараар хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as..."
+msgstr "...гэж хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save project on file..."
+msgstr "төслийг файл болгон хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current image on disk, and quit out of Squeak."
+msgstr "одоогийн зургийг дискэнд хадгалаад, Squeak-ээс гарах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk"
+msgstr "энэ зургийн одоогийн хувилбарыг дискэнд хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk under a new name."
+msgstr " энэ зургийн одоогийн хувилбарыг өөр нэрийн доор дискэнд хадгалах "
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save this project on a file"
+msgstr "энэ төслийг файлд хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "write the world into a postscript file"
+msgstr "энэ ертөнцийг-орчинг нэмэлт файлд бичих"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "Brings an open change sorter to the front, creating one if necessary, and makes it the active window"
+msgstr " нээлттэй байгаа өөрчлөлт эрэмблэгчийг, шаардлагатай бол шинийг үүсгэн, нүүрэн талд авч ирээд түүнийг  идэвхтэй цонх болгоно"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse changed methods"
+msgstr "өөрчлөгдсөн аргыг хайж олох"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse recent submissions"
+msgstr "сүүлчийн даалгаварыг хайж олох"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Check the current change set for halts, references to the Transcript, etc., and if any such thing is found, open up a message-list browser detailing all possible slips."
+msgstr "Транскриптэд хамаарах зогсолтууд, ишлэлүүдийн  одоогийн өөрчлөлтийн багцыг шалгах, мөн иймэрхүү зүйл олдвол мессежийн жагсаалт хайгчийг  нээж үл үзэгдэх зүйлсыг задлан харуулна "
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a file holding the logged changes (going as far back as you wish), and open a window on that file."
+msgstr "зөвшөөрөгдсөн өөрчлөлт (хүссэн хэмжээгээрээ буцаж болно) ийг агуулсан файлыг үүсгээд, энэ файлд харгалзах цонхыг нээнэ."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a new change set and make it the current one."
+msgstr "шинэ өөрчлөлтийн багцыг үүсгээд түүнийг одоогийн болгоно"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "check change set for slips"
+msgstr " үл үзэгдэх зүйлсэд зориулсан өөрчлөлтийн багцыг шалгах"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "create new change set..."
+msgstr " өөрчлөлтийн шинэ багцыг үүсгэх"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "dual change sorter"
+msgstr "хос өөрчлөлтийн эрэмблэгч"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "file out current change set"
+msgstr "одоогийн өөрчлөлтийн багцаас файл гарчихлаа"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "find a change sorter (C)"
+msgstr "өөрчлөлтийн эрэмблэгчийг хайх"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "find recent submissions (R)"
+msgstr "сүүлчийн даалгаварыг хайх"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Isolate this project and its subprojects from the rest of the system.  Changes to methods here will be revoked when you leave this project."
+msgstr "энэ төсөл болон түүний дэд төслийг системээс тусгаарлана. Таныг  энэ төслөөс гарах үед аргад хамаарах өөрчлөлтүүдийг хэрэгсэхгүй болно. "
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "isolate changes of this project"
+msgstr "энэ төслийн өөрчлөлтийг тусгаарла"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Make an open recent-submissions browser be the front-window, expanding a collapsed one or creating a new one if necessary.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted, latest first.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions at the top of the browser."
+msgstr "нээлттэй байгаа даалгавар хайгчийг, хэрэв шаардлагатай гэж үзвэл, нурсаны нь цааш нь өргөтгөж, эсвэл шинээр үүсгэн нүүрэн талын цонх болгоно. Сүүлчийн даалгавар хайгч нь хамгийн сүүлийн үеийн зөвшөөрөгдсөн аргуудыг сүүлийнхээс нь эхлээд харуулдаг мессежийн жагсаалт хайгч юм. Хэрэв та, энэ хайгч доторх өөрчлөлттэй санал нэг байгаа бол үргэлж сэргээгдэн шинэчлэгдэж хамгийн шинэ даалгаварыг хайгчийн дээд талд нь харуулж байх болно. "
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a 3-paned changed-set viewing tool"
+msgstr "3-талбарт өөрчлөлтийн багцыг харах хэрэгслийг нээх"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change sorter that shows you two change sets at a time, making it easy to copy and move methods and classes between them."
+msgstr "өөрчлөлтийн хоёр багцыг нэгэн зэрэг харуулдаг өөрчлөлт эрэмблэгчийг нээснээр, тэдгээрийн хооронд арга болон анги  хуулбарлах, зөөвөрлөх ажиллагааг хялбар болгож байгаа юм."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change-list browser on the latter part of the changes log.  You can use this browser to recover logged changes which were not saved in your image, in the event of a crash or other interruption."
+msgstr " Өөрчлөлтийн бүртгэлийн сүүлийн хэсэгт  өөрчлөлтийн жагсаалт хайгч нээнэ. Эвдрэл, элдэв тасалдлын үед Та энэ хайгчийг таны зурганд хадгалагдаагүй бүртгэгдсэн өөрчлөлтийг дахин задлан нээхэд ашиглаж болно.   "
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a message-list browser showing all methods in the current change set"
+msgstr "одоогийн өөрчлөлтийн багц дахь бүх аргыг харуулдаг мессежийн  жасгсаалт хайгчйиг нээх"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a new recent-submissions browser.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions."
+msgstr "Шинэхэн даалгавар хайгчийг нээх.  Энэ нь хамгийн сүүлийн үеийн зөвшөөрөгдсөн аргыг харуулдаг  мессежийн жагсаалт хайгч юм. Хэрэв та энэ хайгч доторх өөрчлөлтийг зөвшөөрч байгаа бол тэр нь хамгийн сүүлийн үеийн даалгаварыг харуулан байж тухай бүрийн  шинэчлэлтийг цаг цагт нь хийнэ."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "propagate changes upward"
+msgstr "өөрчлөлтийг дээш нь тараах "
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recent log file..."
+msgstr "ссүлчинй бүртгэлийн файл"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recently logged changes..."
+msgstr "сүүлд бүртгэгдсэн өөрчлөлт "
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Save a file that, when reloaded, reconstitutes the current World."
+msgstr "Дахин ачаалагдах үедээ одоогийн Орчныг ахин бүрэлдүүлдэг файлыг хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "save world as morph file"
+msgstr "Орчныг морф маягаар хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "simple change sorter"
+msgstr "энгийн өөрчлөлт эрэмблэгч"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "The changes made in this isolated project will propagate to projects up to the next isolation layer."
+msgstr " Энэ тусгаарлагдсан төсөлд хийгдсэн өөрчлөлт нь тусгаарлалтын дараагийн дээд төвшний төсөлд тархана"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Write the current change set out to a file whose name reflects the change set name and the current date & time."
+msgstr " одоогийн өөрчлөлтийн багцыг, нэр нь өөрчлөлтийн багцын нэр ба огноод нөлөөлөх файлд бичих"
+
+#: Morphic-Kernel,TheWorldMenu>>cleanUpWorld
+msgid ""
+"This will remove all windows except those\n"
+"containing unsubmitted text edits, and will\n"
+"also remove all non-window morphs (other\n"
+"than flaps) found on the desktop.  Are you\n"
+"sure you want to do this?"
+msgstr "Энэ нь зөвшөөрөгдөөгүй текст засварлагчийг агуулж байгаагаас бусад бүх цонхыг арилгах бөгөөд компьютерт олдсон бүх цонх бус-морфыг мөн арилгана. Үүнийг та хийх үү?"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "call #tempCommand"
+msgstr "#tempCommand дуудах"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "define #tempCommand"
+msgstr "#tempCommand тодорхойлох"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "explore world"
+msgstr "Орчныг задлан нээх"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "inspect world"
+msgstr "Орчныг шалгах"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "open process browser"
+msgstr "процесс хайгчийг нээх"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start MessageTally"
+msgstr "МессежТооцоо эхлэх"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start/browse MessageTally"
+msgstr " МессежТооцоо эхлэх/хайх "
+
+#: Morphic-Kernel,TheWorldMenu>>editShowSourceMenu
+msgid "show-source menu"
+msgstr "үүсгүүрийг үзүүл цэс"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "a window full of useful expressions."
+msgstr "ашигтай илэрхийлэлээр дүүрэн цонх"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "annotation setup..."
+msgstr "хавсрагын тавил.."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "Click here to get a little window that will allow you to specify which types of annotations, in which order, you wish to see in the annotation panes of browsers and other tools"
+msgstr " Энд товшоод, хайгчууд болон бусад хэрэгслийн хавсрагын талст дээр ямар хэлбэрийн хавсрага, ямар дарааллаар харахыг хүсч байна тэр хэлбэрээр харж болно "
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "choose the language in which tiles should be displayed."
+msgstr "харахыг хүссэн хэлийг сонго"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "commands for doing multi-machine \"telemorphic\" experiments"
+msgstr "олон-машины туршилт хийдэг командууд"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "command-key help"
+msgstr "командын түлхүүр тайлбар"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "current version information."
+msgstr "одоогийн хувилбарын мэдээлэл"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "definition for..."
+msgstr "-д зориулсан тодорхойлолт"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "font size summary"
+msgstr "фонтын хэмжээний товчоон"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "graphical imports"
+msgstr "график импорт"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "helps find menu items buried in submenus."
+msgstr "дэд цэсэнд булаатай байгаа цэсийг олоход тусална"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "if connected to the internet, use this to look up the definition of an English word."
+msgstr "Интернэтэд холбогдсон бол, Англи үгний тодорхойлолтыг олж авахдаа үүнийг хэрэглэ."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "lets you view and change the system's standard library of graphics."
+msgstr " системийн стандарт график санг харах ба өөрчлөх боломжийг танд олгоно"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "load latest code updates via the internet"
+msgstr "програмын сүүлийн үеийн коодыг Интернэтээс ачаалах"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "obtain some intriguing data about the vm."
+msgstr "VM тухайн зарим сонирхол татсан өгөгдлийг авах"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "perform a full garbage-collection and report how many bytes of space remain in the image."
+msgstr "хогийн бүрэн цуглуулга хийхэд бэлдэх, хэр хэмжээний байтаар тооцогдох орон зай зурагт үлдсэнийг мэдэгдэнэ. "
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "purge undo records"
+msgstr "бичлэг хийхээ болихыг цэвэрлэх"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "save space by removing all the undo information remembered in all projects."
+msgstr "бүх төсөлд хадгалагдаж үлдсэн бүх буцсан мэдээллийг арилгаж зай үүсгэх"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set author initials..."
+msgstr "зохиогчийн овог нэрийг тавих"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set language..."
+msgstr "хэлийг тавих "
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "space left"
+msgstr "зай үлдэв"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "standard graphics library"
+msgstr "стандарт график сан"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of keyboard shortcuts."
+msgstr "гарны товчлолын товчоон"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of names and sizes of available fonts."
+msgstr "байгаа фонтын нэр ба хэмжээний товчоон"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "supply initials to be used to identify the author of code and other content."
+msgstr "програмын зохиогч болон бусад агуулгыг тодруулахад хэрэглэгдэх мэдээллээр хангах "
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "telemorphic..."
+msgstr "телеморф"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "turning sound off will completely disable Squeak's use of sound."
+msgstr "дууг унтрааснаар Squeak-ийн дууны хэрэглээг бүрмөсөн хорьно "
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "update code from server"
+msgstr "серверээс коодыг шинэчлэх"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "useful expressions"
+msgstr "ашигтай илэрхийллүүд"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view and change various options."
+msgstr "төрөл бүрийн опцуудыг харах, өөрчлөх"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view the global repository called ImageImports; you can easily import external graphics into ImageImports via the FileList"
+msgstr " ImageImports нэртэй глобал санг үзэх: ФайлЖагсаалтыг ашиглан гадаад графикийг ImageImports руу оруулж боолно"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "vm statistics"
+msgstr "vm статистик"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "world menu help"
+msgstr " орчлон  цэсийн тайлбар"
+
+#: Morphic-Kernel,TheWorldMenu>>loadProject
+msgid "Select a File:"
+msgstr "… Файл сонгох:"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "Add a new morph"
+msgstr "шинэ морф нэмэх"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from a file..."
+msgstr "файлаас.."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from alphabetical list"
+msgstr "үсэг дарааллын жагсаалтаас..."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from paste buffer"
+msgstr "хуулбарын буффер санах ойгоос .."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab flood area from screen"
+msgstr "дэлгэцээс бөөн юм шүүрч авах"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rectangle from screen"
+msgstr "дэлгэцээс тэгш өнцөгт шүүрч авах"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rubber band from screen"
+msgstr " дэлгэцээс резинэн тууз шүүрч авах "
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab with lasso from screen"
+msgstr " дэлгэцнээс бугуйлаар шүүрч авах "
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make link to project..."
+msgstr "төсөлтэй холбогдох"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make new drawing"
+msgstr "шинэ зураг үүсгэх"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A five-paned tool that lets you see all the code in the system"
+msgstr "таван талст хэрэгсэл нь систем дэх бүх коодыг харах боломжийг олгоно"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A place for recording \"event movies\" using the Event Recorder"
+msgstr "Үйл явдал Бичигчийг ашиглан кино бичлэг хийх газар"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to browse any file"
+msgstr "дурын файлыг хайх хэрэгсэл"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to compare and manipulate two change sets concurrently"
+msgstr "өөрчлөлтийн хоёр багцын хооронд харьцуулалт хийх , зохицуулах хэрэгсэл"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to view the methods in a single change set"
+msgstr "өөрчлөлтийн нэг багц дахь аргыг харах хэрэгсэл"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for discovering methods"
+msgstr "арга барилыг нээж задлах хэрэгсэл"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for finding and editing methods that contain any given keyword in their names."
+msgstr "дурын өгөгдсөн түлхүүр үг агуулсан нэр бүхий арга-барилыг хайх, засварлах хэрэгсэл, "
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window for composing text"
+msgstr "текст зохиох цонх"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window used to report messages sent to Transcript"
+msgstr "Транскрипт руу илгээгдсэн мессежийн талаар мэдээлэх цонх"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "browser (b)"
+msgstr "хайгч (b)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new morphic project"
+msgstr "шинэ морфик төсөл үүсгэнэ"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new project of the classic \"mvc\" style"
+msgstr "сонгодог mvc хэлбэрийн шинэ төсөл үүсгэнэ"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "event theatre"
+msgstr "үйл явдлын хүрээлэн"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file list"
+msgstr "файлын жагсаалт"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file..."
+msgstr "файл"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Lets you open a window on a single file"
+msgstr "дан ганц файлд зориулж цонх нээх боломжийг танд олгоно"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "message names (W)"
+msgstr "мессежийн нэр "
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "method finder"
+msgstr "арга хайгч"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "morphic project"
+msgstr "төсөл"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "mvc project"
+msgstr "төсөл"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "package-pane browser"
+msgstr "пакет задлагч"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Similar to the regular browser, but adds an extra pane at top-left that groups class-categories that start with the same prefix"
+msgstr "байнгын хайгчтай адил боловч зүүн дээд буланд нэмэлт цонх нэмж энэ цонх нь адил эхлэлтэй анги-зэрэглэлээр групплэнэ"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "transcript (t)"
+msgstr "хуулбар"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "workspace (k)"
+msgstr "ажлын талбар-орон зай"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new morphic project"
+msgstr "төслийг шинээр нээх "
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new mvc project"
+msgstr "mvc төслийг шинээр нээх "
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to next project"
+msgstr "дараагийн төсөл рүү шилжих"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to previous project"
+msgstr "өмнөх төсөл рүү шилжих"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "Opens a window that shows names and relationships of all the projects in your system."
+msgstr "таны системд байгаа бүх төслийн нэр ба харилцан холбоосыг харуулсан цонхыг нээх"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "revert to saved copy"
+msgstr "хадгалсан хуулбартаа буцаж очих"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save for future revert"
+msgstr "ирээдүйн буцалтанд зориулж хадгалах "
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save on server (also makes a local copy)"
+msgstr "сервер дээр хадгалах (дотроо мөн хуулбарыг үүсгэнэ)"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save project on local file only"
+msgstr "төслийг зөвхөн өөртөө хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save to a different server"
+msgstr "өөр серверт хадгалах"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "see if server version is more recent..."
+msgstr "серверийн хувилбар илүү шинэ байвал харах"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "show project hierarchy"
+msgstr "төслийн эрэмбэ дарааллыг харуулах"
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "can't seem to find that project"
+msgstr "тухайн төслийг олж чадахгүй мэт байх"
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "Select a project"
+msgstr "төслийг сонгох"
+
+#: Morphic-Kernel,TheWorldMenu>>quitSession
+msgid "Save changes before quitting?"
+msgstr "програмаас гарахын өмнө хадгалах уу"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Choose a file\n"
+"to load"
+msgstr " ачаалахын тулд файлыг сонго "
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Sorry, no suitable files found\n"
+"(names should end with .morph, .gif,\n"
+".bmp, .jpeg, .jpe, .jp, or .form)"
+msgstr ""
+"уучлаарай, тохирох файл олдсонгүй\n"
+"нэр нь .morph, .gif,\n"
+"-ээр төгссөн байх ёстойфайлын нэрний өргөтгөлийн товчлол"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid "unrecognized image file format"
+msgstr "зургийн файлын формат танигдахгүй байна"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "connect remote user"
+msgstr "алсын хэрэглэгчид холбогдох"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect all remote users"
+msgstr "бүх алсын хэрэглэгчийг салгах"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect remote user"
+msgstr "алсын хэрэглэгчийг салгах"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "local host address"
+msgstr "дотоод компьютерийн хаяг"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "Telemorphic"
+msgstr "зайнаас    "
+
+#: Morphic-Kernel,TheWorldMenu>>setDisplayDepth
+msgid "Choose a display depth"
+msgstr "дэлгэцийн гүнг сонгох"
+
+#: Morphic-Kernel,TheWorldMenu>>vmStatistics
+msgid "VM Statistics"
+msgstr "статистик"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open fileList  to the front, creating one if necessary, and makes it the active window"
+msgstr "нээлттэй файлуудын жагсаалтыг дэлгэцийн нүүрэн талд гаргаад хэрэв шаардлагатай бол шинийг нээж түүнийгээ идэвхтэй цонх болгох"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open MessageNames window to the front, creating one if necessary, and makes it the active window"
+msgstr "мессежийн нэр цонхийг дэлгэцийн нүүрэн талд гаргаад хэрэв шаардлагатай бол шинээр нээж түүнийгээ идэхтэй цонх болгох"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open Transcript to the front, creating one if necessary, and makes it the active window"
+msgstr "нээлттэй Транскрипт ийг дэлгэцийн нүүрэн талд гаргаад хэрэв шаардлагатай бол шинийг нээж түүнийгээ идэвхтэй цонх болгох"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Close the topmost window if possible."
+msgstr "боломжтой бол дэлгэцэн дээрх хамгийн наад талын цонхыг хаах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "close top window (w)"
+msgstr "оройн цонхыг хаах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all objects"
+msgstr "бүх төслийг буулгах-нураах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all windows"
+msgstr "бүх цонхыг хаах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all non-window morphs lying on the world."
+msgstr "ертөнц дээрх бүх цонх-бус арилгах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all windows that do not have unsaved text edits."
+msgstr "хадгалагдаагүй текст засвар бүхий бүх цонхыг арилгах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete both of the above"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete non-windows"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete unchanged windows"
+msgstr "өөрчлөгдөөгүй цонхнуудыг арилгах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "deletes all unchanged windows and also all non-window morphs lying on the world, other than flaps."
+msgstr "хаалтнаас бусад "
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Expand all collapsed windows and other collapsed objects back to their expanded forms."
+msgstr "өмнө нь буулгасан бүх цонх болон бусад буулгасан объектуудыг буцаан өргөтгөсөн хэлбэрт оруулах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "expand all"
+msgstr "бүгдийг өргөтгө"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a fileList (L)"
+msgstr "файлын жагсаалтыг олох"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a transcript (t)"
+msgstr "         хайх"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed browsers..."
+msgstr "өөрчлөгдсөн хайлтын системийг хайх"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed windows..."
+msgstr "өөрчлөгдсөн цонхнуудыг хайх"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find message names (W)"
+msgstr "мессежийн нэрийиг хайх"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make all windows fully visible on the screen"
+msgstr "бүх цонхыг дэлгэцэнд бүтнээрээ харагдахаар байрлуулах"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make the topmost window become the backmost one, and activate the window just beneath it."
+msgstr "оройн цонхыг хамгийн арын цонх болгоод тэр байршилд нь идэвхтэй болгох"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "move windows onscreen"
+msgstr " цонхнуудыг дэлгэцэн дээр зөөвөрлөх"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "бүх цонхны жагсаалтыг харуулна. хэрэв энэ жагсаалтаас нэгийг сонговол тэр нь идэвхтэй болно"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows; if you choose one from the list, it becomes the active window."
+msgstr "бүх цонхны жагсаалтыг харуулна. хэрэв энэ жагсаалтаас нэгийг сонговол тэр нь идэвхтэй болно "
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of browsers that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "хайлтын системийн жагсаалтыг харуулна. Хэрэв энэ жагсаалтаас нэгийг сонговол тэр нь идэвхтэй болно "
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows and all other objects on the desktop to labeled tabs"
+msgstr "дэлгэцийн бүх цонх болон объектуудыг багасгаад тэмдэглэгдсэн гогцоо маягтай болго"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows to collapsed forms that only show titles."
+msgstr " дэлгэцийн бүх цонхыг багасгаад зөвхөн гарчиг харуулдаг жижиг хэлбэрт оруул"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "send top window to back (\\)"
+msgstr "оройн цонхыг ар тал руу зөөх"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid ""
+"stagger: new windows positioned so you can see a portion of each one.\n"
+"                tile: new windows positioned so that they do not overlap others, if possible."
+msgstr ""
+"тус бүрийнх нь хэсгийг харах боломжтой шинэ цонхнууд\n"
+"Хавтан: хэрэв боломжтой бол нэг нь нөгөө дээрээ давхарлаагүй шинэ цонхнууд"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "windows"
+msgstr "цонхнууд"
+
+#: Morphic-Kernel,TheWorldMenu>>worldMenuHelp
+msgid "Where in the world menu is..."
+msgstr "Ертөнцийн хаана байна цэс нь "
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "change caption"
+msgstr "гарчиг өөрчлөх"
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:
+msgid "open in recording theatre"
+msgstr "бичлэгийн театрыг нээх"
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoDismissString,PlaybackInvoker>>autoDismissString
+msgid "auto dismiss"
+msgstr "өөрийгөө тараах"
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoStartString,PlaybackInvoker>>autoStartString
+msgid "auto start"
+msgstr "өөрөө эхлэх"
+
+#: Morphic-Mentoring,EventPlaybackButton>>changeCaption,EventRecordingSpace>>setCaption,PlaybackInvoker>>changeCaption
+msgid "Please edit the caption"
+msgstr "энэ гарчигийг засварлана уу"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "Display this event-movie in a form such that its score can be viewed and edited."
+msgstr " тэмцээний тухай киног дэлгэцэнд харуулахдаа оноог харах болон засварлах боломжтой байх"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "open for score-editing"
+msgstr "оноог засварлах горимыг нээх"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:,TheWorldMenu>>buildShowSourceMenu
+msgid "edit this menu"
+msgstr "энэ цэсийг нээх"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "inspect"
+msgstr "шалгах"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "play again"
+msgstr "дахин тоглох"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "rewind"
+msgstr "буцааж эргүүлэх"
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "A framework for creating tutorial snippets"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "Олон төрлийн орчин"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "no, let me reconsider"
+msgstr "үгүй, дахин авч үзэхийг минь зөвшөөрнө үү"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid ""
+"The current recording has not been saved, and will be\n"
+"lost if you do this; are you sure you want to proceed?"
+msgstr "одоогийн бичлэгийг хадгалаагүй байна, гэхдээ хадгалнаа. үүнийг хийвэл та хожигдоно. Үнэхээр та цааш нь үргэлжлүүлэх гэж байна уу?"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "yes, abandon this Event Theatre"
+msgstr "тийм, энэ тэмцээний театрийг орьхё доо"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Allows you to provide a message to be presented to a user as balloon-help when the mouse lingers over buttons that trigger playback of the tape of this event theatre"
+msgstr "энэ театрийн бичлэгийн хальсны тоглуулах товчлуур дээгүүр хулгана явж өнгөрөхөд хэрэглэгч рүү дэлгэрэнгүй тайлбар бүхий мессежийг дамжуулах боломж танд олдоно"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "abandon any event-roll that may be associated with this theatre."
+msgstr "энэ театрт хамаарах     "
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add navigator flap"
+msgstr "чиглүүлэгчийн хаалтыг нэмэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add sugar navigator flap"
+msgstr "sugar чиглүүлэгчийн хаалтыг нэмэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add supplies flap"
+msgstr "хангамжийн хавхаг нэмэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "delete old versions"
+msgstr "хуучин хувилбарыг арилгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "event roll"
+msgstr "үйл явдлын    "
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "open a horizontal piano-roll-like tool for the viewing and editing the events of this event theatre."
+msgstr " нь үйл явдлын хүрээлэнгийн байдлыг харуулах,засварлах хэвтээ риано хэлбэрийн хэрэгсэл нээх "
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Recording Options"
+msgstr "бичлэгийн опцууд"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove event-roll"
+msgstr "үйл явдлын арилгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove navigatorFlap"
+msgstr "чиглүүлэгчХавхаг аригах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove sugar navigatorFlap"
+msgstr "sugar чиглүүлэгчХавхаг аригах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove suppliesFlap"
+msgstr "хангамжХавхаг арилгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "revert to version..."
+msgstr "... хувилбар руу буцах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "set balloon help"
+msgstr "дэлгэрэнгүй тайлбарыг үүсгэх-тогтоох"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "shrink event tape"
+msgstr "үйл явдлын туузыг шахах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "convert to canonical coordinates (broken)"
+msgstr "каноник координатад хөрвүүлэх (тасархай)"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event recorder"
+msgstr "үйл явдал бичигчийг шалгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "inspect event roll"
+msgstr "үйл явдал хөврүүлэгчийг шалгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event tape"
+msgstr "үйл явдлын туузыг шалгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event theatre"
+msgstr "үйл явдлын хүрээлэнг шалгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect nav bar"
+msgstr "чиглүүлэгч баарыг шалгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect sound recorder"
+msgstr "дуу бичигчийг шалгах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "More options"
+msgstr "бусад опцууд"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "more..."
+msgstr "бусад ..."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "movie-clip player"
+msgstr "кино-клип тоглуулагч"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "parse event tape"
+msgstr "үйл явдлын туузны хэл зүйн шинжилгээ "
+
+#: Morphic-Mentoring,EventRecordingSpace>>addNavigatorFlap,EventRecordingSpace>>addNavigatorFlap
+msgid "Navigator"
+msgstr "чиглүүлэгч"
+
+#: Morphic-Mentoring,EventRecordingSpace>>convertToCanonicalForm
+msgid "Caution: this is broken!"
+msgstr "Анхаар: Энэ эвдэрсэн байна"
+
+#: Morphic-Mentoring,EventRecordingSpace>>editMenuButtonDefinition
+msgid "Event Theatre menu Definition"
+msgstr "Үйл явдлын Хүрээлэн цэсний тодорхойлолт"
+
+#: Morphic-Mentoring,EventRecordingSpace>>helpString
+msgid ""
+"The Event Theatre provides a framework for authoring \"event-movies\".  It uses custom variants of the Navigator, the Supplies flap, the painting system, property sheets, Viewer flaps, etc., all of which reside within the controlled confines of the Theatre.\n"
+"\n"
+"To author an event-movie, get a  new Event Theatre from the Objects catalog or from the \"open...\" branch of the desktop menu.\n"
+"\n"
+"1. Resize the Theatre, using the halo, to the delivery size desired for playback.\n"
+"\n"
+"2. Use the menu in the controls panel to add or delete Supplies and Navigator flaps as desired.\n"
+"\n"
+"3. Edit the \"caption\" by clicking on the text that says \"Untitled\" and typing your desired caption.  This caption is affixed to playback buttons, and, generally, provides a way to identify the event-movie.\n"
+"\n"
+"4. Set up the \"initial conditions\" for the event-movie you're about to record (e.g., paint a background, provide some explanatory text, add objects you want to be present at the start of the movie.) When the recording is first opened by the user for playback, and whenever the recording has been rewound, this is exactly what it will look like.\n"
+"\n"
+"5. When ready to start the recording, press the \"Record\" button. A red border will be seen around the recorder, to indicate that recording is in progress.  Recording will continue until you hit the ESC key.\n"
+"\n"
+"6. Note that if you  want to include sound in your recording, you can add it directly during playback, or you can produce voiceover externally and add it in later using the Event Roll.\n"
+"\n"
+"7. Now proceed to \"do\", with the mouse and keyboard, whatever you wish to record.   For best results, all mouse gestures should be made within the interior of the Theatre.\n"
+"\n"
+"8. Hit ESC when done recording.\n"
+"\n"
+"9. To review what you've recorded, press \"Play\". If unhappy with the result, repeat steps 1-8.\n"
+"\n"
+"10.  If you're happy with the result, and now wish to add a sound, open the sound panel, then click Play to replay the recording, and whenever you wish to add a snippet of voiceover, click on the \"Start Recording Voiceover\" button, and start talking, and when done with that snippet click the \"Stop Recording Voiceover\" button.  Once the playback finishes, the added voiceover(s) will become part of the event tape, and will be seen in the event roll.\n"
+"\n"
+"11. When you're happy with the result, hit the \"Publish\" button, to get a playback button. There are currently two choices:\n"
+"\n"
+"a. Iconic Button - Initially provides a picture of the initial scene of the movie, scaled 0.3x, and overlaid with the word HINT.  When the user clicks on such a button, the event-movie is played back in an ephemeral \"playback theatre\", and after the playback is done, the playback theatre shrinks down to a 0.5x scale-downed picture of the *final* scene of the movie.  Subsequent hitting of the button will again invoke a playback.\n"
+"\n"
+"b. Textual Button - a simple labeled button which, when pressed, triggers playback of the event tape.\n"
+"\n"
+"12. The playback buttons you obtain when you \"Publish\" can be placed anywhere, such as on the page of a book. You can control, via a playback-button's halo menu, whether or not it should be \"auto-start\", and whether or not \"auto-dismiss\". When the user presses the button, a \"Playback\" space will open, which resembles an Event Theatre, but has only playback-relevant controls.   A playback set up for both auto-start and auto-dismiss comes without any controls.\n"
+"\n"
+"13.  To edit the \"event tape\" of a recording you have made in an Event Theatre, and for a generally good time, click on the interlocking-circles icon to obtain a tool that allows you to visualize and to edit a \"score\" or \"piano roll\" of the event tape.\n"
+"\n"
+"\n"
+"Summary of terms\n"
+"\n"
+"Event Theatre\n"
+"  The main tool for creating an Event Tape.\n"
+"\n"
+"Event Roll\n"
+"  An auxiliary tool showing the full \"score\" of an Event Tape. \n"
+"\n"
+"Event Tape\n"
+"  The results of an event-theatre session;  an interaction sequence that can be played back.\n"
+"\n"
+"Event Recording\n"
+"  A term interchangeable with \"Event Tape.\"\n"
+"\n"
+"Event Movie\n"
+"  What you see when you play back an Event Tape.\n"
+"\n"
+msgstr ""
+"Үйл явдлын Хүрээлэн нь кино-зохиомжийн их бие-араг яс бүрдүүлэлтийг хангана. Тэрээр Чиглүүлэгч, Хангамжийн хавхаг, зурах систем, онцлогийн хуудас, Үзэгч хавхаг гэх мэт Хүрээлэн буюу Театрт байгаа бүх зүйлийн  захиалгат хувилбарыг ашиглана.\n"
+"\n"
+"Киноны зохиомжийг үүсгэхийн тулд Объектын каталогоос эсвэл Системийн цэсний “нээх...” салбарлалтаас шинэ Үйл явдлын Театрыг сонгож авна. \n"
+"\n"
+"1. Титэмийг ашиглан, тоглуулахад эвтэйхэн хэмжээ хүртэл тохируулах замаар, Театрын хэмжээг өөрчилнө. \n"
+"\n"
+"2.удирдлагын самбар дээрх цэсийг ашиглан Хангамжийн болон Чиглүүлэгчийн хавхагийг нэмнэ аль эсвэл хасна. \n"
+"\n"
+"3.“Гарчиггүй” гэсэн текст дээр товшиж “гарчиг”-г өөрийн хүссэнээр  нэрлэн шивж засварлана. Энэ гарчиг нь тоглуул-товчлуурт бичигдэх бөгөөд цаашдаа энэ киног дагалдсан нэг ёсондоо тодорхойлогч болно.\n"
+"\n"
+"4.Энэ киноны ”анхны төлөв” –г тавина (дэвсгэр өнгийг будах, зарим тайлбар текст бэлдэх, киноны эхэнд гарч ирэх объектуудыг нэмэх ). Хэрэглэгч нь бичлэгийг анх тоглуулахаар нээх, Бичлэгийг буцаан эргүүлж үзэх бүр яг ингэж л харагдахаар байх болно. \n"
+"\n"
+"5.Бичлэгийг эхлүүлэхэд бэлэн болсон үед “Бичлэг” товчлууыг дарна. Бичигчийг тойроод улаан өнгийн хүрээ үүсэх ба энэ нь бичлэг идэвхжисэнийг хэлнэ. ESC товчийг даран дартал бичлэг үргэлжилнэ. \n"
+"\n"
+"6.Жич хэлэхэд, бичлэгт дуу оруулахаар бол тоглолтын үед шууд нэмж болохоос гадна гаднаас дууг оруулаад дараа нь Үйл явдал Хөврүүлэгчийг ашиглан нэмж болно.\n"
+"\n"
+"7. Хулгана болон компьютерийн гарыг ашиглан хүссэн зүйлээ бичих цаг боллоо. Илүү үр дүнд хүрэхийн тулд, хулганаар бий болгох бүх хөдөлгөөнийг Театрын интеръер дотор хийх шаардлагатай юм.\n"
+"\n"
+"8. бичлэг дуусангуут ESC товчийг дар.\n"
+"\n"
+"9.Юу бичсэнээ үзэхийн тулд “Тоглуул” товчийг дарна. Хйисэн зүйл маань таалагдахгүй бол 1-8 алхмыг давтан хийнэ. \n"
+"\n"
+"10.хийсэн зүйл маань танд таалагдаж байгаа бол, тэгээд дуу нэмэхээр бол дууны самбарыг нээж Тоглуул –г товшиж бичлэгийг дахин эхлүүлээд \"Start Recording Voiceover\" товчлуурыг дарж яриагаа эхэлнэ. Дууссан үедээ \"Stop Recording Voiceover\" товчлуурыг дарна. Нэмж оруулсан дуу нь үйл явдлын туузны нэг хэсэг болох ба үйл явдлын хөврөгчид харагдаж байх болно. \n"
+"\n"
+"11.Хйисэн ажил санаанд хүрч байгаа бол “Зарла” товчлуурыг дарж тоглуулах горимд шилжинэ. Энд хоёр сонголт байна:\n"
+"\n"
+"А.Икон хэлбэрийн товчлуур- САНУУЛГА гэсэн бичигтэй, 0.3х масштабтай эхний үзэгдэлийн зургийг харуулна. Энэ точлуурыг товшсоноор киноны нэг удаагийн тоглолт гарч ирэх ба  дууссаны дараа киноны сүүлчийн үзэгдлийн  зураг 0.5х масштабтай болж багасна. Энэ товчлуурын Дараа дараагийн даралт нь тоглолтыг давтуулна. \n"
+"\n"
+"В.Хээтэй товчлуур- энгийн тэмдэглээтэй товчлуур бөгөөд түүнийг дарж авснаар үйл явдлын туузыг эхлүүлж зогсооно.\n"
+"\n"
+"12.”Зарла” товчлуурыг дарж үүсгэсэн тоглуул-товчлуурууд нь хаана ч байрлаж, жишээ нь номын хуудсан дээр, болно. Тоглуул-товчлууруудын цэсийг ашиглан та тоглолтын горимыг (Авто-эхлэл, авто-зогс) удирдаж чадна.  Хэрэглэгч товчлуурыг дарснаар Үйл явдлын Театртай төстэй боловч зөвхөн тоглуулах товчлуур бүхий цонх нээгдэнэ. Авто-эхлэл, авто-зогс горимыг дагалдаж байгаа тоглуулах тавил нь дотроо ямар нэг удирдлагыг агуулаагүй байдаг. \n"
+"\n"
+"13. Үйл явдлын Театрт таны хийсэн бичлэгийн ”үйл явдлын тууз”-г засварлахын тулд дотроо-түгжээтэй-тойрог хэлбэрийн иконыг товшиж туузны “оноо” эсвэл “риано”–г харагдуулах, засварлах хэрэгсэлийг авч болно. \n"
+"\n"
+"Нэр тоъёоны товчоон\n"
+"\n"
+"Үйл явдлын Театр\n"
+"  Үйл явдлын Туузыг үүсгэх гол хэрэгсэл\n"
+"\n"
+"Үйл явдлын Хөврүүл\n"
+"  Үйл явдлын Туузны бүрэн “оноо”-г харуулдаг нэмэлт хэрэгсэл\n"
+"\n"
+"Үйл явдлын Тууз\n"
+"  Үйл явдлын Театрын ажиллагааны үр дүн : Тоглуулах боломжтой харилцан үйлчилсэн үйл явдлын дараалал.\n"
+"\n"
+"үйл явдлын бичиглэл\n"
+"  харилцан солилцох боломжтой Нэр томъёо\n"
+"\n"
+"Үйл явдлын Кино\n"
+"  Туузыг тоглуулж үзэх үед та юу хардаг вэ\n"
+"\n"
+
+#: Morphic-Mentoring,EventRecordingSpace>>initializeFromPlaybackButton:
+msgid "caution - old playback; button lacks vital data."
+msgstr "анхаар- хуучин тоглолт: чухал өгөгдөл шаардагдаж байгаа товчлуур."
+
+#: Morphic-Mentoring,EventRecordingSpace>>inspectEventRoll
+msgid "Event Roll for "
+msgstr "..зориулсан Үйл явдлын Хөврүүр"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeHorizontalRoll
+msgid "Nothing recorded yet"
+msgstr "юу ч бичигдээгүй байна"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon existing recording and start a new one."
+msgstr "энэ бичлэгийг больж, шинээр эхэлъе"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon this effort and throw away this window"
+msgstr "Ингэж хүч гаргахаа болиод цонхыг орхиё. "
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Add a voiceover to the existing event-recorded sequence "
+msgstr "Дууг одоо байгаа бичлэгийн дараалалд нэмъе"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,Tetris>>makeGameControls
+msgid "Pause"
+msgstr "завсарлага"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,PlaybackInvoker_class>>defaultNameStemForInstances
+msgid "Play"
+msgstr "Тогло"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record"
+msgstr "Бичлэг"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record Again"
+msgstr "дахин бичих"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Replay this sequence"
+msgstr "энэ дарааллыг давтах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Reset to the starting condition for this recording"
+msgstr "энэ бичлэгийг анхны төлөвт нь оруулах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume"
+msgstr "дахин үргэлжлүүэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume playback"
+msgstr "тоглолтыг дахин үргэлжлүүлэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Rewind"
+msgstr "буцааж эргүүлэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording"
+msgstr "бичлэгийг эхлэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording Voiceover"
+msgstr "дуу хоолойн бичлэгийг эхлэх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop"
+msgstr "Зогс"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop playing or recording this panel"
+msgstr "Энэ самбарын тоглотыг эсьэл бичлэгийг зогсооё"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop Record Voiceover"
+msgstr "дуу хоолойн бичлэгийг зогсоох"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show this theatre's script in a piano-roll-like format for visualizaitoin and editing."
+msgstr "дүрслэн харуулах болон засварлахад зориулсан энэ форматын харуулах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show/hide voice controls"
+msgstr "дуу хоолойны удирдлагыг үзүүлэх/далдлах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Temporarily pause this playback"
+msgstr "энэ тоглолтыг түр завсарлуулах"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "When you hit this, you will be handed a button which, when it is clicked,  will open up an Event Player in which the recording can be played back."
+msgstr "та үүнийг дарснаар, товшсоноор тоглуулагч нээгдэх бөгөөд энэ горимд бичлэгийг тоглуулж болно"
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "Choose a version to restore"
+msgstr "сэргээлт хийх хувилбарыг сонгох"
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "no versions available, sorry"
+msgstr "уучлаарай, ямар ч хувилбар алга."
+
+#: Morphic-Mentoring,EventRecordingSpace>>parseEventTape,EventRecordingSpace>>shrinkTape
+msgid "nothing recorded yet"
+msgstr "юу ч бичигдээгүй байна"
+
+#: Morphic-Mentoring,EventRecordingSpace>>populateControlsPanel
+msgid "Hit ESC to stop recording"
+msgstr "ESC –ийг дарж бичлэгийг зогсооно"
+
+#: Morphic-Mentoring,EventRecordingSpace>>presentHelp,EventRecordingSpace_class>>defaultNameStemForInstances,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Event Theatre"
+msgstr "Үйл явдлын Театр-Хүрээлэн"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Iconic button"
+msgstr "икон хэлбэрийн товчлуур"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Textual button"
+msgstr "текст товчлуур"
+
+#: Morphic-Mentoring,EventRecordingSpace>>setBalloonHelp
+msgid "Edit the balloon help to be supplied for playback buttons made for this event movie"
+msgstr ""
+
+#: Morphic-Mentoring,EventRecordingSpace>>setCaption
+msgid "Your Title Goes Here"
+msgstr "гарчиг энд эхэлнэ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr "талстан програмчилалд хэрэглэх товчлуур: түүний скрипт нь түүний агуулж байгаа тоглох талбарын арга болж өгнө"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A device for making sound recordings."
+msgstr "Дуу бичлэгийн төхөөрөмж."
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "A joystick-like control"
+msgstr "Жоистик маягийн удидлага"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A multi-paged structure"
+msgstr "Олон-хуудаст бүтэц"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "A place for assembling parts or for staging animations"
+msgstr "Жижиг хэсгүүдийг нэгтгэх эсвэл тайзнаа амилуулах газар"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A place for storing alternative pictures in an animation, etc."
+msgstr "Амилуулахад хэрэглэгдэх алтернатив зураг хадгалах газар"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A rectangle"
+msgstr "Тэгш өнцөгт"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A slider for showing and setting numeric values."
+msgstr "Тоон утгыг харуулах болон тогтоох зориулалттай Гүйдэг жижиг цонх-слайдер"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A star"
+msgstr "Од"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool for discarding objects"
+msgstr "Объектыг цуцлах Хэрэгсэл"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool listing all the scripted objects in the project."
+msgstr "төсөл байгаа бичгээр илэрхийлэгдэх бүх объектын жагсаалтыг харуулах хэрэгсэл"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool that lets you browse the catalog of available objects"
+msgstr "Энэ хэрэгслээр та бэлэн байгаа объектуудын каталогийг хайж болно "
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "All Scripts"
+msgstr "бүх бичиглэл"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "An ellipse or circle"
+msgstr "эллипс эсвэл дугуй"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Book"
+msgstr "Ном"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,SimpleButtonMorph_class>>defaultNameStemForInstances
+msgid "Button"
+msgstr "ТОвчлуур"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Holder"
+msgstr "Тогтоогч"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "Joystick"
+msgstr "Жоистик"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Object Catalog"
+msgstr "Объектын Каталог"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Players"
+msgstr "Тоглогчид"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "Playfield"
+msgstr "Тоглолтын талбай"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,RectangleMorph_class>>descriptionForPartsBin
+msgid "Rectangle"
+msgstr "Тэгш өнцөгт"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Slider"
+msgstr "Жижиг Гүйгч Цонх"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Sound Recorder"
+msgstr "Дуу Бичигч"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Star"
+msgstr "Од"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Stop, Step, and Go buttons for controlling all your scripts at once.  The tool can also be \"opened up\" to control each script in your project individually."
+msgstr "Зогс, Алхам, Яв товчлуур  нь таны бүх бичигт объектийг удирдана. Түүнчлэн энэ хэрэгслээр бичигт объект тус бүрийг удирдаж болно"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>nonwrappingPrototype,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text"
+msgstr "Текст"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you desire."
+msgstr "Та хүссэн зүйлдээ оруулан засварлаж болох Текст"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Trash"
+msgstr "Хогийн сав"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarSuppliesFlapTab,InteriorSugarNavBar>>toggleSupplies
+msgid "Supplies"
+msgstr "Нөөц-хангамж"
+
+#: Morphic-Mentoring,EventRecordingSpace>>usingVoiceString
+msgid "record voice during event recording"
+msgstr "үйл явдлыг бичиж байхдаа дууг бичих"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "allows you to supply a precise scale-factor manually."
+msgstr "нарийвчилсан масштаблалтыг гараар хийх боломжийг танд олгоно"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "change scale..."
+msgstr "масштабгы өөрчлөх"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "normally not necessary, but if you suspect that edits you have made in this event roll have not been fully appreciated by the event theatre, choose this to force the event theatre to reflect what you see in the event roll."
+msgstr "Хэвийн үед шаардлагагүй хэдий ч, хэрэв таны хийсэн засваруудыг  үйл явдлын театр бүрэн үнэлээгүй байж магадгүй мэт танд санагдаж байгаа бол үүнийг сонгож үйл явдал хөврүүлэгч дотор юу харахаа тодруулж болно.  "
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "retrofit to event-theatre"
+msgstr "үйл явдлын театрт хамаарах өөрчлөлт"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "allows you to back up to any earlier version of the event tape."
+msgstr "үйл явдлын туузны дурын хуучин хувилбарыг хадгалах боломжийг танд олгоно"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- change the definition of this menu."
+msgstr "шалгалт-- энэ цэсний тодорхойлолтыг өөрчлөх"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- open an Inspector on this event roll"
+msgstr "шалгалт— энэ үйл явдлын Шалгагчийг нээх"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the red roll cursor"
+msgstr "шалгалт- улаан хуйларсан зурсорыг шинэчлэн сэргээх"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the scrollbar"
+msgstr " шалгалт- хөврүүлэгчийг шинэчлэн сэргээх "
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "Event-Roll Options"
+msgstr "Үйл явдал-Хөврүүлэх опци"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update cursor"
+msgstr "курсорыг шинэчлэн сэргээх"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update scrollbar"
+msgstr "хөврүүлэгчийг шинэчлэн сэргээх"
+
+#: Morphic-Mentoring,EventRollMorph>>changeScale
+msgid "Milliseconds per pixel [currently "
+msgstr "нэг пикселд харгалзах миллисекунд"
+
+#: Morphic-Mentoring,EventRollMorph>>helpString
+msgid ""
+"An Event Roll is a used to visualize and edit the score, or \"tape\", of an Event Theatre's \"event movie\".\n"
+"\n"
+"The Roll shows three \"tracks\", one for all Mouse events, one for Keyboard events, and one for all other events, such as sound.\n"
+"\n"
+"You can *remove* any item from an event roll by just picking it up with the mouse and dropping it anywhere outside the roll (such as on the desktop or in the trash-can.)  If in doubt about the effect of removing an item, you can put it on the desktop, play the revised tape, then pick up the event from the desktop and drop it back near where you found it in the event roll, and replay again to compare.\n"
+"\n"
+"You can *reposition* any item in an event roll by picking it up with the mouse and dropping it anywhere else in the roll.  CAUTION:  Items in the mouse-event track should not be dropped such that they overlap -- see caveat below under \"Tips\".\n"
+"\n"
+"You can drag various kinds of items *into* the roll.  For example, you can drop a \"Morph\" or a \"Tile\" obtained from a SoundRecorder, and you can drop a \"button\" representing another event-recorded sequence (though it is not at the moment recommended to do the latter.)  One straightforward way of adding voiceovers to an existing event recording is to play back the recording while selectively making individual snippets of voice recordings using a separate, standard Squeak SoundRecording tool.  After you are satisfied with a recording, obtain a \"morph\" from the sound-recording tool, and position it as desired in the event roll.\n"
+"\n"
+"You can *resize* items in the \"mouse\" track of an event roll.  When you stretch or shrink a mouse-sequence, the events within the sequence get remapped linearly within the duration represented by the new size of the sequence as seen in the event roll.  [CAUTION:  Do not resize a mouse item such that it will overlap an adjacent one.  It is a bug that this is even allowed.]\n"
+"\n"
+"In addition to adding separately-recorded voiceovers using the mechanism described in item 3 above, there is a built-in voiceover mechanism in the Event Theatre.  Whenever you are playing back an existing event-recording in an Event Theatre, a \"Record Voiceover\" button will appear.  If you press this, the playback of the event recording will continue and you can record a voiceover to go with any portion you wish.  When you are done recording a snippet, you can hit the \"stop recording voiceover\" button; playback will continue, and you can subsequently, on this pass or any future one, add more voiceover snippets.  To remove a voiceover snippet, simply drag it out of the event roll; to reposition it, simply pick it up with the mouse and drop it back into the event roll at the desired position.\n"
+"\n"
+"When you make a change in an Event Roll, it will immediately change the tape of the Event Theatre, so that when you replay the event-movie you will immediately see see the change.  If you are unhappy with the change, there is a one-level \"undo\" available which will revert the EventTheatre to its state before the last edit you made in the EventRoll.  There is also a \"deeper\" level of \"undo\" available that will revert the EventTheatre (and hence the associated EventRoll) to the initial state they were in when you first launched the event roll.\n"
+"\n"
+"\n"
+"Keyboard Track\n"
+"\n"
+"You can reposition or delete any keyboard-track item.\n"
+"\n"
+"Color conventions in the keyboard track: (These will change soon!)\n"
+"\n"
+"\tWhite\tSimple lower-case character, no modifier key pressed\n"
+"\tRed\t\tShift-key pressed\n"
+"\tGreen\tAlt-key pressed\n"
+"\tYellow\tControl-key pressed\n"
+"\n"
+"\tYellow\tA \"space\" character\n"
+"\tBlue\t\tA \"backspace\" character\n"
+"\n"
+"Unprintable characters are shown in red with the ascii value displayed, e.g. #13 for a \"return\" character.\n"
+"\n"
+"*Important Tips*\n"
+"\n"
+"(1)  To get the halo on an object inside an EventRoll, hold down the SHIFT key as you halo-click on the object.\n"
+"\n"
+"(2)  DO NOT reposition or resize mouse-track items such that any two of them overlap, since this will result in the events represented by the two items getting co-mingled in such a way that they you will never be able to separate them again, and the mixture will have crazy results.  It is a bug that you are allowed to drop mouse-track items such that they overlap.  So please, DO NOT DO IT!  If by accident you do, you might be interested in trying out some of the revert mechanisms in the system.\n"
+msgstr ""
+"Үйл явдал хөврүүлэгч нь оноог үзүүлэх, засварлахад хэрэглэгдсэн Театрын  “кино”-ны “тууз”  юм. \n"
+"\n"
+"Хөврүүл нь, нэг нь Хулганы бүх үйлдэлд, нөгөө нь Гарны үйлдэлд эцсийнх нь бусад, жишээ нь дуу, үйлдэлд зориулагдсан гурван “зам”-г харуулдаг.\n"
+"\n"
+"Үйл явдал хөврүүлэгчийн дурын зүйл-ангийг хулганаар өргөж аваад хөврүүлийн гадна талд буулгах замаар арилгаж чадна. Хэрэв энэ үйлдэлдээ эргэлзэж байгаа бол авсан зүйлээ дэлгэцийн дэвсгэр дээр тавьж болох ба тоглуулж дуусаад эргүүлж авсан Үйл явдлын хөврүүлэгчийн дотор нь ойролцоо буулгана. \n"
+"\n"
+"Үйл явдал хөврүүлэгчийн дурын зүйл-ангийн байрлалыг өөрчилж болно. Гэхдээ, хулганаар өргөж авсан зүйлээ хөврүүлээс өөр газарт буулгана. \n"
+"\n"
+"Анхаар: хулгана-үйл явдал замын зүйл-ангиудыг давхаруулан буулгасан байх ёсгүй. Доорх анхааруулгыг үз. \n"
+"\n"
+"Төрөл бүрийн зүйл-ангийг та хөврүүлэгч рүү чирч оруулж болно. Жишээ нь, ДууБичигчээс авсан “Морф” эсвэл “Гарчиг” –г буулгах, өөр үйл явдлын дарааллыг агуулсан “товчлуур” –г буулгах-унагахыг та хийж чадна. Одоо байгаа үйл явдлын бичлэгт дуугдээрээснь-г нэмэх нэг шууд арга нь Squeak-ийн ДууБичлэгийн стандарт хэрэгслийг ашиглан бичлэгийг тоглож байх үед хоолойн хэсгүүдийг бичих юм. Бичлэг амжилттай болсон гэж үзвэл дуу-бичлэгийн хэрэгслээс “морф”-г авч үйл явдал хөврүүлэгч дотор байрлуулна. \n"
+"\n"
+"Үйл явдал хөврүүлэгчийн “хулгана” –ы замын зүйл-ангийн хэмжээг өөрчилж болно. Хулгана-дараалалыг татаж дэлгэх эсвэл шахах үед энэ дараалал дахь үйл явдлууд нь шугаман өөрчлөлттөйгөөр  үйл явдал хөврүүлэгчид харуулснаар дахин дүрслэгдэнэ. Шинэ хэмжээгээр дүрслэгдэх хязгаар дотор шугаман өөрчлөгдөнө. Хулганы зүйл ангийн хэмжээг хажуугийн объекттойгоо давхарлаж байхаар өөрчилж болохгүй. Эндээс алдаа үүснэ. \n"
+"\n"
+"3 дахь зүйлд авч үзсэн механизмыг хэрэглэн тусдаа-бичигдэх дуу нэмэх аргын хувьд нэмж хэлэхэд, ҮйлЯвдлынТеатрт суурилуулсан дуугдээрээснь механиз бий. ҮйлЯвдлынТеатрт байгаа бичлэгийг тоглуулах бүр “Дуугдээрээснь Бичих” товчлуур гарч ирнэ. Үүнийг дарснаар, та хүссэн хэмжээгээрээ дуугаа дээрээс нь тоглолтонд оруулан бичиж болно. Хэсэг бичлэг хийгээд зогсох үедээ “дуудээрээсбичлэгзогсоо” товчлуурыг дарна. Энэ үед тоглолт үргэлжилсэн хэвээр байна. Оруулсан дуудээрээснь –г арилгахын тулд ердөө үйл явдлын хөврүүлэгчээс түүнийг чирч гарга. Түүний байрлалыг өөрчлөхөөр бол хулганаар өргөж аваад үйл явдлын хөврүүлэгч дотор хүссэн газраа буулга. \n"
+"\n"
+"Үйл явдал хөврүүрд өөрчлөлт хийх үед тань энэ хөврүүр тэр дор нь Үйл явдлын Театрын туузыг солино. Тэгэхээр та үйл явдлын киног тоглуулахдаа тэр дор нь өөрчлөлтийг харна. Энэ өөрчлөлт танд таалагдахгүй байгаа бол нэг төвшин “буцаах” байдаг бөгөөд энэ нь ҮйлЯвдлынХөврүүлэгчид хийсэн өөрчлөлтийн өмнөх төлөвт ҮйлЯвдлынТеатрыг буцаадаг. Үүнээс гадна илүү  “гүн” “буцаах” төвшин байх ба энэ нь ҮйлЯвдлынХөврүүлэгчийг эхлүүлэх үеийн төлөвт ҮйлЯвдлынТеатрыг оруулна. \n"
+"\n"
+"\n"
+"Гарны ??????\n"
+"\n"
+"Гарны дурын зүйл-ангийг байрлалаар өөрчилж, устгаж болно.\n"
+"\n"
+"Гаран дахь өнгөний цогцолбор: (удахгүй үүнийг солино.)\n"
+"\n"
+"Цагаан энгийн жижиг үсгийн тэмдэгт, өөрчлөх товчлуур дарагдаагүй\n"
+"Улаан шифт-товчлуур дарагдав\n"
+"Ногоон /Алт-товчлуур дарагдав\n"
+"Шар удирдлага-товчлуур дарагдав\n"
+"\n"
+"Шар А “алхам” тэмдэгт\n"
+"Хөх А “буцах алхам” тэмдэгт\n"
+"\n"
+"Хэвлэгддэггүй тэмдэгтүүдийг улаанаар ASCII утгатай нь харуулав. \n"
+"\n"
+"Чухал Зөвлөмж\n"
+"\n"
+"(1) EventRoll дотор ямар нэг объектод титэм авахдаа, шифт товчлуурыг дарж байгаад объект дээрээ товш.\n"
+"\n"
+"(2)  Дурын хоёр хулгана-замыг солбицон давхцаж байхаар байрлуулах эсвэл хэмжээг өөрчлөх ажиллагааг БҮҮ хий, учир нь дээрх хоёроор илэрхийлэгдсэн үйл явдлын тохиолдолд ч энэ нь нөлөөлөх ба дахин салгах боломжгүй болохоос гадна энэхүү холимог нь хэлэхийн аргагүй үр дүнд хүргэнэ. Иймд ҮҮНИЙГ БИТГИЙ ХИЙ. Хэрэв санамсаргүйгээр ийм зүйл болсон бол энэ системд дээрх үйлдлийг буцаах механизм байгаа эсэхийг та сонирхох байлгүй.  \n"
+
+#: Morphic-Mentoring,EventRollMorph>>makeButtonsPanel
+msgid "Abandon  this piano roll.  If you have made changes and wish them to be propagated back to the originating event-theatre, be sure to do that before abandoning the piano roll."
+msgstr "пианино –г орхих. Хэрэв та өөрчлөлт хийчихээд энэ өөрчлөлтөө анхны үйл явдлын театрт буцаан тараах гэж байгаа бол пианиног болихоос өмнө үүнийгээ хий"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "keyboard"
+msgstr "компьютерийн гар"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "media"
+msgstr "орчин"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "mouse"
+msgstr "хулгана"
+
+#: Morphic-Mentoring,EventRollMorph>>presentHelp
+msgid "Event Roll"
+msgstr "Үйл явдал Хөврүүлэх"
+
+#: Morphic-Mentoring,EventTimeline>>defaultNameStemForInstances
+msgid "event timeline"
+msgstr "үйл явдлын "
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "өнгө"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "Энэ хавхагийг нураа"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "өндөр..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "тод өнгө..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "анхдагч саарал харагдалтыг хэрэглэх"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr " анхдагч ногоон харагдалтыг хэрэглэх "
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>changeNaviHeight
+msgid "new height of the bar"
+msgstr "баарны шинэ өндөр"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>edgeString
+msgid "cling to edge... (current: {1})"
+msgstr "ирмэгтэй зуурах...(одоо:{1})"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>finishInitialization
+msgid "Navigator Flap"
+msgstr "Чиглүүлэгчийн Хавхаг"
+
+#: Morphic-Mentoring,KeyboardEventMorph>>addCustomMenuItems:hand:
+msgid "Change character"
+msgstr "тэмдэгтийг өөрчлөх"
+
+#: Morphic-Mentoring,KeyboardEventMorph>>changeCharacter
+msgid "New character? "
+msgstr "шинэ тэмдэг үү?"
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play"
+msgstr "тоглуул"
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play the event in isolation."
+msgstr "энэ үйл явдлыг тусгаарлан тоглуулах"
+
+#: Morphic-Mentoring,MentoringEventRecorder>>caption
+msgid "Untitled"
+msgstr "гарчиггүй"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "graphical view"
+msgstr "графикаар харах"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Lets you visualize all the individual events that constitute this sequence in an onionskin overlay to the event theatre."
+msgstr ""
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Presents the constituent events of this sequence in a scrolling list for your inspection."
+msgstr ""
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "textual view"
+msgstr "текстээр харах"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "imprint HINT"
+msgstr ""
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "open for editing"
+msgstr "засварлахаар нээх"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show caption"
+msgstr "гарчигийг харуулах"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show final picture"
+msgstr "төгсгөлийн зургийг харуулах"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show initial picture"
+msgstr "эхний зургийг харуулах"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtButtonPositionString
+msgid "playback at button position"
+msgstr "товчлуурын байрлалаас тоглуулах"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtContainerOriginString
+msgid "playback at container origin"
+msgstr "агуулахын эхнээс тоглуулах"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtScreenCenterString
+msgid "playback at screen center"
+msgstr "дэлгэцийн төвд тоглуулах"
+
+#: Morphic-Mentoring,PlaybackInvoker>>postPlaybackImageFeatureString
+msgid "post-playback feature"
+msgstr "тоглолтын дараахи онцлогууд"
+
+#: Morphic-Mentoring,TextualEventSequenceDisplayer>>mouseEventSequenceMorph:
+msgid "Each line represents an event in the event sequence I represent"
+msgstr " мөр бүр нь, миний үзүүлж байгаа үйл явдлын дарааллын тохиолдол бүрийг харуулдаг "
+
+#: Morphic-Mentoring,Worldlet>>initialize
+msgid "screen"
+msgstr "дэлгэц"
+
+#: Morphic-Menus,MenuIcons_class>>iconForMenuItem:
+msgid "undo (z)"
+msgstr "буцаан хүчингүй болгох(z)"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add item..."
+msgstr "... зүйл нэмэх"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add line"
+msgstr "шулуун нэмэх"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add title..."
+msgstr "гарчиг нэмэх"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "detach submenu"
+msgstr "дэд цэсийг ялгах"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set target..."
+msgstr "байг тогтоох "
+
+#: Morphic-PartsBin,PartsWindow>>addCustomMenuItems:hand:
+msgid "parts window controls..."
+msgstr "Деталийн цонхны удирдлага"
+
+#: Morphic-PDA,MonthMorph>>addCustomMenuItems:hand:
+msgid "jump to year..."
+msgstr "он руу шилжих"
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Choose another year"
+msgstr "өөр он сонгох"
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Type in a year"
+msgstr "оныг шивж оруулах"
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "A Personal Digital Assistant"
+msgstr "Хувийн Дижитал Туслагч"
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "PDA"
+msgstr ""
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy list to clipboard"
+msgstr "жагсаалтыг санах ойд хуул"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy selection to clipboard"
+msgstr "сонголтыг санах ойд хуул"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "list font..."
+msgstr "фонтийг жагсаа"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>setListFont
+msgid "Choose the font for this list"
+msgstr "энэ жагсаалтын фонтыг сонго"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>accept
+msgid ""
+"Caution! This method may have been\n"
+"changed elsewhere since you started\n"
+"editing it here.  Accept anyway?"
+msgstr "Анхааруулга! Энэ арга үүнийг энд засч эхлэхэд өөрчлагдаж магадгүй. Ямар ч тохиолдолд зөвшөрх үү?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>promptForCancel
+msgid ""
+"Changes have not been saved.\n"
+"Is it OK to cancel those changes?"
+msgstr "Өөрчлөлтүүдийг хадгалсангүй. Өөрчлөлтийг болих нь зөв үү?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>toggleAnnotationPaneSize
+msgid ""
+"Move cursor farther from\n"
+"this point to increase pane.\n"
+"Click when done."
+msgstr "Самбарыг ихэсгэхийн тулд курсорыг холхон байрлуулаад дараа нь товш."
+
+#: Morphic-Support,SelectionMorph_class>>defaultNameStemForInstances
+msgid "Selection"
+msgstr "СОНГОЛТ"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align bottom edges"
+msgstr "доод ирмэгийг тэгшлэх"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers horizontally"
+msgstr "төвийг хэвтээгээр тэгшлэх"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers vertically"
+msgstr "төвийг босоогоор тэгшлэх"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align left edges"
+msgstr "зүүн ирмэгийг тэгшлэх"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align right edges"
+msgstr "баруун ирмэгийг тэгшлэх"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align top edges"
+msgstr "дээд ирмэгийг тэгшлэх"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute horizontally"
+msgstr "хэвтээгээр тархаах"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute vertically"
+msgstr "босоогоор тархаах"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a column"
+msgstr "багананд байрлуулах"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a row"
+msgstr "мөрөнд байрлуулах"
+
+#: Morphic-Support,SelectionMorph>>externalName
+msgid "Selected {1} objects"
+msgstr "{1} объект сонгогдов"
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "A scrolling data field which will have a different value on every card of the background"
+msgstr " ар-дэвсгэрийн карт бүрд хамаарах утгыг агуулсан өгөгдлийн гүйдэг талбар"
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "Scrolling Field"
+msgstr "Хөвөрдөх Талбар"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "bold"
+msgstr "бүдүүн, бадируун"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "centered"
+msgstr "голлосон "
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "italic"
+msgstr "итали маягийн"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "justified"
+msgstr "тэгшитгэх"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "left flush"
+msgstr "зүүн тийш шахаж байрлуулах"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "narrow"
+msgstr "хавчиг нарийн"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "normal"
+msgstr "энгийн"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "right flush"
+msgstr "баруун тийш шахаж байрлуулах"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "struck out"
+msgstr "цохилттой "
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "underlined"
+msgstr "доогуур зураастай "
+
+#: Morphic-TrueType,TTSampleFontMorph>>getSmoothingLevel
+msgid "more smoothing"
+msgstr "бүүр гөлгөр"
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "A short text in a beautiful font.  Use the resize handle to change size."
+msgstr "Гоёмсог богино бичвэрийн хэмжээг өөрчлөхөд хэрэглэ"
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "TrueType banner"
+msgstr "баннер True Type"
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "edit contents..."
+msgstr "агуулгыг засварлах..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "how to find more fonts..."
+msgstr "Шинэ үсэг яаж олох вэ..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "load font from web..."
+msgstr "үсгийн санг вебээс татах..."
+
+#: Morphic-Widgets,BalloonMorph_class>>chooseBalloonFont
+msgid ""
+"Select the font to be\n"
+"used for balloon help"
+msgstr "Төвгөр тайлбарт хэрэглэгдэх фонтыг сонго"
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "Clipboard"
+msgstr "санах ой"
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "This object will always show whatever is on the text clipboard"
+msgstr "текстэн clipboard-д юу байгааг энэ объект нь үргэлж харуулна "
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "do not stay up"
+msgstr "битгий зогсоод бай"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "stay up"
+msgstr "бос "
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update continuously"
+msgstr "тасралтгүй сэргээн шинэчлэх"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update only at end"
+msgstr " зөвхөн төгсгөлд нь сэргээн шинэчлэх "
+
+#: Morphic-Widgets,ColorPickerMorph>>delete
+msgid "color change"
+msgstr "өнгөний өөрчлөлт"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "adjust translucency"
+msgstr "    тохируулах"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "restore original color"
+msgstr "оригинал өнгийг сэргээх"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "shows selected color"
+msgstr "сонгосон өнгийг харуулна"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "dismiss color picker"
+msgstr "өнгөний холимогийг болиулах"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "move this color-picker to another position, and keep it on the screen until dismissed with the X button  "
+msgstr "өнгөний холимогийг өөр газар зөөх ба Х товчлуураар болиултал дэлгэцэнд дээр байлгах"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "open a full property sheet"
+msgstr "Бүх онцлогийн хуудсыг нээх"
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Forward direction (hold down shift key and drag to change it)"
+msgstr ""
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Rotation center (hold down the shift key and drag to change it)"
+msgstr "эргэлтийн төв. (шифт товчлуурыг дарж байгаад ичр түүнийг өөрчилнө)"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Really throw this away"
+msgstr "үүнийг үнэхээр хаях юм уу?"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Um, no, let me reconsider"
+msgstr "За, би дахин нэг бодъё."
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Yes"
+msgstr "Тийм"
+
+#: Morphic-Widgets,HaloMorph>>startGrow:with:,HaloMorph>>startScale:with:
+msgid "resize "
+msgstr "хэмжээг өөрчлөх"
+
+#: Morphic-Widgets,HaloMorph>>startRot:with:
+msgid "rotate "
+msgstr "эргүүлэх"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Choose which physical device is associated with the joystick."
+msgstr "жойстикт ямар төхөөмрөмж харгалздаг болохыг сонго"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Governs whether this joystick should track the motions of a real, physical joystick attached to the computer."
+msgstr "компьвютерт холбогдсон бодит жойстикийн хөдөлгөөнйиг энэ жойстик даган удирдана"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set X range"
+msgstr "Х хязгаарыг тавь"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set Y range"
+msgstr "Ү хязгаарыг тавь"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "When auto-center is on, every time you let go of the Joystick knob, it springs back to the neutral position at the center of the device"
+msgstr "авто- төвлөрөл тавиатай үед Жойстикийг хөдөлгөх бүр эргэж төвийн байраладаа очих боломжийг өгнө"
+
+#: Morphic-Widgets,JoystickMorph>>autoCenterString
+msgid "auto-center"
+msgstr "авто төвлөрөл"
+
+#: Morphic-Widgets,JoystickMorph>>chooseJoystickNumber
+msgid "Joystick device number (currently {1})"
+msgstr "жойстик төхөөрөмжийн дугаар"
+
+#: Morphic-Widgets,JoystickMorph>>joystickNumberString
+msgid "set real joystick number (now {1})"
+msgstr "бодит жойстикийн дугаар"
+
+#: Morphic-Widgets,JoystickMorph>>realJoystickString
+msgid "track real joystick"
+msgstr "бодит жойстикийг явуулах"
+
+#: Morphic-Widgets,JoystickMorph>>setXRange
+msgid "Type the maximum value for the X axis"
+msgstr "Х тэнхлэгийн хамгийн их утгыг шивж оруулах"
+
+#: Morphic-Widgets,JoystickMorph>>setYRange
+msgid "Type the maximum value for the Y axis"
+msgstr " Ү тэнхлэгийн хамгийн их утгыг шивж оруулах "
+
+#: Morphic-Widgets,JoystickMorph>>trackRealJoystick
+msgid "Number of joystick to track?"
+msgstr "ажиллуулах жойстикийн тоо"
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen color"
+msgstr "үзэгний өнгө"
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen size"
+msgstr "үзэгний хэмжээ"
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress color..."
+msgstr "өнгийг сайжруулах"
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress value..."
+msgstr "утгыг өсгөх"
+
+#: Morphic-Widgets,ProgressBarMorph>>changeProgressValue:
+msgid "Enter new value (0 - 1.0)"
+msgstr ""
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "A rectangle which continuously reports its size in pixels"
+msgstr "өөрийнхөө хэмжээг тасралтгүй мэдээлж байдаг тэгш өнцөгт"
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "Ruler"
+msgstr "жолооны хүрд"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change action selector"
+msgstr "үйл ажиллагааны сэлгэгчийг өөрчлөх"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change arguments"
+msgstr "хувсагчийг өөрчлөх"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change when to act"
+msgstr "үйлдлийн үед өөрчлөх"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "clear target"
+msgstr "байг цэвэрлэ"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page sound"
+msgstr "хуудасны дууг тавих"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page visual"
+msgstr "хуудасны дүрс тавих"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set target"
+msgstr "зорилго суулгах"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addLabelItemsTo:hand:
+msgid "change label"
+msgstr "тэмдэглээг өөрчлөх"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr "Энэ товчлуурыг дараатай байхад илгээх гэж байгаа сонгуурыг шивж оруулна уу "
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonDown"
+msgstr "товчлуурДоош"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonUp"
+msgstr "товчлуурДээш"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr "Дараахи нөхцлүүдээс нэгийг сонго"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "startDrag"
+msgstr "Чирэлт Эхлэх"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "whilePressed"
+msgstr "Дарагдсан үед"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+"Энэ товчлуурыг давталттайгаар дараастай байхад илгээх гэж байгаа ар\n"
+"гументыг шивж оруулна уу "
+
+#: Morphic-Widgets,SimpleButtonMorph>>setLabel
+msgid "Please enter a new label for this button"
+msgstr "энэ товчлуурт шинэ шошго өгнө үү"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setTarget
+msgid "Enter an expression that create the target"
+msgstr "байг үүсгэх илэрхийллийг оруул"
+
+#: Morphic-Widgets,TinyPaint>>addCustomMenuItems:hand:
+msgid "fill"
+msgstr "дүүргэх"
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "decimal places..."
+msgstr "аравтын бутархай ..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font size..."
+msgstr "фонтын хэмжээ"
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font style..."
+msgstr "фонтын стиль"
+
+#: Morphic-Widgets,UpdatingStringMorph>>setPrecision
+msgid "How many decimal places? (currently {1})"
+msgstr "хэдэн раравтын орон байна? "
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu
+msgid "change name..."
+msgstr "нэрийг соль"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make closable"
+msgstr "хаагддаг болгох"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make draggable"
+msgstr "чирэгддэг болгох"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make next-to-topmost"
+msgstr "дараагийнхийг хамгийн дээд болгох"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make unclosable"
+msgstr "хаагддаггүй болгох"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make undraggable"
+msgstr "чирэгддэггүй болгох"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,Morph>>addStandardHaloMenuItemsTo:hand:,SystemWindow>>buildWindowMenu
+msgid "send to back"
+msgstr "ар тал руу буцаах"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createAcceptButton
+msgid "Accept(s)"
+msgstr "зөвшөөрөх "
+
+#: Morphic-Windows,FillInTheBlankMorph>>createCancelButton
+msgid "Cancel(l)"
+msgstr "болих"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createQueryTextMorph:
+msgid "query"
+msgstr "лавлах"
+
+#: Morphic-Windows,PreDebugWindow>>setBalloonTextForCloseBox
+msgid "abandon this execution by closing this window"
+msgstr "энэ цонхыг хааж гүйцэтгэлээс татгалзах"
+
+#: Morphic-Windows,ProjectViewMorph_class>>defaultNameStemForInstances
+msgid "ProjectView"
+msgstr "ТөсөлҮзэгч"
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "төсөл маягаар ачаалах"
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "тухайн file-аас төслийг нээх"
+
+#: Morphic-Windows,ProjectViewMorph>>balloonText
+msgid ""
+"Click here to enter the\n"
+"project named\n"
+"\"{1}\""
+msgstr ""
+"Төслийн нэрийгоруулахын тулд энд товш\n"
+"\"{1}\""
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "cancel - do not delete anything"
+msgstr "болих—юу ч аригахгүй"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid ""
+"Do you really want to delete the\n"
+"project named {1}\n"
+"and all its contents?"
+msgstr "Төслийн нэр болон түүний агуулгыг үнэхээр устгах уу?"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "no - delete icon but keep the project"
+msgstr "үгүй—иконыг устгах боловч төслийг байлга"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "yes - delete icon and delete the project"
+msgstr "тийм—икон бболон төслийг устга"
+
+#: Morphic-Windows,ProjectViewMorph>>editTheName:
+msgid "The project is not present and may not be renamed now"
+msgstr "төсөл нь байхгүй тул нэрийг өөрчлөх боломжгүй"
+
+#: Morphic-Windows,ProjectViewMorph>>enter
+msgid "Project not found"
+msgstr "төсөл олдсонгүй"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "ENTER ACTIVE"
+msgstr "ИДЭВХЖИЛТИЙГ ОРУУЛ"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "enter this project"
+msgstr "энэ төслийг оруул"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "expunge this project"
+msgstr "энэ төслийг хас"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "Project Named \\\"{1}\""
+msgstr "төслийн нэр"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH to a different server"
+msgstr "өөр серверт зарла"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH (also saves a local copy)"
+msgstr "ЗАРЛА (хуулбарыг өөртөө авч үлдэнэ.)"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "see if server version is more recent"
+msgstr "серверийн хувилбар шинэхэн эсэхийг үзэх"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar inboard"
+msgstr "хөврүүлэгчийг дотор байрлуул"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar retractable"
+msgstr "зөөвөрлөдөг хөврүүлэгч болгох"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on left"
+msgstr "зүүн тийш хөврүүл"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on right"
+msgstr "баруун тийш хөврүүл"
+
+#: Morphic-Windows,SystemWindow>>addCustomMenuItems:hand:
+msgid "edit label..."
+msgstr "тэмдэглээг зас"
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "change title..."
+msgstr "гарчигийг өөрчил"
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "full screen"
+msgstr "бүтэн дэлгэц"
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "window color..."
+msgstr "цонхны өнгө"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createCollapseBox
+msgid "collapse this window"
+msgstr "энэ цонхыг хагал"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand
+msgid "expand this window"
+msgstr "энэ цонхыг дэлгэ"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createExpandBox,SystemWindow>>expandBoxHit
+msgid "expand to full screen"
+msgstr "бүтэн дэлгэцээр дэлгэ"
+
+#: Morphic-Windows,SystemWindow>>createCloseBox
+msgid "close this window"
+msgstr "цонхыг хаа"
+
+#: Morphic-Windows,SystemWindow>>createMenuBox,SystemWindow>>initializeLabelArea
+msgid "window menu"
+msgstr "цонхны цэс"
+
+#: Morphic-Windows,SystemWindow>>expandBoxHit,SystemWindow>>expandBoxHit
+msgid "contract to original size"
+msgstr "анхны хэмжээнд болгох"
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "close window"
+msgstr "цонхыг хаа"
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "collapse/expand window"
+msgstr "цонхыг хагалах/дэлгэх "
+
+#: Morphic-Windows,SystemWindow>>initialize
+msgid "Untitled Window"
+msgstr "гарчиггүй цонх"
+
+#: Morphic-Windows,SystemWindow>>relabel
+msgid "New title for this window"
+msgstr "цонхонд шинэ гарчиг олгох"
+
+#: Morphic-Worlds,PasteUpMorph_class>>defaultNameStemForInstances
+msgid "playfield"
+msgstr "тоглолтын талбай"
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "Variable named \"{1}\"  in player named \"{2}\" changed to point to Dot"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "{1} item(s) fixed up"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "change the color or pattern of the desktop background that lies behind everything else on the screen."
+msgstr "компьютерийн дэлгэцийн арын фоны өнгө эсвэл загварын хэвийг  солих"
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "desktop color..."
+msgstr "арын өнгө "
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "its governing pen trails drawn within"
+msgstr " дотор нь зурагдсан үзэгний мөрийг удирдах "
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "pen trails..."
+msgstr "зэгний мөр "
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens down"
+msgstr "бүх үзгийг буулгах"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrowheads"
+msgstr "бүх үзэг сумантолгойг харуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrows"
+msgstr " бүх үзэг сумыг харуулах "
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show dots"
+msgstr " бүх үзэг цэгийг харуулна "
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show lines"
+msgstr " бүх үзэг шугамыг харуулна "
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens up"
+msgstr "бүх үзгийг өргөх"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "clear pen trails"
+msgstr "үзэгний мөрийг цэвэрлэх"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "if true, detailed movement of pens between display updates is ignored.  Thus multiple line segments drawn within a script may not be seen individually."
+msgstr "хэрэв үнэн бол, дэлгэцийг сэргээн шинэчлэх үед үзэгний нарийн хөдөлгөөнийг үл тооцно. Тэгэхээр, скрипт дотор зурагдсан олон тооны шугамууд харагдахгүй байж болно"
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "playfield options..."
+msgstr "тоглолтын талбайн опцууд"
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:
+msgid "send contents back to donor"
+msgstr "хандивлагчид агуулгыг буцаан илгээх"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define application view"
+msgstr "хэрэглээний үзэмжийг тодорхойлох"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define factory view"
+msgstr "үйлдвэрийн үзэмжийг тодорхойлох"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "expand"
+msgstr "тэлэх"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "reduce"
+msgstr "хумих"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show application view"
+msgstr " хэрэглээний үзэмжийг харуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show factory view"
+msgstr "үйлдвэрийн үзэмжийг харуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show whole world view"
+msgstr "бүхэл ертөнцийн үзэжмйиг харуулах  "
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "world scale and clip..."
+msgstr "орчны-ертөнцийн-хаанчлалын масштаб ба хавчаар"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>helpMenu
+msgid "about this system..."
+msgstr "энэ систмеийн тухай"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "authoring tools..."
+msgstr "зохиогчийн хэрэгсэл"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "display mode..."
+msgstr "дэлгэцэнд харуулах зам"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>appearanceMenu,TheWorldMenu>>helpMenu
+msgid "preferences..."
+msgstr "давуу онцлогууд"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "redraw screen (r)"
+msgstr "дэлгэцийг дахин зурах"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "world menu..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>assureNotPaintingElse:
+msgid ""
+"Sorry, you can only paint\n"
+"one object at a time"
+msgstr "Уучлаарай, нэг удаад та зөвхөн нэг л объектыг будаж чадна. "
+
+#: Morphic-Worlds,PasteUpMorph>>autoLineLayoutString
+msgid "auto-line-layout"
+msgstr "авто шугаман дэлгэмэл"
+
+#: Morphic-Worlds,PasteUpMorph>>buildDebugMenu:
+msgid "abandon costume history"
+msgstr "захиалгын түүхийг болих"
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Delete\\Keep"
+msgstr "уётгах\\байлгах"
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Hand is holding a Morph in its paste buffer:\\"
+msgstr "Гар нь өөрийнхөө буфферт байгаа Морфыг барьж байна:\\"
+
+#: Morphic-Worlds,PasteUpMorph>>closeUnchangedWindows
+msgid ""
+"Do you really want to close all windows\n"
+"except those with unaccepted edits?"
+msgstr "Зөвшөөрөгдөөгүй засвартайгаас бусад бүх цонхыг үнэхээр хаах уу?"
+
+#: Morphic-Worlds,PasteUpMorph>>defaultNameStemForInstances
+msgid "world"
+msgstr "ертөнц"
+
+#: Morphic-Worlds,PasteUpMorph>>deleteNonWindows
+msgid ""
+"Do you really want to discard all objects\n"
+"that are not in windows?"
+msgstr "Цонхонд байхгүй байгаа бүх объектыг үнэхээр устгах уу?"
+
+#: Morphic-Worlds,PasteUpMorph>>findWindow:,TheWorldMenu>>windowsMenu
+msgid "find window"
+msgstr "цонх хайх"
+
+#: Morphic-Worlds,PasteUpMorph>>griddingString
+msgid "use gridding"
+msgstr "торлолт хэрэглэх"
+
+#: Morphic-Worlds,PasteUpMorph>>gridVisibleString
+msgid "grid visible when gridding"
+msgstr "торлолтын үед тор нь харагдаж байх"
+
+#: Morphic-Worlds,PasteUpMorph>>indicateCursorString
+msgid "indicate cursor"
+msgstr "курсорыг харуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>innocuousName
+msgid "flap"
+msgstr "хавхаг"
+
+#: Morphic-Worlds,PasteUpMorph>>installFlaps
+msgid "Building Viewers..."
+msgstr "Үзүүлэгчийг бүтээх"
+
+#: Morphic-Worlds,PasteUpMorph>>isOpenForDragNDropString
+msgid "open to drag & drop"
+msgstr "чирч буулгахыг нээх"
+
+#: Morphic-Worlds,PasteUpMorph>>isPartsBinString
+msgid "parts bin"
+msgstr "деталийн сав"
+
+#: Morphic-Worlds,PasteUpMorph>>mouseOverHalosString
+msgid "mouse-over halos"
+msgstr "хулгана-титэм дээгүүр"
+
+#: Morphic-Worlds,PasteUpMorph>>originAtCenterString
+msgid "origin-at-center"
+msgstr "төв дэх эхлэл"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "add new card"
+msgstr "шинэ карт нэмэх"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "card und stack"
+msgstr "карт ба агуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "delete this card"
+msgstr "энэ картыг устгах"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "explain designations"
+msgstr "зориулалтыг тайлбарлах"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to next card"
+msgstr "дараагийн карт руу очих"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to previous card"
+msgstr "түрүүчийн карт руу очих"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show background objects"
+msgstr "дэвсгэрийн объектыг харуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show designations"
+msgstr "зориулалтыг харуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show foreground objects"
+msgstr "урд талын дэвсгэрийн объектуудыг харуулах"
+
+#: Morphic-Worlds,PasteUpMorph>>presentDesktopColorMenu
+msgid "desktop color"
+msgstr "дэвсгэрийн өнгө"
+
+#: Morphic-Worlds,PasteUpMorph>>putUpPenTrailsSubmenu
+msgid "pen trails"
+msgstr "үзэгний мөр"
+
+#: Morphic-Worlds,PasteUpMorph>>resizeToFitString
+msgid "resize to fit"
+msgstr "дүүргэх хэмжээг дахин өгөх"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec,PasteUpMorph>>setGridSpec
+msgid "Must be a Point with coordinates (for example 10@10)"
+msgstr "Координаттай Цэг байх ёстой ( жишээ нь 10@10)"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid origin (usually 0@0):"
+msgstr "Шинэ торны эхлэл (голдуу 0@0):"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid spacing:"
+msgstr "Шинэ торны орон зай-алхам :"
+
+#: Morphic-Worlds,PasteUpMorph>>showSourceKeyHit
+msgid "etoys source"
+msgstr "Электрон тоглоомын эх сурвалж "
+
+#: Morphic-Worlds,PasteUpMorph>>showThumbnailString
+msgid "show thumbnails"
+msgstr "хар зурагнуудыг үзүүл "
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "personalize..."
+msgstr "хувь хүнийх болгох.."
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "World"
+msgstr "Ертөнц"
+
+#: Morphic-Worlds,Presenter>>allKnownScriptSelectors
+msgid "script"
+msgstr "скрипт-программ"
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually,Presenter>>reportPlayersAndScripts
+msgid "there are no scripted players"
+msgstr "скриптээр бичигдсэн тоглогч алга"
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually
+msgid "there are no scripts in this project!"
+msgstr "энэ төсөлд скрипт огт алга"
+
+#: Morphic-Worlds,Presenter>>createStandardPlayer
+msgid "dot"
+msgstr "цэг"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid " scripts:"
+msgstr "скрипт:"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "All scripts in this project"
+msgstr "эн төсөл дэх бүх скриптүүд"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "named"
+msgstr "нэрлэгдсэн"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "'s"
+msgstr "с"
+
+#: Morphic-Worlds,StandardScriptingSystem>>removeFromSoundLibrary:
+msgid " tiles reverted to \"clink\""
+msgstr "”жингэнээ” –д буцсан талст"
+
+#: Morphic-Worlds,StandardScriptingSystem>>renameSound:newName:
+msgid " tile(s) changed to \""
+msgstr " .. болж өөрчлөгдсөн талстууд"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "1 if argument is positive, -1 if argument is negative, 0 if argument is zero."
+msgstr "аргумент эерэг бол 1, аргумент сөрөг бол -1, аргумент тэг бол 0"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "a randomly chosen integer between 1 and the argument"
+msgstr "1 ба энэ аргументийн утга хоёрын хоорондох санамсаргүй сонгосон бүхэл тоо"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "absolute value"
+msgstr "үнэмлэхүй утга"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in degrees, whose tangent is the argument"
+msgstr "градус нэгжтэй тангенс нь энэ аргумент байх өнцөг"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in radians, whose tangent is the argument"
+msgstr " радиан нэгжтэй тангенс нь энэ аргумент байх өнцөг "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "cube root of the argument"
+msgstr "аргументын куб язгуур"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "exponential (e to the power of the argument)"
+msgstr "экспоненциал (е тоог аргументын зэрэгт дэвшүүлэх)"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "logarithm, base 10"
+msgstr "10 суурьтай логарифм"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "natural logarithm"
+msgstr "натурал логарифм"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "square root of the argument"
+msgstr "аргументын квадрат язгуур"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument multiplied by itself"
+msgstr "өөрөөр нь үржүүлсэн аргумент"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument times itself, times itself again"
+msgstr "аргумент дахин аргумент ахиад"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer closest to the argument."
+msgstr "аргументэд хамгийн ойр бүхэл тоо"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer nearest to the argument toward zero"
+msgstr "тэг рүү чиглэлд аргументэд хамгийн ойр бүхэл тоо"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the negative of the argument"
+msgstr "аргументийн сөрөг утга"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of degrees equivalent to the argument which is assumed to be expressed in radians"
+msgstr "радианаар хэмжигдэх гэж байгаа аргументтай эквивалент градусын тоо "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of radians equivalent to the argument, which is expressed in degrees."
+msgstr " градусаар хэмжигдэх гэж байгаа аргументтай эквивалент радианы  тоо "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the product of all the whole numbers between 1 and the argument"
+msgstr "1 ба аргументын хооронд орших бүх тооны үржвэр "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trignometric sine, argument in degrees"
+msgstr "тригонометрын синус, аргумент нь градусаар"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in degrees"
+msgstr "тригонометрын косинус, аргумент нь градусаар"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in radians"
+msgstr " тригонометрын косинус, аргумент нь градусаар "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric sine, argument in radians"
+msgstr " тригонометрын синус, аргумент нь радианаар "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in degrees"
+msgstr " тригонометрын тангенс, аргумент нь градусаар "
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in radians"
+msgstr " тригонометрын тангенс, аргумент нь радианаар "
+

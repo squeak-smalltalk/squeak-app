@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:49-0000\n"
+"PO-Revision-Date: 2010-08-27 15:49-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Compression\n"
+
+
+#: Compression-Streams,GZipReadStream_class>>serviceDecompressToFile,GZipReadStream_class>>serviceDecompressToFile
+msgid "decompress to file"
+msgstr "задалж файл болгох"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install"
+msgstr "суулгах"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install into new change set"
+msgstr "өөрчлөлтийн шинэ багцад суулгах"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install the decompressed contents of the file as a body of code in the image: create a new change set and file-in the selected file into it"
+msgstr "дүрсэн дэх коодын их бие хэлбэрээр тухайн файлын задалсан агуулгыг суулгах: өөрчлөлтийн шинэ багцыг үүсгэж, ……  "
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "file in the entire decompressed contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr " агуулга "
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "файл доторх бүхэл файл"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "filein"
+msgstr "файл дотор"
+
+#: Compression-Streams,GZipReadStream_class>>serviceViewDecompress,GZipReadStream_class>>serviceViewDecompress
+msgid "view decompressed"
+msgstr "задалсаныг харах"
+
+#: Compression-Streams,GZipReadStream_class>>uncompressedFileName:
+msgid ""
+"{1}\n"
+"appears to be a compressed file.\n"
+"Do you want to uncompress it?"
+msgstr ""
+"шахсан файл байхаар гарч ирэх.\n"
+"Үүнийг задлах уу"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file"
+msgstr "файлыг шахах "
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file using gzip compression, making a new file"
+msgstr "gzip –ийг хэрэглэн файлыг шахах, шинэ файл үүсгэх"
+
+#: Compression-Streams,InflateStream>>upToEndWithProgressBar
+msgid "Unzip a stream"
+msgstr "цувааг задлах"
+
+#: Compression-Streams,ZipReadStream>>verifyCrc
+msgid "Wrong CRC-32 (expected {1} got {2}) (proceed to ignore)"
+msgstr "алдаатай СКС-32 ({1}-ийн оронд {2}- байна (хэрэгсэхгүй байх))"
+

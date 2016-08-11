@@ -1,0 +1,5090 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:27-0000\n"
+"PO-Revision-Date: 2010-08-27 15:27-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Morphic\n"
+
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "choose new graphic"
+msgstr "নতুন গ্রাফিক্স নির্বাচন করো"
+
+#: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "grab new graphic"
+msgstr "নতুন গ্রাফিক্স ধরে নাও"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change first color"
+msgstr "প্রথম রং পরিবর্তন করো"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change second color"
+msgstr "দ্বিতীয় রং পরিবর্তন করো"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "linear gradient"
+msgstr "রৈখিক গ্র্যাডিয়েন্ট"
+
+#: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "radial gradient"
+msgstr "রেডিয়াল গ্র্যাডিয়েন্ট"
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change orientation"
+msgstr "দিকবিন্যাস পরিবর্তন করো"
+
+#: Balloon-Fills,OrientedFillStyle>>addFillStyleMenuItems:hand:from:
+msgid "change origin"
+msgstr "উৎস পরিবর্তন করো"
+
+#: Morphic-Basic,AlignmentMorph_class>>columnPrototype
+msgid "Things dropped into here will automatically be organized into a column. Once you have added your own items here, you will want to remove the sample colored rectangles that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr "এখানে ছেড়ে দেওয়া জিনিসপত্র স্বয়ংক্রিয়ভাবে একটি কলামে সংগঠিত করা হবে। তুমি একবার তোমার নিজস্ব উপাদান এখানে যোগ করার পরে, তুমি নমুনা রং এর আয়তক্ষেত্র মুছে ফেলার চেষ্টা করতে পারো যা দিয়ে এটি শুরু হয়েছে, এবং তুমি বেলুন সহায়তা বার্তা তোমার নিজের একটি বার্তা দিয়ে পরিবর্তন করতে চাইতে পারো!"
+
+#: Morphic-Basic,AlignmentMorph_class>>rowPrototype
+msgid "Things dropped into here will automatically be organized into a row. Once you have added your own items here, you will want to remove the sample colored eggs that this started with, and you will want to change this balloon help message to one of your own!"
+msgstr "এখানে ছেড়ে দেওয়া জিনিসপত্র স্বয়ংক্রিয়ভাবে একটি সারিতে সংগঠিত করা হবে। তুমি একবার তোমার নিজস্ব উপাদান এখানে যোগ করার পরে, তুমি নমুনা রং এর ডিম মুছে ফেলার চেষ্টা করতে পারো যা দিয়ে এটি শুরু হয়েছে, এবং তুমি বেলুন সহায়তা বার্তা তোমার নিজের একটি বার্তা দিয়ে পরিবর্তন করতে চাইতে পারো!"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "A circular shape"
+msgstr "একটি বৃত্তাকার আকার"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "An attachment point for Connectors that you can embed in another Morph."
+msgstr "সংযোজকের একটি সংযোজন বিন্দু যা তুমি অন্য মর্ফে সন্নিবেশিত করতে পারবে"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Circle"
+msgstr "বৃত্ত"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Connectors"
+msgstr "সংযোজক"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,LineMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Graphics"
+msgstr "গ্রাফিক্স"
+
+#: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
+msgid "Pin"
+msgstr "পিন"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
+msgstr "একটি মসৃণ ঢেউ তোলা রেখা, অথবা একটি curved solid। হাতল পেতে এবং বিন্দু সরাতে Shift-ক্লিক করো। হেইলো মেনু ব্যবহার করে, বহুভুজে রূপান্তর করা যাবে, এবং বন্ধ করাপ পরিবর্তে খোলা যাবে।"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin,EllipseMorph_class>>descriptionForPartsBin,JoystickMorph_class>>descriptionForPartsBin,PasteUpMorph_class>>descriptionForPartsBin,PolygonMorph_class>>descriptionForPartsBin,RectangleMorph_class>>descriptionForPartsBin
+msgid "Basic"
+msgstr "প্রাথমিক"
+
+#: Morphic-Basic,CurveMorph_class>>formerDescriptionForPartsBin
+msgid "Curve"
+msgstr "বাকাঁরেখা"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin
+msgid "An elliptical or circular shape"
+msgstr "একটি উপবৃত্তীয় অথবা বৃত্তীয় আকার"
+
+#: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Ellipse"
+msgstr "উপবৃত্ত"
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "A non-editable picture.  If you use the Paint palette to make a picture, you can edit it afterwards."
+msgstr "একটি সম্পাদনার যোগ্য নয় এমন ছবি। যদি তুমি একটি ছবি তৈরি করতে প্যাইন্ট প্যালেট ব্যবহার করো, তবে পরে তুমি এটি সম্পাদনা করতে পারবে।"
+
+#: Morphic-Basic,ImageMorph_class>>descriptionForPartsBin
+msgid "Image"
+msgstr "চিত্র"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "A non-editable picture of something"
+msgstr "কোনো কিছুর সম্পাদনাযোগ্য নয় এমন ছবি"
+
+#: Morphic-Basic,ImageMorph_class>>registerInFlapsRegistry
+msgid "Picture"
+msgstr "ছবি"
+
+#: Morphic-Basic,ImageMorph>>opacityString
+msgid "opaque"
+msgstr "অনচ্ছ"
+
+#: Morphic-Basic,ImageMorph>>readFromFile
+msgid "Please enter the image file name"
+msgstr "অনুগ্রহ করে চিত্রের ফাইলের নাম প্রবেশ করান"
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "A straight line.  Shift-click to get handles and move the ends."
+msgstr "একটি সরল রেখা। হ্যান্ডেল পেতে এবং কিনারা সরাতে Shift-ক্লিক করো।"
+
+#: Morphic-Basic,LineMorph_class>>descriptionForPartsBin
+msgid "Line"
+msgstr "রেখা"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "extract this frame"
+msgstr "এই ফ্রেমটি এক্সট্র্যাক্ট করুন"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "movie..."
+msgstr "মুভি..."
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "next frame"
+msgstr "পরবর্তী ফ্রেম"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play loop"
+msgstr "পুনরাবৃত্তি চালাও"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "play once"
+msgstr "একবার বাজাও"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "previous frame"
+msgstr "পূর্ববর্তী ফ্রেম"
+
+#: Morphic-Basic,MovieMorph>>addCustomMenuItems:hand:
+msgid "stop playing"
+msgstr "চালানো বন্ধ করো"
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "A series of connected line segments, which may be a closed solid, or a zig-zag line.  Shift-click to get handles and move the points."
+msgstr "সংযুক্ত রেখা অংশের একটি ধারা, যা সম্ভবত একটি অবরুদ্ধ , or a zig-zag line.  হ্যান্ডেল পেতে এবং এই বিন্দু সরাতে Shift-ক্লিক করো।"
+
+#: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
+msgid "Polygon"
+msgstr "বহুভূজ"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "customize arrows"
+msgstr "পছন্দসই তীর"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "specify dashed line"
+msgstr "ড্যাশকৃত রেখা উল্লেখ করো"
+
+#: Morphic-Basic,PolygonMorph>>addCustomMenuItems:hand:
+msgid "standard arrows"
+msgstr "আদর্শ তীর"
+
+#: Morphic-Basic,PolygonMorph>>customizeArrows:
+msgid ""
+"Move cursor left and right\n"
+"to change arrow length and style.\n"
+"Move it up and down to change width.\n"
+"Click when done."
+msgstr ""
+"তীরের দৈর্ঘ্য এবং শৈলী পরিবর্তন করতে\n"
+"কার্সর বামে এবং ডানে সরাও।\n"
+"প্রস্থ পরিবর্তন করতে এটি পরে অথবা নিচে সরাও।\n"
+"শেষ হয়ে গেলে ক্লিক করো।"
+
+#: Morphic-Basic,PolygonMorph>>handlesShowingPhrase
+msgid "show handles"
+msgstr "হ্যান্ডল প্রদর্শন করো"
+
+#: Morphic-Basic,PolygonMorph>>openOrClosePhrase
+msgid "closed"
+msgstr "অবরুদ্ধ"
+
+#: Morphic-Basic,PolygonMorph>>smoothPhrase
+msgid "curve"
+msgstr "বাকাঁরেখা"
+
+#: Morphic-Basic,PolygonMorph>>specifyDashedLine
+msgid ""
+"Enter a dash specification as\n"
+"{ major dash length. minor dash length. minor dash color }\n"
+"The major dash will have the normal border color.\n"
+"A blank response will remove the dash specification.\n"
+"[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
+"where the 4th ityem is zero, and the 5th is the number of pixels\n"
+"by which the dashes will move in each step of animation]"
+msgstr ""
+"একটি ড্যাশ বৈশিষ্ট্য প্রবেশ করাও\n"
+"{ প্রধান ড্যাশের দৈর্ঘ্য। গৌন ড্যাশ দৈর্ঘ্য। গৌন ড্যাশ রং }\n"
+"প্রধান ড্যাশের সাধারণ সীমানার রং থাকবে।\n"
+"একটি ফাঁকা প্রতিক্রিয়া ড্যাশের বৈশিষ্ট্য মুছে ফেলবে।\n"
+"[নোট: তোমাকে ৫টি আইটেম দেওয়া হবে, উদহারণস্বরুপ, {১০. ৫. সাদা রং. ০. ৩}\n"
+"যেখানে ৪ নং আইটেমটি শূন্য, এবং ৫ নম্বরটি পিক্সেলের সংখ্যা যার মাধ্যমে ড্যাশ অ্যানিমেশনের প্রতিটি ধাপে এগুবে]"
+
+#: Morphic-Basic,RectangleMorph_class>>descriptionForPartsBin
+msgid "A rectangular shape, with border and fill style"
+msgstr "সীমানা এবং ভরাট  শৈলী সহ, একটি আয়তক্ষেত্র  আকৃতি"
+
+#: Morphic-Basic,SketchMorph_class>>defaultNameStemForInstances
+msgid "Sketch"
+msgstr "আকাঁ"
+
+#: Morphic-Basic,SketchMorph>>addBorderToShape:
+msgid "Please enter the desired border width"
+msgstr "অনুগ্রহ করে কাঙ্খিত সীমানা প্রস্থ প্রবেশ করাও"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "call this my base graphic"
+msgstr "এটিকে আমার মৌলিক গ্রাফিক হিসেবে ডাকো"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "choose new graphic..."
+msgstr "নতুন গ্রাফিক্স নির্বাচন করো"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "restore base graphic"
+msgstr "মূল গ্রাফিক পূর্বাবস্থায় ফিরিয়ে আনুন"
+
+#: Morphic-Basic,SketchMorph>>addCustomMenuItems:hand:
+msgid "set as background"
+msgstr "পটভূমি হিসেবে নির্ধারণ করুন"
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid ""
+"oops, this menu is a for a morph that\n"
+"has been replaced, probably because a\n"
+"\"look like\" script was run.  Please dismiss\n"
+"the menu and get a new one!.  Sorry!"
+msgstr ""
+"ওহো, এই মেনুটি একটি মর্ফের জন্য যা\n"
+"প্রতিস্থাপন করা হয়েছে, সম্ভবত \"একই রকমের\" একটি স্ক্রিপ্ট\n"
+"চলছে। অনুগ্রহ করে এই মেনু বাতিল করো এবং\n"
+"নতুন একটি নাও!। দুঃখিত!"
+
+#: Morphic-Basic,SketchMorph>>callThisBaseGraphic
+msgid "this already *was* your baseGraphic"
+msgstr "এটি ইতোমধ্যে তেমার baseGraphic এ *ছিল*"
+
+#: Morphic-Basic,SketchMorph>>collapse
+msgid "A collapsed version of {1}.  Click to open it back up."
+msgstr ""
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "choose the color you want to replace"
+msgstr "যে রং আপনি প্রতিস্থাপন করতে চান সেটি পছন্দ করুন"
+
+#: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
+msgid "now choose the color you want to replace it with"
+msgstr "এখন রং নির্বাচন করো যা দিয়ে তুমি এটি প্রতিস্থাপন করতে চাও"
+
+#: Morphic-Basic,SketchMorph>>reduceColorPalette:
+msgid ""
+"Please enter a number greater than one.\n"
+"(note: this cannot be undone, so answer zero\n"
+"to abort if you need to make a backup first)"
+msgstr ""
+"অনুগ্রহ করে এক থেকে বড় একটি সংখ্যা প্রবেশ করাও।\n"
+"(নোট: এটি আর পূর্বাবস্থায় ফিরিয়ে আনা যাবেনা, তাই যদি তুমি প্রথমে একটি ব্যাকআপ তৈরি করতে চাও\n"
+"তাহলে তাহলে শূন্য প্রবেশ করিয়ে এটি বাতিল করো)"
+
+#: Morphic-Basic,SketchMorph>>restoreBaseGraphicFromMenu
+msgid "This object is *already* showing its baseGraphic"
+msgstr "এই বস্তু *ইতোমধ্যে* এর baseGraphic দেখাচ্ছে"
+
+#: Morphic-Basic,SketchMorph>>useInterpolationString
+msgid "smooth image"
+msgstr "মসৃন চিত্র"
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change emphasis"
+msgstr "গুরুত্ব পরিবর্তন করুন"
+
+#: Morphic-Basic,StringMorph>>addCustomMenuItems:hand:
+msgid "change font"
+msgstr "ফন্ট পরিবর্তন করুন"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A  data field which will have a different value on every card of the background"
+msgstr "একটি উপাত্ত ক্ষেত্রের পটভূমির প্রতিটি কার্ডে একটি ভিন্ন মান থাকতে পারে"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A piece of text that will occur on every card of the background"
+msgstr "একটি টেক্সটের অংশ যা পটভূমির প্রতিটি কার্ডে আবির্ভূত হবে"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "A text field with a rounded shadowed border, with a fancy font."
+msgstr "বৃত্তীয় ছায়া সীমানা সহ একটি টেক্সট ক্ষেত্র, একটি উজ্জ্বল ফন্ট সহ।"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Field"
+msgstr "পটভূমি ক্ষেত্র"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Background Label"
+msgstr "পটভূমি স্তর"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Fancy Text"
+msgstr "কল্পনার টেক্সট"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Simple Text"
+msgstr "সাধারন টেক্সট"
+
+#: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you wish"
+msgstr "টেক্সট যা তুমি পছন্দমতো সম্পাদনা করতে পারবে"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add predecessor"
+msgstr "পূর্বসূরী যোগ করো"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "add successor"
+msgstr "উত্তরসূরি যোগ করো"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane menu..."
+msgstr "কোড প্যান মেনু..."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "code pane shift menu..."
+msgstr "কোড প্যান শিফট মেনু..."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "fill owner's shape"
+msgstr "মালিকরে বাকাঁ রেখা ভরাট করো"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "follow owner's curve"
+msgstr "মালিকরে বাকাঁ রেখা অনুসরণ করো"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "holder for characters"
+msgstr "অক্ষরের ধারক"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "rectangular bounds"
+msgstr "আয়তক্ষেত্র পরিসর"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "reverse direction"
+msgstr "বিপরীত গতিপথ"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "set baseline"
+msgstr "ভিত্তিরেখা নির্ধারণ করুন"
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text margins..."
+msgstr "টেক্সট মার্জিন..."
+
+#: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
+msgid "text properties..."
+msgstr "টেক্সট বৈশিষ্ট্যাবলী..."
+
+#: Morphic-Basic,TextMorph>>addFillStyleMenuItems:hand:
+msgid "text color..."
+msgstr "টেক্সট রং..."
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, bounds are automatically adjusted to fit the contents."
+msgstr "যখন পরীক্ষা করা হবে, বিষয়বস্তুতে মাপসই করার জন্য সীমা স্বয়ংক্রিয়ভাবে সমন্বয় করা হবে।"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, contents will automatically be translated upon a locale change"
+msgstr "যখন পরীক্ষা করা হবে, বিষয়বস্তু স্বয়ংক্রিয়ভাবে একটি লোক্যাল পরিবর্তনে অনুবাদ করা হবে"
+
+#: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
+msgid "When checked, text is automatically wrapped to fit horizontally within the boundaries specifed."
+msgstr "যখন পরীক্ষা করা হবে, উল্লেখিত সীমানায় অনুভূমিকভাবে মাপসই করার জন্য টেক্সট স্বয়ংক্রিয়ভাবে মোড়ানো থাকে।"
+
+#: Morphic-Basic,TextMorph>>addTextMenuItemsTo:event:
+msgid "font for entire text..."
+msgstr "সম্পূরণ টেক্সটের জন্য ফন্ট..."
+
+#: Morphic-Basic,TextMorph>>addTranslationItemsTo:
+msgid "translations..."
+msgstr "অনুবাদ..."
+
+#: Morphic-Basic,TextMorph>>autoFitString
+msgid "text auto fit"
+msgstr "টেক্সট স্বয়ংক্রিয়-মাপসই"
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid ""
+"Move cursor down and to the right\n"
+"to increase margin inset.\n"
+"Click when done."
+msgstr ""
+"মার্জিন ইনসেট বাড়াতে কার্স নিচে\n"
+"এবং ডানে সরাও।\n"
+"শেষ হয়ে গেলে ক্লিক করো।"
+
+#: Morphic-Basic,TextMorph>>changeMargins:
+msgid "margin change for "
+msgstr "মার্জিন যে কারণে পরিবর্তন করা হয়েছে "
+
+#: Morphic-Basic,TextMorph>>promptForFont
+msgid "Choose font:"
+msgstr "ফন্ট নির্বাচন করো:"
+
+#: Morphic-Basic,TextMorph>>translatableString
+msgid "translatable"
+msgstr "অনুবাদযোগ্য"
+
+#: Morphic-Basic,TextMorph>>wrapString
+msgid "text wrap to bounds"
+msgstr "পরিসরে মোড়ানো টেক্সট"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn off smoothing"
+msgstr "মসৃণ করা বন্ধ করুন"
+
+#: Morphic-Basic,TransformMorph>>addCustomMenuItems:hand:,TTSampleFontMorph>>getSmoothingLevel
+msgid "turn on smoothing"
+msgstr "মসৃণ করা চালু করুন"
+
+#: Morphic-Books,QuickGuideHolderMorph>>load
+msgid "guide is missing"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>loadPages,QuickGuideMorph>>showDescriptionMenu:
+msgid "Index"
+msgstr "সূচী"
+
+#: Morphic-Books,QuickGuideMorph>>loadPages
+msgid "index"
+msgstr ""
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Menu to see another Guide"
+msgstr "অন্য গাইড দেখার জন্য মেনু"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Next page"
+msgstr "পরবর্তী পৃষ্ঠা"
+
+#: Morphic-Books,QuickGuideMorph>>shortControlSpecs
+msgid "Previous page"
+msgstr "পূর্ববর্তী পৃষ্ঠা"
+
+#: Morphic-Books,QuickGuideMorph>>showDescriptionMenu:
+msgid "Quick Guides"
+msgstr "দ্রুত গাইড"
+
+#: Morphic-Components,ComponentLayout>>addCustomMenuItems:hand:
+msgid "inspect model in morphic"
+msgstr "মর্ফিক এ মডেল পরিদর্শন করো"
+
+#: Morphic-Components,FunctionComponent>>addCustomMenuItems:hand:
+msgid "add pin"
+msgstr "পিন যোগ করো"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model"
+msgstr "মডেলে সবকিছু প্লাগ করো"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug all to model slots"
+msgstr "মডেলে স্লটে সবকিছু প্লাগ করো"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model"
+msgstr "মডেলে mouseDown প্লাগ করো"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseDown to model slot"
+msgstr "মডেল স্লটে mouseDown প্লাগ করো"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model"
+msgstr "মডেলে mouseMove প্লাগ করো"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "plug mouseMove to model slot"
+msgstr "মডেল স্লটে mouseMove প্লাগ করো"
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseDown selector..."
+msgstr "mouseDown নির্বাচক নির্ধারণ করো..."
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseMove selector..."
+msgstr "mouseMove নির্বাচক নির্ধারণ করো..."
+
+#: Morphic-Components,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set mouseUp selector..."
+msgstr "mouseUp নির্বাচক নির্ধারণ করো..."
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "An example of how to use double-click in moprhic"
+msgstr "কিভাবে মরফিকে ডবল ক্লিক ব্যবহার করতে হবে তার একটি উদহারণ"
+
+#: Morphic-Demo,DoubleClickExample_class>>descriptionForPartsBin
+msgid "DoubleClick"
+msgstr "DoubleClick"
+
+#: Morphic-Demo,DoubleClickExample>>balloonText
+msgid ""
+"Double-click on me to change my color; \n"
+"single-click on me to change border color;\n"
+"hold mouse down within me and then move it to grow \n"
+"(if I'm red) or shrink (if I'm blue)."
+msgstr ""
+"আমার রং পরিবর্তন করতে আমাকে ডবল-ক্লিক করো; \n"
+"সীমানার রং পরিবর্তন করতে ক্লিক করো;\n"
+"আমার মধ্য মাউসের পয়েন্টার চেপে ধরো এবং বৃদ্ধি করার জন্য এটি সরাও\n"
+"(যদি আমি লাল হই) অথবা সঙ্কুচিত করা (যদি আমি নীল হই)."
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "An extreme-wide-angle lens"
+msgstr "একটি প্রচন্ড-বিস্তৃতে-কোণ লেন্স"
+
+#: Morphic-Demo,FishEyeMorph_class>>descriptionForPartsBin
+msgid "FishEye"
+msgstr "FishEye"
+
+#: Morphic-Demo,FishEyeMorph>>chooseMagnification
+msgid "Magnification is fixed, sorry."
+msgstr "বিবর্ধণ সুনির্দিষ্ট। দু:খিত"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "An eye which follows the cursor"
+msgstr "যে চোখ কার্সর অনুসরণ করে"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "Just for Fun"
+msgstr "শুধুমাত্র মজা করার জন্য"
+
+#: Morphic-Demo,MovingEyeMorph_class>>descriptionForPartsBin
+msgid "MovingEye"
+msgstr "MovingEye"
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "An analog clock face"
+msgstr "একটি অ্যানালগ ঘড়ির ফেস"
+
+#: Morphic-Demo,WatchMorph_class>>descriptionForPartsBin
+msgid "Clock"
+msgstr "ঘড়ি"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to change the font used to display the numbers."
+msgstr "সংখ্যা প্রদর্শন করতে ব্যবহৃত ফন্ট পরিবর্তন করার জন্য আপনাকে সম্মতি দেয়।"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color for the hands of the watch.  Note that actual *watch* color can be changed simply by using the halo's recoloring handle."
+msgstr "ঘড়ির হাতের জন্য একটি নতুন রং পেতে তোমাকে অনুমোদন করে। নোট করো যে হেইলো পুন:রংকরণ হাতল ব্যবহার করে আসল *ঘড়ির* রং পরিবর্তন করা যাবে।"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "Allows you to specify a new color to be used during PM hours for the center portion of the watch; during AM hours, a lighter shade of the same color will be used."
+msgstr "ঘড়ির কেন্দ্রীয় অংশে PM ঘন্টায় একটি নতুন রং সুনির্দিষ্টভাবে উল্লেখ করতে তোমাকে অনুমোদন করে; AM ঘন্টায়, একই রং এর একটি হাল্কা মাত্রা ব্যবহৃত হবে।"
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change center color..."
+msgstr "কেন্দের রং পরিবর্তন করো..."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change font..."
+msgstr "ফন্ট পরিবর্তন করো..."
+
+#: Morphic-Demo,WatchMorph>>addCustomMenuItems:hand:
+msgid "change hands color..."
+msgstr "হাতের রং পরিবর্তন করো..."
+
+#: Morphic-Demo,WatchMorph>>antiAliasString
+msgid "anti-aliasing"
+msgstr "অ্যান্টি-এলিয়াসিং"
+
+#: Morphic-Demo,WatchMorph>>romanNumeralString
+msgid "roman numerals"
+msgstr "রেমান সংখ্যা"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid " Mouse-down action"
+msgstr " মাউসের বোতাম চাপার কাজ"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseDownToggle
+msgid "If the button is to act when the mouse goes down"
+msgstr "মাউস নিচে গেলে যদি বোতামের কাজ করতে হয়"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid " Mouse-up action"
+msgstr " মাউসের বোতাম ছাড়ার কাজ"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForActsOnMouseUpToggle
+msgid "If the button is to act when the mouse goes up"
+msgstr "মাউস উপরে গেলে যদি বোতামের কাজ করতে হয়"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonSelectorReport
+msgid "Action: "
+msgstr "কাজ: "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Drop another morph here to change the target and action of this button. (Only some morphs will work)"
+msgstr "এই বোতামের লক্ষ এবং কাজ পরিবর্তন করতে অন্য মর্ফ ছেড়ে দাও। (শুধুমাত্র কিছু মর্ফ কাজ করবে)"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForButtonTargetReport
+msgid "Target: "
+msgstr "লক্ষ্য: "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid " Mouse-down look "
+msgstr " মাউসের বোতাম ছাড়ার রুপ "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseDownLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse is clicked in it."
+msgstr "মাউস ক্লিক করা হলে এই বোতামের ভিজ্যুয়াল উপস্থিতি পরিবর্তন করতে এখানে অন্য মর্ফ ছেড়ে দাও।"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid " Mouse-enter look "
+msgstr " মাউস পয়েন্টার প্রবেশের রুপ "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeMouseEnterLook
+msgid "Drop another morph here to change the visual appearance of this button when the mouse enters it."
+msgstr "মাউস পয়েন্টার প্রবেশ করলে এই বোতামের ভিজ্যুয়াল উপস্থিতি পরিবর্তন করতে এখানে অন্য মর্ফ ছেড়ে দাও।"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid " Change morph "
+msgstr " মর্ফ পরিবর্তন করো "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForChangeVisibleMorph
+msgid "Drop another morph here to change the visual appearance of this button. Or click here to get a menu of possible replacement morphs."
+msgstr "মাউস ক্লিক করা হলে এই বোতামের ভিজ্যুয়াল উপস্থিতি পরিবর্তন করতে এখানে অন্য মর্ফ ছেড়ে দাও। অথবা যথাযথ প্রতিস্থাপন মর্ফের মেনু পেতে এখানে ক্লিক করো।"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownColorPicker
+msgid "mouse-down halo color"
+msgstr "মাউসের বোতাম চাপার হেইলো রং"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseDownHaloWidth,ButtonPropertiesMorph>>paneForMouseOverHaloWidth
+msgid "Drag in here to change the halo width"
+msgstr "হেইলো প্রস্থ পরিবর্তন করতে এখানে টানুন"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForMouseOverColorPicker
+msgid "mouse-over halo color"
+msgstr "হেইলো রং এর উপর মাউস পয়েন্টার"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForRepeatingInterval
+msgid "Drag in here to change how often the button repeats while the mouse is down"
+msgstr "মাউস চেপে ধরা হলে কতোবার বোতাম পুনরাবৃত্ত করবে সেটি পরিবর্তন করতে এখানে টানো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid " Mouse-down repeating "
+msgstr " মাউসের বোতাম চাপা পুনবরাবৃত্তি করা "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsFiringWhileDownToggle
+msgid "Turn repeating while mouse is held down on or off"
+msgstr "Turn repeating while mouse is held down on or off"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid " Mouse-over highlighting"
+msgstr " মাউস পয়েন্টার উপরে থাকাকালীণ হাইলাইটিং"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>paneForWantsRolloverToggle
+msgid "Turn mouse-over highlighting on or off"
+msgstr "কোনো বস্তুর উপর মাউস নিলে উজ্জ্বলকরণ চালু অথবা বন্ধ করো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "গ্রহণ"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Add label"
+msgstr "লেবেল যোগ করো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "add some text to the button"
+msgstr "বোতামে কিছু টেক্সট যোগ করো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Button Properties for {1}"
+msgstr "{1} এর জন্য বোতাম বৈশাষ্টাবলী"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel"
+msgstr "বাতিল করো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "পরিবর্তন বাতিল করো এবং প্যানেল বন্ধ করো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "পরিবর্তন রাখো এবং প্যানেল বন্ধ করো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Main"
+msgstr "প্রধান"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "open a main properties panel for the morph"
+msgstr "মর্ফের জন্য একটি প্রধান বৈশাষ্টাবলী খোলো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild,Morph>>balloonHelpTextForHandle:
+msgid "Remove"
+msgstr "মুছে ফেলো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "Remove label"
+msgstr "লেবেল মুছে ফেলো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove text from the button"
+msgstr "বোতাম থেকে টেক্সট মুছে ফেলো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>rebuild
+msgid "remove the button properties of this morph"
+msgstr "এই মর্ফের জন্য বোতাম বৈশাষ্টাবলী মুছে ফেলো"
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseDownHaloWidth
+msgid "mouse-down halo width: "
+msgstr "মাউসের বোতাম চাপার হেইলো প্রস্থ: "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForMouseOverHaloWidth
+msgid "mouse-over halo width: "
+msgstr "হেইলো প্রস্থের উপর মাউস পয়েন্টার "
+
+#: Morphic-Experimental,ButtonPropertiesMorph>>valueForRepeatingInterval
+msgid "interval: "
+msgstr "বিরতি: "
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>buildPanel
+msgid "Etoys is trying to open your web browser.\\If it does not work, you can sign up at:\\\\"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>cancelButton
+msgid "Cancel this login operation."
+msgstr "এই প্রকাশনা অপারেশন বাতিল করো"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please enter your login name"
+msgstr "অনুগ্রহ করে আপনার লগইন নাম প্রবেশ করান"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please make the name 24 characters or less"
+msgstr "অনুগ্রহ করে নামটি ২৪ অক্ষরের অথবা এর কম করে তৈরি করুন"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>doOK
+msgid "Please remove any funny characters"
+msgstr "অনুগ্রহ করে হাস্যকর অক্ষর মুছে ফেলো"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton2
+msgid "Close this dialog"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>rebuild
+msgid "Login to Squeakland"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>okButton,EtoyDAVLoginMorph>>okButton2,FreeCellStatistics>>makeOkButton
+msgid "OK"
+msgstr "ঠিক আছে"
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Password:"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "Username:"
+msgstr ""
+
+#: Morphic-Experimental,EtoyDAVLoginMorph>>rebuild
+msgid "(create account)"
+msgstr ""
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "ChineseCheckers"
+msgstr "ChineseCheckers"
+
+#: Morphic-Games,ChineseCheckers_class>>descriptionForPartsBin
+msgid "Halma - the classic board game of Chinese Checkers, written by Dan Ingalls"
+msgstr "হালমা - চাইনিজ পরীক্ষকদের ক্লাসিক বোর্ডের খেলা, ড্যান ইঙ্গালস এর লেখা"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "animate moves"
+msgstr "চলাচল অ্যানিমেট করুন"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "don't animate moves"
+msgstr "চলাচল অ্যানিমেট করবেনা"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:,Tetris>>makeGameControls
+msgid "new game"
+msgstr "নতুন খেলা"
+
+#: Morphic-Games,ChineseCheckers>>addMenuItemsTo:hand:
+msgid "reset..."
+msgstr "পুঃননির্ধারণ করো..."
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many humans?"
+msgstr "কতোজন লোক?"
+
+#: Morphic-Games,ChineseCheckers>>reset
+msgid "How many players?"
+msgstr "কতোজন খেলোয়ার?"
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "Cipher"
+msgstr "সাইফার"
+
+#: Morphic-Games,CipherPanel_class>>descriptionForPartsBin
+msgid "The Cipher Panel: A playground for cryptograms, by Dan Ingalls"
+msgstr "সাইফার প্যানেল: ক্রিপ্টোগ্রামের একটি খেলার স্থান,ড্যান ইঙ্গাল্স"
+
+#: Morphic-Games,CipherPanel_class>>randomComment
+msgid "none"
+msgstr "একটিও না"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "clear cipher typing"
+msgstr "সাইফার টাইপিং মুছে ফেলো"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "enter a new cipher"
+msgstr "একটি নতুন সাইফার প্রবেশ করাও"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:,CipherPanel>>buttonRow
+msgid "quote from Squeak"
+msgstr "সাইফারের উদ্ধৃতি"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher help"
+msgstr "সাইফারের সহায়তা দেখাও"
+
+#: Morphic-Games,CipherPanel>>addMenuItemsTo:hand:
+msgid "show cipher hints"
+msgstr "সাইফারের ইঙ্গিত দেখাও"
+
+#: Morphic-Games,CipherPanel>>buttonRow
+msgid "clear typing"
+msgstr "টাইপিং মুছে ফেলো"
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show help"
+msgstr "সহায়তা দেখাও"
+
+#: Morphic-Games,CipherPanel>>buttonRow,CrosticPanel>>buttonRow
+msgid "show hints"
+msgstr "ইঙ্গিত দেখাও"
+
+#: Morphic-Games,CipherPanel>>clearTyping,CipherPanel>>encodedQuote:,CrosticPanel>>clearTyping
+msgid "Are you sure you want to discard all typing?"
+msgstr "তুমি কি নিশ্চিত যে তুমি সব টাইপিং বাতিল করে দিতে চাও?"
+
+#: Morphic-Games,CipherPanel>>enterANewCipher
+msgid "Type a cipher text to work on here below..."
+msgstr "এখানে নিচে কাজ করার জন্য একটি সাইফার টেক্সট টাইপ করো"
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid "About the Cipher Panel"
+msgstr "সাইফার প্যানেল সম্পর্কে"
+
+#: Morphic-Games,CipherPanel>>showHelpWindow
+msgid ""
+"The Cipher Panel displays an encrypted message.  The encryption is a simple substitution code;  each letter of the alphabet has been changed to a different one.\n"
+"\n"
+"You can solve the cipher by clicking above any letter in the message, and typing the letter you think it should be.  The Cipher Panel automatically makes the same substitution anywhere else that letter occurs in the encoded message.\n"
+"\n"
+"If you are having trouble, you can use the command menu to 'show cipher hints'.  That will display how many of each letter occurs, which is often a help in solving ciphers."
+msgstr ""
+"সাইফার প্যানেল একটি এনক্রিপ্টটেড বার্তা প্রদর্শন করে। এনক্রিপশন হলো সাধারণ বিয়োগের কোড; বর্ণমালার প্রতিটি বর্ন একটি ভিন্ন বর্ণে পরিবর্তিত হয়ে যাবে।\n"
+"\n"
+"উপরে বার্তার যেকোনো বর্ণে ক্লিক করে, এবং তুমি যে বর্ণ হবে বলে মনে করছো সেটিতে ক্লিক করে সাইফার পরিবর্তন করতে পারবে। সাইফার প্যানেল নিজে নিজে অন্য কোথায় একই ধরণের বিয়োগ করবে যা বর্ণ এনকোডেড বার্তায় আবির্ভূত হবে।\n"
+"\n"
+"যদি তুমি সমস্যায় পড়ো, তাহলে তুমি নির্দেশাবলী মেনুর “ সাইফার ইঙ্গিত দেখাও” ব্যবহার করতে পারো। প্রতিটি বর্ণ কয়টি করে আবির্ভূত হবে এটি তা দেখাবে, যা সাইফার সমাধানের প্রায় একটি সহায়তা।"
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"Most bodies of english text follow a general pattern of letter usage.  The following are the most common letters, in approximate order of frequency:\n"
+"\tE  T  A  O  N  I  R  S  H\n"
+"The following are the most common digraphs:\n"
+"\tEN  ER  RE  NT  TH  ON  IN\n"
+"\n"
+"The message you are trying to decode has the following specific statistics:"
+msgstr ""
+"ইংরেজী টেক্সটের প্রায় সব বডি বর্ণ ব্যবহারের একটি সাধারণ নকশা অনুসরণ করে। নিম্নোক্তটি কম্পাঙ্কের প্রায় সঠিক ক্রমে, সর্বোচ্চ সাধারণ শব্দ:\n"
+"\tE  T  A  O  N  I  R  S  H\n"
+"নিম্নোক্তটি সর্বোচ্চ সাধারণ ডায়াগ্রাফ:\n"
+"\tEN  ER  RE  NT  TH  ON  IN\n"
+"\n"
+"যে বার্তা তুমি ডিকোড করতে চাচ্ছো তার নিম্নোক্ত সুনির্দিষ্ট পরিসংখ্যান আছে:"
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid "Some Useful Statistics"
+msgstr "কিছু উপকারী পরিসংখ্যান"
+
+#: Morphic-Games,CipherPanel>>showHintsWindow
+msgid ""
+"\n"
+"\n"
+"Good luck!"
+msgstr ""
+"\n"
+"\n"
+"শুভ কামনা!"
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "Crostic"
+msgstr "ক্রস্টিক"
+
+#: Morphic-Games,CrosticPanel_class>>descriptionForPartsBin
+msgid "The Crostic Panel: A classic word diagram game, by Dan Ingalls"
+msgstr "ক্রস্টিক প্যানেল: টকটি ক্লাসিক রেখাচিত্রের খেলা, ড্যান ইঙ্গালস এর লেখা"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "clear crostic typing"
+msgstr "ক্রস্টিক টাইপিং মুছে ফেলো"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "open crostic file..."
+msgstr "ক্রস্টিক ফাইল..."
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic errors"
+msgstr "ক্রস্টিক ত্রুটি দেখাও"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic help"
+msgstr "ক্রস্টিক সহায়তা দেখাও"
+
+#: Morphic-Games,CrosticPanel>>addMenuItemsTo:hand:
+msgid "show crostic hints"
+msgstr "ক্রস্টিক ইঙ্গিত দেখাও"
+
+#: Morphic-Games,CrosticPanel>>buttonRow,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "clear"
+msgstr "মুছে ফেলো"
+
+#: Morphic-Games,CrosticPanel>>buttonRow,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>openMenu
+msgid "open..."
+msgstr "খোলা..."
+
+#: Morphic-Games,CrosticPanel>>buttonRow
+msgid "show errors"
+msgstr "ত্রুটি দেখাও"
+
+#: Morphic-Games,CrosticPanel>>initializeToStandAlone,CrosticPanel_class>>newFromFile:
+msgid "mal-formed crostic file"
+msgstr "মল-আকারের ক্রস্টিক ফাইল"
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Is it OK to discard this crostic?"
+msgstr "এই ক্রস্টিকটি বাতিল করা কি ঠিক হবে?"
+
+#: Morphic-Games,CrosticPanel>>openFile
+msgid "Select a Crostic File..."
+msgstr "একটি Crostic ফাইল নির্বাচন করো..."
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid "About the Crostic Panel"
+msgstr "ক্রস্টিক প্যানেল সম্পর্কে"
+
+#: Morphic-Games,CrosticPanel>>showHelpWindow
+msgid ""
+"The Crostic Panel presents an acrostic puzzle for solution.  As you type in answers for the clues, the letters also get entered in the text of the hidden quote.  Conversely, as you guess words in the quote, those letters will fill in missing places in your answers.  In addition, the first letters of all the answers together form the author's name and title of the work from which the quote is taken.\n"
+"\n"
+"If you wish to make up other acrostic puzzles, follow the obvious file format in the sampleFile method.  If you wish to print an acrostic to work it on paper, then change the oldStyle method to return true, and it will properly cross-index all the cells.\n"
+"\n"
+"Have fun."
+msgstr ""
+"ক্রস্টিক প্যানেল সমাধানের জন্য একটি অ্যাক্রস্টিক পাজেল উপস্থাপন করে। তুমি ইঙ্গিতের জন্য উত্তর টাইপ করলে,বর্ণ লুকানো উদ্ধৃতির টেক্সটে প্রবেশ করবে। বিপরীতে, তুমি উদ্ধৃতির জন্য শব্দ অনুমান করলে, ওইসব বর্ণ তোমার উত্তরের ফাঁকা স্থান পূরণ করবে। যোগফলস্বরুপ, লেখকের নাম এবং যেখান থেকে উদ্ধৃতি নেওয়া হয়েছে  সে কাজের শিরোনাম থেকে সব উত্তরের প্রথম বর্ণ নেওয়া হয়েছে।\n"
+"\n"
+"যদি তুমি অন্য অ্যাক্রস্টিক পাজেল তৈরি করতে চাও, sampleFile মেথডের স্পষ্ট ফাইল বিন্যাস অনুসরণ করো। কাগজে খেলার জন্য যদি তুমি একটি অ্যাক্রস্টিক মুদ্রণ করতে চাও,তবে oldStyle  মেথড সত্যে ফেরত আনো, এবং এটি সঠিকভাবে সব ঘরের ক্রস-ইনডেক্স করবে।\n"
+"\n"
+"মজা করো।"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"As hints, you will be given the five longest answers.\n"
+"Do you really want to do this?"
+msgstr ""
+"ইঙ্গিত হিসেবে, তোমাকে পাচটি বড় উত্তর দেওয়া হবে।\n"
+"তুমি কি আসলেই এটি করতে চাও?"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Crostic Hints"
+msgstr "ক্রস্টিক ইঙ্গিত"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid "Good luck!"
+msgstr "শুভ কামনা!"
+
+#: Morphic-Games,CrosticPanel>>showHintsWindow
+msgid ""
+"The five longest answers are...\n"
+msgstr ""
+"পাচটি বড় উত্তর হলো...\n"
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "A unique solitaire card game"
+msgstr "একটি একক সলিটেয়ার কার্ডের খেলা"
+
+#: Morphic-Games,FreeCell_class>>descriptionForPartsBin
+msgid "FreeCell"
+msgstr "FreeCell"
+
+#: Morphic-Games,FreeCell>>helpText
+msgid ""
+"The objective of FreeCell is to move all of the cards to the four \"home cells\" in the upper right corner.  Each home cell will hold one suit and must be filled sequentially starting with the Ace.\n"
+"\n"
+"There are four \"free cells\" in the upper left corner that can each hold one card.  Cards can be moved from the bottom of a stack to a free cell or to another stack.  \n"
+"\n"
+"When moving a card to another stack, it must have a value that is one less than the exposed card and of a different color."
+msgstr ""
+"FreeCell এর মূল লক্ষ্য হলো উপরের ডান কিনারার চারটি \"প্রধান ঘরে\" সকল তাস সরিয়ে নেয়া। প্রতিটি প্রধান ঘরে একটি সুইট থাকবে এবং অবশ্যই টেক্কা দিয়ে শুরু করে পর্যায়ক্রমে পূরণ করতে হবে।\n"
+"উপরের বাম কিনারায় চারটি  'খালি ঘর' রয়েছে যা প্রতিটি একটি করে তাস ধারণ করে।\n"
+"অন্য একটি স্ট্যাকে তাস সরানোর সময় অবশ্যই সবচেয়ে উপরে দেখানো তাসের চাইতে এক কম মানের এবং ভিন্ন রঙের তাস হতে হবে।"
+
+#: Morphic-Games,FreeCell>>help
+msgid "FreeCell Help"
+msgstr "FreeCell সহায়তা"
+
+#: Morphic-Games,FreeCell>>makeCardsRemainingDisplay
+msgid "Cards Left: "
+msgstr "বাকি কার্ড: "
+
+#: Morphic-Games,FreeCell>>makeElapsedTimeDisplay
+msgid "Elapsed Time: "
+msgstr "অতিবাহিত সময় "
+
+#: Morphic-Games,FreeCell>>makeGameNumberDisplay
+msgid "Game #: "
+msgstr "খেলা #: "
+
+#: Morphic-Games,FreeCell>>makeHelpButton,Morph>>balloonHelpTextForHandle:,SameGame>>makeControls
+msgid "Help"
+msgstr "সহায়তা"
+
+#: Morphic-Games,FreeCell>>makeNewGameButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "New game"
+msgstr "নতুন খেলা"
+
+#: Morphic-Games,FreeCell>>makePickGameButton
+msgid "Pick game"
+msgstr "খেলা নির্বাচন করো"
+
+#: Morphic-Games,FreeCell>>makeQuitButton,SameGame>>makeControls,Tetris>>makeGameControls
+msgid "Quit"
+msgstr "বের হয়ে যাও"
+
+#: Morphic-Games,FreeCell>>makeSameGameButton
+msgid "Same game"
+msgstr "একই খেলা"
+
+#: Morphic-Games,FreeCell>>makeStatisticsButton
+msgid "Statistics"
+msgstr "পরিসংখ্যান"
+
+#: Morphic-Games,FreeCell>>promptForSeed
+msgid ""
+"Pick a game number between 1 and 32000.\n"
+"or\n"
+"set the hardness of the next game by typing 'H 30'.\n"
+"Above 100 is very hard.  Zero is standard game.\n"
+"Current hardness is: "
+msgstr ""
+"১ এবং ৩২০০০ এর মাঝে একটি খেলার সংখ্যা নির্বাচন করো\n"
+"অথবা\n"
+"'H ৩০' টাইপ করে পরবর্তী খেলা কতো কঠিন সেটি নির্ধারণ করো\n"
+"১০০ এর উপর মানে অনেক কঠিন।  শূন্য হলো আদর্শ খেলা\n"
+"বর্তমানটি কতো কঠিন  তা হলো: "
+
+#: Morphic-Games,FreeCellBoard>>pickGame:
+msgid ""
+"Game #1 is a special case\n"
+"for performance analysis"
+msgstr "কর্মদক্ষতা বিশ্লেষনের জন্য খেলা #১ হলো বিশেষ ঘটনা"
+
+#: Morphic-Games,FreeCellStatistics>>display
+msgid "FreeCell Statistics"
+msgstr "FreeCell পরিসংখ্যান"
+
+#: Morphic-Games,FreeCellStatistics>>makeResetButton
+msgid "Reset"
+msgstr "পুনঃনির্ধারণ করুন"
+
+#: Morphic-Games,FreeCellStatistics>>printReplaysOn:
+msgid "With replays: "
+msgstr "পুনঃচালনা সহ: "
+
+#: Morphic-Games,FreeCellStatistics>>printSessionOn:
+msgid "This session: "
+msgstr "এই সেশন: "
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Current: "
+msgstr "বর্তমান: "
+
+#: Morphic-Games,FreeCellStatistics>>printStreaksOn:
+msgid "Streaks: "
+msgstr "আকাঁবাকাঁ দাগ "
+
+#: Morphic-Games,FreeCellStatistics>>printTotalOn:
+msgid "Total: "
+msgstr "সর্বমোট: "
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " loss"
+msgstr " হেরে যাওয়া"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " losses"
+msgstr " হার"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " win"
+msgstr " জিতে যাওয়া"
+
+#: Morphic-Games,FreeCellStatistics>>print:type:on:
+msgid " wins"
+msgstr " জিত"
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Find those mines"
+msgstr "ওই মাইনসমূহ খোঁজো"
+
+#: Morphic-Games,Mines_class>>descriptionForPartsBin
+msgid "Mines"
+msgstr "মাইনস"
+
+#: Morphic-Games,Mines>>helpString
+msgid ""
+"Mines is a quick and dirty knock-off of the Minesweeper game found on Windows. I used this to teach myself Squeak. I liberally borrowed from the <SameGame> example, so the code should look pretty familiar, though like any project it has rapidly ...morphed... to reflect my own idiosyncracies. Note especially the lack of any idiomatic structure to the code - I simply haven't learned them yet.\n"
+"\n"
+"Mines is a very simple, yet extremely frustrating, game to play. The rules are just this: there are 99 mines laid down on the board. Find them without \"\"finding\"\" them. Your first tile is free - click anywhere. The tiles will tell you how many mines are right next to it, including the diagonals. If you uncover the number '2', you know that there are two mines hidden in the adjacent tiles. If you think you have found a mine, you can flag it by either 'shift' clicking, or click with the 'yellow' mouse button. Once you have flagged all of the mines adjacent to a numbered tile, you can click on the tile again to uncover the rest. Of course, you could be wrong about those too... \n"
+"\n"
+"You win once you have uncovered all of the tiles that do not contain mines. Good luck...\n"
+"\n"
+"David A. Smith\n"
+"dastrs@bellsouth.net"
+msgstr ""
+"উইন্ডোজের মাইনসুইপার খেলার দ্রুত এবং আকর্ষনীয় সংস্করণ হলো মাইনস। স্কুইক খেলা শেখার জন্য আমি এটি ব্যবহার করেছিলাম। আমি স্বাধীনভাবে <SameGame> উদাহরণ থেকে ধার করি, ফলে কোড অনেকটাই একই রকম , যদিও যেকোন প্রকল্পের মত আমার নিজস্ব বৈশিষ্ট্য প্রতিফলিত করার জন্য দ্রুত ...মরফ...করা হয়েছে। বিশেষত কোডের ইডিওমেটিচ গঠনের অপ্রতুলতা নোট করতে পারো-আমি এখনও তা শিখতে পারিনি।\n"
+"মাইনস এখনও পর্যন্ত খুবই হতাশাজনক কিন্তু খুব সহজ একটি খেলা। নিয়মাবলী শুধু এই যে, বোর্ডে ৯৯ টি মাইন আছে। \"\"খোঁজা\"\" ছাড়াই খুঁজে বের করো।তোমার প্রথম টাইলটি ফাঁকা - যেকোন জায়গায় ক্লিক করো।টাইলের আশেপাশে কতগুলো মাইন আছে তা তোমাকে জানায়। যদি '২' সংখ্যাটি দেখায় তার অর্থ হলো কাছাকাছি টাইলে দুইটি মাইন লিকানো আছে। যদি তুমি একটি মাইন খুঁজে পেয়েছো বলে মনে করো তাহলে হয় 'Shift' অথবা 'হলুদ' মাউস বোতাম ক্লিক করার মাধ্যমে পতাকা চিহ্ন দিতে পারো। একবার টাইলের কাছের মাইনগুলো পতাকা দ্বারা নির্দেশ করলে বাকি টাইলগুলো উন্মোচন করার জন্য ক্লিক করতে পারো। এ ক্ষেত্রেও তুমি ভুল করতে পারো...\n"
+"একবার তুমি সব মাইন উন্মুক্ত করতে পারলে টাইলে আর কোনো মাইন থাকে না এবং তুমি জয়ী হবে। শুভ কামনা...\n"
+"ডেভিড এ.স্মিথ\n"
+"dastrs@bellsouth.net"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "  New game  "
+msgstr "  নতুন খেলা  "
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Mines:"
+msgstr "মাইনস"
+
+#: Morphic-Games,Mines>>makeControls
+msgid "Time:"
+msgstr "সময়:"
+
+#: Morphic-Games,PlayingCard_class>>initialize
+msgid "corrupted imageData"
+msgstr "বিকৃত imageData"
+
+#: Morphic-Games,PlayingCardDeck>>acceptDroppingMorph:event:
+msgid "move card"
+msgstr "কার্স সরিয়ে নাও"
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "A board game implementedby Tim Olson, based on a game originally written for UNIX by Eiji Fukumoto."
+msgstr "Eiji Fukumoto দ্বারা UNIX  এর জন্য লেখা খেলার উপর ভিত্তি করে,টিম ওলসন দ্বারা বাস্তবায়িত করা একটি বোর্ড খেলা।"
+
+#: Morphic-Games,SameGame_class>>descriptionForPartsBin
+msgid "Same"
+msgstr "একই"
+
+#: Morphic-Games,SameGame>>helpString
+msgid ""
+"The object of SameGame is to maximize your score by removing tiles from the board.  Tiles are selected and removed by clicking on a tile that has at least one adjacent tile of the same color (where adjacent is defined as up, down, left, or right).\n"
+"\n"
+"The first click selects a group of adjacent tiles, a second click in that group will remove it from the board, sliding tiles down and right to fill the space of the removed group.  If you wish to select a different group, simply click on it instead.\n"
+"\n"
+"The score increases by \"(selection - 2) squared\", so you want to maximize the selection size as much as possible.  However, making small strategic selections may allow you to increase the size of a later selection.\n"
+"\n"
+"If you are having a hard time finding a group, the \"Hint\" button will find one and select it for you (although it is likely not the best group to select!).\n"
+"\n"
+"When there are no more groups available, the score display will flash with your final score.  Your final score is reduced by 1 for each tile remaining on the board.  If you manage to remove all tiles, your final score is increased by a bonus of 5 times the number of tiles on a full board.\n"
+"\n"
+"Come on, you can beat that last score!  Click \"New game\"  ;-)\n"
+"\n"
+"SameGame was originally written by Eiji Fukumoto for UNIX and X; this version is based upon the same game concept, but was rewritten from scratch."
+msgstr ""
+"SameGame এর লক্ষ্য হলো বোর্ড থেকে টাইল সরানোর মধ্যমে স্কোর বৃদ্ধি করা। টাইল নির্বাচন করা হয় এবং টাইলের কাছের (যেখানে কাছে বলতে উপর, নিচ, বাম এবং ডানের টাইল বুঝানো হয়েছে) অন্তত একটি একই রঙের টাইল থাকে তাহলে সেটি ক্লিক করার মাধ্যমে অপসারণ করা হয়। \n"
+"\n"
+"প্রথম ক্লিক এর মাধ্যমে কাছের টাইলের একটি গ্রুপ নির্বাচন করা হয় এবং গ্রুপে দ্বিতীয়বার ক্লিক করলে তা বোর্ড থেকে অপসারিত হয়, অপসারিত গ্রুপের ফাঁকা স্থান পূরণ করার জন্য টাইল নিচে এবং ডান দিকে সরিয়ে নেয়া হয়। যদি তুমি একটি ভিন্ন গ্রুপ নির্বাচন করতে চাও তাহলে শুধু এইটি ক্লিক করো।\n"
+"\"(নির্বাচন - ২) এর বর্গ\", ফলে তুমি যতটা সম্ভব নির্বাচনের আকার বৃদ্ধি করতে পারো। কিন্তু, কিছু ছোট কৌশলগত নির্বাচনের মাধ্যমে পরবর্তী নির্বাচনের আকার বৃদ্ধি করতে সহায়তা করে।\n"
+"যদি একটি গ্রুপ খুঁজে পেতে সমস্যা হয় তাহলে \"ইঙ্গিত\" বোতামটি চেপে একটি খুঁজে পাবে এবং নির্বাচন করতে পারবে (যদিও এটি নির্বাচন করার জন্য সঠিক গ্রুপ হয় না!)।\n"
+"যদি আর কোন গ্রুপ না থাকে তাহলে স্কোর ডিসপ্লের মাধ্যমে তোমার সর্বশেষ স্কোর দেখায়। বোর্ডে থেকে যাওয়া প্রতিটি টাইলের জন্য সর্বশেষ স্কোর থেকে ১ করে কমানো হয়।যদি তুমি সকল টাইল অপসারন করতে পারো তাহলে তোমার বোর্ডে যত সংখ্যক টাইল ছিল তার ৫ গুন বোনাস সর্বশেষ স্কোরটির সাথে যোগ করা হয়।\n"
+"চালিয়ে যাও, তুমি আগের স্কোর অতিক্রম করতে পারো! \"নতুন খেলা\" ক্লিক করো ;-)\n"
+"SameGame মূলত ইজি ফুকোমুটো UNIX এবং X এর জন্য লিখেছিলেন; এই সংস্করণটি একই খেলার ধারনা ভিত্তিক কিন্তু স্ক্র্যাচ হতে পুনরায় লেখা হয়েছে।"
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Hint"
+msgstr "ইঙ্গিত"
+
+#: Morphic-Games,SameGame>>makeControls,Tetris>>showScoreDisplay
+msgid "Score:"
+msgstr "স্কোর:"
+
+#: Morphic-Games,SameGame>>makeControls
+msgid "Selection:"
+msgstr "নির্বাচন:"
+
+#: Morphic-Games,SameGameBoard>>removeSelection
+msgid "remove selection"
+msgstr "নির্বাচন মুছে ফেলো"
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris"
+msgstr "টেট্রিস"
+
+#: Morphic-Games,Tetris_class>>descriptionForPartsBin
+msgid "Tetris, yes Tetris"
+msgstr "টেট্রিস, হ্যা টেট্রিস"
+
+#: Morphic-Games,Tetris>>makeGameControls
+msgid "pause"
+msgstr "বিরতি"
+
+#: Morphic-Games,Tetris>>makeGameControls,TheWorldMenu>>buildWorldMenu
+msgid "quit"
+msgstr "বের হয়ে যাও"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "drop"
+msgstr "ছাড়ুন"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the left"
+msgstr "বামে সরাও"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "move to the right"
+msgstr "ডানে সরাও"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate anticlockwise"
+msgstr "ঘড়ির বিপরীত দিকে ঘুরাও"
+
+#: Morphic-Games,Tetris>>makeMovementControls
+msgid "rotate clockwise"
+msgstr "ঘড়ির দিকে ঘুরাও"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "A fine game of chess"
+msgstr "দাবার একটি ভালো খেলা"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin
+msgid "Chess"
+msgstr "দাবাখেলা"
+
+#: Morphic-Games-Chess,ChessMorph_class>>descriptionForPartsBin,ChineseCheckers_class>>descriptionForPartsBin,CipherPanel_class>>descriptionForPartsBin,CrosticPanel_class>>descriptionForPartsBin,FreeCell_class>>descriptionForPartsBin,Mines_class>>descriptionForPartsBin,SameGame_class>>descriptionForPartsBin
+msgid "Games"
+msgstr "খেলা"
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Auto  "
+msgstr "  স্বয়ংক্রিয়  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Help  "
+msgstr "  সহায়তা  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  New  "
+msgstr "  নতুন  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Play  "
+msgstr "  বাজাও  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow,Mines>>makeControls
+msgid "  Quit  "
+msgstr "  বের হয়ে যাও  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Redo  "
+msgstr "  পুনরায় করুন  "
+
+#: Morphic-Games-Chess,ChessMorph>>addButtonRow
+msgid "  Undo  "
+msgstr "  পূর্বাবস্থা  "
+
+#: Morphic-Games-Chess,ChessMorph>>findBestMove
+msgid "I suggest: "
+msgstr "আমি মনে করি: "
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border"
+msgstr "সীমানা"
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border color..."
+msgstr "সীমানার রং..."
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border style..."
+msgstr "সীমানা শৈলী..."
+
+#: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
+msgid "border width..."
+msgstr "সীমানা প্রস্থ..."
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid "border change"
+msgstr "সীমানা পরিবর্তন"
+
+#: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+"সীমানার প্রস্থ বৃদ্ধি করতে কার্সর\n"
+"এই বিন্দু থেকে দূরে সরিয়ে নাও।\n"
+"শেষ হয়ে হেলে ক্লিক করো।"
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "লোড"
+
+#: Morphic-Kernel,Morph_class>>serviceLoadMorphFromFile,Morph_class>>serviceLoadMorphFromFile
+msgid "load as morph"
+msgstr "মর্ফ হিসেবে লোড করো"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "child layout"
+msgstr "শিশুদের জন্য বিন্যাস"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "horizontal resizing"
+msgstr "অনুভূমিক পুঃনআকৃতি করা হচ্ছে"
+
+#: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
+msgid "vertical resizing"
+msgstr "উল্লম্ব পুঃনআকৃতি করা হচ্ছে"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy Postscript"
+msgstr "পোস্টস্ক্রিপ্ট অনুলিপি করো"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy text"
+msgstr "টেক্সট অনুলিপি করো"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "copy to paste buffer"
+msgstr "প্রতিলেপন বাফারে অনুলিপি ফাইল"
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:
+msgid "copy & print..."
+msgstr "অনুলিপি & মুদ্রণ করো..."
+
+#: Morphic-Kernel,Morph>>addCopyItemsTo:,Morph>>buildMetaMenu:
+msgid "print Postscript to file..."
+msgstr "ফাইলে পোস্টস্ক্রিপ্ট মুদ্রণ করো..."
+
+#: Morphic-Kernel,Morph>>addDebuggingItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>debugMenu
+msgid "debug..."
+msgstr "ডিবাগ..."
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "drop shadow"
+msgstr "ছায়া ছেড়ে দাও"
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow color..."
+msgstr "ছায়া রং..."
+
+#: Morphic-Kernel,Morph>>addDropShadowMenuItems:hand:
+msgid "shadow offset..."
+msgstr "ছায়া অফসেট..."
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "desktop"
+msgstr "ডেস্কটপ"
+
+#: Morphic-Kernel,Morph>>addEmbeddingMenuItemsTo:hand:
+msgid "embed into"
+msgstr "সন্নিবেশিত"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "BMP file"
+msgstr "BMP ফাইল"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "export..."
+msgstr "এক্সপোর্ট..."
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "GIF file"
+msgstr "GIF ফাইল"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "JPEG file"
+msgstr "JPEG ফাইল"
+
+#: Morphic-Kernel,Morph>>addExportMenuItems:hand:
+msgid "PNG file"
+msgstr "PNG ফাইল"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "bitmap fill"
+msgstr "বিটম্যাপ ভরাট করো"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:
+msgid "change color..."
+msgstr "রং পরিবর্তন করো..."
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "default fill"
+msgstr "পূর্বনির্ধারিত ভরাট"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,TextMorph>>addFillStyleMenuItems:hand:
+msgid "fill style"
+msgstr "শৈলী ভরাট করো"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "gradient fill"
+msgstr "গ্র্যাডিয়েন্ট ভরাট করো"
+
+#: Morphic-Kernel,Morph>>addFillStyleMenuItems:hand:,PasteUpMorph>>presentDesktopColorMenu,TextMorph>>addFillStyleMenuItems:hand:
+msgid "solid fill"
+msgstr "নিরেট ভরাট"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the color of this object"
+msgstr "এই বস্তুর রং পরিবর্তন করো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Change the size of this object"
+msgstr "এই বস্তুর আকার পরিবর্তন করো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Delete this object -- warning -- can be destructive!"
+msgstr "বস্তুটি মুছে ফেলো -- সতর্কতা -- ক্ষতিকারক হতে পারে!"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "delete"
+msgstr "মুছে ফেলো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "duplicate"
+msgstr "অনুরুপ"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "grab"
+msgstr "ধরে রাখো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a copy of this object"
+msgstr "আমাকে এই বস্তুর একটি অনুলিপি দাও"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Hand me a tile represting this object"
+msgstr "এই বস্তু উপস্থাপনকারী একটি টালি আমাকে দাও"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "halo actions..."
+msgstr "হেইলো কাজ..."
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Make a new sibling of this object and hand it to me"
+msgstr "এই বস্তুর মতো আরেকটি তৈরি করো এবং আমাকে দাও"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "make a sibling"
+msgstr "একটি সিবলিং তৈরি করো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a property sheet for me. Allows changing lots of stuff at once."
+msgstr "আমার জন্য একটি বৈশিষ্ট্য পাতা খোলো। একবারে অনেক কিছু পরিবর্তন করতে অনুমোদন করো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a tool that will facilitate tile scripting of this object."
+msgstr "একটি টুল খুলুন যা বস্তুর টাকি স্ক্রিপ্টিং সহজ করবে।"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open a Viewer that will allow everything about this object to be seen and controlled."
+msgstr "একটি পরিদর্শক খোলো যা এই প্রকল্পের সব কিছু দেখতে এবং নিয়ন্ত্রণ করতে সম্মতি দেয়"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Open an Inspector on this object"
+msgstr "এই বস্তুর একটি  পরিদর্শক খোলো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "Pick this object up -- warning, since this removes it from its container, it can have adverse effects."
+msgstr "এই বস্তুটি উপরে তোলো -- সতর্কতা, যেহুতু এটি এর ধারক থেকে মুছে ফেলা হয়েছে, এর বিরুপ প্রভাব পড়তে পারে।"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "property sheet"
+msgstr "বৈশিষ্ট্যাবলী পাতা"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "resize"
+msgstr "পুনঃআকৃতি"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "set color"
+msgstr "রং নির্ধারণ করো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile browser"
+msgstr "টালি ব্রাউজার"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "tile representing this object"
+msgstr "এই বস্তুর একটি টালি উপস্থাপনা তৈরি করো"
+
+#: Morphic-Kernel,Morph>>addHaloActionsTo:
+msgid "viewer"
+msgstr "পরিদর্শক"
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "change layout inset..."
+msgstr "বিন্যাস ইনসেট পরিবর্তন করো..."
+
+#: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
+msgid "layout"
+msgstr "বহির্বিন্যাস"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock all contents"
+msgstr "সব বিষয়বস্তু তালামুক্ত করো"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock \"{1}\""
+msgstr "\"{1}\" তালামুক্ত করো"
+
+#: Morphic-Kernel,Morph>>addLockingItemsTo:
+msgid "unlock..."
+msgstr "তালামুক্ত..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "add mouse up action"
+msgstr "মাউসের বোতাম ছেড়ে দেওয়ার কাজ যোগ করো"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "adhere to edge..."
+msgstr "কিনারায় দৃঢ়ভঅবে লেগে থাকা..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "arrowheads on pen trails..."
+msgstr "পেন ট্রেইলে তীরের অগ্রভাগ"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "balloon help for this object"
+msgstr "এই বস্তুর বেলুন সহায়তা"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "delete existing path"
+msgstr "বিদ্যমান পাথ মুছে ফেলো"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "draw new path"
+msgstr "নতুন পাথ আঁকো"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "extras..."
+msgstr "অতিরিক্ত..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "follow existing path"
+msgstr "বিদ্যমান পাথ অনুসরণ করো"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "GeeMail stuff..."
+msgstr "GeeMail জিনিসপত্র..."
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "hand me tiles to fire this button"
+msgstr "এই বোতামটি বাদ দিতে আমাকে টালি দাও"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "put in a window"
+msgstr "একটি উইন্ডোতে রাখো"
+
+#: Morphic-Kernel,Morph>>addMiscExtrasTo:
+msgid "remove mouse up action"
+msgstr "মাউসের বোতাম ছেড়ে দেওয়ার কাজ মুছে ফেলো"
+
+#: Morphic-Kernel,Morph>>addMorphFrontFromWorldPosition:
+msgid "add slot for {1}"
+msgstr "{1} এর জন্য স্লট যোগ করো"
+
+#: Morphic-Kernel,Morph>>addMouseUpAction
+msgid "MouseUp expression:"
+msgstr "MouseUp অভিব্যক্তি:"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "add a border around this shape..."
+msgstr "এই আকৃতির চারপাশে একটি সীমানা যোগ করো..."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "erase pixels of color"
+msgstr "রং এর পিক্সেল মুছে ফেলো"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "insert into movie"
+msgstr "মুভিতে প্রবেশ করাও"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "painting..."
+msgstr "প্যাইন্টিং..."
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "recolor pixels of color"
+msgstr "রং এর পিক্সেল পুনরায় রং করো"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reduce color palette"
+msgstr "রং প্যালেট কমাও"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "repaint"
+msgstr "পুনরায় রং করো"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "reset forward-direction"
+msgstr "সামনের-অভিমুখ পুনঃনির্ধারণ করো"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "restore original aspect ratio"
+msgstr "আসল দৃশ্যমান অনুপাত পুনঃজমা করো"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:,MovieMorph>>addCustomMenuItems:hand:
+msgid "set rotation center"
+msgstr "ঘূর্নন কেন্দ্র নির্ধারন করো"
+
+#: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
+msgid "set rotation style"
+msgstr "ঘূর্ণন শৈলী নির্ধারণ করো"
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "bring to front"
+msgstr "সমানে নিয়ে আসো"
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "embed..."
+msgstr "এমবেড..."
+
+#: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:
+msgid "present a menu of potential embeddeding targets for this object, and embed it in the one chosen."
+msgstr "present a menu of potential embeddeding targets for this object, and embed it in the one chosen."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell positioning"
+msgstr "ঘরের অবস্থান নির্ধারণ"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "cell spacing"
+msgstr "ঘরের মধ্যবর্তী ফাঁকা অংশ"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change cell inset..."
+msgstr "ঘর ইনসেট পরিবর্তন করো..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change max cell size..."
+msgstr "সর্বোচ্চ কক্ষ আকৃতি পরিবর্তন করো..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "change min cell size..."
+msgstr "সর্বনিম্ন কক্ষ আকৃতি পরিবর্তন করো..."
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list centering"
+msgstr "তালিকা কেন্দ্রীয়করণ"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list direction"
+msgstr "গতিপথ তালিকা করো"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "list spacing"
+msgstr "তালিকার মধ্যবর্তী ফাঁকা অংশ"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:,Morph>>hasTableLayoutString
+msgid "table layout"
+msgstr "সারণি বিন্যাস"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap centering"
+msgstr "কেন্দ্রে মোড়ানো"
+
+#: Morphic-Kernel,Morph>>addTableLayoutMenuItems:hand:
+msgid "wrap direction"
+msgstr "মোড়ানো দিকবিন্যাস"
+
+#: Morphic-Kernel,Morph>>addTextAnchorMenuItems:hand:
+msgid "text anchor"
+msgstr "টেক্সট নোঙ্গর"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "when \"locked\", I am inert to all user interactions"
+msgstr "যখন \"অবরুদ্ধ\", আমি ব্যবহারকারীর সব যোগাযোগ উত্তরাধিকারসূত্রে পাবো"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether direction handles are shown with the halo"
+msgstr "অভিমুখ হ্যান্ডেল হেইলো সহ দেখানো হবে কিনা"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I am open to having objects dropped into me"
+msgstr "আমি আমার উপর ছেড়ে দেওয়া নেওয়ার জন্য খোলা কিনা"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be reistant to easy deletion via the pink X handle"
+msgstr "whether I should be reistant to easy deletion via the pink X handle"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether I should be resistant to a drag done by mousing down on me"
+msgstr "whether I should be resistant to a drag done by mousing down on me"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether my corners should be rounded"
+msgstr "আমার কোণা বৃত্তীয় করা হবে  কিনা"
+
+#: Morphic-Kernel,Morph>>addToggleItemsToHaloMenu:
+msgid "whether the parts of objects within me that are outside my bounds should be masked."
+msgstr "আমার মধ্য বস্তুর যে অংশ সেটি যদি সীমার বাইরে থাকে তাহলে তা মাস্ক করা দরকার কিনা।"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom"
+msgstr "নিম্ন"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom left"
+msgstr "নিম্ন বাম"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "bottom right"
+msgstr "নিম্ন ডান"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "center"
+msgstr "কেন্দ্র"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "left"
+msgstr "বাম"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "right"
+msgstr "ডান"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top"
+msgstr "শীর্ষ"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top left"
+msgstr "শীর্ষ বাম"
+
+#: Morphic-Kernel,Morph>>adhereToEdge
+msgid "top right"
+msgstr "শীর্ষ ডান"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Center of rotation (hold down shift key and drag to change it)"
+msgstr "ঘূর্ননের কেন্দ্র (shift কী ধরে রাখো এবং এটি পরিবর্তন করতে টানো)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change color (press shift for more properties)"
+msgstr "রং পরিবর্তন করো (আরো বৈশিষ্ট্যের জন্য shift চাপো)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change font"
+msgstr "ফন্ট পরিবর্তন করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change scale"
+msgstr "স্কেল পরিবর্তন করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change size (press shift to preserve aspect)"
+msgstr "আকার পরিবর্তন করো (দিক রক্ষার জন্য shift চাপো)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Change style"
+msgstr "শৈলী পরিবর্তন করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose a new graphic"
+msgstr "নতুন গ্রাফিক্স নির্বাচন করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Choose forward direction"
+msgstr "সমানের অভিমুখ পছন্দ করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Collapse"
+msgstr "ভাঁজ হয়ে গুটানো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Debug (press shift to inspect morph)"
+msgstr "ডিবাগ (মর্ফ পরিদর্শন করার জন্য shift চাপো)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate"
+msgstr "অনুলিপি"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Duplicate (press shift to make a sibling)"
+msgstr "অনুলিপি (একটি সিবলিং তৈরি করার জন্য shift চাপো)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Emphasis & alignment"
+msgstr "অধিক গুরুত্ব & প্রান্তিককরণ"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Fewer halo handles"
+msgstr "কিছু হেইলো হ্যান্ডেল"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a scratch script"
+msgstr "একটি সন্ধান স্ক্রিপ্ট তৈরি করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling"
+msgstr "একটি সিবলিং তৈরি করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a sibling (press shift to make simple duplicate)"
+msgstr "একটি সিবলিং তৈরি করো (সাধারণ অনুলিপি তৈরি করতে shift চাপো)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Make a tile representing this object"
+msgstr "এই বস্তুর একটি টালি উপস্থাপনা তৈরি করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Menu"
+msgstr "মেনু"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "More halo handles"
+msgstr "আরো হলো হ্যান্ডেল"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move"
+msgstr "সরাও"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Move to trash"
+msgstr "ট্র্যাশে সরাও"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Open a Viewer for me"
+msgstr "আমার জন্য একটি পরিদর্শক খোলো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint background"
+msgstr "প্যাইন্ট পটভূমি"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Paint new object"
+msgstr "নতুন বস্তু রং করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Pick up"
+msgstr "টেনে তুলো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Present the Viewing menu"
+msgstr "প্রদর্শন মেনু উপস্থাপন করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Property Sheet (press shift for simple recolor)"
+msgstr "বৈশিষ্ট্য পাতা (সাধারণ রং এর জন্য shift চাপো)"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Remove from screen"
+msgstr "পর্দা থেকে মুছে ফেলো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Repaint"
+msgstr "পুনরায় রং করো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Rotate"
+msgstr "ঘূর্ণন"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "See the script for this button"
+msgstr "এই বোতামের জন্য স্ক্রিপ্ট দেখো"
+
+#: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
+msgid "Set center of rotation"
+msgstr "ঘূর্ননের কেন্দ্র নির্ধারণ করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "control-menu..."
+msgstr "কন্ট্রোল-মেনু..."
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore model"
+msgstr "মডেলটি দেখো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "explore morph"
+msgstr "মর্ফটি দেখো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "inspect model"
+msgstr "মডেল পরিদর্শন করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph"
+msgstr "মর্ফ পরিদর্শন করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect morph (in MVC)"
+msgstr "পরিদর্শন করো (MVC তে)"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect owner chain"
+msgstr "মালিকের চেইন পরিদর্শন করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect player"
+msgstr "খেলোয়ারদের পরিদর্শন করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "inspect properties"
+msgstr "বৈশিষ্ট্য পরিদর্শন করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "internal name "
+msgstr "আব্যন্তরীন নাম "
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "make own subclass"
+msgstr "নিজস্ব সাবক্লাস তৈরি করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "model protocol"
+msgstr "মডেল প্রটোকোল"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "morph protocol"
+msgstr "মর্ফ প্রটোকোল"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a Viewer on this Morph, rather than on its Player"
+msgstr "চালকের পরিবর্তে,এই মর্ফে একটি পর্যালোচক খুলুন।"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "Opens a viewer on my Player -- this is the same thing you get if you click on the cyan \"View\" halo handle"
+msgstr "আমার প্লেয়ারে একটি পরিদর্শক খোলো -- যদি তুমি সায়ান \"দর্শন\" হেইলো হ্যান্ডেল ক্লিক করো তাহলে তুমি একই জিনিস পাবে"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,Morph>>buildMetaMenu:
+msgid "save morph in file"
+msgstr "ফাইলে মর্ফ সংরক্ষণ করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start drawing again"
+msgstr "আবার আকাঁ শুরু করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:,TheWorldMenu>>debugMenu
+msgid "start stepping again"
+msgstr "আবার ধাপে ধাপে যাওয়া শুরু করো"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Morph"
+msgstr "মর্ফের জন্য পরিদর্শক"
+
+#: Morphic-Kernel,Morph>>buildDebugMenu:
+msgid "viewer for Player"
+msgstr "প্লেয়ারের জন্য পরিদর্শক"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "add halo"
+msgstr "হেইলো যাগ করো"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "attach to resource"
+msgstr "সম্পদে সংযোজন করো"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "become this world's model"
+msgstr "এই বিশ্বের মডেল হও"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "browse hierarchy"
+msgstr "স্তরায়ন দেখাও"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "explore"
+msgstr "বিশেষভাবে দেখো"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "go behind"
+msgstr "পেছনে যাও"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save as resource"
+msgstr "রিসোর্স হিসেবে সংরক্ষণ করো"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "save morph as prototype"
+msgstr "মর্ফ প্রটোটাইপ হিসেবে সংরক্ষণ করো"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set variable name..."
+msgstr "চলকের নাম নির্ধারণ করো..."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "show actions"
+msgstr "কাজ দেখাও"
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "submorphs..."
+msgstr "উপফর্ম..."
+
+#: Morphic-Kernel,Morph>>buildMetaMenu:
+msgid "update from resource"
+msgstr "রিসোর্স থেকে হালনাগাদ করো"
+
+#: Morphic-Kernel,Morph>>dismissViaHalo
+msgid "dismiss "
+msgstr "বাতিল "
+
+#: Morphic-Kernel,Morph>>editBalloonHelpContent:
+msgid "Edit the balloon help text for "
+msgstr "বেলুত সহায়তা টেক্সট সম্পাদনা করো "
+
+#: Morphic-Kernel,Morph>>editMenuButtonDefinition
+msgid " menu definition"
+msgstr " মেনু সংজ্ঞা"
+
+#: Morphic-Kernel,Morph>>embedInto:
+msgid "Embed {1} into..."
+msgstr "{1} সন্নিবেশিত করো..."
+
+#: Morphic-Kernel,Morph>>exportAsBMP,Morph>>exportAsGIF,Morph>>exportAsJPEG,Morph>>exportAsPNG
+msgid "Please enter the name"
+msgstr "অনুগ্রহ করে নাম প্রবেশ করান"
+
+#: Morphic-Kernel,Morph>>hasClipLayoutCellsString
+msgid "clip to cell size"
+msgstr "ঘরের আকারে ক্লিপ করে"
+
+#: Morphic-Kernel,Morph>>hasClipSubmorphsString
+msgid "provide clipping"
+msgstr "ক্লিপিং সরবরাহ করে"
+
+#: Morphic-Kernel,Morph>>hasDirectionHandlesString
+msgid "direction handles"
+msgstr "অভিমুখ হ্যান্ডেল"
+
+#: Morphic-Kernel,Morph>>hasDisableTableLayoutString
+msgid "disable layout in tables"
+msgstr "সারণিতে বিন্যাস নিষ্ক্রিয় করো"
+
+#: Morphic-Kernel,Morph>>hasDocumentAnchorString
+msgid "Document"
+msgstr "নথি"
+
+#: Morphic-Kernel,Morph>>hasDragAndDropEnabledString
+msgid "accept drops"
+msgstr "ছেড়ে দেওয়া গ্রহণ করো"
+
+#: Morphic-Kernel,Morph>>hasDropShadowString
+msgid "show shadow"
+msgstr "ছায়া দেখায়"
+
+#: Morphic-Kernel,Morph>>hasInlineAnchorString
+msgid "Inline"
+msgstr "ইনলাইন"
+
+#: Morphic-Kernel,Morph>>hasNoLayoutString
+msgid "no layout"
+msgstr "কোনো বিন্যাস নেই"
+
+#: Morphic-Kernel,Morph>>hasParagraphAnchorString
+msgid "Paragraph"
+msgstr "অনুচ্ছেদ"
+
+#: Morphic-Kernel,Morph>>hasProportionalLayoutString
+msgid "proportional layout"
+msgstr "আনুপাতিক বিন্যাস"
+
+#: Morphic-Kernel,Morph>>hasReverseCellsString
+msgid "reverse table cells"
+msgstr "সারণী ঘর উল্টিয়ে ফেলো"
+
+#: Morphic-Kernel,Morph>>hasRubberBandCellsString
+msgid "rubber band cells"
+msgstr "রাবার ব্যান্ডের ঘর"
+
+#: Morphic-Kernel,Morph>>helpButton
+msgid "click here for help"
+msgstr "সহায়তার জন্য এখানে ক্লিক করো"
+
+#: Morphic-Kernel,Morph>>inspectMorphsProperties
+msgid "no properties to inspect, sorry"
+msgstr "পরিদর্শনের জন্য কোনো বৈশিষ্ট্য নেই, দুঃখিত"
+
+#: Morphic-Kernel,Morph>>lockedString
+msgid "be locked"
+msgstr "অবরুদ্ধ রাখো"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a background color"
+msgstr "একটি পটভূমির রং নির্বাচন করো"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Choose a line color"
+msgstr "একটি রেখার রং নির্বাচন করো"
+
+#: Morphic-Kernel,Morph>>makeGraphPaper
+msgid "Enter grid size"
+msgstr "গ্রীডের আকার প্রবেশ করাও"
+
+#: Morphic-Kernel,Morph>>makeMultipleSiblings:
+msgid "how many siblings do you want?"
+msgstr "তুমি কয়টি সিবলিং চাও?"
+
+#: Morphic-Kernel,Morph>>maybeAddCollapseItemTo:
+msgid "collapse"
+msgstr "ভাঁজ হয়ে গুটানো"
+
+#: Morphic-Kernel,Morph>>menuButton
+msgid "click here to get a menu with further options"
+msgstr "আরো পছন্দসহ একটি মেনু পেতে এখানে ক্লিক করো"
+
+#: Morphic-Kernel,Morph>>noHelpString
+msgid "Help not yet supplied"
+msgstr "সহায়তা এখনো সররবরাহ করা হয়নি"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "Choose orientation..."
+msgstr "দিকবিন্যাস নির্বাচন করো..."
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid "File name? (\"{1}\" will be added to end)"
+msgstr "ফাইলের নাম? (\"{1}\" শেষে যোগ করা হবে)"
+
+#: Morphic-Kernel,Morph>>printPSToFileNamed:
+msgid ""
+"portrait (tall)\n"
+"landscape (wide)"
+msgstr ""
+"লম্বালম্বি (লম্বা)\n"
+"আড়াআড়ি (চওড়া)"
+
+#: Morphic-Kernel,Morph>>resistsRemovalString
+msgid "resist being deleted"
+msgstr "মুছে ফেলা থেকে প্রতিরোধ করা"
+
+#: Morphic-Kernel,Morph>>roundedCornersString
+msgid "round corners"
+msgstr "বৃত্তীয় কোনা"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "File name? (\".morph\" will be added to end)"
+msgstr "ফাইলের নাম? (\".morph\" শেষে যোগ করা হবে)"
+
+#: Morphic-Kernel,Morph>>saveOnFile
+msgid "my {1}"
+msgstr "আমার {1}"
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid "morph's SqueakPage property is out of date"
+msgstr "মর্ফ SqueakPage বৈশিষ্ট্য হালনাগাদ করা হয়নি"
+
+#: Morphic-Kernel,Morph>>saveOnURLbasic
+msgid ""
+"url of a place to store this object.\n"
+"Must begin with file:// or ftp://"
+msgstr ""
+"এই বস্তু জমা করা জন্য একটি স্থানের url।\n"
+"অবশ্যই file:// অথবা ftp:// দিয়ে শুরু হতে হবে"
+
+#: Morphic-Kernel,Morph>>setArrowheads
+msgid "Head size for arrowheads: "
+msgstr "তীরের অগ্রভাগের জন্য সম্মুখের আকৃতি "
+
+#: Morphic-Kernel,Morph>>showEmbedMenu
+msgid "embed {1} in..."
+msgstr "{1} তে সন্নিবেশিত..."
+
+#: Morphic-Kernel,Morph>>stickinessString
+msgid "resist being picked up"
+msgstr "তুলে নেওয়ায় বাধা দাও"
+
+#: Morphic-Kernel,Morph>>targetFromMenu:popupAt:
+msgid "Target for {1}"
+msgstr ""
+
+#: Morphic-Kernel,Morph>>undoGrabCommand
+msgid "move "
+msgstr "সরাও "
+
+#: Morphic-Kernel,Morph>>unlockOneSubpart
+msgid "Who should be be unlocked?"
+msgstr "কাকে তালামুক্ত করা হবে?"
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "close editing"
+msgstr "সম্পাদনা নির্বাচন করো"
+
+#: Morphic-Kernel,MorphicModel>>addCustomMenuItems:hand:
+msgid "open editing"
+msgstr "সম্পাদনা পছন্দ করো"
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "A tool that lets you browse and load packages from SqueakMap, an index of Squeak code available on the internet"
+msgstr "একটি টুল যা তোমাকে SqueakMap থেকে প্যাকেজ ব্রাউজ এবং লোড করতে দেয়, ইন্টারনেটে স্কুইক কোডের একটি সূচী বিদ্যমান"
+
+#: Morphic-Kernel,TheWorldMenu_class>>registerStandardInternetApps
+msgid "Package Loader"
+msgstr "প্যাকেজ লোডার"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "appearance..."
+msgstr "উপস্থিতি..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "apply a graph-paper-like texture background to the desktop."
+msgstr "ডেস্কটপে একটি গ্রাফ কাগজের মতো টেক্সচার পটভূমি প্রয়োগ করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose the standard fonts to use for code, lists, menus, window titles, etc."
+msgstr "কোড,তালিকা,মেনু,উইন্ডো শিরোনাম ইত্যাদির জন্য ব্যবহৃত আদর্শ ফন্ট।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color should be used for text highlighting in Morphic."
+msgstr "মর্ফিকে টেক্সট হাইলাইট করার জন্য কোন রং ব্যবহার করা প্রয়োজন সেটি নির্বাচন করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for highlighting which pane has the keyboard focus"
+msgstr "কোন পেনের কীবোর্ড ফোকাস আছে, কোন রং হাইলাইটিং এর জন্য ব্যবহার করা হবে তা নির্বাচন করো"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Choose which color to use for the text insertion point in Morphic."
+msgstr "মর্ফিকে টেক্সট প্রবেশ বিন্দুতে কোন রং ব্যবহার করা প্রয়োজন সেটি নির্বাচন করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose a uniform color to use as desktop background."
+msgstr "ডেস্কটপ পটভূমি হিসেবে ব্যবহারের জন্য একক রং নির্বাচন করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose how many bits per pixel."
+msgstr "প্রতি পিক্সেলে কয়টি বিট সেটি পছন্দ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose second color to use as gradient for desktop background."
+msgstr "ডেস্কটপ পটভূমি হিসেবে ব্যবহারের জন্য দ্বিতীয় রং নির্বাচন করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose the shape to be used in arrowheads on pen trails."
+msgstr "পেন ট্রেইলের তীরের অগ্রভাগে ব্যবহারের জন্য আকার নির্বাচন করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "choose theme..."
+msgstr "থিম নির্বাচন করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "clear turtle trails from desktop"
+msgstr "ডেস্কটপ থেকে টার্টেল চিহ্ন-রেখা মুছে ফেলো"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen off"
+msgstr "পর্দাজুড়ে প্রদর্শন বন্ধ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "full screen on"
+msgstr "পর্দাজুড়ে প্রদর্শন চালু করো"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether menu colors should be derived from the desktop color."
+msgstr "মেনু রং ডেস্কটপ রং থেকে উৎপন্ন হবে কি না সেটি নিয়ন্ত্রন করো:"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Governs whether morphic windows and menus should have rounded corners."
+msgstr "মর্ফিক উইন্ডোজ এবং মেনুর বৃত্তীয় কোণা থাকবে কি না সেটি নিয়ন্ত্রন করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "if in full-screen mode, takes you out of it."
+msgstr "যদি ফুল-স্ক্রিন মোডে থাকো, তুমি এর থেকে বের হয়ে যাও।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "insertion point color..."
+msgstr "সন্নিবেশন বিন্দু রং..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "keyboard focus color"
+msgstr "কীবোর্ড ফোকাস রং"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Lets you specify colors for standard system windows."
+msgstr "আদর্শ সিস্টেম উইন্ডোর জন্য তোমাকে রং উল্লেখ করতে দাও"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Opens a \"Preferences Panel\" which allows you to alter many settings"
+msgstr "একটি \"পছন্দসমূহের প্যানেল\" খোলো যা তোমাকে অনেক সেটিং পরিবর্তন করতে অনুমোদন করে"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "Presents you with a menu of themes; each item's balloon-help will tell you about the theme.  If you choose a theme, many different preferences that come along with that theme are set at the same time; you can subsequently change any settings by using a Preferences Panel"
+msgstr "থিমের মেনু সহ তোমাকে দেখায়; প্রতিটি আইটেমের বেলুন-সহায়তা তোমাকে থিম সম্পর্কে বলবে। যদি তুমি একটি থিম পছন্দ করো, অনেক ধরণের পছন্দসমূহ যা এই থিমের সাথে আসে তা একই সময়ে নির্ধারণ করা হবে; একটি পছন্দসমূহ প্যানেল ব্যবহার করে তুমি পরবর্তীতে যেকোনো সেটিংস পরিবর্তন করতে পারবে"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "pen-trail arrowhead size..."
+msgstr "কলম চিহ্ন-রেখায় তীরের অগ্রভাগের আকার..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "puts you in full-screen mode, if not already there."
+msgstr "যদি ইতোমধ্য না থাকো, তবে তোমাকে একটি ফুল-স্ক্রিন মোডে রাখো।"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "remove any pigment laid down on the desktop by objects moving with their pens down."
+msgstr "remove any pigment laid down on the desktop by objects moving with their pens down."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set desktop color..."
+msgstr "ডেস্কটপ রং নির্ধারণ করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set display depth..."
+msgstr "প্রদর্শন গভীরতা নির্ধারণ করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "set gradient color..."
+msgstr "গ্যাডিয়েন্ট রং নির্ধারণ করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "system fonts..."
+msgstr "সিস্টেম ফন্ট..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "text highlight color..."
+msgstr "টেক্সট হাইলাইট টং..."
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "use texture background"
+msgstr "টেক্সচার পটভূমি ব্যবহার করো"
+
+#: Morphic-Kernel,TheWorldMenu>>appearanceMenu
+msgid "window colors..."
+msgstr "উইন্ডো রং..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of choices useful for authoring"
+msgstr "লেখার সুবিধার জন্য পছন্দসমূহের মেনু"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of commands relating to use of projects"
+msgstr "প্রকল্প ব্যবহারের সাথে সম্পর্কিত একটি নির্দেশাবলীর মেনু"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu of options pertaining to this object as viewed as a playfield"
+msgstr "এই অবজেক্টের একটি মেনু অপশন প্লেফিল্ড হিসেবে দেখা হবে"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A menu relating to use of flaps.  For best results, use \"keep this menu up\""
+msgstr "ফ্ল্যাপ ব্যবহারের সাথে সম্পর্কিত একটি মেনু।  সবচেয়ে ভালো ফলাফল পেতে, \"মেনুটি খুলে রাখো\" ব্যবহার করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "A tool for finding and obtaining many kinds of objects"
+msgstr "বিভিন্ন ধরণের বস্তু খুঁজে পাওয়ার টুল"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "a menu of debugging items"
+msgstr "আইটেম ডিবাগিং করার মেনু"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>changesMenu
+msgid "changes..."
+msgstr "পরিবর্তন..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "do..."
+msgstr "করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "flaps..."
+msgstr "ফ্ল্যাপ..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>helpMenu
+msgid "help..."
+msgstr "সহায়তা..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "new morph..."
+msgstr "নতুন মর্ফ..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "Offers a variety of ways to create new objects"
+msgstr "একটি নতুন বস্তু তৈরি করতে বিভিন্ন উপায় প্রস্তাব করে"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "objects (o)"
+msgstr "বস্তু (o)"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu
+msgid "open a code editor on the method that defines this menu"
+msgstr "মেথডে একটি কোড সম্পাদক খোলো যা এই মেনু নির্ধারণ করে"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "projects..."
+msgstr "প্রকল্প..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up a menu offering many controls over appearance."
+msgstr "বাহ্যিক অবয়বের উপরে অনেক কন্ট্রোল সহ একটি মেনু তৈরি করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "put up an editible list of convenient expressions, and evaluate the one selected."
+msgstr "সুবিধাজনক অভিব্যক্তির একটি সম্পাদনারযোগ্য তালিকা তৈরি করো, এবং নির্বাচিতটি মূল্যায়ন করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "puts up a menu of useful items for updating the system, determining what version you are running, and much else"
+msgstr "সিস্টেম হালনাগাদ করতে উপকারী আইটেমের একটি মেনু উপরে তুলো, কোন সংস্করণ তুমি চালাচ্ছো, এবং আরো অনেক কিছু নির্ধারণ করে"
+
+#: Morphic-Kernel,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "windows..."
+msgstr "উইন্ডোজ..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "give the current image a new version-stamped name and save it under that name on disk."
+msgstr "বর্তমান চিত্রকে একটি নতুন সংষ্করণ-স্ট্যাম্প নাম দাও এবং এটি সে নামেই ডিস্কে সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "jump to project..."
+msgstr "প্রকল্পে যাও..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "load a project from a file"
+msgstr "একটি ফাইল থেকে একটি প্রকল্প লোড করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu,TheWorldMenu>>projectMenu
+msgid "load project from file..."
+msgstr "ফাইল থেকে প্রকল্প লোড করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "previous project"
+msgstr "পূর্ববর্তী প্রকল্প"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "print PS to file..."
+msgstr "ফাইলে PS মুদ্রন করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "put up a list of all projects, letting me choose one to go to"
+msgstr "সব প্রকল্পের তালিকা করো, যাওয়ার জন্য আমাকে একটি পছন্দ করতে দাও"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "quit out of Squeak."
+msgstr "স্কুইক ঢেকে বের হয়ে যাও"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
+msgstr "পর্দা পুনরায় প্যাইন্ট করো -- অনাকাঙ্খিত প্রদর্শন বস্তু, দীর্ঘস্থায়ী কার্সর,ইত্যাদি মুছে ফেলার জন্য উপকারী।"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "restore display (r)"
+msgstr "পর্দা পূর্বাবস্থায় ফিরিয়ে আনুন (r)"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "return to the most-recently-visited project"
+msgstr "সর্বোচ্চ-সাম্প্রতিক-দেখা প্রকল্পে ফেরত যাও"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save"
+msgstr "সংরক্ষণ"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save and quit"
+msgstr "সংরক্ষণ এবং বন্ধ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as new version"
+msgstr "নতুন সংস্করণ হিসেবে সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save as..."
+msgstr "নতুন ভাবে হিসেবে সংরক্ষণ করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save project on file..."
+msgstr "ফাইল প্রকল্পটি সংরক্ষন করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current image on disk, and quit out of Squeak."
+msgstr "ডিস্কে বর্তমান চিত্র সংরক্ষণ করো, এবং স্কুইক থেকে বের হয়ে যাও"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk"
+msgstr "চিত্রের বর্তমান সংস্করণ ডিস্কে সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save the current version of the image on disk under a new name."
+msgstr "একটি নতুন নামে চিত্রের বর্তমান সংস্করণ ডিস্কে সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "save this project on a file"
+msgstr "এই ফাইলে প্রকল্পটি সংরক্ষন করো"
+
+#: Morphic-Kernel,TheWorldMenu>>buildWorldMenu
+msgid "write the world into a postscript file"
+msgstr "একটি পোস্টস্ক্রিপ্ট ফাইলে বিশ্ব লেখো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "Brings an open change sorter to the front, creating one if necessary, and makes it the active window"
+msgstr "সামনে একটি খোলা পরিবর্তন নির্বাচক নিয়ে আসো, প্রয়োজন হলে একটি তৈরি করো, এবং এটিকে সক্রিয় উইন্ডো বানাও"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse changed methods"
+msgstr "পরিবর্তীত পদ্ধতি ব্রাউজ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "browse recent submissions"
+msgstr "সাম্প্রতিক জমা ব্রাউজ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Check the current change set for halts, references to the Transcript, etc., and if any such thing is found, open up a message-list browser detailing all possible slips."
+msgstr "থামানোর জন্য বর্তমান পরিবর্তন সেট, ট্রান্সক্রিপ্টের রেফারেন্স, ইত্যাদির জন্য পরীক্ষা করো, এবং যদি এমন কিছু খুঁজে পাওয়া যায়, তবে সব সম্ভবপর স্লিপের বিস্তারিত সহ একটি বার্তা-তালিকা ব্রাউজার খুলে।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a file holding the logged changes (going as far back as you wish), and open a window on that file."
+msgstr "লগ পরিবর্তনসমূহ ধারণকারী একটি ফাইল তৈরি করো (যতো খুশী ততো পেছনে যেতে পারো), এবং ওই ফাইলে একটি উইন্ডো খোলো।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Create a new change set and make it the current one."
+msgstr "একটি নতুন পরিবর্তন সেট তৈরি করো এবং এটিকে এখনকার হিসেবে রাখো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "check change set for slips"
+msgstr "স্লিপের পরিবর্তন সেট পরীক্ষা করো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "create new change set..."
+msgstr "পরিবর্তন সেট তৈরি করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "dual change sorter"
+msgstr "দ্বৈত পরিবর্তন নির্বাচক"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "file out current change set"
+msgstr "বর্তমান পরিবর্তন সেট ফাইল আউট করো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>windowsMenu
+msgid "find a change sorter (C)"
+msgstr "একটি পরিবর্তন নির্বাচক খোঁজো (C)"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "find recent submissions (R)"
+msgstr "সাম্প্রতিক জমা খোঁজো (R)"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Isolate this project and its subprojects from the rest of the system.  Changes to methods here will be revoked when you leave this project."
+msgstr "সিস্টেমের বাকি অংশ থেকে এই প্রকল্প এবং এর উপ-প্রকল্পসমূহ আলাদা করো। যখন তুমি এই প্রকল্পটি বাদ দিবে তখন এখানে মেথডের পরিবর্তন বাদ হয়ে যাবে।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "isolate changes of this project"
+msgstr "এই প্রকল্পের পরিবর্তন আলাদা করো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Make an open recent-submissions browser be the front-window, expanding a collapsed one or creating a new one if necessary.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted, latest first.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions at the top of the browser."
+msgstr "একটি উন্মুক্ত সাম্প্রতিক-জমা দেওয়ার ব্রাউজারকে সম্মুখ উইন্ডো বানাও, যদি দরকার হয় তবে ভাঁজ হয়ে গুটিয়ে থাকাটিকে সম্প্রসারিত করে অথবা যদি দরকার হয় একটি নতুন তৈরি করো। একটি সাম্প্রতিক-জমা দেওয়ার ব্রাউজার হলো একটি বার্তা-তালিকা ব্রাউজার যা সর্বোচ্য  সাম্প্রতিক মেথড দেখায় ( সবচেয়ে নতুনটি সবার আগে) যা জমা দেওয়া হয়েছে, যদি তুমি এই ব্রাউজারের মধ্য পরিবর্তন জমা দাও, এটি হালনাগাদ হতে থাকবে, ব্রাউজারের সবচেয়ে উপরে সবসময় সর্বোচ্য সাম্প্রতিক জমা দেওয়া দেখাবে।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a 3-paned changed-set viewing tool"
+msgstr "একটি ৩-প্যানড পরিবর্তন-সেট পরিদর্শন টুল খোলো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change sorter that shows you two change sets at a time, making it easy to copy and move methods and classes between them."
+msgstr "একটি পরিবর্তন নির্বাচক খোলো  যা তোমাকে একই সময়ে দুটি পরিবর্তন দেখাবে, এটি অনুলিপি করতে সহজ করে এবং এদের মাঝে মেথড এবং ক্লাস সরায়।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a change-list browser on the latter part of the changes log.  You can use this browser to recover logged changes which were not saved in your image, in the event of a crash or other interruption."
+msgstr "পরিবর্তন লগের পরবর্তী অংশে পরিবর্তন-তালিকা ব্রাউজার খুলো। ক্র্যাশ ইভেন্ট অথবা অন্য বাধায় তুমি যে চিত্র সংরক্ষন করোনি সেই লগের পরিবর্তন পুনরুদ্ধার করতে তুমি এই ব্রাউজার ব্যবহার করতে পারো।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a message-list browser showing all methods in the current change set"
+msgstr "বর্তমান পরিবর্তন সেটে সব মেথড দেখানো একটি বার্তা-তালিকা ব্রাউজার খোলো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Open a new recent-submissions browser.  A recent-submissions browser is a message-list browser that shows the most recent methods that have been submitted.  If you submit changes within that browser, it will keep up-to-date, always showing the most recent submissions."
+msgstr "একটি নতুন সাম্প্রতিক-জমা দেওয়ার ব্রাউজার খোলো। একটি সাম্প্রতিক-জমা দেওয়ার ব্রাউজার হলো বার্তা-তালিকা ব্রাউজার যা জমা দেওয়া সর্বোচ্চ সাম্প্রতিক মেথড দেখায়। যদি তুমি এই ব্রাউজারের মধ্যে পরিবর্তন জমা দাও, এটি হালনাগাদ হতে থাকবে, সবসময় সর্বোচ্চ সাম্প্রতিক জমাগুলো দেখায়।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "propagate changes upward"
+msgstr "পরিবর্তন উপরের দিকে বৃদ্ধি করো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recent log file..."
+msgstr "সাম্প্রতিক লগ ফাইল..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "recently logged changes..."
+msgstr "সাম্প্রতিক লগ করা পরিবর্তনসমূহ..."
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Save a file that, when reloaded, reconstitutes the current World."
+msgstr "একটি ফাইল সংরক্ষণ করো, যা পুঃন লোড করা হলে, বর্তমান বিশ্বকে পুনঃগঠন করবে।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "save world as morph file"
+msgstr "বিশ্ব টি মর্ফ ফাইল হিসেবে সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu,TheWorldMenu>>openMenu
+msgid "simple change sorter"
+msgstr "সাধারণ পরিবর্তন নির্বাচক"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "The changes made in this isolated project will propagate to projects up to the next isolation layer."
+msgstr "এই পৃথক প্রকল্পে যেসব পরিবর্তন করা হয়েছে তা পরবর্তী পৃথক স্তর পর্যন্ত প্রকল্পে বিস্তার করবে।"
+
+#: Morphic-Kernel,TheWorldMenu>>changesMenu
+msgid "Write the current change set out to a file whose name reflects the change set name and the current date & time."
+msgstr "ফাইলের বাইরে বর্তমান পরিবর্তন সেট লেখো যার নাম পরিবর্তন সেটের নামে এবং বর্তমান তারিখ & সময়ে প্রতিফলিত করে।"
+
+#: Morphic-Kernel,TheWorldMenu>>cleanUpWorld
+msgid ""
+"This will remove all windows except those\n"
+"containing unsubmitted text edits, and will\n"
+"also remove all non-window morphs (other\n"
+"than flaps) found on the desktop.  Are you\n"
+"sure you want to do this?"
+msgstr ""
+"এটি জমা দেয়া হয়নি এমন টেক্সট সম্পাদনা ছাড়া সব উইন্ডোজ\n"
+"মুছে ফেলবে, এবং ডেস্কটপে পাওয়া উইন্ডো নয় এমন সব মর্ফও\n"
+"মুছে ফেলবে (ফ্ল্যাপ ছাড়া)। তুমি কি নিশ্চিত যে তুমি এটি\n"
+"করতে চাও?"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "call #tempCommand"
+msgstr "#tempCommand ডাকো"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "define #tempCommand"
+msgstr "#tempCommand ডাকো"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "explore world"
+msgstr "বিশ্ব কে দেখো"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "inspect world"
+msgstr "বিশ্ব কে জানো"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "open process browser"
+msgstr "প্রক্রিয়া ব্রাইজার খোলো"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start MessageTally"
+msgstr "MessageTally আরম্ভ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>debugMenu
+msgid "start/browse MessageTally"
+msgstr "MessageTally শুরু করো/ব্রাউজ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>editShowSourceMenu
+msgid "show-source menu"
+msgstr "উৎস মেনু-দেখাও"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "a window full of useful expressions."
+msgstr "উপকারী অভিব্যক্তিতে পূর্ণ একটি উইন্ডো"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "annotation setup..."
+msgstr "অ্যনোটেশন সেটআপ..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "Click here to get a little window that will allow you to specify which types of annotations, in which order, you wish to see in the annotation panes of browsers and other tools"
+msgstr "একটি ছোট উইন্ডোর জন্য এখানে ক্লিক করো যা তোমাকে কোন ধরণের অ্যনোটেশন,কোন ক্রমে তুমি ব্রাউজারের অ্যনোটেশন পেন এবং অন্য টুলে দেখতে চাও সেটি উল্লেখ করতে অনুমোদন করে।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "choose the language in which tiles should be displayed."
+msgstr "যে ভাষায় শিরোনাম দেখাতে হবে সেটি পছন্দ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "commands for doing multi-machine \"telemorphic\" experiments"
+msgstr "বহু-যন্ত্র \"টেলিমর্ফিক\" গবেষনা করার নির্দেশাবলী"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "command-key help"
+msgstr "নির্দেশাবলী-কী সহায়তা"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "current version information."
+msgstr "বর্তমান সংষ্করণ তথ্য।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "definition for..."
+msgstr "বর্ণনা..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "font size summary"
+msgstr "ফন্ট আকার সারাংশ"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "graphical imports"
+msgstr "গ্রাফিকাল ইম্পোর্ট"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "helps find menu items buried in submenus."
+msgstr "সাবমেনুতে লুকানো মেনু আইটেম খুঁজতে সহায়তা করে।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "if connected to the internet, use this to look up the definition of an English word."
+msgstr "যদি ইন্টারনেটে সংযুক্ত থাকে, একটি ইংরেজী শব্দের বর্ণনার জন্য এটি ব্যবহার করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "lets you view and change the system's standard library of graphics."
+msgstr "তোমাকে গ্রাফিক্সের সিস্টেম আদর্শ লাইব্রেরি দেখতে দাও।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "load latest code updates via the internet"
+msgstr "ইন্টারনেটের মাধ্যমে সাম্প্রতিক কোড হালনাগাদ লোড করো"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "obtain some intriguing data about the vm."
+msgstr "vm এর কিছু  intriguing  ডাটা পেয়েছে"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "perform a full garbage-collection and report how many bytes of space remain in the image."
+msgstr "একটি সম্পূর্ণ উচ্ছিষ্ট-সংগ্রহ কার্যক্রম সম্পাদনা করো এবং চিত্রে কতো বাইটের যায়গা খালি আছে তা অনুমান করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "purge undo records"
+msgstr "পূর্বাবস্থায় ফিরিয়ে নেওয়া রেকর্ড বিশোধন করা"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "save space by removing all the undo information remembered in all projects."
+msgstr "প্রকল্পের পূর্ববর্তী অবস্থার সব তথ্য মুছে ফেলে যায়গা খালি করো"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set author initials..."
+msgstr "লেখকের আদ্যক্ষর নির্ধারণ করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "set language..."
+msgstr "ভাষা নির্ধারণ করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "space left"
+msgstr "যে স্থান বাকি আছে"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "standard graphics library"
+msgstr "আদর্শ গ্রাফিক্স লাইব্রেরি"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of keyboard shortcuts."
+msgstr "কীবোর্ড শর্টকার্টের সারাংশ"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "summary of names and sizes of available fonts."
+msgstr "বিদ্যমান ফন্টের নাম এবং আকারের সারাংশ"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "supply initials to be used to identify the author of code and other content."
+msgstr "কোডের লেখক এবং অন্য বিষয়বস্তুর শনাক্ত করার জন্য আদ্যক্ষর সরবরাহ করা হয়।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "telemorphic..."
+msgstr "টেলিমোর্ফিক..."
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "turning sound off will completely disable Squeak's use of sound."
+msgstr "শব্দ বন্ধ করলে সেটি সম্পূর্ণ ভাবে শব্দের স্কুইকের ব্যবহার নিষ্ক্রিয় করে দেয়।"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "update code from server"
+msgstr "সার্ভার থেকে কোড হালনাগাদ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "useful expressions"
+msgstr "উপকারী অভিব্যক্তি"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view and change various options."
+msgstr "বিভিন্ন অপশন পরিদর্শন এবং পরিবর্তন করো"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "view the global repository called ImageImports; you can easily import external graphics into ImageImports via the FileList"
+msgstr "ImageImports নামের গ্লোবাল ভান্ডার দেখো; তুমি সহজেই FileList এর মাধ্যমে বহিঃস্থ গ্রাফিক্স ইমপোর্ট করতে পারবে"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "vm statistics"
+msgstr "vm পরিসংখ্যান"
+
+#: Morphic-Kernel,TheWorldMenu>>helpMenu
+msgid "world menu help"
+msgstr "বিশ্ব মেনু সহায়তা"
+
+#: Morphic-Kernel,TheWorldMenu>>loadProject
+msgid "Select a File:"
+msgstr "একটি ফাইল নির্বাচন করো:"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "Add a new morph"
+msgstr "একটি নতুন মর্ফ যোগ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from a file..."
+msgstr "টকটি ফাইল থেকে..."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from alphabetical list"
+msgstr "বর্ণানুক্রমিক  তালিকা থেকে"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "from paste buffer"
+msgstr "প্রতিলেপন বাফার থেকে"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab flood area from screen"
+msgstr "পর্দা থেকে বন্যা এলাকা টেনে ধরো"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rectangle from screen"
+msgstr "পর্দা থেকে আয়তক্সেত্র টেনে ধরো"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab rubber band from screen"
+msgstr "পর্দা থেকে রাবার ব্যান্ড টেনে ধরো"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "grab with lasso from screen"
+msgstr "পর্দ থেকে ল্যাসো সহ টেনে ধরো"
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make link to project..."
+msgstr "একটি প্রকল্পে তৈরি করো..."
+
+#: Morphic-Kernel,TheWorldMenu>>newMorph
+msgid "make new drawing"
+msgstr "নতুন অঙ্কণ ডৈরি করো"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A five-paned tool that lets you see all the code in the system"
+msgstr "একটি পাচ-প্যানড টুল যা তোমাকে সিস্টেমর সব কোড দেখতে দেয়"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A place for recording \"event movies\" using the Event Recorder"
+msgstr "ইভেন্ট রেকর্ডার ব্যবহার করে \"ইভেন্ট মুভি\" রেকর্ড করার যায়গা"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to browse any file"
+msgstr "একটি টুল যা তোমাকে যেকোনো ফাইল ব্রাউজ করতে অনুমোদন করে"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to compare and manipulate two change sets concurrently"
+msgstr "এই টুলটি তোমাকে দুটি পরিবর্তন সেট একইসাথে তুলনা এবং সুবিধাজনকভাবে কাজে লাগানোর জন্য অনুমোদন করে"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool allowing you to view the methods in a single change set"
+msgstr "একটি টুল যা তোমাকে একটি একক পরিবর্তন সেটে মেথড দেখতে অনুমোদন করে"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for discovering methods"
+msgstr "অনুসন্ধান মেথডের জন্য একটি শৈলী"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A tool for finding and editing methods that contain any given keyword in their names."
+msgstr "মেথড খোঁজার এবং সম্পাদনা করার টুল যা যেকোনো প্রদত্ত মূলশব্দ তাদের নামে ধারণ করে।"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window for composing text"
+msgstr "টেক্সট কম্পোজিং করার একটি উইন্ডো"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "A window used to report messages sent to Transcript"
+msgstr "ট্রান্সক্রিপ্টে পাঠানো বার্তা পর্তিবেদন করার একটি উইন্ডো"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "browser (b)"
+msgstr "ব্রাউজার (b)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new morphic project"
+msgstr "একটি নতুন মর্ফিক প্রকল্প তৈরি করো"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Creates a new project of the classic \"mvc\" style"
+msgstr "ক্লাসিক \"mvc\" শৈলীর একটি নতুন প্রকল্প তৈরি করো"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "event theatre"
+msgstr "ইভেন্ট থ্রেড"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file list"
+msgstr "ফাইল তালিকা"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "file..."
+msgstr "ফাইল..."
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Lets you open a window on a single file"
+msgstr "একক ফাইলে একটি উইন্ডো খুলতে তোমাকে অনুমোদন করো"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "message names (W)"
+msgstr "বার্তার নাম (W)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "method finder"
+msgstr "মেথড অনুসন্ধানকারী"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "morphic project"
+msgstr "মর্ফিক-প্রকল্প"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "mvc project"
+msgstr "mvc প্রকল্প"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "package-pane browser"
+msgstr "প্যাকেজ-পেন ব্রাউজার"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "Similar to the regular browser, but adds an extra pane at top-left that groups class-categories that start with the same prefix"
+msgstr "নিয়মিত ব্রাউজারের অনুরুপ, কিন্তু শীর্ষ-বামে একটি অতিরিক্ত পেন যোগ করে যা একই প্রিফিক্স দিয়ে শুরু করা ক্লাস-ধরণ গ্রুপ করে"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "transcript (t)"
+msgstr "ট্রান্সক্রিপ্ট (t)"
+
+#: Morphic-Kernel,TheWorldMenu>>openMenu
+msgid "workspace (k)"
+msgstr "কর্মপরিসর (k)"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new morphic project"
+msgstr "একটি নতুন মর্ফিক প্রকল্প তৈরি করো"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "create new mvc project"
+msgstr "একটি নতুন mvc প্রকল্প তৈরি করো"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to next project"
+msgstr "পরবর্তী প্রকল্পে যাও"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "go to previous project"
+msgstr "পূর্ববর্তী প্রকল্পে যাও"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "Opens a window that shows names and relationships of all the projects in your system."
+msgstr "একটি উইন্ডো খোলো তোমার সিস্টেমর সব প্রকল্পের নাম এবং সম্পর্ক দেখায়"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "revert to saved copy"
+msgstr "সংরক্ষিত অনুলিপিতে ফেরত যায়"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save for future revert"
+msgstr "ভবিষ্যতে প্রত্যাবর্তনের জন্য সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save on server (also makes a local copy)"
+msgstr "সার্ভারে সংরক্ষণ করো (একটি স্থানীয় অনুলিপি তৈরি করো)"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save project on local file only"
+msgstr "প্রকল্পটি শুধুমাত্র স্থানীয় ফাইলে সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "save to a different server"
+msgstr "একটি ভিন্ন সার্ভারে সংরক্ষণ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "see if server version is more recent..."
+msgstr "সার্ভার সংস্করণ যদি সর্ব্বোচ্য সাম্প্রতিক হয় তবে দেখুন..."
+
+#: Morphic-Kernel,TheWorldMenu>>projectMenu
+msgid "show project hierarchy"
+msgstr "প্রকল্প স্তরায়ন দেখাও"
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "can't seem to find that project"
+msgstr "প্রকল্পটি খুঁজে পাওয়া যাচ্ছেনা"
+
+#: Morphic-Kernel,TheWorldMenu>>projectThumbnail
+msgid "Select a project"
+msgstr "একটি প্রকল্প নির্বাচন করো"
+
+#: Morphic-Kernel,TheWorldMenu>>quitSession
+msgid "Save changes before quitting?"
+msgstr "বন্ধ করার পূর্বে পরিবর্তন সংরক্ষন করতে চান?"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Choose a file\n"
+"to load"
+msgstr "লোড করার জন্য একটি ফাইল পছন্দ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid ""
+"Sorry, no suitable files found\n"
+"(names should end with .morph, .gif,\n"
+".bmp, .jpeg, .jpe, .jp, or .form)"
+msgstr ""
+"দুঃখিত, কোনো উপযোগী ফাইল পাওয়া যায়নি\n"
+"(নাম অবশ্যই .morph, .gif,\n"
+".bmp, .jpeg, .jpe, .jp, or .form দিয়ে শেষ হতে হবে)"
+
+#: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
+msgid "unrecognized image file format"
+msgstr "শনাক্ত করা যায়না এমন ফাইল বিন্যাস"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "connect remote user"
+msgstr "দূরের ব্যবহারকারী কে সংযুক্ত করো"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect all remote users"
+msgstr "সব দূরের ব্যবহারকারীদের বিচ্ছিন্ন করো"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "disconnect remote user"
+msgstr "দূরের ব্যবহারকারী কে বিচ্ছিন্ন করো"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "local host address"
+msgstr "স্থানীয় হোস্ট ঠিকানা"
+
+#: Morphic-Kernel,TheWorldMenu>>remoteMenu
+msgid "Telemorphic"
+msgstr "টেলিমর্ফিক"
+
+#: Morphic-Kernel,TheWorldMenu>>setDisplayDepth
+msgid "Choose a display depth"
+msgstr "একটি প্রদর্শন গভীরতা পছন্দ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>vmStatistics
+msgid "VM Statistics"
+msgstr "VM Sপরিসংখ্যান"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open fileList  to the front, creating one if necessary, and makes it the active window"
+msgstr "সামনে একটি খোলা fileList আনো, প্রয়োজন হলে একটি তৈরি করো, এবং এটিকে সক্রিয় উইন্ডো বানাও"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open MessageNames window to the front, creating one if necessary, and makes it the active window"
+msgstr "সামনে একটি খোলা MessageNames আনো, প্রয়োজন হলে একটি তৈরি করো, এবং এটিকে সক্রিয় উইন্ডো বানাও"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Brings an open Transcript to the front, creating one if necessary, and makes it the active window"
+msgstr "সামনে একটি খোলা ট্রান্সক্রিপ্ট আনো, প্রয়োজন হলে একটি তৈরি করো, এবং এটিকে সক্রিয় উইন্ডো বানাও"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Close the topmost window if possible."
+msgstr "যদি সম্ভব হয় তবে সবচেয়ে উপরের উইন্ডো বন্ধ করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "close top window (w)"
+msgstr "শীর্ষ উইন্ডো (w) বন্ধ করো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all objects"
+msgstr "সব অবজেক্ট ভাঁজ হয়ে গুটানো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "collapse all windows"
+msgstr "সব উইন্ডোজ ভাঁজ হয়ে গুটানো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all non-window morphs lying on the world."
+msgstr "বিশ্বের সব উইন্ডো নয় এমন মর্ফ মুছে ফেলো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Deletes all windows that do not have unsaved text edits."
+msgstr "সআ উইন্ডো মুছে ফেলো যার অসংরক্ষিত টেক্সট সম্পাদনা নেই।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete both of the above"
+msgstr "উপরের দুটিই মুছে ফেলো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete non-windows"
+msgstr "যেগুলো উইন্ডোজ নয় সেসব মুছে ফেলো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "delete unchanged windows"
+msgstr "অপরিবর্তনীয় উইন্ডোজ মুছে ফেলো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "deletes all unchanged windows and also all non-window morphs lying on the world, other than flaps."
+msgstr "ফ্ল্যাপ ছাড়া, সব ক্যাশ নয় এমন উইন্ডো বিশ্বের সব উইন্ডো নয় এমন মর্ফ মুছে ফেলো।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Expand all collapsed windows and other collapsed objects back to their expanded forms."
+msgstr "সব ভাঁজ হয়ে গুটানো উইন্ডোজ এবং অন্য ভাঁজ হয়ে গুটানো বস্তু তাদের প্রসারিত ফর্মে প্রসারিত করো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "expand all"
+msgstr "সব বিস্তৃত করো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a fileList (L)"
+msgstr "একটি fileList (L) খোঁজো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find a transcript (t)"
+msgstr "একটি transcript (t) খোঁজো"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed browsers..."
+msgstr "পরিবর্তীত ব্রাউজার খোঁজো..."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find changed windows..."
+msgstr "পরিবর্তীত উইন্ডোজ খোঁজো..."
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "find message names (W)"
+msgstr "বার্তার নাম খোঁজো (W)"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make all windows fully visible on the screen"
+msgstr "সব উইন্ডো পর্দায় সম্পূর্ণ দৃশ্যমান করুন"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Make the topmost window become the backmost one, and activate the window just beneath it."
+msgstr "সবচেয়ে উপরের উইন্ডোকো সবচেয়ে শেষের উইন্ডো বানাও, এবং এর ভিতরে উইন্ডোটি সক্রিয় করো।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "move windows onscreen"
+msgstr "উইন্ডোজ অনস্ক্রীন সরাও"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "সব উইন্ডোর একটি তালিকা উপস্থাপন করে যার জমা দেওয়া হয়নি এমন পরিবর্তন আছে, এটি সক্রিয় উইন্ডোতে পরিনত হবে।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of all windows; if you choose one from the list, it becomes the active window."
+msgstr "সব উইন্ডোর একটি তালিকা উপস্থাপন করে; যদি তুমি তালিকা থেকে একটি নির্বাচন করো, এটি সক্রিয় উইন্ডোতে পরিনত হবে।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Presents a list of browsers that have unsubmitted changes; if you choose one from the list, it becomes the active window."
+msgstr "ব্রাউজারের তালিকা উপস্থাপন করো যার জমা দেওয়া হয়নি এমন পরিবর্তন আছে; যদি তুমি তালিকা থেকে একটি পছন্দ করো। এটি সক্রিয় উইন্ডোতে পরিনত হবে।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows and all other objects on the desktop to labeled tabs"
+msgstr "সব খোলা উইন্ডো এবং ডেস্কটপের অন্য সব বস্তু লেবেল ট্যাবে কমাও"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "Reduce all open windows to collapsed forms that only show titles."
+msgstr "সব খোলা উইন্ডো ভাঁজ হয়ে গুটানো অবস্থায় কামও যা শুধমাত্র টালি দেখাও।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "send top window to back (\\)"
+msgstr "শীর্ষ উইন্ডো পিছনে (\\) পাঠাও"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid ""
+"stagger: new windows positioned so you can see a portion of each one.\n"
+"                tile: new windows positioned so that they do not overlap others, if possible."
+msgstr ""
+"অসম বিন্যাস: নতুন উইন্ডো স্থাপন করা হয়েছে যাতে তুমি প্রতিটির একটি অংশ দেখতে পাবে।\n"
+"                   টালি: নতুন উইন্ডো স্থাপন করা হয়েছে যাতে করে এটি অন্যদের আবৃত না করে,যদি সম্ভব হয়।"
+
+#: Morphic-Kernel,TheWorldMenu>>windowsMenu
+msgid "windows"
+msgstr "উইন্ডোজ"
+
+#: Morphic-Kernel,TheWorldMenu>>worldMenuHelp
+msgid "Where in the world menu is..."
+msgstr "বিশ্ব মেনুটি কোথায়..."
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "change caption"
+msgstr "ক্যাপশন পরিবর্তন করুন"
+
+#: Morphic-Mentoring,EventPlaybackButton>>addCustomMenuItems:hand:
+msgid "open in recording theatre"
+msgstr "রেকর্ডিং থিয়েটারে খোলো"
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoDismissString,PlaybackInvoker>>autoDismissString
+msgid "auto dismiss"
+msgstr "স্বয়ংক্রিয়ভাবে বাতিল"
+
+#: Morphic-Mentoring,EventPlaybackButton>>autoStartString,PlaybackInvoker>>autoStartString
+msgid "auto start"
+msgstr "স্বয়ংক্রিয়ভাবে শুরু"
+
+#: Morphic-Mentoring,EventPlaybackButton>>changeCaption,EventRecordingSpace>>setCaption,PlaybackInvoker>>changeCaption
+msgid "Please edit the caption"
+msgstr "অনুগ্রহ করে শিরোনাম সম্পাদনা করো"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "Display this event-movie in a form such that its score can be viewed and edited."
+msgstr "এই ইভেন্ট-মুভি এমন ভাবে দেখায় যেনো এর স্কোর দেখা এবং সম্পাদনা করা যায়।"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addCustomMenuItems:hand:
+msgid "open for score-editing"
+msgstr "স্কোর-সম্পাদনার জন্য খোলো"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:,TheWorldMenu>>buildShowSourceMenu
+msgid "edit this menu"
+msgstr "এই তালিকা সম"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:,Morph>>addHaloActionsTo:,Morph>>buildMetaMenu:
+msgid "inspect"
+msgstr "পরিদর্শন"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "play again"
+msgstr "আবার বাজাও"
+
+#: Morphic-Mentoring,EventPlaybackSpace>>addMenuButtonItemsTo:
+msgid "rewind"
+msgstr "সামনে এগিয়ে যাও"
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "A framework for creating tutorial snippets"
+msgstr "টিউটোরিয়ালের টুকিটাকি তৈরির জন্য একটি ফ্রেমওয়ার্ক"
+
+#: Morphic-Mentoring,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "মাল্টিমিডিয়া"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "no, let me reconsider"
+msgstr "না, আমাকে পুনঃবিবেচনা করতে দাও"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid ""
+"The current recording has not been saved, and will be\n"
+"lost if you do this; are you sure you want to proceed?"
+msgstr ""
+"বর্তমান রেকর্ডিং সংরক্ষণ করা হয়নি, এবং\n"
+"তুমি এটি করলে হারিয়ে যেতে পারে; তুমি কি নিশ্চিত যে তুমি এগিয়ে যেতে হবে?"
+
+#: Morphic-Mentoring,EventRecordingSpace>>abandon
+msgid "yes, abandon this Event Theatre"
+msgstr "হ্যা, এই ইভেন্ট থিয়েটার বাতিল করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Allows you to provide a message to be presented to a user as balloon-help when the mouse lingers over buttons that trigger playback of the tape of this event theatre"
+msgstr "Allows you to provide a message to be presented to a user as balloon-help when the mouse lingers over buttons that trigger playback of the tape of this event theatre"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "abandon any event-roll that may be associated with this theatre."
+msgstr "যেকোনো ইভেন্ট-রোল বাতিল করো যা সম্ভবত থিয়েটারের সাথে সম্পর্কিত।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add navigator flap"
+msgstr "নেভিগেটর ফ্ল্যাপ যোগ করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add sugar navigator flap"
+msgstr "সুগার নেভিগেটর ফ্ল্যাপ যোগ করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "add supplies flap"
+msgstr "সরবরাহ ফ্ল্যাপ যোগ করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "delete old versions"
+msgstr "পুরাতন সংষ্করণ মুছে ফেলো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "event roll"
+msgstr "ইভেন্ট রোল"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "open a horizontal piano-roll-like tool for the viewing and editing the events of this event theatre."
+msgstr "এই ইভেন্ট থিয়েটারের ইভেন্ট দেখতে এবং সম্পাদনা করতে একটি অনুভূমিক পিয়ানো-রোলের-মতো টুল খোলো।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "Recording Options"
+msgstr "রেকর্ডিং অপশন"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove event-roll"
+msgstr "ইভেন্ট-রোল মুছে ফেলো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove navigatorFlap"
+msgstr "navigatorFlap মুছে ফেলো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove sugar navigatorFlap"
+msgstr "সুগার navigatorFlap মুছে ফেলো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "remove suppliesFlap"
+msgstr "suppliesFlap মুছে ফেলো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "revert to version..."
+msgstr "সংষ্করণে ফেরত যাও..."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "set balloon help"
+msgstr "বেলুন সহায়তা নির্ধারণ করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMenuButtonItemsTo:
+msgid "shrink event tape"
+msgstr "ইভেন্ট টেপ সঙ্কুচিত করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "convert to canonical coordinates (broken)"
+msgstr "অনুমোদিত স্থানাংকে রুপান্তর করো (ভাঙ্গা)"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event recorder"
+msgstr "ইভেন্ট রেকর্ডার পরিদর্শন করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:,EventRollMorph>>addMenuButtonItemsTo:
+msgid "inspect event roll"
+msgstr "ইভেন্ট রোল প্রদর্শন করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event tape"
+msgstr "ইভেন্ট ট্যাপ পরিদর্শন করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect event theatre"
+msgstr "ইভেন্ট থিয়েটার পরিদর্শন করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect nav bar"
+msgstr "নেভিগেটর বার পরিদর্শন করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "inspect sound recorder"
+msgstr "শব্দ রেকর্ডার পরিদর্শন করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "More options"
+msgstr "আরো অপশন"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "more..."
+msgstr "আরো..."
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "movie-clip player"
+msgstr "মুভি-ক্লিপ প্লেয়ার"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addMoreSubMenuTo:
+msgid "parse event tape"
+msgstr "ইভেন্ট টেপ পার্স করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>addNavigatorFlap,EventRecordingSpace>>addNavigatorFlap
+msgid "Navigator"
+msgstr "নেভিগেটর"
+
+#: Morphic-Mentoring,EventRecordingSpace>>convertToCanonicalForm
+msgid "Caution: this is broken!"
+msgstr "সতর্কতা: এটি ভেঙ্গে গেছে!"
+
+#: Morphic-Mentoring,EventRecordingSpace>>editMenuButtonDefinition
+msgid "Event Theatre menu Definition"
+msgstr "ইভেন্ট থিয়েটার মেনু বর্ণনা"
+
+#: Morphic-Mentoring,EventRecordingSpace>>helpString
+msgid ""
+"The Event Theatre provides a framework for authoring \"event-movies\".  It uses custom variants of the Navigator, the Supplies flap, the painting system, property sheets, Viewer flaps, etc., all of which reside within the controlled confines of the Theatre.\n"
+"\n"
+"To author an event-movie, get a  new Event Theatre from the Objects catalog or from the \"open...\" branch of the desktop menu.\n"
+"\n"
+"1. Resize the Theatre, using the halo, to the delivery size desired for playback.\n"
+"\n"
+"2. Use the menu in the controls panel to add or delete Supplies and Navigator flaps as desired.\n"
+"\n"
+"3. Edit the \"caption\" by clicking on the text that says \"Untitled\" and typing your desired caption.  This caption is affixed to playback buttons, and, generally, provides a way to identify the event-movie.\n"
+"\n"
+"4. Set up the \"initial conditions\" for the event-movie you're about to record (e.g., paint a background, provide some explanatory text, add objects you want to be present at the start of the movie.) When the recording is first opened by the user for playback, and whenever the recording has been rewound, this is exactly what it will look like.\n"
+"\n"
+"5. When ready to start the recording, press the \"Record\" button. A red border will be seen around the recorder, to indicate that recording is in progress.  Recording will continue until you hit the ESC key.\n"
+"\n"
+"6. Note that if you  want to include sound in your recording, you can add it directly during playback, or you can produce voiceover externally and add it in later using the Event Roll.\n"
+"\n"
+"7. Now proceed to \"do\", with the mouse and keyboard, whatever you wish to record.   For best results, all mouse gestures should be made within the interior of the Theatre.\n"
+"\n"
+"8. Hit ESC when done recording.\n"
+"\n"
+"9. To review what you've recorded, press \"Play\". If unhappy with the result, repeat steps 1-8.\n"
+"\n"
+"10.  If you're happy with the result, and now wish to add a sound, open the sound panel, then click Play to replay the recording, and whenever you wish to add a snippet of voiceover, click on the \"Start Recording Voiceover\" button, and start talking, and when done with that snippet click the \"Stop Recording Voiceover\" button.  Once the playback finishes, the added voiceover(s) will become part of the event tape, and will be seen in the event roll.\n"
+"\n"
+"11. When you're happy with the result, hit the \"Publish\" button, to get a playback button. There are currently two choices:\n"
+"\n"
+"a. Iconic Button - Initially provides a picture of the initial scene of the movie, scaled 0.3x, and overlaid with the word HINT.  When the user clicks on such a button, the event-movie is played back in an ephemeral \"playback theatre\", and after the playback is done, the playback theatre shrinks down to a 0.5x scale-downed picture of the *final* scene of the movie.  Subsequent hitting of the button will again invoke a playback.\n"
+"\n"
+"b. Textual Button - a simple labeled button which, when pressed, triggers playback of the event tape.\n"
+"\n"
+"12. The playback buttons you obtain when you \"Publish\" can be placed anywhere, such as on the page of a book. You can control, via a playback-button's halo menu, whether or not it should be \"auto-start\", and whether or not \"auto-dismiss\". When the user presses the button, a \"Playback\" space will open, which resembles an Event Theatre, but has only playback-relevant controls.   A playback set up for both auto-start and auto-dismiss comes without any controls.\n"
+"\n"
+"13.  To edit the \"event tape\" of a recording you have made in an Event Theatre, and for a generally good time, click on the interlocking-circles icon to obtain a tool that allows you to visualize and to edit a \"score\" or \"piano roll\" of the event tape.\n"
+"\n"
+"\n"
+"Summary of terms\n"
+"\n"
+"Event Theatre\n"
+"  The main tool for creating an Event Tape.\n"
+"\n"
+"Event Roll\n"
+"  An auxiliary tool showing the full \"score\" of an Event Tape. \n"
+"\n"
+"Event Tape\n"
+"  The results of an event-theatre session;  an interaction sequence that can be played back.\n"
+"\n"
+"Event Recording\n"
+"  A term interchangeable with \"Event Tape.\"\n"
+"\n"
+"Event Movie\n"
+"  What you see when you play back an Event Tape.\n"
+"\n"
+msgstr ""
+"\"ইভেন্ট-মুভি\" রচনার জন্য ইভেন্ট থিয়েটার একটি ফ্রেমওয়ার্ক সরবরাহ করে। এটি নেভিগেটর, সরবরাহ ফ্ল্যাপ, অঙ্কন পদ্ধতি, বৈশিষ্ট্য পাতা, প্রদর্শক ফ্ল্যাপ ইত্যাদির পছন্দসই ভ্যারিয়েন্ট ব্যবহার করে এবং যার সমস্তই থিয়েটারের নিয়ন্ত্রিত সীমাবদ্ধতার মধ্যে বিদ্যমান।\n"
+"একটি ইভেন্ট মুভি রচনা করার জন্য, বস্তুর ক্যাটালগ অথবা ডেক্সটপ মেনুর \"খোলো...\" শাখা থেকে একটি নতুন ইভেন্ট থিয়েটার পেতে পারো।\n"
+"১. প্লেব্যাকের কাঙ্খিত আকারের জন্য হেইলো ব্যবহার করে আবার থিয়েটারটির আকৃতি ঠিক করে দাও।\n"
+"২. চাওয়া অনুসারে সাপ্লাই এবং নেভিগেটর সংযোজন অথবা মুছে ফেলার জন্য কন্ট্রোল প্যানেলের মেনু ব্যবহার করো।\n"
+"৩. \"শিরোনামহীন\" টেক্সটের উপর ক্লিক করে এবং কাঙ্খিত ক্যাপশন টাইপ করে \"ক্যাপশন\" সম্পাদনা করো। এই ক্যাপশানটি প্লেব্যাক বোতামে সংযুক্ত থাকে এবং সাধারণভাবে, ইভেন্ট-মুভি শনাক্ত করার পথ দেখায়।\n"
+"৪. প্রায় রেকর্ড করতে চাচ্ছ এমন ইভেন্ট-মুভির জন্য \"শুরুর অবস্থা\" সেটআপ করো (যেমন, একটি পটভুমি অঙ্কন, কিছু বর্ণনামূলক টেক্সট সরবরাহ করো, মুভির শুরুতে যে বস্তুটি উপস্থাপন করতে চাও তা সংযুক্ত করো।) যখন রেকর্ডিং প্লেব্যাকের জন্য ব্যবহারকারী দ্বারা সর্বপ্রথম খোলা হয় এবং যখনই রেকর্ডিং পিছনের দিকে চালানো হয়, এটি দেখতে ঠিক একইরকম হয়।\n"
+"৫. রেকর্ডিং শুরু করার জন্য তৈরি থাকলে \"রেকর্ড\" বোতামে ক্লিক করো। রেকর্ডিং এর অগ্রগতি নির্দেশ করার জন্য রেকর্ডারের চারপাশে একটি লাল সীমানা দেখা যায়। ESC কী না চাপা পর্যন্ত রেকর্ডিং চলতে থাকবে।\n"
+"৬. নোট, তুমি যদি রেকর্ডিং এ শব্দ যোগ করতে চাও তাহলে তুমি তা প্লেব্যাকের সময় সরাসরি যোগ করতে পারো অথবা বাহ্যিকভাবে ভয়েসওভার প্রস্তুত করতে পারো এবং পরে সেটি ইভেন্ট রোল ব্যবহার করে যোগ করতে পারো।\n"
+"৭. এখন তুমি যা রেকর্ড করতে চাও তা মাউস অথবা কীবোর্ড দ্বারা \"করো\" তে এগিয়ে যাও। সবচেয়ে ভালো ফলাফলের জন্য, থিয়েটারের ইন্টেরিওরের মধ্যে সকল মাউসের ভঙ্গি তৈরি করা উচিত।\n"
+"৮. রেকর্ডিং শেষ হলে ESC চাপো। \n"
+"৯. তুমি কি রেকর্ড করলে তা পুনরায় দেখার জন্য \"চালাও\" চাপো। যদি ফলাফল পছন্দ না হয় তাহলে ১-৮ ধাপ পুনরায় অনুসরণ করো।\n"
+"১০. যদি ফলাফল পছন্দ হয় এবং এখন শব্দ সংযুক্ত করতে চাও তাহলে শব্দ প্যানেল খোলো তারপর রেকর্ডিং পুনরায় চালানোর জন্য চালাও এ ক্লিক করো এবং যখন তুমি ভয়েসওভারের একটি ছোট অংশ সংযুক্ত করতে চাও তখন \"ভয়েসওভার রেকর্ড শুরু করো\" বোতামে ক্লিক করো এবং কথা বলতে শুরু করো। যখন সেই অংশটির কাজ শেষ হয়ে যায় তখন \"ভয়েসওভার রেকর্ড বন্ধ করো\" বোতামে ক্লিক করো। প্লেব্যাক শেষ হলে, সংযুক্ত ভয়েসওভারটি ইভেন্ট ট্যাপের একটি অংশ হবে এবং ইভেন্ট রোলে দেখা যাবে।\n"
+"১১. যখন ফলাফলটি পছন্দমত হবে তখন প্লেব্যাক বোতামটি পাওয়ার জন্য \"প্রকাশ\" বোতামে ক্লিক করো। এখানে দুইটি পছন্দ রয়েছে:\n"
+"ক. আইকনিক বোতাম - প্রাথমিকভাবে মুভি শুরুর দৃশ্যের ছবি প্রদান করে, যা 0.3x আকারের এবং HINT শব্দের সাথে একত্রিত করো। যখন ব্যবহারকারী এমন একটি বোতামে ক্লিক করে, ইভেন্ট-মুভিটি  \"প্লেব্যাক থিয়েটার\" ইফিমারেলে চালানো হয়, এবং প্লেব্যাক সম্পন্ন হওয়ার পরে প্লেব্যাক থিয়েটার মুভির *সর্বশেষ* দৃশ্যের চিত্র সঙ্কুচিত করে 0.5x আকারে কমিয়ে আনে। বোতাম পর-পর চাপলে প্লেব্যাকটি আবার সামনে নিয়ে আসে।\n"
+"খ. টেক্সচুয়্যাল বোতাম - একটি সাধারণ লেবেলকৃত বোতাম যা চাপার সময় ইভেন্ট টেপের প্লেব্যাক ট্রিগার করে।\n"
+"\n"
+"১২. তুমি \"প্রকাশ\" করার সময় যে প্লেব্যাক বোতামটি পান তা যেকোন স্থানে স্থাপন করতে পারো। এটি \"সয়ংক্রিয়ভাবে শুরু\" এবং \"সয়ংক্রিয়ভাবে বাতিল\" হলে বা না হলেও একটি প্লেব্যাক বোতামের হেইলো মেনু হয়ে নিয়ন্ত্রন করতে পারো। যখন ব্যবহারকারী একটি বোতাম চাপে তখন \"প্লেব্যাক\" ফাঁকাস্থান খুলে যায় যা একটি ইভেন্ট থিয়েটার সদৃশ কিন্তু এতে শুধুমাত্র প্লেব্যাক সম্পর্কিত কন্ট্রোল রয়েছে। সয়ংক্রিয়ভাবে শুরু এবং সয়ংক্রিয়ভাবে বাতিল উভয়ের জন্য প্লেব্যাক সেটআপ কোন কন্ট্রোল ব্যাতিত পাওয়া যায়।\n"
+"\n"
+"১৩. ইভেন্ট থিয়েটারে তৈরি করা একটি রেকর্ডিং এর \"ইভেন্ট টেপ\" সম্পাদনা করার জন্য এবং সাধারণভাবে একটি ভালো সময়ের জন্য একটি টুল প্রাপ্তির জন্য পরস্পর - আবদ্ধ বৃত্তাকার আইকনে ক্লিক করো যা দেখার এবং \"ইভেন্ট  টেপ\" এর \"স্কোর\" অথবা \"পিয়ানো রোল\" সম্পাদনা করার অনুমতি দেয়।\n"
+"\n"
+"শব্দের সারসংক্ষেপ\n"
+"\n"
+"ইভেন্ট থিয়েটার\n"
+"  ইভেন্ট টেপ তৈরি করার জন্য প্রধান টুল।\n"
+"\n"
+"ইভেন্ট রোল\n"
+"  একটি ইভেন্ট টেপের পূর্ণ \"স্কোর\" প্রদর্শন করছে এমন সহায়ক টুল।\n"
+"\n"
+"ইভেন্ট টেপ\n"
+"  ইভেন্ট থিয়েটার সেশনের ফলাফল; পারস্পরিক কাজের ক্রম যা আবার চালানো যায়।\n"
+"\n"
+"ইভেন্ট রেকর্ডিং\n"
+"  \"ইভেন্ট টেপ\" এর সাথে পারস্পরিক পরিবর্তনযোগ্য একটি শব্দ।\n"
+"\n"
+"ইভেন্ট মুভি\n"
+"  একটি ইভেন্ট টেপ আবার চালানোর সময় যা দেখো তাই।\n"
+"\n"
+
+#: Morphic-Mentoring,EventRecordingSpace>>initializeFromPlaybackButton:
+msgid "caution - old playback; button lacks vital data."
+msgstr "সতর্কতা - পুরাতন প্লেব্যাক; বোতাম অপরিহার্য ডাটার ঘাটতি করে।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>inspectEventRoll
+msgid "Event Roll for "
+msgstr "এট জন্য ইভেন্ট রোল "
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeHorizontalRoll
+msgid "Nothing recorded yet"
+msgstr "এখনো কিছু রেকর্ড করা হয়নি"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon existing recording and start a new one."
+msgstr "বিদ্যমান রেকর্ডিং বাতিল করো এবং নতুন একটি শুরু করো।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Abandon this effort and throw away this window"
+msgstr "এই প্রভাব বাতিল করো এবং এই উইন্ডো দূরে সরিয়ে ফেলো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Add a voiceover to the existing event-recorded sequence "
+msgstr "বিদ্যমান রেকর্ডকরা ইভেন্ট ক্রমে একটি ভয়েসওভার যোগ করো "
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,Tetris>>makeGameControls
+msgid "Pause"
+msgstr "বিরতি"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons,PlaybackInvoker_class>>defaultNameStemForInstances
+msgid "Play"
+msgstr "বাজাও"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record"
+msgstr "রেকর্ড"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Record Again"
+msgstr "আবার রেকর্ড করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Replay this sequence"
+msgstr "এই ক্রমটি আবার চালাও"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Reset to the starting condition for this recording"
+msgstr "এই রেকর্ডিং এর জন্য শুরুর শর্তাবলী পুনঃনির্ধারণ করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume"
+msgstr "পুনরায় শুরু করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Resume playback"
+msgstr "প্লেব্যাক পুনরায় শুরু করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Rewind"
+msgstr "সামনে এগিয় যাও"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording"
+msgstr "রেকর্ডিং শুরু করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Start Recording Voiceover"
+msgstr "ভয়েসওভার রেকর্ড করা শুরু করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop"
+msgstr "থামো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop playing or recording this panel"
+msgstr "এই প্যানেল চালানো অথবা রেকর্ড করা বন্ধ করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Stop Record Voiceover"
+msgstr "ভয়েসওভার রেকর্ড করা বন্ধ করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show this theatre's script in a piano-roll-like format for visualizaitoin and editing."
+msgstr "ভিজ্যুয়ালাইজেশন এবং সম্পাদনার জন্য এই থিয়েটার স্ক্রিপ্ট একটি পিয়ানো-রোলের-মতো বিন্যাসে দেখাও।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "show/hide voice controls"
+msgstr "ভয়েস কন্ট্রোল দেখাও/লুকিয়ে রাখো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "Temporarily pause this playback"
+msgstr "এই প্লেব্যাক অস্থায়ীভাবে বিরতিতে রাখো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>makeStatusButtons
+msgid "When you hit this, you will be handed a button which, when it is clicked,  will open up an Event Player in which the recording can be played back."
+msgstr "যখন তুমি এটি চাপবে, তখন গুমি একটি বোতাম পাবে, যা ক্লিক রা হলে, একটি ইভেন্ট প্লেয়ার খুলবে যেখানে রেকর্ডিং আবারো বাজানো যাবে।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "Choose a version to restore"
+msgstr "পুনরুদ্ধার করতে একটি সংস্করণ নির্বাচন করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>offerVersions
+msgid "no versions available, sorry"
+msgstr "কোনো সংষ্করণ বিদ্যমান নেই, দুঃখিত"
+
+#: Morphic-Mentoring,EventRecordingSpace>>parseEventTape,EventRecordingSpace>>shrinkTape
+msgid "nothing recorded yet"
+msgstr "এখনো কিছু রেকর্ড করা হয়নি"
+
+#: Morphic-Mentoring,EventRecordingSpace>>populateControlsPanel
+msgid "Hit ESC to stop recording"
+msgstr "রেকর্ডিং বন্ধ করতে ESC চাপো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>presentHelp,EventRecordingSpace_class>>defaultNameStemForInstances,EventRecordingSpace_class>>descriptionForPartsBin
+msgid "Event Theatre"
+msgstr "ইভেন্ট থিয়েটার"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Iconic button"
+msgstr "আইকনিক বোতাম"
+
+#: Morphic-Mentoring,EventRecordingSpace>>publishButtonHit
+msgid "Textual button"
+msgstr "টেক্সচুয়াল বোতাম"
+
+#: Morphic-Mentoring,EventRecordingSpace>>setBalloonHelp
+msgid "Edit the balloon help to be supplied for playback buttons made for this event movie"
+msgstr "এই ইভেন্ট মুভির জন্য  তৈরি প্লেব্যাক বোতামে সরবরাহকৃত বেলুন সহায়তা সম্পাদনা করো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>setCaption
+msgid "Your Title Goes Here"
+msgstr "তোমার শিরোনামটি এখানে যাবে"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr "টালি স্ক্রিপ্টিং এর সাথে ব্যবহারের বোতাম; এর স্ক্রিপ্ট এর ধারণকারী প্লেফিল্ডের মেথড হতে পারে"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A device for making sound recordings."
+msgstr "সাউন্ড রেকর্ডের যন্ত্র"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "A joystick-like control"
+msgstr "একটি জয়স্টিকের কন্ট্রোল"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A multi-paged structure"
+msgstr "একটি বহুবিধ-পৃষ্ঠা কাঠামো"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "A place for assembling parts or for staging animations"
+msgstr "উপাদান থেকে কোনো কিছু তৈরি করা অথবা অ্যানিমেশন স্টেজ করার স্থান"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A place for storing alternative pictures in an animation, etc."
+msgstr "একটি অ্যানিমেশনে বিকল্প ছবি জমা করার স্থান, ইত্যাদি।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A rectangle"
+msgstr "একটি আয়তক্ষেত্র"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A slider for showing and setting numeric values."
+msgstr "সাংখ্যিক  মান দেখানো এবং সেটিং এর স্লাইডার"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A star"
+msgstr "একটি তারা"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool for discarding objects"
+msgstr "বস্তু বাতিল করার একটি টুল"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool listing all the scripted objects in the project."
+msgstr "একটি টুল প্রকল্পের সব স্ক্রিপ্টেড বস্তু তালিকা করে।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "A tool that lets you browse the catalog of available objects"
+msgstr "একটি টুল যা তোমাকে বিদ্যমান প্রকল্পের বস্তুর ক্যাটালগ ব্রাউজ করতে দেয়"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "All Scripts"
+msgstr "সব স্ক্রিপ্ট"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "An ellipse or circle"
+msgstr "একটি উপবৃত্ত অথবা বৃত্ত"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Book"
+msgstr "বই"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,SimpleButtonMorph_class>>defaultNameStemForInstances
+msgid "Button"
+msgstr "বোতাম"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Holder"
+msgstr "ধারক"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
+msgid "Joystick"
+msgstr "জয়স্টিক"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Object Catalog"
+msgstr "অবজেক্ট ক্যাটালগ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Players"
+msgstr "খেলোয়ার"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,PasteUpMorph_class>>descriptionForPartsBin
+msgid "Playfield"
+msgstr "Playfield"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,RectangleMorph_class>>descriptionForPartsBin
+msgid "Rectangle"
+msgstr "আয়তক্ষেত্র"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Slider"
+msgstr "স্লাইড"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Sound Recorder"
+msgstr "সাউন্ড রেকর্ডার"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Star"
+msgstr "তারা"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Stop, Step, and Go buttons for controlling all your scripts at once.  The tool can also be \"opened up\" to control each script in your project individually."
+msgstr "সব স্ক্রিপ্ট একসাথে কন্ট্রোল করার জন্য থামো, ধাপ, এবং যাও বোতাম। তোমার প্রকল্পের প্রতিটি স্ক্রিপ্ট আলাদাভাবে কন্ট্রোল করার জন্য এই টুল \"খোলা যাবে\"।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>nonwrappingPrototype,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text"
+msgstr "টেক্সট"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
+msgid "Text that you can edit into anything you desire."
+msgstr "টেক্সট যা তুমি যেভাবে চাও সম্পাদনা করতে পারবে।"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarPartsBinQuads
+msgid "Trash"
+msgstr "ট্র্যাশ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>sugarSuppliesFlapTab,InteriorSugarNavBar>>toggleSupplies
+msgid "Supplies"
+msgstr "সরবরাহ"
+
+#: Morphic-Mentoring,EventRecordingSpace>>usingVoiceString
+msgid "record voice during event recording"
+msgstr "ইভেন্ট রেকর্ডের সময় ভয়েস রেকর্ড করো"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "allows you to supply a precise scale-factor manually."
+msgstr "তেমাকে নিজে একটি যথাযথ স্কেল-ফ্যাক্টর সরবরাহ করতে অনুমোদন করো।"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "change scale..."
+msgstr "change scale..."
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "normally not necessary, but if you suspect that edits you have made in this event roll have not been fully appreciated by the event theatre, choose this to force the event theatre to reflect what you see in the event roll."
+msgstr "সাধারনতো জরুরী নয়, কিন্তু যদি তোমার সন্দেহ হয় যে ইভেন্ট রোলে তুমি যে সম্পাদনা করেছো তা ইভেন্ট থিয়েটার সম্পূর্ণভাবে মূল্যায়ন করেনি, তুমি ইভেন্ট রোলে যা দেখেছো সেটি ইভেন্ট থিয়েটারে প্রতিফলিত করতে এটি নির্বাচন করো।"
+
+#: Morphic-Mentoring,EventRollMorph>>addCustomMenuItems:hand:
+msgid "retrofit to event-theatre"
+msgstr "পরিবর্ধন করে ইভেন্ট-থিয়েটারে আবার সংযোজন করো"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "allows you to back up to any earlier version of the event tape."
+msgstr "তোমাকে ইভেন্ট ট্যাপের পূর্বের সংষ্করণ ব্যাকআপ করতে অনুমোদন করো।"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- change the definition of this menu."
+msgstr "ডিবাগিং -- এই মেনুর সংজ্ঞা পরিবর্তন করো।"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- open an Inspector on this event roll"
+msgstr "ডিবাগিং -- এই ইভেন্ট রোলের একটি পরিদর্শক খোলো"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the red roll cursor"
+msgstr "ডিবাগিং -- লাল রোল কার্সর হালনাগাদ করো।"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "debugging -- update the scrollbar"
+msgstr "ডিবাগিং -- স্ক্রুলবার হালনাগাদ করো।"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "Event-Roll Options"
+msgstr "ইভেন্ট-রোল অপশন"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update cursor"
+msgstr "কার্সর হালনাগাদ করো"
+
+#: Morphic-Mentoring,EventRollMorph>>addMenuButtonItemsTo:
+msgid "update scrollbar"
+msgstr "স্ক্রুলবার হালনাগাদ করো"
+
+#: Morphic-Mentoring,EventRollMorph>>changeScale
+msgid "Milliseconds per pixel [currently "
+msgstr "প্রতি পিক্সেলে মিলিসেকেন্ড [বর্তমানে "
+
+#: Morphic-Mentoring,EventRollMorph>>helpString
+msgid ""
+"An Event Roll is a used to visualize and edit the score, or \"tape\", of an Event Theatre's \"event movie\".\n"
+"\n"
+"The Roll shows three \"tracks\", one for all Mouse events, one for Keyboard events, and one for all other events, such as sound.\n"
+"\n"
+"You can *remove* any item from an event roll by just picking it up with the mouse and dropping it anywhere outside the roll (such as on the desktop or in the trash-can.)  If in doubt about the effect of removing an item, you can put it on the desktop, play the revised tape, then pick up the event from the desktop and drop it back near where you found it in the event roll, and replay again to compare.\n"
+"\n"
+"You can *reposition* any item in an event roll by picking it up with the mouse and dropping it anywhere else in the roll.  CAUTION:  Items in the mouse-event track should not be dropped such that they overlap -- see caveat below under \"Tips\".\n"
+"\n"
+"You can drag various kinds of items *into* the roll.  For example, you can drop a \"Morph\" or a \"Tile\" obtained from a SoundRecorder, and you can drop a \"button\" representing another event-recorded sequence (though it is not at the moment recommended to do the latter.)  One straightforward way of adding voiceovers to an existing event recording is to play back the recording while selectively making individual snippets of voice recordings using a separate, standard Squeak SoundRecording tool.  After you are satisfied with a recording, obtain a \"morph\" from the sound-recording tool, and position it as desired in the event roll.\n"
+"\n"
+"You can *resize* items in the \"mouse\" track of an event roll.  When you stretch or shrink a mouse-sequence, the events within the sequence get remapped linearly within the duration represented by the new size of the sequence as seen in the event roll.  [CAUTION:  Do not resize a mouse item such that it will overlap an adjacent one.  It is a bug that this is even allowed.]\n"
+"\n"
+"In addition to adding separately-recorded voiceovers using the mechanism described in item 3 above, there is a built-in voiceover mechanism in the Event Theatre.  Whenever you are playing back an existing event-recording in an Event Theatre, a \"Record Voiceover\" button will appear.  If you press this, the playback of the event recording will continue and you can record a voiceover to go with any portion you wish.  When you are done recording a snippet, you can hit the \"stop recording voiceover\" button; playback will continue, and you can subsequently, on this pass or any future one, add more voiceover snippets.  To remove a voiceover snippet, simply drag it out of the event roll; to reposition it, simply pick it up with the mouse and drop it back into the event roll at the desired position.\n"
+"\n"
+"When you make a change in an Event Roll, it will immediately change the tape of the Event Theatre, so that when you replay the event-movie you will immediately see see the change.  If you are unhappy with the change, there is a one-level \"undo\" available which will revert the EventTheatre to its state before the last edit you made in the EventRoll.  There is also a \"deeper\" level of \"undo\" available that will revert the EventTheatre (and hence the associated EventRoll) to the initial state they were in when you first launched the event roll.\n"
+"\n"
+"\n"
+"Keyboard Track\n"
+"\n"
+"You can reposition or delete any keyboard-track item.\n"
+"\n"
+"Color conventions in the keyboard track: (These will change soon!)\n"
+"\n"
+"\tWhite\tSimple lower-case character, no modifier key pressed\n"
+"\tRed\t\tShift-key pressed\n"
+"\tGreen\tAlt-key pressed\n"
+"\tYellow\tControl-key pressed\n"
+"\n"
+"\tYellow\tA \"space\" character\n"
+"\tBlue\t\tA \"backspace\" character\n"
+"\n"
+"Unprintable characters are shown in red with the ascii value displayed, e.g. #13 for a \"return\" character.\n"
+"\n"
+"*Important Tips*\n"
+"\n"
+"(1)  To get the halo on an object inside an EventRoll, hold down the SHIFT key as you halo-click on the object.\n"
+"\n"
+"(2)  DO NOT reposition or resize mouse-track items such that any two of them overlap, since this will result in the events represented by the two items getting co-mingled in such a way that they you will never be able to separate them again, and the mixture will have crazy results.  It is a bug that you are allowed to drop mouse-track items such that they overlap.  So please, DO NOT DO IT!  If by accident you do, you might be interested in trying out some of the revert mechanisms in the system.\n"
+msgstr ""
+"একটি ইভেন্ট রোল ইভেন্ট থিয়েটারের \"ইভেন্ট মুভি\" এর জন্য স্কোর অথবা \"টেপ\" প্রদর্শন এবং সম্পাদনার জন্য ব্যবহৃত হয়।\n"
+"\n"
+"রোলটি তিনটি \"ট্র্যাক\" সম্পাদনা করে, একটি সকল মাউস ইভেন্টের জন্য, একটি কীবোর্ড ইভেন্টের জন্য এবং একটি শব্দের মত অন্য সকল ইভেন্টের জন্য।\n"
+"\n"
+"মাউস দিয়ে তুলে রোলের বাইরে যেকোন জায়গায় (যেমন, ডেস্কটপ অথবা আবর্জনা বাক্সের উপর)ছেড়ে দেয়ার মাধ্যমে একটি ইভেন্ট রোল থেকে যেকোন উপাদান *সরাতে* পারো। যদি উপাদান সরানোর প্রভাব সম্পর্কে অনিশ্চয়তা থাকে তাহলে তা ডেক্সটপে রাখতে পারো, সংশোধিত টেপ চালাও তারপর ডেক্সটপ থেকে ইভেন্টটি সংগ্রহ করো এবং ইভেন্ট রোলের যেখানে খুঁজে পেয়েছিলে তার কাছে ছেড়ে দাও এবং তুলনা করার জন্য পুনরায় চালাও। \n"
+"\n"
+"মাউস দিয়ে তুলে রোল ব্যাতিত বাইরের যেকোন জায়গায় ছেড়ে দেয়ার মাধ্যমে একটি ইভেন্ট রোল থেকে যেকোন উপাদানের *অবস্থান পরিবর্তন* করতে পারো। সতর্কতা: তারা পরস্পরকে আবৃত করার কারনে মাউস-ইভেন্ট ট্র্যাকের উপাদান ছেড়ে দেয়া যাবে না -- \"পরামর্শ\" এর নিচের শর্তাবলী দেখো।\n"
+"\n"
+"তুমি রোলের *মধ্যে* বিভিন্ন ধরণের উপাদান টেনে নিয়ে আসতে পারো। উদাহরনস্বরূপ, শব্দ রেকর্ডার থেকে পাওয়া একটি \"মরফ\" অথবা একটি \"টাইল\" ছেড়ে দিতে পারো এবং অন্য একটি ইভেন্ট রেকর্ডকৃত ক্রম প্রতিনিধিত্ব করার জন্য একটি \"বোতাম\" ছেড়ে দিতে পারো (যদিও পরের কাজটি করার জন্য এখনই কোন সুপারিশ করা হয়না)। বিদ্যমান ইভেন্ট রেকর্ডিঙে ভয়েসওভার সংযোজনের একটি সোজা উপায় হলো একটি পৃথক, আদর্শ শব্দ রেকর্ড করার টুল ব্যবহার করে ভয়েস রেকর্ডের স্বতন্ত্র অংশ বেছে বেছে তৈরি করার সময় রেকর্ডিং প্লে ব্যাক করা। তুমি যদি রেকর্ডিং নিয়ে সন্তুষ্ট হও তাহলে শব্দ-রেকর্ডিং টুল থেকে \"মরফ\" নাও এবং ইভেন্ট রোলের যেখানে ইচ্ছা সেখানে এটিকে স্থাপন করো। \n"
+"\n"
+"তুমি একটি ইভেন্ট রোলের \"মাউস\" ট্র্যাকে উপাদানের *আকার পরিবর্তন* করতে পারো। তুমি যখন একটি মাউস-ক্রম প্রসারিত অথবা সঙ্কুচিত করো তখন ইভেন্ট রোলে যেভাবে দেখা যায় তেমন আকারের ক্রম দ্বারা উপস্থাপিত সময়ের মধ্যে বিদ্যমান ইভেন্ট পুনরায় রৈখিকভাবে ম্যাপ করা হয়। [সতর্কতা: মাউস উপাদানের আকার এমনভাবে পরিবর্তন করা হবে না যাতে এটি কাছের একটিকে আবৃত করবে না। এটি একটি বাগ যা অনেকসময় অনুমোদিত হয়।] \n"
+"\n"
+"সংযুক্তি হিসেবে উপরের উপাদান ৩ এ বর্ণনাকৃত গঠন ব্যবহার করে পৃথকভাবে রেকর্ড করা ভয়েসওভার সংযোজন করার জন্য ইভেন্ট থিয়েটারে একটি বিল্ট-ইন ভয়েসওভারের গঠন রয়েছে। তুমি যখনই একটি ইভেন্ট থিয়েটারে বিদ্যমান ইভেন্ট-রেকর্ডিং প্লেব্যাক করো একটি \"ভয়েসওভার রেকর্ড\" বোতামটি দেখা যায়। তুমি যদি এটি চাপো তাহলে ইভেন্ট রেকর্ডিং এর প্লেব্যাক চলতে থাকবে এবং তুমি যেকোন অংশে যেতে চাইলে একটি ভয়েসওভার রেকর্ড করতে পারো। তুমি যখন একটি স্নিপেট রেকর্ড সম্পন্ন করো তখন তুমি \"ভয়েসওভার রেকর্ড বন্ধ করো\" বোতাম চাপতে পারো; প্লেব্যাক চলতে থাকবে এবং তুমি পরবর্তীতে এই পাসে অথবা ভবিষ্যতে কোন একটিতে আরও ভয়েসওভার স্নিপেট সংযোজন করতে পারো। একটি ভয়েসওভার স্নিপেট সরানোর জন্য ইভেন্ট রোলের বাইরে টেনে নিয়ে যাও; এটি নতুন অবস্থানে নেয়ার জন্য মাউস দ্বারা তুলে ধরো এবং ইভেন্ট রোলের কাঙ্খিত অবস্থানে ছেড়ে দাও।\n"
+"\n"
+"তুমি যখন একটি ইভেন্ট রোলে পরিবর্তন করো এটি সাথে সাথে ইভেন্ট থিয়েটারের টেপ পরিবর্তন করে, ফলে তুমি যখন ইভেন্ট-মুভিটি আবার চালাও তখন তুমি সাথে সাথেই পরবর্তনটি দেখতে পাবে। যদি পরিবর্তনটি পছন্দ না হয় তাহলে এক-স্তর \"আগের অবস্থায় ফিরিয়ে আনা \" এর মাধ্যমে ইভেন্ট রোলে সর্বশেষ যে সম্পাদনা করেছিলে তার আগের অবস্থায় ইভেন্ট-থিয়েটারটিকে ফিরিয়ে নিয়ে যাবে। সেখানে \"আগের অবস্থায় ফিরিয়ে আনা\"  এর একটি \"গভীর\" স্তর রয়েছে যা ইভেন্ট থিয়েটারটিকে (এবং সংশ্লিষ্ট ইভেন্ট রোল) ইভেন্ট রোল চালু করার সময় প্রাথমিক যে অবস্থা ছিল তাতে ফিরিয়ে নিয়ে যায়।\n"
+"\n"
+"কীবোর্ড ট্র্যাক\n"
+"\n"
+"তুমি যেকোন কী-বোর্ড ট্র্যাক উপাদানের অবস্থান ঠিক করো অথবা মুছে ফেলো।\n"
+"\n"
+"কীবোর্ড ট্র্যাকে রঙের সমাবেশ: (এটি শীঘ্রই পরিবর্তিত হবে!)\n"
+"\n"
+"          সাদা       সাধারণ ছোট হাতের অক্ষর, কোন পরিবর্তনকারী কী চাপা হয়নি\n"
+"          লাল       Shift কী চাপা হয়েছে\n"
+"          সবুজ      Alt কী চাপা হয়েছে\n"
+"          হলুদ       কন্ট্রোল কী চাপা হয়েছে\n"
+"\n"
+"         হলুদ        একটি  \"ফাঁকা স্থান\" অক্ষর\n"
+"         নীল                  একটি  \"backspace\" অক্ষর\n"
+"\n"
+"অমুদ্রনযোগ্য অক্ষর লাল রঙে প্রদর্শিত ascii মান সহ দেখানো হয়, যেমন #13  \"রিটার্ন\" অক্ষরের জন্য।\n"
+"\n"
+"*গুরুত্বপূর্ণ পরামর্শ*\n"
+"\n"
+"(১)  একটি ইভেন্টরোলের মধ্যে বস্তুর উপর হেইলো পাওয়ার জন্য বস্তুর উপর যেভাবে হেইলো-ক্লিক করো সেভাবে SHIFT কী ধরে থাকো।\n"
+"\n"
+"(২)  মাউস ট্র্যাক উপাদানের অবস্থান পরিবর্তন অথবা আকার পরিবর্তন করবেনা যেমন তাদের  যেকোন দুইটি  আবৃত করে, আর পৃথক হতে না পারে এমন পরস্পর মিশ্রিত দুইটি উপাদান দ্বারা উপস্থাপিত ইভেন্ট ফলাফল হিসেবে প্রদান করে এবং মিশ্রনটির একটি অদ্ভুত ফলাফল হবে। এটি একটি বাগ যা মাউস-ট্র্যাক উপাদান ছেড়ে দেয়ার অনুমতি দেয় যেমনভাবে তারা আবৃত করে। ফলে অনুগ্রহ করে, এটা করো না! তুমি যদি দূর্ঘটনাক্রমে করে ফেলো তাহলে সিস্টেমের কিছু বিপরীত প্রক্রিয়া চেষ্টা করতে আগ্রহী হবে।\n"
+
+#: Morphic-Mentoring,EventRollMorph>>makeButtonsPanel
+msgid "Abandon  this piano roll.  If you have made changes and wish them to be propagated back to the originating event-theatre, be sure to do that before abandoning the piano roll."
+msgstr "এই পিয়ানো রোল বাতিল করো। যদি তুমি পরিবর্তন করো এবং এদেরকে উদ্ভাবক ইভেন্ট-থিয়েটারে রাখতে চাও, তবে পিয়ানো রোল বাতিল করার আগে অবশ্যই এটি করে নিবে।"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "keyboard"
+msgstr "কীবোর্ড"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "media"
+msgstr "মিডিয়া"
+
+#: Morphic-Mentoring,EventRollMorph>>makeControlsPanel
+msgid "mouse"
+msgstr "মাউস"
+
+#: Morphic-Mentoring,EventRollMorph>>presentHelp
+msgid "Event Roll"
+msgstr "ইভেন্ট রোল"
+
+#: Morphic-Mentoring,EventTimeline>>defaultNameStemForInstances
+msgid "event timeline"
+msgstr "ইভেন্ট সময়রেখা"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "রং:..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "এই ফ্ল্যাপটি নষ্ট করে ফেলো"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "উচ্চতা..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "রং হাইলাইট করো..."
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "পূর্বনির্ধারিত ধূসর দর্শন ব্যবহার করো"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "পূর্বনির্ধারিত সবুজ দর্শন ব্যবহার করো"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>changeNaviHeight
+msgid "new height of the bar"
+msgstr "বারের নতুন উচ্চতা"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>edgeString
+msgid "cling to edge... (current: {1})"
+msgstr "কিনারায় দৃঢ়ভাবে লেগে থাকা... (বর্তমান: {1})"
+
+#: Morphic-Mentoring,InteriorSugarNavBar>>finishInitialization
+msgid "Navigator Flap"
+msgstr "নেভিগেটর ফ্ল্যাপ"
+
+#: Morphic-Mentoring,KeyboardEventMorph>>addCustomMenuItems:hand:
+msgid "Change character"
+msgstr "অক্ষর পরিবর্তন করো"
+
+#: Morphic-Mentoring,KeyboardEventMorph>>changeCharacter
+msgid "New character? "
+msgstr "নতুন অক্ষর? "
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play"
+msgstr "বাজাও"
+
+#: Morphic-Mentoring,MediaEventMorph>>addCustomMenuItems:hand:
+msgid "play the event in isolation."
+msgstr "পৃথককরণের ইভেন্ট চালাও।"
+
+#: Morphic-Mentoring,MentoringEventRecorder>>caption
+msgid "Untitled"
+msgstr "শিরোনামহীন"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "graphical view"
+msgstr "গ্রাফিকাল দর্শন"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Lets you visualize all the individual events that constitute this sequence in an onionskin overlay to the event theatre."
+msgstr "Lets you visualize all the individual events that constitute this sequence in an onionskin overlay to the event theatre."
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "Presents the constituent events of this sequence in a scrolling list for your inspection."
+msgstr "তোমার অনুসন্ধানের স্ক্রুলিং তালিকায় এই ক্রমের উপাদান ইভেন্ট উপস্থাপন করো।"
+
+#: Morphic-Mentoring,MouseEventSequenceMorph>>addCustomMenuItems:hand:
+msgid "textual view"
+msgstr "টেক্সচুয়াল দর্শন"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "imprint HINT"
+msgstr "ছাপানো HINT"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "open for editing"
+msgstr "সম্পাদনার জন্য খোলা হয়েছে"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show caption"
+msgstr "ক্যাপশন দেখাও"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show final picture"
+msgstr "সর্বশেষ ছবি দেখাও"
+
+#: Morphic-Mentoring,PlaybackInvoker>>addCustomMenuItems:hand:
+msgid "show initial picture"
+msgstr "প্রাথমিক ছবি দেখাও"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtButtonPositionString
+msgid "playback at button position"
+msgstr "বোতামের অবস্থানে প্লেব্যাক"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtContainerOriginString
+msgid "playback at container origin"
+msgstr "ধরকের মূলে প্লেব্যাক করো"
+
+#: Morphic-Mentoring,PlaybackInvoker>>appearAtScreenCenterString
+msgid "playback at screen center"
+msgstr "স্ক্রীনের কেন্দ্রে প্লেব্যাক"
+
+#: Morphic-Mentoring,PlaybackInvoker>>postPlaybackImageFeatureString
+msgid "post-playback feature"
+msgstr "প্লেব্যাকের পরের বৈশিষ্ট"
+
+#: Morphic-Mentoring,TextualEventSequenceDisplayer>>mouseEventSequenceMorph:
+msgid "Each line represents an event in the event sequence I represent"
+msgstr "প্রতিটি রেখা আমার ইভেন্টের ক্রমের ইভেন্ট ব্যাখা করে"
+
+#: Morphic-Mentoring,Worldlet>>initialize
+msgid "screen"
+msgstr "পর্দা"
+
+#: Morphic-Menus,MenuIcons_class>>iconForMenuItem:
+msgid "undo (z)"
+msgstr "পূর্বাবস্থা (z)"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add item..."
+msgstr "আইটেম যোগ করো..."
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add line"
+msgstr "রেখা যোগ করো"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "add title..."
+msgstr "শিরোনাম যোগ করো..."
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:
+msgid "detach submenu"
+msgstr "সাবমেনু বিচ্ছিন্ন করো"
+
+#: Morphic-Menus,MenuMorph>>addCustomMenuItems:hand:,MouseDownMorph>>addCustomMenuItems:hand:
+msgid "set target..."
+msgstr "লক্ষ্য নির্ধারণ করো..."
+
+#: Morphic-PartsBin,PartsWindow>>addCustomMenuItems:hand:
+msgid "parts window controls..."
+msgstr "অংশ উইন্ডোজ কন্ট্রোল..."
+
+#: Morphic-PDA,MonthMorph>>addCustomMenuItems:hand:
+msgid "jump to year..."
+msgstr "বছর এ যাও..."
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Choose another year"
+msgstr "অন্য বৎসর নির্বাচন করো"
+
+#: Morphic-PDA,MonthMorph>>chooseYear
+msgid "Type in a year"
+msgstr "একটি বছরে টাইপ করো"
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "A Personal Digital Assistant"
+msgstr "একটি ব্যক্তিগত ডিজিটাল সহায়তাকারী"
+
+#: Morphic-PDA,PDAMorph_class>>descriptionForPartsBin
+msgid "PDA"
+msgstr "PDA"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy list to clipboard"
+msgstr "ক্লিপবোর্ডে তালিকা অনুলিপি করো"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "copy selection to clipboard"
+msgstr "নির্বাচন ক্লিপবোর্ডে অনুলিপি করো"
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>addCustomMenuItems:hand:
+msgid "list font..."
+msgstr "তালিকা ফন্ট..."
+
+#: Morphic-Pluggable_Widgets,PluggableListMorph>>setListFont
+msgid "Choose the font for this list"
+msgstr "তালিকা থেকে ফন্ট নির্বাচন করো"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>accept
+msgid ""
+"Caution! This method may have been\n"
+"changed elsewhere since you started\n"
+"editing it here.  Accept anyway?"
+msgstr ""
+"সতর্কতা! এই মেথড সম্ভবত অন্যকোথাও\n"
+"পরিবর্তন করা হয়েছে যেহুতু তুমি এটি এখানে\n"
+"সম্পাদনা করা শুরু করেছো। যাইহোক, গ্রহণ করতে চাও?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>promptForCancel
+msgid ""
+"Changes have not been saved.\n"
+"Is it OK to cancel those changes?"
+msgstr ""
+"পরিবর্তন সংরক্ষণ করা হয়নি।\n"
+"ওইসব পরিবর্তন বাতিল করা কি ঠিক হবে?"
+
+#: Morphic-Pluggable_Widgets,PluggableTextMorph>>toggleAnnotationPaneSize
+msgid ""
+"Move cursor farther from\n"
+"this point to increase pane.\n"
+"Click when done."
+msgstr ""
+"পেন বৃদ্ধি করতে কার্সর\n"
+"এই বিন্দু থেকে দূরে সরিয়ে নাও।\n"
+"শেষ হয়ে গেলে ক্লিক করো।"
+
+#: Morphic-Support,SelectionMorph_class>>defaultNameStemForInstances
+msgid "Selection"
+msgstr "নির্বাচন"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align bottom edges"
+msgstr "নিম্ন কিনারা প্রান্তিককরণ"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers horizontally"
+msgstr "কেন্দ্র অনুভুমিকভাবে প্রান্তিককরণ"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align centers vertically"
+msgstr "কেন্দ্র উল্লম্বভাবে প্রান্তিককরণ"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align left edges"
+msgstr "বাম কিনারা প্রান্তিককরণ"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align right edges"
+msgstr "ডান কিনারা প্রান্তিককরণ"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "align top edges"
+msgstr "শীর্ষ কিনারা প্রান্তিককরণ"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute horizontally"
+msgstr "অনুভূমিকভাবে বিতরণ করো"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "distribute vertically"
+msgstr "উল্লম্বভাবে বিতরণ করো"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a column"
+msgstr "একটি কলামে রাখুন"
+
+#: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
+msgid "place into a row"
+msgstr "একটি সারিতে রাখুন"
+
+#: Morphic-Support,SelectionMorph>>externalName
+msgid "Selected {1} objects"
+msgstr "নির্বাচিত {1} বস্তু"
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "A scrolling data field which will have a different value on every card of the background"
+msgstr "একটি স্ক্রলিং ডাটা ক্ষেত্র যার পটভূমির প্রতিটি কার্ডে ভিন্ন মান থাকবে"
+
+#: Morphic-Text_Support,TextFieldMorph_class>>registerInFlapsRegistry
+msgid "Scrolling Field"
+msgstr "ষ্ক্রুলিং ফিল্ড"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "bold"
+msgstr "গাঢ়"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "centered"
+msgstr "কেন্দ্রীয়"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "italic"
+msgstr "ইতালীক"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "justified"
+msgstr "যাচাইকৃত"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "left flush"
+msgstr "বাম ফ্লাশ"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "narrow"
+msgstr "সরু"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "normal"
+msgstr "স্বাভাবিক"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "right flush"
+msgstr "ডান ফ্লাশ"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "struck out"
+msgstr "কেটে দেওয়া"
+
+#: Morphic-Text_Support,TextMorphEditor>>changeEmphasisOrAlignment
+msgid "underlined"
+msgstr "নিম্নরেখাঙ্কিত"
+
+#: Morphic-TrueType,TTSampleFontMorph>>getSmoothingLevel
+msgid "more smoothing"
+msgstr "আরো মসৃণ"
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "A short text in a beautiful font.  Use the resize handle to change size."
+msgstr "একটি চমৎকার ফন্টে একটি সংক্ষিপ্ত টেক্সট। আকার পরিবর্তন করার জন্য আকার পরিবর্তন হ্যান্ডল ব্যবহার করুন।"
+
+#: Morphic-TrueType,TTSampleStringMorph_class>>descriptionForPartsBin
+msgid "TrueType banner"
+msgstr "TrueType ব্যানার"
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "edit contents..."
+msgstr "বিষয়বস্তু সম্পাদনা করো..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "how to find more fonts..."
+msgstr "কিভাবে আরো ফন্ট খুঁজে পাবে..."
+
+#: Morphic-TrueType,TTSampleStringMorph>>addCustomMenuItems:hand:
+msgid "load font from web..."
+msgstr "ওয়েব থেকে ফন্ট লোড করো..."
+
+#: Morphic-Widgets,BalloonMorph_class>>chooseBalloonFont
+msgid ""
+"Select the font to be\n"
+"used for balloon help"
+msgstr ""
+"বেলুন সহায়তায় ব্যবহারের জন্য\n"
+"ফন্ট নির্বাচন করো"
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "Clipboard"
+msgstr "ক্লিপবোর্ড"
+
+#: Morphic-Widgets,ClipboardMorph_class>>descriptionForPartsBin
+msgid "This object will always show whatever is on the text clipboard"
+msgstr "টেক্সট ক্লিপবোর্ডে যাই থাকুক না কেনো বস্তু সবসময় দেখাবে"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "do not stay up"
+msgstr "জেগে থাকবেনা"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "stay up"
+msgstr "জেগে থাকো"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update continuously"
+msgstr "অবিরাম হালনাগাদ করে"
+
+#: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
+msgid "update only at end"
+msgstr "কেবলমাত্র শেষে হালনাগাদ করো"
+
+#: Morphic-Widgets,ColorPickerMorph>>delete
+msgid "color change"
+msgstr "রং পরিবর্তন"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "adjust translucency"
+msgstr "অর্ধস্বচ্ছ সমন্বয় করো"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "restore original color"
+msgstr "প্রকৃত রং পূর্বাবস্থায় ফিরিয়ে আনো"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeForPropertiesPanel,ColorPickerMorph>>initializeModal:
+msgid "shows selected color"
+msgstr "নির্বাচিত রং দেখাও"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "dismiss color picker"
+msgstr "রং উত্তোলক বাতিল করো"
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "move this color-picker to another position, and keep it on the screen until dismissed with the X button  "
+msgstr "রং-নির্বাচক কে অন্য অবস্থানে সরিয়ে নাও, এবং X বোতাম দিয়ে বাতিল না করা পর্যন্ত এটিকে পর্দায় রাখো  "
+
+#: Morphic-Widgets,ColorPickerMorph>>initializeModal:
+msgid "open a full property sheet"
+msgstr "একটি সম্পূর্ণ বৈশিষ্ট্য পাতা খোলো"
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Forward direction (hold down shift key and drag to change it)"
+msgstr "Forward direction (hold down shift key and drag to change it)"
+
+#: Morphic-Widgets,HaloMorph>>addDirectionHandles
+msgid "Rotation center (hold down the shift key and drag to change it)"
+msgstr "ঘূর্ণন অভিমুখ (shift কী ধরে রাখো এবং এটি পরিবর্তন করতে টানো)"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Really throw this away"
+msgstr "আসলেই এটি দূরে ফেলা হয়েছে"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Um, no, let me reconsider"
+msgstr "হুম, না, আমাকে পুনঃবিবেচনা করতে দাও"
+
+#: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
+msgid "Yes"
+msgstr "হ্যা"
+
+#: Morphic-Widgets,HaloMorph>>startGrow:with:,HaloMorph>>startScale:with:
+msgid "resize "
+msgstr "আকার পরিবর্তন "
+
+#: Morphic-Widgets,HaloMorph>>startRot:with:
+msgid "rotate "
+msgstr "ঘূর্ণন "
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Choose which physical device is associated with the joystick."
+msgstr "জয়স্টিকের সাথে সংশ্লিষ্ট  যন্ত্রটি নির্বাচন করো।"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "Governs whether this joystick should track the motions of a real, physical joystick attached to the computer."
+msgstr "এই জয়স্টিক একটি রিয়েলের গতির ট্র্যাক রাখবে কি না সেটি নিয়ন্ত্রন করো, সত্যিকারের জয়স্টিক কম্পিউটারের সাথে সংযুক্ত করা হয়েছে।"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set X range"
+msgstr "X পরিসর নির্ধারণ করো"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "set Y range"
+msgstr "X পরিসর নির্ধারণ করো"
+
+#: Morphic-Widgets,JoystickMorph>>addCustomMenuItems:hand:
+msgid "When auto-center is on, every time you let go of the Joystick knob, it springs back to the neutral position at the center of the device"
+msgstr "When auto-center is on, every time you let go of the Joystick knob, it springs back to the neutral position at the center of the device"
+
+#: Morphic-Widgets,JoystickMorph>>autoCenterString
+msgid "auto-center"
+msgstr "স্বয়ংক্রিয়-কেন্দ্র"
+
+#: Morphic-Widgets,JoystickMorph>>chooseJoystickNumber
+msgid "Joystick device number (currently {1})"
+msgstr "জয়স্টিক যন্ত্রের নম্বর (বর্তমানে {1})"
+
+#: Morphic-Widgets,JoystickMorph>>joystickNumberString
+msgid "set real joystick number (now {1})"
+msgstr "আসল জয়স্টিক নম্বর নির্ধারণ (এখন {1})"
+
+#: Morphic-Widgets,JoystickMorph>>realJoystickString
+msgid "track real joystick"
+msgstr "আসল জয়স্টিক ট্র্যাক করো"
+
+#: Morphic-Widgets,JoystickMorph>>setXRange
+msgid "Type the maximum value for the X axis"
+msgstr "X অক্ষের জন্য সর্ব্বোচ মান টাইপ করো"
+
+#: Morphic-Widgets,JoystickMorph>>setYRange
+msgid "Type the maximum value for the Y axis"
+msgstr "Y অক্ষের জন্য সর্ব্বোচ মান টাইপ করো"
+
+#: Morphic-Widgets,JoystickMorph>>trackRealJoystick
+msgid "Number of joystick to track?"
+msgstr "ট্র্যাক করার জন্য কয়টি জয়স্টিকের দরকার?"
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen color"
+msgstr "কলমের রং"
+
+#: Morphic-Widgets,MultiuserTinyPaint>>addCustomMenuItems:hand:,TinyPaint>>addCustomMenuItems:hand:
+msgid "pen size"
+msgstr "কলমের আকার"
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress color..."
+msgstr "অগ্রগতির রং..."
+
+#: Morphic-Widgets,ProgressBarMorph>>addCustomMenuItems:hand:
+msgid "progress value..."
+msgstr "অগ্রগতির মান..."
+
+#: Morphic-Widgets,ProgressBarMorph>>changeProgressValue:
+msgid "Enter new value (0 - 1.0)"
+msgstr "নতুন মান প্রবেশ করাও (১ - ১.০)"
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "A rectangle which continuously reports its size in pixels"
+msgstr "একটি আয়তক্ষেত্র যা অবিরাম এর আকার পিক্সেলে প্রতিবেদন করে"
+
+#: Morphic-Widgets,RulerMorph_class>>descriptionForPartsBin
+msgid "Ruler"
+msgstr "রুলার"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change action selector"
+msgstr "কার্যক্রম নির্বাচক পরিবর্তন করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change arguments"
+msgstr "আর্গুমেন্ট পরিবর্তন করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "change when to act"
+msgstr "কখন অভিনয় করতে হবে সেটি পরিবর্তন করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "clear target"
+msgstr "লক্ষ্য মুছে ফেলো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page sound"
+msgstr "একটি পৃষ্ঠা শব্দ নির্ধারণ করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set page visual"
+msgstr "পৃষ্ঠা ভিজুয়াল নির্ধারণ করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addCustomMenuItems:hand:
+msgid "set target"
+msgstr "লক্ষ নির্ধারণ করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>addLabelItemsTo:hand:
+msgid "change label"
+msgstr "লেবেল পরিবর্তন করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr ""
+"বোতাম চাপা হলে টার্গেটে পাঠানোর\n"
+"জন্য অনুগ্রহ করে নির্বাচক টাইপ করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonDown"
+msgstr "buttonDown"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "buttonUp"
+msgstr "buttonUp"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr "নিম্নের যেকোনো একটি শর্ত নির্বাচন করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "startDrag"
+msgstr "startDrag"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setActWhen
+msgid "whilePressed"
+msgstr "whilePressed"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+"সময়কাল ধরে যখন এই বোতাম চাপা হবে তখন\n"
+"অনুগ্রহ করে টার্গেটে পাঠানোর জন্য আর্গুমেন্ট টাইপ করো"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setLabel
+msgid "Please enter a new label for this button"
+msgstr "অনুগ্রহ করে এই বোতামের জন্য  একটি নতুন লেবেল প্রবেশ করাও"
+
+#: Morphic-Widgets,SimpleButtonMorph>>setTarget
+msgid "Enter an expression that create the target"
+msgstr "একটি অভিব্যক্তি প্রবেশ করাও যা টার্গেট তৈরি করে"
+
+#: Morphic-Widgets,TinyPaint>>addCustomMenuItems:hand:
+msgid "fill"
+msgstr "ভরাট"
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "decimal places..."
+msgstr "দশমিক স্থান..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font size..."
+msgstr "ফন্ট আকার..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
+msgid "font style..."
+msgstr "ফন্ট শৈলী..."
+
+#: Morphic-Widgets,UpdatingStringMorph>>setPrecision
+msgid "How many decimal places? (currently {1})"
+msgstr "কয়টি দশমিক স্থান? (বর্তমানে {1})"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu
+msgid "change name..."
+msgstr "নাম পরিবর্তন করুন..."
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make closable"
+msgstr "বন্ধ করা যায় এমনভাবে তৈরি করো"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make draggable"
+msgstr "টানা যায় এমনভাবে তৈরি করো"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make next-to-topmost"
+msgstr "পরবর্তী-থেকে-সর্বশীর্ষে বানাও"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make unclosable"
+msgstr "বন্ধ করা যায় না এমনভাবে তৈরি করো"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,SystemWindow>>buildWindowMenu
+msgid "make undraggable"
+msgstr "টানা যায় না এমনভাবে তৈরি করো"
+
+#: Morphic-Windows,CollapsedMorph>>buildWindowMenu,Morph>>addStandardHaloMenuItemsTo:hand:,SystemWindow>>buildWindowMenu
+msgid "send to back"
+msgstr "পেছনে পাঠাও"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createAcceptButton
+msgid "Accept(s)"
+msgstr "গ্রহন(s)"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createCancelButton
+msgid "Cancel(l)"
+msgstr "বাতিল(l)"
+
+#: Morphic-Windows,FillInTheBlankMorph>>createQueryTextMorph:
+msgid "query"
+msgstr "জিজ্ঞাসা"
+
+#: Morphic-Windows,PreDebugWindow>>setBalloonTextForCloseBox
+msgid "abandon this execution by closing this window"
+msgstr "এই উইন্ডো বন্ধ করে সম্পাদনা বাতিল করো"
+
+#: Morphic-Windows,ProjectViewMorph_class>>defaultNameStemForInstances
+msgid "ProjectView"
+msgstr "ProjectView"
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "প্রকল্প হিসেবে লোড করো"
+
+#: Morphic-Windows,ProjectViewMorph_class>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "ফাইল তেকে প্রকল্প খোলো"
+
+#: Morphic-Windows,ProjectViewMorph>>balloonText
+msgid ""
+"Click here to enter the\n"
+"project named\n"
+"\"{1}\""
+msgstr ""
+"প্রকল্পের নাম\n"
+"\"{1}\"\n"
+"প্রবেশ করাতে এখানে ক্লিক করো"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "cancel - do not delete anything"
+msgstr "বাতিল - কোনো কিছু মুছে ফেলবে না"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid ""
+"Do you really want to delete the\n"
+"project named {1}\n"
+"and all its contents?"
+msgstr ""
+"তুমি কি আসলেই প্রকল্পের নাম {1}\n"
+"এবং এর বিষয়বস্তু\n"
+"মুছে ফেলতে চাও?"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "no - delete icon but keep the project"
+msgstr "না - আইকন মুছে ফেলো কিন্তু প্রকল্পটি রাখো"
+
+#: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
+msgid "yes - delete icon and delete the project"
+msgstr "হ্যা - আইকন এবং প্রকল্পটি মুছে ফেলো"
+
+#: Morphic-Windows,ProjectViewMorph>>editTheName:
+msgid "The project is not present and may not be renamed now"
+msgstr "প্রকল্পটি এখানে নেই এবং এখন পুনঃনামকরণ করা যাবেনা"
+
+#: Morphic-Windows,ProjectViewMorph>>enter
+msgid "Project not found"
+msgstr "প্রকল্প খুঁজে পাওয়া যায়নি"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "ENTER ACTIVE"
+msgstr "ENTER ACTIVE"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "enter this project"
+msgstr "এই প্রকল্পটি প্রবেশ করাও"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "expunge this project"
+msgstr "এই প্রকল্পটি বাদ দাও"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "Project Named \\\"{1}\""
+msgstr "প্রকল্পের নাম \\\"{1}\""
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH to a different server"
+msgstr "একটি ভিন্ন সার্ভারে PUBLISH করো"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "PUBLISH (also saves a local copy)"
+msgstr "PUBLISH (একটি স্থানীয় অনুলিপি ও সংরক্ষণ করো)"
+
+#: Morphic-Windows,ProjectViewMorph>>showMenuForProjectView
+msgid "see if server version is more recent"
+msgstr "সার্ভারের সংষ্করণ আরো সাম্প্রতিক হলে দেখো"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar inboard"
+msgstr "স্ক্রলবার ইনবোর্ড তৈরি করো"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "make scrollbar retractable"
+msgstr "স্ক্রলবার প্রত্যাহারযোগ্য করো"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on left"
+msgstr "বামে স্ক্রলবার"
+
+#: Morphic-Windows,ScrollPane>>addCustomMenuItems:hand:
+msgid "scroll bar on right"
+msgstr "ডানে স্ক্রলবার"
+
+#: Morphic-Windows,SystemWindow>>addCustomMenuItems:hand:
+msgid "edit label..."
+msgstr "লেবেল সম্পাদনা করো..."
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "change title..."
+msgstr "শিরোনাম পরিবর্তন করো..."
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "full screen"
+msgstr "পর্দাজুড়ে প্রদর্শন"
+
+#: Morphic-Windows,SystemWindow>>buildWindowMenu
+msgid "window color..."
+msgstr "উইন্ডো রং..."
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createCollapseBox
+msgid "collapse this window"
+msgstr "এই উইন্ডো ভাঁজ করে গুটাও"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand
+msgid "expand this window"
+msgstr "এই উইন্ডো বর্ধিত করো"
+
+#: Morphic-Windows,SystemWindow>>collapseOrExpand,SystemWindow>>createExpandBox,SystemWindow>>expandBoxHit
+msgid "expand to full screen"
+msgstr "পর্দাজুড়ে প্রদর্শন বর্ধিত করো"
+
+#: Morphic-Windows,SystemWindow>>createCloseBox
+msgid "close this window"
+msgstr "এই উইন্ডো বন্ধ করো"
+
+#: Morphic-Windows,SystemWindow>>createMenuBox,SystemWindow>>initializeLabelArea
+msgid "window menu"
+msgstr "উইন্ডো মেনু"
+
+#: Morphic-Windows,SystemWindow>>expandBoxHit,SystemWindow>>expandBoxHit
+msgid "contract to original size"
+msgstr "আসল আকারের সাথে চুক্তি"
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "close window"
+msgstr "উইন্ডো বন্ধ করো"
+
+#: Morphic-Windows,SystemWindow>>initializeLabelArea
+msgid "collapse/expand window"
+msgstr "উইন্ডো ভাঁজ করে গুটাও/সম্প্রসারণ করো"
+
+#: Morphic-Windows,SystemWindow>>initialize
+msgid "Untitled Window"
+msgstr "শিরোনামহীন উইন্ডো"
+
+#: Morphic-Windows,SystemWindow>>relabel
+msgid "New title for this window"
+msgstr "এই উইন্ডোর জন্য নতুন শিরোনাম"
+
+#: Morphic-Worlds,PasteUpMorph_class>>defaultNameStemForInstances
+msgid "playfield"
+msgstr "playfield"
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "Variable named \"{1}\"  in player named \"{2}\" changed to point to Dot"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>abandonUnsituatedPlayers
+msgid "{1} item(s) fixed up"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "change the color or pattern of the desktop background that lies behind everything else on the screen."
+msgstr "রং অথবা ডেস্কটপ পটভূমির নকশা পরিবর্তন করো যা স্ক্রিনের অন্য কিছুর পেছনে থাকে।"
+
+#: Morphic-Worlds,PasteUpMorph>>addFillStyleMenuItems:hand:
+msgid "desktop color..."
+msgstr "ডেস্কটপ রং..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "its governing pen trails drawn within"
+msgstr "এটি এর মধ্যে আকাঁ পেন ট্রেইল নিয়ন্ত্রণ করে"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenMenuItems:hand:
+msgid "pen trails..."
+msgstr "পেন ট্রেইল..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens down"
+msgstr "সব কলম নিচে"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrowheads"
+msgstr "সব কলম তীরের অগ্রভাগ দেখায়"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show arrows"
+msgstr "সব কলম তীর দেখায়"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show dots"
+msgstr "সব কলম ডট দেখায়"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens show lines"
+msgstr "সব কলম রেখা দেখায়"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "all pens up"
+msgstr "সব কলম উপরে"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "clear pen trails"
+msgstr "পেন ট্রেইলে মুছে ফেলো"
+
+#: Morphic-Worlds,PasteUpMorph>>addPenTrailsMenuItemsTo:
+msgid "if true, detailed movement of pens between display updates is ignored.  Thus multiple line segments drawn within a script may not be seen individually."
+msgstr "যদি সত্য হয়, প্রদর্শন হালনাগাদের মধ্যে কলমের বিস্তারিত গতিশীলতা অগ্রাহ্য করা হবে।  তাই স্ক্রিপ্টে আকাঁ বহুবিধ রেখাংশ সম্ভবত আলাদাভাবে দেখা যাবেনা।"
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "playfield options..."
+msgstr "প্লেফিল্ড অপশন..."
+
+#: Morphic-Worlds,PasteUpMorph>>addPlayfieldMenuItems:hand:
+msgid "send contents back to donor"
+msgstr "বিষয়বস্তু দাতার কাছে ফেরত পাঠাও"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define application view"
+msgstr "অ্যাপ্লিকেশন প্রদর্শন বর্ণনা করো"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "define factory view"
+msgstr "ফ্যাক্টরি প্রদর্শন বর্ণনা করো"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "expand"
+msgstr "বর্ধিত"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "reduce"
+msgstr "কমানো"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show application view"
+msgstr "অ্যাপ্লিকেশন প্রদর্শন দেখাও"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show factory view"
+msgstr "ফ্যাক্টরি প্রদর্শন দেখাও"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "show whole world view"
+msgstr "সম্পূর্ণ বিশ্ব পরিদর্শন দেখাও"
+
+#: Morphic-Worlds,PasteUpMorph>>addScalingMenuItems:hand:
+msgid "world scale and clip..."
+msgstr "বিশ্ব স্কেল এবং ক্লিপ..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>helpMenu
+msgid "about this system..."
+msgstr "এই সিস্টেম সম্পর্কে..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>buildShowSourceMenu,TheWorldMenu>>buildWorldMenu
+msgid "authoring tools..."
+msgstr "রচনা করার টুল..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "display mode..."
+msgstr "প্রদর্শন মোড"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:,TheWorldMenu>>appearanceMenu,TheWorldMenu>>helpMenu
+msgid "preferences..."
+msgstr "পছন্দসমূহ..."
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "redraw screen (r)"
+msgstr "স্ক্রীন আবার আকোঁ (r)"
+
+#: Morphic-Worlds,PasteUpMorph>>addWorldHaloMenuItemsTo:hand:
+msgid "world menu..."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>assureNotPaintingElse:
+msgid ""
+"Sorry, you can only paint\n"
+"one object at a time"
+msgstr "দঃখিত, তুমি একবারে শুধুমাত্র একটি বস্তু আকঁতে পারবে।"
+
+#: Morphic-Worlds,PasteUpMorph>>autoLineLayoutString
+msgid "auto-line-layout"
+msgstr "স্বয়ংক্রিয়-রেখা-বিন্যাস"
+
+#: Morphic-Worlds,PasteUpMorph>>buildDebugMenu:
+msgid "abandon costume history"
+msgstr "পোশাকের ইতিহাস বাদ দাও"
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Delete\\Keep"
+msgstr "মুছে ফেলুন\\ধরে রাখুন"
+
+#: Morphic-Worlds,PasteUpMorph>>checkCurrentHandForObjectToPaste
+msgid "Hand is holding a Morph in its paste buffer:\\"
+msgstr "প্রতিলেপন বাফারে হাত একটি মর্ফ ধরে আছে:\\"
+
+#: Morphic-Worlds,PasteUpMorph>>closeUnchangedWindows
+msgid ""
+"Do you really want to close all windows\n"
+"except those with unaccepted edits?"
+msgstr ""
+"গ্রহণযোগ্য নয় এমন সম্পাদনা সহ উইন্ডো ব্যতীত\n"
+"বাকি সব উইন্ডো কি তুমি বন্ধ করে দিতে চাও?"
+
+#: Morphic-Worlds,PasteUpMorph>>defaultNameStemForInstances
+msgid "world"
+msgstr "বিশ্ব"
+
+#: Morphic-Worlds,PasteUpMorph>>deleteNonWindows
+msgid ""
+"Do you really want to discard all objects\n"
+"that are not in windows?"
+msgstr ""
+"তুমি কি আসলেই সব বস্তু বাতিল করতে চাও\n"
+"যা উইন্ডোতে নেই?"
+
+#: Morphic-Worlds,PasteUpMorph>>findWindow:,TheWorldMenu>>windowsMenu
+msgid "find window"
+msgstr "উইন্ডো খোঁজো"
+
+#: Morphic-Worlds,PasteUpMorph>>griddingString
+msgid "use gridding"
+msgstr "গ্রিডীং ব্যবহার করো"
+
+#: Morphic-Worlds,PasteUpMorph>>gridVisibleString
+msgid "grid visible when gridding"
+msgstr "গ্রিডীং এর সময় দৃশ্যমান গ্রীড"
+
+#: Morphic-Worlds,PasteUpMorph>>indicateCursorString
+msgid "indicate cursor"
+msgstr "কার্সর সূচিত করো"
+
+#: Morphic-Worlds,PasteUpMorph>>innocuousName
+msgid "flap"
+msgstr "ফ্ল্যাপ"
+
+#: Morphic-Worlds,PasteUpMorph>>installFlaps
+msgid "Building Viewers..."
+msgstr "বিল্ডিং পরিদর্শক..."
+
+#: Morphic-Worlds,PasteUpMorph>>isOpenForDragNDropString
+msgid "open to drag & drop"
+msgstr "টেনে এনে ছেড়ে দেওয়ার সময় খোলো"
+
+#: Morphic-Worlds,PasteUpMorph>>isPartsBinString
+msgid "parts bin"
+msgstr "পার্টস বিন"
+
+#: Morphic-Worlds,PasteUpMorph>>mouseOverHalosString
+msgid "mouse-over halos"
+msgstr "হেইলোর উপরে মাউস পয়েন্টার"
+
+#: Morphic-Worlds,PasteUpMorph>>originAtCenterString
+msgid "origin-at-center"
+msgstr "কেন্দ্রের-মূল"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "add new card"
+msgstr "নতুন কার্ড যোগ করো"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "card und stack"
+msgstr "card und stack"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "delete this card"
+msgstr "এই কার্ড মুছে ফেলো"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "explain designations"
+msgstr "পদমর্যাদা বর্ণনা করো"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to next card"
+msgstr "পরবর্তী কার্ডে যাও"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "go to previous card"
+msgstr "পূর্ববর্তী কার্ডে যাও"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show background objects"
+msgstr "পটভূমি বস্তু দেখাও"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show designations"
+msgstr "পদমর্যাদা দেখাও"
+
+#: Morphic-Worlds,PasteUpMorph>>presentCardAndStackMenu
+msgid "show foreground objects"
+msgstr "পুরোভাগের বস্তু দেখাও"
+
+#: Morphic-Worlds,PasteUpMorph>>presentDesktopColorMenu
+msgid "desktop color"
+msgstr "ডেস্কটপ রং"
+
+#: Morphic-Worlds,PasteUpMorph>>putUpPenTrailsSubmenu
+msgid "pen trails"
+msgstr "পেন ট্রেইল"
+
+#: Morphic-Worlds,PasteUpMorph>>resizeToFitString
+msgid "resize to fit"
+msgstr "মাপসই করার জন্য পুনঃআকৃতি করা"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec,PasteUpMorph>>setGridSpec
+msgid "Must be a Point with coordinates (for example 10@10)"
+msgstr "অবশ্যই স্থানাংক সহ একটি বিন্দু হতে হবে (উদহারণস্বরুপ ১০@১০)"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid origin (usually 0@0):"
+msgstr "নতুন গ্রীড মূল (সাধারণত ০@০):"
+
+#: Morphic-Worlds,PasteUpMorph>>setGridSpec
+msgid "New grid spacing:"
+msgstr "নতুন গ্রীড ফাঁক:"
+
+#: Morphic-Worlds,PasteUpMorph>>showSourceKeyHit
+msgid "etoys source"
+msgstr "etoys উৎস"
+
+#: Morphic-Worlds,PasteUpMorph>>showThumbnailString
+msgid "show thumbnails"
+msgstr "থাম্বনেইল দেখাও"
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "personalize..."
+msgstr "ব্যক্তিগতকরণ..."
+
+#: Morphic-Worlds,PasteUpMorph>>yellowButtonClickOnDesktopWithEvent:
+msgid "World"
+msgstr "বিশ্ব"
+
+#: Morphic-Worlds,Presenter>>allKnownScriptSelectors
+msgid "script"
+msgstr "স্ক্রিপ্ট"
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually,Presenter>>reportPlayersAndScripts
+msgid "there are no scripted players"
+msgstr "এখানে কোনো স্ক্রিপকৃত প্লেয়ার নেই"
+
+#: Morphic-Worlds,Presenter>>browseAllScriptsTextually
+msgid "there are no scripts in this project!"
+msgstr "এই প্রকল্পে কোনো স্ক্রিপ্ট নেই"
+
+#: Morphic-Worlds,Presenter>>createStandardPlayer
+msgid "dot"
+msgstr "বিন্দু"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid " scripts:"
+msgstr " স্ক্রিপ্ট:"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "All scripts in this project"
+msgstr "এই প্রকল্পের সব স্ক্রিপ্ট"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "named"
+msgstr "নাম করা হয়েছে"
+
+#: Morphic-Worlds,Presenter>>reportPlayersAndScripts
+msgid "'s"
+msgstr "'s"
+
+#: Morphic-Worlds,StandardScriptingSystem>>removeFromSoundLibrary:
+msgid " tiles reverted to \"clink\""
+msgstr " টালি \"clink\" এ ফিরিয়ে দেওয়া হয়েছে"
+
+#: Morphic-Worlds,StandardScriptingSystem>>renameSound:newName:
+msgid " tile(s) changed to \""
+msgstr " টালিগলো পরিবর্তন হয়েছে \""
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "1 if argument is positive, -1 if argument is negative, 0 if argument is zero."
+msgstr "আর্গুমেন্ট ধনাত্মক হলে ১, আর্গুমেন্ট ঋনাত্মক হলে -১, আর্গুমেন্ট শূন্য হলে ০।"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "a randomly chosen integer between 1 and the argument"
+msgstr "১ এবং আর্গুমেন্টের মাঝে একটি এলোমেলোভাবে নির্বাচন করা আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "absolute value"
+msgstr "সম্পূর্ন মান"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in degrees, whose tangent is the argument"
+msgstr "কোন, ডিগ্রীতে, যার ট্যানজেন্ট আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "angle, in radians, whose tangent is the argument"
+msgstr "কোন, রেডিয়ানে, যার ট্যানজেন্ট আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "cube root of the argument"
+msgstr "আর্গুমেন্টের ঘনমূল"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "exponential (e to the power of the argument)"
+msgstr "সূচকীয় (আর্গুমেন্টটি হবে e এর ঘাত)"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "logarithm, base 10"
+msgstr "লগারিদম, বেস ১০"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "natural logarithm"
+msgstr "স্বাভাবিক লগারিদম"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "square root of the argument"
+msgstr "আর্গুমেন্টের বর্গমূল"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument multiplied by itself"
+msgstr "আর্গুমেন্ট এর দ্বারা গুন করা হয়েছে"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the argument times itself, times itself again"
+msgstr "আর্গুমেন্টকে নিজের সাথে দুইবার গুন"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer closest to the argument."
+msgstr "আর্গুমেন্টের নিকটবর্তী পূর্ণসংখ্যা"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the integer nearest to the argument toward zero"
+msgstr "আর্গুমেন্টের নিকটবর্তী দশমিক সংখ্যা শূন্যের কাছাকাছি"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the negative of the argument"
+msgstr "আর্গুমেন্টের ঋণাত্মক মান"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of degrees equivalent to the argument which is assumed to be expressed in radians"
+msgstr "আর্গুমেন্টের সমমান ডিগ্রীর সংখ্যা যা রেডিয়ানে প্রকাশ করা হবে বলে অনুমান করা হয়"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the number of radians equivalent to the argument, which is expressed in degrees."
+msgstr "আর্গুমেন্টের সমমানের রেডিয়ানের সংখ্যা, যা ডিগ্রীতে প্রকাশ করা হবে"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "the product of all the whole numbers between 1 and the argument"
+msgstr "১ এবং আর্গুমেন্টের মাঝে সব পূর্ন সংখ্যার গুন"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trignometric sine, argument in degrees"
+msgstr "ত্রিকোনোমিতি সাইন, ডিগ্রীতে আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in degrees"
+msgstr "ত্রিকোনোমিতি কোসাইন, ডিগ্রীতে আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric cosine, argument in radians"
+msgstr "ত্রিকোনোমিতি কোসাইন, রেডিয়ানে আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric sine, argument in radians"
+msgstr "ত্রিকোনোমিতি সাইন, রেডিয়ানে আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in degrees"
+msgstr "ত্রিকোনোমিতি ট্যানজেন্ট, ডিগ্রীতে আর্গুমেন্ট"
+
+#: Morphic-Worlds,StandardScriptingSystem>>tableOfNumericFunctions
+msgid "trigonometric tangent, argument in radians"
+msgstr "ত্রিকোনোমিতি ট্যানজেন্ট, রেডিয়ান আর্গুমেন্ট"
+

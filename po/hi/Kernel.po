@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:40-0000\n"
+"PO-Revision-Date: 2010-08-27 15:40-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Kernel\n"
+
+
+#: Kernel-Classes,ClassDescription>>printMethodChunk:withPreamble:on:moveSource:toFile:
+msgid "** ERROR!  THIS SCRIPT IS MISSING ** "
+msgstr "** त्रुटि! स्क्रिप्ट नहीं है ** "
+
+#: Kernel-Models,StringHolder_class>>windowColorSpecification
+msgid "A place for text in a window."
+msgstr "विंडो में पाठ के लिए जगह."
+
+#: Kernel-Models,StringHolder_class>>windowColorSpecification
+msgid "Workspace"
+msgstr "कार्यस्थान"
+
+#: Kernel-Numbers,Float>>safeLn
+msgid "Ln of a nonpositive number, "
+msgstr "गैर धनात्मक संख्या का Ln, "
+
+#: Kernel-Numbers,Float>>safeLn
+msgid "Ln of negative number, "
+msgstr "ऋणात्मक संख्या का Ln, "
+
+#: Kernel-Numbers,Float>>safeLog
+msgid "log of a nonpositive number, "
+msgstr "गैर धनात्मक संख्या का लाग "
+
+#: Kernel-Numbers,Float>>safeLog
+msgid "logarithm does not exist"
+msgstr "लागरिद्म अस्तित्व में नहीं है"
+
+#: Kernel-Numbers,Float>>safeSquareRoot
+msgid "square root of negative number"
+msgstr "ऋणात्मक संख्या का वर्गमूल"
+
+#: Kernel-Numbers,Float>>truncated
+msgid "Cannot truncate this number"
+msgstr "इस संख्या को कम नहीं कर सकता"
+
+#: Kernel-Numbers,Float>>/
+msgid "division by zero"
+msgstr "शून्य से भागित"
+
+#: Kernel-Numbers,Integer>>safeFactorial
+msgid "Factorial not defined for negative numbers"
+msgstr "ऋणात्मक संख्याओं के लिए फ़ैक्टोरियल पारिभाषित नहीं है"
+
+#: Kernel-Numbers,Number_class>>readEToyNumberFrom:
+msgid ""
+" is not a number;\n"
+"please correct and try again"
+msgstr ""
+" संख्या नहीं है;\n"
+"कृपया सही करें और फिर से आजमाएँ"
+
+#: Kernel-Objects,Object_class>>windowColorSpecification
+msgid "Default"
+msgstr "डिफ़ॉल्ट"
+
+#: Kernel-Objects,Object_class>>windowColorSpecification
+msgid "Other windows without color preferences."
+msgstr "रंग प्राथमिकताओं के बगैर अन्य विंडो."
+
+#: Kernel-Objects,Object>>addModelYellowButtonMenuItemsTo:forMorph:hand:
+msgid "inspect model"
+msgstr "मॉडल जाँचें"
+
+#: Kernel-Objects,Object>>deprecatedExplanation:,Object>>deprecated:explanation:
+msgid "{1} has been deprecated. {2}"
+msgstr "{1} डेप्रिकेटेड हो गया है. {2}"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "MaybePutAnotherCategoryHere"
+msgstr "शायद-यहाँ-अन्य-श्रेणी-रख-सकते-हैं"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "Put the balloon help here"
+msgstr "यहाँ पर गुब्बारा मदद रखें"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "PutACategoryHere"
+msgstr "यहाँ-श्रेणी-रखें"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "PutFormalNameHere"
+msgstr "यहाँ-फ़ॉर्मल-नाम-रखें"
+
+#: Kernel-Objects,Object>>errorNotIndexable
+msgid "Instances of {1} are not indexable"
+msgstr "{1} के इंस्टैंस निर्देशिका बनाने योग्य नहीं हैं"
+
+#: Kernel-Objects,Object>>saveOnFile
+msgid "File name?"
+msgstr "फ़ाइल नाम?"
+
+#: Kernel-Objects,UndefinedObject>>descriptionForPartsBin
+msgid "ClipboardText"
+msgstr "क्लिपबोर्ड-पाठ"
+
+#: Kernel-Objects,UndefinedObject>>descriptionForPartsBin
+msgid "This object will always show whatever is on the text clipboard, in a scrollable pane."
+msgstr "यह वस्तु हमेशा दिखाई देगा भले ही यह पाठ क्लिपबोर्ड में स्क्रॉल किए जाने लायक पैन में हो."
+

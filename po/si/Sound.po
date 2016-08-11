@@ -1,0 +1,874 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:00-0000\n"
+"PO-Revision-Date: 2010-08-27 16:00-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Sound\n"
+
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonSound
+msgid "Change sound volume"
+msgstr "ශබ්ධයේ ප්‍රමාණය වෙනස් කිරිම"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "open wave editor"
+msgstr "තරංග සකසන්නා විවෘත කරන්න"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "read file"
+msgstr "ගොනුව කියවන්න"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "File name?"
+msgstr "ගොනුවේ නම?"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "Sorry, I cannot find that file"
+msgstr "කණගාටුයි, මට එම ගොනුව සෙවිය නොහැක"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,ScorePlayerMorph>>makeControls,SoundLibraryTool>>addButtonRow
+msgid "Play"
+msgstr "ධාවනය කරවන්න"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows
+msgid "Save"
+msgstr "සුරකින්න"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,SoundLibraryTool>>addButtonRow,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Stop"
+msgstr "නවතන්න"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:
+msgid "open a wave-editor tool with this sound as its iniital sound"
+msgstr "මෙම හඬ එහි ආරම්භක හඬ ලෙස යොදා ගනිමින් තරංග-සැකසුම් මෙවලමක් විවෘත කරන්න"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:,RecordingControls>>addMenuButtonItemsTo:
+msgid "wave editor"
+msgstr "තරංග සංස්කරණය කරන්නා"
+
+#: Sound-Interface,AnonymousSoundMorph>>addToSoundLibrary
+msgid "kindly give the sound a name: "
+msgstr "කරුණාකර හඬ නාමයක් ලබාදෙන්න:"
+
+#: Sound-Interface,AnonymousSoundMorph>>initialize
+msgid "Unnamed"
+msgstr "නිර්නාමික"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid ""
+" seconds.\n"
+"Double-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
+msgstr ""
+"තත්පර.\n"
+"හඬ ඇසීමට දෙපාරක් ක්ලික් කරන්න.  \"හඬ පුස්තකාලයට එකතුකිරීමට\" halo මෙනුවේ ඇති piano-roll එකකට හෝ event-roll එකකට  දැමීම සුදුසු වේ    "
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid "Holds a recorded sound of duration "
+msgstr "කාල සීමාවක් තුළ පටිගත කළ හඬක් රඳවා ගන්න"
+
+#: Sound-Interface,CodecDemoMorph>>addCustomMenuItems:hand:
+msgid "select codec"
+msgstr "codec තෝරන්න"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "new MIDI controller"
+msgstr "නව MIDI පාලකය "
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via built in synth"
+msgstr " ගොඩ නැගූ සංස්ලේෂණ අතුරින්ක්‍රියා කරන්න"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via MIDI"
+msgstr "MIDI හරහා ධාවනය කරන්න"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "A device for making sound recordings."
+msgstr "හඬ පටිගත කිරීම සඳහා උපකරණයක්."
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,ScorePlayerMorph_class>>descriptionForPartsBin,SoundLibraryTool_class>>descriptionForPartsBin,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "බහුමාධ්‍ය"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin
+msgid "SoundRecorder"
+msgstr "හඬ පටිගතකරණය"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Play the current recording from its beginning"
+msgstr "මෙම පටිගතකිරීම් ඒවායේ ආරම්භයේ සිට ධාවනය කරන්න"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Record"
+msgstr "තැටිගත කරන්න"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Save the current recording for future use."
+msgstr "මතු ප්‍රයෝඡනය සඳහා පවතින පටිගතකිරීම් සුරකින්න."
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Start a new recording"
+msgstr "නව පට්ගතකිරීමක් අරඹන්න"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Stop current recording or playback"
+msgstr "මෙම පටිගතකිරීම් හෝ නැවත ධාවනය නවතන්න  "
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose compression..."
+msgstr "කුඩා කිරීම තෝරන්න..."
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose which data-compression scheme should be used to encode the recording."
+msgstr "පටිගත කිරීම් ආකේතනය කිරීම සඳහා භාවිතා කළයුතු දත්ත-හැකිලීමේ පිළිවෙළ තෝරන්න.   "
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hand me a sound token"
+msgstr "මට ශබ්ද ටෝකනයක් බාර දෙන්න"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hands you a lozenge representing the current sound,  which you can drop into a piano-roll or an event-roll, or later add to the sound library.  Double-click on it to hear the sound"
+msgstr "ඉදිරිපත් කරණ ලද ලොසින්ජරයක් පවතින ශබ්දයෙහි රඳවා ගන්න,  එය ඔබට පියානෝ‍-රෝල් එකක හෝ සිද්ධි‍-රෝල් එකක හෝ පසුව පුස්තකාල ශබ්දයට එකතු කිරීමට හෝ.  ශබ්දය අසන්නට ඒ මත ඩබල්-ක්ලික් කරන්න "
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "help"
+msgstr "උදව්"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "open up the wave-editor tool to visualize and to edit the sound recorded"
+msgstr "පට්ගත කරනලද හඬ දෘශ්‍යකරණය කිරීමට සහ සැකසීමට තරංග-සංස්කරණය කරන මෙවලම විවෘත කරන්න"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "opens a flap which contains instructions"
+msgstr "උපදෙස් අන්තර්ගත ෆ්ලැප් එකක් විවෘත කරන්න"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "remove any blanks space at the beginning and/or end of the recording.  Caution -- this feature seems to be broken, at least on some platforms, so use at your own risk.  For safety, save this sound in its untrimmed form before venturing to trim."
+msgstr "පටිගතකිරීම් ආරම්භයේ සහ/හෝ අවසානයේ හිස් ඉඩක් ඇත්නම් ඉවත්කරන්න.  අවවාදය -- මෙම ලක්ෂණය බිඳී යා හැක, අවම වශයෙන් සමහර වේදිකා මතදී, එනිසා ඔබගේ අවදානම භාවිතා කරන්න.  ආරක්ෂාව සඳහා, කපා නොහරින ලද මෙම ශබ්දය සුරකින්න වා ක‍ඩින් කපා හැරීමට පෙර. "
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "Sound Recorder Options"
+msgstr "හඬ පටිගත කිරීමේ විකල්ප"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "trim"
+msgstr "කපා හැරීම"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "Drag to set the record level"
+msgstr "පටිගත කිරීම් මට්ටමට යෙදීම සඳහා අඳින්න"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "maximum record-level"
+msgstr "උපරිම පටිගත කිරීම්-මට්ටම"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "minimum record-level"
+msgstr "අවම පටිගත කිරීම්-මට්ටම"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Compression method\\Currently: {1}"
+msgstr "හකුලන ආකාරය\\පවතින: {1} "
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "GSM (simple compression)"
+msgstr "GSM (සරළ හැකිලීම)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "No compression"
+msgstr "හකුලා නැත "
+
+#: Sound-Interface,RecordingControls>>chooseCodec,RecordingControls>>chooseCodec
+msgid "None"
+msgstr "කිසිත් නැත"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Speex (for speech)"
+msgstr "Speex (කථාව සඳහා)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Vorbis (for music)"
+msgstr "Vorbis (සංගීතය සඳහා)"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "no sound recorded yet"
+msgstr "තවම ශබ්දය සටහන් වී නොමැත"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "Recorded sound duration: {1} second(s)"
+msgstr "හඬ පටිගතවූ කාලපරාසය: {1} තත්පර "
+
+#: Sound-Interface,RecordingControls>>helpString
+msgid ""
+"\n"
+"Press \"Record\" to start recording.  Press Stop when finished recording.\n"
+"\n"
+"After making a recording, you can:\n"
+"   Press \"Play\" to play back the recording.\n"
+"   Press \"Record\" to start a new recording\n"
+"      (the old one would be discarded).\n"
+"   Press \"Save\" to save the recording in the sound library.\n"
+"\n"
+"Press the menu icon to get a menu with further options.\n"
+"\n"
+"If you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n"
+"\n"
+"If you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n"
+"  You can double-click on the sound token to hear the sound again.\n"
+"  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n"
+"  You can drop the sound token into a PianoRoll or an EventRoll.\n"
+msgstr ""
+"\n"
+"පටිගත කිරීම ආරම්භ කිරීම සඳහා \"Record\" ඔබන්න. පටිගත කිරීමක් අවසන්වූ පසු ඔබට නැවතීම ඔබන්න පුළුවන:\n"
+"\n"
+"පටිගත කිරීමකින් පසු, ඔබට පුළුවන්:\n"
+"     \"Play\" ඔබා පටිගත කිරීම නැවත ධාවනය කිරීමට.\n"
+"     \"Record\" ඔබා නව පටිගත කිරීමක් ඇරඹීමට\n"
+"     (පරණ එක නැතිවී යයි).\n"
+"     \"Save\" ඔබා පටිගත කිරීම හඬ පුස්තකාලයේ සුරැකීමට.\n"
+"\n"
+"වැඩිපුර තෝරාගැනීම් සහිත මෙනුවක් ලබාගැනීම සඳහා මෙනු අයිකනය ඔබන්න.\n"
+"\n"
+"ඔබට ස්ක්‍රිප්ටයකට හඬ භාවිත කිරීමට අවශ්‍යනම්, ඔබ එය හඪ පුස්තකාලයට එකතු කලයුතු වේ; එසේ කිරීමට Save ඔබන්න; ඔබ එයට නමක් ලබාදීම අවශ්‍ය වේ.\n"
+"   \n"
+"ඔබට හඬ තබාගැනීමට අවශ්‍ය නමුත් පිටපත්වල භාවිතය අනවශ්‍ය නම්, ඔබ එය නම්කිරීම අවශ්‍ය නොවේ; ඒ වෙනුවට, ඔබට දෙවනුව විවිධ ආකාරයනට භාවිත කල හැකි, කුඩා \"හඬ ටෝකනය\" ක් ලබාගතහැකි, මෙනුවෙන් සොයාගන්නා ලද, \"මට හඬ ටෝකනයක් ලබාදෙන්න\" භාවිත කරන්න:\n"
+"     හඬ ටෝකනය මත දෙපාරක් ක්ලික් කිරීමෙන් ඔබට නැවත හඬට සවන්දිය හැක.\n"
+"   ඔබට හඬ ටෝකනයේ halo මෙනුවෙහි අයිතමයක් භාවිත කර, සියල්ල අවසානයේ හඬ සුරැකීමට තීරණය කල හැක.\n"
+"   ඔබට හඬ ටෝකනය PianoRoll එකකට හේ EventRoll එකකට දැමියහැක.\n"
+
+#: Sound-Interface,RecordingControls>>makeStatusLight
+msgid "When red, it means you are currently recording"
+msgstr "රතු වූ විට, මින් අදහස් කරනුයේ ඔබ තැටිගත කරමින් සිටින බවයි "
+
+#: Sound-Interface,RecordingControls>>putUpAndOpenHelpFlap,RecordingControls>>putUpHelpFlap,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "Sound Recorder"
+msgstr "හඬ  පටිගතකරනය"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit
+msgid "Sound name?"
+msgstr "හඬෙහි නම?"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit,RecordingControls>>saveButtonHit
+msgid "unnamed"
+msgstr "නිර්නාමික "
+
+#: Sound-Interface,RecordingControls>>setButtonEnablement
+msgid "Discard the current recording and start making a fresh recording"
+msgstr "මෙම පටිගත කිරීම් හැරදමා නව පටිගත කිරීමක් අරඹන්න "
+
+#: Sound-Interface,RecordingControls>>trim
+msgid " second(s) trimmed"
+msgstr " තත්පර කපා හැරියා"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid ""
+"Caution:  this is dangerous and destructive!\n"
+"Do you really want to \"trim\" your recording?\n"
+"(It might be smart to save the untrimmed\n"
+"version in a sound token before trimming)"
+msgstr ""
+"අවවාදයයි: මෙය භයානක සහ විනාශකාරීයි!\n"
+"ඔබට ඇත්තටම ඔබේ පටිගත කිරීම \"කපා හැරීම\" කිරීම අවශ්‍යයද?\n"
+"( කපා හැරීමට පෙර එය නොකරන ලද version එක\n"
+" හඩ ටෝකනයක සුරැකීම හොඳ විය හැක) "
+
+#: Sound-Interface,RecordingControls>>trim
+msgid "unable to trim any more, sorry"
+msgstr "කනගාටුයි, තවදුරටත් කපාහැරිය  නොහැක "
+
+#: Sound-Interface,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "A tool for managing the sound library"
+msgstr "හඬ පුස්තකාලය කළමනකරණය සඳහා මෙවලමක්  "
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Add a new sound to the sound library from a file"
+msgstr "ලිපි ගොනුවකින් නව හඬක් හඬ පුස්තකාලයට එකතුකරන්න "
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete"
+msgstr "මකා දමන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete the selected sound from the sound library"
+msgstr "තෝරාගත් හඬ, හඬ පුස්තකාලයෙන් ඉවත්කරන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Hands you a tile representing the selected sound"
+msgstr "තෝරාගත් ශබ්දය ටයිල් එකක් නැවත ඉදිරිපත් කිරීමේදී ඔබ රඳවා ගන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "If the selected sound is playing, stop it"
+msgstr "තෝරාගත් හඬ ධාවනය වෙමින් පවතීනම්, එය නවත්වන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Load"
+msgstr "ප්‍රවේශනය කරන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Play the selected sound"
+msgstr "තෝරාගත් හඬ ධාවනය කරන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename"
+msgstr "යළි නම් කරන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename the selected sound"
+msgstr "තෝරාගත් හඬ යළි නම්කරන්න"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Tile"
+msgstr "ටයිල්"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "GSM compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Speex compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Vorbis compress sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "open a tool which, operating with the selected sound as a point of departure, will allow you to construct a new \"instrument\""
+msgstr "මෙවලම විවෘත කරන්න, තෝරාගත් ශබ්දය සමඟ මෙහෙයුම් කාරක නික්මයාම් ලක්ෂ්‍යය ලෙස, නව භාණ්ඩයක් නිර්මාණය කරන්නට අනුමත කරනවා "
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Wave editor"
+msgstr "තරංග සකසන්නා"
+
+#: Sound-Interface,SoundLibraryTool>>addHeaderRow,SoundLibraryTool>>presentHelp,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "Sound Library"
+msgstr "ශබ්ද එකතුව"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:,SoundLibraryTool>>deleteSound,SoundLibraryTool>>renameSound
+msgid "No sound selected"
+msgstr "හඬ තෝරා නැත"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:
+msgid "You can not compress this sound"
+msgstr ""
+
+#: Sound-Interface,SoundLibraryTool>>deleteSound
+msgid "You can not delete this sound"
+msgstr "ඔබට මෙම හඬ මැකීමට නොහැක"
+
+#: Sound-Interface,SoundLibraryTool>>helpString
+msgid ""
+"This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n"
+"\n"
+"Click on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n"
+"\n"
+"Play button -- press this to start playing the selected sound.\n"
+"\n"
+"Stop button -- if the selected sound is playing, pressing this will stop it.\n"
+"\n"
+"Tile button -- Click on this to obtain a scripting tile representing the selected sound.\n"
+"\n"
+"Rename button -- allows you to rename the selected sound.\n"
+"\n"
+"Delete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n"
+"\n"
+"Load button -- allows you to load a sound into the Sound Library from a file.\n"
+"\n"
+"You can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n"
+"\n"
+"Note: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n"
+"\n"
+"Additionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
+msgstr ""
+"මෙම මෙවලම ටයිල්-පිටපත් කරණ පද්ධතියෙහි භාවිත කළ හැකි, නම් කරනලද හඪ ලැයිස්තුවෙහි, \"ශබ්ද පුස්තකාලය\" දැකීමට සහ කළමණාකරනය කිරීමටට ඔබට ඉඩ සලසයි.\n"
+"\n"
+"  එය තේරීම සඳහා ලැයිස්තුවෙහි ඇති හඪ නාමයක් මත ක්ලික් කරන්න. ඔබ තේරූ හඪට ඉහළ මෙවලම්වල ඇති බොත්තම් යොදන්න.\n"
+"\n"
+"ධාවන බොත්තම -- තේරූ හඪ ධාවනය ආරම්භ කිරීම සඳහා මෙම බොත්තම ඔබන්න.\n"
+"\n"
+"නවතන බොත්තම -- තේරූ හඪ ධාවනය වෙමින් පවතීනම්, මෙය එබීමෙන් එය නවතී.\n"
+"\n"
+"ටයිල් බොත්තම -- තේරූ හඪ නියෝඡනය කරන පිටපත් කරණය  ටයිල් එකක් ලබාගැනීම සඳහා  මේ මත ක්ලික් කරන්න.\n"
+"\n"
+"යළි නම්කරන බොත්තම -- ඔබට තේරූ හඪ යළි නම්කිරීමට ඉඩහරියි.\n"
+"\n"
+"මකන බොත්තම -- ඔබට හඪ පුස්තකාලයෙන් තේරූ හඪ මැකීමට ඉඩහරියි.  වරක් මෙම සියළු ටයිල් ශබ්දයට කෙළින් එල්ල කළ මෙම ශබ්දය \"croak\" ලක්ෂ්‍යය ක්ෂණිකව මාරු කිරීමට හැකියාව ඇත.\n"
+"\n"
+"පූර්ණය බොත්තම -- ඔබට ගොනුවක හඪක් හඪ පුස්තකාලයෙහි පූර්ණය කිරීමට ඉඩහරියි.\n"
+"\n"
+"තවද, ඔබට හඬ පටිගතකරනයක් භාවිතාකර හඪ පුස්තකාලයට හඪ එකතුකිරීමට හැක, සහ එලෙසම බාහිර ශබ්ද ගොනුවක් ඇද ගැනීමෙන්(උදා:දිගුව .wav or .aif වන ලොනුවක්)(e.g. a file with extensions .wav or .aif)   ඊ ටොසිස්හි into etoys.\n"
+"\n"
+"නිවේදනය: පද්ධතිය තුල ගොඩනගනලද \"විශ්ව /universal\" හඬ යළි නම්කිරීමට හෝ මැකීමට නොහැක.\n"
+"\n"
+"තවදුරටත්, තෝරාගත් හඪක් මත \"තරංග සැකසුම්\" මෙවලමක් විවෘත කිරීමට විධානයක් මෙවලම්හි halo මෙනුවෙන් සොයාගත හැක.  "
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "Please give a name for this sound"
+msgstr "කරුණාකර මෙම හඪට නමක් දෙන්න"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "sorry, that name is already taken"
+msgstr "කණගාටුයි, එම නම දැනටමත් භාවිත වේ."
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "New name for "
+msgstr "නව නම සඳහා"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "sorry, that name is already used."
+msgstr "කණගාටුයි, එම නම දැනටමත් භාවිත වේ."
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "You can not rename this sound"
+msgstr "ඔබට මෙම හඪ නැවත නම්කිරීමට නොහැක"
+
+#: Sound-Interface,SoundLibraryTool>>showCompressionString
+msgid "show compression"
+msgstr ""
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "A device for analyzing sound input"
+msgstr "හඬ විශ්ලේෂණය කරමින් ඇතුලත් කරන උපකරණයක් "
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Spectrum Analyzer"
+msgstr "වර්ණාවලි විශ්ලේෂකය "
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Start"
+msgstr "ආරම්භ කරන්න"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set display type"
+msgstr "දසුන් වර්ගය සකසන්න "
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "FFT ප්‍රමාණය යොදන්න"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr " නියැදුම් ටිනාකම් යොදන්න "
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>makeStatusLight,SpectrumAnalyzerMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "මත/උඩ"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "display type (currently {1})"
+msgstr "වර්ගය දර්ශනය කරන්න (පවතින {1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "signal"
+msgstr "සංඥාව"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "sonogram"
+msgstr "ධ්වනිය"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "spectrum"
+msgstr "වර්ණාවලිය"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setFFTSize
+msgid "FFT size (currently {1})"
+msgstr "FFT ප්‍රමාණය (වර්තමානයේ {1})"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setSamplingRate
+msgid "Sampling rate (currently {1})"
+msgstr "නියෑදි කීරීමේ වේගය (වර්තමානයේ {1})"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "          rest          "
+msgstr "         ආධාරකය          "
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "chord"
+msgstr "ජ්‍යාය"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "del"
+msgstr "del"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "dotted"
+msgstr "තිත්"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "eighth"
+msgstr "අටවැනි"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "half"
+msgstr "අඩ"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "legato"
+msgstr "legato"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "normal"
+msgstr "සාමාන්‍ය"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quarter"
+msgstr "කාල"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quints"
+msgstr "පංචාංගික"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "sixteenth"
+msgstr "දහසය"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "staccato"
+msgstr "ඉක්මනින් එභෙත් වෙන් වෙන්ව කරනු ලබන"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "triplets"
+msgstr "තුන්නිවුන්"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "whole"
+msgstr "සම්පූර්ණයෙන්"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "add channel"
+msgstr "නාලිකාව එකතු කරන්න"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "close MIDI port"
+msgstr "MIDI පෝටය වසාදමන්න "
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu,ScorePlayerMorph>>invokeMenu
+msgid "reload instruments"
+msgstr "නැවත උපකරණ පුරවන්න"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "set MIDI port"
+msgstr "MIDI වරාය ගලපනවා"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "add movie clip player"
+msgstr "චිත්‍රපට ඇමුණුම් ධාවකය එකතුකරන්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "close drag and drop"
+msgstr "වසා ඇද අතහරින්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "contract time"
+msgstr "ගිවිසුම් කාලය "
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "expand time"
+msgstr "කාලය වැඩිකරන්න "
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "open drag and drop"
+msgstr "විවෘතකර ඇද අතහරින්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "add keyboard"
+msgstr "යතුරු පුවරුව එකතු කරන්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "copy"
+msgstr "පිටපත් කරන්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "cut"
+msgstr "කපන්න "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide beat lines"
+msgstr "පහරදෙන රේඛා සඟවන්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide measure lines"
+msgstr "මිනුම් රේඛා සඟවන්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste"
+msgstr "අලවන්න "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste..."
+msgstr "අලවන්න..."
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show beat lines"
+msgstr "නුගැසුම රේඛා පෙන්වන්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show measure lines"
+msgstr "මිනුම් රේඛා පෙන්වන්න"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "sig     "
+msgstr "අත්සන "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "time   "
+msgstr "කාලය "
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid " Mediates between a score such as a MIDIScore, a PianoRollScoreMorph, and the actual SoundPlayer synthesizer"
+msgstr "MIDI ලකුණු වැනි ලකුණු සහ පියානෝ රෝල් ලකුණු මෝප අතර මැදිහත්වීම සහ තථ්‍ය ශබ්ද වාදන සංශ්ලේෂකය "
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid "ScorePlayer"
+msgstr "ලකුණු ධාවකය "
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open"
+msgstr "විවෘත කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open in midi player"
+msgstr "මිඩි-ධාවකය විවෘත කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open the midi-player tool on this file"
+msgstr "මෙම ගොනුව මත මිඩි-ධාවන මෙවලමක් විවෘත කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "make a pause marker"
+msgstr "තාවකාලිව නවතනයක් සාදන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "open a MIDI file"
+msgstr "MIDI ගොනුවක් විවෘත කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as AIFF file"
+msgstr "AIFF ගොනුවක් ලෙස සුරකින්න "
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as Sun AU file"
+msgstr "Sun AU ගොනුවක් ලෙස සුරකින්න"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as WAV file"
+msgstr "WAV ගොනුවක් ලෙස සුරකින්න"
+
+#: Sound-Scores,ScorePlayerMorph>>makeAPauseEvent:
+msgid "[pause]"
+msgstr "[නවතන්න]"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Disable sound reverb"
+msgstr "දෝංකාර ශබ්ද ශක්තිය නැති කරනවා "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Menu"
+msgstr "මෙනුව"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a menu"
+msgstr "මෙනුවක් විවෘත කරන්න "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a PianoRoll"
+msgstr "PianoRoll යක් විවෘත කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause"
+msgstr "තාවකාලිකව නවත්වන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause playback"
+msgstr "නැවත ධාවනය නවතන්න "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "PianoRoll"
+msgstr "PianoRoll"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Play the score"
+msgstr "ළකුණු ධාවනය කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Playback jumps back to start and continue playing"
+msgstr "ආරම්භයට පනින්න සහ ධාවනය දිගටම කරගෙන යාම නැවත ධාවනය කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Repeat"
+msgstr "නැවතත්"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Reverb Disable"
+msgstr "දෝංකාර නැතිකරන්න "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind"
+msgstr "ආපසු ධාවනය කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind to score start"
+msgstr "ළකුණු ආරම්භයට නැවත ඔතනවා"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "Choose a MIDI file to open"
+msgstr "MIDI ගොනුවක් විවෘත කරන්නට තෝරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "No .mid/.midi files found in the Squeak directory"
+msgstr ".mid/.midi ගොනු Squeak  ඩිරෙක්ටරියෙහි හමුවී නැත"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "L"
+msgstr "වම"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "R"
+msgstr "දකුණ"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid " fast"
+msgstr "වේගවත් "
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "Playback speed"
+msgstr "වේගය වාදනය කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "slow "
+msgstr "සෙමින්"
+
+#: Sound-Scores,ScorePlayerMorph>>saveAsAIFF,ScorePlayerMorph>>saveAsSunAudio,ScorePlayerMorph>>saveAsWAV
+msgid "New file name?"
+msgstr "නව ‍ගොනු නාමය?"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid " end"
+msgstr "අවසානය"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "Shows current position in the score"
+msgstr "ළකුණු දැනට පවතින ස්ථානය පෙන්වන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "start "
+msgstr "ආරම්භය"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue"
+msgstr "පවත්වාගෙන යනවා"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue playing a paused presentation"
+msgstr "තාවකාලිව නවත්වන ලද සමර්පනය(presentation) ක් ක්‍රියා කාරීව පවත්වා ගෙන යන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>trackNumAndMuteButtonFor:
+msgid "Mute"
+msgstr "නිශ්ශබ්ද කරන්න"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid " loud"
+msgstr "ශබ්ද නගා"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "soft  "
+msgstr "මෘදු  "
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "Volume slider"
+msgstr "රූටන පරිමාව"
+
+#: Sound-Scores,SimpleMIDIPort_class>>inputPortNumFromUser
+msgid "MIDI port for input:"
+msgstr "ආදානය සඳහා MIDI port:"
+
+#: Sound-Scores,SimpleMIDIPort_class>>outputPortNumFromUser
+msgid "MIDI port for output:"
+msgstr "ප්‍රතිදානය සඳහා MIDI port:"
+
+#: Sound-Synthesis,SampledSound_class>>soundNamed:
+msgid " not found in the Sound Library"
+msgstr " හඬ පුස්තකාලය තුල හමු නොවුනි"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "camera"
+msgstr "කෑමරාව"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chirp"
+msgstr "කුරුලු හඬ නඟනවා"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chomp"
+msgstr "chomp"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "click"
+msgstr "ක්ලික්"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "clink"
+msgstr "ගැටීමෙන් ඇති වන සිහින් හඬ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "coyote"
+msgstr "coyote  කොයොට්(ඇමරිකානු වෘකයෙක්) "
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "croak"
+msgstr "කපුටාගේ හඬ"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "horn"
+msgstr "නලාව"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "laugh"
+msgstr "සිනහව "
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "meow"
+msgstr "මියෑව් (meow)"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "motor"
+msgstr "මෝටරය"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "peaks"
+msgstr "කඳු මුඳුන්"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scrape"
+msgstr "සුන්බුන්"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scratch"
+msgstr "මැකීම"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scritch"
+msgstr "ස්ක්‍රිච්"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "silence"
+msgstr "නිශ්ශබ්දතාව"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "splash"
+msgstr "වැගිරීමේ ශබ්ධය"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "warble"
+msgstr "ස්වර ස්පන්දනය "
+
+#: Sound-Synthesis,SoundRecorder>>verifyExistenceOfRecordedSound
+msgid "please record a sound first"
+msgstr "කරුණාකර පළමුව හඬක් පටිගත කරන්න "
+

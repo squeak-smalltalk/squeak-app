@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2010-08-27 15:29-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.6.0\n"
+"X-Etoys-Domain: Files\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Attempt to rename a non-existent file"
+msgstr "Versuch, eine nichtexistierende Datei umzubenennnen"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"delete old version\n"
+"cancel"
+msgstr ""
+"Alte Version löschen\n"
+"Abbrechen"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Failed to rename file"
+msgstr "Umbenennen der Datei fehlgeschlagen"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"Trying to rename a file to be\n"
+"{1}\n"
+"and it already exists."
+msgstr ""
+"Versuch, eine Datei in\n"
+"{1}\n"
+"umzubennen, obwohl diese bereits existiert."
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "file in the entire contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr ""
+"Den ganzen Inhalt der Datei einlesen. Diese muss gespeicherten Smalltalk-"
+"Programmtext enthalten."
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "Ganze Datei einlesen"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "filein"
+msgstr "Einlesen"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove lfs"
+msgstr "LFs entfernen"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds"
+msgstr "LF-Zeichen entfernen"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds in file"
+msgstr "LFs (line-feed) aus Datei entfernen"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:
+msgid ""
+"create a new file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"Neue Datei anlegen\n"
+"Einen anderen Namen wählen\n"
+"Abbrechen"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>fileExistsUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Enter a new file name"
+msgstr "Neuen Dateinamen angeben"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid ""
+"{1}\n"
+"does not exist."
+msgstr ""
+"{1}\n"
+"existiert nicht."
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Could not delete the old version of that file"
+msgstr "Löschen der alten Version dieser Datei fehlgeschlagen"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "overwrite that file\\choose another name\\cancel"
+msgstr "Diese Datei überschreiben\\Einen anderen Namen wählen\\Abbrechen"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Please close this to abort file opening"
+msgstr "Bitte dies schließen, um das Öffnen einer Datei abzubrechen"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"existiert bereits."
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Choose another name"
+msgstr "Einen anderen Namen auswählen"

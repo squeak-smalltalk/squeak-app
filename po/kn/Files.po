@@ -1,0 +1,111 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-29 19:58-0000\n"
+"PO-Revision-Date: 2010-09-21 06:33+0200\n"
+"Last-Translator: subbu <kksubbu.ml@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
+"X-Etoys-Domain: Files\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2384 (repo v1303 of "
+"29 August 2010)\n"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Attempt to rename a non-existent file"
+msgstr "ಇಲ್ಲದ ಕಡತದ ಹೆಸರನ್ನು ಬದಲಾಯಿಸುವ ಪ್ರಯತ್ನ"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"delete old version\n"
+"cancel"
+msgstr "ಹಳೆಯ ಪ್ರತಿಯನ್ನು ತ್ಯಜಿಸು."
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid "Failed to rename file"
+msgstr "ಕಡತದ ಹೆಸರನ್ನು ಬದಲಾಯಿಸಕಾಗಲಿಲ್ಲ"
+
+#: Files-Directories,FileDirectory>>rename:toBe:
+msgid ""
+"Trying to rename a file to be\n"
+"{1}\n"
+"and it already exists."
+msgstr "ಕಡತಕ್ಕೆ ಕೊಟ್ಟ ಹೊಸ ಹೆಸರಲ್ಲಿ - {1}- ಬೇರೆ ಒಂದು ಕಡತ ಇತ್ತು."
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "file in the entire contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr ""
+"ಕಡತದಿಲ್ಲಿರುವ, \"ಚಂಕ್\" ರೂಪದಲ್ಲಿರುವ, ಎಲ್ಲಾ ಸ್ಮಾಲ್ಟಾಕ್ (Smalltalk) ತಂತ್ರಾಂಶ "
+"ಖಂಡಗಳನ್ನು ಹೊರಿಸು"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "ಕಡತವನ್ನು ಪೂರಣವಾಗಿ ಹೊರಿಸು"
+
+#: Files-Kernel,FileStream_class>>serviceFileIn
+msgid "filein"
+msgstr "ಹೊರಿಸು"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove lfs"
+msgstr "ಪಂಕ್ತಿಸಂಕೆತಗಳನ್ನು ಅಳಿಸು"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds"
+msgstr "ಪಂಕ್ತಿಸಂಕೆತಗಳನ್ನು ಅಳಿಸು"
+
+#: Files-Kernel,FileStream_class>>serviceRemoveLineFeeds
+msgid "remove line feeds in file"
+msgstr "ಕಡತದಲ್ಲಿರುವ ಎಲ್ಲ ಪಂಕ್ತಿಸಂಕೆತಗಳನ್ನು ಅಳಿಸು"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:
+msgid ""
+"create a new file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"ಹೊಸ ಕಡತ ಜನಿಸು.ಹೊಸ ಹೆಸರನ್ನು ಕೊಡು.\n"
+"ತ್ಯಜಿಸು"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>fileExistsUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Enter a new file name"
+msgstr "ಹೊಸ ಕಡತದ ಹೆಸರು"
+
+#: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid ""
+"{1}\n"
+"does not exist."
+msgstr ""
+"ಈ ಹೆಸರಲ್ಲಿ ಕಡತ ಇಲ್ಲ: \n"
+"{1}"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Could not delete the old version of that file"
+msgstr "ಕಡತದ ಹಳೆಯ ಪ್ರತಿಯನ್ನು ಅಳಿಸಕ್ಕಾಗಲಿಲ್ಲ"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "overwrite that file\\choose another name\\cancel"
+msgstr "ಆ ಕಡತವನ್ನು ಅಳಿಸು\\ಬೇರೆ ಹೆಸರು ಕೊಡುವುದು\\ತ್ಯಜಿಸು"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid "Please close this to abort file opening"
+msgstr "ಕಡತ ಹೊರಿಸುವುದನ್ನು ತ್ಯಜಿಸಲು ಇದನ್ನು ಮುಚ್ಚಿ"
+
+#: Files-Kernel,StandardFileStream_class>>fileExistsUserHandling:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr "{1} ಮುಂಚೇನೆ ಇದೆ"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Cancel"
+msgstr "ತ್ಯಜಿಸು"
+
+#: Files-Kernel,StandardFileStream_class>>readOnlyFileDoesNotExistUserHandling:
+msgid "Choose another name"
+msgstr "ಬೇರೆ ಹೆಸರನ್ನು ಕೊಡಿ"
