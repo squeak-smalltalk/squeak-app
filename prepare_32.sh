@@ -78,7 +78,7 @@ done
 
 echo "...preparing etoys gallery projects..."
 mkdir -p "${RESOURCES_DIR}/ExampleEtoys"
-for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys"*.[0-9]*; do
+for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
     mv "${project}.zip" "${RESOURCES_DIR}/${project}.pr"
 done

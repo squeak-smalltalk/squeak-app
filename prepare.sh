@@ -36,7 +36,7 @@ if [ -z "${LOCALBUILD}" ]; then
 fi
 
 # Create build and temp folders for 32-bit run
-mkdir "${BUILD_DIR}" "${TMP_DIR}"
+mkdir -p "${BUILD_DIR}" "${TMP_DIR}"
 bash "${TRAVIS_BUILD_DIR}/prepare_32.sh"
 
 # Clean-up build and temp folders for 64-bit run
