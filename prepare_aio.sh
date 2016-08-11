@@ -9,7 +9,7 @@
 ################################################################################
 
 echo "Creating All-in-one bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${VM_VERSION}-${IMAGE_BITS}bit-All-in-One"
+BUNDLE_NAME="${TARGET_NAME}-All-in-One"
 BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 APP_NAME="${BUNDLE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"

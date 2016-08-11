@@ -9,8 +9,7 @@
 ################################################################################
 
 echo "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_ARCH="macOS"
-BUNDLE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${VM_VERSION}-${IMAGE_BITS}bit-${BUNDLE_ARCH}"
+BUNDLE_NAME="${TARGET_NAME}-macOS"
 BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 APP_NAME="${BUNDLE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
@@ -24,7 +23,7 @@ TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 echo "...copying macOS VM ..."
 cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
 
-echo "...copying images files into bundle..."
+echo "...copying image files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}/"

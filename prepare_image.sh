@@ -29,5 +29,6 @@ echo "...launching, updating, and configuring Squeak..."
 source "${TMP_DIR}/version.sh"
 
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
+readonly TARGET_NAME="${IMAGE_NAME}bit-${VM_VERSION}"
 
 echo "...done."

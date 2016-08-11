@@ -9,8 +9,7 @@
 ################################################################################
 
 echo "Creating Linux bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_ARCH="ARMv6"
-BUNDLE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${VM_VERSION}-${IMAGE_BITS}bit-${BUNDLE_ARCH}"
+BUNDLE_NAME="${TARGET_NAME}-ARMv6"
 BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 VM_DIR="${BUNDLE_DIR}/bin"
@@ -25,7 +24,7 @@ mkdir "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
 echo "...copying Linux VM..."
 cp -R "${TMP_DIR}/${VM_ARM6}/lib/squeak/"*/ "${VM_DIR}"
 
-echo "...copying images files into bundle..."
+echo "...copying image files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${SHARED_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${SHARED_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${SHARED_DIR}/"

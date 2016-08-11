@@ -9,8 +9,7 @@
 ################################################################################
 
 echo "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_ARCH="Windows"
-BUNDLE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${VM_VERSION}-${IMAGE_BITS}bit-${BUNDLE_ARCH}"
+BUNDLE_NAME="${TARGET_NAME}-Windows"
 BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 VM_DIR="${BUNDLE_DIR}/bin"
@@ -25,7 +24,7 @@ mkdir "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
 echo "...copying Windows VM..."
 cp -R "${TMP_DIR}/${VM_WIN}" "${VM_DIR}"
 
-echo "...copying images files into bundle..."
+echo "...copying image files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${SHARED_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${SHARED_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${SHARED_DIR}/"
