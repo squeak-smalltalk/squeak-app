@@ -30,6 +30,8 @@ readonly WIN_TEMPLATE_DIR="${TEMPLATE_DIR}/win"
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 
+readonly RELEASE_NOTES_DIR="${TRAVIS_BUILD_DIR}/release-notes"
+
 readonly VM_LIN="vm-linux"
 readonly VM_MAC="vm-macos"
 readonly VM_WIN="vm-win"
