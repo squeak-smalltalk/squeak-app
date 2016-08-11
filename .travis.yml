@@ -4,16 +4,18 @@ sudo: false
 os: osx
 
 smalltalk:
+  - Squeak-trunk-64
   - Squeak-trunk
   #- Squeak-5.1 # uncomment if ready, see files.squeak.org/base
   - Squeak-5.0
 
+matrix:
+  allow_failures:
+    - smalltalk: Squeak-trunk-64
+  fast_finish: true
+
 before_install:
 - openssl aes-256-cbc -K $encrypted_c86f51260a97_key -iv $encrypted_c86f51260a97_iv
   -in certs/dist.zip.enc -out certs/dist.zip -d
-script: ./prepare.sh
 
-# if we want to check for green tests...
-#after_success:
-#  - ./prepare-osx.sh
-#  - ./prepare-linux.sh
+script: ./prepare.sh
