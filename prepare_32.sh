@@ -62,7 +62,7 @@ cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}"
 echo "...preparing translations and putting them into bundle..."
 for language in "${TRAVIS_BUILD_DIR}/po/"*; do
     pushd "${language}"
-    targetdir="${RESOURCES_DIR}/locale/${language}/LC_MESSAGES"
+    targetdir="${RESOURCES_DIR}/locale/${language##*/}/LC_MESSAGES"
     for f in *.po; do
 	mkdir -p "${targetdir}"
 	msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}"
@@ -73,19 +73,19 @@ done
 echo "...preparing etoys main projects..."
 for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
-    mv "${project}.zip" "${RESOURCES_DIR}/${project}.pr"
+    mv "${project}.zip" "${RESOURCES_DIR}/${project##*/}.pr"
 done
 
 echo "...preparing etoys gallery projects..."
 mkdir -p "${RESOURCES_DIR}/ExampleEtoys"
 for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
-    mv "${project}.zip" "${RESOURCES_DIR}/${project}.pr"
+    mv "${project}.zip" "${RESOURCES_DIR}/ExampleEtoys/${project##*/}.pr"
 done
 
 echo "...copying etoys quick guides..."
 for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
-    targetdir="${RESOURCES_DIR}/locale/${language}"
+    targetdir="${RESOURCES_DIR}/locale/${language##*/}"
     mkdir -p "${targetdir}"
     cp -R "${language}/QuickGuides" "${targetdir}/"
 done
