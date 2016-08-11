@@ -24,14 +24,16 @@ export BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 export TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 
 # Prepare signing
-KEY_CHAIN=macos-build.keychain
-unzip -q ./certs/dist.zip -d ./certs
-security create-keychain -p travis "${KEY_CHAIN}"
-security default-keychain -s "${KEY_CHAIN}"
-security unlock-keychain -p travis "${KEY_CHAIN}"
-security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
-security import ./certs/dist.cer -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
-security import ./certs/dist.p12 -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+if [ -z "${LOCALBUILD}" ]; then
+    KEY_CHAIN=macos-build.keychain
+    unzip -q ./certs/dist.zip -d ./certs
+    security create-keychain -p travis "${KEY_CHAIN}"
+    security default-keychain -s "${KEY_CHAIN}"
+    security unlock-keychain -p travis "${KEY_CHAIN}"
+    security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
+    security import ./certs/dist.cer -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
+    security import ./certs/dist.p12 -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+fi
 
 # Create build and temp folders for 32-bit run
 mkdir "${BUILD_DIR}" "${TMP_DIR}"
@@ -44,4 +46,6 @@ bash "${TRAVIS_BUILD_DIR}/prepare_32.sh"
 #bash "${TRAVIS_BUILD_DIR}/prepare_64.sh"
 
 # Remove signing information
-security delete-keychain "${KEY_CHAIN}"
+if [ -z "${LOCALBUILD}" ]; then
+    security delete-keychain "${KEY_CHAIN}"
+fi

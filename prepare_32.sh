@@ -137,8 +137,10 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_WIN_TARGET}/Sque
 rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 
 # Signing the Mac OS application
-echo "...signing the bundle..."
-codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
+if [ -z "${LOCALBUILD}" ]; then
+    echo "...signing the bundle..."
+    codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
+fi
 
 echo "...compressing the bundle..."
 pushd "${BUILD_DIR}" > /dev/null
