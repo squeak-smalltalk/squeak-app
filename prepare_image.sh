@@ -37,10 +37,8 @@ TARGET_ZIP="${TRAVIS_BUILD_DIR}/${TARGET_NAME}.zip"
 echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
-cp "${TMP_DIR}/"*.sources "${BUILD_DIR}/"
-cp "${RELEASE_NOTES_DIR}/"* "${BUILD_DIR}/"
 
-echo "...compressing image, changes, and sources..."
+echo "...compressing image and changes..."
 pushd "${BUILD_DIR}" > /dev/null
 # tar czf "${TARGET_TARGZ}" "./"
 zip -q -r "${TARGET_ZIP}" "./"
