@@ -24,8 +24,8 @@ mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
 
 echo "...launching, updating, and configuring Squeak..."
-"${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" \
-    "-headless" "${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st"
+"${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" ${TRAVIS:+-headless} \
+    "${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st" "${ETOYS}"
 source "${TMP_DIR}/version.sh"
 
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
@@ -38,6 +38,39 @@ TARGET_ZIP="${TRAVIS_BUILD_DIR}/${TARGET_NAME}.zip"
 echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
+
+echo "...preparing translations and putting them into bundle..."
+for language in "${TRAVIS_BUILD_DIR}/locale/"*; do
+    pushd "${language}"
+    targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
+    for f in *.po; do
+	mkdir -p "${targetdir}"
+	msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
+    done
+    popd
+done
+
+if [ "${ETOYS}" == "Squeakland" ]; then
+    echo "...preparing etoys main projects..."
+    for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
+	zip -j "${project}.zip" "${project}"/*
+	mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
+    done
+
+    echo "...preparing etoys gallery projects..."
+    mkdir -p "${TMP_DIR}/ExampleEtoys"
+    for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
+	zip -j "${project}.zip" "${project}"/*
+	mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
+    done
+
+    echo "...copying etoys quick guides..."
+    for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
+	targetdir="${TMP_DIR}/locale/${language##*/}"
+	mkdir -p "${targetdir}"
+	cp -R "${language}/QuickGuides" "${targetdir}/"
+    done
+fi
 
 echo "...compressing image and changes..."
 pushd "${BUILD_DIR}" > /dev/null

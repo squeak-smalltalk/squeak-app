@@ -1,0 +1,116 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:03-0000\n"
+"PO-Revision-Date: 2010-09-15 23:19+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: \n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of "
+"25 August 2010)\n"
+"X-Etoys-Domain: Kernel\n"
+
+#: Kernel-Classes,ClassDescription>>printMethodChunk:withPreamble:on:moveSource:toFile:
+msgid "** ERROR!  THIS SCRIPT IS MISSING ** "
+msgstr "தவறு!இந்த படிவத்தை காணவில்லை "
+
+#: Kernel-Models,StringHolder_class>>windowColorSpecification
+msgid "A place for text in a window."
+msgstr "வின்டோவில் உரைக்கு இடம் உண்டு"
+
+#: Kernel-Models,StringHolder_class>>windowColorSpecification
+msgid "Workspace"
+msgstr "வேலைப்பகுதி"
+
+#: Kernel-Numbers,Float>>safeLn
+msgid "Ln of a nonpositive number, "
+msgstr "Ln  உண்மையற்ற எண்"
+
+#: Kernel-Numbers,Float>>safeLn
+msgid "Ln of negative number, "
+msgstr "Ln எதிர்மறையான எண் "
+
+#: Kernel-Numbers,Float>>safeLog
+msgid "log of a nonpositive number, "
+msgstr "உண்மையற்ற எண்ணின் பதிவு "
+
+#: Kernel-Numbers,Float>>safeLog
+msgid "logarithm does not exist"
+msgstr "ஏற்கனவே  இல்லாத பதிவு"
+
+#: Kernel-Numbers,Float>>safeSquareRoot
+msgid "square root of negative number"
+msgstr "நதுர பாதையிலுள்ள எதிரான எண்"
+
+#: Kernel-Numbers,Float>>truncated
+msgid "Cannot truncate this number"
+msgstr "இந்த எண்ணை வெட்டமுடியாது"
+
+#: Kernel-Numbers,Float>>/
+msgid "division by zero"
+msgstr "பூச்சியத்தின் பகுதி"
+
+#: Kernel-Numbers,Integer>>safeFactorial
+msgid "Factorial not defined for negative numbers"
+msgstr "காரண எண்களை எதிர்மறையான எண்களாக வரையறை செய்"
+
+#: Kernel-Numbers,Number_class>>readEToyNumberFrom:
+msgid ""
+" is not a number;\n"
+"please correct and try again"
+msgstr ""
+" இலக்கமில்லை ;\n"
+"  தயவுசெய்து திருத்தி மீண்டும் முயற்சி"
+
+#: Kernel-Objects,Object_class>>windowColorSpecification
+msgid "Default"
+msgstr "இயலிருப்பு (இயல்பான இருப்பு)"
+
+#: Kernel-Objects,Object_class>>windowColorSpecification
+msgid "Other windows without color preferences."
+msgstr "மற்றைய  windowsக்கு நிறத்தெரிவில்லை"
+
+#: Kernel-Objects,Object>>addModelYellowButtonMenuItemsTo:forMorph:hand:
+msgid "inspect model"
+msgstr "மாதிரியை பரிசோதி"
+
+#: Kernel-Objects,Object>>deprecatedExplanation:,Object>>deprecated:explanation:
+msgid "{1} has been deprecated. {2}"
+msgstr "{1}ஏற்கனவே தடுத்துரைக்கப்பட்டது.{2}"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "MaybePutAnotherCategoryHere"
+msgstr "இங்கு வேறு வகையினை சேர்க்கலாம்"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "Put the balloon help here"
+msgstr "உதவிக்காக இங்கே பலூனை போடவும்"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "PutACategoryHere"
+msgstr "A வகையினை இங்கே போடவும்"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "PutFormalNameHere"
+msgstr "முறையான பெயரினை இங்கே போடவும்"
+
+#: Kernel-Objects,Object>>errorNotIndexable
+msgid "Instances of {1} are not indexable"
+msgstr "உதாரணம் {1}அடையாளமிடப்படவில்லை"
+
+#: Kernel-Objects,Object>>saveOnFile
+msgid "File name?"
+msgstr "கோவைப் பெயா்?"
+
+#: Kernel-Objects,UndefinedObject>>descriptionForPartsBin
+msgid "ClipboardText"
+msgstr "மறைப்பலகை உரை"
+
+#: Kernel-Objects,UndefinedObject>>descriptionForPartsBin
+msgid "This object will always show whatever is on the text clipboard, in a scrollable pane."
+msgstr "இந்தப்பொருள் மறைப்பலகை உரையிலும்,நகா்த்துதல் பலகணியிலும் உள்ளதை  எப்போதும் காட்டும்"

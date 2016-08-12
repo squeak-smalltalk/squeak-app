@@ -1,0 +1,904 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-10-23 13:46+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hus\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Tools\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "A viewer and editor for Zip archive files"
+msgstr "Tsu'tom ani jalk'ux dhuchlab"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "Zip Tool"
+msgstr "Eyixtaláb Zip"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip,ArchiveViewer_class>>serviceAddToNewZip
+msgid "add file to new zip"
+msgstr "Ka punchij  jún i dhuchlab ba' jún i zip it"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceAddToNewZip
+msgid "to new zip"
+msgstr "an zip it"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all"
+msgstr "kaldha' patal"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all files to a user-specified directory"
+msgstr ""
+"kaldha' patal an dhuchlab ba jun i dhayab uw xi bijidhits k'al an eyendhax"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceExtractAll
+msgid "extract all to..."
+msgstr "kaldha' patal an..."
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open in zip viewer"
+msgstr "japiy ti met'lom zip"
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>serviceOpenInZipViewer
+msgid "open zip"
+msgstr "japiy zip"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>openNewArchive
+msgid "Select Zip archive to open..."
+msgstr "Takuy dhuchlab zip abal ka japiy..."
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid ""
+" is used by one or more members\n"
+"in your archive, and cannot be overwritten.\n"
+"Try writing to another file name"
+msgstr ""
+" u éynal k'al jún o yán i eyendhánel\n"
+"ba' a dhuchlábil, ani yab ne'ets ka ejtow ka dhucha' eblim\n"
+"ka tsapnanchij  ka dhucha' k'al pil in bij an dhuchlab"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Destination Zip File Name:"
+msgstr "In bij an dhuchlab zip ba in ultal:"
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Prepended File:"
+msgstr "dhuchlab bijidh tin tujtal:"
+
+#: Tools-Base,CodeHolder>>addModelItemsToWindowMenu:
+msgid "what to show..."
+msgstr "tejwamédha'..."
+
+#: Tools-Base,CodeHolder>>offerWhatToShowMenu,CodeHolder>>offerWhatToShowMenu
+msgid "What to show"
+msgstr "Axi kwa'al ki tejwamedha'"
+
+#: Tools-Base,MethodHolder>>addModelMenuItemsTo:forMorph:hand:
+msgid "whose script is this?"
+msgstr "¿jant'oj  tam dhuchlab pel a axé'?"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+#, fuzzy
+msgid "<no> create textual references to dropped morphs"
+msgstr "<ibáj> ts'ejka' pilchik i dhuchlab k'al a  morphs axi joltidhits"
+
+#: Tools-Base,Workspace>>acceptDroppedMorphsWording
+msgid "<yes> create textual references to dropped morphs"
+msgstr "<aníts> ts'ejka' pilchik i dhuchlab axi ti morphs joltidh"
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "append contents of file..."
+msgstr "ki punk'unchij  alwa' an dhuchlab..."
+
+#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
+msgid "save contents to file..."
+msgstr "ka ts'at'a' alwa'  bá' an dhuchlab..."
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry
+msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
+msgstr ""
+"Jun i Alim pel jún i eyendhanél abal ki tsu'uw patal an dhuche' tin patál an "
+"exobláts tin púweltal"
+
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry,Browser_class>>windowColorSpecification
+msgid "Browser"
+msgstr "Álim"
+
+#: Tools-Browser,Browser_class>>windowColorSpecification
+msgid "The standard \"system browser\" tool that allows you to browse through all the code in the system"
+msgstr ""
+"An eyendhanél standard \" álim an puwéltal \", axi ti jilal ka aliy bá' jún in "
+"patál an dhuche' tin puwéltal"
+
+#: Tools-Browser,Browser>>noCommentNagString
+msgid "THIS CLASS HAS NO COMMENT!"
+msgstr "¡AXE' XI EXOBLATS YAB IN KWA'AL I T'ILOMTALAB!"
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "A tool finding, viewing, and editing all methods whose names contiane a given character sequence."
+msgstr ""
+"Jún i exendhanél abal ki ela' ani ki jalk'uy an ayláb axi in kwa'al tin bij "
+"júnakej  in aytal an dhuche'."
+
+#: Tools-Browser,MessageNames_class>>windowColorSpecification
+msgid "Message Names"
+msgstr "Bijilchik an olnomtaláb"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "A list of messages (e.g. senders, implementors)"
+msgstr "Jun i k'elab i olnomtaláb (p.e. emisores, implementadores)"
+
+#: Tools-Browser,MessageSet_class>>windowColorSpecification
+msgid "Message List"
+msgstr "k'elab olnomtaláb"
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "A system browser with an extra pane at top-left for module."
+msgstr ""
+"Jun i álim k'al jún i ok'nom punk'unchdh ebál ani ti k'watab abal ti junchik "
+"in pejmach."
+
+#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
+msgid "Package Browser"
+msgstr "Alim k'al an  t'i'él"
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "A tool for finding methods by giving sample arguments and values."
+msgstr ""
+"Jún i eyendhanél abal ki ela' an ayláb ju'táj ki bina' an ádhaxtaláb "
+"t'ipodhits k'al in tekedh  jalbíl."
+
+#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
+msgid "Method Finder"
+msgstr "Álim ayláb"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changelist browser"
+msgstr "Álim k'al an k'elab axi jalk'unal"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "changes"
+msgstr "Jalk'untalábchik"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
+msgid "open a changelist tool on this file"
+msgstr "Japiy jún i eyendhanél ti k'elab jalk'untaláb eblim bá' an dhuchlab"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "open a changelist tool on recent changes in file"
+msgstr "Japiy jun i k'elab axi jalk'unal ti ít bá' an dhuchlab"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes"
+msgstr "Ít jalk'untaláb"
+
+#: Tools-Changes,ChangeList_class>>serviceBrowseDotChangesFile
+msgid "recent changes in file"
+msgstr "it jalk'untaláb bá' an dhuchlab"
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "A tool that presents a list of all the changes found in an external file."
+msgstr ""
+"Jún i exendhanél axi in tejwa'médhál, bá' jún i eléb dhuchlab, jún i k'elab "
+"tin yanél an jalk'untaláb axi eladh."
+
+#: Tools-Changes,ChangeList_class>>windowColorSpecification
+msgid "Change List"
+msgstr "K'elab jalk'untalábchik"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
+msgstr ""
+"Jún i eyendhanél  axi in jilál ki tsu'uw ani ki taka' patal an jalk'untaláb "
+"ani an dhuche' bá' jún i kwetém mulkudhtaláb ani jalk'untalábchik"
+
+#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Set"
+msgstr "Mulkudh jalk'untalábchik"
+
+#: Tools-Changes,ChangeSorter_class>>removeEmptyUnnamedChangeSets
+msgid "Unnamed"
+msgstr "Yab in kwa'al in bij"
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification
+msgid "A tool that lets you see the code for one change set at a time."
+msgstr ""
+"Jún i eyendhanél  axi in jilál ki met'a' an dhuche' bá' jún i mulkuntaláb "
+"axi jayétsej u jalk'unal."
+
+#: Tools-Changes,ChangeSorter_class>>windowColorSpecification,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Sorter"
+msgstr "Pilchik jalk'untaláb"
+
+#: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
+msgid ""
+"This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+msgstr ""
+"Axé' xi abatnom in yejenchal abal\n"
+"an mulkudhtalábchik axi jalk'unal\n"
+"tin tamchidh ani ki pilmédha'\n"
+"abal yab ka wichk'on."
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a class comment."
+msgstr ""
+"Jún i eyendhanél abal ki tsu'uw i t'iplab axi wat'eyits bá' jún i "
+"t'ilomtaláb k'al jún i exobláts."
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
+msgid "Class Comment Versions Browser"
+msgstr "Álim t'iplab k'al an  t'ilomtaláb k'al jún i exobláts"
+
+#: Tools-Changes,DualChangeSorter_class>>registerInFlapsRegistry
+msgid "Shows two change sets side by side"
+msgstr "Ka tejwamédha' tsáb i mulkudhtaláb axi jalk'unalchik  junat"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Dual Change Sorter"
+msgstr "Jalk'um buk'umtaláb t'ipox"
+
+#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
+msgid "Lets you view and manipulate two change sets concurrently."
+msgstr ""
+"Ti jilál ka tsu'uw ani ka taka' tsáb i mulkudh axi jalk'ùnal bá' an junat "
+"k'ij."
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "A tool for viewing prior versions of a method."
+msgstr "Jún i eyendhanél abal ki ela' an t'iplab axi wat'ey bá' jún i ayláb."
+
+#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
+msgid "Versions Browser"
+msgstr "Alim k'al an  t'ipoxtaláb"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Comparison from {1} to {2}"
+msgstr "Jumbaxtaláb ti {1} k'al an  {2}"
+
+#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
+msgid "Exact Match"
+msgstr "Junat alwataláb"
+
+#: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
+msgid "{1} (in {2})"
+msgstr "{1} (ti{2})"
+
+#: Tools-Changes,VersionsBrowser>>versionsMenu:
+msgid "Versions"
+msgstr "T'iplab káwchik"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "Debugger"
+msgstr "Dhikaltaláb"
+
+#: Tools-Debugger,Debugger_class>>windowColorSpecification
+msgid "The system debugger."
+msgstr "An dhikaltaláb k'al in puwéltal."
+
+#: Tools-Debugger,Debugger>>askForCategoryIn:default:
+msgid "Please provide a good category for the new method!"
+msgstr ""
+"¡T'aja' an alwataláb, ka wat'ba' an ít ayláb bá' jún tekedh exbadhtaláb!"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Abandon"
+msgstr "Joltidh"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "abandon this execution by closing this window"
+msgstr "Joltiy axé' xi t'ajnél ani ki mapuy axé' xi met'nib"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "bring up a debugger"
+msgstr "ka dhaya' jún i dhikaltaláb"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "continue execution"
+msgstr "ka aynanchij an tajnél"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Debug"
+msgstr "Dhikál"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Proceed"
+msgstr "Áynanchij"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Store log"
+msgstr "Dhaya' an dhuchnél"
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "write a log of the encountered problem"
+msgstr "Ka dhucha' jÚn i t'ilab k'al an  káw xi eladh"
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred in\\{3} of {2}.\\Fix your script(s), hit 'Abandon' and try again."
+msgstr ""
+"Jún i uk'pintaláb wat'enek bá' an\\{3} ti {2}.\\Ka ts'ejka' tata' script(s), "
+"ni'ninchij 'Joltiy ani ka taka' ti ít."
+
+#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
+msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
+msgstr ""
+"Wat'enek jún i k'ibts'ontaláb; ani xowé' yab t'ojláb ki 'joltiy'.  ¡I "
+"yajnál!"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>selectAndBrowseFile:
+msgid "What files?"
+msgstr "¿Jant'odh dhuchlab?"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCodeFiles
+msgid "browse code files"
+msgstr "Alim dhuchlab ani dhuche'"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code"
+msgstr "Dhuche'"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code-file browser"
+msgstr "Alim k'al an dhuche'"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "open a \"file-contents browser\" on this file, allowing you to view and selectively load its code"
+msgstr ""
+"japiy jún i \"álim k'al an  alwa' dhuchlab\" bá' axé' xi dhuchlab, in jilál ki "
+"met'a' ani ki k'adhba' tekedh an dhuche'"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "File Contents Browser"
+msgstr "Alim k'al an alwa' dhuchlab"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
+msgid "Lets you view the contents of a file as code, in a browser-like tool."
+msgstr ""
+"Ti jilál ka met'a' an alwa' ti jún i dhuchlab al an dhuche' bá' jún i "
+"eyendhanél alimtaláb."
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Class exists already in the system"
+msgstr "Nixé' xi exobintaláb wa'tsits bá' an puwéltal"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Existing method removed by this change-set"
+msgstr "Ayláb xi wa'tsits pakudh k'al axe' xi kwenél i jalk'untaláb"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Method already exists"
+msgstr "An ayláb wa'tsits"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New class"
+msgstr "It alwá'"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "New method"
+msgstr "It ayláb"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
+msgid "Removal request for a method that is not present in this image"
+msgstr "In le´na' ka pakuw jún i ayláb axi yab k´wajat ti t'iplab"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid " already exists in the package"
+msgstr " k'wajatits ti t'i'él"
+
+#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
+msgid "Please type new class name"
+msgstr "T'aja' an alwataláb ka ni'chij an it exobláts"
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry
+msgid "A File List is a tool for browsing folders and files on disks and on ftp types."
+msgstr ""
+"Jún  k'elab i dhuchlab pél jun i eyendhanél abal ki aliy an dhayab úw ani an "
+"dhuchlab bá' an dhaykol ftp."
+
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry,FileList_class>>windowColorSpecification
+msgid "File List"
+msgstr "K'elab i dhuchlab"
+
+#: Tools-FileList,FileList_class>>windowColorSpecification
+msgid "A tool for looking at files"
+msgstr "Jún i eyendhanél abal ki aliy i dhuchlab"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "New {1} Name?"
+msgstr "¿It {1} Bijiláb?"
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "{1}Name"
+msgstr "Bijiláb {1}"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "  -- Folder Summary --"
+msgstr "  -- In Alwá' An Dhuchlab --"
+
+#: Tools-FileList,FileList>>defaultContents
+msgid "NO FILE SELECTED"
+msgstr "NI JUN I DHUCHLAB TAKUDH"
+
+#: Tools-FileList,FileList>>deleteDirectory
+msgid "Directory must be empty"
+msgstr "An dhayáb-úw  kwa'al ka k'wajiy jolat"
+
+#: Tools-FileList,FileList>>deleteDirectory,FileList>>deleteFile
+msgid "Really delete {1}?"
+msgstr "¿Lej chubax a lé' ka pakuw {1}?"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "accept (s)"
+msgstr "bats'uw (s)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cancel (l)"
+msgstr "pakuw (1)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "copy (c)"
+msgstr "nits'biy (c)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "cut (x)"
+msgstr "kotox (x)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do again (j)"
+msgstr "tsab t'aja' (1)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "do it (d)"
+msgstr "ki t'aja' (d)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "fileIn selection (G)"
+msgstr "K'adhba' an dhuchlab axi takudhits (G)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find again (g)"
+msgstr "ki ela' júnilakej (g)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "find...(f)"
+msgstr "ki ela' (f)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "inspect it (i)"
+msgstr "abatnowál (i)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:,FileList>>serviceAllFileOptions,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "more..."
+msgstr "uma'yej..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste (v)"
+msgstr "ts'at'a' (v)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "paste..."
+msgstr "ts'at'k'a'..."
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "print it (p)"
+msgstr "ts'at'k'a' (p)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "set search string (h)"
+msgstr "jamk'a' alimtaláb k'al an dhuche' ( h)"
+
+#: Tools-FileList,FileList>>fileContentsMenu:shifted:
+msgid "undo (z)"
+msgstr "pakuw (z)"
+
+#: Tools-FileList,FileList>>fullFileListMenu:shifted:
+msgid "all possible file operations"
+msgstr "patal an t'ajbiláb ts'ejkadh k'al an dhuche'"
+
+#: Tools-FileList,FileList>>put:
+msgid "No fileName is selected"
+msgstr "Yab takuyámej ni jún in bij an dhuche'"
+
+#: Tools-FileList,FileList>>put:
+msgid ""
+"{1} contents cannot\n"
+"meaningfully be saved at present."
+msgstr ""
+"{1} alwa' yab in wit'ál ka ts'at'ey\n"
+"lej tekedh al axé' xi k'ij."
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 5000 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 5000 characters."
+msgstr ""
+"Dhuchlab '{1}' lejbadh {2} bytes.\n"
+"A ejtowal ka eyendha' an abatnom 'k'adhba''' abal ki ajiy an putat dhuchlab.\n"
+"\n"
+"Tejé' k'wajat an k'a'al bó' xi' dhuche'chik...\n"
+"---------------------------------------------------\n"
+"{3}\n"
+"---------------------------------------------------\n"
+"... i talabedhal an k'a'ál bo' xi' dhuche'."
+
+#: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:,FileList>>readServerBrief
+msgid "For some reason, this file cannot be read"
+msgstr "Axé' xi dhuche' yab ne'ets ki wit'a' ki ajiy"
+
+#: Tools-FileList,FileList>>readServerBrief
+msgid ""
+"File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 3500 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 3500 characters."
+msgstr ""
+"An dhuchalab '{1}' lejbay {2} bytes.\n"
+"A ejtowal ka eyendha' an abatnom 'k'adhba' ' abal ki ajiy an dhuchlab "
+"kidhat.\n"
+"\n"
+"Tejé' k'wajat an k'a'al ox xi' bó' i bó' inik dhuche'...\n"
+"-----------------------------------------------------------\n"
+"{3}\n"
+"-----------------------------------------------------------\n"
+"... i talabedhál an k'a'ál ox xi' bó i bó' inik dhuche'."
+
+#: Tools-FileList,FileList>>removeVersionNumberFromFileName
+msgid "do you want to clobber the existing"
+msgstr "¿a le' ka wich'k'ow xi it?"
+
+#: Tools-FileList,FileList>>renameFile
+msgid "NewFileName?"
+msgstr "¿It bij an dhuchlab?"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "add new directory"
+msgstr "ka punk'uy an ít dhayab úw"
+
+#: Tools-FileList,FileList>>serviceAddNewDirectory
+msgid "adds a new, empty directory (folder)"
+msgstr "ka punk'uy an it dhayab úw ani axi jolat (dhayab úw)"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "add new file"
+msgstr "ka punk'uy an it dhuchlab"
+
+#: Tools-FileList,FileList>>serviceAddNewFile
+msgid "create a new,. empty file, and add it to the current directory."
+msgstr ""
+"ka ts'ejka' an it dhuchlab ani xi jolat ani ka punk'unchij an dhajab úw axi "
+"íteyej."
+
+#: Tools-FileList,FileList>>serviceAllFileOptions
+msgid "show all the options available"
+msgstr "ka teja'médha' patal an t'iplab axi wa'ats"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast"
+msgstr "ka wat'ba'"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast as update"
+msgstr "ka wat'ba' jant'odh xi itéyej"
+
+#: Tools-FileList,FileList>>serviceBroadcastUpdate
+msgid "broadcast file as update"
+msgstr "ka wat'ba' an dhuchlab jant'odh xi itéyej"
+
+#: Tools-FileList,FileList>>serviceCompressFile,FileList>>serviceCompressFile
+msgid "compress"
+msgstr "t'ijaxmédha'"
+
+#: Tools-FileList,FileList>>serviceCompressFile
+msgid "compress file"
+msgstr "t'ijaxmédha' an dhuchlab"
+
+#: Tools-FileList,FileList>>serviceCopyName,FileList>>serviceCopyName
+msgid "copy name to clipboard"
+msgstr "k'ot'biy in bij an kitnom-úw"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete"
+msgstr "pakuw"
+
+#: Tools-FileList,FileList>>serviceDeleteFile
+msgid "delete the seleted item"
+msgstr "ka pakuw an eyendhanél axi a takudh"
+
+#: Tools-FileList,FileList>>serviceGetEncodedText,FileList>>serviceGetEncodedText
+msgid "view as encoded text"
+msgstr "Tsu'uw jún i dhuchlab ts'ejkadhits"
+
+#: Tools-FileList,FileList>>serviceGetHex,FileList>>serviceGetHex
+msgid "view as hex"
+msgstr "ka tsu'uw jant'odh an hexadecimal"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "get entire file"
+msgstr "ka k'adhba' kidhat an dhuchlab"
+
+#: Tools-FileList,FileList>>serviceGet
+msgid "if the file has only been partially read in, because it is very large, read the entire file in at this time."
+msgstr ""
+"max an dhuche' ajiyámtej lej wechik, kom lej nakat,xowé' ka ajiy kidhat an "
+"dhuchlab."
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from file name"
+msgstr "Ki ejdha' an ajumtaláb ti t'iplab ani in bij an dhuchlab"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version number from filename"
+msgstr "ki ejdha' an ajumtaláb ti t'iplab k'al in bij an dhuchlab"
+
+#: Tools-FileList,FileList>>serviceRemoveVersionNumber
+msgid "remove version #"
+msgstr "ki ejdha' an t'iplab #"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename"
+msgstr "ka tsab-bijiy"
+
+#: Tools-FileList,FileList>>serviceRenameFile
+msgid "rename file"
+msgstr "ka tsab-bijiy an dhuchlab"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "by date"
+msgstr "k'al in ajumtal íts'"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "date"
+msgstr "Ajumtal its'"
+
+#: Tools-FileList,FileList>>serviceSortByDate
+msgid "sort entries by date"
+msgstr "ki takuy an otseltaláb ti ajumtal its'"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "by name"
+msgstr "k'al in bij"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "name"
+msgstr "bij"
+
+#: Tools-FileList,FileList>>serviceSortByName
+msgid "sort entries by name"
+msgstr "ki takuy an otseltaláb k'al in bij"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "by size"
+msgstr "k'al in puwéltal"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "size"
+msgstr "puwél"
+
+#: Tools-FileList,FileList>>serviceSortBySize
+msgid "sort entries by size"
+msgstr "ki takuy an otseltaláb k'al in puwéltal"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "open a new Workspace whose contents are set to the contents of this file"
+msgstr ""
+"ki japiy an ít jolat k'an t'ojláb axi alwa' ja'its in alwá' ba' axe' xi "
+"dhuchlab"
+
+#: Tools-FileList,FileList>>serviceViewContentsInWorkspace
+msgid "workspace with contents"
+msgstr "in jolát an  t'ojláb k'al in  alwá'"
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "add server..."
+msgstr "tolmix búkul..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "delete directory..."
+msgstr "pakuw dhayab-úw..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "recent..."
+msgstr "axi ít..."
+
+#: Tools-FileList,FileList>>volumeMenu:
+msgid "remove server..."
+msgstr "pakuw tolmix búk'ul..."
+
+#: Tools-FileList,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,PopUpMenu_class>>informCenteredAboveCursor:,PopUpMenu_class>>inform:
+msgid "OK"
+msgstr "bats'uw"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "return without saving"
+msgstr "ki wichiy ani yab ka dhaya'"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save"
+msgstr "Dhaya'"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save in the place specified above"
+msgstr "Dhaya' an jolataláb axi in ólnal ebál"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "Save on local disk only"
+msgstr "Dhaya' expidh an dhaykol"
+
+#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
+msgid "saves in the Squeaklets folder"
+msgstr "ka dhaya' bá' an dhayab-úw Squeaklets"
+
+#: Tools-FileList,FileList2_class>>morphicViewFileSelectorForSuffixes:
+msgid "Please select a file"
+msgstr "ka takuy jún i dhuchlab"
+
+#: Tools-FileList,FileList2_class>>morphicViewGeneralLoaderInWorld:
+msgid "Find..."
+msgstr "ela'..."
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
+msgid "Load A Project"
+msgstr "ka k'adhba' jún i t'ojláb"
+
+#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
+msgid "Publish This Project"
+msgstr "ki ólna' axé' xi t'ojláb"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Network Error"
+msgstr "k'ibts'ontaláb ti Wal tsolóm"
+
+#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
+msgid "Unknown Error"
+msgstr "K'ibts'ontaláb axi yab exladh"
+
+#: Tools-FileList,FileList2>>serviceCancel,FileList2>>serviceCancel
+msgid "cancel"
+msgstr "t'apiy"
+
+#: Tools-FileList,FileList2>>serviceCancel
+msgid "hit here to cancel "
+msgstr "ka ni'chij abal ka t'apiy "
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "hit here to accept the current selection"
+msgstr "ka ni'chij abal ka bats'uw an takuxtaláb axi  íteyej"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "ok"
+msgstr "bats'uw"
+
+#: Tools-FileList,FileList2>>serviceOkay
+msgid "okay"
+msgstr "bats'uw"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load"
+msgstr "K'adhba'"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "load as project"
+msgstr "k'adhba' ejtíl an t'ojláb"
+
+#: Tools-FileList,FileList2>>serviceOpenProjectFromFile
+msgid "open project from file"
+msgstr "japiy jún i t'ojláb ma ti jún i dhuchlab"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log in to share projects on the Squeakland server"
+msgstr "ki otsits abal ka pejkáxna' an t'ojlab tolmix buk'ul ti Squeakland"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Log out from the Squeakland server"
+msgstr "Ka mapuy an t'ojláb k'al an tolmix búk'ul ti Squeakland"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Login"
+msgstr "Dhuchlab"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "Logout"
+msgstr "Mapuy an  t'ojláb"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance,FileList2>>updateLoginButtonAppearance
+msgid "Your Squeakland user name"
+msgstr "A bij axi a eyendhál ti Squeakland"
+
+#: Tools-FileList,FileList2>>updateLoginButtonAppearance
+msgid "(not logged in)"
+msgstr "(ibáj kit otsits)"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:,PopUpMenu_class>>confirm:orCancel:
+msgid "Cancel"
+msgstr "T'apiy"
+
+#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:
+msgid "Cancel this search"
+msgstr "Ka t'apiy axé' xi alimtaláb"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:
+msgid ""
+"overwrite that file\n"
+"select another file"
+msgstr ""
+"Ka eblim dhucha' an dhuchlab\n"
+"takuy píl i dhuchlab"
+
+#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"{1}\n"
+"already exists."
+msgstr ""
+"{1}\n"
+"wa'tsits."
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "No"
+msgstr "Ibáj"
+
+#: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
+msgid "Yes"
+msgstr "Aníts"
+
+#: Tools-Menus,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "start over..."
+msgstr "ki tujchij junilákej..."
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"Can't delete {1}\n"
+"Select another file"
+msgstr ""
+"Yab ka ejtow ka pakuw {1}\n"
+"ka takuy k'e'at i dhuchlab"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"ka dhucha' eblim nixé' xi dhuchlab\n"
+"ka takuy junákej i bijiláb\n"
+"t'apiy"
+
+#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
+msgid "Select Another File"
+msgstr "Ka takuy júnakej i dhuchlab"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:
+msgid "Enter a new file name"
+msgstr "Otsel jún i it bijiláb bá' an dhuchlab"
+
+#: Tools-Menus,StandardFileMenu>>getTypedFileName:,StandardFileMenu_class>>newFileFrom:,StandardFileMenu_class>>oldFileFrom:
+msgid "Select a File:"
+msgstr "Takuy jún i dhuchlab:"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "A Process Browser shows you all the running processes"
+msgstr "Jun i Álim k'al  in   áy u tejwa'médhom an ay'  abal ka t'aja'"
+
+#: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
+msgid "Processes"
+msgstr "In ay'chik"

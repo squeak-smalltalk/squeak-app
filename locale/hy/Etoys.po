@@ -1,0 +1,3473 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2013-07-02 05:56+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Etoys\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: ATTENTION TRANSLATORS! This should be the name of your language as you would like it to appear in the Languages menu, e.g. "Español" or "English"
+msgid "Language-Name"
+msgstr "Հայերեն"
+
+# LTR
+#: ATTENTION TRANSLATORS! Put in the directionality of your language, that is "LTR" for left-to-right or "RTL" for right-to-left
+msgid "Language-Direction"
+msgstr "LTR"
+
+#: Etoys-Buttons,ButtonProperties_class>>defaultNameStemForInstances,EToyVocabulary_class>>masterOrderingOfCategorySymbols,ScriptableButton_class>>defaultNameStemForInstances
+msgid "button"
+msgstr "Կոճակ"
+
+#: Etoys-Buttons,ButtonProperties>>establishEtoyLabelWording,ScriptActivationButton>>establishLabelWording
+msgid "click to run the script \"{1}\" in player named \"{2}\""
+msgstr ""
+"\"Քլիք \"արեք` \"{1}\" սցեարը \"{2}\" անունով խաղացողի անունից գործարկելու համար :"
+
+#: Etoys-Buttons,ButtonProperties>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr ""
+"Սեղմել այն ընտրիչի կոճակը, որ պետք է ուղարկվի նպատակակետ` կոճակը սեղմելուց "
+"հետո:"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr "Ընտրեք հետևյալ պայմաններից որևէ մեկը."
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseDown"
+msgstr "մկնիկի կոճակը պահել սեղմած"
+
+# MouseDown can mean mous disconnected, not functioning, moved downwards etc. Not only the translator, but also those who prepared the list of vocabulary had to leave comments for the translator...
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseStillDown"
+msgstr "Մկնիկի կոճակը շարունակել պահել սեղմած"
+
+#: Etoys-Buttons,ButtonProperties>>setActWhen,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseUp"
+msgstr "Մկնիկի կոճակը բաց թողնել"
+
+#: Etoys-Buttons,ButtonProperties>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+"Ընտրեք այն փաստարկները, որոնք պետք է ժամանակ առ ժամանակ առանձին ուղարկվեն "
+"նպատակային օբյեկտին այս կոճակը սեղմելուց հետո"
+
+#: Etoys-Buttons,ButtonProperties>>setLabel
+msgid "Please a new label for this button"
+msgstr "Մուտքագրեք նոր պիտակ այս կոճակի համար"
+
+#: Etoys-Buttons,ScriptOpeningButtonMorph>>bringUpToDate
+msgid "show or hide the script named {1} in the object named {2} "
+msgstr ""
+"ցուցադրել կամ թաքցնել {1} անվանումով ձեռագիրը {2} անվանումով օբյեկտի մեջ "
+
+#: Etoys-Calendar,CalendarMorph_class>>descriptionForPartsBin
+msgid "A scriptable calendar"
+msgstr ""
+
+#: Etoys-Calendar,CalendarMorph_class>>descriptionForPartsBin
+msgid "Calendar"
+msgstr "Օրացույց"
+
+#: Etoys-Calendar,CalendarMorph_class>>descriptionForPartsBin
+msgid "Just for Fun"
+msgstr "Զվարճանքի համար"
+
+#: Etoys-Experimental,EToyCommunicatorMorph_class>>instanceReport
+msgid "IP Address\\Project\\Owner"
+msgstr "IP Հասցե\\Ծրագիր\\Տնօրինող"
+
+#: Etoys-Experimental,EToyCommunicatorMorph_class>>instanceReport
+msgid "Sorted by"
+msgstr "Տեսակավորված ըստ"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>doPopUp:event:for:,EToyProjectDetailsMorph>>fillInDetails,EToyProjectDetailsMorph>>popUpEntryNamed:,EToyProjectDetailsMorph>>popUpEntryNamed:menuTitle:
+msgid "(none)"
+msgstr "(ոչինչ)"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>expandButton
+msgid "More"
+msgstr "Ավելի"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>expandButton
+msgid "Show more info on this project."
+msgstr "Ավելի շատ տեղեկություն ցուցադրել այս ծրագրի վերաբերյալ:"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Author"
+msgstr "Հեղինակ"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Description"
+msgstr "Նկարագրություն"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>fieldToDetailsMappings
+msgid "Tags"
+msgstr "Պիտակներ"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>rebuild
+msgid "Please describe this project"
+msgstr "Նկարագրեք այս ծրագիրը"
+
+#: Etoys-Experimental,EToyProjectDetailsMorph>>rebuild,EToyProjectQueryMorph>>rebuild
+msgid "Project Name"
+msgstr "Նախագծի Անունը"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph_class>>descriptionForPartsBin
+msgid "A tool that lets you navigate back to recently-visited projects"
+msgstr ""
+"Գործիք, որը թույլ է տալիս վերադառնալ /ետ նավարկել/ դեպի այցելած նախորդ "
+"ծրագրերը:"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph_class>>descriptionForPartsBin
+msgid "ProjectHistory"
+msgstr "Ծրագրի պատմությունը"
+
+#: Etoys-Experimental,EToyProjectHistoryMorph>>rebuild
+msgid "Jump..."
+msgstr "Անցնել հաջորդին"
+
+#: Etoys-Experimental,EToyProjectQueryMorph>>rebuild
+msgid "Enter things to search for"
+msgstr "Մուտքագրել որոնման ենթակա նյութի տվյալները:"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>cancelButton,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "Cancel"
+msgstr "Չեղարկել"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>cancelButton
+msgid "Cancel this Publish operation."
+msgstr "Չեղարկել «Հրատարակել» գործողությունը"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>fieldForProjectName
+msgid ""
+"Pick a name 24 characters or less and avoid the following characters:\n"
+"\n"
+" : < > | / \\ ? * \" ."
+msgstr ""
+"Մուտքագրեք 24 կամ պակաս նիշերից բաղկացած անուն: Խուսափեք հետևյալ նիշերից`: < "
+"> | / \\ ? * \" ."
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>okButton
+msgid "Change my name and continue publishing."
+msgstr "Փոխել անվանումս և շարունակել հրատարակումը:"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>okButton
+msgid "OK"
+msgstr "Ընդունել"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "I do need a name for the project"
+msgstr "Նխագծին անուն տալը պարտադիր է:"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName,EtoyLoginMorph>>doOK
+msgid "Please make the name 24 characters or less"
+msgstr "Անվանումը պետք է բաղկացած լինի առավելագույնը 24 նիշերից"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "Please remove any funny characters from the name"
+msgstr "Անվանումից հեռացնել անթույլատրելի նիշերը"
+
+#: Etoys-Experimental,EToyProjectRenamerMorph>>validateTheProjectName
+msgid "Sorry that name is already used"
+msgstr "Այդ անվանումն արդեն գոյություն ունի:"
+
+#: Etoys-Experimental,EtoyLoginMorph>>doOK
+msgid "Please enter your login name"
+msgstr "Մուտքագրեք Ձեր մուտքանունը"
+
+#: Etoys-Experimental,EtoyLoginMorph>>doOK
+msgid "Please remove any funny characters"
+msgstr "Հեռացրեք անթույլատրելի նիշերը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>borderPrototype:help:
+msgid "This border style cannot be used here"
+msgstr "Եզրագծի այս տեսակն այստեղ չի կարող կիրառվել:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneFor2ndGradientColorPicker
+msgid "2nd gradient color"
+msgstr "2-րդ աստիճանական գուներանգը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderColorPicker
+msgid "Border Color"
+msgstr "Եզրագծի գույնը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderColorPicker
+msgid "Border style"
+msgstr "Եզրագծի ոճը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex framed border"
+msgstr "\"Քլիք\" անել` ընտրելու համար ընդգծված բարդ եզրագիծը:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex inset border"
+msgstr "\"Քլիք\" անել` ընտրելու համար ներգծված բարդ եզրագիծը:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a complex raised border"
+msgstr "\"Քլիք\"` ընտրելու համար ուռուցիկ բարդ եզրագիծը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple colored border"
+msgstr "\"Քլիք\" անել` ընտրելու համար պարզ գունավորմամբ եզրագիծը:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple inset border"
+msgstr "\"Քլիք\" անել` ընտրելու համար պարզ, ներգծված եզրագիծը:"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderStyle
+msgid "Click to select a simple raised border"
+msgstr "\"Քլիք\" անել` ընտրելու համար պարզ, ուռուցիկ եզրագիզը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderWidth
+msgid "Border width"
+msgstr "Եզրագծի լայնքը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForBorderWidth
+msgid "Drag in here to change the border width"
+msgstr "Սահեցնելով տեղափոխել այստեղ` եզրագծի լայնքը փոխելու համար"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForCornerRoundingToggle
+msgid " Rounded corners"
+msgstr " Կլորեցված անկյուններ"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForCornerRoundingToggle
+msgid "Turn rounded corners on or off"
+msgstr "Ակտիվացնել/պասիվացնել կլորացված անկյունները"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForDropShadowToggle
+msgid " Drop shadow color"
+msgstr " ստվեր գցել գույնը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForDropShadowToggle
+msgid "Turn drop shadows on or off"
+msgstr "Ակտիվացնել/պասիվացնել ստվերային գույները"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientDirection
+msgid "Direction"
+msgstr "Ուղղություն"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientDirection
+msgid "Drag in here to change the direction of the gradient"
+msgstr ""
+"Սահեցնելով տեղափոխել այստեղ` աստիճանական գուներանգի ուղղությունը փոխելու "
+"համար"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientFillToggle
+msgid " Gradient fill"
+msgstr " աստիճանական ներկում"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientFillToggle
+msgid "Turn gradient fill on or off"
+msgstr "Ակտիվացնել/պասիվացնել աստիճանական գուներանգի լրացումը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientOrigin
+msgid "Drag in here to change the origin of the gradient"
+msgstr ""
+"Սահեցնելով տեղափոխել այստեղ` աստիճանական գուներանգի սկզբնաղբյուրը փոխելու "
+"համար"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForGradientOrigin
+msgid "Origin"
+msgstr "Սկզբնաղբյուր"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForLockedToggle
+msgid " Lock"
+msgstr " Արգելափակել"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForLockedToggle
+msgid "Turn lock on or off"
+msgstr "Ակտիվացնել/պասիվացնել արգելափակումը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForMainColorPicker
+msgid "Color"
+msgstr "Գույն"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForRadialGradientToggle
+msgid " Radial gradient"
+msgstr " Շառավղային գրադիենտ"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForRadialGradientToggle
+msgid "Turn radial gradient on or off"
+msgstr "Ակտիվացնել/պասիվացնել շառավղային գրադիենտը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForShadowOffset
+msgid "Drag in here to change the offset of the shadow"
+msgstr "Սահեցնել այստեղ` փոխելու համար ստվերի շարժը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForShadowOffset
+msgid "Offset"
+msgstr "Տեղաշարժ"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForSolidFillToggle
+msgid " Solid fill"
+msgstr " Հոծ ներկում"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForSolidFillToggle
+msgid "Turn solid fill on or off"
+msgstr "Միացնել կամ անջատել հոծ ներկումը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForStickinessToggle
+msgid " Sticky"
+msgstr " Կպչուն"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>paneForStickinessToggle
+msgid "Turn stickiness on or off"
+msgstr "Անջատել կամ միացնել կպչունությունը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons,ScriptableButton_class>>descriptionForPartsBin,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry
+msgid "Button"
+msgstr "Կոճակ"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "open a button properties panel for the morph"
+msgstr "Սեղմելել ձևույթի հատկանիշների վահանակի կոճակը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "open a text properties panel for the morph"
+msgstr "Սեղմելել ձևույթի տեքստի հատկանիշների վահանակի կոճակը"
+
+#: Etoys-Experimental,ObjectPropertiesMorph>>rebuildOptionalButtons
+msgid "Text"
+msgstr "Տեքստ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForApplyToWholeText
+msgid " Apply changes to entire text "
+msgstr " Կիրառել փոփոխություններն ամբողջ տեքստի համար: "
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForApplyToWholeText
+msgid "Whether to apply style changes to entire text or just selection"
+msgstr ""
+"Կիրառե±լ ոճի փոփոխությունն ամբողջ տեքստի թե միայն տեքստի նշված մասի համար:"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForAutoFitToggle
+msgid " Auto-Fit"
+msgstr " Ավտոմատ տեղավորում"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForAutoFitToggle
+msgid "Turn auto-fit on or off"
+msgstr "Միացնել կամ անջատել ավտոմատ տեղավորումը"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForMargins
+msgid "Drag in here to change the margins of the text"
+msgstr "Սահեցնել այստեղ` փոխելու համար տեքստի լուսանցքները"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForMargins
+msgid "Margins"
+msgstr "Լուսանցքներ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForTextColorPicker
+msgid "Text Color"
+msgstr "Տեքստի գույնը"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForWrappingToggle
+msgid " Wrapping"
+msgstr " ավտոմատ տեղափոխում"
+
+#: Etoys-Experimental,TextPropertiesMorph>>paneForWrappingToggle
+msgid "Turn line wrapping on or off"
+msgstr "միացնել կամ անջատել տեքստի ավտոմատ տեղափոխումը"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "B"
+msgstr "Բ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "bold text"
+msgstr "Թավ տեքստ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "decrease kern"
+msgstr "Փոքրացնել տառատեսակը"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "font changing"
+msgstr "Տառատեսակի փոփոխություն"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "I"
+msgstr "I"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "increase kern"
+msgstr "Մեծացնել տառատեսակը"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "italic text"
+msgstr "շեղատառ տեքստ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Kern+"
+msgstr "Չափերի մեծացում"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Kern-"
+msgstr "Չափերի փոքրացում"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Main"
+msgstr "Հիմնական"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "N"
+msgstr "Ն"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "n"
+msgstr "ն"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "narrow text"
+msgstr "Նեղ տեքստ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "normal text"
+msgstr "նորմալ տեքստ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "open a main properties panel for the morph"
+msgstr "Բացել ձևույթի հիմնական հատկանիշների վահանակը:"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "S"
+msgstr "Ս"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Size"
+msgstr "Չափս"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "Style"
+msgstr "Ոճ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "struck out text"
+msgstr "վրան գիծ քաշած տեքստ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "U"
+msgstr "ՈՒ"
+
+#: Etoys-Experimental,TextPropertiesMorph>>rebuild
+msgid "underlined text"
+msgstr "ընդգծված տեքստ"
+
+#: Etoys-Input,KeyPressMorph>>changeCurrentKey
+msgid "Press new key"
+msgstr "Սեղմել նոր ստեղն"
+
+#: Etoys-Input,KeyPressMorph>>rebuild
+msgid "Key:"
+msgstr "Ստեղն`"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "as object"
+msgstr "Որպես օբյեկտ"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "drag & drop"
+msgstr "Սահեցնել ու թողնել"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "fill & border"
+msgstr "Գունավորում և եզրագիծ"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "geometry"
+msgstr "Երկրաչափություն"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "layout"
+msgstr "Դասավորություն"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "miscellaneous"
+msgstr "Այլևայլ"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "more geometry"
+msgstr "Ավելի շատ երկրաչափություն"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "motion"
+msgstr "Շարժ"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "observation"
+msgstr "Դիտարկում"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "pen use"
+msgstr "Գրչի կիրառում"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "scripting"
+msgstr "Սցենարների կիրառում"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "scripts"
+msgstr "Սցենարներ"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "search"
+msgstr "Որոնել"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "sound"
+msgstr "Հնչյուն"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "tests"
+msgstr "Թեսթեր"
+
+#: Etoys-Protocols,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "variables"
+msgstr "Փոփոխականներ"
+
+#: Etoys-Protocols,EToyVocabulary_class>>vocabularySummary
+msgid "command"
+msgstr "Հրաման"
+
+#: Etoys-Protocols,EToyVocabulary_class>>vocabularySummary
+msgid "property"
+msgstr "Հատկանիշ"
+
+#: Etoys-Protocols-Type_Vocabularies,PlayerType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "tiles to get..."
+msgstr "Ձեռք բեվող մասնիկներ"
+
+#: Etoys-Protocols-Type_Vocabularies,ScriptNameType>>defaultArgumentTile
+msgid "empty script"
+msgstr "Դատարկ սցենար"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>addCustomMenuItems:hand:
+msgid "fine-tune the position of this watcher relative to its chosen attachment edge"
+msgstr "Կարգավորել այս դիտորդի դիրքը համաձայն իր ընտրած կցման եզրի"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>addCustomMenuItems:hand:
+msgid "offset (currently {1})"
+msgstr ""
+
+#: Etoys-Scripting_Support,FollowingWatcher>>attachmentEdgeString
+msgid "choose attachment edge (now {1})"
+msgstr "ընտրել կցման եզրը (այժմ{1})"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>chooseOffset,FollowingWatcher>>chooseOffset
+msgid "error"
+msgstr "սխալ"
+
+#: Etoys-Scripting_Support,FollowingWatcher>>chooseOffset
+#, fuzzy
+msgid "offset"
+msgstr "Տեղաշարժ"
+
+#: Etoys-Scripting_Support,WatcherWrapper>>buildReadout:,WatcherWrapper>>reconstituteName
+msgid "{1}'s {2}"
+msgstr "{1}-ը {2} է"
+
+#: Etoys-Scripting_Tiles,ColorTileMorph>>addColorSwatch,ColorTileMorph>>updateWordingToMatchVocabulary,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "color"
+msgstr "Գույն"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "No"
+msgstr "Ոչ"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "Test"
+msgstr "Թեսթ"
+
+#: Etoys-Scripting_Tiles,CompoundTileMorph>>initialize,PhraseTileForTest>>setupCostume,PhraseTileForTest>>setupCostume
+msgid "Yes"
+msgstr "Այո"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>setOperator:,PhraseTileMorph>>justDroppedInto:event:
+msgid "parenthesized"
+msgstr "Փակագծերում"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "enclose within parentheses"
+msgstr "Դնել փակագծերում"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "parentheses"
+msgstr "Փակագծեր"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions,FunctionTile>>addCustomMenuItems:hand:
+msgid "remove function"
+msgstr "հեռացնել գործառույթը"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "remove parentheses"
+msgstr "հեռացնել փակագծերը"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "strip away the function call, leaving just its former argument in its place"
+msgstr ""
+"Հեռացնել գործառույթի գործարկումը` միայն նախկին փաստարկը թողնելով իր տեղում:"
+
+#: Etoys-Scripting_Tiles,FunctionNameTile>>showOptions
+msgid "strip away the parenthesises"
+msgstr "Դեն նետել փակագծերը"
+
+#: Etoys-Scripting_Tiles,FunctionTile_class>>defaultNameStemForInstances
+msgid "Function"
+msgstr "Գործառույթ"
+
+#: Etoys-Scripting_Tiles,MenuTile>>initialize
+msgid "send to back"
+msgstr "Հետին պլան ուղարկել"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "A number readout for a Stack.  Shows current value.  Click and type the value."
+msgstr ""
+"օպերատիվ հիշողության արատացոլում... ցույց է տալիս ներկայիս արժեքը.... սեղմել "
+"և տպել արժեքը"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "A number readout for a Stack.  Shows current value.  Click and type the value.  Shift-click on title to edit."
+msgstr ""
+"օպերատիվ հիշողության արատացոլում... ցույց է տալիս ներկայիս արժեքը.... սեղմել "
+"և տպել արժեքը սեղմեք Shift և վերնագիրը` փոխելու համար"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (bare)"
+msgstr "(սովորական) Թիվ"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (fancy)"
+msgstr "(գեղեցիկ) Թիվ"
+
+#: Etoys-Scripting_Tiles,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Number (mid)"
+msgstr "(միջին) Թիվ"
+
+#: Etoys-Scripting_Tiles,ParameterTile>>bePossessive
+msgid "Player"
+msgstr "խաղացող"
+
+#: Etoys-Scripting_Tiles,ParameterTile>>bePossessive,TileMorph>>bePossessive,TileMorph>>emblazonPlayerNameOnReferenceTileWithin:,TileMorph>>retargetFrom:to:
+msgid "'s"
+msgstr "ապաթարց"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTest>>mouseDown:,ScriptEditorMorph>>addYesNoToHand
+msgid "TestTile"
+msgstr "պատուհանիկի փորձարկում"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>mouseDown:
+msgid "Repeat Tile"
+msgstr "կրկնել պատուհանիկը"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>setupCostume,PhraseTileForTimesRepeat>>setupCostume,TimesRepeatMorph>>initialize,TimesRepeatTile>>localeChanged,TimesRow>>initialize
+msgid "Repeat"
+msgstr "կրկնել"
+
+#: Etoys-Scripting_Tiles,PhraseTileForTimesRepeat>>setupCostume,PhraseTileForTimesRepeat>>setupCostume
+msgid "Times"
+msgstr "անգամ"
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph_class>>defaultNameStemForInstances
+msgid "PhraseTile"
+msgstr "արտահայտությունների պատուհանիկ"
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph>>addCustomMenuItems:hand:
+msgid "Sprout a new scriptor around this phrase"
+msgstr "նոր սկրիպտոր բացել այս արտահայտության համար"
+
+#: Etoys-Scripting_Tiles,PhraseTileMorph>>try
+msgid "evaluation error"
+msgstr "գնահատման սխալ"
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "A random-number tile for use with tile scripting"
+msgstr ""
+"Պատահական թվով խճանկարի տարր` ինտերպրետացվող ծրագրում օգտագործելու համար"
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "A tile that will produce a random number in a given range"
+msgstr "պատուհան, որ առաջացնում է պատահական թիվ տրված միջակայքում"
+
+#: Etoys-Scripting_Tiles,RandomNumberTile_class>>registerInFlapsRegistry,RandomNumberTile_class>>registerInFlapsRegistry
+msgid "Random"
+msgstr "Պատահական"
+
+#: Etoys-Scripting_Tiles,ScriptNameTile>>adjustHelpMessage
+msgid "The name of the script to which this operation applies"
+msgstr "այն տառատեսակի անունը, որին վերաբերում է այս գործողությունը"
+
+#: Etoys-Scripting_Tiles,TileMorph_class>>defaultNameStemForInstances
+msgid "Tile"
+msgstr "պատուհանիկ"
+
+#: Etoys-Scripting_Tiles,TileMorph>>addCustomMenuItems:hand:
+msgid "hand me this object"
+msgstr "փոխանցել օբյեկտը"
+
+#: Etoys-Scripting_Tiles,TileMorph>>addCustomMenuItems:hand:
+msgid "This tile refers to an actual graphical object; use this menu item to grab that object.  Caution!  This may remove the object from a place it really ought to stay."
+msgstr ""
+"այս պատուհանիկը վերաբերում է ներկայիս գրաֆիկական օբյեկտին, օգտվեք մենյու այս "
+"գործիքից օբյեկտը վերցնելու համար: Ուշադրույթյուն. Սա կարող է օբյեկտը "
+"հեռացնել այն տեղից, որտեղ նա պետք է մնար:"
+
+#: Etoys-Scripting_Tiles,TileMorph>>options
+msgid "false"
+msgstr "սխալ"
+
+#: Etoys-Scripting_Tiles,TileMorph>>options
+msgid "true"
+msgstr "ճիշտ"
+
+#: Etoys-Scripting_Tiles,TilePadMorph>>addCustomMenuItems:hand:
+msgid "place in a function"
+msgstr "տեղադրել գործառույթի մեջ"
+
+#: Etoys-Scripting_Tiles,TilePadMorph>>addCustomMenuItems:hand:
+msgid "restore default tile"
+msgstr "վերականգնել ավտոմատ պատուհանիկը"
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>initialize,TimesRepeatTile>>localeChanged
+msgid "Do"
+msgstr "Կատարել"
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>initialize
+msgid "Script to repeat"
+msgstr "կրկնել գրատեսակը"
+
+#: Etoys-Scripting_Tiles,TimesRepeatTile>>localeChanged,TimesRow>>initialize
+msgid "times"
+msgstr "անգամ"
+
+#: Etoys-Scripting_Tiles,TypeListTile>>addCustomMenuItems:hand:
+msgid "choose type..."
+msgstr "ընտրել տեսակը"
+
+#: Etoys-Scripting_Tiles,TypeListTile>>addMenuIcon
+msgid "click here to choose a new type for this parameter"
+msgstr "ընտրել նոր տեսակ այս չափանիշի համար"
+
+#: Etoys-Scripting_Tiles,ViewerLine>>addCustomMenuItems:hand:
+msgid "show categories"
+msgstr "ցուցադրել կարգերը"
+
+#: Etoys-Scripting,AllPlayersTool_class>>descriptionForPartsBin
+msgid "A tool showing all the players in your project"
+msgstr "Ցուցադրել ընթացիկ ծրագրի բոլոր մասնակիցներին"
+
+#: Etoys-Scripting,AllPlayersTool_class>>descriptionForPartsBin,AllScriptsTool_class>>descriptionForPartsBin,ScriptableButton_class>>descriptionForPartsBin
+msgid "Scripting"
+msgstr "Տառատեսակներ"
+
+#: Etoys-Scripting,AllPlayersTool>>addCustomMenuItems:hand:
+msgid "inspect"
+msgstr "զննել"
+
+#: Etoys-Scripting,AllPlayersTool>>addCustomMenuItems:hand:
+msgid "reinvigorate"
+msgstr "վերականգնել"
+
+#: Etoys-Scripting,AllPlayersTool>>addHeaderRow
+msgid "Players in this Project"
+msgstr "Ընթացիկ ծրագրի դերակատարների ցուցակը"
+
+#: Etoys-Scripting,AllPlayersTool>>helpString
+msgid ""
+"Each row represents an object, or \"player\" in the project.\n"
+"Click on the menu icon to get a menu of options concerning the player.\n"
+"Click on a player's picture to reveal its location.\n"
+"Click on the turquoise eye to open the player's viewer.\n"
+"Click on a player's name to obtain a tile representing it."
+msgstr ""
+"Յուրաքանչյուր շարք ներկայացնում է մեկ առարկա, կամ «դերակատար»\n"
+"Սեղմեք ընտրացանկի պատկերակի վրա` դերակատարների բնութագրերը ձեոք բերելու "
+"համար\n"
+"Սեղմեք «դերակատար»-ի պատկերի վրա` նրա գտնվելու վայրը պարզելու համար.\n"
+"Սեղմեք կապույտ աչքի վրա`«դերակատար»-ի առանձնահատկությունները տեսնելու համար\n"
+"Սեղմեք «դերակատար»-ի անվան վրա` նրան ներկայացնող խճանկարը ձեռք բերելու "
+"համար:"
+
+#: Etoys-Scripting,AllPlayersTool>>presentHelp,AllPlayersTool_class>>defaultNameStemForInstances,AllPlayersTool_class>>descriptionForPartsBin
+msgid "Players"
+msgstr "\"Դերակատարներ\""
+
+#: Etoys-Scripting,AllPlayersTool>>presentHelp
+msgid ""
+"\n"
+"Each row represents an object, or \"player\" in the project.\n"
+"Click on the menu icon to get a menu of options concerning the player.\n"
+"Click on a player's picture to reveal its location.\n"
+"Click on the turquoise eye to open the player's viewer.\n"
+"Click on a player's name to obtain a tile representing it."
+msgstr ""
+"\n"
+"Յուրաքանչյուր շարք ներկայացնում է մեկ առարկա, կերպար կամ «դերակատար»\n"
+"Սեղմեք ընտրացանկի պատկերակի վրա` դերակատարի բնութագրերը ձեոք բերելու համար\n"
+"Սեղմեք դերակատարի պատկերի վրա` նրա գտնվելու վայրը պարզաբանելու համար.\n"
+"Սեղմեք կապույտ աչքի վրա` դերակատարի/կերպարի առանձնահատկությունները տեսնելու "
+"համար\n"
+"Սեղմեք կերպարի անվան վրա` նրան ներկայացնող խճանկարը ձեռք բերելու համար:"
+
+#: Etoys-Scripting,AllScriptsTool_class>>descriptionForPartsBin
+msgid "A tool allowing you to monitor and change the status of all scripts in your project"
+msgstr ""
+"Գործիք, որը թույլ է տալիս ստուգել և փոխել ընթացիկ ծրագրի բոլոր սցենարների "
+"կարգավիճակը"
+
+#: Etoys-Scripting,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "A tool that lets you control all the running scripts in your world"
+msgstr ""
+"Գործիք, որը թույլ է տալիս հսկել ձեր աշխարհում գործարկվող բոլոր սցենարները"
+
+#: Etoys-Scripting,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "A tool that lets you see and control all the running scripts in your project"
+msgstr ""
+"Գործիք, որը թույլ է տալիս տեսենլ և հսկել ընթացիկ ծրագրում գործարկվող բոլոր "
+"սցենարները"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "all instances"
+msgstr "բոլոր պահերը"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "If checked, then entries for all instances will be shown, but if not checked, scripts for only one representative of each different kind of object will be shown.  Consult the help available by clicking on the purple ? for more information."
+msgstr ""
+"նշված լինելու դեպքում ցույց է տալիս բոլոր մուտքագրումները, իսկ նշված "
+"չլինելու դեպքում` միայն յուրաքանչյուր օբյեկտի տեսակի մի ներկայացուցչին: "
+"Լրացուցիչ տեղեկության համար սեղմեք հարցական նշանով մանուշակագույն կոճակը:"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "If checked, then only scripts that are paused or ticking will be shown"
+msgstr ""
+"Նշված լինելու դեպքում ցույց է տալիս միայն դադարի մեջ գտնվող կամ գործարկվող "
+"սցենարը:"
+
+#: Etoys-Scripting,AllScriptsTool>>addSecondLineOfControls
+msgid "tickers only"
+msgstr "միայն բաբախողները"
+
+#: Etoys-Scripting,AllScriptsTool>>dismissButton
+msgid "Click here to remove this tool from the screen; you can get another one any time you want from the Widgets flap"
+msgstr ""
+"Սեղմեք` այս գործիքն էկրանից հեռացնելու համար: Կարող եք ձեռք բերել ցանկացած "
+"այլ գործիք \"Widgets\" էջանշանից:"
+
+#: Etoys-Scripting,AllScriptsTool>>helpString
+msgid ""
+"This tool allows you to see all the scripts for all the objects in this project.\n"
+"\n"
+"Sometimes you are only interested in those scripts that are ticking, or that are *ready* to tick when you hit the GO button (which are said to be \"paused.\")\n"
+"\n"
+"* Check \"tickers only\" if you only want to see such scripts -- i.e., scripts that are either paused or ticking.\n"
+"\n"
+"* If \"tickers only\" is *not* checked, then all scripts will be shown, whatever their status.\n"
+"\n"
+"* The other checkbox, labeled \"all instances\", only comes into play if you have created \"multiple sibling instances\" (good grief) of the same object, which share the same scripts; if you have such things, it is often convenient to see the scripts of just *one* such sibling, because it will take up less space and require less mindshare -- and note that you can control a script for an object *and* all its siblings from the menu of that one that you see, via menu items such as \"propagate status to siblings\".\n"
+"\n"
+"* If \"all instances\" is checked, scripts for all sibling instances will be shown, whereas if \"all instances\" is *not* checked, only one of each group of siblings will be selected to have its scripts shown.\n"
+"\n"
+"But how do you get \"multiple sibling instances\" of the same object?  There are several ways:\n"
+"\n"
+"(1)  Use the \"make a sibling instance\" or the \"make multiple siblings...\" menu item in the halo menu of a scripted object.\n"
+"\n"
+"(2)  Use the \"copy\" tile in a script.\n"
+"\n"
+"(3)  Request \"give me a copy now\" from the menu associated with the \"copy\" item in a Viewer.\n"
+"\n"
+"If you have on your screen multiple sibling instances of the same object, then you may or may want to see them all in the All Scripts tool, and that is what the \"all instances\" checkbox governs.\n"
+"\n"
+"Set \"all instances\" if you want a separate entry for each instance, as\n"
+"opposed to a single representative of that kind of object.\n"
+"\n"
+"Note that if you obtain a copy of an object by using the green halo handle, it will *not* be a sibling instance of the original.  It will in many ways seem to be, because it will start out its life having the same scripts as the original.  But it will then lead an independent life, so that changes to scripts of the original will not be reflected in it, and vice-versa.\n"
+"\n"
+"This is an important distinction, and an unavoidable one because people sometimes want the deep sharing of sibling instances and sometimes they clearly do not.  But the truly understandable description of these concepts and distinctions certainly lies *ahead* of us!"
+msgstr ""
+"Այս գործիքը թույլ է տալիս տեսնել սույն ծրագրի բոլոր առարկաների գործարկվող "
+"սցենարները:\n"
+"\n"
+"Երբեմն հետաքրքրում են միայն այն սցենարները, որոնք դեռ գործարկվում են կամ "
+"որոնք, երբ սեղմում ես GO կոճակը, \"պատրաստ\" են գործարկվել (որոնց մասին "
+"հայտնված է, որ գտնվում է \"դադարի մեջ\",)\n"
+"\n"
+"Ստուգել միայն գործարկվողնները\", եթե ցանկանում եք տեսնել այս տիպի սցենարները, "
+"այսինք` այն սցենարները, որոնք կամ գործարկման մեջ են կամ դադարի վիճակում:\n"
+"\n"
+"*Եթե \"Միայն գործարկվողները\" նշված չեն, ապա բոլոր օբյեկտներն էլ կցուցադրվեն, "
+"անկախ դրանց կարգավիճակից: \n"
+"* Հաջորդ \"ստուգման վանդակը\", \"բոլոր օրինակները\" պիտակով, հայտնվում է միայև "
+"այն դեպքում եթե նույն օբյեկտի համար ստեղծել եք բազմակի նմանակներ, որոնք "
+"կիսում են նույն սցենարը: Եթե նման բան կա, ապա հաճախ հարմար է տեսնել  միայն "
+"մեկ \"նմանակի\" սցենարը, քանի որ դա ավելի քիչ տարածք կզբաղացնի և ավելի քիչ "
+"հիշողություն է պահանջում: Նաև նկատի ունեցեք, որ կարող եք կարգավորել օբյեկտի "
+"*և* նրա բոլոր նմանակների սցենարը  Ձեր համար տեսանելի  ցանկի այնպիսի տարրերի "
+"միջոցով, ինչպիսիք են \"տարածել կարգավիճակը նմանակների վրա\" n\n"
+"Եթե նշված են \"բոլոր օրինակները\"` կերևան բոլոր նմանակների սցենարները, "
+"մինչդեռ, եթե բոլոր օրինակները\" նշված չեն, ապա կընտրվի նմանակների միայն մեկ "
+"խումբ, որի սցենարն էլ կերևա n\n"
+"բայց ինչպե՞ս կարելի է ստանալ միևնույն օբյեկտի բազմակի նմանակներ: Կա մի քանի "
+"եղանակ. \n"
+"\n"
+"(1) Կիրառել սցենար ունեցող օբյեկտի \"գործիքապսակի\"  ցանկից  \"ստեղծել "
+"նմանանակներ\" կամ \"ստեղծել բազմակի նմանակներ\" կոճակները\n"
+"\n"
+"(2) Կիրառել սցենարի  \"պատճենել\"  աղյուսիկը /մասնիկը/n\n"
+"(3) \"Դիտարկել\" ցանկից  \"պատճենել\" գործիքի միջոցով պահանջեք. \"պատճենել հիմա\" \n"
+"\n"
+"Եթե էկրանին ունեք միևնույն օբյեկտի բազմակի նմանակներ ապա կարող եք, կամ` "
+"կարող է ցանկություն ունենաք, դրանք բոլորը տեսնել \"Բոլոր սցենարերը\" բաժնում, "
+"և սա հենց այն է, ինչը  կարգավորվում է  \"բոլոր օրինակներ\" վանդակի միջոցով \n"
+"\n"
+"Սահմանել 'բոլոր օրինակները\", եթե ցանկանում ենք առանձին մուտքագրել բոլոր "
+"օրինակները \n"
+" ի հակադրություն տվյալ տեսակի օբյեկտի  եզակի ներկայացուցչի\n"
+"\n"
+"Նկատի ունեցեք, որ եթե օբյեկտի պատճեն ձեռք եք բերել տվյալ օբյեկտի շուրջ "
+"բացվող գորխիքների շրջանակի` \"գործիքապսակի\" կանաչ կոճակի միջոցով, ապա այն  "
+"բնօրինակին բացարձակ նմանակ չի լինի: Շատ առումներով  այն նմանակի հատկանիշներ "
+"կունենա, քանի որ սկզբում  կկործի նույն սցենարով, ինչով որ գործում է  "
+"բնօրինակը, սակայն հետագայում  ինքնուրույն կյանք կունենա և բնօրինակի սցենարի "
+"փոփոխությունը  չի անդրադառնա նրա վրա և` հակառակը \n"
+"\n"
+"Սա կարևոր տարբերակիչ հատկանիշ է, որից հնարավոր չէ խուսափել, քանի որ մարդիկ "
+"երբեմն ցանկանում են, որ նմանակները շատ խիստ ընդհանրություններ ունենան և "
+"երբեմն` ոչ: Սակայն այս հասկացությունների և  տարբերությունների լիովին "
+"հասկանալի նկարագրությունը դեռ *առջևում է*:"
+
+#: Etoys-Scripting,AllScriptsTool>>openUpButton
+msgid "open or close the lower portion that shows individual scripts"
+msgstr "Բացել կամ փակել ստորին մասը, որը ցուցադրում է անհատական սցենարները"
+
+#: Etoys-Scripting,AllScriptsTool>>presentHelp,AllScriptsTool_class>>defaultNameStemForInstances,AllScriptsTool_class>>descriptionForPartsBin,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry,AllScriptsTool_class>>registerInFlapsRegistry
+msgid "All Scripts"
+msgstr "Բոլոր սցենարները"
+
+#: Etoys-Scripting,CategoryViewer>>addHeaderMorph
+msgid ""
+"remove this pane from the screen\n"
+"don't worry -- nothing will be lost!"
+msgstr ""
+"Հեռացնել այս վահանակը էկրանից\n"
+"Մի անհանգստացեք-- ոչինչ չի կորչի"
+
+#: Etoys-Scripting,CategoryViewer>>arrowSetterButtonFor:type:,CategoryViewer>>arrowSetterButton:args:
+msgid "drag from here to obtain an assignment phrase."
+msgstr ""
+"սահեցնելով տեղափոխել այստեղից` վերագրված արտահայտությունը ձեռք բերելու համար"
+
+#: Etoys-Scripting,CategoryViewer>>chooseCategory
+msgid "category"
+msgstr "կարգը"
+
+#: Etoys-Scripting,CategoryViewer>>currentCategory,EToyVocabulary_class>>masterOrderingOfCategorySymbols
+msgid "basic"
+msgstr "Հիմնական"
+
+#: Etoys-Scripting,CategoryViewer>>infoButtonFor:,PlayerSurrogate>>rebuildRow
+msgid "Press here to get a menu"
+msgstr "Սեղմեք`ցանկը տեսնելու համար"
+
+#: Etoys-Scripting,CategoryViewer>>phraseForCommandFrom:
+msgid ""
+"drag and drop to \n"
+"add a new script"
+msgstr ""
+"սահեցնել և բաց թողնել` \n"
+"նոր սցենար ավելացնելու համար"
+
+#: Etoys-Scripting,CategoryViewer>>phraseForTest
+msgid "Press here to tear off a TEST/YES/NO unit which you can drop into your script"
+msgstr ""
+"Սեղմեք այստեղ` ՓՈՐՁԱՐԿՈՒՄ/ԱՅՈ/ՈՉ միավորումը ձեր սցենարում տեղադրելու համար"
+
+#: Etoys-Scripting,CategoryViewer>>phraseForTimesRepeat
+msgid "Drag here to tear off a Repeat/Times unit which you can drop into your script"
+msgstr ""
+"Սահեցնել և բաց թողնելայստեղ ԿՐԿՆԵԼ/ԱՆԳԱՄՆԵՐ միավորը, որը կարող եք տեղադրել "
+"սցենարում"
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "can be found in the following categories"
+msgstr "կարող է գտնվել հետևյալ կարգերում"
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "is in the following category"
+msgstr "գտնվում է հետևյալ կարգում"
+
+#: Etoys-Scripting,CategoryViewer>>showCategoriesFor:
+msgid "this tile is not actually suitable for use with this kind of object"
+msgstr "այս մասնիկը չի համապատասխանում այս տիպի կերպարներին"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile holding a plain number"
+msgstr "պարզ թիվ պարունակող մասնիկ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile representing a function call.  Click on the function name or the arrows to change functions."
+msgstr ""
+"Գործառույթի կիրառման մասնիկ:  Սեղմել գործառույթի անվանման կամ սլաքների վրա` "
+"գործառույթը փոխելու համար:"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile representing the object being scripted"
+msgstr "սցենարագրման ենթակա կերպարը ներկայացնող մասնիկ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "A tile that will produce a random number in a given range."
+msgstr "տվյալ շարքում պատահական թիվ բերող մասնիկ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,ScriptEditorMorph>>handUserButtonDownTile,StandardScriptingSystem>>anyButtonPressedTiles,StandardScriptingSystem>>buttonDownTile
+msgid "button down?"
+msgstr "կոճակը սեղմվա՞ծ է"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,ScriptEditorMorph>>handUserButtonUpTile,StandardScriptingSystem>>buttonUpTile,StandardScriptingSystem>>noButtonPressedTiles
+msgid "button up?"
+msgstr "կոճակն անջատվա՞ծ է"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "function"
+msgstr "գործառույթ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Gold Box"
+msgstr "Ոսկու տուփ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "number"
+msgstr "թիվ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Reports whether the mouse button is down"
+msgstr "ցույց է տալիս արդյոք մկնիկի ստեղնը սեղմված է թե ոչ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Reports whether the mouse button is up"
+msgstr "ցույց է տալիս արդյոք մկնիկի կոճակն անջատված է թե ոչ"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:,RandomNumberTile>>initialize,RandomNumberTile>>updateWordingToMatchVocabulary
+msgid "random"
+msgstr "Պատահական"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "repeat"
+msgstr "կրկնել"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "Test/Yes/No panes for testing a condition."
+msgstr "Փորձարկում/Այո/Ոչ վահանակ պայմանների ստուգման համար"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "TimesRepeat panes for running a section of code repeatedly."
+msgstr "Կրկնության վահանակ կոդերի բաժինը հաճախակի գործարկելու համար"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "test"
+msgstr "փորձարկում"
+
+#: Etoys-Scripting,GoldBoxMenu>>initializeFor:
+msgid "tile for me"
+msgstr "մասնիկ ինձ համար"
+
+#: Etoys-Scripting,MethodMorph_class>>defaultNameStemForInstances
+msgid "Method"
+msgstr "մեթոդ"
+
+#: Etoys-Scripting,ModifyVariableDialogMorph>>title
+msgid "Modify variable"
+msgstr "փոխել փոփոխական մեծությունը"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>addDecimalPlaces
+msgid "Decimal places:"
+msgstr "տասնորդական տեղեր`"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>askUserForDecimalPlaces,Player>>setPrecisionFor:
+msgid "How many decimal places? (currently {1})"
+msgstr "Քանի՞ տասնորդական (ներկայումս {1})"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>askUserForNewType
+msgid ""
+"Choose the TYPE\n"
+"for {1}\n"
+msgstr ""
+"Ընտրել ՏԵՍԱԿԸ \n"
+" {1}-ի \n"
+" համար\n"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>askUserForNewType
+msgid ""
+"\n"
+"(currently {2})"
+msgstr ""
+"\n"
+"(ներկայումս {2})"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "Accept"
+msgstr "Ընդունել"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "cancel changes made and close panel"
+msgstr "Չեղարկել կատարված փոփոխությունները և փակել վահանակը"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild,TextPropertiesMorph>>rebuild
+msgid "keep changes made and close panel"
+msgstr "Պահպանել կատարված փոփոխությունները և փակել վահանակը"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild
+msgid "Name:"
+msgstr "Անուն`"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>rebuild
+msgid "Type:"
+msgstr "Տեսակը`"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>title
+msgid "Add new variable"
+msgstr "Ավելացնել նոր փոփոխական"
+
+#: Etoys-Scripting,NewVariableDialogMorph>>varName
+msgid "var"
+msgstr "փոփոխական"
+
+#: Etoys-Scripting,Player>>addIdiosyncraticMenuItemsTo:forSlotSymol:
+msgid "give me a copy now"
+msgstr "պատճենել հիմա"
+
+#: Etoys-Scripting,Player>>addIdiosyncraticMenuItemsTo:forSlotSymol:
+msgid "hand me a picture of pen trail"
+msgstr "ցույց տալ գրչահետքի պատկերը"
+
+#: Etoys-Scripting,Player>>basicBeNotZero:
+msgid ""
+"Dividing by zero makes a number too\n"
+"large for even a Sorcerer to handle.\n"
+"Please change your script."
+msgstr ""
+"Զրոյի չի կարելի բաժանել: Տեսականորեն`արդյունքում անսահմանություն է\n"
+"Խնդրում ենք փոխել սցենարը"
+
+#: Etoys-Scripting,Player>>basicRemoveSlotNamed:
+msgid ""
+"Caution!  There may be scripts belonging to\n"
+"other objects that may rely on the presence of\n"
+"this variable.  If there are, they may now be broken.\n"
+"You may need to fix them up manually."
+msgstr ""
+"Ուշադրություն, կարող են լինել\n"
+"այլ օբյեկտներին պատկանող սցենարներ, որոնք կախված են այլ փոփոխկանների "
+"առկայությունից \n"
+"Եթե այդպիսիք կան, կարող են վնասվել\n"
+"և կարիք կլինի ձեռքով վերականգնել դրանք:"
+
+#: Etoys-Scripting,Player>>basicRemoveSlotNamed:
+msgid ""
+"Sorry, {1} is in\n"
+"use in a script."
+msgstr ""
+"Կներեք, {1}-ը \n"
+"կիրառված է սցենարում"
+
+#: Etoys-Scripting,Player>>basicRenameSlot:newSlotName:
+msgid "Caution!  References in textually-coded scripts won't be renamed."
+msgstr ""
+"Ուշադրություն,  տեքստային կոդավորմամբ սցենաարներին վերաբերվող հղումները չեն "
+"վերանվանվում"
+
+#: Etoys-Scripting,Player>>beNotZero:
+msgid ""
+"Dividing by zero makes a number too\n"
+"\t\t\t\tlarge for even a Sorcerer to handle.\n"
+"\t\t\t\tPlease change your script."
+msgstr ""
+"Զրոյի չի կարելի բաժանել: Տեսականորեն` արդյունքում \n"
+"անսահմանություն է ստացվում \n"
+"\t\t\tԽնդրում ենք փոխել սցենարը"
+
+#: Etoys-Scripting,Player>>changeParameterTypeFor:
+msgid ""
+"Choose the TYPE\n"
+"for the parameter (currently {1})"
+msgstr ""
+"Ընտրել ցուցանշի ՏԵՍԱԿԸ \n"
+" (ներկայումս {1})"
+
+#: Etoys-Scripting,Player>>chooseUserSlot
+msgid "Please choose a variable"
+msgstr "Ընտրեք փոփոխականը"
+
+#: Etoys-Scripting,Player>>defaultScriptName
+msgid "script"
+msgstr "սցենար"
+
+#: Etoys-Scripting,Player>>handUserPictureOfPenTrail
+msgid "no pen trails present"
+msgstr "գրչահետքեր չկան"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "add parameter"
+msgstr "ավելացնել պարամետր"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "button to fire this script"
+msgstr "սցենարի գործարկման կոճակ"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "destroy \""
+msgstr "ոչնչացնել\""
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "edit balloon help"
+msgstr "խմբագրել \"հուշող\" պղպջակի տեքստը"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,Player>>slotInfoButtonHitFor:inViewer:
+msgid "ok"
+msgstr "լավ"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "remove parameter"
+msgstr "ջնջել ցուցանիշը"
+
+#: Etoys-Scripting,Player>>infoFor:inViewer:
+msgid "rename  \""
+msgstr "վերանվանել  \""
+
+#: Etoys-Scripting,Player>>methodInterfacesForInstanceVariablesCategoryIn:
+msgid "a variable defined by this object"
+msgstr "այս օբյեկտի կողմից սահմանված փոփոխական"
+
+#: Etoys-Scripting,Player>>newCostume
+msgid "choose a costume"
+msgstr "ընտրել հանդերձը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "attempt repairs"
+msgstr "փորձել վերականգնել"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "browse class"
+msgstr "թերթել դասը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "Choose a different vocabulary for this Viewer."
+msgstr "Այս Դիտարկիչի համար ընտրել այլ բառարան"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "choose limit class..."
+msgstr "ընտրել սահմանափակման դասը/տիպը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "choose vocabulary..."
+msgstr "ընտրել բառարանը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "destroy all this object's scripts"
+msgstr "ջնջել օբյեկտի բոլոր սցենարները"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "expunge empty scripts"
+msgstr "ջնջել դատարկ սցենարները"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "forget other costumes"
+msgstr "մոռանալ մյուս հանդերձները"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "impart scripts to..."
+msgstr "փոխանցել սցենարները ...ին"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect class"
+msgstr "զննել դասը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "inspect morph"
+msgstr "զննել ձևույթը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "inspect player"
+msgstr "զննել \"դերակատարին\""
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect this Viewer"
+msgstr "զննել այս Դիտարկիչը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "inspect this Vocabulary"
+msgstr "զննել Բառարանը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open a lexicon that has a type-in pane for search (not recommended!)"
+msgstr ""
+"բացանել բառապաշարը, որն ունի մուտքագրման հնարավորությամբ որոնման վահանակ "
+"(խորհուրդ չի տրվում)"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open a window that shows the code for this object in traditional programmer format"
+msgstr ""
+"բացել պատուհան, որն այս օբյեկտի կոդը ցուցադրի ծրագրավորման ավանդական ձևով"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open lexicon with search pane"
+msgstr "բացել բառապաշարը որոնման վահանակի միջոցով"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "open standard lexicon"
+msgstr "բացել ստանդարտ բառապաշարը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "opens a Viewer directly on the rendered morph."
+msgstr "Մի դիտարկիչ բացել անմիջականորեն երևացող ձևույթի վրա:"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "relaunch this Viewer"
+msgstr "Վերագործարկել Դիտարկիչը"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "Specify what the limitClass should be for this Viewer -- i.e., the most generic class whose methods and categories should be considered here."
+msgstr ""
+"Պարզաբանել թե որն է այս Դիտարկիչի սահմանափակիչ դաս. Օրինակ` ամենաընդհանրական "
+"դասը, որի մեթոդներն ու կարգերը պետք է հաշվի առնվեն այստեղ"
+
+#: Etoys-Scripting,Player>>offerAlternateViewerMenuFor:event:
+msgid "view morph directly"
+msgstr "ուղղակիորեն դիտարկել ձևույթը"
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid ""
+"Choose the datum\n"
+"you want to extract from {1}'s {2}"
+msgstr ""
+"Ընտրել այն տվյալը\n"
+"որ ուզում եք արտահանել{2}-ի {1}ից"
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid ""
+"Choose the TYPE\n"
+"of data to get from\n"
+"{1}'s {2}"
+msgstr ""
+"Ընտրել այն ՏԵՍԱԿԸ \n"
+"որ ուզում եք ստանալ{2}-ի {1}ից"
+
+#: Etoys-Scripting,Player>>offerGetterTiles:
+msgid "sorry -- no variables of that type are available in this object"
+msgstr "ներողություն -- այդ տեսակի ոչ մի փոփոխական հասանելի չէ այս օբյեկտում"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "Add a new script that will work for this object and all of its siblings"
+msgstr "Ավելացնել նոր սցենար այս օբյեկտի և նրա բոլոր նմանակների համար"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "Add a new variable to this object and all of its siblings.  You will be asked to supply a name for it."
+msgstr ""
+"Ավելացնել նոր փոփոխական այս օբյեկտի և նրա բոլոր նմանակների համար:  Ձեզ պետք "
+"է անուն մտածել դրա համար:"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a new script"
+msgstr "ավելացնել նոր սցենար"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a new variable"
+msgstr "ավելացնել նոր փոփոխական"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "add a search pane"
+msgstr "ավելացնելորոնման վահանակ"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "choose this to obtain a tile which represents the object associated with this script"
+msgstr ""
+"Սեղմել այստեղ նոր մասնիկ ստանալու համար, որ ցույց կտա սցենարին առնչվող "
+"օբյեկտ"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "grab this object"
+msgstr "վերցնել և քաշել այս օբյեկտը"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "If you have misplaced the object that this Viewer is looking at, use this item to (try to) make it visible"
+msgstr ""
+"Եթե սխալ եք տեղադրել այն օբյեկտը, որին \"նայում\" է դիտարկիչը` օգտվեք այս "
+"գործիքից այն (փորձել) տեսանելի դարձնելու համար"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptInstantiation>>offerMenuIn:
+msgid "more..."
+msgstr "ավելի..."
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "reveal this object"
+msgstr "ցույց տալ այս օբյեկտը"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:
+msgid "This will actually pick up the object this Viewer is looking at, and hand it to you.  Click the (left) button to drop it"
+msgstr ""
+"Սա կվերցնի այն օբյեկտը, որին նայում  է դիտարկիչը և կհանձնի Ձեզ: Սեղմեք (ձախ) "
+"կոճակը այն բաց թողնելու համար"
+
+#: Etoys-Scripting,Player>>offerViewerMenuFor:event:,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "tile representing this object"
+msgstr "Այս օբյեկտը ներկայացնող մասնիկ"
+
+#: Etoys-Scripting,Player>>renameScript:
+msgid "Script Name"
+msgstr "սցենարի անվանումը"
+
+#: Etoys-Scripting,Player>>renameScript:
+msgid ""
+"Sorry, we do not permit you to rename\n"
+"classic-tiled scripts that are currently\n"
+"textually coded.  Go back to tile scripts\n"
+"and try again.  Humble apologies."
+msgstr ""
+"Ներեցեք, չի թույլատրվում վերանվանել \n"
+" դասական մասնիկներով սցենարները, որոնք ներկայումս\n"
+" տեքստային կոդավորում ունեն: Վերադարձեք սմասնիկներով կազմված սցենարին\n"
+" և կրկին փորձեք: Հայցում ենք Ձեր ներողամտությունը"
+
+#: Etoys-Scripting,Player>>runScript:
+msgid ""
+"Oops, object \"{1}\" no longer has\n"
+"a script named \"{2}\".\n"
+"It must have been deleted or renamed."
+msgstr ""
+"Վայ, \"{1}\" կերպարն այլևս չունի \n"
+" \"{2}\" վերնագրված սցենար \n"
+"Այն հավանաբար ջնջվել է կամ վերանվանվել"
+
+#: Etoys-Scripting,Player>>setLocation:
+msgid "Expected a Point but instead got "
+msgstr "ակնկալվում էր կետ, բայց... "
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "change the name, type, and/or decimal places settings for this variable"
+msgstr ""
+"փոխիր անվանումը, տեսակը, և/կամ տասնորդական դիրքերի կարգավորումները այս "
+"փոփոխականի համար"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "grab morph"
+msgstr "վերցնել ձևույթը"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "modify \"{1}\""
+msgstr "փոփոխել \"{1}\""
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "remove this variable from this object"
+msgstr "տեղափոխել այս փոփոխականը այս օբյեկտից"
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "remove \"{1}\""
+msgstr "ջնջել \"{1}\""
+
+#: Etoys-Scripting,Player>>slotInfoButtonHitFor:inViewer:
+msgid "{1} is used for vector operations"
+msgstr "\"{1}\"-ը կիրառվում է վեկտորային գործառույթների համար"
+
+#: Etoys-Scripting,Player>>tellAllSiblings:,Player>>tellSelfAndAllSiblings:
+msgid " to "
+msgstr " դեպի "
+
+#: Etoys-Scripting,Player>>tellAllSiblings:,Player>>tellSelfAndAllSiblings:
+msgid "Cannot \"tell \" "
+msgstr "հնարավոր չէ \"հաղորդել\" "
+
+#: Etoys-Scripting,Player>>triggerScript:
+msgid ": exception in script "
+msgstr ": բացառություն սցենարում "
+
+#: Etoys-Scripting,PlayerSurrogate>>destroyThisObject
+msgid "Already in the Trash"
+msgstr "Արդեն Աղբարկղում է"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "no change"
+msgstr "ոչ մի փոփոխություն"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid ""
+"okay, this object is now named\n"
+msgstr "լավ, հիմա այս օբյեկտն անվանակոչված է\n"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "Type the name you insist upon"
+msgstr "Տպեք այն անունը, որ պնդում եք"
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid "there was no conflict; this object is now named "
+msgstr "Խնդիր չկա, հիմա օբյեկտի անունն է... "
+
+#: Etoys-Scripting,PlayerSurrogate>>forciblyRenamePlayer
+msgid ""
+"\n"
+"and the object formerly known by this name\n"
+"is now called\n"
+msgstr ""
+"\n"
+"նախկինում այս անունով կոչվող օբյեկտն\n"
+"այժմ կոչվում է\n"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "copy object's name to clipboard"
+msgstr "օբյեկտի անունը պատճենել \"ցուցատախտակին\""
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "destroy this object"
+msgstr "վերացնել օբյեկտը"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "forcibly rename object"
+msgstr "հարկադրել օբյեկտի վերանվանումը"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "If you want to give this object a name which conflicts with the name of some other object in the project, use this command.  The other object with the same name will in the process be given a different name."
+msgstr ""
+"Եթե ցանկանում եք  օբյեկտին այնպիսի անուն տալ, որը համընկնում է այս նախագծի "
+"որևէ այլ օբյեկտի հետ կիրառեք այս հրամանը: Նույն անվանումով մյուս օբյեկտին "
+"ընթացքում կտրվի այլ անուն:"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "inspect object"
+msgstr "զննել օբյեկտը"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "open viewer for this object"
+msgstr "Դիտարկիչ բացել այս օբյեկտի համար"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "rename object"
+msgstr "վերանվանել օբյեկտը"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "tile for this object"
+msgstr "մասնիկ` այս օբյեկտի համար"
+
+#: Etoys-Scripting,PlayerSurrogate>>playerButtonHit
+msgid "where is this object?"
+msgstr "որտե՞ղ է այս օբյեկտը"
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "Click here to reveal this object"
+msgstr "սեղմեք այստեղ օբյեկտը տեսնելու համար"
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "click here to obtain a tile that refers to this player."
+msgstr "սեղմեք այստեղ այս կերպարին վերաբերող մասնիկ ձեռք բերելու համար"
+
+#: Etoys-Scripting,PlayerSurrogate>>rebuildRow
+msgid "click here to obtain this object's Viewer"
+msgstr "սեղմեք այստեղ ստանալու համար այս օբյեկտի հատկանիշների դիտարկիչ"
+
+#: Etoys-Scripting,PlayerSurrogate>>renamePlayer
+msgid "Type new name:"
+msgstr "Տպել նոր անուն"
+
+#: Etoys-Scripting,ScriptActivationButton>>addCustomMenuItems:hand:
+msgid "open underlying scriptor"
+msgstr "բացել ստորև գտնվող սցենարը"
+
+#: Etoys-Scripting,ScriptActivationButton>>setLabel
+msgid "Please enter a new label for this button"
+msgstr "ավելացնել նոր պիտակ այս կոճակի համար"
+
+#: Etoys-Scripting,ScriptableButton_class>>authoringPrototype
+msgid "script{1}"
+msgstr "սցենար{1}"
+
+#: Etoys-Scripting,ScriptableButton_class>>descriptionForPartsBin
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr ""
+"մասնիկներով սցենարակազմման կոճակ, դրա սցենարը կլինի այն պարունակող "
+"խաղահրապարակի մեթոդը"
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry
+msgid "A button whose script will be a method of the background Player"
+msgstr "կոճակ, որի սցենարը կդառնա ետին պլանի դերակատարի մեթոդ"
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry,ScriptableButton_class>>registerInFlapsRegistry
+msgid "A Scriptable button"
+msgstr "Ծրագրավորվող կոճակ"
+
+#: Etoys-Scripting,ScriptableButton_class>>registerInFlapsRegistry
+msgid "Scriptable Button"
+msgstr "Ծրագրավորվող կոճակ"
+
+#: Etoys-Scripting,ScriptableButton>>initializeToStandAlone,ScriptableButton_class>>authoringPrototype
+msgid "Press me"
+msgstr "սեղմել"
+
+#: Etoys-Scripting,ScriptableButton>>setLabel
+msgid "Enter a new label for this button"
+msgstr "Մուտքագրել նոր պիտակ այս կոճակի համար:"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addDismissButtonTo:
+msgid ""
+"Remove this script\n"
+"from the screen\n"
+"(you can open it\n"
+"again from a Viewer)"
+msgstr ""
+"Ջնջել այս սցենարն\n"
+"էկրանից\n"
+"(կարող եք այն նորից բացելt\n"
+" Դիտարկիչով)"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "gold box"
+msgstr "Ոսկու տուփ"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "gold box items"
+msgstr "Ոսկե տուփի պարունակությունը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a numeric-constant tile"
+msgstr "տուր ինձլ թվային կոնստանտի մասնիկը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a test-yest-no tile"
+msgstr "Տուր \"փորձարկում-այո-ոչ\" մասնիկը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a tile for self\t"
+msgstr "Տուր ինձ մի մասնիկ ինքնին\t"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"button down?\" tile"
+msgstr "Տուր \"կոճակը սեղմվա՞ծ է\" մասնիկը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"button up?\" tile"
+msgstr "Տուր ինձ \"կոճակն անջատվա՞ծ է\" մասնիկը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"function\" tile"
+msgstr "Տուր \"գործառույթ\" մասնիկը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"random number\" tile"
+msgstr "Տուր ինձ \"պատահական թիվ\" մասնիկը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>addGoldBoxItemsTo:
+msgid "hand me a \"repeat..times\" tile"
+msgstr "Տուր ինձ \"կրկնել... անգամ\" մասնիկը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>autoFitString
+msgid "auto fit"
+msgstr "ավտոմատ տեղավորում"
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "Click here to edit the name of the script."
+msgstr "Սեղմել այստեղ սցենարի անվանումը փոխելու համար"
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "click here to get a palette of useful tiles to use in your script."
+msgstr ""
+"Սեղմեք այստեղ ձեր սցենարում կիրառելու համար օգտակար մասնիկների կցաշարքը "
+"ստանալու համար"
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonRowForEditor
+msgid "Drag from here to get a parameter tile"
+msgstr "Սեղմեք և սահեցրեք այստեղից պարամետրերի մասնիկը տեսնելու համար"
+
+#: Etoys-Scripting,ScriptEditorMorph>>buttonToOpenOrCloseThisScript
+msgid "show or hide the script named {1} "
+msgstr "ցուցադրել կամ թաքցնել {1} անվանումով սցենարը "
+
+#: Etoys-Scripting,ScriptEditorMorph>>chooseFrequency
+msgid "Choose frequency (current: {1})"
+msgstr "Ընտրել հաճախականությունը (ներկայումս` {1})"
+
+#: Etoys-Scripting,ScriptEditorMorph>>chooseFrequency,ScriptInstantiation>>presentTickingMenu
+msgid "other..."
+msgstr "այլ...."
+
+#: Etoys-Scripting,ScriptEditorMorph>>destroyScript
+msgid ""
+"Caution -- this destroys this script\n"
+"permanently; are you sure you want to do this?"
+msgstr ""
+"Ուշադրություն--- սա ոչնչացնում էայս սցենարը\n"
+"մշտապես, համոզվա՞ծ եք, որ ուզում եք անել դա"
+
+#: Etoys-Scripting,ScriptEditorMorph>>destroyScript
+msgid ""
+"Sorry, this script is being called\n"
+"from another script."
+msgstr ""
+"Ներեցե'ք, այս սցենարը կանչվել է\n"
+"այլ սցենարից"
+
+#: Etoys-Scripting,ScriptEditorMorph>>explainStatusAlternatives,ScriptInstantiation>>explainStatusAlternatives
+msgid "Script Status"
+msgstr "Սցենարի կարգավիճակը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>extent:
+msgid "To resize the script, uncheck the box below"
+msgstr "Սցենարի չափերը փոխելու համար հանել ստորև գտնվող վանդակի նշանը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>initialize
+msgid "Script Editor"
+msgstr "Սցենարի Խմբագրիչ"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "button to show/hide this script"
+msgstr "սցենարի գործարկման կոճակ"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "destroy this script"
+msgstr "Վերացնել այս սկրիպտը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "detached method pane"
+msgstr "Առանձնացված մեթոդների վահանակ"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "edit balloon help for this script"
+msgstr "Խմբագրել այս սցենարի օգնության պղպջակը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "explain status alternatives"
+msgstr "Բացատրել կարգավիճակի այլընտրանքները"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "fires per tick..."
+msgstr "գործարկումները յուրաքնաչյուր զարկից"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "If you have misplaced the object bearing this script, use this item to (try to) make it visible"
+msgstr ""
+"Եթե սխալ տեղում եք դրել այս սցենարը կրող օբյեկտը, օգտվե'ք այս գործիքից այն "
+"տեսանելի (փորձել) դարձնելու համար"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu
+msgid "open a little window that shows the Smalltalk code underlying this script."
+msgstr ""
+"Բացել մի փոքրիկ \"պատուհան\", որը կցուցադրի այս սցենարի տակ գտնվող Smalltalk "
+"կոդը:"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "open the viewer of the object to which this script belongs"
+msgstr "Բացել այն օբյեկտի հատկանիշները, որին պատկանում է այս սցենարը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "open viewer"
+msgstr "բացել Դիտակը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "revert to tile version"
+msgstr "Վերադառնալ մասնիկների կցաշարային տարբերակին"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "revert to tile version..."
+msgstr "Վերադառնալ մասնիկների ...կցաշարային տարբերակին"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "save this version"
+msgstr "պահպանել այս տարբերակը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu
+msgid "show code textually"
+msgstr "ցույց տալ տեքստային կոդը"
+
+#: Etoys-Scripting,ScriptEditorMorph>>offerScriptorMenu,ScriptEditorMorph>>offerSimplerScriptorMenu,ScriptInstantiation>>offerMenuIn:
+msgid "This will actually pick up the object bearing this script and hand it to you.  Click the (left) button to drop it"
+msgstr ""
+"Սա թույլ կտա վերցնել այս սցենարը պարունակող օբյեկտը և տալ Ձեզ:  Սեղմեք "
+"(ձախակողմյան) կոճակը այն բաց թողնելու համար"
+
+#: Etoys-Scripting,ScriptEditorMorph>>showingCaretsString
+msgid "show arrows"
+msgstr "ցույց տալ սլաքները"
+
+#: Etoys-Scripting,ScriptEditorMorph>>toggleWhetherShowingTiles
+msgid ""
+"Caution -- this script was changed\n"
+"textually; if you revert to tiles at this\n"
+"point you will lose all the changes you\n"
+"may have made textually.  Do you\n"
+"really want to do this?"
+msgstr ""
+"Ուշադրություն. այս սցենարը փոխվել է\n"
+"բառացիորեն, եթե հիմա \n"
+"վերադառնաք մասնիկներին, ապա կկորցնեք տեքստումկատարված բոլոր փոփոխությունները\n"
+"Իսկապե՞ս ցանկանում եք անել դա:"
+
+#: Etoys-Scripting,ScriptEditorMorph>>typeInFrequency
+msgid "Number of firings per tick: "
+msgstr "Գործարկումների քանակն ըստ զարկերի. "
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "Please describe this event:"
+msgstr "Խնդրում ենք նկարագրել այս երևույթը"
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "That event is already defined."
+msgstr "Այդ իրադարձությունը արդեն սահմանված է"
+
+#: Etoys-Scripting,ScriptInstantiation>>defineNewEvent
+msgid "What is the name of your new event?"
+msgstr "Ի՞նչ է նոր իրադարձության անունը"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Make the status of this script in all of my sibling instances be the same as the status you see here"
+msgstr ""
+"Իմ բոլոր նմանակների սցենարների կարգավիճակը նմանեցնել այստեղ երևացող "
+"կարգավիճակին:"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Open up a Viewer for this object"
+msgstr "Բացել Դիտակն այս օբյեկտի համար"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "Open up the Scriptor for this script"
+msgstr "Բացել Սցենարի կազմիչն ընթացիկ սցենարի համար"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "open this object's Viewer"
+msgstr "Բացել այս օբյեկտի Դիտակը"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "open this script's Scriptor"
+msgstr "Բացել այս սցենարի Կազմիչը"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "propagate status to siblings"
+msgstr "Հաղորդել կարգավիճակը նմանակներին"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerMenuIn:
+msgid "The \"more...\" branch offers you menu items that are less frequently used."
+msgstr ""
+"\"ավելի...\" բաժինն առաջարկում է ցանկի այնպիսի գործիքներ, որոնք պակաս "
+"հաճախականությամբ են կիրառվում:"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "Caution!  This is irreversibly destructive -- it removes the script from the system."
+msgstr ""
+"Ուշադրությո'ւն, այս գործողությունը համակարգից անդառնալիորեն ջնջում է "
+"սցենարը:"
+
+#: Etoys-Scripting,ScriptInstantiation>>offerShiftedMenuIn:
+msgid "Wherever this object currently is, the \"grab\" command will rip it out, and place it in your \"hand\".  This is a very drastic step, that can disassemble things that may be very hard to put back together!"
+msgstr ""
+"Որտեղ էլ որ օբյեկտը լինի \"բռնել\" հրամանն այն կվեցնի և կտա Ձեր \"ձեռքը\":  Այս "
+"գործողությունը կարող է առանձնացնել առարկաները, որոնք հետագայում շատ դժվար "
+"կլինի խմբավորել:"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "apply my status to all siblings"
+msgstr "Կիրառել կարագավիճակը բոլոր նմանակների նկատմամբ:"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "closing"
+msgstr "Գոցել"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "define a new custom event"
+msgstr "Սահմանել անհատականացված նոր իրադարձություն"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "delete a custom event"
+msgstr "ջնջել իրադարձությունը"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "more... "
+msgstr "ավելի... "
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "normal"
+msgstr "նորմալ"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "opening"
+msgstr "Բացել"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "paused"
+msgstr "դադարեցված"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp,StandardScriptingSystem>>statusHelpStringFor:
+msgid "ticking"
+msgstr "գործարկման մեջ"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "When should this script run?"
+msgstr "Ե՞րբ գործարկել սցենարը"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentScriptStatusPopUp
+msgid "what do these mean?"
+msgstr "Ի՞նչ են նշանակում սրանք:"
+
+#: Etoys-Scripting,ScriptInstantiation>>presentTickingMenu
+msgid "Ticks (now: {1}/sec)"
+msgstr "Զարկեր (հիմա` {1}/վայրկյան)"
+
+#: Etoys-Scripting,ScriptInstantiation>>statusControlRowIn:
+msgid "This is the name of the player to which this script belongs; if you click here, you will get a menu of interesting options pertaining to this player and script"
+msgstr ""
+"Սա այն կերպարի անունն է, որին պատկանում է այս սցենարը: Եթե սեղմեք այստեղ` "
+"կստանաք այս կերպարին և սցենարին վերաբերող հետաքրքիր տարբերակներ:"
+
+#: Etoys-Scripting,ScriptInstantiation>>statusControlRowIn:
+msgid "This is the name of the script to which this entry pertains."
+msgstr "Սա այն սցենարի անվանումն է, որին վերաբերում է այս մուտքագրումը:"
+
+#: Etoys-Scripting,ScriptInstantiation>>typeInTickingRate
+msgid "Number of ticks per second: "
+msgstr "Զարկերի քանակն ըստ վայրկյանների. "
+
+#: Etoys-Scripting,ScriptingDomain>>addModelMenuItemsTo:forMorph:hand:
+msgid "take out of window"
+msgstr "Հանել պատուհանից"
+
+#: Etoys-Scripting,ScriptStatusControl>>assurePauseTickControlsShow
+msgid "Press to toggle ticking state. Hold down to set tick rate."
+msgstr ""
+"Սեղմել փոխելու համար զարկերը: Պահել սեղմած զարկերի հաճախականությունը "
+"սահմանելու համար:"
+
+#: Etoys-Scripting,ScriptStatusControl>>initializeFor:
+msgid "when this script should run"
+msgstr "Ե՞րբ է պետք գործարկել այս սցենարը:"
+
+#: Etoys-Scripting,SearchingViewer>>addNamePaneTo:,SearchingViewer>>updateSearchButtonLabel
+msgid "Type some letters into the pane at right, and then press this Search button (or hit RETURN) and all tiles that match what you typed will appear in the list below."
+msgstr ""
+"Տպեք մի քանի տառ աջ կողմի վահանակում, այնուհետև սեղմեք Որոնում կոճակը (կամ` "
+"ՎԵՐԱԴԱՐՁ) և ներքևի ցուցակում կհայտնվեն այն բոլոր մասնիկները, որոնք "
+"համապատասխանում են Ձեր տպածին:"
+
+#: Etoys-Scripting,SearchingViewer>>doSearchFrom:interactive:
+msgid "No matches found for \""
+msgstr "Համընկնումներ չեն հայտնաբերվել:"
+
+#: Etoys-Scripting,SearchingViewer>>updateSearchButtonLabel
+msgid "Search"
+msgstr "Որոնում"
+
+#: Etoys-Scripting,SlotInformation>>documentation
+msgid "This is a variable defined by you.  Please edit this into your own meaningful documentation."
+msgstr ""
+"Այս փոփոխականը սահմանվել է Ձեր կողմից:  Խնդրում ենք խմբագրել այն ՁԵր "
+"իմաստալից մուտքագրումներում:"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "Click here to edit the player's name."
+msgstr "Սեղմեք այստեղ կերպարի/դերակատարի անունը փոխելու համար"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to add a variable\n"
+"to this object."
+msgstr ""
+"սեղմեք այստեղ\n"
+" այս օբյեկտին փոփոխական ավելացնելու համար"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to add\n"
+"another category pane"
+msgstr ""
+"սեղմել այստեղ\n"
+"մեկ այլ դասի վահանակ ավելացնելու համար"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"click here to get a menu\n"
+"that will allow you to\n"
+"locate this object,\n"
+"tear off a tile, etc.."
+msgstr ""
+"Սեղմեք այստեղ այնպիսի ցանկ ստանալու համար\n"
+"որը Ձեզ թույլ կտա\n"
+"տեղադրել այս օբյեկտը\n"
+"հեռացնել մասնիկը և այլն..."
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid ""
+"remove this entire Viewer from the screen\n"
+"don't worry -- nothing will be lost!."
+msgstr ""
+"Հանել Դիտակի պատուհանն էկրանից\n"
+"մի անհանգստացեք. ոչինչ չի ջնջվի"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "switch to next costume"
+msgstr "անցնել հաջորդ հանդերձին"
+
+#: Etoys-Scripting,StandardViewer>>addHeaderMorphWithBarHeight:includeDismissButton:
+msgid "switch to previous costume"
+msgstr "անցնել նախորդ հանդերձին"
+
+#: Etoys-Scripting,Viewer>>chooseVocabulary
+msgid "Choose a vocabulary"
+msgstr "Ընտրել բառարանը"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make pictures represent the speech of a character in a comic"
+msgstr ""
+"Օբյեկտը կարելի է օգտագործել կոմիկսների կերպարի խոսքերը պատկերների միջոցով "
+"ներկայացնելու համար:"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make pictures represent the thoughts of a character in a comic"
+msgstr ""
+"Օբյեկտը կարելի է օգտագործվել կոմիկսների կերպարի մտքերը պատկերների միջոցով "
+"ներկայացնելու համար:"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make words represent the speech of a character in a comic"
+msgstr ""
+"Օբյեկտը կարելի է օգտագործվել կոմիկսների կերպարի արտասանած խոսքի բառերը "
+"ներկայացնելու համար:"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "An object you can use to make words represent the thoughts of a character in a comic"
+msgstr ""
+"Օբյեկտը կարելի է օգտագործվել կոմիկսների կերպարի մտքի բառերը ներկայացնելու "
+"համար:"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Speech bubble"
+msgstr "Խոսքի \"Փուչիկը\" կամ \"Պղպջակը\""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Speech bubble (graphic)"
+msgstr "Խոսքի \"Փուչիկը\" կամ \"Պղպջակը\" /գրաֆիկա/"
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Thought bubble"
+msgstr "Մտքերի \"Փուչիկը\" կամ \"Պղպջակը\""
+
+#: Etoys-SpeechBubbles,SpeechBubbleMorph_class>>supplementaryPartsDescriptions
+msgid "Thought bubble (graphic)"
+msgstr "Մտքերի \"Փուչիկը\" կամ \"Պղպջակը\" /գրաֆիկա/"
+
+#: Etoys-Stacks,StackMorph_class>>formerDescriptionForPartsBin
+msgid "A database of any sort -- slide show, rolodex, and any point in between"
+msgstr ""
+"Ցանկացած տիպի տվյալների հիմնացանկ. թափանցապատկերների ցուցադրում, ռոլոդեքս "
+"/քարտերը պահելու  պտտվող սարք/ և այլն:"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "A button that takes the user to the next card in the stack"
+msgstr "Կոճակ, որ օգտվողի համար բաց է անում կույտի հաջորդ քարտը:"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "A button that takes the user to the previous card in the stack"
+msgstr "Կոճակ, որ օգտվողի համար բաց է անում կույտի նախորդ քարտը:"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry,StackMorph_class>>registerInFlapsRegistry
+msgid "A multi-card data base"
+msgstr "Տվյալների բազմաքարտ հիմնացանկ:"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Next Card"
+msgstr "Հաջորդ քարտը"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Previous Card"
+msgstr "Նախորդ քարտ"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Some hints about how to use Stacks"
+msgstr "Հուշող ակնարկներ Քարտակույտի օգտագործման վերաբերյալ;"
+
+#: Etoys-Stacks,StackMorph_class>>registerInFlapsRegistry
+msgid "Stack Help"
+msgstr "Օգնություն քարտերի կույտի հարցում:"
+
+#: Etoys-Stacks,StackMorph_class>>stackHelpWindow
+msgid ""
+"A \"stack\" is a place where you can create, store, view and retrieve data \"fields\" from a set of \"cards\".  Data that you want to occur on every card (such as a name and an address in an Address Stack) are represented by objects such as \"Simple Text\", \"Fancy Text\", and \"Scrolling Text\" that you obtain from the Stack Tools flap.\n"
+"\n"
+"When you look at a card in a Stack, you may be seeing three different kinds of material.  Press the § button in the stack's controls to see the current designations, and use the \"explain designations\" to get a reminder of what the three different colors mean.\n"
+"·  Things that are designated to be seen on every card, and have the same contents whichever card is being shown. (green)\n"
+"·  Things that are designated to be seen on every card, with each card having its own value for them. (orange)\n"
+"·  Things that are designated to occur only on the particular card at hand. (red)\n"
+"\n"
+"Use the \"stack/cards\" menu (in an object's halo menu) to change the designation of any object.  For example, if you have an object that is private to just one card, and you want to make it visible on all cards, use \"place onto background\".  If you further want it to hold a separate value for each separate card, use \"start holding separate data for each instance\".\n"
+"\n"
+"The normal sequence to define a Stack's structure is to obtain a blank Stack, then create your fields by grabbing what you want from the Stack Tools flap and dropping it where you want it in the stack.  For easiest use, give a name to each field (by editing the name in its halo) *before* you put it onto the background..  Those fields that you want to represent the basic data of the stack need to be given names, placed on the background, and then told to hold separate data.\n"
+"\n"
+"When you hit the + button in a stack's controls, a new card is created with default values in all the fields.  You can arrange for a particular default value to be used in a field -- do this either for one field at a time with \"be default value on new card\", or you can request that the all the values seen on a particular card serve as default by choosing \"be defaults for new cards\" from the stack's · menu.\n"
+"\n"
+"It is also possible to have multiple \"backgrounds\" in the same stack -- each different background defines a different data structure, and cards from multiple backgrounds can be freely mixed in the same stack.\n"
+"\n"
+"Besides text fields, it is also possible to have picture-valued fields -- and potentially fields with data values of any other type as well."
+msgstr ""
+"\"Պահոցն\" այն վայրն է, որտեղ կարող եք ստեղծել, պահել, դիտել և վերականգնել "
+"տվյալները \"քարտերի\" շարքից: Այն տվյալները, որոնք ուզում եք տեսնել բոլոր "
+"քարտերի վրա, ինչպիսիք են օրինակ`  անունը և հասցեն \"Հասցեների պահոցում\",  "
+"ներկայացված են այնպիսի օբյեկտների միջոցով ինչպիսիք են  \"սովորական տեքստը\",  "
+"\"զարդարուն տեքստը\" և \"շարժվող տեքստը\", որոնք կարելի է տեսնել \"Պահոցի "
+"գործիքների\" ցանկումn\n"
+"Պահոցի քարտը նայելիս կարող եք տեսնել երեք տարբեր տեսակի նյութեր: Սեղմեք § "
+"կոճակը պահոցի կարգավորումներից առկա անվանումները տեսնելու համար և կիրառել  "
+"\"բացատրել անվանումները\" հասկանալու համար, թե ինչ են նշանակում, երեք տարբեր "
+"գույները \n"
+"Այն բաները, որոնք պետք է երևան ցանկացած քարտի վրա և ունեն  միևնույն "
+"բովանդակությունը ցանկացած քարտի դեպքում` ունեն կանաչ գույն \n"
+"Այն բաները, որոնք պետք է երևան ցանկացած քարտի վրա, սակայն ամեն քարտի դեպքում "
+"ունեն իրենց սեփական նշանակությունը` ունեն նարնջագույն գույն \n"
+"Այն բաները, որոնք պետք է երևան միայն տվյալ քարտի վրա` ունեն կարմիր գույն\n"
+"\n"
+"Օբյեկտի գործիքների շրջանակից օգտագործեք \"պահոց/քարտեր\" ցանկը ցանկացած "
+"օբյեկտի նշանակությունը փոխելու համար: Օրինակ` եթե ցանկանում եք ստանալ "
+"օբյեկտ, որը վերաբերում է միայն մեկ քարտի, սակայն ցանկանում եք այն տեսանելի "
+"դարձնել բոլոր քարտերի համար, կիրառեք \"տեղադրել ետին ֆոնի վրա\" հրամանը: Եթե "
+"ցանկանում եք, որ այն հետագայում էլ առանձին նշանակություն ունենա "
+"յուրաքանչյուր առանձին քարտի համար կիրառեք \"սկսել պահպանել առանձին տվյալներ "
+"յուրաքանչյուր դեպքի համար\" \n"
+"\n"
+"Պահոցի կառուցվածքը սահմանելու համար նորմալ հերթականությունը հետևյալն է. ձեռք "
+"բերել դատարկ Պահոց, այնուհետև ստեղծել Ձեր դաշտերը  Պահոցի գործիքներից  "
+"քաշելով  Ձեր ցանկացածը և տեղադրելով պահոցի այն մասում, որտեղ ցանկանում եք: "
+"Ավելի հեշտ օգտագործման համար յուրաքանչյուր դաշտի համար սահմանեք անուն, "
+"գործիքների շրջանակում փոխելով նախորդ անունը   *մինչև* այն հետին ֆոնում "
+"տեղադրելը: Այն դաշտերը, որոնք ցանկանում ենք, որ ներկայացնեն պահոցի հիմնական "
+"տվյալները, պետք է անուններ ունենան, տեղադրվեն ետին ֆոնի վրա, այնուհետև "
+"ստանան առանձին տվյալները.\n"
+"\n"
+"Երբ  պահոցի կարգավորումներից հետո սեղմում եք + կոճակը, ստեղծվում է նոր քարտ, "
+"որը բոլոր  դաշտերում ունի նախնական արժեքներ: Դուք կարող եք այնպես անել, որ "
+"որևէ կոնկրետ նախնական արժեք կիրառելի լինիր մի դաշտում. դա կարող եք անել ամեն "
+"մի դաշտի համար առանձին կամ \"դարձնել նախնական արժեք նոր քարտի վրա\" հրամանի "
+"միջոցով, կամ կարող եք նշել, որ բոլոր արժեքները, որոնք երևում են  կոնկրետ մի "
+"քարտի վրա,  դառնան \"նախնական\"` պահոցի ցանկից ընտրելով  \"դարձնել նախնական "
+"բոլոր քարտերի համար տարբերակը \n"
+"\n"
+"Հնարավոր է նաև միևնույն պահոցում ունենալ  բազմաթիվ \"հետնապատեր\"կամ \"ֆոներ\", "
+"երբ յուրաքանչյուր ֆոնը ներկայացնում է տարբեր տվյալներով կառույց և երբ տարբեր "
+"ֆոներից վերցված քարտերը կարող են հանգիստ խառնվել միևնույն պահոցում\n"
+"\n"
+"Բացի տեքստային դաշտերից նաև հնարավոր է ունենալ պատկերային նշանակությամբ "
+"դաշտեր, իսկ հեռանկարում նաև ցանկացած այլ տեսակի տվյալային արժեքներով դաշտեր:"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "book..."
+msgstr "Գիրք"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "clear new-page prototype"
+msgstr "Ջնջել նոր էջի նախատիպը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "copy page url to clipboard"
+msgstr "պատճենել URL /անփոփոխ ռեսուրսների որոնիչ/ էջը բուֆերում"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "delete this card"
+msgstr "վերացնել այս քարտը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "fewer card controls"
+msgstr "քարտերի պակաս վերահսկում"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "go to card..."
+msgstr "գնալ դեպի քարտ..."
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "hide card controls"
+msgstr "թաքցնել քարտերի վերահսկումը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "insert a card"
+msgstr "տեղադրել քարտը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "keep in one file"
+msgstr "պահել նույն թղթապանակում"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "next card"
+msgstr "հաջորդ քարտը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "paste book page"
+msgstr "փակցննել գրքի էջը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>invokeBookMenu
+msgid "previous card"
+msgstr "նախորդ քարտը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "reload all from server"
+msgstr "վերաբեռնել ամենը սերվերից"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "save as new-page prototype"
+msgstr "պահել, որպես նոր էջի նախատիպ"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "search for text"
+msgstr "փնտրել տեքստը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "send all pages to server"
+msgstr "բոլոր էջերն ուղարկել սերվերին"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "send this page to server"
+msgstr "այս էջն ուղարկել սերվերին"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "show card controls"
+msgstr "ցուցադրել քարտերի վերահսկիչը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sort pages"
+msgstr "տեսակավորել էջերը"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect for all backgrounds"
+msgstr "հնչյունային ձևավորում` բոլոր ետնապատերի համար"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect this background only"
+msgstr "հնչյունային ձևավորում` միայn այս ետնապատի համար"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "stop at last page"
+msgstr "կանգ առնել վերջին էջի վրա"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "uncache page sorter"
+msgstr "Հեռացնել էջերի տեսակավորիչը պահեստի հիշողությունից /uncache/"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect for all backgrounds"
+msgstr "տեսողական էֆեկտներ բոլոր ետնապատերի համար"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect this background only"
+msgstr "տեսողական էֆեկտներ այս ետնապատի համար"
+
+#: Etoys-Stacks,StackMorph>>addBookMenuItemsTo:hand:,StackMorph>>offerBookishMenu
+msgid "wrap after last page"
+msgstr "Փակել վերջին էջից հետո"
+
+#: Etoys-Stacks,StackMorph>>addCardsFromString:slotNames:
+msgid " card(s) added"
+msgstr " Ավելացված քարտ / եր"
+
+#: Etoys-Stacks,StackMorph>>deleteAllCardsExceptThisOne
+msgid " card(s) and all of their data?"
+msgstr " Քարտ /երը և դանց բոլոր տվյալնե՞րը"
+
+#: Etoys-Stacks,StackMorph>>deleteAllCardsExceptThisOne
+msgid "Really delete "
+msgstr "Իսկապես վերացնել "
+
+#: Etoys-Stacks,StackMorph>>deleteCard
+msgid "Really delete this card and all of its data?"
+msgstr "Իսկապե՞ս վերացնել քարտն ու դրա բոլոր տվյալները:"
+
+#: Etoys-Stacks,StackMorph>>findViaTemplate
+msgid ""
+"No matches were found.\n"
+"Be sure the current card is mostly blank\n"
+"and only has text you want to match."
+msgstr ""
+"Համապատասխանող ոչինչ չի գտնվել: Համոզվե'ք, որ տվյալ քարտի մեծ մասը ճերմակ է "
+"և պարունակում է միայն այն տեքստը, որին համապատասխան նյութ եք փնտրում:"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Add a new card after this one"
+msgstr "Ավելացնել նոր քարտ այս մեկից հետո:"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Click here to get a menu of options for this stack."
+msgstr "\"Քլիք\" անել այստեղ` մտնելու համար այս պահոցի տարբերակների ցանկ:"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Delete this card"
+msgstr "Վերացնել այս քարտը"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid ""
+"Fewer controls\n"
+"(if shift key pressed,\n"
+"deletes controls)"
+msgstr ""
+"Պակաս կարգավորումներ\n"
+"(/\"shift\" ստեղնը սեղմելու դեպքում կարգավորումները ջնջվում են)"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Final card"
+msgstr "Վեջին քարտը"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "First card"
+msgstr "Առաջին քարտը"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs,StackMorph>>shortControlSpecs
+msgid "Next card"
+msgstr "Հաջորդ քարտը"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs,StackMorph>>shortControlSpecs
+msgid "Previous card"
+msgstr "Նախորդ քարտը"
+
+#: Etoys-Stacks,StackMorph>>fullControlSpecs
+msgid "Show designations"
+msgstr "Ցուցադրել նշանակումները"
+
+#: Etoys-Stacks,StackMorph>>goToCard
+msgid "no such card"
+msgstr "Այդպիսի քարտ չկա"
+
+#: Etoys-Stacks,StackMorph>>goToCard
+msgid "Which card number? "
+msgstr "Ո՞ր քարտի համարը; "
+
+#: Etoys-Stacks,StackMorph>>insertAsBackground:resize:
+msgid "alternateBackground"
+msgstr "Փոփոխել ետնապատերը"
+
+#: Etoys-Stacks,StackMorph>>insertAsBackground:resize:
+msgid "What should we call this new background?"
+msgstr "Ինչպե՞ս անվանել այս նոր ետնապատը:"
+
+#: Etoys-Stacks,StackMorph>>insertCardOfBackground
+msgid ""
+"At this time, there IS only one kind of\n"
+"background in this stack, so that's\n"
+"what you'll get"
+msgstr "Մինչ այժմ պահոցում կա միայն մեկ ետնապատ, ուրեմն կունենաք միայն դա:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "add a card of background..."
+msgstr "Ավելացնել ետնապատի քարտ:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "add a card of this background"
+msgstr "Ավելացնել այս ետնապատի քարտը:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "be defaults for new cards"
+msgstr "Նախատեսված թող լինի նոր քարտերի համար"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "bookish items..."
+msgstr "Գրքին հարմար նյութեր:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Caution -- DANGER. Change the order of the variables on the cards"
+msgstr ""
+"Ուշադրությո'ւն, ՎՏԱՆԳ: Փոխել փոփոխականների հերթականությունն այս քարտում:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Create new cards from a formatted string on the clipboard"
+msgstr "Ստեղծել նոր քարտեր Բուֆերում չափաձևված /ֆորմատավորված/ շարանից:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Create new cards from data in a file"
+msgstr "Ստեղծել նոր քարտ թղթապանակի տվյալներից:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "debug..."
+msgstr "զտել"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "delete all cards *except* this one"
+msgstr "Ոչնչացնել բոլոր քարտերը` բացի այս մեկից;"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "explain designations"
+msgstr "Բացատրել նշանակումները:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "find via this template"
+msgstr "Որոնել այս կաղապարի միջոցով;"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "find..."
+msgstr "Գտնել..."
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "first card"
+msgstr "Առաջին քարտ"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "insert cards from a file..."
+msgstr "Զետեղել քարտ ... թղթապանակից:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "insert cards from clipboard data"
+msgstr "Զետեղել քարտ \"ցուցատախտակի\" /բուֆերի/ տվյալներից:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "instance variable order..."
+msgstr "Օրինակի փոփոխականների հերթականությունը"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "last card"
+msgstr "Վերջին քարտը"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Make these current field values be the defaults for their respective fields on new cards"
+msgstr ""
+"Այս դաշտի արժեքները պետք է նախնականը լինեն նոր քարտերի համապատասխան դաշտերի "
+"համար:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "make a new background..."
+msgstr "Ստեղծել նոր ետնապատ /ֆոն/::"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card one position earlier"
+msgstr "Տեղափոխել քարտը որևէ դիրքի նախապես:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card one position later"
+msgstr "Տեղափոխել քարտը որևէ դիրքի ավելի ուշ:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card to back of stack"
+msgstr "Տեղափոխել քարտը պահոցի ետնամաս:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "move card to front of stack"
+msgstr "Տեղափոխել քարտը պահոցի առաջնամաս:"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "Sort all the cards of the current background using some field as the sort key"
+msgstr ""
+"Տեսկավորել այս ետնապատի բոլոր քարտերը ` կիրառելով տեսակավորման ստեղնի "
+"միևնույն դաշտը"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu,StackMorph_class>>formerDescriptionForPartsBin,StackMorph_class>>registerInFlapsRegistry,StackMorph_class>>registerInFlapsRegistry
+msgid "Stack"
+msgstr "Պահոց /հիմնաքանակ/"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "scripts for this background"
+msgstr "Սցենար այս ետնապատի համար"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "show designations"
+msgstr "Ցույց տալ նշանակումները"
+
+#: Etoys-Stacks,StackMorph>>invokeBookMenu
+msgid "sort cards by..."
+msgstr "Քարտերը տեսակավորել ըստ..."
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid " dragNdrop"
+msgstr " Սահեցնել և թողնել"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "background color for all pages..."
+msgstr "ֆոնի գույնը բոլոր էջերի համար:"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "close"
+msgstr "փակել"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "load PPT images from slide #1"
+msgstr "Բեռնել PPT պատկերը թիվ #1սլայդի համար:"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "make all pages this size"
+msgstr "Բոլոր էջերը դարձնել այս չափի:"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "open"
+msgstr "Բացել"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "Stack / Book"
+msgstr "Պահոց /Գիրք"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "sound effect for all pages"
+msgstr "ձայնային էֆեկտը բոլոր էջերի համար"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "sound effect this page only"
+msgstr "ձայնային էֆեկտը միայն այս էջի համար"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "visual effect for all pages"
+msgstr "Տեսողական էֆեկտները` բոլոր էջերի համար:"
+
+#: Etoys-Stacks,StackMorph>>offerBookishMenu
+msgid "visual effect this page only"
+msgstr "Տեսողական էֆեկտը միայն այս էջի համար:"
+
+#: Etoys-Stacks,StackMorph>>shortControlSpecs
+msgid "Click here to get a menu for this stack."
+msgstr "Սեղմել այստեղ այս պահոցի ցանկը ստանալու համար"
+
+#: Etoys-Stacks,StackMorph>>shortControlSpecs
+msgid ""
+"More controls\n"
+"(if shift key pressed,\n"
+"deletes controls)"
+msgstr ""
+"Ավելի շատ կարգավորումներ\n"
+"(shift ստեղը սեղմած պահելու դեպքում,\n"
+"կարգավորումները ջնջվում են)"
+
+# Սա սև քառակուսի է, սցենարային ծրագրավորման գործիք.
+#: Etoys-StarSqueak,KedamaMorph_class>>defaultNameStemForInstances
+msgid "KedamaWorld"
+msgstr "KedamaWorld / KedamaԱշխարհ"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions
+msgid "A Kedama World with pre-made components"
+msgstr "KedamaԱշխարհ` նախապես ստեղծված բաղադրիչներով:"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions,NumericReadoutTile_class>>supplementaryPartsDescriptions
+msgid "Basic"
+msgstr "Հիմնական"
+
+#: Etoys-StarSqueak,KedamaMorph_class>>supplementaryPartsDescriptions
+msgid "Particles"
+msgstr "Մասնիկներ"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "Add a new patch variable"
+msgstr "Ավելացնել դաշտի նոր փոփոխականը:"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "Add a new turtle"
+msgstr "Ավելացնել նոր \"կրիա\":"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "add a new breed of turtle"
+msgstr "Ավելացնել կրիայի նոր տեսակ"
+
+#: Etoys-StarSqueak,KedamaMorph>>offerCostumeViewerMenu:
+msgid "add a new patch variable"
+msgstr "Ավելացնել դաշտի նոր փոփոխականը:"
+
+#: Etoys-StarSqueak,KedamaMorph>>setScale
+msgid "Set the number of pixels per patch (a number between 1 and 10)?"
+msgstr "Սահմանել յուրաքանչյուր դաշտի պիքսելների քանակը (1-ից 10-ն ընկած թվեր)"
+
+#: Etoys-StarSqueak,KedamaPatchMorph_class>>defaultNameStemForInstances
+msgid "patch"
+msgstr "Դաշտ / տարածք"
+
+#: Etoys-StarSqueak,KedamaTurtleMorph_class>>defaultNameStemForInstances
+msgid "turtle"
+msgstr "\"կրիա\""
+
+#: Etoys-StarSqueak,KedamaWhoSearchingViewer>>addNamePaneTo:,KedamaWhoSearchingViewer>>addNamePaneTo:
+msgid "Turtle"
+msgstr "\"Կրիա\""
+
+#: Etoys-StarSqueak,KedamaWhoSearchingViewer>>addNamePaneTo:
+msgid "Type a number into the pane to specify the individual turtle."
+msgstr "Մի թիվ տպել վահանակի վրա` կրիաներին տարբերակելու համար:"
+
+#: Morphic-Kernel,Morph_class>>helpContributions
+msgid "Click here to run this script once; hold button down to run repeatedly"
+msgstr ""
+"Սեղմել այստեղ սցենարը մեկ անգամ ևս գործարկելու համար: Կոճակը սեղմած պահել "
+"անընդմեջ կրկնության համար:"
+
+#: Morphic-Kernel,Morph_class>>helpContributions
+msgid "Run this command once."
+msgstr "Այս հրամանը կատարել մեկ անգամ:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "apply status to all siblngs"
+msgstr "Կարգավիճակը կիրառել բոլոր նմանակների նկատմամբ"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "apply the current status of all of my scripts to the scripts of all my siblings"
+msgstr ""
+"Իմ բոլոր սցենարների այս կարգավիճակը կիրառել բոլոր նմանակ սցենարների համար:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "bring all siblings to my location"
+msgstr "Բոլոր նմանակ դիրքերըբերել իմ տարածք:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "find all sibling instances and bring them to me"
+msgstr "Գտնել բոլոր նմանակներն ու բերել ինձ մոտ:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "indicate all siblings"
+msgstr "Մատնանշել բոլոր նմանակները:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "Make any number of sibling instances all at once"
+msgstr "Միաժամանակ տեղծել նմանակների որևէ քանակ:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "Makes another morph whose player is of the same class as this one.  Both siblings will share the same scripts"
+msgstr ""
+"Ստեղծում է մի այլ ձևույթ, որի \"դերակատարը\" պատկանումէ նույն դասին, ինչ որ "
+"այս մեկը:  Զույգը կկիսի միևույն սցենարը:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make a sibling instance"
+msgstr "Ստեղծել նմանակի նմուշ"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make all my sibling instances look like me."
+msgstr "Իմ բոլոր նմանակների նմուշներին տալ իմ տեսքը:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make all siblings look like me"
+msgstr "Իմ բոլոր նմանակներին տալ իմ տեսքը:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "make multiple siblings..."
+msgstr "Ստեղծել բազմակի նմանակներ"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "momentarily show, by flashing , all of my visible siblings."
+msgstr "Ակնթարթային առկայծումով ցույց տալ իմ բոլոր տեսանելի նմանակներին:"
+
+#: Morphic-Kernel,Morph>>addPlayerItemsTo:
+msgid "siblings..."
+msgstr "Նմանակներ"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "Background field, individual values"
+msgstr "Ետնապատի դաշտ, անհատական արժեքներ"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "Background field, shared value"
+msgstr "Ետնապատի դաշտ, ընդհանուր արժեքներ"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "be a card in an existing stack..."
+msgstr "Դարձնել քարտ առկա պահոցում"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "be default value on new card"
+msgstr "Դարձնել նախնական արժեք նոր քարտի վրա"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "become a stack of cards"
+msgstr "Դարձնել քարտերի պահոց"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "make an instance for my data"
+msgstr "Ստեղծել նմուշ իմ տվյալների համար"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "put onto Background"
+msgstr "Տեղափոխել հետին պլան"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "remove from Background"
+msgstr "Ջնջել հետին պլանից"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stacks and cards..."
+msgstr "Պահոցներ և քարտեր"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "start holding separate data for each instance"
+msgstr "Սկսել պահել առանձին տվյալներ յուրաքանչյուր նմուշի համար"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "start using for reference thumbnail"
+msgstr "Սկսել հղումների համար մանրանկար կիրառել"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stop holding separate data for each instance"
+msgstr "Դադարել յուրաքանչյուր նմուշի համար առանձին տվյալներ պահել"
+
+#: Morphic-Kernel,Morph>>addStackItemsTo:
+msgid "stop using for reference thumbnail"
+msgstr "Դադարել կիրառել այն որպես մանրապատկերի հղում;"
+
+#: Morphic-Kernel,Morph>>definePath
+msgid "no path obtained"
+msgstr "Ոչ մի ուղի չի բացվել"
+
+#: Morphic-Kernel,Morph>>insertAsStackBackground
+msgid "Please click on a Stack"
+msgstr "Սեղմել Պահոցներից մեկի վրա"
+
+#: Morphic-Kernel,Morph>>putOnForeground
+msgid ""
+"Caution -- every card of this background\n"
+"formerly had its own value for this\n"
+"item.  If you put it on the foreground,\n"
+"the values of this item on all other\n"
+"cards will be lost"
+msgstr ""
+"Ուշադրություն. այս ետնապատի յուրաքանչյուր քարտ\n"
+"նախկինում ունեցել է իր հատուկ արժեքը\n"
+"այս միավորի համար:  Եթե այն տեղադրեք առաջնային պլանում\n"
+"մյուս քարտերի այս միավորի արժեքները\n"
+"կջնջվեն"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A searchable source of new objects."
+msgstr "Նոր օբյեկտների որոնման ենթակա աղբյուր"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A tool that lets you see and manage all the sounds in the sound library"
+msgstr "Գործիք, որը թույլ է տալիս տեսնել և կառավարել ձայնադարանի բոլոր ձայները"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "A window set up for simple scripting."
+msgstr "Սովորական սցենարներ գրելու համար կարգավորված պատուհան"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Allows you to view all the scripts in the project in a traditional programmers' \"browser\" format"
+msgstr ""
+"Թույլ է տալիս տեսնել նախագծի բոլոր սցենարները ծրագրավորման ավանդական "
+"\"զննիչի\" ձևաչափում:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "abandon unsituated players"
+msgstr "Լքել չտեղադրված \"դերակատարների\""
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "attempt misc repairs"
+msgstr "Փորձել տարբեր վերանորոգումներ կատարել:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "authoring tools..."
+msgstr "Հեղինակային մշակման գործիքներ..."
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "browser for scripts"
+msgstr "Սցենարների զննիչ"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Displays a summary of all the pre-defined commands and properties in the pre-defined EToy vocabulary."
+msgstr ""
+"Ցուցադրում է նախապես որոշված հրամանների ու հատկանիշների ամփոփումներն EToy -ի "
+"նախապես որոշված բառարանից:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Empty out all the morphs that have accumulated in the trash can."
+msgstr "Դատարկել աղբամանում կուտակված բոլոր ձևույթերը:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Ensure that all script editors are referring to the first (alphabetically by external name) Player of their type"
+msgstr ""
+"Համոզվեք, որ սկրիպտի բոլոր խմբագրիչները վերաբերվում են այս տիպի "
+"\"դերակատարներից\" առաջինին (ըստ այբենական կարգի` արտաքին անունով)"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "empty trash can"
+msgstr "Դատարկել աղբամանը"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "etoy vocabulary summary"
+msgstr "EToy -ի հակիրճ բառարան:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "If any items on the world desktop are currently hidden, make them visible."
+msgstr "Եթե \"աշխատասեղանի\" որևէ տարր թաքնված է` տեսանելի դարձնել:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "If any items on the world desktop are currently locked, unlock them."
+msgstr "Եթե \"աշխատասեղանի\" որևէ տարր \"փակի\" տակ է` ազատել:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Lets you view the status of all the scripts belonging to all the scripted objects of the project."
+msgstr ""
+"Թույլ է տալիս տեսնել նախագծի բոլոր սցենար ունեցող \"դերակատարների\" սցենարների "
+"կարգավիճակը:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "new scripting area"
+msgstr "Սցենարների նոր տարածք"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "objects (o)"
+msgstr "\"կերպարներ\" (o)"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Produces a summary of scripted objects in the project, and all of their scripts."
+msgstr ""
+"Ստեղծում է նախագծի բոլոր սցենար ունեցող \"կերպարների\" և նրանց սցենարների "
+"համառոտ տարբերակը:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "Remove all the Viewers from this project."
+msgstr "Այս նախագծից հեռացնել բոլոր դիտարկիչները"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "refer to masters"
+msgstr "Վերաբերվում է նախնականներին:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "remove all viewers"
+msgstr "Հեռացնել բոլոր դիտարկիչները"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "sound library"
+msgstr "Ձայնադարան"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "status of scripts"
+msgstr "Սցենարնների կարգավիճակը"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "summary of scripts"
+msgstr "Սցենարների համառոտագրությունը"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "Take measures that may help fix up some things about a faulty or problematical project."
+msgstr "Միջոցներ ձեռնարկել սխալ կամ պրոբլեմատիկ նախագծերը շտկելու համար:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "The place where all your trashed morphs go."
+msgstr "Տեղը, ուր գնում են բոլոր ոչնչացված ձևույթները:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "unhide hidden objects"
+msgstr "Թաքստոցից հանել թաքնված \"կերպարները\":"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu
+msgid "unlock locked objects"
+msgstr "Ազատել \"կողպված\" օբյեկտնները:"
+
+#: Morphic-Kernel,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "view trash contents"
+msgstr "Տեսնել աղբամանի պարունակությունը:"
+
+#: Morphic-Kernel,TheWorldMenu>>uniTilesClassicString
+msgid "classic tiles"
+msgstr "Դասական \"մասնիկներ\""
+
+#: Morphic-Worlds,PasteUpMorph>>attemptCleanupReporting:
+msgid "{1} [or more] repair(s) made"
+msgstr "{1} [կամ ավելի] վերանորոգում /ներ/ը կատարված են"
+
+#: Morphic-Worlds,PasteUpMorph>>autoExpansionString
+msgid "auto-phrase-expansion"
+msgstr "արտահայտությունների ավտոմատ տարածում"
+
+#: Morphic-Worlds,PasteUpMorph>>autoViewingString
+msgid "automatic viewing"
+msgstr "Ավտոմատ դիտարկում"
+
+#: Morphic-Worlds,PasteUpMorph>>batchPenTrailsString
+msgid "batch pen trails"
+msgstr "Խառնել գրչահետքերը"
+
+#: Morphic-Worlds,PasteUpMorph>>becomeLikeAHolder
+msgid ""
+"This view is ALREADY\n"
+"behaving like a holder, which\n"
+"is to say, it is set to indicate the\n"
+"cursor and to have auto-line-layout."
+msgstr ""
+"Այս տեսքը ԱՐԴԵՆ\n"
+"հանդես է գալիս որպես պարունակող\n"
+"ինչը նշանակում է այն սահմանված է կուրսորը ցույցտալու համար և ավտոմատ գծային "
+"դիրք ունենալու համար"
+
+#: Morphic-Worlds,PasteUpMorph>>behaveLikeAHolderString
+msgid "behave like a holder"
+msgstr "հանդես գալ որպես պարունակող"
+
+#: Morphic-Worlds,PasteUpMorph>>deleteBackgroundPainting
+msgid ""
+"There is presently no\n"
+"background painting\n"
+"to delete."
+msgstr ""
+"ներկայումս\n"
+"ետին պլանում նկար չկա\n"
+"ջնջելու համար"
+
+#: Morphic-Worlds,PasteUpMorph>>fenceEnabledString
+msgid "fence enabled"
+msgstr "պատնեշն ակտիվացված է"
+
+#: Morphic-Worlds,PasteUpMorph>>modernizeBJProject
+msgid "Supplies"
+msgstr "Գործիքներ"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Allow this area to be separately governed by its own controls."
+msgstr ""
+"Թույլ տալ որ այս հատվածն առանձին կառավարվի իր սեփական վերահսկիչների կողմից"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Bring back all objects whose current coordinates keep them from being visible, so that at least a portion of each of my interior objects can be seen."
+msgstr ""
+"Վերադարձնել այն բոլոր օբյեկտները, որոնց ներկայիս դիրքացույցները խանգարում են "
+"նրանց տեսանելիությանը, որպեսզի ներքին օբյեկտների գոնե մի մասը տեսանելի "
+"դառնա:"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Design your own graph paper and use it as the background texture here."
+msgstr "Նախագծել Ձեր սեփական պատկերը և կիրառեք այն որպես ետին պլանի մակերես"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "delete background painting"
+msgstr "ջնջել ետին պլանի նկարը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "delete the graphic that forms the background for this me."
+msgstr "ջնջել այն պատկերը, որը կազմում է իմ այս ետին պլանը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "governs whether, when an object is touched inside me, a viewer should automatically be launched for it"
+msgstr ""
+"կարգավորում է դիտարկիչի ավտոմատ գործարկումը, երբ դիպչում են ներսի "
+"օբյեկտներից որևէ մեկին"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "if currently showing thumbnails governs the standard height for them"
+msgstr "մանրապատկերների դեպքում կարգավորում է դրանց ստանդարտ բարձրությունը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Make viewers for all players which have user-written scripts in this playfield."
+msgstr ""
+"Ստեղծել դիտարկումներ բոլոր այն խաղացողների համար, որոնք այս խաղադաշտում "
+"ունեն օգտագործողի կողմից գրված սկրիպտեր:"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "make detachable"
+msgstr "դարձնել առանձնացվող"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "make graph paper..."
+msgstr "ստեղծել պատկերման հարթություն"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "playfield options"
+msgstr "խաղադաշտի հատկանիշները"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Rearranges my contents in random order"
+msgstr "Վերադասավորում է պարունակությունը պատահականության սկզբունքով"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "Remove the viewers for all players in this playfield. This will save space before you publish this project"
+msgstr ""
+"Այս խաղադաշտում ջնջել բոլոր խաղացողների դիտարկումները: Սա թույլ կտա խնայել "
+"տարածությունը մինչև նախագծի հրապարակումը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "remove viewers of all players"
+msgstr "ջնջել բոլոր խաղացողների դիտարկումները"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "round up strays"
+msgstr "հավաքել բոլոր ցրվածները"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "Set the spacing to be used when gridding is on"
+msgstr "Սահմանել տարածությունը, երբ ցանցագիծը միացված է"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "set grid spacing..."
+msgstr "սահմանել ցանցագծի տարածությունը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "set thumbnail height..."
+msgstr "սահմանել մանրապատկերի բարձրությունը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "show viewers of all players"
+msgstr "ցույց տալ բոլոր խաղացողների դիտարկումները"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "shuffle contents"
+msgstr "Խառնել պարունակությունը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "use a pale yellow-and-blue background texture here."
+msgstr "Այստեղ օգտագործել բաց դեղինն ու երկնագույն ետնային ֆոնը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu,PasteUpMorph>>presentViewMenu
+msgid "use standard texture"
+msgstr "Օգտագործել ստանդարտ մակերես"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether auto-line-layout, resize-to-fit, and indicate-cursor should be set to true; useful for animation control, etc."
+msgstr ""
+"սահմանե±լ ավտոմատ գծային դասավորումը, չափերի համապատասխանեցումը և ցուցիչը. "
+"օգտակար է անիմացիայի կարգավորման համար, և այլն:"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether dragging an object from the interior should produce a COPY of the object"
+msgstr ""
+"արդյոք օբյեկտը ներսի մասից քաշել հանելը պետք է հանգեցնի օբյեկտի ԿՐԿՆՕՐԻՆԱԿԻ "
+"ստեղծմանը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether gridding should be used in my interior"
+msgstr "Արդյո՞ք ներքին տարածքումս վանդակավոր էջ պիտի օգտագործվի:"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether I should automatically strive exactly to fit my contents"
+msgstr "արդյոք պետք է ավտոմատ համապատասխանեցվի պարունակությանը"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether large objects should be represented by thumbnail miniatures of themselves"
+msgstr ""
+"արդյոք մեծ չափսերի օբյեկտները պետք է ունենան իրենց մանրապատկերի տեսքով "
+"մակետները"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether moving objects should stop at the edge of their container"
+msgstr ""
+"արդյոք շարժվող օբյեկտները պետք է կանգնեցվեն իրեն պարունակող օբյեկտի եզրին"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether objects should put up halos when the mouse is over them"
+msgstr ""
+"արդյոք օբյեկտները պետք է լուսարձակեն, երբ մկնիկը նրանց վրա է կանգնեցվում"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether submorphs should automatically be laid out in lines"
+msgstr "արդյոք ենթաձևույթները պետք է ավտոմատ շարքով դասավորվեն"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the cartesian origin of the playfield should be at its lower-left corner or at the center of the playfield"
+msgstr ""
+"արդյոք խաղադաշտի դեկարտային կոորդինատային համակարգի սկիզբը պետք է լինի "
+"ներքևի ձախ անկյունում, թե խաղադաշտի կենտրոնում"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the grid should be shown when gridding is on"
+msgstr "արդյոք ցանցը պետք է երևա, երբ ցանցավորումը միացված է"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether the \"current\" submorph should be indicated with a dark black border"
+msgstr "արդյոք \"տվյալ\" ենթաձևույթը պետք է ունենա մուգ սև եզրագիծ"
+
+#: Morphic-Worlds,PasteUpMorph>>playfieldOptionsMenu
+msgid "whether tile phrases, dropped on me, should automatically sprout Scriptors around them"
+msgstr ""
+"արդյոք տվյալ օբյեկտի վրա իջեցված վանդակային արտահայտությունները պետք է "
+"ավտոմատ Սկրիպտեր առաջ բերեն իրենց շուրջ"
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "A tool that lets you find out about all the players used in this project"
+msgstr ""
+"Այս գործիքը թույլ է տալիս իմանալ այս նախագծում կիրառվող բոլոր խաղացողների "
+"մասին"
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu,TheWorldMenu>>fullScriptingMenu,TheWorldMenu>>scriptingMenu
+msgid "gallery of players"
+msgstr "խաղացողների պատկերասրահ"
+
+#: Morphic-Worlds,PasteUpMorph>>presentViewMenu
+msgid "viewing options for \"{1}\""
+msgstr "\"{1}\" տարբերակների դիտարկում"
+
+#: Morphic-Worlds,PasteUpMorph>>printVocabularySummary
+msgid "EToy Vocabulary"
+msgstr "EToy բառարան"
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid "New height for thumbnails? "
+msgstr "նո±ր բարձրություն մանրանկարների համար "
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid "Please be reasonable!"
+msgstr "Ողջամիտ եղեք"
+
+#: Morphic-Worlds,PasteUpMorph>>setThumbnailHeight
+msgid ""
+"setting the thumbnail height is only\n"
+"applicable when you are currently\n"
+"showing thumbnails."
+msgstr ""
+"մանրապատկերի բարձրության սահմանումը հնարավոր է միայն\n"
+"երբ տվյալ պահին\n"
+"երևում են մանրապատկերները"
+
+#: Morphic-Worlds,PasteUpMorph>>viewingByIconString
+msgid "view by icon"
+msgstr "դիտել ըստ պատկերների"
+
+#: Morphic-Worlds,PasteUpMorph>>viewingByNameString
+msgid "view by name"
+msgstr "դիտել ըստ անունների"
+
+#: Morphic-Worlds,PasteUpMorph>>viewingBySizeString
+msgid "view by size"
+msgstr "դիտել ըստ չափերի"
+
+#: Morphic-Worlds,PasteUpMorph>>viewingNonOverlappingString
+msgid "view with line layout"
+msgstr "դիտել գծային դիրքում"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "add"
+msgstr "ավելացնել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "divide"
+msgstr "բաժանել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "divide & truncate"
+msgstr "Բաժանել և մասնատել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "larger value"
+msgstr "ավելի մեծ արժեք"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "multiply"
+msgstr "բազմապատկել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "remainder when divided by"
+msgstr "..ի բաժանելուց հետո ստացված մնացորդը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "smaller value"
+msgstr "ավելի փոքր արժեք"
+
+#: Morphic-Worlds,StandardScriptingSystem>>arithmeticalOperatorsAndHelpStrings
+msgid "subtract"
+msgstr "հանել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>goButton
+msgid "Resume running all paused scripts"
+msgstr "Վերականգնել բոլոր դադարեցված սցենարների գործարկումը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>helpStringForOperator:
+msgid "Sorry, no help available here"
+msgstr "Ներողություն, այս դեպքում օգնություն չկա"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "divisible by"
+msgstr "բաժանելի"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings,TileMorph>>options
+msgid "equal"
+msgstr "հավասար"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "greater than"
+msgstr "ավելի մեծ քան"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "greater than or equal"
+msgstr "ավելի մեծ կամ հավասար"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "less than"
+msgstr "ավելի փոքր քան"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings
+msgid "less than or equal"
+msgstr "ավելի փոքր կամ հավասար"
+
+#: Morphic-Worlds,StandardScriptingSystem>>numericComparitorsAndHelpStrings,TileMorph>>options
+msgid "not equal"
+msgstr "անհավասար"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseEnter"
+msgstr "մկնիկի հայտնվելը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseEnterDragging"
+msgstr "մկնիկով քաշելը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseLeave"
+msgstr "մկնիկի հեռանալը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>standardEventStati,StandardScriptingSystem>>statusHelpStringFor:
+msgid "mouseLeaveDragging"
+msgstr "մկնիկը հեռացնելով քաշելը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid " or "
+msgstr " կամ "
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "More events:"
+msgstr "Ավելի շատ իրադարձություններ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "ready to run all the time"
+msgstr "պատրաստ անընդմեջ գործարկման"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run all the time"
+msgstr "Անընդմեջ գործարկում"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run when called"
+msgstr "Գործարկվել \"կանչվելու\" դեպքում"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "run when mouse goes down on me"
+msgstr "Գործարկել, երբ մկնիկի սլաքն ինձ վրա է:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "User custom events:"
+msgstr "Օգտվողի ցանկությամբ կատարված փոփոխություններ:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when I am being closed"
+msgstr "փակվելու ժամանակ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when I am being opened"
+msgstr "բացվելու ժամանակ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse comes back up"
+msgstr "Երբ մկնիկի սլաքը վերադառնում է:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse enters my bounds, button down"
+msgstr "Երբ մկնիկի սլաքը հայտնվում է իմ տարածքում` սեղմել կոճակը:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse enters my bounds, button up"
+msgstr "Երբ մկնիկի սլաքը հայտնվում է իմ տարածքում` բաց թողնել կոճակը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse exits my bounds, button down"
+msgstr "Երբ մկնիկի սլաքը դուրս է գալիս իմ տարածքից` սեղմել կոճակը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "when mouse exits my bounds, button up"
+msgstr "Երբ մկնիկի սլաքը դուրս է գալիս իմ տարածքից` բաց թողնել կոճակը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>statusHelpStringFor:
+msgid "while mouse still down"
+msgstr "Քանի դեռ մկնիկի կոճակը սեղմած է"
+
+#: Morphic-Worlds,StandardScriptingSystem>>stepButton
+msgid "Run every paused script exactly once.  Keep the mouse button down over \"Step\" and everything will keep running until you release it"
+msgstr ""
+"Գործարկել բոլոր դադարի մեջ գտնվող սկրիպտերը ճիշտ մեկ անգամ:  Մկնիկի կոճակը "
+"սեղմած պահել \"Քայլ\"-ի վրա և ամենը կշարունակվի գործարկվել, մինչև բաց թողնվի "
+"կոճակը:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>stopButton
+msgid "Pause all ticking scripts."
+msgstr "Դադար տալ գործակման մեջ գտնվող բոլոր սկրիպտերին:"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "add a vertex at beginning"
+msgstr "ավելացնել (անկյան) գագաթը ëÏ½µáõÙ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "add a vertex at end"
+msgstr "ավելացնել (անկյան) գագաթը í»ñçáõÙ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "align after"
+msgstr "Ñավասարեցնել հետո"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "clear all pen trails"
+msgstr "Ùաքրել գրչի բոլոր հետքերը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "clear pen trails"
+msgstr "Ùաքրել գրչի հետքերը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "color sees"
+msgstr "գույնը երևում է"
+
+# Please explain if it means dialing a phone number. In Armenian there is no other meaning for dial. If the means somethig else - please clarify.
+# !
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "dial to"
+msgstr "հավաքել համարը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "distance to"
+msgstr "հեռավորությունը մինչև"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "do"
+msgstr "կատարել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "forward by"
+msgstr "առաջ փոխանցել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "include at beginning"
+msgstr "ընդգրկել սկզբում"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "include at end"
+msgstr "ընդգրկել վերջում"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "insert a vertex at cursor"
+msgstr "կուրսորի մոտ գագաթ ավելացնել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "is over color"
+msgstr "գույնի վրա է"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "line is curved"
+msgstr "գիծը ճկված է"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "line is opened"
+msgstr "Գիծը բաց է"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "listening"
+msgstr "ունկնդրում"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "look like"
+msgstr "նման լինել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "make sound"
+msgstr "ձայն արձակել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "no arrowheads on pens"
+msgstr "գրիչները չպետք է ունենան սլաքաձև գլխիկ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "play"
+msgstr "գործարկել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "play frequency of"
+msgstr "գործարկել ... հաճախականությամբ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "remove all vertices but cursor"
+msgstr "Հեռացնել բոլոր սուր անկյունները` բացի մկնիկի սլաքից"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "remove the vertex at cursor"
+msgstr "Հեռացնել կուրսորին մոտ (անկյան) գագաթը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "send to all"
+msgstr "ուղարկել բոլորին"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "start painting in"
+msgstr "սկսել ներկել"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "start recording"
+msgstr "սկսել գրանցումը"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:,StandardScriptingSystem>>wordingForOperator:
+msgid "stop"
+msgstr "կանգ"
+
+#: Morphic-Worlds,StandardScriptingSystem>>wordingForOperator:
+msgid "turn by"
+msgstr "պտտել"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "attach an unlabeled readout to the object which shows the value of this variable"
+msgstr "օբյեկտին կցել անպիտակ արտածում, որը ցուցադրում է այս փոփոխականի արժեքը"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "attached labeled watcher"
+msgstr ""
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+#, fuzzy
+msgid "attached watcher"
+msgstr "մանրամասների զննիչ"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "detailed watcher"
+msgstr "մանրամասների զննիչ"
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "make a readout showing the name and value of this variable, and attach it to the object itself"
+msgstr ""
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "obtain a labeled readout which shows the object name and the name and value of this variable"
+msgstr ""
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "obtain an unlabeled readout which shows the value of this variable"
+msgstr ""
+
+#: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
+msgid "simple watcher"
+msgstr "պարզ զննիչ"
+
+#: Protocols-Type_Vocabularies,DataType>>updatingTileForTarget:partName:getter:setter:
+msgid "readout string"
+msgstr "ընթերցման շղթա"
+
+#: Protocols-Type_Vocabularies,NumberType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "decimal places..."
+msgstr "տասնորդական միավորներ..."
+
+#: Protocols-Type_Vocabularies,NumberType>>addExtraItemsToMenu:forSlotSymbol:
+msgid "Lets you choose how many decimal places should be shown in readouts for this variable"
+msgstr ""
+"Թույլ է տալիս ընտրել, թե այս փոփոխականի քանի տասնորդական միավոր պետք է "
+"ցուցադրվի ընթեռնելի շղթայի վրա:"
+
+#: Protocols-Type_Vocabularies,StringType>>defaultArgumentTile
+msgid "abc"
+msgstr "աբգ"
+
+#: UserObjects,Player150132>>setVersion
+msgid "version"
+msgstr "տարբերակ"
+
+#~ msgid "Sounds"
+#~ msgstr "ձայներ"
+
+#~ msgid "sorry -- no slots of that type"
+#~ msgstr "Ներեցե'ք, այդ կարգի մուտքեր չկան"
+
+#~ msgid "Region"
+#~ msgstr "Շրջան"
+
+#~ msgid "Subject"
+#~ msgstr "Թեմա"
+
+#~ msgid "Target Age"
+#~ msgstr "Նպատակային տարիքը"
+
+#~ msgid "name for new variable: "
+#~ msgstr "նոր փոփոխականի անունը "
+
+#~ msgid "New name for \""
+#~ msgstr "նոր անվանում ...ի համար"
+
+#~ msgid "change value type"
+#~ msgstr "փոխել արժեքի տեսակը"
+
+#~ msgid "rename \"{1}\""
+#~ msgstr "վերանվանել \"{1}\"-ը"
+
+# Ճապոներեն. "Մազե գնդակ", փափուկ, բրդե գնդիկ: Ժամանակակից երաժշտական ոճ. Սկրիպտային աղյուսիկներով /մասնիկներով/ ծրագրատեսակ;
+#~ msgid "kedama"
+#~ msgstr "kedama"

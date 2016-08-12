@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:30-0000\n"
+"PO-Revision-Date: 2010-08-27 15:30-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: Compression\n"
+
+
+#: Compression-Streams,GZipReadStream_class>>serviceDecompressToFile,GZipReadStream_class>>serviceDecompressToFile
+msgid "decompress to file"
+msgstr "αποσυμπίεση σε αρχείο"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install"
+msgstr "εγκατάσταση"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install into new change set"
+msgstr "εγκατάσταση σε νέο σύνολο αλλαγών"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIntoNewChangeSet
+msgid "install the decompressed contents of the file as a body of code in the image: create a new change set and file-in the selected file into it"
+msgstr "εγκατάσταση του αποσυμπιεσμένου περιεχομένου του αρχείου ως μέρος του κώδικα στην εικόνα: δημιουργία νέου συνόλου αλλαγών και καταγραφή του επιλεγμένου αρχείου σε αυτό"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "file in the entire decompressed contents of the file, which is expected to contain Smalltalk code in fileout (\"chunk\") format"
+msgstr "αρχειοθετήστε όλα τα αποσυμπιεσμένα περιεχόμενα του αρχείου, που αναμένεται να περιέχουν κώδικα Smalltalk σε μορφή fileout (\"chunk\")"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "fileIn entire file"
+msgstr "αρχειοθέτηση ολόκληρου αρχείου"
+
+#: Compression-Streams,GZipReadStream_class>>serviceFileIn
+msgid "filein"
+msgstr "αρχειοθέτηση"
+
+#: Compression-Streams,GZipReadStream_class>>serviceViewDecompress,GZipReadStream_class>>serviceViewDecompress
+msgid "view decompressed"
+msgstr "προβολή αποσυμπιεσμένων"
+
+#: Compression-Streams,GZipReadStream_class>>uncompressedFileName:
+msgid ""
+"{1}\n"
+"appears to be a compressed file.\n"
+"Do you want to uncompress it?"
+msgstr ""
+"Το {1}\n"
+"φαίνεται πως είναι ένα συμπιεσμένο αρχείο.\n"
+"Θέλετε να το αποσυμπιέσετε;"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file"
+msgstr "συμπίεση αρχείου"
+
+#: Compression-Streams,GZipWriteStream_class>>serviceCompressFile
+msgid "compress file using gzip compression, making a new file"
+msgstr "συμπίεση αρχείου με την χρήση συμπίεσης gzip, και δημιουργία νέου αρχείου"
+
+#: Compression-Streams,InflateStream>>upToEndWithProgressBar
+msgid "Unzip a stream"
+msgstr "Αποσυμπίεση ενός stream"
+
+#: Compression-Streams,ZipReadStream>>verifyCrc
+msgid "Wrong CRC-32 (expected {1} got {2}) (proceed to ignore)"
+msgstr "Λανθασμένο CRC-32 (αναμενόταν {1} λήφθηκε {2}) (αγνόηση)"
+

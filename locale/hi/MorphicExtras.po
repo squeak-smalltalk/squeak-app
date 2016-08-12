@@ -1,0 +1,3308 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 15:40-0000\n"
+"PO-Revision-Date: 2010-08-27 15:40-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of 25 August 2010)\n"
+"X-Etoys-Domain: MorphicExtras\n"
+
+
+#: MorphicExtras-AdditionalMorphs,FlexMorph>>addCustomMenuItems:hand:
+msgid "border color..."
+msgstr "किनारा रंग..."
+
+#: MorphicExtras-AdditionalMorphs,FlexMorph>>addCustomMenuItems:hand:
+msgid "border width..."
+msgstr "किनारा की चौड़ाई..."
+
+#: MorphicExtras-AdditionalMorphs,FlexMorph>>addCustomMenuItems:hand:
+msgid "update from original"
+msgstr "मूल से अद्यतन करें"
+
+#: MorphicExtras-AdditionalSupport,EmbeddedWorldBorderMorph>>initialize
+msgid ""
+"This is the frame of an embedded project. Click on the colored boxes:\n"
+"blue - expand or reduce\n"
+"yellow - app view\n"
+"red - factory view\n"
+"cyan - full view\n"
+"white - enter the project completely"
+msgstr ""
+"यह अंतर्निर्मित परियोजना का फ्रेम है. रंगीन बक्सों में क्लिक करें:\n"
+"नीला - फैला या छोटा\n"
+"पीला - अनुप्रयोग दृश्य\n"
+"लाल - फ़ैक्टरी दृश्य\n"
+"स्यान - पूरा दृश्य\n"
+"सफेद - परियोजना पूर्णत प्रविष्ट"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph_class>>formerDescriptionForPartsBin
+msgid "Event Recorder"
+msgstr "घटना रेकॉर्डर"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph_class>>formerDescriptionForPartsBin
+msgid "Lets you record and play back interactions"
+msgstr "बातचीत को रेकार्ड व प्लेबैक करने देता है"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph>>addCustomMenuItems:hand:
+msgid "add journal file"
+msgstr "दैनिकी फ़ाइल जोड़ें"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph>>addCustomMenuItems:hand:
+msgid "add voice controls"
+msgstr "आवाज नियंत्रक जोड़ें"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph>>createPlayButton
+msgid "Caption for this button?"
+msgstr "इस बटन के लिए शीर्षक?"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph>>createPlayButton
+msgid "play"
+msgstr "बजाएँ"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph>>readTape
+msgid "Tape to read"
+msgstr "पढ़ने के लिए टेप"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph>>shrink
+msgid "{1} events reduced to {2}"
+msgstr "{1} घटनाएँ कम होकर  {2} रह गईं"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph>>writeTape
+msgid "Tape to write"
+msgstr "लिखने के लिए टेप"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "accept"
+msgstr "स्वीकारें"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "background color"
+msgstr "पृष्ठभूमि रंग"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "file out"
+msgstr "फ़ाइल आउट"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "fill"
+msgstr "भरें"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "inspect"
+msgstr "निरीक्षण"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "magnification"
+msgstr "आवर्धन"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "pen color"
+msgstr "पेन रंग"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "pen size"
+msgstr "पेन आकार"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "revert"
+msgstr "पलटें"
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "selection..."
+msgstr "चयन..."
+
+#: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
+msgid "tools..."
+msgstr "औज़ार..."
+
+#: MorphicExtras-AdditionalWidgets,GraphicalDictionaryMenu_class>>openOn:withLabel:
+msgid "Empty!"
+msgstr "खाली!"
+
+#: MorphicExtras-AdditionalWidgets,GraphicalDictionaryMenu>>findAgain,GraphicalDictionaryMenu>>findAgain,GraphicalDictionaryMenu>>findEntry
+msgid "not found"
+msgstr "नहीं मिला"
+
+#: MorphicExtras-AdditionalWidgets,GraphicalDictionaryMenu>>findEntry
+msgid "Type name or fragment: "
+msgstr "नाम या फ्रेगमेंट टाइप करें: "
+
+#: MorphicExtras-AdditionalWidgets,GraphicalDictionaryMenu>>renameEntry,GraphicalDictionaryMenu>>renameGraphicTo:
+msgid ""
+"sorry that conflicts with\n"
+"the name of another\n"
+"entry in this dictionary"
+msgstr ""
+"खेद है कि यह विरोधाभासी है\n"
+"इस शब्दकोश की अन्य प्रविष्टि\n"
+"के नाम के साथ"
+
+#: MorphicExtras-AdditionalWidgets,GraphicalMenu>>initializeFor:withForms:coexist:
+msgid "OK"
+msgstr "ठीक"
+
+#: MorphicExtras-AdditionalWidgets,GraphicalMenu>>initializeFor:withForms:coexist:,InternalThreadNavigationMorph>>addButtons
+msgid "Prev"
+msgstr "पिछला"
+
+#: MorphicExtras-AdditionalWidgets,TrashCanMorph_class>>descriptionForPartsBin
+msgid "a tool for discarding objects"
+msgstr "वस्तुओं को नष्ट करने के लिए एक औजार"
+
+#: MorphicExtras-AdditionalWidgets,TrashCanMorph>>initialize
+msgid "To remove an object, drop it on any trash can. To view, and maybe retrieve, items that have been thrown away, double-click on any trash-can.  Things are retained in the trash-can if the \"preserveTrash\" preference is set, otherwise they are purged immediately"
+msgstr "किसी वस्तु को मिटाने के लिए, इसे रद्दी की टोकरी में डालें. देखने के लिए व इसे बाहर वापस निकालने के लिए जिन्हें फेंक दिया गया था, किसी भी रद्दी की टोकरी में दोहरा क्लिक करें. चीजें रद्दी की टोकरी में बनी रहती हैं यदि \"रद्दी बचा कर रखें\" प्राथमिकता सेट कर रखी जाती है, अन्यथा उन्हें तत्काल ही फेंक दिया जाता है"
+
+#: MorphicExtras-Books,BooklikeMorph>>addBookMenuItemsTo:hand:,BookMorph>>addBookMenuItemsTo:hand:
+msgid "hide page controls"
+msgstr "पृष्ठ नियंत्रक छुपाएँ"
+
+#: MorphicExtras-Books,BooklikeMorph>>addBookMenuItemsTo:hand:,BookMorph>>addBookMenuItemsTo:hand:
+msgid "show page controls"
+msgstr "पृष्ठ नियंत्रक दिखाएं"
+
+#: MorphicExtras-Books,BooklikeMorph>>addCustomMenuItems:hand:,BookMorph>>addBookMenuItemsTo:hand:
+msgid "book..."
+msgstr "पुस्तक..."
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BookMorph>>fullControlSpecs
+msgid "Add a new page after this one"
+msgstr "इसके बाद एक नया पृष्ठ प्रविष्ट जोड़ें"
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BooklikeMorph>>shortControlSpecs,BookMorph>>fullControlSpecs,BookMorph>>shortControlSpecs
+msgid "Click here to get a menu of options for this book."
+msgstr "इस पुस्तक के लिए विकल्पों के मेन्यू प्राप्त करने के लिए यहाँ क्लिक करें."
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BookMorph>>fullControlSpecs
+msgid "Delete this page"
+msgstr "इस पृष्ठ को मिटाएँ"
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BookMorph>>fullControlSpecs
+msgid "Fewer controls"
+msgstr "कम नियंत्रक"
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BookMorph>>fullControlSpecs
+msgid "Final page"
+msgstr "अंतिम पृष्ठ"
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BookMorph>>fullControlSpecs
+msgid "First page"
+msgstr "प्रथम पृष्ठ"
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BooklikeMorph>>minimumControlSpecs,BooklikeMorph>>shortControlSpecs,BookMorph>>fullControlSpecs,BookMorph>>shortControlSpecs
+msgid "Next page"
+msgstr "अगला पृष्ठ"
+
+#: MorphicExtras-Books,BooklikeMorph>>fullControlSpecs,BooklikeMorph>>minimumControlSpecs,BooklikeMorph>>shortControlSpecs,BookMorph>>fullControlSpecs,BookMorph>>shortControlSpecs
+msgid "Previous page"
+msgstr "पिछला पृष्ठ"
+
+#: MorphicExtras-Books,BooklikeMorph>>pageControlsAtTopString
+msgid "page controls at top"
+msgstr "शीर्ष पर पृष्ठ नियंत्रक"
+
+#: MorphicExtras-Books,BooklikeMorph>>pageControlsShortString
+msgid "page controls short"
+msgstr "पृष्ठ नियंत्रक छोटा"
+
+#: MorphicExtras-Books,BooklikeMorph>>shortControlSpecs,BookMorph>>shortControlSpecs
+msgid "More controls"
+msgstr "और अधिक नियंत्रक"
+
+#: MorphicExtras-Books,BooklikeMorph>>showingFullScreenString
+msgid "view pages full-screen"
+msgstr "पृष्ठों को पूर्ण स्क्रीन में देखें"
+
+#: MorphicExtras-Books,BooklikeMorph>>showingPageControlsString
+msgid "page controls visible"
+msgstr "पृष्ठ कंट्रोल दिखाई दे"
+
+#: MorphicExtras-Books,BookMorph_class>>alreadyInFromUrl:
+msgid "This book is already open in some project"
+msgstr "यह पुस्तक कुछ परियोजनाओं में पहले ही खुली है"
+
+#: MorphicExtras-Books,BookMorph_class>>descriptionForPartsBin,EventRecorderMorph_class>>formerDescriptionForPartsBin,InternalThreadNavigationMorph_class>>descriptionForPartsBin,Morph_class>>supplementaryPartsDescriptions,PianoKeyboardMorph_class>>descriptionForPartsBin,RecordingControlsMorph_class>>formerDescriptionForPartsBin,WaveEditor_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "मल्टीमीडिया"
+
+#: MorphicExtras-Books,BookMorph_class>>descriptionForPartsBin
+msgid "Multi-page structures"
+msgstr "बहु-पृष्ठ स्ट्रक्चर"
+
+#: MorphicExtras-Books,BookMorph_class>>isInWorld:withUrl:
+msgid "Book may be open in some other project"
+msgstr "पुस्तक किसी अन्य परियोजना में खुली होगी"
+
+#: MorphicExtras-Books,BookMorph_class>>openFromFile:
+msgid ""
+"Can only load a single morph\n"
+"into an mvc project via this mechanism."
+msgstr ""
+"सिर्फ एकल मार्फ लोड कर सकता है\n"
+"एमवीसी परियोजना में, इस मेकेनिज़्म के जरिए."
+
+#: MorphicExtras-Books,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A button that takes you to the next page"
+msgstr "एक बटन जो आपको अगले पृष्ठ पर ले जाता है"
+
+#: MorphicExtras-Books,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A button that takes you to the previous page"
+msgstr "एक बटन जो आपको पिछले पृष्ठ पर ले जाता है"
+
+#: MorphicExtras-Books,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A multi-paged structure"
+msgstr "बहु-पृष्ठीय स्ट्रक्चर"
+
+#: MorphicExtras-Books,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "NextPage"
+msgstr "अगला-पृष्ठ"
+
+#: MorphicExtras-Books,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "PreviousPage"
+msgstr "पिछला-पृष्ठ"
+
+#: MorphicExtras-Books,BookMorph_class>>serviceLoadAsBook
+msgid "load as book"
+msgstr "पुस्तक जैसे लोड करें"
+
+#: MorphicExtras-Books,BookMorph_class>>serviceLoadAsBook
+msgid "open as bookmorph"
+msgstr "बुकमार्फ के रूप में खोलें"
+
+#: MorphicExtras-Books,BookMorph>>acceptSortedContentsFrom:
+msgid " objects vanished in this process."
+msgstr " इस प्रक्रिया में गुम वस्तुएँ."
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "advanced..."
+msgstr "विस्तृत..."
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "Choose a color to assign as the background color for all of this book's pages"
+msgstr "इस पुस्तक से सारे पृष्ठों पर पृष्ठभूमि रंग सेट करने के लिए कोई रंग चुनें"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "clear new-page template"
+msgstr "नया-पृष्ठ टेम्प्लेट साफ करें"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:,BookMorph>>addBookMenuItemsTo:hand:
+msgid "exit full screen"
+msgstr "पूरा स्क्रीन से बाहर हों"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "Make all the pages of this book be the same size as the page currently showing."
+msgstr "जैसा कि वर्तमान पृष्ठ दिखा रहा है इस पुस्तक के समस्त पृष्ठों को इसी समान आकार में बनाएँ."
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "make a thread of projects in this book"
+msgstr "इस पुस्तक में परियोजनाओं की लड़ी बनाएँ"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "make all pages the same size as this page"
+msgstr "सभी पृष्ठों को इस पुस्तक के आकार का बनाएँ"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "make this the template for new pages"
+msgstr "नए पृष्ठों के लिए इसे टैम्प्लेट बना दें"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:,BookMorph>>addBookMenuItemsTo:hand:
+msgid "paste book page"
+msgstr "पुस्तक पृष्ठ चिपकाएँ"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:
+msgid "set background color for all pages"
+msgstr "सभी पृष्ठों के लिए पृष्ठभूमि रंग सेट करें"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:,BookMorph>>addBookMenuItemsTo:hand:
+msgid "show full screen"
+msgstr "पूरा स्क्रीन दिखाएँ"
+
+#: MorphicExtras-Books,BookMorph>>addAdvancedItemsTo:,BookMorph>>addBookMenuItemsTo:hand:
+msgid "uncache page sorter"
+msgstr "पृष्ठ छांटक अनकैच करें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "clear new-page prototype"
+msgstr "नया-पृष्ठ नमूना साफ करें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "copy page url to clipboard"
+msgstr "पृष्ठ यूआरएल को क्लिपबोर्ड में नक़ल करें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "delete this page"
+msgstr "इस पृष्ठ को मिटाएँ"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "fewer page controls"
+msgstr "कम पृष्ठ नियंत्रक"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "goto page"
+msgstr "इस पृष्ठ पर जाएँ"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "insert a page"
+msgstr "पृष्ठ प्रविष्ट करें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "keep in one file"
+msgstr "एक फ़ाइल में रखें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:,BookMorph>>addSaveAndRevertItemsTo:
+msgid "mark entire book to be revertible"
+msgstr ""
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:,BookMorph>>addSaveAndRevertItemsTo:
+msgid "mark this page to be revertible"
+msgstr ""
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "next page"
+msgstr "अगला पृष्ठ"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "previous page"
+msgstr "पिछला पृष्ठ"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "reload all from server"
+msgstr "सभी को सर्वर से फिर से लोड करें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:,BookMorph>>bookMenu,BookMorph>>invokeShortBookMenu
+msgid "revert this page"
+msgstr "इस पृष्ठ को बहाल करें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "save as new-page prototype"
+msgstr "नया-पृष्ठ नमूना के रूप में सहेजें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "search for text"
+msgstr "पाठ हेतु ढूँढें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "send all pages to server"
+msgstr "सभी पृष्ठों को सर्वर पर भेजें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "send this page to server"
+msgstr "इस पृष्ठ को सर्वर पर भेजें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:,BookMorph>>bookMenu
+msgid "sort pages"
+msgstr "पृष्ठ छांटें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect for all pages"
+msgstr "सभी पृष्ठों के लिए ध्वनि प्रभाव"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "sound effect this page only"
+msgstr "सिर्फ इस पृष्ठ के लिए ध्वनि प्रभाव"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "stop at last page"
+msgstr "अंतिम पृष्ठ पर रुकें"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "unmark entire book to be revertible"
+msgstr ""
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "unmark this page to be revertible"
+msgstr ""
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect for all pages"
+msgstr "सभी पृष्ठों के लिए दृश्य प्रभाव"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:
+msgid "visual effect this page only"
+msgstr "सिर्फ इस पृष्ठ के लिए दृश्य प्रभाव"
+
+#: MorphicExtras-Books,BookMorph>>addBookMenuItemsTo:hand:,BookMorph>>wrappingAtEndString
+msgid "wrap after last page"
+msgstr "अंतिम पृष्ठ के बाद समेटें"
+
+#: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
+msgid "If on, page controls (when present), will appear at the the top of the book; if off, they will appear at its bottom"
+msgstr "यदि चालू होगा तो पृष्ठ नियंत्रक (जब मौजूद होगा), पुस्तक के शीर्ष में प्रकट होगा, यदि बन्द होगा तो वे इसके तल में प्रकट होंगे"
+
+#: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
+msgid "If set, a row of page controls will appear at the top of the book"
+msgstr "यदि सेट किया जाता है तो पृष्ठ नियंत्रक की पंक्ति पुस्तक के शीर्ष में प्रकट होगा"
+
+#: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
+msgid "If set, stop-step-go buttons within the page's interior will govern only scripts for objects  residing within the page"
+msgstr "यदि सेट होगा, पुस्तक के इंटीरियर के स्टाप-स्टेप-गो बटन सिर्फ वस्तु के स्क्रिप्ट को नियंत्रित करेंगे जो पृष्ठ के भीतर हैं"
+
+#: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
+msgid "If set, the book page occupies the entire screen"
+msgstr "यदि सेट किया जाता है, पुस्तक का पृष्ठ संपूर्ण स्क्रीन को घेरेगा"
+
+#: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
+msgid "If set, the first page in the book will be considered to be the next page after the last page, so that continuallly pressing the next or previous buttons will continually cycle through all pages of the book"
+msgstr "यदि सेट किया जाता है तो पुस्तक में पहला पृष्ठ, आखिरी पृष्ठ के बाद अगला पृष्ठ माना जाएगा ताकि अगला या पिछला बटन क्लिक करने पर किताब के पन्नों को साइक्लिक रूप से लगातार पलटा जा सकेगा"
+
+#: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
+msgid "If set, the shorter form of page controls will be used when page controls are showing"
+msgstr "यदि सेट किया जाता है, पृष्ठ नियंत्रक का छोटा रुप प्रयोग में लिया जाएगा जब पृष्ठ नियंत्रक दिखाया जाएगा"
+
+#: MorphicExtras-Books,BookMorph>>addBookToggleItemsTo:
+msgid "If set, when you resize the book, all of its pages get automatically resized."
+msgstr "यदि सेट किया जाता है तो जब आप किताब का आकार बदलेंगे तो इसके सभी पृष्ठ स्वचालित रूप से नया आकार ले लेंगे."
+
+#: MorphicExtras-Books,BookMorph>>addSaveAndRevertItemsTo:
+msgid "save for later revert..."
+msgstr "बाद में बहाली के लिए सहेजें..."
+
+#: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
+msgid "Establish a sound-effect that should be used whenever there is a transition between any two pages of this book."
+msgstr "एक ध्वनि प्रभाव बनाता है जिसे तब प्रयोग में लिया जाएगा जब पुस्तक के दो पृष्ठों के बीच में ट्रांजीशन होगा."
+
+#: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
+msgid "Establish a visual -effect that should be used for all transitions between pages of this book"
+msgstr "दृश्य प्रभाव बनाता है जिसे पुस्तक के सभी पृष्ठों के बीच ट्रांजीशन होने पर प्रयोग में लिया जाएगा"
+
+#: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
+msgid "set sound effect for all pages"
+msgstr "सभी पृष्ठों के लिए ध्वनि प्रभाव सेट करें"
+
+#: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
+msgid "set sound effect for this page"
+msgstr "इस पृष्ठ के लिए ध्वनि प्रभाव सेट करें"
+
+#: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
+msgid "set visual effect for all pages"
+msgstr "सभी पृष्ठों के लिए दृश्य प्रभाव सेट करें"
+
+#: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
+msgid "set visual effect for this page"
+msgstr "इस पृष्ठ के लिए दृश्य प्रभाव सेट करें"
+
+#: MorphicExtras-Books,BookMorph>>addTransitionItemsTo:
+msgid "visual and sound effects..."
+msgstr "दृश्य तथा ध्वनि प्रभाव..."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "add a new page just like this one to0 the book."
+msgstr "पुस्तक में ठीक इसी तरह का नया पृष्ठ जो़ड़ें."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu,BookMorph>>invokeShortBookMenu,BookMorph_class>>descriptionForPartsBin,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "Book"
+msgstr "पुस्तक"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "create an icon representing this page"
+msgstr "इस पृष्ठ का प्रतिनिधित्व करता एक प्रतीक बनाएँ"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "duplicate this page"
+msgstr "इस पृष्ठ की अनुकृति बनाएँ"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "find again"
+msgstr "फिर से ढूंढें"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu,BookMorph>>invokeShortBookMenu
+msgid "find..."
+msgstr "ढूंढें..."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "go directly to a page, if you know its page-number"
+msgstr "यदि आप पृष्ठ-क्रमांक जानते हैं तो सीधे उस पृष्ठ पर जाएँ"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu,BookMorph>>invokeShortBookMenu
+msgid "go to page..."
+msgstr "पृष्ठ पर जाएं..."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "hand me a bookmark for this page"
+msgstr "इस पृष्ठ के लिए मुझे एक पसंदीदा दें"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "hand me a thumbnail for this page"
+msgstr "इस पृष्ठ के लिए मुझे एक लघुछवि दें"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "make a bookmark object which, when clicked, will make the book turn to this page."
+msgstr "पसंदीदा वस्तु बनाता है जिसे जब क्लिक किया जाता है इस पुस्तक के पन्नों को पलटता है."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "open a tool allowing you to arrange the pages of the book."
+msgstr "पुस्तक के पृष्ठों को जमाने के लिए कोई औजार खोलें."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "restore all pages of this book to their initial condition if possible."
+msgstr "इस पुस्तक के सभी पन्नों को यदि संभव हो तो उनके आरंभिक हाल पर बहाल करें."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "restore this page to its initial condition, if possible."
+msgstr "यदि संभव हो तो इस पृष्ठ को इसके आरंभिक स्थिति में बहाल करें."
+
+#: MorphicExtras-Books,BookMorph>>bookMenu,BookMorph>>invokeShortBookMenu
+msgid "revert entire book"
+msgstr "सम्पूर्ण पुस्तक वापस करें"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "search for the next occurrence of a string"
+msgstr "वाक्यांश की अगली उपस्थिति के लिए ढूंढें"
+
+#: MorphicExtras-Books,BookMorph>>bookMenu
+msgid "search the book for word(s)"
+msgstr "शब्द को पुस्तक में ढूंढें"
+
+#: MorphicExtras-Books,BookMorph>>bookmarkForThisPage,BookMorph>>bookmarkForThisPage
+msgid "Bookmark"
+msgstr "पसंदीदा"
+
+#: MorphicExtras-Books,BookMorph>>buildThreadOfProjects
+msgid "Please name this thread."
+msgstr "इस लड़ी को नाम दें."
+
+#: MorphicExtras-Books,BookMorph>>buildThreadOfProjects
+msgid "Projects on Parade"
+msgstr "परेड पर परियोजनाएँ"
+
+#: MorphicExtras-Books,BookMorph>>copyUrl
+msgid "Page does not have a url.  Send page to server first."
+msgstr "पृष्ठ में यूआरएल नहीं है. पृष्ठ को पहले सर्वर पर भेजें."
+
+#: MorphicExtras-Books,BookMorph>>deletePage
+msgid ""
+"Are you certain that you\n"
+"want to delete this page and\n"
+"everything that is on it? "
+msgstr ""
+"क्या आप सुनिश्चित हैं कि आप\n"
+"इस पृष्ठ को मिटाना चाहते हैं तथा\n"
+"इसमें की सभी सामग्री को भी? "
+
+#: MorphicExtras-Books,BookMorph>>getStemUrl
+msgid ""
+"url of the place to store a typical page in this book.\n"
+"Must begin with file:// or ftp://"
+msgstr ""
+"इस पुस्तक में किसी विशिष्ट पृष्ठ को भंडारित करने वाले यूआरएल.\n"
+"को file:// या ftp:// से शुरू होना चाहिए"
+
+#: MorphicExtras-Books,BookMorph>>goToPage
+msgid "Page?"
+msgstr "पृष्ठ?"
+
+#: MorphicExtras-Books,BookMorph>>invokeShortBookMenu
+msgid "show more controls"
+msgstr "और अधिक नियंत्रक दिखाएं"
+
+#: MorphicExtras-Books,BookMorph>>keepingUniformPageSizeString
+msgid "keep all pages the same size"
+msgstr "सभी पृष्ठों को एक ही आकार में रखें"
+
+#: MorphicExtras-Books,BookMorph>>menuPageSoundFor:event:
+msgid ""
+"Choose a sound\n"
+"(it is now "
+msgstr ""
+"ध्वनि चुनें\n"
+"(अब यह है "
+
+#: MorphicExtras-Books,BookMorph>>menuPageVisualFor:event:
+msgid ""
+"Choose an effect\n"
+"(it is now {1})"
+msgstr ""
+"एक प्रभाव चुनें\n"
+"(अब यह है {1})"
+
+#: MorphicExtras-Books,BookMorph>>printPSToFile
+msgid "Choose orientation..."
+msgstr "दिशा चुनें..."
+
+#: MorphicExtras-Books,BookMorph>>printPSToFile
+msgid "File name? (\".ps\" will be added to end)"
+msgstr "फ़ाइल नाम? (\".ps\" अंत में जोड़ा जाएगा)"
+
+#: MorphicExtras-Books,BookMorph>>printPSToFile
+msgid "MyBook"
+msgstr "मेरी-पुस्तक"
+
+#: MorphicExtras-Books,BookMorph>>printPSToFile
+msgid ""
+"portrait (tall)\n"
+"landscape (wide)"
+msgstr ""
+"खड़ा (लंबा)\n"
+"आड़ा (चौड़ा)"
+
+#: MorphicExtras-Books,BookMorph>>reload
+msgid ""
+"url of the place where this book's index is stored.\n"
+"Must begin with file:// or ftp://"
+msgstr ""
+"इस पुस्तक की निर्देशिका जहाँ भंडारित हैं उनके यूआरएल.\n"
+"को file:// या ftp:// से शुरू होना चाहिए"
+
+#: MorphicExtras-Books,BookMorph>>revertPage
+msgid "sorry, nothing was saved for this page."
+msgstr "माफ करें, इस पृष्ठ के लिए कुछ सहेजा नहीं गया है."
+
+#: MorphicExtras-Books,BookMorph>>saveIndexOfOnly:
+msgid "just had one!"
+msgstr "सिर्फ एक है!"
+
+#: MorphicExtras-Books,BookMorph>>saveIndexOfOnly:
+msgid ".bo size mismatch.  Please tell Ted what you just did to this book."
+msgstr ".bo आकार मेल नहीं खाते.  कृपया टेड को बताएँ कि आपने अभी इस पुस्तक का क्या किया."
+
+#: MorphicExtras-Books,BookMorph>>saveOnUrlPage:
+msgid ""
+"Modify the old book, or make a new\n"
+"book sharing its pages?"
+msgstr ""
+"पुरानी पुस्तक को परिवर्धित करें, या नया बनाएँ\n"
+"इसके पृष्ठों को साझा करते हुए?"
+
+#: MorphicExtras-Books,BookMorph>>saveOnUrlPage:
+msgid ""
+"Old book\n"
+"New book sharing old pages"
+msgstr ""
+"पुरानी पुस्तक\n"
+"नई पुस्तक में पुराने पृष्ठ साझा हो रहे हैं"
+
+#: MorphicExtras-Books,BookMorph>>saveOnUrlPage:,BookMorph>>savePagesOnURL
+msgid ""
+"This book is marked 'keep in one file'. \n"
+"Several pages use a common Player.\n"
+"Save the owner of the book instead."
+msgstr ""
+"यह पुस्तक चिह्नित है 'एक फ़ाइल में रखें'\n"
+"बहुत से अच्छे पृष्ठ सामान्य प्लेयर प्रयोग करते हैं.\n"
+"बदले में किताब के मालिक को सहेजें."
+
+#: MorphicExtras-Books,BookMorph>>saveOnUrlPage:
+msgid "where is the page?"
+msgstr "पृष्ठ कहाँ है?"
+
+#: MorphicExtras-Books,BookMorph>>savePagesOnURL
+msgid ""
+"Each page will be a file on the server.  \n"
+"Do you want to page numbers be the names of the files? \n"
+"or name each one yourself?"
+msgstr ""
+"हर पृष्ठ सर्वर में एक फ़ाइल होता है. \n"
+"क्या आप चाहते हैं कि पृष्ठ संख्या ही फ़ाइलों के नाम हों? \n"
+"या आप हर पृष्ठ को स्वयं नाम देना चाहते हैं?"
+
+#: MorphicExtras-Books,BookMorph>>savePagesOnURL
+msgid ""
+"Use page numbers\n"
+"Type in file names\n"
+"Save in a new place (using page numbers)\n"
+"Save in a new place (typing names)\n"
+"Save new book sharing old pages"
+msgstr ""
+"पृष्ठ संख्या प्रयोग करें\n"
+"फ़ाइल नाम टाइप करें\n"
+"नए स्थान में सहेजें (पृष्ठ संख्या का प्रयोग कर)\n"
+"नए स्थान में सहेजे (नाम टाइप कर)\n"
+"नई पुस्तक सहेजें पुराने पृष्ठों को साझा कर"
+
+#: MorphicExtras-Books,BookMorph>>textSearch
+msgid ""
+"words to search for.  Order is not important.\n"
+"Beginnings of words are OK."
+msgstr ""
+"शब्द जिसे ढूंढना है. अनुक्रम जरूरी नहीं है.\n"
+"शब्दों के शुरू भी ठीक हैं."
+
+#: MorphicExtras-Books,BookMorph>>usingPrivatePresenterString
+msgid "scripting area"
+msgstr "स्क्रिप्टिंग क्षेत्र"
+
+#: MorphicExtras-Books,BookPageSorterMorph>>addControls
+msgid "Accept the changes made here as the new page-order for this book"
+msgstr "इस पुस्तक के लिए नए पृष्ठ-अनुक्रम के रूप में परिवर्तनों को स्वीकारें"
+
+#: MorphicExtras-Books,BookPageSorterMorph>>addControls,GraphicalMenu>>initializeFor:withForms:coexist:,ProjectSorterMorph>>addControls,TabSorterMorph>>addControls
+msgid "Cancel"
+msgstr "रद्द करें"
+
+#: MorphicExtras-Books,BookPageSorterMorph>>addControls
+msgid "Forgot any changes made here, and dismiss this sorter"
+msgstr "जो परिवर्तन यहाँ किए गए हैं उन्हें भूल जाएं तथा इस छांटक को बन्द करें"
+
+#: MorphicExtras-Books,BookPageSorterMorph>>addControls,ProjectSorterMorph>>addControls,TabSorterMorph>>addControls
+msgid "Okay"
+msgstr "ठीक है"
+
+#: MorphicExtras-Books,BookPageSorterMorph>>addCustomMenuItems:hand:
+msgid "where is my book?"
+msgstr "मेरी पुस्तक कहां है?"
+
+#: MorphicExtras-Books,BookPageSorterMorph>>closeButtonOnly
+msgid "Close"
+msgstr "बंद करें"
+
+#: MorphicExtras-Books,BookPageThumbnailMorph>>addCustomMenuItems:hand:
+msgid "disable bookmark action"
+msgstr "पसंदीदा बनाने की क्रिया अक्षम करें"
+
+#: MorphicExtras-Books,BookPageThumbnailMorph>>addCustomMenuItems:hand:
+msgid "enable bookmark action"
+msgstr "पसंदीदा बनाने की क्रिया सक्षम करें"
+
+#: MorphicExtras-Books,BookPageThumbnailMorph>>addCustomMenuItems:hand:
+msgid "make a flex morph"
+msgstr "एक फ्लैक्स मॉर्फ बनाएँ"
+
+#: MorphicExtras-Books,BookPageThumbnailMorph>>addCustomMenuItems:hand:
+msgid "set page sound"
+msgstr "पृष्ठ ध्वनि सेट करें"
+
+#: MorphicExtras-Books,BookPageThumbnailMorph>>addCustomMenuItems:hand:
+msgid "set page visual"
+msgstr "पृष्ठ दृश्य सेट करें"
+
+#: MorphicExtras-Books,BookPageThumbnailMorph>>objectForDataStream:
+msgid "page should already have a url"
+msgstr "पृष्ठ में पहले ही एक यूआरएल होना चाहिए"
+
+#: MorphicExtras-Books,BookPageThumbnailMorph>>objectsInMemory
+msgid "This book is already open in some other project"
+msgstr "यह पुस्तक पहले ही किसी अन्य परियोजना में खुली है"
+
+#: MorphicExtras-Books,MorphThumbnail>>addCustomMenuItems:hand:
+msgid "grab original morph"
+msgstr "मूल मॉर्फ पकड़ें"
+
+#: MorphicExtras-Books,MorphThumbnail>>addCustomMenuItems:hand:
+msgid "reveal original morph"
+msgstr "मूल मॉर्फ दिखाएँ"
+
+#: MorphicExtras-Books,StoryboardBookMorph_class>>descriptionForPartsBin
+msgid "A storyboard authoring tool"
+msgstr "कहानी लिखने वाला औजार"
+
+#: MorphicExtras-Books,StoryboardBookMorph_class>>descriptionForPartsBin
+msgid "Storyboard"
+msgstr "कहानी-विषय"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph_class>>descriptionForPartsBin
+msgid "BouncingAtoms"
+msgstr "उछले-अणु"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph_class>>descriptionForPartsBin,ClockMorph_class>>descriptionForPartsBin,Flasher_class>>descriptionForPartsBin,FrameRateMorph_class>>descriptionForPartsBin,MagnifierMorph_class>>descriptionForPartsBin,MagnifierMorph_class>>supplementaryPartsDescriptions,StickyPadMorph_class>>descriptionForPartsBin
+msgid "Just for Fun"
+msgstr "सिर्फ मजे के लिए"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph_class>>descriptionForPartsBin
+msgid "The original, intensively-optimized bouncing-atoms simulation by John Maloney"
+msgstr "मूल, इंटेंसिवली-ऑप्टीमाइज़्ड बाउंसिंग-एटम सिमुलेशन - जान मेलोनी द्वारा"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "Atoms, mate"
+msgstr "अणु, मेट"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "Bouncing Atoms"
+msgstr "उछलते अणु"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph>>addCustomMenuItems:hand:
+msgid "set atom count"
+msgstr "अणु गिनती निर्दिष्ट करें"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph>>addCustomMenuItems:hand:
+msgid "show infection history"
+msgstr "संक्रमण इतिहास दिखाएँ"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph>>addCustomMenuItems:hand:
+msgid "startInfection"
+msgstr "स्टार्ट-इनफ़ेक्शन"
+
+#: MorphicExtras-Demo,BouncingAtomsMorph>>setAtomCount
+msgid "Number of atoms?"
+msgstr "अणु की संख्या?"
+
+#: MorphicExtras-Demo,ClockMorph_class>>descriptionForPartsBin
+msgid "A digital clock"
+msgstr "डिजिटल घड़ी"
+
+#: MorphicExtras-Demo,ClockMorph_class>>descriptionForPartsBin
+msgid "Digital Clock"
+msgstr "डिजिटल घड़ी"
+
+#: MorphicExtras-Demo,ClockMorph_class>>registerInFlapsRegistry,ClockMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A simple digital clock"
+msgstr "एक सादा डिजिटल घड़ी"
+
+#: MorphicExtras-Demo,ClockMorph_class>>registerInFlapsRegistry,ClockMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "Clock"
+msgstr "घड़ी"
+
+#: MorphicExtras-Demo,ClockMorph>>addCustomMenuItems:hand:
+msgid "change font"
+msgstr "फ़ॉन्ट बदलें"
+
+#: MorphicExtras-Demo,ClockMorph>>changeFont
+msgid "Choose a font and style"
+msgstr "फ़ॉन्ट शैली चुनें"
+
+#: MorphicExtras-Demo,ClockMorph>>displaying24HourString
+msgid "display 24-hour"
+msgstr "२४-घंटे दिखाएँ"
+
+#: MorphicExtras-Demo,ClockMorph>>showingSecondsString
+msgid "show seconds"
+msgstr "सेकण्ड दिखाएं"
+
+#: MorphicExtras-Demo,Flasher_class>>descriptionForPartsBin
+msgid "A circle that flashes"
+msgstr "एक वृत्त जो चमकता है"
+
+#: MorphicExtras-Demo,Flasher_class>>descriptionForPartsBin
+msgid "Flasher"
+msgstr "फ़्लैशर"
+
+#: MorphicExtras-Demo,FrameRateMorph_class>>descriptionForPartsBin
+msgid "A readout that allows you to monitor the frame rate of your system"
+msgstr "एक रीडआउट जो आपके तंत्र के फ्रेम दर को मॉनीटर करने देता है"
+
+#: MorphicExtras-Demo,FrameRateMorph_class>>descriptionForPartsBin
+msgid "FrameRate"
+msgstr "फ्रेम-रेट"
+
+#: MorphicExtras-Demo,MagnifierMorph_class>>supplementaryPartsDescriptions
+msgid "A magnifying glass that also shows Morphs in the Hand and displays the Hand position."
+msgstr "एक आतशी शीशा जो हाथ में मार्फ दिखाता है तथा हाथ की स्थिति प्रदर्शित करता है."
+
+#: MorphicExtras-Demo,MagnifierMorph_class>>supplementaryPartsDescriptions
+msgid "A round magnifying glass"
+msgstr "गोल आतशी शीशा"
+
+#: MorphicExtras-Demo,MagnifierMorph_class>>supplementaryPartsDescriptions
+msgid "Hand Magnifier"
+msgstr "हाथ आवर्धक"
+
+#: MorphicExtras-Demo,MagnifierMorph_class>>supplementaryPartsDescriptions
+msgid "RoundGlass"
+msgstr "राउन्ड-ग्लास"
+
+#: MorphicExtras-Demo,MagnifierMorph>>addCustomMenuItems:hand:
+msgid "magnification..."
+msgstr "आवर्धन..."
+
+#: MorphicExtras-Demo,MagnifierMorph>>chooseMagnification
+msgid ""
+"Choose magnification\n"
+"(currently {1})"
+msgstr ""
+"आवर्धन चुनें\n"
+"(अभी यह है {1})"
+
+#: MorphicExtras-Demo,MagnifierMorph>>showingPointerString
+msgid "show pointer"
+msgstr "संकेतक दिखाएँ"
+
+#: MorphicExtras-Demo,MagnifierMorph>>toggleRoundString
+msgid "round"
+msgstr "गोल"
+
+#: MorphicExtras-Demo,MagnifierMorph>>trackingPointerString
+msgid "track pointer"
+msgstr "ट्रैक पाइंटर"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "choose blocking color"
+msgstr "ब्लॉकिंग रंग चुनें"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "choose passing color"
+msgstr "पासिंग रंग चुनें"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "exchange source and screen"
+msgstr "स्रोत तथा स्क्रीन अदलाबदली करें"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "show screen only"
+msgstr "सिर्फ स्क्रीन दिखाएँ"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "show screen over source"
+msgstr "स्रोत के बजाए स्क्रीन दिखाएँ"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "show source only"
+msgstr "सिर्फ स्रोत दिखाएँ"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "show source screened"
+msgstr "स्रोत स्क्रीन किया हुआ दिखाएँ"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "*I have too many submorphs*"
+msgstr "*मेरे पास बहुत से सबमार्फ हैं*"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "*Please add a screen morph*"
+msgstr "*कृपया कोई स्क्रीन मार्फ जोड़ें*"
+
+#: MorphicExtras-Demo,ScreeningMorph>>addCustomMenuItems:hand:
+msgid "*Please add a source morph*"
+msgstr "*कृपया कोई स्रोत मार्फ जोड़ें*"
+
+#: MorphicExtras-Demo,StickyPadMorph_class>>defaultNameStemForInstances
+msgid "tear off"
+msgstr "अलग करें"
+
+#: MorphicExtras-Demo,StickyPadMorph_class>>descriptionForPartsBin
+msgid "A translucent, borderless rectangle of a standard size, delivered in a predictable sequence of pastel colors"
+msgstr "एक पारभासी, किनारा रहित मानक आकार का आयत, पेस्टल रंग के उम्मीद के मुताबिक अनुक्रम में डिलीवर्ड"
+
+#: MorphicExtras-Demo,StickyPadMorph_class>>descriptionForPartsBin,StickyPadMorph_class>>registerInFlapsRegistry,StickyPadMorph_class>>registerInFlapsRegistry
+msgid "Sticky Pad"
+msgstr "स्टिकी पैड"
+
+#: MorphicExtras-Demo,StickyPadMorph_class>>registerInFlapsRegistry,StickyPadMorph_class>>registerInFlapsRegistry
+msgid "Each time you obtain one of these pastel, translucent, borderless rectangles, it will be a different color from the previous time."
+msgstr "हर बार जब आप इन पेस्टल, पारदर्शी, सीमा रहित आयतों को प्राप्त करेंगे, यह पिछली मर्तबा से एक अलग रंग में होगा."
+
+#: MorphicExtras-Demo,ZASMCameraMarkMorph>>addCustomMenuItems:hand:
+msgid "Go to this mark"
+msgstr "इस चिह्न पर जाएँ"
+
+#: MorphicExtras-Demo,ZASMCameraMarkMorph>>addCustomMenuItems:hand:
+msgid "Set transition"
+msgstr "ट्रांज़ीशन सेट करें"
+
+#: MorphicExtras-Demo,ZASMScriptMorph>>addCustomMenuItems:hand:
+msgid "save script"
+msgstr "स्क्रिप्ट सहेजें"
+
+#: MorphicExtras-Demo,ZoomAndScrollControllerMorph>>addCustomMenuItems:hand:
+msgid "change tilt and zoom keys"
+msgstr "टिल्ट तथा जूम कुंजियाँ बदलें"
+
+#: MorphicExtras-Demo,ZoomAndScrollControllerMorph>>addCustomMenuItems:hand:
+msgid "edit an existing camera script"
+msgstr "मौजूदा कैमरा स्क्रिप्ट संपादित करें"
+
+#: MorphicExtras-Demo,ZoomAndScrollControllerMorph>>addCustomMenuItems:hand:
+msgid "run an existing camera script"
+msgstr "मौजूदा कैमरा स्क्रिप्ट चलाएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>addAndEnableEToyFlapsWithPreviousEntries:,Flaps_class>>addNewDefaultSharedFlaps,Flaps_class>>addNewDefaultSharedFlaps,Flaps_class>>addStandardFlaps,Flaps_class>>enableClassicNavigatorChanged,Flaps_class>>enableClassicNavigatorChanged,Flaps_class>>enableClassicNavigatorChanged,Flaps_class>>makeNavigatorFlapResembleGoldenBar,Flaps_class>>makeNavigatorFlapResembleGoldenBar,Flaps_class>>makeNavigatorFlapResembleGoldenBar,Flaps_class>>newNavigatorFlap,Flaps_class>>positionNavigatorAndOtherFlapsAccordingToPreference,Flaps_class>>positionVisibleFlapsRightToLeftOnEdge:butPlaceAtLeftFlapsWithIDs:,Flaps_class>>reinstateDefaultFlaps,Flaps_class>>replaceGlobalFlapwithID:,Flaps_class>>sharedFlapsAlongBottom,Flaps_class>>sharedFlapsAlongBottom
+msgid "Navigator"
+msgstr "नेविगेटर"
+
+#: MorphicExtras-Flaps,Flaps_class>>addAndEnableEToyFlapsWithPreviousEntries:,Flaps_class>>addAndEnableEToyFlapsWithPreviousEntries:,Flaps_class>>newSugarNavigatorFlap
+msgid "Sugar Navigator Flap"
+msgstr "सुगर नेविगेशन फ्लैप"
+
+#: MorphicExtras-Flaps,Flaps_class>>addAndEnableEToyFlapsWithPreviousEntries:,Flaps_class>>newLoneSuppliesFlap,Flaps_class>>newSuppliesFlapFromQuads:positioning:withPreviousEntries:,Flaps_class>>reinstateDefaultFlaps,Flaps_class>>replaceGlobalFlapwithID:,Flaps_class>>setUpSuppliesFlapOnly,Flaps_class>>sharedFlapsAlongBottom,FlapTab>>balloonTextForFlapsMenu,ProjectNavigationMorph>>buttonSupplies,ProjectNavigationMorph>>buttonSupplies
+msgid "Supplies"
+msgstr "आपूर्ति"
+
+#: MorphicExtras-Flaps,Flaps_class>>addAndEnableEToyFlapsWithPreviousEntries:
+msgid "Supplies Flap"
+msgstr "आपूर्ति फ्लैप"
+
+#: MorphicExtras-Flaps,Flaps_class>>addLocalFlap,FlapTab>>acquirePlausibleFlapID
+msgid "Flap"
+msgstr "फ्लैप"
+
+#: MorphicExtras-Flaps,Flaps_class>>addLocalFlap
+msgid "Where should the new flap cling?"
+msgstr "नया फ्लैप कहाँ चिपटेगा?"
+
+#: MorphicExtras-Flaps,Flaps_class>>addLocalFlap
+msgid "Wording for this flap: "
+msgstr "इस फ्लैप के लिए शब्द: "
+
+#: MorphicExtras-Flaps,Flaps_class>>addNewDefaultSharedFlaps,Flaps_class>>addNewDefaultSharedFlaps,Flaps_class>>addStandardFlaps,Flaps_class>>newStackToolsFlap,Flaps_class>>reinstateDefaultFlaps,Flaps_class>>replaceGlobalFlapwithID:,Flaps_class>>sharedFlapsAlongBottom
+msgid "Stack Tools"
+msgstr "स्टैक औज़ार"
+
+#: MorphicExtras-Flaps,Flaps_class>>addStandardFlaps,Flaps_class>>newObjectsFlap,Flaps_class>>reinstateDefaultFlaps,ObjectsTool>>initializeForFlap:,ObjectsTool>>initializeForFlap:,ObjectsTool>>initializeToStandAlone:,ObjectsTool_class>>descriptionForPartsBin
+msgid "Objects"
+msgstr "वस्तुएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>addStandardFlaps,Flaps_class>>newPaintingFlap,Flaps_class>>reinstateDefaultFlaps,Flaps_class>>sharedFlapsAlongBottom,Flaps_class>>sharedFlapsAlongBottom
+msgid "Painting"
+msgstr "पेंटिंग"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "A button to use with tile scripting; its script will be a method of its containing playfield"
+msgstr "टाइल स्क्रिप्टिंग के साथ प्रयोग में एक बटन; इसका स्क्रिप्ट इसके प्लेफ़ील्ड से युक्त विधि का होगा"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,RecordingControlsMorph_class>>formerDescriptionForPartsBin,RecordingControlsMorph_class>>registerInFlapsRegistry
+msgid "A device for making sound recordings."
+msgstr "ध्वनि रेकॉर्डिंग के लिए एक उपकरण."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A joystick-like control"
+msgstr "जॉयस्टिक जैसा नियंत्रण"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,PasteUpMorph_class>>registerInFlapsRegistry,PasteUpMorph_class>>registerInFlapsRegistry,PasteUpMorph_class>>registerInFlapsRegistry
+msgid "A place for assembling parts or for staging animations"
+msgstr "पुरजों को असेम्बल करने या एनीमेशन स्टेज करने का एक स्थान"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,StandardScriptingSystem_class>>registerInFlapsRegistry,StandardScriptingSystem_class>>registerInFlapsRegistry
+msgid "A place for storing alternative pictures in an animation, etc."
+msgstr "वैकल्पिक चित्रों या एनीमेशन इत्यादि को भंडारित करने का एक स्थान."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,RectangleMorph_class>>registerInFlapsRegistry,RectangleMorph_class>>registerInFlapsRegistry
+msgid "A rectangle"
+msgstr "एक आयत"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,SimpleSliderMorph_class>>registerInFlapsRegistry,SimpleSliderMorph_class>>registerInFlapsRegistry,SimpleSliderMorph_class>>registerInFlapsRegistry
+msgid "A slider for showing and setting numeric values."
+msgstr "न्यूमेरिक मूल्य दिखाने या सेट करने का एक स्लाइडर."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,StarMorph_class>>registerInFlapsRegistry,StarMorph_class>>registerInFlapsRegistry
+msgid "A star"
+msgstr "एक तारा"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,TrashCanMorph_class>>registerInFlapsRegistry,TrashCanMorph_class>>registerInFlapsRegistry,TrashCanMorph_class>>registerInFlapsRegistry
+msgid "A tool for discarding objects"
+msgstr "वस्तुओं को मिटाने के लिए एक औजार"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "A tool listing all the scripted objects in the project."
+msgstr "परियोजना में सभी स्क्रिप्टेड वस्तुओं की सूची देने वाला एक औजार."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "A tool that lets you browse the catalog of available objects"
+msgstr "एक औजार जो आपको उपलब्ध वस्तुओं के सूचीपत्र में ब्राउज करने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "All Scripts"
+msgstr "सभी स्क्रिप्ट्स"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap
+msgid "Button"
+msgstr "बटन"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "Grab patch"
+msgstr "पैच पकड़ें"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,PasteUpMorph_class>>supplementaryPartsDescriptions,StandardScriptingSystem_class>>registerInFlapsRegistry,StandardScriptingSystem_class>>registerInFlapsRegistry
+msgid "Holder"
+msgstr "होल्डर्स"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "Joystick"
+msgstr "जॉयस्टिक"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,LassoPatchMorph_class>>descriptionForPartsBin
+msgid "Lasso"
+msgstr "लासो"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "Make a new \"Sketch\" by designating a rectangular area of the screen"
+msgstr "स्क्रीन के आयताकार क्षेत्र को लक्षित करते हुए नया \"स्केच\" बनाएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "Make a new \"Sketch\" by \"lassoing\" an area of the screen"
+msgstr "स्क्रीन के एक क्षेत्र को  \"लासो\" करते हुए नया \"स्केच\" बनाएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,ObjectsTool_class>>registerInFlapsRegistry,ObjectsTool_class>>registerInFlapsRegistry
+msgid "Object Catalog"
+msgstr "वस्तु सूचीपत्र"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "Players"
+msgstr "प्लेयर"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,PasteUpMorph_class>>registerInFlapsRegistry,PasteUpMorph_class>>registerInFlapsRegistry,PasteUpMorph_class>>registerInFlapsRegistry
+msgid "Playfield"
+msgstr "खेल-का-मैदान"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,RectangleMorph_class>>registerInFlapsRegistry,RectangleMorph_class>>registerInFlapsRegistry
+msgid "Rectangle"
+msgstr "चतुर्भुज"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,SimpleSliderMorph_class>>defaultNameStemForInstances,SimpleSliderMorph_class>>descriptionForPartsBin,SimpleSliderMorph_class>>registerInFlapsRegistry,SimpleSliderMorph_class>>registerInFlapsRegistry,SimpleSliderMorph_class>>registerInFlapsRegistry
+msgid "Slider"
+msgstr "स्लाइडर"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "Sound Recorder"
+msgstr "ध्वनि रेकॉर्डर"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,StarMorph_class>>descriptionForPartsBin,StarMorph_class>>registerInFlapsRegistry,StarMorph_class>>registerInFlapsRegistry
+msgid "Star"
+msgstr "तारा"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "Stop, Step, and Go buttons for controlling all your scripts at once.  The tool can also be \"opened up\" to control each script in your project individually."
+msgstr "आपके सभी स्क्रिप्ट को एक बार में नियंत्रित करने के लिए बन्द, चरण तथा जाएँ बटन. औजार को आपके अलग अलग परियोजना में प्रत्येक स्क्रिप्ट के नियंत्रण हेतु \"खोला\" जा सकेगा."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,TextMorph_class>>supplementaryPartsDescriptions
+msgid "Text"
+msgstr "पाठ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "Text that you can edit into anything you desire."
+msgstr "एक पाठ जिसे आप संपादिक कर जो आप चाहें कर सकते हैं."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,TrashCanMorph>>initialize,TrashCanMorph_class>>descriptionForPartsBin,TrashCanMorph_class>>registerInFlapsRegistry,TrashCanMorph_class>>registerInFlapsRegistry,TrashCanMorph_class>>registerInFlapsRegistry
+msgid "Trash"
+msgstr "रद्दी"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
+msgid "A  data field which will have a different value on every card of the background"
+msgstr "एक डाटा क्षेत्र जिसमें पृष्ठभूमि के प्रत्येक कार्ड में भिन्न मूल्य हो"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions,StandardScriptingSystem_class>>registerInFlapsRegistry
+msgid "A confined place for drawing and scripting, with its own private stop/step/go buttons."
+msgstr "ड्राइंग तथा स्क्रिप्टिंग के लिए सीमित क्षेत्र, इसके स्वयं के निजी बन्द/चरण/जाएँ बटन के साथ."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "A multi-card data base"
+msgstr "मल्टी-कार्ड डाटा बेस"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
+msgid "A piece of text that will occur on every card of the background"
+msgstr "पाठ का एक हिस्सा जो पृष्ठभूमि में प्रत्येक कार्ड में हो"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap
+msgid "A Scriptable button"
+msgstr "स्क्रिप्ट करने योग्य बटन"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
+msgid "A scrolling data field which will have a different value on every card of the background"
+msgstr "एक स्क्रॉलिंग डाटा क्षेत्र जिसमें पृष्ठभूमि के प्रत्येक कार्ड में भिन्न मूल्य हो"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "A tile that will produce a random number in a given range"
+msgstr "एक टाइल जो दिए गए सीमा में बेतरतीब संख्या बनाता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A tool that lets you control all the running scripts in your world"
+msgstr "एक औजार जो आपको आपके विश्व में चल रहे सभी स्क्रिप्ट को नियंत्रित करने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
+msgid "Background Field"
+msgstr "पृष्ठभूमि क्षेत्र"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
+msgid "Background Label"
+msgstr "पृष्ठभूमि लेबल"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "ButtonDown?"
+msgstr "बटन-नीचे?"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>newLoneSuppliesFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "Buttons to run, stop, or single-step scripts"
+msgstr "चलाने, बन्द या सिंगल-स्टेप स्क्रिप्ट के लिए बटन"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "ButtonUp?"
+msgstr "बटन-ऊपर?"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,PaintInvokingMorph_class>>registerInFlapsRegistry,PaintInvokingMorph_class>>registerInFlapsRegistry,PaintInvokingMorph_class>>registerInFlapsRegistry
+msgid "Drop this into an area to start making a fresh painting there"
+msgstr "यहाँ पर नई पेंटिंग बनाना प्रारंभ करने के लिए इसे यहाँ किसी क्षेत्र में छोड़ दें"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,Flaps_class>>newPaintingFlap,PaintInvokingMorph_class>>descriptionForPartsBin,PaintInvokingMorph_class>>registerInFlapsRegistry,PaintInvokingMorph_class>>registerInFlapsRegistry,PaintInvokingMorph_class>>registerInFlapsRegistry
+msgid "Paint"
+msgstr "पेंट"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "Random"
+msgstr "बेतरतीब"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>reinstateDefaultFlaps,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,Morph_class>>supplementaryPartsDescriptions,PasteUpMorph_class>>supplementaryPartsDescriptions,StandardScriptingSystem_class>>registerInFlapsRegistry
+msgid "Scripting"
+msgstr "स्क्रिप्टिंग"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap
+msgid "Scrolling Field"
+msgstr "स्क्रॉलिंग क्षेत्र"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Stack"
+msgstr "स्टेक"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>newLoneSuppliesFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "Status"
+msgstr "स्थिति"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "Tiles for querying whether the mouse button is down"
+msgstr "क्या माउस बटन नीचे है यह क्वैरी करने के लिए टाइलें"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Morph_class>>supplementaryPartsDescriptions
+msgid "Tiles for querying whether the mouse button is up"
+msgstr "क्या माउस बटन ऊपर है यह क्वैरी करने के लिए टाइलें"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "A button that takes the user to the next card in the stack"
+msgstr "एक बटन जो प्रयोक्ता को ढेर में अगले पत्ते तक ले जाता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "A button that takes the user to the previous card in the stack"
+msgstr "एक बटन जो प्रयोक्ता को ढेर में पिछले पत्ते तक ले जाता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "A button whose script will be a method of the background Player"
+msgstr "एक बटन जिसका स्क्रिप्ट पृष्ठभूमि प्लेयर के लिए एक विधि होता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "A text field with a rounded shadowed border, with a fancy font."
+msgstr "गोलीय छाया किनारा सहित एक पाठ क्षेत्र, रोचक फ़ॉन्ट सहित."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Fancy Text"
+msgstr "रोचक पाठ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap,ScrollableField_class>>registerInFlapsRegistry
+msgid "Holds any amount of text; has a scroll bar"
+msgstr "कितनी ही मात्रा में पाठ रखता है; स्क्रॉल पट्टी है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Next Card"
+msgstr "अगला कार्ड"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Previous Card"
+msgstr "पिछला कार्ड"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Scriptable Button"
+msgstr "स्क्रिप्ट करने योग्य बटन"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap,ScrollableField_class>>descriptionForPartsBin,ScrollableField_class>>registerInFlapsRegistry
+msgid "Scrolling Text"
+msgstr "स्क्रॉलिंग पाठ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Simple Text"
+msgstr "सादा पाठ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Some hints about how to use Stacks"
+msgstr "ढेर का प्रयोग कैसे करें इस बाबत् कुछ संकेत"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Stack Help"
+msgstr "स्टैक मदद"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningStackToolsFlap
+msgid "Text that you can edit into anything you wish"
+msgstr "एक पाठ जिसे आप संपादिक कर जो आप चाहें कर सकते हैं"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A non-editable picture of something"
+msgstr "गैर-संपादन योग्य एक चित्र या कुछ ऐसा ही"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,RectangleMorph_class>>registerInFlapsRegistry,RectangleMorph_class>>registerInFlapsRegistry,RectangleMorph_class>>supplementaryPartsDescriptions
+msgid "A rectangle with rounded corners"
+msgstr "गोल किनारा युक्त आयत"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,PolygonMorph_class>>registerInFlapsRegistry,PolygonMorph_class>>registerInFlapsRegistry
+msgid "A straight-sided figure with any number of sides"
+msgstr "कितने ही संख्या की भुजाओं वाला, सीधे भुजाओं वाला चित्र"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A structure with tabs"
+msgstr "टैब सहित ढांचा"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "Picture"
+msgstr "चित्र"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,PolygonMorph_class>>registerInFlapsRegistry,PolygonMorph_class>>registerInFlapsRegistry
+msgid "Polygon"
+msgstr "बहुभुज"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,RectangleMorph_class>>registerInFlapsRegistry,RectangleMorph_class>>registerInFlapsRegistry,RectangleMorph_class>>supplementaryPartsDescriptions
+msgid "RoundRect"
+msgstr "राउण्ड-रेक्ट"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningSuppliesFlap
+msgid "TabbedPalette"
+msgstr "टैब्ड-पैलेट"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
+msgstr "ब्राउज़र एक औजार है जो आपको तंत्र के सभी क्लासेस के सभी कोड को देखने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "A File List is a tool for browsing folders and files on disks and FTP servers."
+msgstr "डिस्क में तथा एफटीपी सर्वरों में फ़ोल्डरों तथा फ़ाइलों को ब्राउज करने का एक औजार है फ़ाइल सूची."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "A message browser that tracks the most recently-submitted methods"
+msgstr "एक संदेश ब्राउज़र जो एकदम हालिया जमा किए विधियों पर नजर रखता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "A Process Browser shows you all the running processes"
+msgstr "एक प्रक्रिया ब्राउज़र आपको सभी चलती प्रक्रियाओं को दिखाता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "A Transcript is a window usable for logging and debugging; browse references to #Transcript for examples of how to write to it."
+msgstr "ट्रांसक्रिप्ट एक उपयोगी विंडो है लॉगिंग तथा डिबगिंग के लिए; इस पर कैसे लिखें इसके उदाहरणों के लिए संदर्भों को #Transcript पर ब्राउज़ करें."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,SelectorBrowser_class>>registerInFlapsRegistry
+msgid "A tool for discovering methods by providing sample values for arguments and results"
+msgstr "शर्त तथा परिणामों के लिए सादा मूल्य देकर विधियाँ प्राप्त करने का एक औजार"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,MessageNames_class>>registerInFlapsRegistry
+msgid "A tool for finding, viewing, and editing all methods whose names contain a given character sequence."
+msgstr "उन सभी विधियों को जिनके नामों में दिए गए अक्षर अनुक्रम हैं उन्हें ढूंढने, देखने तथा संपादन करने का एक औजार."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
+msgstr "एक औजार जो आपको सिंगल चेंज सेट में सभी कोड परिवर्तनों को देखने वर हेरफेर करने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,Workspace_class>>registerInFlapsRegistry
+msgid "A Workspace is a simple window for editing text.  You can later save the contents to a file if you desire."
+msgstr "पाठ संपादन हेतु कार्यस्थान एक सादा विंडो है. यदि आप चाहें तो बाद में आप सामग्री को फ़ाइल में सहेज सकते हैं."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Allows you to control numerous options"
+msgstr "आपको विविध विकल्पों को नियंत्रित करने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Allows you to specify the annotations to be shown in the annotation panes of browsers, etc."
+msgstr "आपको ब्राउजर के एनोटेशन पैन इत्यादि में एनोटेशन दिखाने के लिए निर्धारित करने देता है."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Annotations"
+msgstr "व्याख्याएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Browser"
+msgstr "ब्राउज़र"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Change Set"
+msgstr "सेट बदलें"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Change Sorter"
+msgstr "छांटक बदलें"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "File List"
+msgstr "फ़ाइल सूची"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,MessageNames_class>>registerInFlapsRegistry
+msgid "Message Names"
+msgstr "संदेश नाम"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,SelectorBrowser_class>>registerInFlapsRegistry
+msgid "Method Finder"
+msgstr "विधि खोजक"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,PackagePaneBrowser_class>>registerInFlapsRegistry
+msgid "Package Browser:  like a System Browser, except that if has extra level of categorization in the top-left pane, such that class-categories are further organized into groups called \"packages\""
+msgstr "पैकेज ब्राउजर: तंत्र ब्राउज़र जैसे, यदि इसमें शीर्ष-बाएँ पैन में वर्गीकरण का अतिरिक्त स्तर हो उसे छोड़कर, ताकि वर्ग-श्रेणियाँ और आगे समूहों जो \"पैकेज\" कहलाते हैं में संगठित हों"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,PackagePaneBrowser_class>>registerInFlapsRegistry
+msgid "Packages"
+msgstr "पैकेजेस"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Preferences"
+msgstr "प्राथमिकताएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Processes"
+msgstr "प्रक्रियाएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Recent"
+msgstr "हालिया"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Shows two change sets side by side"
+msgstr "दो चेंज सेट आजू बाजू दिखाएँ"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap
+msgid "Transcript"
+msgstr "ट्रांसस्क्रिप्ट"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningToolsFlap,Workspace_class>>registerInFlapsRegistry
+msgid "Workspace"
+msgstr "कार्यस्थान"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "A confined place for drawing and scripting. with its own private stop/step/go buttons."
+msgstr "ड्राइंग तथा स्क्रिप्टिंग के लिए सीमित क्षेत्र. इसके स्वयं के निजी बन्द/चरण/जाएँ बटन के साथ."
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,MagnifierMorph_class>>descriptionForPartsBin,MagnifierMorph_class>>registerInFlapsRegistry
+msgid "A magnifying glass"
+msgstr "आतशी शीशा"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "A Player for MPEG movies"
+msgstr "एमपीईजी फ़िल्मों हेतु प्लेयर"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "A place to present annotated content"
+msgstr "व्याख्या सामग्री को रखने का एक स्थान"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,StandardScriptingSystem_class>>registerInFlapsRegistry
+msgid "A source for single-letter objects"
+msgstr "एकल-अक्षर वस्तुओं का एक स्रोत"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,ObjectsTool_class>>registerInFlapsRegistry,ObjectsTool_class>>registerInFlapsRegistry
+msgid "A tool that lets you browse the catalog of objects"
+msgstr "एक औजार जो आपको वस्तुओं के सूचीपत्र को ब्राउज़ करने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "A tool that lets you see and control all the running scripts in your project"
+msgstr "एक औजार जो आपको आपकी परियोजना में चल रहे सभी स्क्रिप्ट को देखने व नियंत्रित करने देता है"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,StandardScriptingSystem_class>>registerInFlapsRegistry
+msgid "Alphabet"
+msgstr "वर्णमाला"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,FrameRateMorph_class>>registerInFlapsRegistry
+msgid "An indicator of how fast your system is running"
+msgstr "आपका तंत्र कितना तेज चल रहा है यह बताने वाला एक संकेतक"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,FrameRateMorph_class>>registerInFlapsRegistry
+msgid "Frame Rate"
+msgstr "फ्रेम दर"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "Gee-Mail"
+msgstr "जीईई-मेल"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,Flaps_class>>newLoneSuppliesFlap,MagnifierMorph_class>>descriptionForPartsBin,MagnifierMorph_class>>registerInFlapsRegistry
+msgid "Magnifier"
+msgstr "आवर्धक"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap
+msgid "Movie Player"
+msgstr "मूवी प्लेयर"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningWidgetsFlap,RecordingControlsMorph_class>>registerInFlapsRegistry,RecordingControlsMorph_class>>registerInFlapsRegistry
+msgid "Sound"
+msgstr "ध्वनि"
+
+#: MorphicExtras-Flaps,Flaps_class>>destroyFlapDotDotDot
+msgid "Destroy flap named..."
+msgstr "इस नाम के फ्लेप को मिटाएँ..."
+
+#: MorphicExtras-Flaps,Flaps_class>>disableGlobalFlaps:
+msgid ""
+"CAUTION! This will destroy all the shared\n"
+"flaps, so that they will not be present in \n"
+"*any* project.  If, later, you want them\n"
+"back, you will have to reenable them, from\n"
+"this same menu, whereupon the standard\n"
+"default set of shared flaps will be created.\n"
+"Do you really want to go ahead and clobber\n"
+"all shared flaps at this time?"
+msgstr ""
+"चेतावनी! यह सभी साझा फ्लैप को नष्ट कर देगा\n"
+"ताकि फिर वे कभी *किसी* परियोजना में \n"
+"उपलब्ध न हों. यदि बाद में आप उन्हें वापस\n"
+"चाहेंगे तो उन्हें आपको इसी मेन्यू से\n"
+"रीइनेबल करना होगा, जहाँ कि साझा फ्लैप के मानक डिफ़ॉल्ट \n"
+"सेट बनाए जाएंगे.\n"
+"क्या आप सचमुच इन साझा फ्लैप्स को\n"
+"इस समय मिटाना चाहते हैं?"
+
+#: MorphicExtras-Flaps,Flaps_class>>disableGlobalFlaps:
+msgid "Flap problem"
+msgstr "फ्लैप समस्या"
+
+#: MorphicExtras-Flaps,Flaps_class>>explainFlapsText
+msgid ""
+"Flaps are like drawers on the edge of the screen, which can be opened so that you can use what is inside them, and closed when you do not need them.  They have many possible uses, a few of which are illustrated by the default set of flaps you can get as described below.\n"
+"\n"
+" 'Shared flaps' are available in every morphic project.  As you move from project to project, you will see these same shared flaps in each, though there are also options, on a project-by-project basis, to choose which of the shared flaps should be shown, and also momentarily to suppress the showing of all shared flaps.   \n"
+"\n"
+" To get started using flaps, bring up the desktop menu and choose 'flaps...', and make the menu stay up by choosing 'keep this menu up'.  If you see, in this flaps menu,  a list of flap names such as 'Squeak', 'Tools', etc., it means that shared flaps are already set up in your image.  If you do not see the list, you will instead see a menu item that invites you to 'install default shared flaps'; choose that, and new flaps will be created, and the flaps menu will change to reflect their presence.\n"
+"\n"
+" 'Project flaps' are flaps that belong to a single morphic project.  You will see them when you are in that project, but not when you are in any other morphic project.\n"
+"\n"
+" If a flap is set up as a parts bin (such as the default Tools and Supplies flaps), you can use it to create new objects -- just open the flap, then find the object you want, and drag it out; when the cursor leaves the flap, the flap itself will snap closed, and you'll be left holding the new object -- just click to place it exactly where you want it.\n"
+"\n"
+" If a flap is *not* set up as a parts bin (such as the default 'Squeak' flap at the left edge of the screen) you can park objects there (this is an easy way to move objects from project to project) and you can place your own private controls there, etc.  Everything in the default 'Squeak' flap (and all the other default flaps, for that matter) is there only for illustrative purposes -- every user will want to fine-tune the flaps to suit his/her own style and needs.\n"
+"\n"
+" Each flap may be set up to appear on mouseover, dragover, both, or neither.  See the menu items described below for more about these and other options.\n"
+"\n"
+" You can open a closed flap by clicking on its tab, or by dragging the tab toward the center of the screen\n"
+"\n"
+" You can close an open flap by clicking on its tab or by dragging the tab back off the edge of the screen.\n"
+"\n"
+" Drag the tab of a flap to reposition the tab and to resize the flap itself.  Repositioning starts when you drag the cursor out of the original tab area.\n"
+"\n"
+" If flaps or their tabs seem wrongly positioned or lost, try issuing a restoreDisplay from the screen menu.\n"
+"\n"
+" The red-halo menu on a flap allows you to change the flap's properties.   For greatest ease of use, request 'keep this menu up' here -- that way, you can easily explore all the options in the menu.\n"
+"\n"
+" tab color...\t\t\t\tLets you change the color of the flap's tab.\n"
+" flap color...\t\t\t\tLets you change the color of the flap itself.\n"
+"\n"
+" use textual tab...\t\tIf the tab is not textual, makes it become textual.\n"
+" change tab wording...\tIf the tab is already textual, allows you to edit\n"
+"\t\t\t\t\t\t\tits wording.\n"
+"\n"
+" use graphical tab...\t\tIf the tab is not graphical, makes it become\n"
+"\t\t\t\t\t\t\tgraphical.\n"
+" choose tab graphic...\tIf the tab is already graphical, allows you\n"
+"\t\t\t\t\t\t\tto change the picture.\n"
+"\n"
+" use solid tab...\t\t\tIf the tab is not solid, makes it become solid, i.e.\n"
+"\t\t\t\t\t\t\tappear as a solid band of color along the\n"
+"\t\t\t\t\t\t\tentire length or width of the screen.\n"
+"\n"
+" parts-bin behavior\t\tIf set, then dragging an object from the flap\n"
+"\t\t\t\t\t\t\ttears off a new copy of the object.\n"
+"\n"
+" dragover\t\t\t\tIf set, the flap opens on dragover and closes\n"
+"\t\t\t\t\t\t\tagain on drag-leave.\n"
+"\n"
+"\n"
+" mouseover\t\t\t\tIf set, the flap opens on mouseover and closes\n"
+"\t\t\t\t\t\t\tagain on mouse-leave. \n"
+"\n"
+" cling to edge...\t\t\tGoverns which edge (left, right, top, bottom)\n"
+"\t\t\t\t\t\t\tthe flap adheres to.\n"
+"\n"
+" shared\t\t\t\t\tIf set, the same flap will be available in all projects; if not, the\n"
+"\t\t\t\t\t\t\tflap will will occur only in one project.\n"
+"\n"
+" destroy this flap\t\tDeletes the flap.\n"
+"\n"
+" To define a new flap, use 'make a new flap', found in the 'flaps' menu.\n"
+"\n"
+" To reinstate the default system flaps, you can use 'destroy all shared flaps' from the 'flaps' menu, and once they are destroyed, choose 'install default shared flaps'.\n"
+"\n"
+" To add, delete, or edit things on a given flap, it is often wise first to suspend the flap's mouse-over and drag-over sensitivity, so it won't keep disappearing on you while you're trying to work with it.\n"
+"\n"
+" Besides the three standard flaps delivered with the default system, there are two other flaps readily available on demand from the 'flaps' menu -- one is called 'Stack Tools', which provides some tools useful for building stack-like content, the other is called 'Painting', which provides a quick way to make a new painting.  Simply clicking on the appropriate checkbox in the 'flaps' menu will toggle the corresponding flap between being visible and not being visible in the project."
+msgstr ""
+"फ्लैप स्क्रीन के किनारे पर दराज़ की तरह है, जिसे खोला जा सकता है ताकि आप उपयोग कर सकें कि उनके अंदर क्या है, और आप उन्हें बंद कर दिया जब उनकी जरूरत नहीं है.  उनके कई संभव का उपयोग हैं, जिनमें से कुछ फ्लैप के डिफ़ॉल्ट सेट द्वारा दृष्टांत हैं नीचे इलस्ट्रेट किए गए हैं.\n"
+"\n"
+"'साझा' फ्लैप हर मार्फिक परियोजना में उपलब्ध हैं.  जैसा कि आप एक परियोजना से दूसरे में जाएंगे, आप इन्हीं साझा फ्लैप को हरेक में देखेंगे, लेकिन वहाँ भी विकल्प हैं, परियोजना-से-परियोजना आधारित, यह चुनने के कि किन साझा फ्लैप को दिखाया जाना चाहिए, और कुछ समय के लिए सभी साझा फ्लैप को न दिखाया जाए.   \n"
+"\n"
+" फ्लैप का प्रयोग शुरू करने के लिए, डेस्कटॉप मेनू लाएँ और 'फ्लैप ...', चुनें और मेनू को ऊपर बने रहने देने के लिए चुनें -'इस मेन्यू को ऊपर रहने दें'.  यदि आप इस फ्लैप मेन्यू में देखते हैं, फ्लैप मेन्यू नाम की सूचियाँ जैसे कि 'स्क्वीक', 'औजार' आदि, तो इसका मतलब है कि साझा फ्लैप पहले ही आपके फोटो में सेट अप हैं.  यदि आप सूची नहीं देखते हैं, आप इसके बजाय एक मेन्यू वस्तु देखेंगे जो आपको 'डिफ़ॉल्ट साझा फ्लैप संस्थापित' करने के लिए निमंत्रित करता है; उसे चुनें और नए फ्लैप बन जाएंगे तथा फ्लैप मेन्यू उनकी मौजूदगी के हिसाब से परिवर्तित हो जाएंगे. \n"
+"\n"
+"'परियोजना फ्लैप' वो फ्लैप हैं जो एकल मार्फिक परियोजना से संबंधित हैं.  आप उन्हें तब देख सकते हैं जब आप उस परियोजना में हैं, परंतु तब नहीं जब आप किसी भी अन्य मार्फिक परियोजना में होंगे. \n"
+"\n"
+" यदि एक फ्लैप पार्ट बिन के रूप में सेट है (जैसे कि डिफ़ॉल्ट औजार और आपूर्ति फ्लैप), तो आप इसका इस्तेमाल नई वस्तुओं को बनाने के लिए कर सकते हैं - बस फ्लैप को खोलें, उस वस्तु को खोजें जो आप चाहते हैं, और उसे बाहर खींचें; जब संकेतक फ्लैप को छोड़ेगा फ्लैप स्वयं ही बंद होगा, और आप के हाथ में नई वस्तु होगी - बस वहां क्लिक करें जहाँ आप इसे रखना चाहते हैं.\n"
+"\n"
+" यदि एक फ्लैप पार्ट बिन के रूप में सेट *नहीं* है (जैसे कि स्क्रीन के बाएं किनारे पर डिफ़ॉल्ट 'स्क्वीक' फ्लैप) आप वस्तुओं को वहां पर पार्क कर सकते हैं (यह एक आसान तरीका है परियोजना से परियोजना में वस्तुओं को खिसकाने का) और आप अपना खुद का निजी नियंत्रण आदि वहां रख सकते हैं.  डिफ़ॉल्ट 'स्क्वैक' फ्लैब में सब कुछ (और अन्य सभी डिफ़ॉल्ट फ्लैप, इस बात के लिए) केवल निदर्शी प्रयोजनों के लिए है -- हर उपयोक्ता को उसकी अपनी खुद की शैली और जरूरत के अनुसार फ्लैप को फ़ाइन ट्यून करना होगा. \n"
+"\n"
+"प्रत्येक फ्लैप को सेटअप किया जा सकता है माउसओवर पर दिखाई देने या ड्रैगओवर पर या दोनों में ही या दोनों में नहीं.  ऐसे और अन्य विकल्पों के बारे में और अधिक देखने के लिए नीचे वर्णित मेनू आइटम देखें. \n"
+"\n"
+" इस टैब पर क्लिक करके आप बन्द फ्लैप को खोल सकते हैं या टैब को स्क्रीन के केंद्र की ओर खींचकर\n"
+"\n"
+" आप एक खुले फ्लैप को इसके टैब पर क्लि कर या टैब को स्क्रीन के किनारे खींच कर बन्द कर सकते हैं.\n"
+"\n"
+" टैब की स्थिति बदलने तथा स्वयं फ्लैप के आकार को बदलने के लिए फ्लैप के टैब को खींचें.  स्थान बदलने की शुरूआत तब होगी जब आप संकेतक को मूल टैब क्षेत्र के बाहर खींचेंगे. \n"
+"\n"
+"यदि फ्लैप या उनके टैब गलत स्थिति में हों या खो गए लगते हों, तो स्क्रीन मेन्यू से कमांड रीस्टोरडिस्प्ले जारी करने की कोशिश करें. \n"
+"\n"
+" फ्लैप पर लाल-हालो मेन्यू आपो फ्लैप के गुणों को बदलने के लिए अनुमति देता है.   प्रयोग में आसानी के लिए, 'इस सूची को यहाँ ऊपर रखें' निवेदन करें -- इस तरह से आप आसानी से मेन्यू में सभी विकल्पों को आसानी से एक्सप्लोर कर सकते हैं. \n"
+"\n"
+" टैब रंग...\t\t\t\tआपको फ्लैप के टैब के रंग बदलने देता है.\n"
+" फ्लैप रंग...\t\t\t\tआपको स्वयं फ्लैप का रंग बदलने देता है.\n"
+"\n"
+" पाठीय टैब प्रयोग करें...\t\tयदि टैब पाठीय नहीं है, इसे पाठीय बनाएँ.\n"
+" टैब शब्द बदलें...\tयदि टैब वास्तव में पाठीय है तो आपको इसे संपादित करने देता है\n"
+"\t\t\t\t\t\t\tइसके शब्द.\n"
+"\n"
+" ग्राफ़िकल टैब प्रयोग करें...\t\tयदि टैब चित्रमय नहीं होता है तो इसे ऐसा बना देता है\n"
+"\t\t\t\t\t\t\tचित्रमय.\n"
+" टैब ग्राफ़िक चुनें...\tयदि टैब पहले ही ग्राफ़िकल है तो आपको चुनने देता है\n"
+"\t\t\t\t\t\t\tचित्र बदलने के लिए.\n"
+"\n"
+" ठोस टैब प्रयोग करें...\t\t\tयदि टैब ठोस नहीं है, तो इसे ठोस बना देता है\n"
+"\t\t\t\t\t\t\tरंग के ठोस पट्टी के रूप में\n"
+"\t\t\t\t\t\t\tपूरे स्क्रीन में प्रकट होता है.\n"
+"\n"
+" पार्ट्स-बिन व्यवहार\t\tयदि सेट होता है तो फ्लैप से वस्तु को खींचने पर\n"
+"\t\t\t\t\t\t\tयह वस्तु का एक नया प्रतिलिपि बना देता है.\n"
+"\n"
+" ड्रैगओवर\t\t\t\tयदि सेट किया जाता है, तो ड्रैग ओवर पर फ्लैप खुलता है\n"
+"\t\t\t\t\t\t\tतथा ड्रैग बाहर होने पर बन्द होता है.\n"
+"\n"
+"\n"
+" माउस ओवर\t\t\t\tयदि सेट होता है तो माउस-ओवर पर फ्लैप खुलता है तथा\n"
+"\t\t\t\t\t\t\tमाउस लीव पर बंद होता है. \n"
+"\n"
+" किनारे पर लटकें...\t\t\tनियंत्रित करता है कि कौन सा किनारा (दायाँ, बायाँ, ऊपरी, नीचे)\n"
+"\t\t\t\t\t\t\tफ्लैप पर चिपकता है.\n"
+"\n"
+" साझा\t\t\t\t\tयदि सेट किया जाता है तो सभी परियोजनाओं में एक ही फ्लैप उपलब्ध होगा; यदि नहीं तो\n"
+"\t\t\t\t\t\t\tफ्लैप सिर्फ एक परियोजना में होगा.\n"
+"\n"
+" इस फ्लैप को नष्ट करें\t\tफ्लैप को मिटाता है.\n"
+"\n"
+" एक नया फ्लैप परिभाषित करने के लिए, 'फ्लैप' मेन्यू में 'नया फ्लैप बनाएँ' प्रयोग करें.\n"
+"\n"
+" डिफ़ॉल्ट तंत्र फ्लैप बहाल करने के लिए, आप फ्लैप मेन्यू से 'सभी साझा फ्लैप को नष्ट करें' का प्रयोग कर सकते हैं, और एक बार इनके नष्ट हो जाने के बाद, चुनें 'डिफ़ॉल्ट साझा फ्लैप संस्थापित करें'.\n"
+"\n"
+" दिए गए फ्लैप में चीजों को जोड़ने, मिटाने या संपादित करने के लिए, यह होशियारी का काम होता है कि पहले फ्लैप के माउस-ओवर तथा ड्रैग-ओवर संवेदनशीलता को निलंबित कर दें ताकि यह गुम न हो जाए तब जब आप इस पर काम करने की कोशिश कर रहे हों. \n"
+"\n"
+" डिफ़ॉल्ट तंत्र से तीन साझा फ्लैप प्रदान करने के अलावा, वहां पर दो अन्य फ्लैप आसानी से 'फ्लैप' मेन्यू में ऑन डिमांड उपलब्ध हैं -- एक कहलाता है 'स्टैक औजार', जो स्टैक जैसी सामग्री बनाने में उपयोगी है तथा अन्य कहलाता है 'पेंटिंग' जो नई पेंटिंग बनाने का त्वरित तरीका प्रदान करता है.   'फ्लैप' मेन्यू में उपयुक्त चेकबक्से पर क्लिक करने से संबंधित फ्लैप परियोजना में दिखाई दे या नहीं दे को टॉगल करेगा."
+
+#: MorphicExtras-Flaps,Flaps_class>>explainFlaps
+msgid "Flaps"
+msgstr "फ़्लैप्स"
+
+#: MorphicExtras-Flaps,Flaps_class>>newLoneSuppliesFlap,GraphicalMenu>>initializeFor:withForms:coexist:,InternalThreadNavigationMorph>>addButtons
+msgid "Next"
+msgstr "अगला"
+
+#: MorphicExtras-Flaps,Flaps_class>>newLoneSuppliesFlap
+msgid "Previous"
+msgstr "पिछला"
+
+#: MorphicExtras-Flaps,Flaps_class>>newLoneSuppliesFlap
+msgid "Tabs"
+msgstr "टैब्स"
+
+#: MorphicExtras-Flaps,Flaps_class>>newNavigatorFlap
+msgid "Navigator Flap"
+msgstr "नेविगेटर फ्लैप"
+
+#: MorphicExtras-Flaps,Flaps_class>>newPaintingFlap
+msgid "Click here to start or finish painting."
+msgstr "पेंटिंग चालू या पूरा करने के लिए यहाँ क्लिक करें."
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
+msgid "about this system"
+msgstr "इस तंत्र के बारे में"
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
+msgid "Check the Squeak server for any new code updates, and load any that are found."
+msgstr "किसी तरह के कोड अपडेट के लिए स्क्वैक सर्वर को चेक करें तथा यदि कोई मिलता है तो लोड करें."
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
+msgid "click here to find out version information"
+msgstr "संस्करण जानकारी पाने के लिए यहाँ क्लिक करें"
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
+msgid "load code updates"
+msgstr "कोड अद्यतन लोड करें"
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
+msgid "Make a complete snapshot of the current state of the image onto disk."
+msgstr "डिस्क में इमेज की वर्तमान स्थिति का पूर्ण स्नैपशाट बनाएँ."
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap,Flaps_class>>reinstateDefaultFlaps,Flaps_class>>replaceGlobalFlapwithID:,Flaps_class>>sharedFlapsAlongBottom
+msgid "Squeak"
+msgstr "स्क्वीक"
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
+msgid "save"
+msgstr "सहेजें"
+
+#: MorphicExtras-Flaps,Flaps_class>>newSqueakFlap
+msgid "The time of day.  If you prefer to see seconds, check out my menu."
+msgstr "दिन का समय. यदि आप सेकण्ड देखना चाहते हैं तो मेरे मेन्यू पर नजर मार लें."
+
+#: MorphicExtras-Flaps,Flaps_class>>newToolsFlap,Flaps_class>>reinstateDefaultFlaps,Flaps_class>>replaceGlobalFlapwithID:,Flaps_class>>replaceToolsFlap,Flaps_class>>sharedFlapsAlongBottom
+msgid "Tools"
+msgstr "औज़ार"
+
+#: MorphicExtras-Flaps,Flaps_class>>newWidgetsFlap,Flaps_class>>reinstateDefaultFlaps,Flaps_class>>replaceGlobalFlapwithID:,Flaps_class>>sharedFlapsAlongBottom
+msgid "Widgets"
+msgstr "विजेट्स"
+
+#: MorphicExtras-Flaps,Flaps_class>>reinstateDefaultFlaps,WaveEditor>>addControls
+msgid "Menu"
+msgstr "मेन्यू"
+
+#: MorphicExtras-Flaps,FlapTab_class>>defaultNameStemForInstances
+msgid "flap tab"
+msgstr "फ्लैप टैब"
+
+#: MorphicExtras-Flaps,FlapTab>>addCustomMenuItems:hand:,ViewerFlapTab>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "इस फ्लैप को मिटा दें"
+
+#: MorphicExtras-Flaps,FlapTab>>addCustomMenuItems:hand:,ViewerFlapTab>>addCustomMenuItems:hand:
+msgid "flap color..."
+msgstr "फ्लैप रंग..."
+
+#: MorphicExtras-Flaps,FlapTab>>addCustomMenuItems:hand:
+msgid "If checked, this flap will be available in all morphic projects; if not, it will be private to this project.,"
+msgstr "यदि चेक किया जाता है, यह फ्लै सभी मार्फिक वस्तुओं में उपलब्ध होगा; यदि नहीं, यह इस परियोजना का निजी होगा.,"
+
+#: MorphicExtras-Flaps,FlapTab>>addCustomMenuItems:hand:
+msgid "tab color..."
+msgstr "टैब रंग..."
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "A flap housing the paint palette.  Click on the closed tab to make make a new painting"
+msgstr "एक फ्लैप जो पेंट पैलेट का हाउसिंग है. नया पेंटिंग बनाने के लिए बन्द टैब पर क्लिक करें"
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "A flap providing documentation, tutorials, and other help"
+msgstr "एक फ्लैप जो दस्तावेज़ीकरण, शिक्षण तथा अन्य मदद प्रदान करता है"
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "A quick way to get browsers, change sorters, file lists, etc."
+msgstr "ब्राउज़र, परिवर्तित छांटक, फ़ाइल सूची इत्यादि पाने का त्वरित तरीका."
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "A variety of controls and media tools"
+msgstr "विविध नियंत्रक तथा मीडिया औजार"
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "Has a few generally-useful controls; it is also a place where you can \"park\" objects"
+msgstr "कुछ सामान्यतः उपयोगी रंग हैं; यह वह स्थल भी है जहाँ आप वस्तुओं को \"पार्क\" कर सकते हैं"
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "Project navigator:  includes controls for navigating through linked projects.  Also supports finding, loading and publishing projects in a shared environment"
+msgstr "परियोजना नेविगेटर: लिंक किए परियोजनाओं में नेविगेशन करने का नियंत्रक संलग्न है. यह परियोजनाओं को साझा वातावरण में ढूंढने, लोड करने तथा प्रकाशित करने की सुविधा भी प्रदान करता है"
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "Tools for building stacks.  Caution!  Powerful but young and underdocumented"
+msgstr "स्टैक बनाने के लिए औजार. चेतावनी! शक्तिशाली, परंतु युवा तथा कम-दस्तावेज़ीकृत"
+
+#: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
+msgid "Tools useful when doing tile scripting"
+msgstr "जब फ़ाइल स्क्रिप्टिंग की जा रही हो तो उपयोगी औजार"
+
+#: MorphicExtras-Flaps,FlapTab>>changeColor
+msgid ""
+"Color only pertains to a flap tab when the \n"
+"tab is textual or \"solid\".  This tab is\n"
+"currently graphical, so color-choice\n"
+"does not apply."
+msgstr ""
+"रंग सिर्फ फ्लैप टैब से संबंधित है जब \n"
+"टैब पाठीय या \"ठोस\" है.  यह टैब\n"
+"वर्तमान में चित्रमय है, अतः रंग-चुनाव\n"
+"लागू नहीं होगा."
+
+#: MorphicExtras-Flaps,FlapTab>>changeFlapColor
+msgid ""
+"The flap itself needs to be open\n"
+"before you can change its\n"
+"color."
+msgstr ""
+"फ्लैप को स्वयं को खोलना होगा\n"
+"इससे पहले कि आप इसका रंग\n"
+"बदल सकें."
+
+#: MorphicExtras-Flaps,FlapTab>>changeTabText,ReferenceMorph>>changeTabText
+msgid "new wording for this tab:"
+msgstr "इस टैब के लिए नए शब्द:"
+
+#: MorphicExtras-Flaps,FlapTab>>changeTabThickness
+msgid "New thickness:"
+msgstr "नई मोटाई:"
+
+#: MorphicExtras-Flaps,FlapTab>>compactFlapString
+msgid "compact flap"
+msgstr "काम्पैक्ट फ्लैप"
+
+#: MorphicExtras-Flaps,FlapTab>>destroyFlap
+msgid ""
+"Caution -- this is permanent!  Do\n"
+"you really want to do this? "
+msgstr ""
+"चेतावनी -- यह स्थायी है!  क्या आप सचमुच\n"
+"यह करना चाहते हैं? "
+
+#: MorphicExtras-Flaps,FlapTab>>destroyFlap
+msgid ""
+"Caution -- this would permanently\n"
+"remove this flap, so it would no longer be\n"
+"available in this or any other project.\n"
+"Do you really want to this? "
+msgstr ""
+"चेतावनी -- यह हमेशा के लिए\n"
+"इस फ्लैप को मिटा देगा, और यह आगे उपलब्ध नहीं होगा\n"
+"इस या अन्य किसी परियोजना में.\n"
+"क्या आप सचमुच ऐसा चाहते हैं? "
+
+#: MorphicExtras-Flaps,FlapTab>>dismissViaHalo
+msgid "Really throw this flap away"
+msgstr "क्या सचमुच इस फ्लैप को फेंक दें"
+
+#: MorphicExtras-Flaps,FlapTab>>dismissViaHalo
+msgid "Um, no, let me reconsider"
+msgstr "ओह, नहीं, मुझे फिर से पुनर्विचार करने दें"
+
+#: MorphicExtras-Flaps,FlapTab>>dismissViaHalo
+msgid "Yes"
+msgstr "हाँ"
+
+#: MorphicExtras-Flaps,FlapTab>>dragoverString
+msgid "pop out on dragover"
+msgstr "ड्रैगओवर पर पॉपआउट करें"
+
+#: MorphicExtras-Flaps,FlapTab>>edgeString
+msgid "cling to edge... (current: {1})"
+msgstr "किनारे पर लटकें... (वर्तमान: {1})"
+
+#: MorphicExtras-Flaps,FlapTab>>flapMenuTitle
+msgid "flap: "
+msgstr "फ़्लैप: "
+
+#: MorphicExtras-Flaps,FlapTab>>graphicalTabString
+msgid "choose new graphic..."
+msgstr "नया ग्राफ़िक चुनें..."
+
+#: MorphicExtras-Flaps,FlapTab>>graphicalTabString
+msgid "use graphical tab"
+msgstr "ग्राफ़िकल टैब प्रयोग करें"
+
+#: MorphicExtras-Flaps,FlapTab>>isGlobalFlapString
+msgid "shared by all projects"
+msgstr "सभी परियोजनाओं द्वारा साझा"
+
+#: MorphicExtras-Flaps,FlapTab>>mouseoverString
+msgid "pop out on mouseover"
+msgstr "माउसओवर पर पॉपआउट करें"
+
+#: MorphicExtras-Flaps,FlapTab>>partsBinString
+msgid "parts-bin"
+msgstr "पार्ट्स-बिन"
+
+#: MorphicExtras-Flaps,FlapTab>>solidTabString
+msgid "currently using solid tab"
+msgstr "वर्तमान में ठोस टैब प्रयोग में लिया जा रहा है"
+
+#: MorphicExtras-Flaps,FlapTab>>solidTabString
+msgid "use solid tab"
+msgstr "ठोस टैब प्रयोग करें"
+
+#: MorphicExtras-Flaps,FlapTab>>textualTabString
+msgid "change tab wording..."
+msgstr "टैब शब्द बदलें..."
+
+#: MorphicExtras-Flaps,FlapTab>>textualTabString
+msgid "use textual tab"
+msgstr "पाठीय टैब इस्तेमाल करें"
+
+#: MorphicExtras-Flaps,FlapTab>>useTextualTab
+msgid "Unnamed Flap"
+msgstr "अनाम फ्लैप"
+
+#: MorphicExtras-Flaps,ViewerFlapTab_class>>defaultNameStemForInstances
+msgid "viewerFlapTab"
+msgstr "व्यूअर-फ्लैप-टैब"
+
+#: MorphicExtras-GeeMail,GeeMailMorph_class>>initialize
+msgid "scrolledIntoView"
+msgstr "स्क्रोल्ड-इन-टू-व्यू"
+
+#: MorphicExtras-GeeMail,GeeMailMorph_class>>initialize
+msgid "scrolledOutOfView"
+msgstr "स्क्रॉल्ड-आउट-ऑफ-व्यू"
+
+#: MorphicExtras-GeeMail,GeeMailMorph_class>>initialize
+msgid "when I am scrolled into view in a GeeMailMorph"
+msgstr "जब मैं जीईई-मेल-मार्फ में व्यू में स्क्रॉल करता हूं"
+
+#: MorphicExtras-GeeMail,GeeMailMorph_class>>initialize
+msgid "when I am scrolled out of view in a GeeMailMorph"
+msgstr "जब मैं जीईई-मेल-मार्फ में बाहर स्क्रॉल करता हूं"
+
+#: MorphicExtras-GeeMail,GeeMailMorph>>addGeeMailMenuItemsTo:
+msgid "make 1-column book"
+msgstr "1-कॉलम पुस्तक बनाएँ"
+
+#: MorphicExtras-GeeMail,GeeMailMorph>>addGeeMailMenuItemsTo:
+msgid "make 2-column book"
+msgstr "2-कॉलम पुस्तक बनाएँ"
+
+#: MorphicExtras-GeeMail,GeeMailMorph>>addGeeMailMenuItemsTo:
+msgid "make 3-column book"
+msgstr "3-कॉलम पुस्तक बनाएँ"
+
+#: MorphicExtras-GeeMail,GeeMailMorph>>addGeeMailMenuItemsTo:
+msgid "make 4-column book"
+msgstr "4-कॉलम पुस्तक बनाएँ"
+
+#: MorphicExtras-GeeMail,GeeMailMorph>>addGeeMailMenuItemsTo:
+msgid "make a galley of me"
+msgstr "मेरा गैलरी बनाएँ"
+
+#: MorphicExtras-GeeMail,GeeMailMorph>>addGeeMailMenuItemsTo:
+msgid "Print..."
+msgstr "छापें..."
+
+#: MorphicExtras-GeeMail,TextPlusMorph>>doYellowButtonPress:
+msgid "Add column break"
+msgstr "स्तम्भ ब्रेक जोड़ें"
+
+#: MorphicExtras-GeeMail,TextPlusMorph>>doYellowButtonPress:
+msgid "Define as jump end"
+msgstr "जम्प एंड के रूप में पारिभाषित करें"
+
+#: MorphicExtras-GeeMail,TextPlusMorph>>doYellowButtonPress:
+msgid "Define as jump start"
+msgstr "जम्प स्टार्ट के रूप में पारिभाषित करें"
+
+#: MorphicExtras-GeeMail,TextPlusMorph>>doYellowButtonPress:
+msgid "Go to top of document"
+msgstr "दस्तावेज़ के शीर्ष में जाएँ"
+
+#: MorphicExtras-GeeMail,TextPlusMorph>>doYellowButtonPress:
+msgid "Move selection to top of page"
+msgstr "चयनित को पृष्ठ के शीर्ष पर ले जाएँ"
+
+#: MorphicExtras-GeeMail,TextPlusPasteUpMorph>>showPageBreaksString
+msgid "show page breaks"
+msgstr "पृष्ठ ब्रेक दिखाएँ"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph_class>>descriptionForPartsBin
+msgid "A tool that lets you navigate through a thread of projects."
+msgstr "एक औजार जो आपको परियोजनाओं की लड़ियों में नेविगेशन करने देता है."
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph_class>>descriptionForPartsBin
+msgid "ThreadNavigator"
+msgstr "थ्रेड-नेविगेटर"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>acceptSortedContentsFrom:
+msgid "I need a name"
+msgstr "मुझे एक नाम चाहिए"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>acceptSortedContentsFrom:
+msgid "Name this thread."
+msgstr "इस लड़ी को नाम दें."
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>addButtons
+msgid "more commands"
+msgstr "और कमांड्स"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>addButtons
+msgid "Next:"
+msgstr "अगला:"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>addButtons
+msgid "Previous:"
+msgstr "पिछला:"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>buttonForMenu
+msgid "More commands"
+msgstr "और कमांड्स"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>destroyThread
+msgid "Destroy thread <{1}> ?"
+msgstr "लड़ी <{1}> नज़रअंदाज़ करें ?"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>ensureSuitableDefaults
+msgid "all (default)"
+msgstr "सभी (डिफ़ॉल्ट)"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>jumpWithinThread
+msgid "jump to <{1}>"
+msgstr "इस पर जाएँ <{1}>"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>jumpWithinThread
+msgid "This is the only project in this thread"
+msgstr "इस लड़ी में सिर्फ यही परियोजना है"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>jumpWithinThread
+msgid "you are here"
+msgstr "आप यहाँ पर हैं"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>loadPageWithProgress
+msgid "I cannot find that project"
+msgstr "मैं उस परियोजना को ढूंढ नहीं पा रहा"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>loadPageWithProgress
+msgid "project loading"
+msgstr "परियोजना लोड किया जा रहा है"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "create a new thread"
+msgstr "नई लड़ी बनाएँ"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "create thread of all projects"
+msgstr "सभी परियोजनाओं की लड़ियाँ बनाएँ"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "destroy this thread"
+msgstr "इस लड़ी को मिटा दें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "edit this thread"
+msgstr "इस लड़ी का संपादन करें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "First project in thread"
+msgstr "लड़ी में पहली परियोजना"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "insert new project"
+msgstr "नई परियोजना प्रविष्ट करें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "jump within this thread"
+msgstr "इस लड़ी के भीतर जाएँ"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "Last project in thread"
+msgstr "लड़ी में आखिरी परियोजना"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "navigation"
+msgstr "नेविगेशन"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "remember preferred location in this project"
+msgstr "इस परियोजना में प्राथमिकता स्थान याद रखें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "reset preferred location"
+msgstr "प्राथमिकता स्थान रीसेट करें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "simply close this navigator"
+msgstr "इस नेविगेटर को बन्द करें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "skip over next project ({1})"
+msgstr "अगले परियोजना में जाएँ ({1})"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "start keyboard navigation with this thread"
+msgstr "इस लड़ी के जरिए कुंजीपट नेविगेशन चालू करें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "stop keyboard navigation with this thread"
+msgstr "इस लड़ी के जरिए कुंजीपट नेविगेशन बन्द करें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "switch to recent projects"
+msgstr "हालिया परियोजना में स्विच करें"
+
+#: MorphicExtras-Navigators,InternalThreadNavigationMorph>>moreCommands
+msgid "switch to <{1}>"
+msgstr "<{1}> पर स्विच करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFind
+msgid "FIND"
+msgstr "ढूंढें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFind
+msgid "Find (load) another project. Hold mouse button down for further options."
+msgstr "ढूंढें (लोड करें) अन्य परियोजना. अन्य विकल्पों के लिए माउस बटन को नीचे होल्ड करें."
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFlaps,ProjectNavigationMorph>>buttonFlaps
+msgid "Hide tabs"
+msgstr "टैब छुपाएँ"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFlaps,ProjectNavigationMorph>>buttonFlaps
+msgid "Show tabs"
+msgstr "टैब दिखाएँ"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFullScreen
+msgid "Browser Reentry"
+msgstr "ब्राउज़र पुनर्प्रवेश"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFullScreen
+msgid "Escape Browser"
+msgstr "ब्राउज़र एस्केप करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFullScreen
+msgid "Re-enter the browser"
+msgstr "ब्राउजर फिर से प्रविष्ट करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonFullScreen
+msgid "Use the full screen"
+msgstr "पूरा स्क्रीन प्रयोग करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonGoTo
+msgid "GO TO"
+msgstr "पर जाएं"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonGoTo
+msgid "Go to another project"
+msgstr "अन्य परियोजना में जाएँ"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonHelp,ProjectNavigationMorph>>buttonHelp
+msgid "Help"
+msgstr "मदद"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonLanguage
+msgid "Click here to choose your language."
+msgstr "अपनी भाषा चुनने के लिए यहाँ क्लिक करें."
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonNewer
+msgid "Is there a newer version of this project ?"
+msgstr "क्या इस परियोजना का नया संस्करण है ?"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonNewer
+msgid "Newer?"
+msgstr "नया?"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonNewProject
+msgid "NEW"
+msgstr "नया"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonNewProject
+msgid "Start a new project"
+msgstr "नई परियोजना प्रारंभ करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonNext
+msgid "NEXT >"
+msgstr "अगला >"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonNext
+msgid "Next project"
+msgstr "अगली परियोजना"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonPaint
+msgid "Make a painting"
+msgstr "पेंटिंग बनाएँ"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonPrev
+msgid "Previous project"
+msgstr "पिछली परियोजना"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonPrev
+msgid "< PREV"
+msgstr "< पिछला"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonPublish
+msgid "PUBLISH IT!"
+msgstr "इसे प्रकाशित करें!"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonPublish
+msgid ""
+"Publish (save) this project.\n"
+"Hold mouse button down for further options"
+msgstr ""
+"इस परियोजना को प्रकाशित (सहेजें) करें.\n"
+"अन्य विकल्पों के लिए माउस बटन को नीचे होल्ड करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonQuit
+msgid "QUIT"
+msgstr "बाहर जाएँ"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonQuit
+msgid "Quit Etoys (without saving)"
+msgstr ""
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonTell
+msgid "Tell a friend about this project"
+msgstr "इस परियोजना के बारे में दोस्तों को बताएँ"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonTell
+msgid "Tell!"
+msgstr "बताएँ!"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonUndo
+msgid "Undo or redo the last undoable action"
+msgstr "अंतिम वापस नहीं की जा सकने वाली क्रिया को फिर से करें या पहले जैसा करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doFindButtonMenuEvent:
+msgid "find a project"
+msgstr "परियोजना ढूंढें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doFindButtonMenuEvent:
+msgid "find a project (more places)"
+msgstr "परियोजना ढूंढें (और अधिक स्थानों में)"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doFindButtonMenuEvent:
+msgid "find any file"
+msgstr "कोई फ़ाइल ढूंढें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doFindButtonMenuEvent:
+msgid "find (load) a project"
+msgstr "परियोजना ढूंढें (लोड करें)"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doPublishButtonMenuEvent:
+msgid "edit project info"
+msgstr "परियोजना जानकारी संपादित करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doPublishButtonMenuEvent:
+msgid "publish"
+msgstr "प्रकाशित करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doPublishButtonMenuEvent:
+msgid "publish as..."
+msgstr "ऐसे प्रकाशित करें..."
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doPublishButtonMenuEvent:
+msgid "publish the current project"
+msgstr "वर्तमान परियोजना प्रकाशित करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doPublishButtonMenuEvent:
+msgid "publish to different server"
+msgstr "भिन्न सर्वर में प्रकाशित करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doStopButtonMenuEvent:
+msgid "quit without saving"
+msgstr "सहेजे बगैर बाहर हों"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doStopButtonMenuEvent:
+msgid "Stop options"
+msgstr "बन्द करने के विकल्प"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>doStopButtonMenuEvent:
+msgid "stop Etoys"
+msgstr "ईटॉय बन्द करें"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>findSomethingOnSuperSwiki
+msgid "Choose a super swiki:"
+msgstr "सुपर विकि चुनें:"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>orientationString
+msgid "vertical orientation"
+msgstr "खड़ी दिशा"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>publishProject
+msgid ""
+"You seem to be painting a sketch.\n"
+"Do you continue and publish the project with the paint tool?"
+msgstr ""
+"प्रतीत होता है कि आप कोई स्केच पेंट कर रहे हैं.\n"
+"क्या आप जारी रखना चाहते हैं और परियोजना को इस पेंट औजार द्वारा प्रकाशित करना चाहते हैं?"
+
+#: MorphicExtras-Navigators,ProjectSorterMorph>>addControls
+msgid "Make a new Project"
+msgstr "नई परियोजना बनाएँ"
+
+#: MorphicExtras-Navigators,ProjectSorterMorph>>addControls
+msgid "Parts bin"
+msgstr "पार्ट्स बिन"
+
+#: MorphicExtras-Palettes,IndexTabs_class>>defaultNameStemForInstances
+msgid "tabs"
+msgstr "टैब्स"
+
+#: MorphicExtras-Palettes,ReferenceMorph_class>>defaultNameStemForInstances
+msgid "ref"
+msgstr "संदर्भ"
+
+#: MorphicExtras-Palettes,ReferenceMorph>>addCustomMenuItems:hand:
+msgid "change label wording..."
+msgstr "लेबल शब्द बदलें..."
+
+#: MorphicExtras-Palettes,ReferenceMorph>>addCustomMenuItems:hand:
+msgid "choose graphic..."
+msgstr "ग्राफ़िक चुनें..."
+
+#: MorphicExtras-Palettes,ReferenceMorph>>addCustomMenuItems:hand:
+msgid "repaint"
+msgstr "दोबारा-पेंट"
+
+#: MorphicExtras-Palettes,ReferenceMorph>>addCustomMenuItems:hand:
+msgid "use graphical label"
+msgstr "चित्रमय लेबल इस्तेमाल करें"
+
+#: MorphicExtras-Palettes,ReferenceMorph>>addCustomMenuItems:hand:
+msgid "use textual label"
+msgstr "पाठीय लेबल इस्तेमाल करें"
+
+#: MorphicExtras-Palettes,TabbedPalette_class>>defaultNameStemForInstances
+msgid "tabbedPalette"
+msgstr "टैब्ड-पैलेट"
+
+#: MorphicExtras-Palettes,TabbedPalette>>addBookMenuItemsTo:hand:
+msgid "add palette menu"
+msgstr "पैलेट मेनू जोड़ें"
+
+#: MorphicExtras-Palettes,TabbedPalette>>addBookMenuItemsTo:hand:
+msgid "become the Standard palette"
+msgstr "मानक पैलेट बनें"
+
+#: MorphicExtras-Palettes,TabbedPalette>>addMenuTab
+msgid "a menu of palette-related controls"
+msgstr "पैलेट-संबंधी नियंत्रक का मेन्यू"
+
+#: MorphicExtras-Palettes,TabbedPalette>>addMenuTab
+msgid "choose new colors for tabs"
+msgstr "टैब के लिए नए रंग चुनें"
+
+#: MorphicExtras-Palettes,TabbedPalette>>addMenuTab
+msgid "sort tabs"
+msgstr "टैब छांटें"
+
+#: MorphicExtras-Palettes,TabMorph_class>>defaultNameStemForInstances
+msgid "tab"
+msgstr "टैब"
+
+#: MorphicExtras-PartsBin,ObjectsTool_class>>descriptionForPartsBin
+msgid "A place to obtain many kinds of objects"
+msgstr "बहुत से वस्तुओं को प्राप्त करने का एक स्थान"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>addCustomMenuItems:hand:,ObjectsTool>>modeTabs
+msgid "alphabetic"
+msgstr "वर्णमाला-क्रम"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>addCustomMenuItems:hand:,ObjectsTool>>modeTabs
+msgid "categories"
+msgstr "श्रेणियाँ"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>addCustomMenuItems:hand:,ObjectsTool>>modeTabs
+msgid "find"
+msgstr "ढूंढें"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>addCustomMenuItems:hand:
+msgid "reset thumbnails"
+msgstr "लघु-छवि रीसेट करें"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>helpString
+msgid ""
+"The \"Objects Catalog\" allows you to browse through, and obtain copies of, many kinds of objects.\n"
+"\n"
+"You will find the Objects Catalog in the Supplies flap.\n"
+"\n"
+"There are three ways to use the Object Catalog, corresponding to the three tabs seen at the top:\n"
+"\n"
+"alphabetic - gives you separate buttons for a, b, c, etc.  Click any button, and you will see icons of all the objects whose names begin with that letter.\n"
+"\n"
+"find - gives you a type-in pane for a search.  Type any letters there, and icons of all the objects whose names match what you have typed will appear in the lower pane.\n"
+"\n"
+"categories - provides buttons representing categories of related items. Click on any button to see the icons of all the objects in the category.\n"
+"\n"
+"When the cursor lingers over the icon of any object, you will get balloon help for the item.\n"
+"\n"
+"When you drag an icon from the Objects Catalog, it will result in a new copy of it in your hand; the new object will be deposited wherever you next click."
+msgstr ""
+"\"वस्तु सूचीपत्र\" बहुत से वस्तुओं की आप को ब्राउज़ करने की, प्रतियां प्राप्त करने की अनुमति देता है. \n"
+"\n"
+"आपूर्ति फ्लैप में आप वस्तु सूचीपत्र प्राप्त कर सकते हैं. \n"
+"\n"
+"वस्तु सूचीपत्र का प्रयोग करने के लिए वहाँ पर तीन तरीके हैं, शीर्ष पर दिखाई दे रहे संबंधित तीन टैब्स के जरिए: \n"
+"\n"
+"वर्णमालाक्रम - क, ख, ग इत्यादि के लिए आपको देता है अलग बटन. किसी भी बटन पर क्लिक करें, और आपको सब वस्तुओं के प्रतीक दिखेंगे  जिसका नाम उस अक्षर के साथ शुरू होता है. \n"
+"\n"
+"ढूंढे - आपको खोजने के लिए टाइप-इन पैन देता है. यहाँ पर कोई अक्षर टाइप करें, और सब वस्तुओं के प्रतीक जिनके नाम आपने टाइप किए हैं वो दिखाई देंगे. \n"
+"\n"
+"श्रेणियाँ - संबंधित वस्तुओं के वर्ग का प्रतिनिधित्व करते बटन प्रदान करता है. श्रेणी में सभी वस्तुओं के प्रतीक को देखने के लिए किसी भी बटन पर क्लिक करें. \n"
+"\n"
+"जब संकेतक किसी भी वस्तु के प्रतीक पर घूमता है, आपको उस वस्तु के लिए गुब्बारा मदद मिलता है. \n"
+"\n"
+"जब आप वस्तु सूचीपत्र से एक प्रतीक खींचते हैं, यह इसकी एक नई प्रतिलिपि आपके हाथ में परिणाम स्वरूप देता है, और यह नई वस्तु जहाँ भी आप अगला क्लिक करेंगे वहाँ जमा हो जाएगा."
+
+#: MorphicExtras-PartsBin,ObjectsTool>>modeTabs
+msgid "A separate tab for each letter of the alphabet"
+msgstr "वर्णक्रम के प्रत्येक अक्षर के लिए अलग टैब"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>modeTabs
+msgid "Grouped by category"
+msgstr "श्रेणी द्वारा समूहबद्ध"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>modeTabs
+msgid "Provides a type-in pane allowing you to match"
+msgstr "जोड़ मिलाने के लिए टाइप-इन पैन प्रदान करता है"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>newSearchPane
+msgid "Type here and all entries that match will be shown."
+msgstr "यहाँ टाइप करें और जोड़ मिलती सभी प्रविष्टियाँ यहा दिखाई देंगीं."
+
+#: MorphicExtras-PartsBin,ObjectsTool>>presentHelp
+msgid "Objects Catalog"
+msgstr "वस्तुओं के सूचीपत्र"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>tabsForCategories
+msgid " Basic"
+msgstr " मूल"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>tabsForCategories,PolygonMorph_class>>supplementaryPartsDescriptions,RectangleMorph_class>>supplementaryPartsDescriptions,SimpleSliderMorph_class>>descriptionForPartsBin,TextMorph_class>>supplementaryPartsDescriptions,TrashCanMorph_class>>descriptionForPartsBin
+msgid "Basic"
+msgstr "मूल"
+
+#: MorphicExtras-PartsBin,PartsBin_class>>rebuildIconsWithProgress
+msgid "Building icons"
+msgstr "प्रतीक बनाना"
+
+#: MorphicExtras-PartsBin,PartsBin>>innocuousName
+msgid "parts bin"
+msgstr "पार्ट्स बिन"
+
+#: MorphicExtras-Postscript_Canvases,DSCPostscriptCanvasToDisk_class>>morphAsPostscript:rotated:offsetBy:specs:
+msgid "Name of file to write:"
+msgstr "फ़ाइल का नाम जिस पर लिखना है:"
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "adjust scale..."
+msgstr "स्केल एडजस्ट करें..."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "choose denominator..."
+msgstr "हर चुनें..."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "get sound from lib"
+msgstr "लाइब्रेरी से ध्वनि प्राप्त करें"
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "put sound in lib"
+msgstr "लाइब्रेरी में ध्वनि रखें"
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "read sound from disk..."
+msgstr "डिस्क से ध्वनि पढ़ें..."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "save library on disk..."
+msgstr "लाइब्रेरी को डिस्क में सहेजें..."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "save sound on disk..."
+msgstr "ध्वनि को डिस्क में सहेजें..."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "turn reverb off"
+msgstr "रीवर्ब बन्द करें"
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>addCustomMenuItems:hand:
+msgid "turn reverb on"
+msgstr "रीवर्ब चालू करें"
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>adjustScale:
+msgid "Enter the new full-scale value..."
+msgstr "नया फुल-स्केल मूल्य भरें..."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>editSound:
+msgid ""
+"You selected a {1}.\n"
+"I can't handle these kinds of sounds."
+msgstr ""
+"आपने एक {1} चुना है.\n"
+"मैं इस तरह की ध्वनि पर काम नहीं कर सकता."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>saveLibToDisk:
+msgid "Please confirm name for library..."
+msgstr "लाइब्रेरी के लिए कृपया नाम सुनिश्चित करें..."
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>saveLibToDisk:
+msgid "{1} is not currently storable"
+msgstr "{1} वर्तमान में भंडार करने लायक नहीं है"
+
+#: MorphicExtras-SoundInterface,EnvelopeEditorMorph>>saveSound:,EnvelopeEditorMorph>>saveToDisk:
+msgid "Please confirm name for save..."
+msgstr "सहेजने के लिए कृपया नाम भरें..."
+
+#: MorphicExtras-SoundInterface,MIDIControllerMorph>>addCustomMenuItems:hand:
+msgid "set channel"
+msgstr "चैनल सेट करें"
+
+#: MorphicExtras-SoundInterface,MIDIControllerMorph>>addCustomMenuItems:hand:
+msgid "set controller"
+msgstr "नियंत्रक सेट करें"
+
+#: MorphicExtras-SoundInterface,PianoKeyboardMorph_class>>descriptionForPartsBin
+msgid "A piano keyboard"
+msgstr "पियानो कीबोर्ड"
+
+#: MorphicExtras-SoundInterface,PianoKeyboardMorph_class>>descriptionForPartsBin
+msgid "PianoKeyboard"
+msgstr "पियानो-कीबोर्ड"
+
+#: MorphicExtras-SoundInterface,PianoKeyboardMorph>>chordFlagString
+msgid "sticky off"
+msgstr "चिपकना बन्द"
+
+#: MorphicExtras-SoundInterface,PianoKeyboardMorph>>chordFlagString
+msgid "sticky on"
+msgstr "चिपकना चालू"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph_class>>formerDescriptionForPartsBin
+msgid "SoundRecorder"
+msgstr "ध्वनि-रेकॉर्डर"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows
+msgid "Codec"
+msgstr "कोडेक"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows
+msgid "Morph"
+msgstr "मॉर्फ"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows,WaveEditor>>addControls
+msgid "Play"
+msgstr "बजाएँ"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows
+msgid "Record"
+msgstr "रेकॉर्ड"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows
+msgid "Show"
+msgstr "दिखाएँ"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows
+msgid "Stop"
+msgstr "रूकें"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows
+msgid "Tile"
+msgstr "टाइल"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>addButtonRows
+msgid "Trim"
+msgstr "काँट-छाँट"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>makeTile
+msgid "Please name your new sound"
+msgstr "कृपया अपने ध्वनि का नाम भरें"
+
+#: MorphicExtras-SoundInterface,RecordingControlsMorph>>makeTile
+msgid "sound"
+msgstr "ध्वनि"
+
+#: MorphicExtras-SoundInterface,SoundEventMorph>>addCustomMenuItems:hand:
+msgid "play sound"
+msgstr "ध्वनि बजाएँ"
+
+#: MorphicExtras-SoundInterface,SoundEventMorph>>sound:
+msgid " seconds"
+msgstr " सेकण्ड"
+
+#: MorphicExtras-SoundInterface,SoundEventMorph>>sound:
+msgid "a sound of duration "
+msgstr "ध्वनि की अवधि "
+
+#: MorphicExtras-SoundInterface,WaveEditor_class>>descriptionForPartsBin
+msgid "A workbench for seing and editing wave forms"
+msgstr "वेव फ़ॉर्म को देखने व संपादित करने का एक वर्कबैंच"
+
+#: MorphicExtras-SoundInterface,WaveEditor_class>>descriptionForPartsBin
+msgid "WaveEditor"
+msgstr "वेव-संपादक"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Close WaveEditor"
+msgstr "वेव-संपादक चुनें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Index: "
+msgstr "निर्देशिका: "
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Open a menu"
+msgstr "मेन्यू खोलें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Play After"
+msgstr "के बाद बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Play after cursor"
+msgstr "संकेतक के बाद बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Play Before"
+msgstr "से पहले बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Play before cursor"
+msgstr "संकेतक से पहले बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Play Loop"
+msgstr "लूप बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Play sound"
+msgstr "ध्वनि बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Play the loop"
+msgstr "लूप बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Save"
+msgstr "सहेजें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Save the sound"
+msgstr "ध्वनि सहेजें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Set Loop End"
+msgstr "लूप का अंत सेट करें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Set Loop Start"
+msgstr "लूप का आरंभ सेट करें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Set loop end at cursor"
+msgstr "संकेतक स्थान पर लूप का अंत सेट करें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Set One Cycle"
+msgstr "एक साइकल सेट करें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Set one cycle"
+msgstr "एक साइकल सेट करें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Set the loop start at cursor"
+msgstr "संकेतक स्थान पर लूप का आरंभ सेट करें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Test"
+msgstr "जांच"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Test the note"
+msgstr "नोट जाँचें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "Value: "
+msgstr "मान: "
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addControls
+msgid "X"
+msgstr "एक्स"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addLoopPointControls
+msgid "Frequency: "
+msgstr "आवृत्ति: "
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addLoopPointControls
+msgid "Loop cycles: "
+msgstr "लूप साइकल: "
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addLoopPointControls
+msgid "Loop end: "
+msgstr "लूप समाप्ति: "
+
+#: MorphicExtras-SoundInterface,WaveEditor>>addLoopPointControls
+msgid "Loop length: "
+msgstr "लूब लंबाई: "
+
+#: MorphicExtras-SoundInterface,WaveEditor>>chooseLoopStart
+msgid "Finding possible loop points..."
+msgstr "संभावित लूप बिन्दुओं को ढूंढा जा रहा है..."
+
+#: MorphicExtras-SoundInterface,WaveEditor>>chooseLoopStart
+msgid "{1} cycles; {2} secs"
+msgstr "{1} साइकल्स; {2} सेक"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "choose loop start"
+msgstr "लूप का आरंभ चुनें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "jump to loop end"
+msgstr "लूप के अंत में जाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "jump to loop start"
+msgstr "लूप के प्रारंभ में जाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "make unlooped"
+msgstr "लूप रहित बनाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "make unpitched"
+msgstr "पिच रहित बनाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "play after cursor"
+msgstr "संकेतक के बाद बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "play before cursor"
+msgstr "संकेतक से पहले बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "play loop"
+msgstr "लूप बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "play straight through"
+msgstr "सीधे पूर बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "play test note"
+msgstr "जाँच नोट बजाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "show envelope"
+msgstr "एनवलप दिखाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "show FFT"
+msgstr "एफएफटी दिखाएँ"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "trim after cursor"
+msgstr "संकेतक के बाद काटें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>invokeMenu
+msgid "trim before cursor"
+msgstr "संकेतक से पहले काटें"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>saveInstrument
+msgid "Instrument name?"
+msgstr "वाद्ययंत्र नाम?"
+
+#: MorphicExtras-SoundInterface,WaveEditor>>setLoopStart
+msgid ""
+"Please set the loop end and the approximate frequency\n"
+"first, then position the cursor one or more cycles\n"
+"before the loop end and try this again."
+msgstr ""
+"कृपया पहले लूप अंत और लगभग आवृत्ति सेट करें\n"
+"फिर संकेतक को एक या एक से अधिक साइकल पर रखें \n"
+"लूप अंत से पहले और फिर कोशिश करें."
+
+#: MorphicExtras-SoundInterface,WaveEditor>>showFFTAtCursor
+msgid "Too few samples after the cursor to take an FFT."
+msgstr "एफएफटी लेने के बाद संकेतक के बाद बहुत कम नमूने."
+
+#: MorphicExtras-Support,PaintBoxMorph>>addCustomMenuItems:hand:
+msgid "grab stamp from screen"
+msgstr "स्क्रीन से स्टैम्प पकड़ें"
+
+#: MorphicExtras-Support,PaintBoxMorph>>addTextualLabels
+msgid "CLEAR"
+msgstr "साफ करें"
+
+#: MorphicExtras-Support,PaintBoxMorph>>addTextualLabels
+msgid "KEEP"
+msgstr "रखें"
+
+#: MorphicExtras-Support,PaintBoxMorph>>addTextualLabels
+msgid "TOSS"
+msgstr "टॉस"
+
+#: MorphicExtras-Support,PaintBoxMorph>>addTextualLabels
+msgid "UNDO"
+msgstr "पहले जैसा"
+
+#: MorphicExtras-Support,SketchEditorMorph>>addRotationScaleHandles
+msgid ""
+"Drag me sideways to\n"
+"rotate your\n"
+"picture."
+msgstr ""
+"मेरे किनारे को खींचें\n"
+"अपने फोटो को\n"
+"घुमाने के लिए."
+
+#: MorphicExtras-Support,SketchEditorMorph>>addRotationScaleHandles
+msgid ""
+"Drag me up and down to change\n"
+"the size\n"
+"of your picture."
+msgstr ""
+"अपने चित्र का\n"
+"आकार बदलने के लिए\n"
+"मुझे ऊपर नीचे खींचें."
+
+#: MorphicExtras-Support,SketchEditorMorph>>deliverPainting:evt:
+msgid ""
+"Do you really want to throw away \n"
+"what you just painted?"
+msgstr ""
+"क्या सचमुच आप फेंक देना चाहते हैं \n"
+"जिसे आपने अभी पेंट किया है?"
+
+#: MorphicExtras-Support,SketchEditorMorph>>deliverPainting:evt:
+msgid "throw it away\\keep painting it"
+msgstr "इसे फेंक दें\\पेंटिंग करते रहें"
+
+#: MorphicExtras-Undo,Command>>cmdWording
+msgid "last command"
+msgstr "पिछला कमांड"
+
+#: MorphicExtras-Undo,CommandHistory>>undoOrRedoMenuWording
+msgid "can't undo"
+msgstr "पहले जैसा नहीं कर सकता"
+
+#: MorphicExtras-Undo,CommandHistory>>undoOrRedoMenuWording
+msgid "redo"
+msgstr "दोहराएँ"
+
+#: MorphicExtras-Undo,CommandHistory>>undoOrRedoMenuWording
+msgid "undo"
+msgstr "पहले जैसा"
+
+#: MorphicExtras-Widgets,BackgroundMorph>>addCustomMenuItems:hand:
+msgid "start"
+msgstr "प्रारंभ"
+
+#: MorphicExtras-Widgets,BackgroundMorph>>addCustomMenuItems:hand:
+msgid "stop"
+msgstr "रूकें"
+
+#: MorphicExtras-Widgets,BasicButton_class>>defaultNameStemForInstances
+msgid "button"
+msgstr "बटन"
+
+#: MorphicExtras-Widgets,BasicButton>>addCustomMenuItems:hand:
+msgid "change label..."
+msgstr "लेबल बदलें..."
+
+#: MorphicExtras-Widgets,BasicButton>>setLabel
+msgid "Enter a new label for this button"
+msgstr "इस बटन के लिए नया लेबल भरें"
+
+#: MorphicExtras-Widgets,GrabPatchMorph_class>>descriptionForPartsBin
+msgid "Grab Patch"
+msgstr "पैच पकड़ें"
+
+#: MorphicExtras-Widgets,GrabPatchMorph_class>>descriptionForPartsBin
+msgid "Use this to grab a rectangular patch from the screen"
+msgstr "स्क्रीन पर से आयताकार पैच पकड़ने के लिए इसका प्रयोग करें"
+
+#: MorphicExtras-Widgets,GradientFillMorph>>addCustomMenuItems:hand:
+msgid "gradient color"
+msgstr "अनुपात रंग"
+
+#: MorphicExtras-Widgets,GradientFillMorph>>addCustomMenuItems:hand:
+msgid "horizontal pan"
+msgstr "आड़ा पैन"
+
+#: MorphicExtras-Widgets,GradientFillMorph>>addCustomMenuItems:hand:
+msgid "vertical pan"
+msgstr "खड़ा पैन"
+
+#: MorphicExtras-Widgets,GraphMorph_class>>descriptionForPartsBin
+msgid "A graph of numbers, normalized so the full range of values just fits my height.  I support a movable cursor that can be dragged with the mouse."
+msgstr "संख्याओं का ग्राफ, इस तरह नार्मलाइज किया गया ताकि पूरी सीमा के मूल्य मुझमें फिट ऊँचाई के अनुसार फिट बैठें. मैं खिसकने योग्य संकेतक समर्थित करता हूं जिसे माउस द्वारा खींचा जा सकता है."
+
+#: MorphicExtras-Widgets,GraphMorph_class>>descriptionForPartsBin
+msgid "Graph"
+msgstr "ग्राफ"
+
+#: MorphicExtras-Widgets,LassoPatchMorph_class>>descriptionForPartsBin
+msgid "Drop this icon to grab a patch from the screen with a lasso."
+msgstr "लासो के जरिए स्क्रीन से पैच पकड़ने के लिए इस प्रतीक को छोड़ें."
+
+#: MorphicExtras-Widgets,PaintInvokingMorph_class>>descriptionForPartsBin
+msgid "Drop this icon to start painting a new object."
+msgstr "नया वस्तु पेंट करना प्रारंभ करने के लिए इस प्रतीक को छोड़ें."
+
+#: MorphicExtras-Widgets,ScrollableField_class>>descriptionForPartsBin
+msgid "A scrollable, editable body of text"
+msgstr "स्क्रॉल करने योग्य, संपादन योग्य पाठ"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph_class>>descriptionForPartsBin
+msgid "A scriptable control that allows you to choose a numeric value by dragging a knob."
+msgstr "एक स्क्रिप्टेबल नियंत्रक जो आपको नॉब खींचने पर अंकीय मान चुनने देता है."
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>addCustomMenuItems:hand:,StringButtonMorph>>addCustomMenuItems:hand:
+msgid "change arguments"
+msgstr "आर्गुमेंट्स बदलें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>addCustomMenuItems:hand:,StringButtonMorph>>addCustomMenuItems:hand:
+msgid "clear target"
+msgstr "लक्ष्य साफ करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>addCustomMenuItems:hand:
+msgid "set action selector"
+msgstr "क्रिया चयनक सेट करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>addCustomMenuItems:hand:
+msgid "set maximum value"
+msgstr "अधिकतम मान सेट करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>addCustomMenuItems:hand:
+msgid "set minimum value"
+msgstr "न्यूनतम मूल्य सेट करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>addCustomMenuItems:hand:,StringButtonMorph>>addCustomMenuItems:hand:
+msgid "set target"
+msgstr "लक्ष्य सेट करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>descendingString
+msgid "switch to ascending"
+msgstr "बढ़ते-क्रम में स्विच करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>descendingString
+msgid "switch to descending"
+msgstr "घटते-क्रम में स्विच करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this slider is changed"
+msgstr ""
+"कृपया सलेक्टर टाइप करें जिसे\n"
+"जब स्लाइडर बदला जाएगा तो लक्ष्य को भेजा जाएगा"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>setArguments,StringButtonMorph>>setArguments
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+"कृपया सलेक्टर टाइप करें जिसे\n"
+"जब यह बटन दबाया जाएगा पीरियड द्वारा अलग किया गया, तो लक्ष्य को भेजा जाएगा"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>setLabel
+msgid "Please a new label for this button"
+msgstr "इस बटन के लिए नया लेबल दें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>setMaxVal
+msgid "Maximum value?"
+msgstr "अधिकतम मान?"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>setMinVal
+msgid "Minimum value?"
+msgstr "न्यूनतम मान?"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>truncateString
+msgid "turn off truncation"
+msgstr "काट-छांट बन्द करें"
+
+#: MorphicExtras-Widgets,SimpleSliderMorph>>truncateString
+msgid "turn on truncation"
+msgstr "काट-छांट चालू करें"
+
+#: MorphicExtras-Widgets,StarMorph_class>>descriptionForPartsBin
+msgid "A symmetrical polygon in the shape of a star"
+msgstr "तारे के आकार में एक सममित बहुभुज"
+
+#: MorphicExtras-Widgets,StarMorph>>addChangeSidesMenuItems:hand:
+msgid "fewer sides"
+msgstr "कम भुजाएँ"
+
+#: MorphicExtras-Widgets,StarMorph>>addChangeSidesMenuItems:hand:
+msgid "more sides"
+msgstr "अधिक भुजाएँ"
+
+#: MorphicExtras-Widgets,StarMorph>>addTwinkleMenuItems:hand:
+msgid "twinkle fatter"
+msgstr "ट्विंकल फैटर"
+
+#: MorphicExtras-Widgets,StarMorph>>addTwinkleMenuItems:hand:
+msgid "twinkle thinner"
+msgstr "ट्विंकल थिनर"
+
+#: MorphicExtras-Widgets,StringButtonMorph_class>>defaultNameStemForInstances
+msgid "SButton"
+msgstr "एस-बटन"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>addCustomMenuItems:hand:
+msgid "change action selector"
+msgstr "क्रिया चयनक बदलें"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>addCustomMenuItems:hand:
+msgid "change label"
+msgstr "लेबल बदलें"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>addCustomMenuItems:hand:
+msgid "change when to act"
+msgstr "कब कार्य करना है बदलें"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>setActionSelector
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr ""
+"कृपया सलेक्टर टाइप करें जिसे\n"
+"जब यह बटन दबाया जाएगा तो लक्ष्य को भेजा जाएगा"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>setActWhen
+msgid "buttonDown"
+msgstr "बटन-नीचे"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>setActWhen
+msgid "buttonUp"
+msgstr "बटन-ऊपर"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>setActWhen
+msgid "Choose one of the following conditions"
+msgstr "निम्न में से कोई भी कंडीशन चुनें"
+
+#: MorphicExtras-Widgets,StringButtonMorph>>setActWhen
+msgid "whilePressed"
+msgstr "दबाए-रखकर"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "dissolve"
+msgstr "डिज़ॉल्व"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "french door"
+msgstr "फ्रांसीसी दरवाजा"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "none"
+msgstr "कुछ नहीं"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "page back"
+msgstr "पिछला पृष्ठ"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "page forward"
+msgstr "अगला पृष्ठ"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "slide away"
+msgstr "स्लाइड अवे"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "slide border"
+msgstr "स्लाइड किनारा"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "slide both"
+msgstr "दोनों स्लाइड"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "slide over"
+msgstr "स्लाइड ओवर"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "zoom"
+msgstr "ज़ूम"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
+msgid "zoom frame"
+msgstr "फ्रेम ज़ूम करें"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "down"
+msgstr "नीचे"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "down left"
+msgstr "बाएँ नीचे"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "down right"
+msgstr "दाएँ नीचे"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "in"
+msgstr "भीतर"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "in h"
+msgstr "h में"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "left"
+msgstr "बायाँ"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "out"
+msgstr "बाहर"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "out h"
+msgstr "बाहर h"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "right"
+msgstr "दायाँ"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "up"
+msgstr "ऊपर"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "up left"
+msgstr "ऊपर बाएँ"
+
+#: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
+msgid "up right"
+msgstr "ऊपर"
+
+#: Morphic-Basic,AlignmentMorph_class>>supplementaryPartsDescriptions
+msgid "An object that presents the things within it in a column"
+msgstr "स्तम्भ के भीतर कोई वस्तु जो वस्तुओं को पेश करता है"
+
+#: Morphic-Basic,AlignmentMorph_class>>supplementaryPartsDescriptions
+msgid "An object that presents the things within it in a row"
+msgstr "पंक्ति के भीतर कोई वस्तु जो वस्तुओं को पेश करता है"
+
+#: Morphic-Basic,AlignmentMorph_class>>supplementaryPartsDescriptions
+msgid "Column"
+msgstr "स्तम्भ"
+
+#: Morphic-Basic,AlignmentMorph_class>>supplementaryPartsDescriptions
+msgid "Row"
+msgstr "पंक्ति"
+
+#: Morphic-Basic,CurveMorph_class>>registerInFlapsRegistry,CurveMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "A curve"
+msgstr "वक्र"
+
+#: Morphic-Basic,CurveMorph_class>>registerInFlapsRegistry,CurveMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap,PolygonMorph_class>>supplementaryPartsDescriptions
+msgid "Curve"
+msgstr "वक्र"
+
+#: Morphic-Basic,CurveMorph_class>>supplementaryPartsDescriptions
+msgid "A curved line with an arrowhead.  Shift-click to get handles and move the points."
+msgstr "तीर सिरा युक्त एक वक्रीय लकीर. हैंडल पाने के लिए शिफ़्ट क्लिक करें तथा बिन्दुओं को खिसकाएँ."
+
+#: Morphic-Basic,CurveMorph_class>>supplementaryPartsDescriptions
+msgid "Curvy Arrow"
+msgstr "वक्र तीर"
+
+#: Morphic-Basic,CurveMorph_class>>supplementaryPartsDescriptions,GrabPatchMorph_class>>descriptionForPartsBin,LassoPatchMorph_class>>descriptionForPartsBin,PolygonMorph_class>>supplementaryPartsDescriptions,PolygonMorph_class>>supplementaryPartsDescriptions,PolygonMorph_class>>supplementaryPartsDescriptions,RectangleMorph_class>>supplementaryPartsDescriptions,StarMorph_class>>descriptionForPartsBin
+msgid "Graphics"
+msgstr "ग्राफिक्स"
+
+#: Morphic-Basic,EllipseMorph_class>>registerInFlapsRegistry,EllipseMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "An ellipse or circle"
+msgstr "दीर्घवृत्त या वृत्त"
+
+#: Morphic-Basic,EllipseMorph_class>>registerInFlapsRegistry,EllipseMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
+msgid "Ellipse"
+msgstr "दीर्घवृत्त"
+
+#: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
+msgid "A line with an arrowhead.  Shift-click to get handles and move the ends."
+msgstr "तीर सिरा युक्त एक लकीर. हैंडल पाने तथा सिरों को खिसकाने के लिए शिफ़्ट क्लिक करें."
+
+#: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
+msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
+msgstr "एक चिकना विगली वक्र या वक्र ठोस. हैंडल प्राप्त करने तथा बिन्दु खिसकाने के लिए शिफ़्ट क्लिक करें. हालो मेन्यू के प्रयोग से, बहुभुज में बदला जा सकता है तथा इसे \"खुला\" बनाया जा सकता है, बजाए बन्द के."
+
+#: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
+msgid "A three-sided polygon."
+msgstr "तीन भुजाओं वाला बहुभुज."
+
+#: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
+msgid "Arrow"
+msgstr "तीर"
+
+#: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
+msgid "Triangle"
+msgstr "त्रिभुज"
+
+#: Morphic-Basic,RectangleMorph_class>>supplementaryPartsDescriptions
+msgid "A rectangle with a diagonal gradient"
+msgstr "तीर्यक अनुपात सहित एक आयत"
+
+#: Morphic-Basic,RectangleMorph_class>>supplementaryPartsDescriptions
+msgid "A rectangle with a horizontal gradient"
+msgstr "आड़े अनुपात सहित एक आयत"
+
+#: Morphic-Basic,RectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Gradient"
+msgstr "अनुपात"
+
+#: Morphic-Basic,RectangleMorph_class>>supplementaryPartsDescriptions
+msgid "Gradient (slanted)"
+msgstr "अनुपात (तिरछा)"
+
+#: Morphic-Basic,TextMorph_class>>supplementaryPartsDescriptions
+msgid "A raw piece of text which you can edit into anything you want"
+msgstr "एक पाठ जिसे आप संपादिक कर जो आप चाहें कर सकते हैं"
+
+#: Morphic-Basic,TextMorph_class>>supplementaryPartsDescriptions
+msgid "A text field with border"
+msgstr "किनारा सहित पाठ क्षेत्र"
+
+#: Morphic-Basic,TextMorph_class>>supplementaryPartsDescriptions
+msgid "Text (border)"
+msgstr "पाठ (किनारा)"
+
+#: Morphic-Kernel,Morph_class>>supplementaryPartsDescriptions
+msgid "A button which, when clicked, takes the reader to the next page of a book"
+msgstr "एक बटन, जिसे जब क्लिक किया जाता है इस पुस्तक के पाठक को अगले पन्नों में ले जाता है"
+
+#: Morphic-Kernel,Morph_class>>supplementaryPartsDescriptions
+msgid "A button which, when clicked, takes the reader to the previous page of a book"
+msgstr "एक बटन, जिसे जब क्लिक किया जाता है पाठक को इस पुस्तक के पिछले पन्नों में ले जाता है"
+
+#: Morphic-Kernel,Morph>>dismissButton
+msgid "dismiss"
+msgstr "खारिज करें"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "about flaps..."
+msgstr "फ्लैप्स के बारे में..."
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Choose a flap to destroy, from a pop-up list that will be presented"
+msgstr "नष्ट करने के लिए फ्लैप चुनें, पॉप अप सूची से जिसे प्रस्तुत किया जाएगा"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Create a new flap.  You can later make it into a shared flap is you wish."
+msgstr "नया फ्लैप बनाएँ. आप बाद में इसे साझा फ्लैप बना सकते हैं यदि आप चाहें."
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Create the default set of shared flaps used by successive versions of the Squeak development platform"
+msgstr "स्क्वैक डेवलपमेंट प्लेटफ़ॉर्म के लगातार संस्करण के प्रयोग से साझा फ्लैप के डिफ़ॉल्ट सेट बनाएँ"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Destroy all the shared flaps and disable their use in all projects."
+msgstr "सभी साझा फ्लैप नष्ट करें तथा उनके प्रयोग को सभी परियोजनाओं में अक्षम करें."
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "destroy all shared flaps"
+msgstr "सभी साझा फ्लैप्स मिटाएँ"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "destroy flap..."
+msgstr "फ्लैप मिटाएँ..."
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "flaps"
+msgstr "फ़्लैप्स"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Gives a window full of details about how to use flaps."
+msgstr "फ्लैप्स को किस तरह से प्रयोग करें ऐसे विवरणों से भरे विंडो प्रदान करता है."
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Group all the standard shared flaps along the bottom edge of the screen"
+msgstr "स्क्रीन तल किनारे पर सभी मानक साझा फ्लैप को समूहबद्ध करें"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "install classic etoy flaps"
+msgstr "क्लासिक ईटॉय फ्लैप्स संस्थापित करें"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "install developers' flaps"
+msgstr "डेवलपर्स फ्लैप संस्थापित करें"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "install olpc etoy flaps"
+msgstr "ओएलपीसी ईटॉय फ्लैप्स संस्थापित करें"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "make a new flap"
+msgstr "नया फ्लैप बनाएँ"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Put up the default etoy flaps: a custom Supplies flap and the Navigator flap"
+msgstr "डिफ़ॉल्ट ईटॉय फ्लैप को रख दें: एक मनपसंद सप्लाई फ्लैप तथा नेविगेटर फ्लैप"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "put shared flaps on bottom"
+msgstr "साझा फ्लैप तल में रखें"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "Whether prevailing flaps should be shown in the project right now or not."
+msgstr "क्या परियोजना में प्रचलित फ्लैप्स को अभी दिखाया जाना है या नहीं."
+
+#: Morphic-Menus,MenuMorph>>allWordings
+msgid "debug..."
+msgstr "डिबग..."
+
+#: Morphic-Worlds,PasteUpMorph_class>>initialize
+msgid "keyStroke"
+msgstr "की-स्ट्रोक"
+
+#: Morphic-Worlds,PasteUpMorph_class>>initialize
+msgid "when a keystroke happens and nobody heard it"
+msgstr "जब कोई कीस्ट्रोक होता है और इसे कोई नहीं सुनता"
+
+#: Morphic-Worlds,PasteUpMorph_class>>supplementaryPartsDescriptions
+msgid "A place for storing alternative pictures in an animation, ec."
+msgstr "एनीमेशन में वैकल्पिक चित्रों इत्यादि को भंडारित करने का एक स्थान."
+
+#: Morphic-Worlds,PasteUpMorph>>quitSqueak,ProjectNavigationMorph>>quitSqueak
+msgid "Are you sure you want to quit Etoys?"
+msgstr "क्या आप सुनिश्चित हैं कि आप ईटॉय से बाहर जाना चाहते हैं?"
+

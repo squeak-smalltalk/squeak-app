@@ -1,0 +1,288 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-02-27 19:12+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: hy\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Sugar\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Sugar,SugarDatastoreDirectory>>createDirectory:,SugarDatastoreDirectory>>deleteDirectory:,SugarDatastoreDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "Գործողությունը չի սատարվում"
+
+#: Sugar,SugarDatastoreDirectory>>deleteFileNamed:
+msgid "Use the journal to delete entries"
+msgstr "Օգտագործել Մատյանը մուտքագրումները հեռացնելու համար"
+
+#: Sugar,SugarDatastoreDirectory>>moniker
+msgid "Journal"
+msgstr "Մատյան"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "make XO bundle"
+msgstr "ստեղծել XO փաթեթ"
+
+#: Sugar,SugarLauncher_class>>serviceWrapAsXOBundle
+msgid "wrap as an OLPC XO bundle"
+msgstr "\"Փաթեթավորել\" որպես OLPC XO փաթեթ"
+
+#: Sugar,SugarLauncher_class>>wrapAsXOBundle:
+msgid "Making bundle"
+msgstr "փաթեթների ստեղծում"
+
+#: Sugar,SugarLauncher>>badgeFlap,SugarLauncher>>deleteBadges
+msgid "Buddies"
+msgstr "Ընկերներ"
+
+#: Sugar,SugarLauncher>>chooser:response:,SugarLauncher>>resumeJournalEntry:
+msgid "untitled"
+msgstr "անվերնագիր"
+
+#: Sugar,SugarLauncher>>createJournalEntryFor:filename:mimetype:
+msgid "Etoys"
+msgstr "Etoys"
+
+#: Sugar,SugarLauncher>>handleStream:mimetype:titled:
+msgid "Cannot open {1}"
+msgstr "Չի կարելի բացել {1}"
+
+#: Sugar,SugarLauncher>>invite:
+msgid "Inviting buddy ..."
+msgstr "Հրավիրել ընկեր..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Joining activity ..."
+msgstr "Միանալ գործողությանը..."
+
+#: Sugar,SugarLauncher>>joinSharedActivity
+msgid "Looking for shared activity ..."
+msgstr "Փնտրել համատեղ կատարվելիք գործողություն..."
+
+#: Sugar,SugarLauncher>>open:title:mimetype:
+msgid "Opening journal entry"
+msgstr "Բացել Մատյանի մուտքագրումը"
+
+#: Sugar,SugarLauncher>>quit
+msgid ""
+"Are you sure you want to quit Etoys?\n"
+"(the project will NOT be saved)"
+msgstr ""
+"Համոզվա՞ծ եք, որ ցանկանում եք լքել Etoys-ը\n"
+"(Ձեր նախագիծը չի պահպանվի)"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Etoys Project"
+msgstr "Etoys ծրագիր"
+
+#: Sugar,SugarLauncher>>titleFromProject:
+msgid "Unnamed"
+msgstr "Անանուն"
+
+# Օգտագործվում են նաև "թարթիչ" և "էջանիշ" բառերը:
+#: Sugar,SugarNavigatorBar_class>>current,SugarNavigatorBar_class>>putUpInitialBalloonHelp,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Sugar Navigator Flap"
+msgstr "Sugar-ի  նավիգատորի տարբերանշան"
+
+#: Sugar,SugarNavigatorBar_class>>findAnythingMorph
+msgid "Find..."
+msgstr "Գտնել..."
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "File Dialog"
+msgstr "Ֆայլի երկխոսություն"
+
+#: Sugar,SugarNavigatorBar_class>>supplementaryPartsDescriptions
+msgid "The list of files and directories"
+msgstr "Ֆայլերի և տեղեկագրքերի ցանկը"
+
+# Открыть в центре экрана виртуальный дисплей соответствующий OLPC разрешению
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Present a virtual display that approximates the actual OLPC display in resolution, centered within the actual Squeak display window."
+msgstr ""
+"Ներկայիս Squeak էկրանի պատուհանի կենտրոնում ներկայացնել առկա OLPC էկրանին իր "
+"հստակությամբ մոտ վիրտուալ էկրան:"
+
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Scale the Squeak display so that it appears to have the same resolution as an OLPC display.  If you resize the Squeak window to approximate the physical dimensions of the real OLPC display, this will result in an appearance that closely resembles the appearance on an OLPC screen."
+msgstr ""
+"Squeak-ի էկրանը կարգավորել այնպես, որ այն ունենա նույն հստակությունն, ինչ "
+"OLPC էկրանը: Եթե փոխեք Squeak –ի էկրանի ֆիզիկական չափսերն`այն OLPC իրական "
+"էկրանի չափսերին մոտեցնելու համար, արդյունքում կունենա OLPC –ի էկրանին շատ "
+"նման էկրան:"
+
+# Использовать изначальное разрешение экрана
+#: Sugar,SugarNavigatorBar>>balloonTextForMode:
+msgid "Use the normal Squeak display, without applying any special scaling."
+msgstr "Օգտագործել Squeak էկրանն առանց հատուկ սանդղակային փոփոխությունների:"
+
+#: Sugar,SugarNavigatorBar>>buildAndOpenHelpFlap,SugarNavigatorBar>>toggleHelp
+msgid "Help"
+msgstr "Օգնություն"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "FIND"
+msgstr "Գտնել"
+
+#: Sugar,SugarNavigatorBar>>buttonChoose
+msgid "Find an entry in the Journal.  Hold mouse button down for further options."
+msgstr ""
+"մատյանում գտնել մուտքագրում: Մկնիկը պահել սեղմած` հնարավոր ընտրությունների "
+"ցանկը բացելու համար:"
+
+#: Sugar,SugarNavigatorBar>>buttonHideNavBar
+msgid "hide the tool bar"
+msgstr "թաքցնել գործիքների ցուցաշերտը"
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "Keep a copy of the current project in the Journal. Hold mouse button down for further options."
+msgstr ""
+"Ընթացիկ նախագծի կրկնօրինակը պահել Մատյանում: Մկնիկը պահել սեղմած հետագա "
+"գործողությունների համար"
+
+#: Sugar,SugarNavigatorBar>>buttonKeep
+msgid "PUBLISH IT!"
+msgstr "Հրատարակել"
+
+#: Sugar,SugarNavigatorBar>>buttonLanguage
+msgid "Click here to choose your language."
+msgstr "ՍԵղմել այստեղ լեզուն ընտրելու համար:"
+
+#: Sugar,SugarNavigatorBar>>buttonPaint
+msgid "Make a painting"
+msgstr "ստեղծել նկար"
+
+#: Sugar,SugarNavigatorBar>>buttonShare
+msgid "Enable sharing. When another user joins, you can exchange objects."
+msgstr ""
+"Կիսեք ձեր Еtoys -ի նախագիծն ուրիշների հետ: Դա ձեզ թույլ կտա կերպարներ "
+"փոխանակել:"
+
+#: Sugar,SugarNavigatorBar>>buttonShowNavBar
+msgid "show the tool bar"
+msgstr "Ցուցադրել գործիքների ցուցաշերտը"
+
+#: Sugar,SugarNavigatorBar>>buttonStop
+msgid "Quit Etoys (with saving)"
+msgstr "Հեռանալ Etoys ծրագրից (պահպանել փոփոխությունները)"
+
+#: Sugar,SugarNavigatorBar>>buttonUndo
+msgid "Undo the last change"
+msgstr "Չեղարկել վերջին փոփոխությունը"
+
+#: Sugar,SugarNavigatorBar>>buttonZoom
+msgid "Click here to toggle using the full screen."
+msgstr "Սեղմել այստեղ փոխելու համար ամբողջական էկրանի կիրառման:"
+
+#: Sugar,SugarNavigatorBar>>chooseScreenSetting
+msgid "display mode"
+msgstr "էկրանի ռեժիմը"
+
+#: Sugar,SugarNavigatorBar>>makeBadgeLabelIn:
+msgid "Make a Badge"
+msgstr "Ստեղծել կրծքանշան"
+
+#: Sugar,SugarNavigatorBar>>makeMyNeighborhoodLabelIn:
+msgid "My Neighborhood"
+msgstr "Իմ հարևանությունը"
+
+#: Sugar,SugarNavigatorBar>>makePrivateLabelIn:
+msgid "Private"
+msgstr "Անձնական"
+
+#: Sugar,SugarNavigatorBar>>paintButtonInitialExplanation
+msgid ""
+"To start,\n"
+"click here\n"
+"to create\n"
+"a new\n"
+"painting."
+msgstr ""
+"Սկսելու համար\n"
+"Քլիք անել այստեղ`\n"
+"ստեղծել\n"
+"մի նոր\n"
+"նկար"
+
+#: Sugar,SugarNavigatorBar>>projectNameFieldBalloonHelp
+msgid ""
+"This is the name of current project.\n"
+"You can edit it as well."
+msgstr ""
+"Սա ընթացիկ նախագծի անունն է\n"
+"Նաև կարող ես խմբագրել այն"
+
+#: Sugar,SugarNavigatorBar>>setEdge:,SugarNavigatorBar>>setupSuppliesFlap,SugarNavigatorBar>>toggleSupplies,SugarNavigatorBar_class>>refreshButRetainOldContents,SugarNavigatorBar_class>>refreshButRetainOldContents
+msgid "Supplies"
+msgstr "Գործիքներ"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Centered Virtual Extent"
+msgstr "Կենտրոնացնել վիրտուալ էկրանը"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "No Scaling"
+msgstr "Սանդղակային փոփոխություն չկատարել"
+
+#: Sugar,SugarNavigatorBar>>stringForDisplayModeIs:
+msgid "Scaled Virtual Extent"
+msgstr "Վիրտուալ էկրանն ընդարձակել"
+
+#: Sugar,SugarNavigatorBar>>stringForFullScreenToggle
+msgid "Full Screen"
+msgstr "Ամբողջական էկրան"
+
+# Для создания нового объекта откройте\n
+# этот каталог Инструментов.
+#: Sugar,SugarNavigatorBar>>suppliesButtonInitialExplanation
+msgid ""
+"Or, click to see Supplies.  \n"
+"Choose an object or \n"
+"choose the Object Catalog for more choices."
+msgstr ""
+"\"Քլիք\" անել` Գործիքներ տեսնելու համար \n"
+"Ընտրել որևէ օբյեկտ \n"
+"Ընտրել օբյեկտների ցանկն` ավելի լայն ընտրության համար:"
+
+# QuickGuides - ակնթարթային ուղեցույց
+#: Sugar,SugarNavigatorBar>>toggleHelp
+msgid "There are no QuickGuides installed"
+msgstr "QuickGuides - տեղադրված չէ"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "color..."
+msgstr "գույն..."
+
+# "էջանշան" պայմանական բառ է: Կիրառվում են նաև "փեղկ" և "թարթիչ" բառերը:
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "destroy this flap"
+msgstr "Հեռացնել այս էջանշանը"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "height..."
+msgstr "Բարձրությունը..."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "highlight color..."
+msgstr "Ընդգծված գույնը...."
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default gray look"
+msgstr "Օգտագործել ստանդարտ մոխրագույնը"
+
+#: Sugar,SugarNavTab>>addCustomMenuItems:hand:
+msgid "use default green look"
+msgstr "Օգտագործել ստանդարտ կանաչ գույնը"
+
+# "փեղկը" - պայմանական բառ է: Գործածվում է նաև"թարթիչ", "էջանծան", "գզրոց" և այլն:
+#: Sugar,SugarNavTab>>wording
+msgid "Sugar Navigation Flap"
+msgstr "Sugar ծրագրի Նավարկչի \"փեղկը\""

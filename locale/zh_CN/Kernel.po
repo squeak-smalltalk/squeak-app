@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-06-25 06:29+0200\n"
+"Last-Translator: Xin <dram.wang@gmail.com>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Kernel\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "April"
+msgstr "四月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "August"
+msgstr "八月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "December"
+msgstr "十二月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "February"
+msgstr "二月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "Friday"
+msgstr "星期五"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "January"
+msgstr "一月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "July"
+msgstr "七月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "June"
+msgstr "六月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "March"
+msgstr "三月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "May"
+msgstr "五月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "Monday"
+msgstr "星期一"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "November"
+msgstr "十一月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "October"
+msgstr "十月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "Saturday"
+msgstr "星期六"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "September"
+msgstr "九月"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "Sunday"
+msgstr "星期日"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "Thursday"
+msgstr "星期四"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "Tuesday"
+msgstr "星期二"
+
+#: Kernel-Chronology,ChronologyConstants_class>>initialize
+msgid "Wednesday"
+msgstr "星期三"
+
+#: Kernel-Classes,ClassDescription>>printMethodChunk:withPreamble:on:moveSource:toFile:
+msgid "** ERROR!  THIS SCRIPT IS MISSING ** "
+msgstr "**错误!找不到该脚本** "
+
+#: Kernel-Models,StringHolder_class>>windowColorSpecification
+msgid "A place for text in a window."
+msgstr "一个窗口中输入文本的地方"
+
+#: Kernel-Models,StringHolder_class>>windowColorSpecification
+msgid "Workspace"
+msgstr "工作区"
+
+#: Kernel-Numbers,Float>>safeLn
+msgid "Ln of a nonpositive number, "
+msgstr "非正数的自然对数 "
+
+#: Kernel-Numbers,Float>>safeLn
+msgid "Ln of negative number, "
+msgstr "负数的自然对数 "
+
+#: Kernel-Numbers,Float>>safeLog
+msgid "log of a nonpositive number, "
+msgstr "非正数的对数 "
+
+#: Kernel-Numbers,Float>>safeLog
+msgid "logarithm does not exist"
+msgstr "对数不存在"
+
+#: Kernel-Numbers,Float>>safeSquareRoot
+msgid "square root of negative number"
+msgstr "负数的平方根"
+
+#: Kernel-Numbers,Float>>truncated
+msgid "Cannot truncate this number"
+msgstr "该数无法截短"
+
+#: Kernel-Numbers,Float>>/
+msgid "division by zero"
+msgstr "除数为零"
+
+#: Kernel-Numbers,Integer>>safeFactorial
+msgid "Factorial not defined for negative numbers"
+msgstr "负数的阶乘无定义"
+
+#: Kernel-Numbers,Number_class>>readEToyNumberFrom:
+msgid ""
+" is not a number;\n"
+"please correct and try again"
+msgstr ""
+" 不是数字;\n"
+"请更正后重试"
+
+#: Kernel-Objects,Object_class>>windowColorSpecification
+msgid "Default"
+msgstr "缺省"
+
+#: Kernel-Objects,Object_class>>windowColorSpecification
+msgid "Other windows without color preferences."
+msgstr "其他无颜色选择的窗口"
+
+#: Kernel-Objects,Object>>addModelYellowButtonMenuItemsTo:forMorph:hand:
+msgid "inspect model"
+msgstr "检验环境"
+
+#: Kernel-Objects,Object>>deprecatedExplanation:,Object>>deprecated:explanation:
+msgid "{1} has been deprecated. {2}"
+msgstr "反对{1}. {2}"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "MaybePutAnotherCategoryHere"
+msgstr "可能将另一类别置于此"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "Put the balloon help here"
+msgstr "将帮助气球置于此"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "PutACategoryHere"
+msgstr "将一个类别置于此"
+
+#: Kernel-Objects,Object>>descriptionForPartsBin
+msgid "PutFormalNameHere"
+msgstr "将正式名字置于此"
+
+#: Kernel-Objects,Object>>errorNotIndexable
+msgid "Instances of {1} are not indexable"
+msgstr "实例{1}不可索引"
+
+#: Kernel-Objects,Object>>saveOnFile
+msgid "File name?"
+msgstr "文件名？"
+
+#: Kernel-Objects,UndefinedObject>>descriptionForPartsBin
+msgid "ClipboardText"
+msgstr "剪贴板文本"
+
+#: Kernel-Objects,UndefinedObject>>descriptionForPartsBin
+msgid "This object will always show whatever is on the text clipboard, in a scrollable pane."
+msgstr "此对象将始终把文本剪贴板上的内容显示在一个可滚动面板里"

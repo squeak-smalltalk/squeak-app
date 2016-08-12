@@ -1,0 +1,138 @@
+# K. K. Subramaniam <kksubbu.ml@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-08-29 19:58-0000\n"
+"PO-Revision-Date: 2010-10-24 23:18+0200\n"
+"Last-Translator: subbu <kksubbu.ml@gmail.com>\n"
+"Language-Team: American English <localization@laptop.org>\n"
+"Language: kn\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
+"X-Etoys-Domain: Network\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2384 (repo v1303 of "
+"29 August 2010)\n"
+
+#: Network-Kernel,InternetConfiguration_class>>initialize
+msgid "If true, set http proxy automatically on startUp. Only works on MacOS X for now"
+msgstr ""
+"ನಿಜವಾದರೆ, ‌HTTP ಪ್ರತಿನಿಧಿಅನ್ನು ಆರಂಭದಲ್ಲಿ ಸ್ವಯಮಾಗಿ ಅರಿಸಲಿ. ‌MacOS X‌ ನಲ್ಲಿ "
+"ಮಾತ್ರ ಈಗ ಸಕ್ರಿಯವಾಗೆದೆ"
+
+#: Network-Kernel,NetNameResolver_class>>promptUserForHostAddressDefault:
+msgid "Host name or address?"
+msgstr "ಯಜಮಾನಕನ ಹೆಸರು ಅಥವ ವಿಲಾಸ?"
+
+#: Network-Protocols,HTTPSocket_class>>httpShowPage:
+msgid "Document could not be fetched"
+msgstr "ಕಡತವನ್ನು ತರಿಸಕ್ಕೆ ಆಗಲಿಲ್ಲ"
+
+#: Network-Protocols,HTTPSocket_class>>retry:asking:ifGiveUp:
+msgid "Retry\\Give Up"
+msgstr "ಪುನಹ ಪ್ರಯತಿನ್ಸು\\ಬಿಟ್ಟುಬಿಡು"
+
+#: Network-RemoteDirectory,PRServerDirectory>>createDirectory:,PRServerDirectory>>deleteFileNamed:,PRServerDirectory>>rename:toBe:
+msgid "operation not supported"
+msgstr "ಕಾರ್ಯ ನಿರೂಪಿಸಲಿಲ್ಲ"
+
+#: Network-RemoteDirectory,PRServerDirectory>>queryProjectsAndShow:,PRServerDirectory>>writeProject:inFileNamed:fromDirectory:
+msgid "Server responded: {1}"
+msgstr "ಸೇವಕದಿಂದ ಉತ್ತರ: {1}"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid "Enter a new file name"
+msgstr "ಹೊಸ ಕಡತದ ಹೆಸರು"
+
+#: Network-RemoteDirectory,ServerDirectory>>newFileNamed:
+msgid ""
+"overwrite that file\n"
+"choose another name\n"
+"cancel"
+msgstr ""
+"ಆ ಕಡತವನ್ನು ರದ್ದು ಮಾಡು\n"
+"ಬೇರೆ ಹೆಸರು ಆರಿಸು\n"
+"ರದ್ದು ಮಾಡು"
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "Upload for {1} did not succeed ({2})."
+msgstr "{1} ದಾಖಲೆ ನಿಶ್ಫಲವಾಯಿತು ({2})."
+
+#: Network-RemoteDirectory,ServerDirectory>>upLoadProject:members:retry:
+msgid "(uploading {1}...)"
+msgstr "(ದಾಖಲಿಸುತ್ತಾ {1}...)"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>showQueryAsPVM:
+msgid "No projects found for your criteria"
+msgstr "ನಿರ್ಧೇಷಿಸಿದಂತೆ ಯಾವ ಪರಿಯೊಜನೆಯು ಕಾಣಲಿಲ್ಲ"
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "Server responded "
+msgstr "ಸೇವಕ ಉತ್ತರಿಸಿತು "
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "(uploading "
+msgstr "(ದಾಖಲಿಸುತ್ತಾ "
+
+#: Network-RemoteDirectory,SuperSwikiServer>>upLoadProject:members:retry:
+msgid "...)"
+msgstr "...)"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "An editor for the http proxy settings"
+msgstr "‌http ಪ್ರತಿನಿಧಿ ಹೊಂದುವಿಕೆಯ ಸಂಕಲಿಕ"
+
+#: Network-UI,HTTPProxyEditor_class>>registerInOpenMenu
+msgid "http proxy editor"
+msgstr "‌http ಪ್ರತಿನಿಧಿ ಸಂಕಲಿಕ"
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Proxy Server Named: '{1}' port: {2}."
+msgstr "ಪ್ರತಿನಿಧಿ ಸೇವಕ ಹೆಸರು : '{1}' ಕಿಂಡಿ: {2}."
+
+#: Network-UI,HTTPProxyEditor>>applyChanges
+msgid "Stop using Proxy Server."
+msgstr "ಪ್ರತಿನಿಧಿಸೇವಕ ಬಳಕೆಯನ್ನು ನಿಲ್ಲಿಸು."
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept"
+msgstr "ಒಪ್ಪಿಗೆ"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Accept the proxy settings"
+msgstr "ಪ್ರತಿನಿಧಿಯ ಹೊಂದುವಿಕೆಯನ್ನು ಒಪ್ಪಿಕೊ"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel"
+msgstr "ರದ್ದು"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Cancel the proxy settings"
+msgstr "ಪ್ರತಿನಿಧಿಯ ಹೊಂದುವಿಕೆಯನ್ನು ರದ್ದು ಮಾಡು"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Port:"
+msgstr "ಕಿಂಡಿ:"
+
+#: Network-UI,HTTPProxyEditor>>initializeWidgets
+msgid "Server Name:"
+msgstr "ಸೇವಕ ಹೆಸರು:"
+
+#: Network-UI,HTTPProxyEditor>>initialize
+msgid "HTTP Proxy Editor"
+msgstr "‌HTTP ಪ್ರತಿನಿಧಿ ಸಂಕಲಿಕ"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this attachment"
+msgstr "ಪೂರಕ್ವನ್ನು ತೋರಿಸು"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "view this image attachment"
+msgstr "ಚಿತ್ರಪೂರಕ್ವನ್ನು ತೋರಿಸು"
+
+#: Network-Url,TextMessageLink>>actOnClickFor:
+msgid "\\save this attachment"
+msgstr "\\ಈ ಪೂರಕವನ್ನು ಉಳಿಸು"

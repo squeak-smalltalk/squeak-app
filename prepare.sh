@@ -62,6 +62,39 @@ echo "...downloading and extracting Windows VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}.zip" "${VM_BASE}/${VM_WIN}.zip"
 unzip -q "${TMP_DIR}/${VM_WIN}.zip" -d "${TMP_DIR}/${VM_WIN}"
 
+function upload() {
+    echo "...uploading to files.squeak.org..."
+    # curl -T "${TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
+    curl -T "${TARGET_ZIP}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
+}
+
+function compress() {
+    echo "...compressing the bundle..."
+    pushd "${BUILD_DIR}" > /dev/null
+    # tar czf "${TARGET_TARGZ}" "./"
+    zip -q -r "${TARGET_ZIP}" "./"
+    popd > /dev/null
+}
+
+function copy_resources() {
+    echo "...copying image files into bundle..."
+    cp "${TMP_DIR}/Squeak.image" "${1}/${IMAGE_NAME}.image"
+    cp "${TMP_DIR}/Squeak.changes" "${1}/${IMAGE_NAME}.changes"
+    cp "${TMP_DIR}/"*.sources "${1}/"
+    cp -R "${TMP_DIR}/locale" "${1}/"
+    cp -R "${RELEASE_NOTES_DIR}" "${1}/"
+    if [ "${ETOYS}" == "Squeakland" ]; then
+	cp "${TMP_DIR}/*.pr" "${1}/"
+	cp -R "${TMP_DIR}/ExampleEtoys" "${1}/"
+    fi
+}
+
+function clean() {
+    echo "...done."
+    # Reset $BUILD_DIR
+    rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
+}
+
 # ARMv6 currently only supported on 32-bit
 if [[ "${TRAVIS_SMALLTALK_VERSION}" != *"-64" ]]; then
   echo "...downloading and extracting ARMv6 VM..."

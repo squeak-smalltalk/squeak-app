@@ -1,6 +1,6 @@
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
-TranscriptStream redirectToStdOut: false.
+TranscriptStream redirectToStdOut: true.
 
 "Avoid showing system progress bar and using graphical tools."
 Project current instVarNamed: #uiManager put: DummyUIManager new.
@@ -38,6 +38,12 @@ config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
+(Smalltalk argumentAt: 1) = 'Squeakland'
+	ifTrue: [
+		MCMcmUpdater defaultUpdateURL: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/etoys-spur'.
+		MCMcmUpdater updateFromServer.
+		Transcript show: 'finished with etoys.'; cr; showln: SystemVersion current printString].
+
 ] on: ProgressNotification do: [:p | p resume]
 ] on: Warning do: [:warning | warning resume]
 ] on: MCNoChangesException do: [:ex | ex resume]
@@ -48,15 +54,6 @@ Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
 monitor terminate.
 monitor := nil.
-
-"Write out version information for deployment."
-FileStream fileNamed: 'version.sh' do: [:strm |
-	strm
-		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
-		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); lf;
-		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); lf;
-		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
-		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
 
 "Configure image state"
 Transcript showln: 'Condensing changes...'.
@@ -71,4 +68,22 @@ Utilities setAuthorInitials: ''.
 
 "Finish."
 ReleaseBuilder prepareEnvironment.
+
+(Smalltalk argumentAt: 1) = 'Squeakland'
+	ifTrue: [
+		Smalltalk zapAllOtherProjects.
+		ProjectHistory currentHistory initialize.
+		Smalltalk garbageCollect.
+		Project rebuildAllProjects.
+		ReleaseBuilderSqueakland new prepareReleaseImage].
+
+"Write out version information for deployment."
+FileStream fileNamed: 'version.sh' do: [:strm |
+	strm
+		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
+		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); lf;
+		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); lf;
+		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
+		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
+
 Smalltalk snapshot: true andQuit: true.

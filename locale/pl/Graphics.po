@@ -1,0 +1,141 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-25 00:55-0000\n"
+"PO-Revision-Date: 2012-01-10 20:48+0200\n"
+"Last-Translator: lkjlkj <agniechka@o2.pl>\n"
+"Language-Team: \n"
+"Language: pl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Pootle 2.0.5\n"
+"X-Etoys-Domain: Graphics\n"
+"X-Etoys-SystemVersion: etoys5.0 of 25 June 2012 update 2407\n"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageAsBackground
+msgid "background"
+msgstr "tło"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageAsBackground
+msgid "use graphic as background"
+msgstr "użyj obrazka jako tła"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageAsBackground
+msgid "use the graphic as the background for the desktop"
+msgstr "użyj obrazka jako tła pulpitu"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
+msgid "import all images from here and subdirectories"
+msgstr "zaimportuj wszystkie obrazy stąd i z podkatalogów"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
+msgid "import subdirs"
+msgstr "zaimportuj podkatalogi"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
+msgid "Load all graphics found in this directory and its subdirectories, adding them to the ImageImports repository."
+msgstr ""
+"Załaduj wszystkie grafiki znalezione w tym katalogu oraz jego podkatalogach, "
+"dodając je do zbioru Obrazy Zaimportowane."
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectory
+msgid "import all images from this directory"
+msgstr "zaimportuj wszystkie obrazy z tego katalogu"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectory
+msgid "import dir"
+msgstr "zaimportuj katalog"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectory
+msgid "Load all graphics found in this directory, adding them to the ImageImports repository."
+msgstr ""
+"Załaduj wszystkie grafiki znalezione w tym katalogu, dodając je do zbioru "
+"Obrazy Zaimportowane."
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImports
+msgid "import"
+msgstr "zaimportuj"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImports
+msgid "Load a graphic, placing it in the ImageImports repository."
+msgstr "Załaduj grafikę, umieszczając ją w zbiorze Obrazy Zaimportowane."
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImports
+msgid "read graphic into ImageImports"
+msgstr "odczytaj grafiki w zbiorze Obrazy Zaimportowane"
+
+#: Graphics-Display_Objects,Form_class>>serviceOpenImageInWindow
+msgid "open"
+msgstr "otwórz"
+
+#: Graphics-Display_Objects,Form_class>>serviceOpenImageInWindow
+msgid "open a graphic file in a window"
+msgstr "Otwórz plik graficzny w nowym oknie"
+
+#: Graphics-Display_Objects,Form_class>>serviceOpenImageInWindow
+msgid "open graphic in a window"
+msgstr "otwórz obrazek w nowym oknie"
+
+#: Graphics-Display_Objects,Form>>setAsBackground
+msgid "set background to a picture"
+msgstr "przekształć tło w obraz"
+
+#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
+msgid "Bold"
+msgstr "Pogrubienie"
+
+#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
+msgid "Italic"
+msgstr "Kursywa"
+
+#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
+msgid "Narrow"
+msgstr "Wąska"
+
+#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
+msgid "Normal"
+msgstr "Normalny"
+
+#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
+msgid "StruckOut"
+msgstr "Przekreślony"
+
+#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
+msgid "Underlined"
+msgstr "Podkreślony"
+
+#: Graphics-Fonts,HostFont_class>>fontNameFromUser,StrikeFont_class>>hostFontFromUser
+msgid "Choose your font"
+msgstr "Wybierz Twoją czcionkę"
+
+#: Graphics-Fonts,StrikeFont_class>>fromUser:allowKeyboard:
+msgid "external font"
+msgstr "czcionka zewnętrzna"
+
+#: Graphics-Fonts,StrikeFont_class>>fromUser:allowKeyboard:,TextStyle_class>>addNewStyle:
+msgid "new size"
+msgstr "nowy rozmiar"
+
+#: Graphics-Primitives,Color>>addFillStyleMenuItems:hand:from:
+msgid "change color..."
+msgstr "zmień kolor..."
+
+#: Graphics-Text,TextStyle_class>>addNewStyle:
+msgid "new font name"
+msgstr "nowa nazwa czcionki"
+
+#: Graphics-Text,TextStyle_class>>emphasisMenuForFont:target:selector:highlight:
+msgid "emphasis"
+msgstr "wyróżnienie"
+
+#: Graphics-Text,TextStyle_class>>fontSizeSummary
+msgid "Font styles and sizes"
+msgstr "Style i rozmiary czcionek"
+
+#: Graphics-Text,TextStyle>>addNewFontSizeDialog:
+msgid "Enter the point size"
+msgstr "Wprowadź rozmiar punktu"

@@ -1,0 +1,873 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2010-08-27 16:03-0000\n"
+"PO-Revision-Date: 2010-09-15 23:29+0200\n"
+"Last-Translator: Chris <cjl@laptop.org>\n"
+"Language-Team: \n"
+"Language: ta\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Pootle 2.0.3\n"
+"X-Etoys-SystemVersion: etoys4.1 of 29 April 2010 update 2383 (repo v1295 of "
+"25 August 2010)\n"
+"X-Etoys-Domain: Sound\n"
+
+#: MorphicExtras-Navigators,ProjectNavigationMorph>>buttonSound
+msgid "Change sound volume"
+msgstr "ஒலி சத்தத்தை மாற்று"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "open wave editor"
+msgstr "அலையைத் திற திருத்த"
+
+#: MorphicExtras-Widgets,GraphMorph>>addCustomMenuItems:hand:
+msgid "read file"
+msgstr "கோவையை வாசி"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "File name?"
+msgstr "கோவைப் பெயா்?"
+
+#: MorphicExtras-Widgets,GraphMorph>>readDataFromFile,WsGraphMorph>>readDataFromFile
+msgid "Sorry, I cannot find that file"
+msgstr "மன்னிக்கவும், என்னால் கோவையைக் கண்டுபிடி முடியாது"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,ScorePlayerMorph>>makeControls,SoundLibraryTool>>addButtonRow
+msgid "Play"
+msgstr "விளையாட்டு"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows
+msgid "Save"
+msgstr "சேமி"
+
+#: Sound-Interface,AnonymousSoundMorph>>addButtonRow,RecordingControls>>addButtonRows,SoundLibraryTool>>addButtonRow,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Stop"
+msgstr "நிறுத்து"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:
+msgid "open a wave-editor tool with this sound as its iniital sound"
+msgstr "இந்த சத்தத்துடன் ஒலியலை திருத்தி கருவியை ஆரம்பிக்கும்"
+
+#: Sound-Interface,AnonymousSoundMorph>>addCustomMenuItems:hand:,RecordingControls>>addMenuButtonItemsTo:
+msgid "wave editor"
+msgstr "அலை திருத்தம்"
+
+#: Sound-Interface,AnonymousSoundMorph>>addToSoundLibrary
+msgid "kindly give the sound a name: "
+msgstr "தயவு செய்து ஒரு ஒலியின் பெயரைத் தருக:"
+
+#: Sound-Interface,AnonymousSoundMorph>>initialize
+msgid "Unnamed"
+msgstr "பெயரிடப்படாத"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid ""
+" seconds.\n"
+"Double-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
+msgstr ""
+" சத்தங்கள்\n"
+"சத்தத்தைக்கேட்க இரு முறை சொடுக்கவும் கலோ கட்டளையில் ஒலிச்சேமிப்பில் சேர்க்க "
+"எனும் பகுதி காணப்படுகின்றது. இது பியானோ அமைப்பினுள் அல்லது நிகழ்வு "
+"அமைப்பினுள் துக்கிப்போட இசைவானது"
+
+#: Sound-Interface,AnonymousSoundMorph>>soundMorphHelpString
+msgid "Holds a recorded sound of duration "
+msgstr "பதிவு செய்யப்பட்ட ஒலியின் கால அளவை வைத்திருக்கும்"
+
+#: Sound-Interface,CodecDemoMorph>>addCustomMenuItems:hand:
+msgid "select codec"
+msgstr "codec ஐ தெரிவுசெய்"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "new MIDI controller"
+msgstr "புதிய MIDI தணிக்கையாளா்"
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via built in synth"
+msgstr "எழுப்பப்பட்ட synth இன் வழியாக இயக்கு "
+
+#: Sound-Interface,MIDIPianoKeyboardMorph>>addCustomMenuItems:hand:,ScorePlayerMorph>>invokeMenu
+msgid "play via MIDI"
+msgstr "MIDI வழியாக இயக்கு "
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "A device for making sound recordings."
+msgstr "ஒலி பதிவு செய்தலை உருவாக்குவதற்கான ஒரு கருவி"
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin,ScorePlayerMorph_class>>descriptionForPartsBin,SoundLibraryTool_class>>descriptionForPartsBin,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Multimedia"
+msgstr "பல்லூடகம்."
+
+#: Sound-Interface,RecordingControls_class>>descriptionForPartsBin
+msgid "SoundRecorder"
+msgstr "ஒலிபதிவுக் கருவி "
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Play the current recording from its beginning"
+msgstr "தற்போது பதிந்துகொண்டிருப்பதில் இருந்து இயங்க ஆரம்பி"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Record"
+msgstr "பதிவு செய்தல்"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Save the current recording for future use."
+msgstr "எதிர்கால உபயோகத்திற்கு தற்போது பதிந்துகொண்டிருப்பதை சேமி"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Start a new recording"
+msgstr "புதிய பதிவு செய்தலை ஆரம்பி"
+
+#: Sound-Interface,RecordingControls>>addButtonRows
+msgid "Stop current recording or playback"
+msgstr "புதிய பதிவு செய்தலை அல்லது பின்னியக்கத்தை நிறுத்து"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose compression..."
+msgstr "ஒப்பீட்டை தெரிவுசெய்"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "choose which data-compression scheme should be used to encode the recording."
+msgstr "இப்பதிவை வெளிக்கொணர எந்த தரவுச் சுருக்கம் பொறுத்தமானது எனத்தெரிவு செய்க"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hand me a sound token"
+msgstr "ஒரு ஒலி அடையாளத்தை எனக்கு வழங்கு"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "hands you a lozenge representing the current sound,  which you can drop into a piano-roll or an event-roll, or later add to the sound library.  Double-click on it to hear the sound"
+msgstr "தற்போதய சத்தத்தை பிரதிநிதித்துவப்படுத்தி கையாள வைக்கும்.அவற்றை பியானோ வடிவம் அல்லது நிகழ்வு வடிவம் அல்லது பின்பு ஒலி நூலகத்தில் சோ்க்க பன்படும். சத்தத்தினை கேட்க அதன் மேல் இரு முறை சொடுக்கவும்"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "help"
+msgstr "உதவி"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "open up the wave-editor tool to visualize and to edit the sound recorded"
+msgstr "ஒலிப்பதிவை திருத்துவதை காட்டும் கருவியை திற "
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "opens a flap which contains instructions"
+msgstr "அறிவுறுத்தல்கள் கொண்டுள்ளதை திற "
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "remove any blanks space at the beginning and/or end of the recording.  Caution -- this feature seems to be broken, at least on some platforms, so use at your own risk.  For safety, save this sound in its untrimmed form before venturing to trim."
+msgstr "பதிவின் தொடக்கத்திலும் முடிவிலும் உள்ள வெற்றிடத்ததை நீக்கு. _ எச்சரிக்கை -- இந்த வசதி குறைந்தது சில இயங்கு தளங்களில்  உடைந்ததாக காணப்படுகின்றது. உங்களுடைய தனிச் சிரமத்தில் உபயோகிக்கவும் ._ வெட்டும் பாதுகாப்புக்காக வெட்டி நீக்கும் இத்துணிகர செயலை செய்ய முன் சேமித்து கொளள "
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "Sound Recorder Options"
+msgstr "ஒலிபதிவுக்கருவி தேர்வுகள்"
+
+#: Sound-Interface,RecordingControls>>addMenuButtonItemsTo:
+msgid "trim"
+msgstr "ஒழுங்கு"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "Drag to set the record level"
+msgstr "பதிவுசெய்த அளவில் தொகுப்பதற்கு இழுத்துச்செல்லல்"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "maximum record-level"
+msgstr "அதிகூடிய பதிவுசெய்யும் அளவு"
+
+#: Sound-Interface,RecordingControls>>addRecordLevelSliderIn:
+msgid "minimum record-level"
+msgstr "அதிகுறைந்த பதிவுசெய்யும் அளவு"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Compression method\\Currently: {1}"
+msgstr "இறுக்குதல் முறை\\தற்போதைய:{1}"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "GSM (simple compression)"
+msgstr "GSM (சாதரண இறுக்குதல்)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "No compression"
+msgstr "இறுக்குதல் இல்லை"
+
+#: Sound-Interface,RecordingControls>>chooseCodec,RecordingControls>>chooseCodec
+msgid "None"
+msgstr "ஒன்றுமில்லை"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Speex (for speech)"
+msgstr "Speex (பேசுவதற்கு)"
+
+#: Sound-Interface,RecordingControls>>chooseCodec
+msgid "Vorbis (for music)"
+msgstr "Vorbis (இசைக்கு)"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "no sound recorded yet"
+msgstr "இதுவரை ஒலி பதிவு செய்யப்படவில்லை"
+
+#: Sound-Interface,RecordingControls>>durationString
+msgid "Recorded sound duration: {1} second(s)"
+msgstr "ஒலிபதிவு செய்தல் கால அளவு:{1} வினாடிகள்(s)"
+
+#: Sound-Interface,RecordingControls>>helpString
+msgid ""
+"\n"
+"Press \"Record\" to start recording.  Press Stop when finished recording.\n"
+"\n"
+"After making a recording, you can:\n"
+"   Press \"Play\" to play back the recording.\n"
+"   Press \"Record\" to start a new recording\n"
+"      (the old one would be discarded).\n"
+"   Press \"Save\" to save the recording in the sound library.\n"
+"\n"
+"Press the menu icon to get a menu with further options.\n"
+"\n"
+"If you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n"
+"\n"
+"If you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n"
+"  You can double-click on the sound token to hear the sound again.\n"
+"  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n"
+"  You can drop the sound token into a PianoRoll or an EventRoll.\n"
+msgstr ""
+"\n"
+"பதிவினை ஆரம்பிக்க \"பதிவு\" எனும் கட்டளைளய அழுத்தவும். நிறுத்துவதற்கு \"நிறுத்து\" எனும் கட்டளையை அழுத்தவும்\n"
+"\n"
+"ஒலிப்பதிவு செய்தவுடன் \n"
+"\"இயக்கு\" எனும் கட்டளையை அழுத்தி கேட்கமுடியும்\n"
+"புதிய பதிவினை மேற்கொள்ள \"பதிவு\" எனும்கட்டளையை அழுத்தவும் \n"
+"(பழையது அழிக்கப்பட்டு விடும்)\n"
+"ஒலிக்களசியத்தில் சேமிக்க \"சேமி\" எனும் கட்டளையை அழுத்தக்வும்.\n"
+"\n"
+"மேலதிக கட்டளைகளை பெற கட்டளை குறுக்குச் செய்கையை அழுத்துக\n"
+"\n"
+"ஒலியை எழுத்துருவில் பார்க்க ஒலிகளசியத்தில் சேமிக்கவும். அதை செய்ய சேமி எனும் கட்டளையை அழுத்தவும்.நீர் அதற்கு ஒரு பெயரை வழங்க வேண்டும்.\n"
+"\n"
+
+#: Sound-Interface,RecordingControls>>makeStatusLight
+msgid "When red, it means you are currently recording"
+msgstr "சிவந்த இருக்கும் பொழுது,உமதுதற்போதைய கருத்தை பதிவு செய்"
+
+#: Sound-Interface,RecordingControls>>putUpAndOpenHelpFlap,RecordingControls>>putUpHelpFlap,RecordingControls_class>>registerInFlapsRegistry,RecordingControls_class>>registerInFlapsRegistry
+msgid "Sound Recorder"
+msgstr "ஒலி பதிவு செய்யும் கருவி"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit
+msgid "Sound name?"
+msgstr "ஒலியின் பெயர்?"
+
+#: Sound-Interface,RecordingControls>>saveButtonHit,RecordingControls>>saveButtonHit
+msgid "unnamed"
+msgstr "பெயரிடப்படாத"
+
+#: Sound-Interface,RecordingControls>>setButtonEnablement
+msgid "Discard the current recording and start making a fresh recording"
+msgstr "தற்போதைய பதிவு செய்தலில் இருந்து வெளியேறி புதிய பதிவு செய்தலை தயார்படுதி ஆரம்பி"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid " second(s) trimmed"
+msgstr " வினாடிகள்(s) ஒழுங்கு"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid ""
+"Caution:  this is dangerous and destructive!\n"
+"Do you really want to \"trim\" your recording?\n"
+"(It might be smart to save the untrimmed\n"
+"version in a sound token before trimming)"
+msgstr ""
+"கவனம்: இது ஆபத்தானதும் அழிவிற்கு இட்டுச் செல்லக் கூடியதுமாகும்! \n"
+"உண்மையில் உங்கள் பதிவினை நறுக்க விரும்புகிறீரா?\n"
+"(நறுக்காதவற்றை நறுக்குவதற்கு முன் சேமிப்பது சிறந்தது)"
+
+#: Sound-Interface,RecordingControls>>trim
+msgid "unable to trim any more, sorry"
+msgstr "நேர்த்தியாக்க முடியவில்லை வேறு ஏதாவது,மன்னிக்கவும்"
+
+#: Sound-Interface,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "A tool for managing the sound library"
+msgstr "ஒலிக் களஞ்சியத்தை நிர்வகிப்பதற்கான கருவி"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Add a new sound to the sound library from a file"
+msgstr "கோவையிலிருந்து ஒலிக் களஞ்சியத்திற்கு புதிய ஒலி ஒன்றை இணைத்தல்"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete"
+msgstr "அழித்தல்"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Delete the selected sound from the sound library"
+msgstr "ஒலிக் களஞ்சியத்திலிருந்து தெரிவு செய்த ஒலியை நீக்குதல்"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Hands you a tile representing the selected sound"
+msgstr "தெரிவு செய்த ஒலியை உமது கைகளால் மாற்றி அடுக்கு"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "If the selected sound is playing, stop it"
+msgstr "தெரிவு செய்தத ஒலி இயக்கும் போது, அதை நிறுத்து"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Load"
+msgstr "ஏற்று"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Play the selected sound"
+msgstr "தெரிவு செய்த ஒலியை இயக்கு"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename"
+msgstr "மறுபெயர்"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Rename the selected sound"
+msgstr "தெரிவு செய்த ஒலியின் மறுபெயர்"
+
+#: Sound-Interface,SoundLibraryTool>>addButtonRow
+msgid "Tile"
+msgstr "காட்சிவில்லை"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "GSM compress sound"
+msgstr "ஜிஎஸ்எம் குறைத்த ஒலி "
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Speex compress sound"
+msgstr "Ogg ஷ்பீக்ஸ் குறைத்த ஒலி"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Ogg Vorbis compress sound"
+msgstr "Ogg வொர்பிஸ் குறைத்த ஒலி"
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "open a tool which, operating with the selected sound as a point of departure, will allow you to construct a new \"instrument\""
+msgstr "தெரிவு செய்யப்பட்ட ஒலியுடன் தொடர்புரும் கருவியை திறந்து அதன் வெளியேரும் இடம் புதிய கருவியை உரவாக்கும்."
+
+#: Sound-Interface,SoundLibraryTool>>addCustomMenuItems:hand:
+msgid "Wave editor"
+msgstr "அலை திருத்தி "
+
+#: Sound-Interface,SoundLibraryTool>>addHeaderRow,SoundLibraryTool>>presentHelp,SoundLibraryTool_class>>descriptionForPartsBin
+msgid "Sound Library"
+msgstr "ஒலிக் களஞ்சியம்"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:,SoundLibraryTool>>deleteSound,SoundLibraryTool>>renameSound
+msgid "No sound selected"
+msgstr "ஒலித் தெரிவு இல்லை"
+
+#: Sound-Interface,SoundLibraryTool>>compressWith:
+msgid "You can not compress this sound"
+msgstr "நீங்கள் இந்த ஒலியை குறைக்க முடியாது"
+
+#: Sound-Interface,SoundLibraryTool>>deleteSound
+msgid "You can not delete this sound"
+msgstr "உம்மால் இந்த ஒலியை நீக்க முடியாது"
+
+#: Sound-Interface,SoundLibraryTool>>helpString
+msgid ""
+"This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n"
+"\n"
+"Click on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n"
+"\n"
+"Play button -- press this to start playing the selected sound.\n"
+"\n"
+"Stop button -- if the selected sound is playing, pressing this will stop it.\n"
+"\n"
+"Tile button -- Click on this to obtain a scripting tile representing the selected sound.\n"
+"\n"
+"Rename button -- allows you to rename the selected sound.\n"
+"\n"
+"Delete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n"
+"\n"
+"Load button -- allows you to load a sound into the Sound Library from a file.\n"
+"\n"
+"You can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n"
+"\n"
+"Note: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n"
+"\n"
+"Additionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
+msgstr ""
+"இந்த கருவி ஒலிக்களங்சியத்தை பார்வையிடவும் நிருவகிக்கவும் உதவும்.\n"
+"\n"
+"ஒரு சத்தத்தின் மேல் சொடுக்குவதன் மூலம் அதை தெரிவு செய்து கொள்ளலாம்.நீங்கள் தெரிவு செய்த பொத்தான்கள் கருவிகளின் மேல் தோன்றும்\n"
+"\n"
+"\"இயக்கு\" பொத்தான் ஒலிக்கூற்றை இயக்கும்\n"
+"\n"
+"\"நிறுத்து\" பொத்தான்  இயக்கத்தை நிறுத்திவிடும். \n"
+"\n"
+"அடுக்கு பொத்தான்- இது ஒலி கூற்றுக்களை அடுக்கி காட்சிப்படுத்தும்\n"
+"\n"
+"வேறு பெயா் பொத்தான் - இது பொயரை மாற்றியமைக்க உதவும்\n"
+"\n"
+" அழி பொத்தான் -- ​தெரிவு செய்த ஒலிக் கூறுகளைஅழித்து விடும்.\n"
+"\n"
+"மேலேற்று பொத்தான் -- தொரிவு செய்த ஒலிக்கீற்றை கோப்பிலிருந்து ஒலிக்களங்சியத்திற்கி ஏற்றும்\n"
+"\n"
+"சத்தம் சேமிப்பானிலிருந்து ஒலி களங்சியத்தில் சேமிக்க முடியும். அல்லது வெளியில் இருந்து இழுத்து களங்சியத்தில் போடவும் முடியும்( உதாரணம் .wav or .aif ஐ கொண்ட பைல்கள் \n"
+"\n"
+"தொகுதியில் பொதுவான பதியப்பட்டுள்ள ஒலிகள் மாற்றப்பட முடியாதவை ஆகும்' \n"
+"\n"
+"மேலதிகமாக வேவ் சத்தங்களை திருத்தியமைக்க டூல் மெனுவில் டூல் திருத்தி மூலம்  மாற்றியமைக்கலாம்"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "Please give a name for this sound"
+msgstr "தயவு செய்து இந்த ஒலிக்கு ஒரு பெயர் தருக"
+
+#: Sound-Interface,SoundLibraryTool>>loadSoundFromDisk
+msgid "sorry, that name is already taken"
+msgstr "மன்னிக்கவும், இந்தப் பெயர் ஏற்கனவே உள்ளது"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "New name for "
+msgstr "புதிய பெயருக்கு_"
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "sorry, that name is already used."
+msgstr "மன்னிக்கவும், இந்தப் பெயர் ஏற்கனவே பயன்படுத்தப் பட்டுள்ளது "
+
+#: Sound-Interface,SoundLibraryTool>>renameSound
+msgid "You can not rename this sound"
+msgstr "இந்த ஒலிக்கு உம்மால் வேறுபெயர் கொடுக்க முடியாது"
+
+#: Sound-Interface,SoundLibraryTool>>showCompressionString
+msgid "show compression"
+msgstr "குறைப்பதைக் காட்டவும்"
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "A device for analyzing sound input"
+msgstr "ஒலி உள்ளீட்டை ஆராய்வதற்கான சாதனம்"
+
+#: Sound-Interface,SpectrumAnalyzerMorph_class>>descriptionForPartsBin
+msgid "Spectrum Analyzer"
+msgstr "நிறமாலை ஆய்வாளர்"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Start"
+msgstr "ஆரம்பி"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set display type"
+msgstr "காட்சி வகைகளை தயார் செய்"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set FFT size"
+msgstr "FFT அளவை தயார் செய்"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>invokeMenu
+msgid "set sampling rate"
+msgstr "மாதிரி வீதத்தை தயார் செய்"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>makeStatusLight,SpectrumAnalyzerMorph>>makeStatusLightIn:
+msgid "On"
+msgstr "நிகழ் (On)"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "display type (currently {1})"
+msgstr "காட்சி வகை (தற்போதைய{1}) "
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "signal"
+msgstr "சமிஞ்சை"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "sonogram"
+msgstr "sonogram (சிநோகிறம்)"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setDisplayType
+msgid "spectrum"
+msgstr "நிறமாலை"
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setFFTSize
+msgid "FFT size (currently {1})"
+msgstr "FFTஅளவு (தற்போதைய{1}) "
+
+#: Sound-Interface,SpectrumAnalyzerMorph>>setSamplingRate
+msgid "Sampling rate (currently {1})"
+msgstr "மாதிரி வீதம் (தற்போதைய{1}) "
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "          rest          "
+msgstr "மீதமுள்ள"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "chord"
+msgstr "நாண் , இழை"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "del"
+msgstr "அழி"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "dotted"
+msgstr "தொடுபுள்ளி"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "eighth"
+msgstr "எட்டாவது"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "half"
+msgstr "அரை"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "legato"
+msgstr "legato"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "normal"
+msgstr "சாதாரணம்"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quarter"
+msgstr "கால்"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "quints"
+msgstr "quints"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "sixteenth"
+msgstr "பதினாறாவது"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "staccato"
+msgstr "staccato - In musical notation,  "
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "triplets"
+msgstr "triplets- ஒரே தடவையில் மூன்று வருவது"
+
+#: Sound-Scores,KeyboardMorphForInput>>addRecordingControls
+msgid "whole"
+msgstr "எல்லாம்"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "add channel"
+msgstr "இன்னுமொரு வரிசையை சோ்த்தல் "
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "close MIDI port"
+msgstr "MIDI துறையை மூடு"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu,ScorePlayerMorph>>invokeMenu
+msgid "reload instruments"
+msgstr "உபகரணத்தை மீளாயத்தம் செய்"
+
+#: Sound-Scores,MidiInputMorph>>invokeMenu
+msgid "set MIDI port"
+msgstr "MIDI துறையை சரி செய்"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "add movie clip player"
+msgstr "படக்காட்சித் துண்டை சோ் "
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "close drag and drop"
+msgstr "மூடி துாக்கி இழுத்துப் போடு"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "contract time"
+msgstr "ஒதுக்கப்பட்டுள்ள உத்தரவாத நேரம்"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "expand time"
+msgstr "விரிவாக்கு நேரம்"
+
+#: Sound-Scores,PianoRollScoreMorph>>addCustomMenuItems:hand:
+msgid "open drag and drop"
+msgstr "திறந்து துாக்கி இழுத்து வந்து போடு"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "add keyboard"
+msgstr "விசைப்பலகையை அல்லது சாவிப்பலகையை சோ்"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "copy"
+msgstr "பிரதி செய்"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "cut"
+msgstr "வெட்டு"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide beat lines"
+msgstr "கீழ்க் கோடினை மறை"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "hide measure lines"
+msgstr "அளவுக் கோட்டை மறை"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste"
+msgstr "ஒட்டு "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "paste..."
+msgstr "ஒட்டு..."
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show beat lines"
+msgstr "கீழ் அல்லது அடிக் கோடினை தெரிவி அல்லது காட்டு"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "show measure lines"
+msgstr "அளவுக் கோட்டை காட்டு அல்லது தெரிவி"
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "sig     "
+msgstr "sig "
+
+#: Sound-Scores,PianoRollScoreMorph>>invokeScoreMenu:
+msgid "time   "
+msgstr "நேரம்"
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid " Mediates between a score such as a MIDIScore, a PianoRollScoreMorph, and the actual SoundPlayer synthesizer"
+msgstr " score ற்கும் SoundPlayer synthesizer ற்கும் இடையிலான முகவா் MIDIScore, a PianoRollScoreMorph போன்று"
+
+#: Sound-Scores,ScorePlayerMorph_class>>descriptionForPartsBin
+msgid "ScorePlayer"
+msgstr "Score இயக்கி"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open"
+msgstr "திற"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open in midi player"
+msgstr "midi வாசிப்பானில் திற"
+
+#: Sound-Scores,ScorePlayerMorph_class>>servicePlayMidiFile
+msgid "open the midi-player tool on this file"
+msgstr "இக்கோவையில் உள்ள midi வாசிப்பான் கருவியை திற"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "make a pause marker"
+msgstr "இடைநிறுத்த குறியை செய்"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "open a MIDI file"
+msgstr "ஒரு MIDI கோவையைத் திற"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as AIFF file"
+msgstr "AIFF கோவையாக சேமி"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as Sun AU file"
+msgstr "Sun AU  கோவையாக சேமி"
+
+#: Sound-Scores,ScorePlayerMorph>>invokeMenu
+msgid "save as WAV file"
+msgstr "WAV கோவையாக சேமி"
+
+#: Sound-Scores,ScorePlayerMorph>>makeAPauseEvent:
+msgid "[pause]"
+msgstr "இடைநிறுத்து"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Disable sound reverb"
+msgstr "ஒலியதிர்வை இயங்காது செய்"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls,SpectrumAnalyzerMorph>>addButtonRow
+msgid "Menu"
+msgstr "பட்டியல்"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a menu"
+msgstr "பட்டியலை திற "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Open a PianoRoll"
+msgstr "PianoRoll ஐ திற "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause"
+msgstr "இடைநிறுத்து"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Pause playback"
+msgstr "பின்னணி இயக்கத்தை இடைநிறுத்து "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "PianoRoll"
+msgstr "PianoRoll"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Play the score"
+msgstr "score ஐ இயக்கு"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Playback jumps back to start and continue playing"
+msgstr "பின்னணிஇயக்கம் மீண்டும் ஆரம்பத்தில் இருந்து இயங்குதல் "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Repeat"
+msgstr "மீண்டும் செய்"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Reverb Disable"
+msgstr "ஒலியதிர்வை செயலற்றதாக்கு "
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind"
+msgstr "மீழ் திருப்பு"
+
+#: Sound-Scores,ScorePlayerMorph>>makeControls
+msgid "Rewind to score start"
+msgstr "score ஐ தொடங்குவதற்காக பின்செல்லல்"
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "Choose a MIDI file to open"
+msgstr "திறப்பதற்கு MIDI கோப்பு ஒன்றை தொரிவு செய் "
+
+#: Sound-Scores,ScorePlayerMorph>>openMIDIFile
+msgid "No .mid/.midi files found in the Squeak directory"
+msgstr "mid இல்லை / midi கோப்புக்கள் ஒலியிடும் கோப்பகத்தில் காணப்படுகின்றது"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "L"
+msgstr "L - இடம்"
+
+#: Sound-Scores,ScorePlayerMorph>>panAndVolControlsFor:
+msgid "R"
+msgstr "R -வலம்"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid " fast"
+msgstr " விரைவு"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "Playback speed"
+msgstr "இயங்கு வேகம்"
+
+#: Sound-Scores,ScorePlayerMorph>>rateControl
+msgid "slow "
+msgstr "மெதுவாக"
+
+#: Sound-Scores,ScorePlayerMorph>>saveAsAIFF,ScorePlayerMorph>>saveAsSunAudio,ScorePlayerMorph>>saveAsWAV
+msgid "New file name?"
+msgstr "புதிய கோப்பின் பெயா் ?"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid " end"
+msgstr " முடிவு"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "Shows current position in the score"
+msgstr "புள்ளிகளின் தற்போதைய நிலையை காட்டுகிறது"
+
+#: Sound-Scores,ScorePlayerMorph>>scrollControl
+msgid "start "
+msgstr "ஆரம்பி "
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue"
+msgstr "தொடர்ச்சியாக"
+
+#: Sound-Scores,ScorePlayerMorph>>standaloneResumeButton
+msgid "Continue playing a paused presentation"
+msgstr "இடை நிறுத்தப்பட்ட காட்சியளிப்பு  தொடர்ந்து இயங்குதல் "
+
+#: Sound-Scores,ScorePlayerMorph>>trackNumAndMuteButtonFor:
+msgid "Mute"
+msgstr "ஒலியை நிறுத்து"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid " loud"
+msgstr " சத்தம்"
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "soft  "
+msgstr "மென்மையான "
+
+#: Sound-Scores,ScorePlayerMorph>>volumeControl
+msgid "Volume slider"
+msgstr "ஒலியளவை மாற்றியமைக்கும் நிலையாக அல்லது கிடையாக அசையும் பொத்தான்"
+
+#: Sound-Scores,SimpleMIDIPort_class>>inputPortNumFromUser
+msgid "MIDI port for input:"
+msgstr "உள்ளீடட்ற்கான MIDI துறை  "
+
+#: Sound-Scores,SimpleMIDIPort_class>>outputPortNumFromUser
+msgid "MIDI port for output:"
+msgstr "வெளியீட்டிற்கான MIDI துறை "
+
+#: Sound-Synthesis,SampledSound_class>>soundNamed:
+msgid " not found in the Sound Library"
+msgstr " ஒலித்தொகுப்பில் காணப்படவில்லை."
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "camera"
+msgstr "புகைப்படக் கருவி"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chirp"
+msgstr "அதிகரித்து செல்லும் ஒலிச் சமிங்சை"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "chomp"
+msgstr "ஒரு வகை விளையாட்டு"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "click"
+msgstr "சொடுக்கு"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "clink"
+msgstr "கண்ணாடி ஒலி"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "coyote"
+msgstr "ஓனாய் "
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "croak"
+msgstr "தவளை ஒலி"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "horn"
+msgstr "கொம்பு"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "laugh"
+msgstr "சிரி"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "meow"
+msgstr "பூனை கத்தும் ஓசை"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "motor"
+msgstr "முயற்சி"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "peaks"
+msgstr "உச்சிகள்"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scrape"
+msgstr "சுரண்டு"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scratch"
+msgstr "கீறல் "
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "scritch"
+msgstr "சுரண்டுதல் கிறுக்குதல்"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "silence"
+msgstr "அமைதியாக"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "splash"
+msgstr "நீா் தெறிக்கும் ஓசை"
+
+#: Sound-Synthesis,SampledSound_class>>universalSoundKeys
+msgid "warble"
+msgstr "மெல்லிய சிறிய ஓசையமைப்பு"
+
+#: Sound-Synthesis,SoundRecorder>>verifyExistenceOfRecordedSound
+msgid "please record a sound first"
+msgstr "முதலில் தயவுசெய்து ஒா் ஒலியை பதிவு செய்க"
