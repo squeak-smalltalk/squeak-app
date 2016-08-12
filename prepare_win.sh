@@ -10,38 +10,36 @@
 
 echo "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME="${TARGET_NAME}-Windows"
-BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
-VM_DIR="${BUNDLE_DIR}/bin"
-SHARED_DIR="${BUNDLE_DIR}/shared"
 
 TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
 TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 
 echo "...creating directories..."
-mkdir "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
+mkdir "${BUNDLE_DIR}"
 
 echo "...copying Windows VM..."
-cp -R "${TMP_DIR}/${VM_WIN}/" "${VM_DIR}"
+cp -R "${TMP_DIR}/${VM_WIN}/" "${BUNDLE_DIR}"
 
 echo "...copying image files into bundle..."
-cp "${TMP_DIR}/Squeak.image" "${SHARED_DIR}/${IMAGE_NAME}.image"
-cp "${TMP_DIR}/Squeak.changes" "${SHARED_DIR}/${IMAGE_NAME}.changes"
-cp "${TMP_DIR}/"*.sources "${SHARED_DIR}/"
-cp "${RELEASE_NOTES_DIR}" "${SHARED_DIR}/"
+cp "${TMP_DIR}/Squeak.image" "${BUNDLE_DIR}/${IMAGE_NAME}.image"
+cp "${TMP_DIR}/Squeak.changes" "${BUNDLE_DIR}/${IMAGE_NAME}.changes"
+cp "${TMP_DIR}/"*.sources "${BUNDLE_DIR}/"
+cp "${RELEASE_NOTES_DIR}" "${BUNDLE_DIR}/"
 
 echo "...merging template..."
 cp "${WIN_TEMPLATE_DIR}/squeak.bat" "${BUNDLE_DIR}/"
-cp "${WIN_TEMPLATE_DIR}/Squeak.ini" "${VM_DIR}/"
+cp "${WIN_TEMPLATE_DIR}/Squeak.ini" "${BUNDLE_DIR}/"
 
 echo "...setting permissions..."
-chmod +x "${VM_DIR}/Squeak.exe"
+chmod +x "${BUNDLE_DIR}/Squeak.exe"
 
 echo "...applying various patches..."
 # Squeak.ini
-sed -i ".bak" "s/%VERSION%/${BUNDLE_DESCRIPTION}/g" "${VM_DIR}/Squeak.ini"
-sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_DIR}/Squeak.ini"
-rm -f "${VM_DIR}/Squeak.ini.bak"
+sed -i ".bak" "s/%VERSION%/${BUNDLE_DESCRIPTION}/g" "${BUNDLE_DIR}/Squeak.ini"
+rm -f "${BUNDLE_DIR}/Squeak.ini.bak"
+# Remove .map files from $BUNDLE_DIR
+rm -f "${BUNDLE_DIR}/"*.map
 
 echo "...compressing the bundle..."
 pushd "${BUILD_DIR}" > /dev/null
