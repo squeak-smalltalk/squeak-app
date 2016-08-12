@@ -67,7 +67,7 @@ Utilities setAuthorInitials: ''.
 "Finish."
 ReleaseBuilder prepareEnvironment.
 
-(Smalltalk getSystemAttribute: 3) == 'Squeakland'
+(Smalltalk argumentAt: 1) = 'Squeakland'
 	ifTrue: [
 		Smalltalk zapAllOtherProjects.
 		ProjectHistory currentHistory initialize.
