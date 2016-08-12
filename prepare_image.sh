@@ -24,8 +24,8 @@ mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
 
 echo "...launching, updating, and configuring Squeak..."
-"${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" \
-    "${TRAVIS:+-headless }""${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st" "${ETOYS}"
+"${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" ${TRAVIS:+-headless} \
+    "${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st" "${ETOYS}"
 source "${TMP_DIR}/version.sh"
 
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
@@ -46,7 +46,7 @@ for language in "${TRAVIS_BUILD_DIR}/locale/"*; do
     targetdir="${BUILD_DIR}/locale/${language##*/}/LC_MESSAGES"
     for f in *.po; do
 	mkdir -p "${targetdir}"
-	msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}"
+	msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
     done
     popd
 done
