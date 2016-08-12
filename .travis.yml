@@ -2,6 +2,7 @@ language: smalltalk
 sudo: false
 
 os: osx
+osx_image: xcode7.3 # use macOS 10.11
 
 smalltalk:
   - Squeak-trunk-64
