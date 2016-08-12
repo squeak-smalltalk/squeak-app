@@ -89,15 +89,16 @@ compress() {
 }
 
 copy_resources() {
+  local target=$1
   echo "...copying image files into bundle..."
-  cp "${TMP_DIR}/Squeak.image" "${1}/${IMAGE_NAME}.image"
-  cp "${TMP_DIR}/Squeak.changes" "${1}/${IMAGE_NAME}.changes"
-  cp "${TMP_DIR}/"*.sources "${1}/"
-  cp -R "${TMP_DIR}/locale" "${1}/"
-  cp -R "${RELEASE_NOTES_DIR}" "${1}/"
+  cp "${TMP_DIR}/Squeak.image" "${target}/${IMAGE_NAME}.image"
+  cp "${TMP_DIR}/Squeak.changes" "${target}/${IMAGE_NAME}.changes"
+  cp "${TMP_DIR}/"*.sources "${target}/"
+  cp -R "${RELEASE_NOTES_DIR}" "${target}/"
   if is_etoys; then
-    cp "${TMP_DIR}/"*.pr "${1}/"
-    cp -R "${TMP_DIR}/ExampleEtoys" "${1}/"
+    cp -R "${TMP_DIR}/locale" "${target}/"
+    cp "${TMP_DIR}/"*.pr "${target}/"
+    cp -R "${TMP_DIR}/ExampleEtoys" "${target}/"
   fi
 }
 
