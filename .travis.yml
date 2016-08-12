@@ -15,6 +15,9 @@ env:
     - ETOYS=Squeakland
 
 matrix:
+  exclude:
+    - smalltalk: Squeak-5.0
+      env: ETOYS=Squeakland
   allow_failures:
     - smalltalk: Squeak-trunk-64
   fast_finish: true
