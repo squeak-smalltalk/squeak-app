@@ -29,7 +29,9 @@ TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 
 echo "...copying VMs into bundle..."
 cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
-cp -R "${TMP_DIR}/${VM_ARM6}" "${VM_ARM_TARGET}"
+if is_32bit; then
+  cp -R "${TMP_DIR}/${VM_ARM6}" "${VM_ARM_TARGET}"
+fi
 cp -R "${TMP_DIR}/${VM_LIN}" "${VM_LIN_TARGET}"
 cp -R "${TMP_DIR}/${VM_WIN}" "${VM_WIN_TARGET}"
 
