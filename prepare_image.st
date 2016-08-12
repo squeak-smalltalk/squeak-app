@@ -1,3 +1,6 @@
+| smalltalkVersion |
+smalltalkVersion := Smalltalk argumentAt: 1.
+
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
 TranscriptStream redirectToStdOut: true.
@@ -38,7 +41,7 @@ config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
-(Smalltalk argumentAt: 1) = 'Squeakland'
+smalltalkVersion beginsWith: 'Etoys'
 	ifTrue: [
 		MCMcmUpdater defaultUpdateURL: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/etoys-spur'.
 		MCMcmUpdater updateFromServer.
@@ -69,7 +72,7 @@ Utilities setAuthorInitials: ''.
 "Finish."
 ReleaseBuilder prepareEnvironment.
 
-(Smalltalk argumentAt: 1) = 'Squeakland'
+smalltalkVersion beginsWith: 'Etoys'
 	ifTrue: [
 		Smalltalk zapAllOtherProjects.
 		ProjectHistory currentHistory initialize.
