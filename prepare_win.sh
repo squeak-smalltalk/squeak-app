@@ -8,7 +8,7 @@
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-echo "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
+travis_fold start win_bundle "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME="${TARGET_NAME}-Windows"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 
@@ -34,4 +34,5 @@ rm -f "${BUNDLE_DIR}/Squeak.ini.bak"
 rm -f "${BUNDLE_DIR}/"*.map
 
 compress "${BUNDLE_NAME}"
-clean
+
+travis_fold end win_bundle

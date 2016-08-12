@@ -35,12 +35,13 @@ echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
 
-echo "...installing gettext..."
+travis_fold start install_gettext "...installing gettext..."
 brew update
 brew install gettext
 brew link --force gettext
+travis_fold end install_gettext
 
-echo "...preparing translations and putting them into bundle..."
+travis_fold start prepare_translations "...preparing translations and putting them into bundle..."
 for language in "${LOCALE_DIR}/"*; do
   pushd "${language}"
   targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
@@ -50,6 +51,7 @@ for language in "${LOCALE_DIR}/"*; do
   done
   popd
 done
+travis_fold end prepare_translations
 
 if is_etoys; then
   echo "...preparing etoys main projects..."
@@ -74,4 +76,3 @@ if is_etoys; then
 fi
 
 compress "${TARGET_NAME}"
-clean

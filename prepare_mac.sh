@@ -8,7 +8,7 @@
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-echo "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
+travis_fold start mac_bundle "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME="${TARGET_NAME}-macOS"
 APP_NAME="${TARGET_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
@@ -41,4 +41,5 @@ echo "...signing the bundle..."
 codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 
 compress "${BUNDLE_NAME}"
-clean
+
+travis_fold end mac_bundle

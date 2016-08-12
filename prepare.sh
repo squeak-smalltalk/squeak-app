@@ -90,6 +90,9 @@ compress() {
   # tar czf "${PRODUCT_DIR}/${target}.tar.gz" "./"
   zip -q -r "${PRODUCT_DIR}/${target}.zip" "./"
   popd > /dev/null
+  # Reset $BUILD_DIR
+  rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
+  echo "...done."
 }
 
 copy_resources() {
@@ -106,10 +109,17 @@ copy_resources() {
   fi
 }
 
-clean() {
-  echo "...done."
-  # Reset $BUILD_DIR
-  rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
+travis_fold() {
+  local action=$1
+  local name=$2
+  local title="${3:-}"
+
+  if [[ "${TRAVIS:-}" = "true" ]]; then
+    echo -en "travis_fold:${action}:${name}\r\033[0K"
+  fi
+  if [[ -n "${title}" ]]; then
+    echo -e "\033[34;1m${title}\033[0m"
+  fi
 }
 
 # ARMv6 currently only supported on 32-bit
