@@ -14,8 +14,16 @@ function security() {
 function unzip() {
     "$(which unzip)" $@ || true
 }
+function curl() {
+    if [ "$1" == "-T" ]; then
+	echo "No uploading locally"
+    else
+	"$(which curl)" $@
+    fi
+}
 export -f codesign
 export -f security
 export -f unzip
+export -f curl
 
 exec ./prepare.sh

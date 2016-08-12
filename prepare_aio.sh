@@ -25,13 +25,9 @@ TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 echo "...copying VMs into bundle..."
 cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
 cp -R "${TMP_DIR}/${VM_LIN}" "${VM_LIN_TARGET}"
-cp -R "${TMP_DIR}/${VM_WIN}" "${VM_WIN_TARGET}" 
+cp -R "${TMP_DIR}/${VM_WIN}" "${VM_WIN_TARGET}"
 
-echo "...copying images files into bundle..."
-cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
-cp "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
-cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}/"
-cp "${RELEASE_NOTES_DIR}" "${RESOURCES_DIR}/"
+copy_resources "${RESOURCES_DIR}"
 
 echo "...merging template..."
 cp "${AIO_TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
@@ -72,17 +68,6 @@ rm -f "${VM_WIN_TARGET}/"*.map
 echo "...signing the bundle..."
 codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 
-echo "...compressing the bundle..."
-pushd "${BUILD_DIR}" > /dev/null
-# tar czf "${TARGET_TARGZ}" "./"
-zip -q -r "${TARGET_ZIP}" "./"
-popd > /dev/null
-
-echo "...uploading to files.squeak.org..."
-# curl -T "${TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
-curl -T "${TARGET_ZIP}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
-
-echo "...done."
-
-# Reset $BUILD_DIR
-rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
+compress
+upload
+clean
