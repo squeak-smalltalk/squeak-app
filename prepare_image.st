@@ -41,7 +41,7 @@ config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
-smalltalkVersion beginsWith: 'Etoys'
+(smalltalkVersion beginsWith: 'Etoys')
 	ifTrue: [
 		MCMcmUpdater defaultUpdateURL: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/etoys-spur'.
 		MCMcmUpdater updateFromServer.
@@ -72,7 +72,7 @@ Utilities setAuthorInitials: ''.
 "Finish."
 ReleaseBuilder prepareEnvironment.
 
-smalltalkVersion beginsWith: 'Etoys'
+(smalltalkVersion beginsWith: 'Etoys')
 	ifTrue: [
 		Smalltalk zapAllOtherProjects.
 		ProjectHistory currentHistory initialize.

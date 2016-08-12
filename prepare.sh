@@ -16,7 +16,7 @@ if [[ -z "${TRAVIS_BUILD_DIR}" ]]; then
 fi
 
 readonly FILES_BASE="http://files.squeak.org/base"
-readonly RELEASE_URL="${FILES_BASE}/${TRAVIS_SMALLTALK_VERSION}"
+readonly RELEASE_URL="${FILES_BASE}/${TRAVIS_SMALLTALK_VERSION/Etoys/Squeak}"
 readonly IMAGE_URL="${RELEASE_URL}/base.zip"
 readonly VM_BASE="${RELEASE_URL}"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
