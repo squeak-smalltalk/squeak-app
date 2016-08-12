@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2016-08-04 17:02-0000\n"
+"PO-Revision-Date: 2016-08-05 11:51+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: GetText\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: GetText-Editor,LanguageEditor_class>>on:
+msgid "Translator for {1} is not found"
+msgstr "Übersetzer für {1} nicht gefunden"
+
+#: GetText-Editor,LanguageEditor_class>>open
+msgid "Language Editor for..."
+msgstr "Spracheditor für ..."
+
+#: GetText-Editor,LanguageEditor>>addTranslation
+msgid "enter the original:"
+msgstr "geben Sie das Original:"
+
+#: GetText-Editor,LanguageEditor>>browseMethodsWithTranslation
+msgid "select the translation to look for"
+msgstr "wählen Sie die Übersetzung zu suchen"
+
+#: GetText-Editor,LanguageEditor>>browseMethodsWithUntranslated
+msgid "select the untrans phrase to look for"
+msgstr "wählen Sie den untrans Ausdruck zu suchen"
+
+#: GetText-Editor,LanguageEditor>>checkUntranslatedPhrase:
+msgid "possible double-translation"
+msgstr "mögliche Doppel Übersetzung"
+
+#: GetText-Editor,LanguageEditor>>check,LanguageEditor>>check
+msgid "- checked {1} phrases of {2} ({3}%)..."
+msgstr "geprüft {1} Sätze von {2} ({3}%) ..."
+
+#: GetText-Editor,LanguageEditor>>codeSelectedTranslationAsMimeString
+msgid "exported codes in UTF8+Gzip+Base64 encoding"
+msgstr "Export-Codes in utf 8 gzip Base64-Codierung"
+
+#: GetText-Editor,LanguageEditor>>codeSelectedTranslation
+msgid "exported codes"
+msgstr "Export-Codes"
+
+#: GetText-Editor,LanguageEditor>>filterTranslations,LanguageEditor>>filterUntranslated
+msgid ""
+"filter with\n"
+"(empty string means no-filtering)"
+msgstr "Filter mit \\ ein (leerer String bedeutet, dass keine Filterung)"
+
+#: GetText-Editor,LanguageEditor>>getTextImportAFile
+msgid "Select a File:"
+msgstr "Datei auswählen:"
+
+#: GetText-Editor,LanguageEditor>>getTextImport
+msgid "All *.po files"
+msgstr "alle * .po-Dateien"
+
+#: GetText-Editor,LanguageEditor>>getTextImport
+msgid "Choose a file"
+msgstr "Datei wählen"
+
+#: GetText-Editor,LanguageEditor>>getTextImport
+msgid "Choose translation file"
+msgstr "wählen Übersetzungsdatei"
+
+#: GetText-Editor,LanguageEditor>>getText
+msgid "Exports the translations to GetText format."
+msgstr "exportiert die Übersetzungen Textformat zu erhalten."
+
+#: GetText-Editor,LanguageEditor>>getText
+msgid "exports the translations to gettext separated format."
+msgstr "exportiert die Übersetzungen Text getrennt Format zu bekommen."
+
+#: GetText-Editor,LanguageEditor>>getText
+msgid "gettext export"
+msgstr "gettext Export"
+
+#: GetText-Editor,LanguageEditor>>getText
+msgid "gettext import"
+msgstr "gettext importieren"
+
+#: GetText-Editor,LanguageEditor>>getText
+msgid "gettext template"
+msgstr "gettext-Vorlage"
+
+#: GetText-Editor,LanguageEditor>>getText
+msgid "Imports the translations from GetText format."
+msgstr "importiert die Übersetzungen aus dem get-Text-Format."
+
+#: GetText-Editor,LanguageEditor>>initializeOn:
+msgid "Language editor for: "
+msgstr "Spracheditor für: "
+
+#: GetText-Editor,LanguageEditor>>initializePanels
+msgid "List of all the translated phrases."
+msgstr "Liste aller Sätze übersetzt."
+
+#: GetText-Editor,LanguageEditor>>initializePanels
+msgid "List of all the untranslated phrases."
+msgstr "Liste aller nicht übersetzten Phrasen."
+
+#: GetText-Editor,LanguageEditor>>initializePanels
+msgid "Translation for the selected phrase in the upper list."
+msgstr "Übersetzung für die gewählte Begriff in der oberen Liste."
+
+#: GetText-Editor,LanguageEditor>>newTranslations
+msgid "New locale ID string?"
+msgstr "neue locale-ID-String?"
+
+#: GetText-Editor,LanguageEditor>>okToChange
+msgid "Discard the changes to currently selected translated phrase?"
+msgstr "verwerfen die Änderungen aktuell übersetzten Satz ausgewählt?"
+
+#: GetText-Editor,LanguageEditor>>phraseToTranslate
+msgid "new phrase to translate"
+msgstr "neue Begriff übersetzen"
+
+#: GetText-Editor,LanguageEditor>>printHeaderReportOn:
+msgid "Language: {1}"
+msgstr "Sprache: {1}"
+
+#: GetText-Editor,LanguageEditor>>printHeaderReportOn:
+msgid "{1} translated phrases"
+msgstr "{1} übersetzt Sätze"
+
+#: GetText-Editor,LanguageEditor>>printHeaderReportOn:
+msgid "{1} untranslated phrases"
+msgstr "{1} nicht übersetzten Sätze"
+
+#: GetText-Editor,LanguageEditor>>printTranslationsReportOn:
+msgid "translations"
+msgstr "Übersetzungen"
+
+#: GetText-Editor,LanguageEditor>>printUntranslatedReportOn:
+msgid "not translated"
+msgstr "nicht übersetzt"
+
+#: GetText-Editor,LanguageEditor>>removeTranslatedButUnusedStrings,LanguageEditor>>removeUntranslatedButUnusedStrings
+msgid "Are you sure that you want to remove unused strings?"
+msgstr "sind Sie sicher, dass Sie nicht verwendete Zeichenketten zu entfernen?"
+
+#: GetText-Editor,LanguageEditor>>removeTranslation,LanguageEditor>>removeUntranslated
+msgid ""
+"Removing \"{1}\".\n"
+"Are you sure you want to do this?"
+msgstr ""
+"Entfernen \"{1} \". \n"
+"sind Sie sicher, dass Sie dies tun wollen?"
+
+#: GetText-Editor,LanguageEditor>>removeTranslation
+msgid "select the translation to remove"
+msgstr "wählen Sie die Übersetzung zu entfernen"
+
+#: GetText-Editor,LanguageEditor>>removeUntranslated
+msgid "select the untranslated phrase to remove"
+msgstr "wählen Sie den nicht übersetzten Satz zu entfernen"
+
+#: GetText-Editor,LanguageEditor>>report
+msgid "report"
+msgstr "Bericht"
+
+#: GetText-Editor,LanguageEditor>>saveToFile
+msgid "file name"
+msgstr "Dateiname"
+
+#: GetText-Editor,LanguageEditor>>searchTranslation,LanguageEditor>>searchUntranslated
+msgid "search for"
+msgstr "suchen nach"
+
+#: GetText-Editor,LanguageEditor>>searchTranslation:,LanguageEditor>>searchUntranslated:
+msgid "no matches for"
+msgstr "Keine Treffer für"
+
+#: GetText-Editor,LanguageEditor>>searchTranslation:
+msgid "select the translation..."
+msgstr "wählen Sie die Übersetzung ..."
+
+#: GetText-Editor,LanguageEditor>>searchUntranslated:
+msgid "select the untranslated phrase..."
+msgstr "wählen Sie den nicht übersetzten Satz ..."
+
+#: GetText-Editor,LanguageEditor>>selectTranslationFileName
+msgid "Select the file..."
+msgstr "wählen Sie die Datei ..."
+
+#: GetText-Editor,LanguageEditor>>status
+msgid "| {1} phrases | {2} translated | {3} untranslated |"
+msgstr "| {1} im Vergleich | {2} übersetzt | {3} untranslatierte |"
+
+#: GetText-Editor,LanguageEditor>>translatePhrase:
+msgid "translation for: "
+msgstr "Übersetzung für: "
+
+#: GetText-Editor,LanguageEditor>>translationsFilterWording,LanguageEditor>>untranslatedFilterWording
+msgid "filter"
+msgstr "Filter"
+
+#: GetText-Editor,LanguageEditor>>translationsFilterWording,LanguageEditor>>untranslatedFilterWording
+msgid "filtering: {1}"
+msgstr "Filterung: {1}"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:
+msgid "deselect all"
+msgstr "Alle abwählen"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:
+msgid "export selection"
+msgstr "Export-Auswahl"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:
+msgid "export selection in do-it form"
+msgstr "Export Auswahl kann es in Form"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:
+msgid "remove (x)"
+msgstr "entfernen (x)"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:
+msgid "reset changed keys"
+msgstr "Reset Änderung Tasten"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:
+msgid "select all"
+msgstr "alles auswählen"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:
+msgid "select changed keys"
+msgstr "wählen den Änderungsschlüssel"
+
+#: GetText-Editor,LanguageEditor>>translationsMenu:,LanguageEditor>>untranslatedMenu:
+msgid "where (E)"
+msgstr "wobei (e)"
+
+#: GetText-Editor,LanguageEditor>>translation
+msgid "<select a phrase from the upper list>"
+msgstr "<Wählen Sie eine Phrase aus der oberen Liste>"
+
+#: GetText-Editor,LanguageEditor>>untranslatedMenu:
+msgid "remove"
+msgstr "Entfernen"
+
+#: GetText-Editor,LanguageEditor>>untranslatedMenu:
+msgid "translate (t)"
+msgstr "übersetzen (t)"
