@@ -62,17 +62,19 @@ echo "...downloading and extracting Windows VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}.zip" "${VM_BASE}/${VM_WIN}.zip"
 unzip -q "${TMP_DIR}/${VM_WIN}.zip" -d "${TMP_DIR}/${VM_WIN}"
 
-source "prepare_image.sh"
-source "prepare_aio.sh"
-source "prepare_mac.sh"
-source "prepare_lin.sh"
-source "prepare_win.sh"
-
 # ARMv6 currently only supported on 32-bit
 if [[ "${TRAVIS_SMALLTALK_VERSION}" != *"-64" ]]; then
   echo "...downloading and extracting ARMv6 VM..."
   curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM6}.zip" "${VM_BASE}/${VM_ARM6}.zip"
   unzip -q "${TMP_DIR}/${VM_ARM6}.zip" -d "${TMP_DIR}/${VM_ARM6}"
+fi
+
+source "prepare_image.sh"
+source "prepare_aio.sh"
+source "prepare_mac.sh"
+source "prepare_lin.sh"
+source "prepare_win.sh"
+if [[ "${TRAVIS_SMALLTALK_VERSION}" != *"-64" ]]; then
   source "prepare_armv6.sh"
 fi
 

@@ -2,13 +2,13 @@
 ################################################################################
 #  PROJECT: Squeak Bundle Generation
 #  FILE:    prepare_lin.sh
-#  CONTENT: Generate bundle for Linux.
+#  CONTENT: Generate bundle for ARMv6.
 #
 #  AUTHORS: Fabio Niephaus, Hasso Plattner Institute, Potsdam, Germany
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-echo "Creating Linux bundle for ${TRAVIS_SMALLTALK_VERSION}..."
+echo "Creating ARMv6 bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME="${TARGET_NAME}-ARMv6"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 VM_DIR="${BUNDLE_DIR}/bin"
@@ -20,7 +20,7 @@ TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
 echo "...creating directories..."
 mkdir "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
 
-echo "...copying Linux VM..."
+echo "...copying ARMv6 VM..."
 cp -R "${TMP_DIR}/${VM_ARM6}/lib/squeak/"*/ "${VM_DIR}"
 
 echo "...copying image files into bundle..."
