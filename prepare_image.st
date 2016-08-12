@@ -67,11 +67,13 @@ Utilities setAuthorInitials: ''.
 "Finish."
 ReleaseBuilder prepareEnvironment.
 
-Smalltalk zapAllOtherProjects.
-ProjectHistory currentHistory initialize.
-Smalltalk garbageCollect.
-Project rebuildAllProjects.
-ReleaseBuilderSqueakland new prepareReleaseImage.
+(Smalltalk getSystemAttribute: 3) == 'Squeakland'
+	ifTrue: [
+		Smalltalk zapAllOtherProjects.
+		ProjectHistory currentHistory initialize.
+		Smalltalk garbageCollect.
+		Project rebuildAllProjects.
+		ReleaseBuilderSqueakland new prepareReleaseImage].
 
 "Write out version information for deployment."
 FileStream fileNamed: 'version.sh' do: [:strm |

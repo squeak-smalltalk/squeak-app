@@ -1,0 +1,1 @@
+.\bin\Squeak.exe
