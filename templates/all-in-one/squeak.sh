@@ -22,7 +22,7 @@ case "${CPU}" in
     ;;
 esac
 
-VM="$APP/Contents/Linux-$CPU/bin/squeak"
+VM="${APP_DIR}/Contents/Linux-${CPU}/bin/squeak"
 echo "${VM}"
 
 showerror() {
