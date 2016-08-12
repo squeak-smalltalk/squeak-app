@@ -48,7 +48,8 @@ cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
 echo "...setting permissions..."
-chmod +x "${VM_LIN_TARGET}/squeak" "${VM_MAC_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe"
+chmod +x "${VM_LIN_TARGET}/squeak" "${VM_MAC_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe" \
+    "${BUILD_DIR}/squeak.sh" "${BUILD_DIR}/squeak.bat"
 
 echo "...applying various templates (squeak.sh, Info.plist, etc)..."
 # squeak.bat launcher

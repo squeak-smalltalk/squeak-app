@@ -33,7 +33,7 @@ echo "...merging template..."
 cp "${LIN_TEMPLATE_DIR}/squeak.sh" "${BUNDLE_DIR}/"
 
 echo "...setting permissions..."
-chmod +x "${VM_DIR}/squeak"
+chmod +x "${VM_DIR}/squeak" "${BUNDLE_DIR}/squeak.sh"
 
 echo "...compressing the bundle..."
 pushd "${BUILD_DIR}" > /dev/null
