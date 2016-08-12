@@ -38,23 +38,23 @@ echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
 
-if is_etoys; then
-  echo "...installing gettext..."
-  brew update
-  brew install gettext
-  brew link --force gettext
+echo "...installing gettext..."
+brew update
+brew install gettext
+brew link --force gettext
 
-  echo "...preparing translations and putting them into bundle..."
-  for language in "${TRAVIS_BUILD_DIR}/locale/"*; do
-    pushd "${language}"
-    targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
-    for f in *.po; do
+echo "...preparing translations and putting them into bundle..."
+for language in "${LOCALE_DIR}/"*; do
+  pushd "${language}"
+  targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
+  for f in *.po; do
     mkdir -p "${targetdir}"
     msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
-    done
-    popd
   done
+  popd
+done
 
+if is_etoys; then
   echo "...preparing etoys main projects..."
   for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*

@@ -30,6 +30,7 @@ readonly WIN_TEMPLATE_DIR="${TEMPLATE_DIR}/win"
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 
+readonly LOCALE_DIR="${TRAVIS_BUILD_DIR}/locale"
 readonly RELEASE_NOTES_DIR="${TRAVIS_BUILD_DIR}/release-notes"
 
 readonly VM_LIN="vm-linux"
@@ -95,8 +96,8 @@ copy_resources() {
   cp "${TMP_DIR}/Squeak.changes" "${target}/${IMAGE_NAME}.changes"
   cp "${TMP_DIR}/"*.sources "${target}/"
   cp -R "${RELEASE_NOTES_DIR}" "${target}/"
+  cp -R "${TMP_DIR}/locale" "${target}/"
   if is_etoys; then
-    cp -R "${TMP_DIR}/locale" "${target}/"
     cp "${TMP_DIR}/"*.pr "${target}/"
     cp -R "${TMP_DIR}/ExampleEtoys" "${target}/"
   fi
