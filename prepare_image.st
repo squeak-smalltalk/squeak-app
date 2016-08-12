@@ -38,9 +38,11 @@ config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
-MCMcmUpdater defaultUpdateURL: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/etoys-spur'.
-MCMcmUpdater updateFromServer.
-Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
+(Smalltalk argumentAt: 1) = 'Squeakland'
+	ifTrue: [
+		MCMcmUpdater defaultUpdateURL: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/etoys-spur'.
+		MCMcmUpdater updateFromServer.
+		Transcript show: 'finished with etoys.'; cr; showln: SystemVersion current printString].
 
 ] on: ProgressNotification do: [:p | p resume]
 ] on: Warning do: [:warning | warning resume]
