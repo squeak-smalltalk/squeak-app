@@ -18,12 +18,6 @@ if [[ ! -f "${TMP_DIR}/base.zip" ]]; then
   exit 1
 fi
 
-if is_etoys; then
-  brew update
-  brew install gettext
-  brew link --force gettext
-fi
-
 unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
@@ -44,8 +38,14 @@ echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
 
-echo "...preparing translations and putting them into bundle..."
-for language in "${TRAVIS_BUILD_DIR}/locale/"*; do
+if is_etoys; then
+  echo "...installing gettext..."
+  brew update
+  brew install gettext
+  brew link --force gettext
+
+  echo "...preparing translations and putting them into bundle..."
+  for language in "${TRAVIS_BUILD_DIR}/locale/"*; do
     pushd "${language}"
     targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
     for f in *.po; do
@@ -53,28 +53,27 @@ for language in "${TRAVIS_BUILD_DIR}/locale/"*; do
     msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
     done
     popd
-done
+  done
 
-if is_etoys; then
-    echo "...preparing etoys main projects..."
-    for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
-	zip -j "${project}.zip" "${project}"/*
-	mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
-    done
+  echo "...preparing etoys main projects..."
+  for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
+    zip -j "${project}.zip" "${project}"/*
+    mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
+  done
 
-    echo "...preparing etoys gallery projects..."
-    mkdir -p "${TMP_DIR}/ExampleEtoys"
-    for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
-	zip -j "${project}.zip" "${project}"/*
-	mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
-    done
+  echo "...preparing etoys gallery projects..."
+  mkdir -p "${TMP_DIR}/ExampleEtoys"
+  for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
+    zip -j "${project}.zip" "${project}"/*
+    mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
+  done
 
-    echo "...copying etoys quick guides..."
-    for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
-	targetdir="${TMP_DIR}/locale/${language##*/}"
-	mkdir -p "${targetdir}"
-	cp -R "${language}/QuickGuides" "${targetdir}/"
-    done
+  echo "...copying etoys quick guides..."
+  for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
+    targetdir="${TMP_DIR}/locale/${language##*/}"
+    mkdir -p "${targetdir}"
+    cp -R "${language}/QuickGuides" "${targetdir}/"
+  done
 fi
 
 echo "...compressing image and changes..."
