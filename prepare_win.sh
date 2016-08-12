@@ -24,7 +24,6 @@ cp -R "${TMP_DIR}/${VM_WIN}/" "${BUNDLE_DIR}"
 copy_resources "${BUNDLE_DIR}"
 
 echo "...merging template..."
-cp "${WIN_TEMPLATE_DIR}/squeak.bat" "${BUNDLE_DIR}/"
 cp "${WIN_TEMPLATE_DIR}/Squeak.ini" "${BUNDLE_DIR}/"
 
 echo "...setting permissions..."
