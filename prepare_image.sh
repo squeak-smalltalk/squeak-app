@@ -25,7 +25,7 @@ mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
 
 echo "...launching, updating, and configuring Squeak..."
 "${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" \
-    "${TRAVIS:+-headless}" "${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st" "${ETOYS}"
+    "${TRAVIS:+-headless }""${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st" "${ETOYS}"
 source "${TMP_DIR}/version.sh"
 
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
