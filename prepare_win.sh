@@ -25,7 +25,7 @@ echo "...copying image files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${BUNDLE_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${BUNDLE_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${BUNDLE_DIR}/"
-cp "${RELEASE_NOTES_DIR}" "${BUNDLE_DIR}/"
+cp -R "${RELEASE_NOTES_DIR}" "${BUNDLE_DIR}/"
 
 echo "...merging template..."
 cp "${WIN_TEMPLATE_DIR}/squeak.bat" "${BUNDLE_DIR}/"

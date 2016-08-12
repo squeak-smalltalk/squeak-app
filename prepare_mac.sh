@@ -26,7 +26,7 @@ echo "...copying image files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}/"
-cp "${RELEASE_NOTES_DIR}" "${RESOURCES_DIR}/"
+cp -R "${RELEASE_NOTES_DIR}" "${RESOURCES_DIR}/"
 
 echo "...merging template..."
 cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
