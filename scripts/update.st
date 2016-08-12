@@ -53,15 +53,6 @@ Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 monitor terminate.
 monitor := nil.
 
-"Write out version information for deployment."
-FileStream fileNamed: 'version.sh' do: [:strm |
-	strm
-		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
-		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); lf;
-		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); lf;
-		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
-		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
-
 "Configure image state"
 Transcript showln: 'Condensing changes...'.
 Smalltalk condenseChanges.
@@ -81,5 +72,14 @@ ProjectHistory currentHistory initialize.
 Smalltalk garbageCollect.
 Project rebuildAllProjects.
 ReleaseBuilderSqueakland new prepareReleaseImage.
+
+"Write out version information for deployment."
+FileStream fileNamed: 'version.sh' do: [:strm |
+	strm
+		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
+		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); lf;
+		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); lf;
+		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
+		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
 
 Smalltalk snapshot: true andQuit: true.
