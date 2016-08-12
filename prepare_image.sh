@@ -49,8 +49,8 @@ for language in "${TRAVIS_BUILD_DIR}/locale/"*; do
     pushd "${language}"
     targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
     for f in *.po; do
-	mkdir -p "${targetdir}"
-	msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
+    mkdir -p "${targetdir}"
+    msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
     done
     popd
 done

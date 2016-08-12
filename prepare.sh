@@ -62,25 +62,25 @@ echo "...downloading and extracting Windows VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}.zip" "${VM_BASE}/${VM_WIN}.zip"
 unzip -q "${TMP_DIR}/${VM_WIN}.zip" -d "${TMP_DIR}/${VM_WIN}"
 
-function is_64bit() {
-  [[ "${TRAVIS_SMALLTALK_VERSION}" != *"-64" ]]
+is_64bit() {
+  [[ "${TRAVIS_SMALLTALK_VERSION}" == *"-64" ]]
 }
 
-function is_32bit() {
+is_32bit() {
   ! is_64bit
 }
 
-function is_etyos() {
+is_etoys() {
   [[ "${TRAVIS_SMALLTALK_VERSION}" == "Etoys"* ]]
 }
 
-function upload() {
+upload() {
   echo "...uploading to files.squeak.org..."
   # curl -T "${TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
   curl -T "${TARGET_ZIP}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
 }
 
-function compress() {
+compress() {
   echo "...compressing the bundle..."
   pushd "${BUILD_DIR}" > /dev/null
   # tar czf "${TARGET_TARGZ}" "./"
@@ -88,7 +88,7 @@ function compress() {
   popd > /dev/null
 }
 
-function copy_resources() {
+copy_resources() {
   echo "...copying image files into bundle..."
   cp "${TMP_DIR}/Squeak.image" "${1}/${IMAGE_NAME}.image"
   cp "${TMP_DIR}/Squeak.changes" "${1}/${IMAGE_NAME}.changes"
@@ -101,7 +101,7 @@ function copy_resources() {
   fi
 }
 
-function clean() {
+clean() {
     echo "...done."
     # Reset $BUILD_DIR
     rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
