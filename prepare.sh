@@ -82,7 +82,7 @@ function copy_resources() {
     cp "${TMP_DIR}/Squeak.changes" "${1}/${IMAGE_NAME}.changes"
     cp "${TMP_DIR}/"*.sources "${1}/"
     cp -R "${TMP_DIR}/locale" "${1}/"
-    cp "${RELEASE_NOTES_DIR}" "${1}/"
+    cp -R "${RELEASE_NOTES_DIR}" "${1}/"
     if [ "${ETOYS}" == "Squeakland" ]; then
 	cp "${TMP_DIR}/*.pr" "${1}/"
 	cp -R "${TMP_DIR}/ExampleEtoys" "${1}/"
@@ -95,17 +95,19 @@ function clean() {
     rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
 }
 
-source "prepare_image.sh"
-source "prepare_aio.sh"
-source "prepare_mac.sh"
-source "prepare_lin.sh"
-source "prepare_win.sh"
-
 # ARMv6 currently only supported on 32-bit
 if [[ "${TRAVIS_SMALLTALK_VERSION}" != *"-64" ]]; then
   echo "...downloading and extracting ARMv6 VM..."
   curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM6}.zip" "${VM_BASE}/${VM_ARM6}.zip"
   unzip -q "${TMP_DIR}/${VM_ARM6}.zip" -d "${TMP_DIR}/${VM_ARM6}"
+fi
+
+source "prepare_image.sh"
+source "prepare_aio.sh"
+source "prepare_mac.sh"
+source "prepare_lin.sh"
+source "prepare_win.sh"
+if [[ "${TRAVIS_SMALLTALK_VERSION}" != *"-64" ]]; then
   source "prepare_armv6.sh"
 fi
 
