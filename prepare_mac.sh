@@ -10,7 +10,6 @@
 
 echo "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME="${TARGET_NAME}-macOS"
-BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 APP_NAME="${TARGET_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
@@ -27,7 +26,7 @@ echo "...copying image files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}/"
-cp "${RELEASE_NOTES_DIR}/"* "${RESOURCES_DIR}/"
+cp "${RELEASE_NOTES_DIR}" "${RESOURCES_DIR}/"
 
 echo "...merging template..."
 cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"

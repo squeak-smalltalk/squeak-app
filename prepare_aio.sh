@@ -10,7 +10,6 @@
 
 echo "Creating All-in-one bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME="${TARGET_NAME}-All-in-One"
-BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 APP_NAME="${BUNDLE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
@@ -32,6 +31,7 @@ echo "...copying images files into bundle..."
 cp "${TMP_DIR}/Squeak.image" "${RESOURCES_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${RESOURCES_DIR}/${IMAGE_NAME}.changes"
 cp "${TMP_DIR}/"*.sources "${RESOURCES_DIR}/"
+cp "${RELEASE_NOTES_DIR}" "${RESOURCES_DIR}/"
 
 echo "...merging template..."
 cp "${AIO_TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
@@ -48,6 +48,7 @@ chmod +x "${VM_LIN_TARGET}/squeak" "${VM_MAC_TARGET}/Squeak" "${VM_WIN_TARGET}/S
 echo "...applying various templates (squeak.sh, Info.plist, etc)..."
 # squeak.bat launcher
 sed -i ".bak" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.bat"
+sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${BUILD_DIR}/squeak.bat"
 rm -f "${BUILD_DIR}/squeak.bat.bak"
 # squeak.sh launcher
 sed -i ".bak" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_DIR}/squeak.sh"
@@ -63,8 +64,9 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/squea
 rm -f "${CONTENTS_DIR}/squeak.sh.bak"
 # Squeak.ini (consistent with contents in Info.plist)
 sed -i ".bak" "s/%VERSION%/${BUNDLE_DESCRIPTION}/g" "${VM_WIN_TARGET}/Squeak.ini"
-sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${VM_WIN_TARGET}/Squeak.ini"
 rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
+# Remove .map files from $VM_WIN_TARGET
+rm -f "${VM_WIN_TARGET}/"*.map
 
 # Signing the macOS application
 echo "...signing the bundle..."
