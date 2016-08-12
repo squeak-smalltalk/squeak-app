@@ -16,9 +16,6 @@ CONTENTS_DIR="${APP_DIR}/Contents"
 RESOURCES_DIR="${CONTENTS_DIR}/Resources"
 VM_MAC_TARGET="${CONTENTS_DIR}/MacOS"
 
-TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
-TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
-
 echo "...copying macOS VM ..."
 cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
 
@@ -43,6 +40,5 @@ rm -f "${CONTENTS_DIR}/Info.plist.bak"
 echo "...signing the bundle..."
 codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 
-compress
-upload
+compress "${BUNDLE_NAME}"
 clean

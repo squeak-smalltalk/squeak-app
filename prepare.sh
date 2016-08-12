@@ -28,7 +28,9 @@ readonly MAC_TEMPLATE_DIR="${TEMPLATE_DIR}/macos"
 readonly WIN_TEMPLATE_DIR="${TEMPLATE_DIR}/win"
 
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
+readonly PRODUCT_DIR="${TRAVIS_BUILD_DIR}/product"
 readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
+readonly ENCRYPTED_DIR="${TRAVIS_BUILD_DIR}/encrypted"
 
 readonly LOCALE_DIR="${TRAVIS_BUILD_DIR}/locale"
 readonly RELEASE_NOTES_DIR="${TRAVIS_BUILD_DIR}/release-notes"
@@ -38,18 +40,24 @@ readonly VM_MAC="vm-macos"
 readonly VM_WIN="vm-win"
 readonly VM_ARM6="vm-armv6"
 
+# Extract encrypted files
+unzip -q .encrypted.zip
+if [[ ! -d "${ENCRYPTED_DIR}" ]]; then
+  echo "Failed to locate decrypted files."
+  exit 1
+fi
+
 # Prepare signing
 KEY_CHAIN=macos-build.keychain
-unzip -q ./certs/dist.zip -d ./certs
 security create-keychain -p travis "${KEY_CHAIN}"
 security default-keychain -s "${KEY_CHAIN}"
 security unlock-keychain -p travis "${KEY_CHAIN}"
 security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
-security import ./certs/dist.cer -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
-security import ./certs/dist.p12 -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
+security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
 
-# Create build and temp folders
-mkdir "${BUILD_DIR}" "${TMP_DIR}"
+# Create build, product, and temp folders
+mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 
 echo "...downloading and extracting macOS VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
@@ -75,17 +83,12 @@ is_etoys() {
   [[ "${TRAVIS_SMALLTALK_VERSION}" == "Etoys"* ]]
 }
 
-upload() {
-  echo "...uploading to files.squeak.org..."
-  # curl -T "${TARGET_TARGZ}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
-  curl -T "${TARGET_ZIP}" -u "${DEPLOY_CREDENTIALS}" "${TARGET_URL}"
-}
-
 compress() {
+  target=$1
   echo "...compressing the bundle..."
   pushd "${BUILD_DIR}" > /dev/null
-  # tar czf "${TARGET_TARGZ}" "./"
-  zip -q -r "${TARGET_ZIP}" "./"
+  # tar czf "${PRODUCT_DIR}/${target}.tar.gz" "./"
+  zip -q -r "${PRODUCT_DIR}/${target}.zip" "./"
   popd > /dev/null
 }
 
@@ -104,9 +107,9 @@ copy_resources() {
 }
 
 clean() {
-    echo "...done."
-    # Reset $BUILD_DIR
-    rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
+  echo "...done."
+  # Reset $BUILD_DIR
+  rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
 }
 
 # ARMv6 currently only supported on 32-bit
@@ -125,5 +128,21 @@ if is_32bit; then
   source "prepare_armv6.sh"
 fi
 
-# Remove signing information
+if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
+  echo "...uploading all files to files.squeak.org..."
+  TARGET_PATH="/var/www/files.squeak.org"
+  if is_etoys; then
+    TARGET_PATH="${TARGET_PATH}/etoys/${SQUEAK_VERSION/Etoys/}"
+  else
+    TARGET_PATH="${TARGET_PATH}/${SQUEAK_VERSION/Squeak/}"
+  fi
+  chmod 600 "${ENCRYPTED_DIR}/ssh_deploy_key"
+  rsync -cptrvz -e "ssh -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/"
+  echo "...done."
+else
+  echo "...not uploading files because this is not the master branch."
+fi
+
+# Remove sensitive information
+rm -rf "${ENCRYPTED_DIR}"
 security delete-keychain "${KEY_CHAIN}"

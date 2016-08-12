@@ -12,9 +12,6 @@ echo "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME="${TARGET_NAME}-Windows"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 
-TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
-TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
-
 echo "...creating directories..."
 mkdir "${BUNDLE_DIR}"
 
@@ -36,6 +33,5 @@ rm -f "${BUNDLE_DIR}/Squeak.ini.bak"
 # Remove .map files from $BUNDLE_DIR
 rm -f "${BUNDLE_DIR}/"*.map
 
-compress
-upload
+compress "${BUNDLE_NAME}"
 clean

@@ -14,9 +14,6 @@ BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 VM_DIR="${BUNDLE_DIR}/bin"
 SHARED_DIR="${BUNDLE_DIR}/shared"
 
-TARGET_TARGZ="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.tar.gz"
-TARGET_ZIP="${TRAVIS_BUILD_DIR}/${BUNDLE_NAME}.zip"
-
 echo "...creating directories..."
 mkdir "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
 
@@ -31,6 +28,5 @@ cp "${LIN_TEMPLATE_DIR}/squeak.sh" "${BUNDLE_DIR}/"
 echo "...setting permissions..."
 chmod +x "${VM_DIR}/squeak" "${BUNDLE_DIR}/squeak.sh"
 
-compress
-upload
+compress "${BUNDLE_NAME}"
 clean
