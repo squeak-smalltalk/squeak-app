@@ -1,5 +1,5 @@
 | smalltalkVersion |
-smalltalkVersion := Smalltalk argumentAt: 1.
+smalltalkVersion := (Smalltalk argumentAt: 1) ifNil: [''].
 
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
