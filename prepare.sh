@@ -146,6 +146,7 @@ if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
   else
     TARGET_PATH="${TARGET_PATH}/${SQUEAK_VERSION/Squeak/}"
   fi
+  TARGET_PATH="${TARGET_PATH}/${TARGET_NAME}"
   chmod 600 "${ENCRYPTED_DIR}/ssh_deploy_key"
   rsync -crvz -e "ssh -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/"
   echo "...done."
