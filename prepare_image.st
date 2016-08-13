@@ -55,6 +55,10 @@ Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 		conflict chooseRemote].
 	mrr resume: true].
 
+Transcript showln: 'Checking for modified verions...'.
+[MCWorkingCopy checkModified: true]
+	on: MCEmptyVersion do: [:warning | warning resume].
+
 monitor terminate.
 monitor := nil.
 
