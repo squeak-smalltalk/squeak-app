@@ -9,7 +9,7 @@
 ################################################################################
 
 travis_fold start mac_bundle "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${TARGET_NAME}-macOS"
+BUNDLE_NAME="${TARGET_NAME}-${VERSION_VM_MACOS}-macOS"
 APP_NAME="${TARGET_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"

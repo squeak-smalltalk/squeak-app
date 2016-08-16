@@ -41,6 +41,7 @@ readonly VM_LIN="vm-linux"
 readonly VM_MAC="vm-macos"
 readonly VM_WIN="vm-win"
 readonly VM_ARM6="vm-armv6"
+readonly VM_VERSIONS="versions.txt"
 
 # Extract encrypted files
 unzip -q .encrypted.zip
@@ -64,6 +65,15 @@ mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 echo "...downloading and extracting VM for build..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
 unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
+
+echo "...downloading and sourcing VM versions file..."
+curl -f -s --retry 3 -o "${TMP_DIR}/vm-versions" "${VM_BASE}/${VM_VERSIONS}"
+source "${TMP_DIR}/vm-versions"
+if [[ -z "${VERSION_VM_ARMV6}" ]] || [[ -z "${VERSION_VM_LINUX}" ]] || \
+   [[ -z "${VERSION_VM_MACOS}" ]] || [[ -z "${VERSION_VM_WIN}" ]]; then
+  echo "Could not determine all required VM versions."
+  exit 1
+fi
 
 echo "...downloading and extracting macOS VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"

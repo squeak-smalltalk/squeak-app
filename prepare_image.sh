@@ -28,8 +28,6 @@ echo "...launching, updating, and configuring Squeak..."
 source "${TMP_DIR}/version.sh"
 
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
-readonly TARGET_NAME="${IMAGE_NAME}-${VM_VERSION}"
-readonly BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 
 echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
@@ -75,4 +73,4 @@ if is_etoys; then
   done
 fi
 
-compress "${TARGET_NAME}"
+compress "${IMAGE_NAME}"

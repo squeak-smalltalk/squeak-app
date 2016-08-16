@@ -9,7 +9,7 @@
 ################################################################################
 
 travis_fold start win_bundle "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${TARGET_NAME}-Windows"
+BUNDLE_NAME="${TARGET_NAME}-${VERSION_VM_WIN}-Windows"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 
 echo "...creating directories..."

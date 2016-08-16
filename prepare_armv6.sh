@@ -9,7 +9,7 @@
 ################################################################################
 
 travis_fold start armv6_bundle "Creating ARMv6 bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${TARGET_NAME}-ARMv6"
+BUNDLE_NAME="${TARGET_NAME}-${VERSION_VM_ARMV6}-ARMv6"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 VM_DIR="${BUNDLE_DIR}/bin"
 SHARED_DIR="${BUNDLE_DIR}/shared"
