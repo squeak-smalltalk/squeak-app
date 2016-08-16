@@ -24,6 +24,7 @@ copy_resources "${RESOURCES_DIR}"
 echo "...merging template..."
 cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
+cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/"*.icns "${RESOURCES_DIR}/"
 
 echo "...setting permissions..."
 chmod +x "${VM_MAC_TARGET}/Squeak"

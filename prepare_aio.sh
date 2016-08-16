@@ -39,6 +39,7 @@ cp "${AIO_TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
 cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
+cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/"*.icns "${RESOURCES_DIR}/"
 
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
