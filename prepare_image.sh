@@ -52,18 +52,20 @@ done
 travis_fold end prepare_translations
 
 if is_etoys; then
-  echo "...preparing etoys main projects..."
+  travis_fold start main_projects "...preparing etoys main projects..."
   for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
     mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
   done
+  travis_fold end main_projects
 
-  echo "...preparing etoys gallery projects..."
+  travis_fold start gallery_projects "...preparing etoys gallery projects..."
   mkdir -p "${TMP_DIR}/ExampleEtoys"
   for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
     mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
   done
+  travis_fold end gallery_projects
 
   echo "...copying etoys quick guides..."
   for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
