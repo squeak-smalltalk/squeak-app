@@ -36,6 +36,7 @@ readonly LOCALE_DIR="${TRAVIS_BUILD_DIR}/locale"
 readonly ICONS_DIR="${TRAVIS_BUILD_DIR}/icons"
 readonly RELEASE_NOTES_DIR="${TRAVIS_BUILD_DIR}/release-notes"
 
+readonly VM_BUILD="vm-build"
 readonly VM_LIN="vm-linux"
 readonly VM_MAC="vm-macos"
 readonly VM_WIN="vm-win"
@@ -59,6 +60,10 @@ security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}
 
 # Create build, product, and temp folders
 mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
+
+echo "...downloading and extracting VM for build..."
+curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
+unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
 
 echo "...downloading and extracting macOS VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
