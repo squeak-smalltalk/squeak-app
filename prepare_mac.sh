@@ -24,13 +24,14 @@ copy_resources "${RESOURCES_DIR}"
 echo "...merging template..."
 cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
-cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/"*.icns "${RESOURCES_DIR}/"
+cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 
 echo "...setting permissions..."
 chmod +x "${VM_MAC_TARGET}/Squeak"
 
 echo "...patching Info.plist..."
 # Info.plist
+sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_DESCRIPTION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%VERSION%/${SQUEAK_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION//./}.${IMAGE_BITS}.macOS/g" "${CONTENTS_DIR}/Info.plist"

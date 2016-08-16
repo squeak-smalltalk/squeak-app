@@ -33,6 +33,7 @@ readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 readonly ENCRYPTED_DIR="${TRAVIS_BUILD_DIR}/encrypted"
 
 readonly LOCALE_DIR="${TRAVIS_BUILD_DIR}/locale"
+readonly ICONS_DIR="${TRAVIS_BUILD_DIR}/icons"
 readonly RELEASE_NOTES_DIR="${TRAVIS_BUILD_DIR}/release-notes"
 
 readonly VM_LIN="vm-linux"
@@ -82,6 +83,12 @@ is_32bit() {
 is_etoys() {
   [[ "${TRAVIS_SMALLTALK_VERSION}" == "Etoys"* ]]
 }
+
+if is_etoys; then
+  readonly SMALLTALK_NAME="Etoys"
+else
+  readonly SMALLTALK_NAME="Squeak"
+fi
 
 compress() {
   target=$1
