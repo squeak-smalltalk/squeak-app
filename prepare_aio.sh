@@ -9,7 +9,7 @@
 ################################################################################
 
 travis_fold start aio_bundle "Creating All-in-one bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${TARGET_NAME}-All-in-One"
+BUNDLE_NAME="${IMAGE_NAME}-All-in-One"
 APP_NAME="${BUNDLE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"

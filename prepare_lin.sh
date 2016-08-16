@@ -9,7 +9,7 @@
 ################################################################################
 
 travis_fold start linux_bundle "Creating Linux bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${TARGET_NAME}-${VERSION_VM_LINUX}-Linux"
+BUNDLE_NAME="${IMAGE_NAME}-${VERSION_VM_LINUX}-Linux"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
 VM_DIR="${BUNDLE_DIR}/bin"
 SHARED_DIR="${BUNDLE_DIR}/shared"
