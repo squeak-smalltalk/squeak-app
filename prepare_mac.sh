@@ -9,8 +9,8 @@
 ################################################################################
 
 travis_fold start mac_bundle "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${TARGET_NAME}-macOS"
-APP_NAME="${TARGET_NAME}.app"
+BUNDLE_NAME="${IMAGE_NAME}-${VERSION_VM_MACOS}-macOS"
+APP_NAME="${IMAGE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
 RESOURCES_DIR="${CONTENTS_DIR}/Resources"
@@ -24,12 +24,14 @@ copy_resources "${RESOURCES_DIR}"
 echo "...merging template..."
 cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
+cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 
 echo "...setting permissions..."
 chmod +x "${VM_MAC_TARGET}/Squeak"
 
 echo "...patching Info.plist..."
 # Info.plist
+sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_DESCRIPTION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%VERSION%/${SQUEAK_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION//./}.${IMAGE_BITS}.macOS/g" "${CONTENTS_DIR}/Info.plist"

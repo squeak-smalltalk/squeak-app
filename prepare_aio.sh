@@ -9,7 +9,7 @@
 ################################################################################
 
 travis_fold start aio_bundle "Creating All-in-one bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${TARGET_NAME}-All-in-One"
+BUNDLE_NAME="${IMAGE_NAME}-All-in-One"
 APP_NAME="${BUNDLE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
@@ -39,6 +39,7 @@ cp "${AIO_TEMPLATE_DIR}/squeak.bat" "${BUILD_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
 cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
+cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
@@ -57,6 +58,7 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${BUILD_DIR}/squeak.s
 sed -i ".bak" "s/%IMAGE_BITS%/${IMAGE_BITS}/g" "${BUILD_DIR}/squeak.sh"
 rm -f "${BUILD_DIR}/squeak.sh.bak"
 # Info.plist
+sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_DESCRIPTION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%VERSION%/${SQUEAK_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION//./}.${IMAGE_BITS}.All-in-One/g" "${CONTENTS_DIR}/Info.plist"

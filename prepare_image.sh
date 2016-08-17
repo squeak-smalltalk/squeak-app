@@ -21,15 +21,15 @@ fi
 unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
+cp -R "${RELEASE_NOTES_DIR}" "${TMP_DIR}/"
+cp "${ICONS_DIR}/balloon.png" "${TMP_DIR}/"
 
 echo "...launching, updating, and configuring Squeak..."
-"${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" \
+"${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" \
     "${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st" "${TRAVIS_SMALLTALK_VERSION}"
 source "${TMP_DIR}/version.sh"
 
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
-readonly TARGET_NAME="${IMAGE_NAME}-${VM_VERSION}"
-readonly BUNDLE_DESCRIPTION="${SQUEAK_VERSION} #${SQUEAK_UPDATE} VM ${VM_VERSION} (${IMAGE_BITS} bit)"
 
 echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
@@ -54,18 +54,20 @@ done
 travis_fold end prepare_translations
 
 if is_etoys; then
-  echo "...preparing etoys main projects..."
+  travis_fold start main_projects "...preparing etoys main projects..."
   for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
     mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
   done
+  travis_fold end main_projects
 
-  echo "...preparing etoys gallery projects..."
+  travis_fold start gallery_projects "...preparing etoys gallery projects..."
   mkdir -p "${TMP_DIR}/ExampleEtoys"
   for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
     mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
   done
+  travis_fold end gallery_projects
 
   echo "...copying etoys quick guides..."
   for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
@@ -75,4 +77,4 @@ if is_etoys; then
   done
 fi
 
-compress "${TARGET_NAME}"
+compress "${IMAGE_NAME}"

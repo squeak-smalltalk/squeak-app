@@ -33,12 +33,15 @@ readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 readonly ENCRYPTED_DIR="${TRAVIS_BUILD_DIR}/encrypted"
 
 readonly LOCALE_DIR="${TRAVIS_BUILD_DIR}/locale"
+readonly ICONS_DIR="${TRAVIS_BUILD_DIR}/icons"
 readonly RELEASE_NOTES_DIR="${TRAVIS_BUILD_DIR}/release-notes"
 
+readonly VM_BUILD="vm-build"
 readonly VM_LIN="vm-linux"
 readonly VM_MAC="vm-macos"
 readonly VM_WIN="vm-win"
 readonly VM_ARM6="vm-armv6"
+readonly VM_VERSIONS="versions.txt"
 
 # Extract encrypted files
 unzip -q .encrypted.zip
@@ -58,6 +61,19 @@ security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}
 
 # Create build, product, and temp folders
 mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
+
+echo "...downloading and extracting VM for build..."
+curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
+unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
+
+echo "...downloading and sourcing VM versions file..."
+curl -f -s --retry 3 -o "${TMP_DIR}/vm-versions" "${VM_BASE}/${VM_VERSIONS}"
+source "${TMP_DIR}/vm-versions"
+if [[ -z "${VERSION_VM_ARMV6}" ]] || [[ -z "${VERSION_VM_LINUX}" ]] || \
+   [[ -z "${VERSION_VM_MACOS}" ]] || [[ -z "${VERSION_VM_WIN}" ]]; then
+  echo "Could not determine all required VM versions."
+  exit 1
+fi
 
 echo "...downloading and extracting macOS VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
@@ -82,6 +98,12 @@ is_32bit() {
 is_etoys() {
   [[ "${TRAVIS_SMALLTALK_VERSION}" == "Etoys"* ]]
 }
+
+if is_etoys; then
+  readonly SMALLTALK_NAME="Etoys"
+else
+  readonly SMALLTALK_NAME="Squeak"
+fi
 
 compress() {
   target=$1

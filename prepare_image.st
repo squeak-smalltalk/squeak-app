@@ -89,7 +89,6 @@ FileStream fileNamed: 'version.sh' do: [:strm |
 	strm
 		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
 		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); lf;
-		nextPutAll: ('VM_VERSION="{1}"' format: {((Smalltalk getSystemAttribute: 1009) findTokens: ' ') second}); lf;
 		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
 		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
 
