@@ -21,7 +21,8 @@ fi
 unzip -q "${TMP_DIR}/base.zip" -d "${TMP_DIR}/"
 mv "${TMP_DIR}/"*.image "${TMP_DIR}/Squeak.image"
 mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
-mv "${ICONS_DIR}/balloon.png" "${TMP_DIR}/balloon.png"
+cp -R "${RELEASE_NOTES_DIR}" "${TMP_DIR}/"
+cp "${ICONS_DIR}/balloon.png" "${TMP_DIR}/"
 
 echo "...launching, updating, and configuring Squeak..."
 "${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" \
