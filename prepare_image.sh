@@ -36,46 +36,53 @@ echo "...copying image files into build dir..."
 cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
 cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
 
-travis_fold start install_gettext "...installing gettext..."
-brew update
-brew install gettext
-brew link --force gettext
-travis_fold end install_gettext
+prepare_locales() {
+  travis_fold start install_gettext "...installing gettext..."
+  brew update
+  brew install gettext
+  brew link --force gettext
+  travis_fold end install_gettext
 
-travis_fold start prepare_translations "...preparing translations and putting them into bundle..."
-for language in "${LOCALE_DIR}/"*; do
-  pushd "${language}"
-  targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
-  for f in *.po; do
-    mkdir -p "${targetdir}"
-    msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
+  travis_fold start prepare_translations "...preparing translations and putting them into bundle..."
+  for language in "${LOCALE_DIR}/"*; do
+    pushd "${language}"
+    targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
+    for f in *.po; do
+      mkdir -p "${targetdir}"
+      msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
+    done
+    popd
   done
-  popd
-done
-travis_fold end prepare_translations
+  travis_fold end prepare_translations
 
-if is_etoys; then
-  travis_fold start main_projects "...preparing etoys main projects..."
-  for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
-    zip -j "${project}.zip" "${project}"/*
-    mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
-  done
-  travis_fold end main_projects
+  if is_etoys; then
+    travis_fold start main_projects "...preparing etoys main projects..."
+    for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
+      zip -j "${project}.zip" "${project}"/*
+      mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
+    done
+    travis_fold end main_projects
 
-  travis_fold start gallery_projects "...preparing etoys gallery projects..."
-  mkdir -p "${TMP_DIR}/ExampleEtoys"
-  for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
-    zip -j "${project}.zip" "${project}"/*
-    mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
-  done
-  travis_fold end gallery_projects
+    travis_fold start gallery_projects "...preparing etoys gallery projects..."
+    mkdir -p "${TMP_DIR}/ExampleEtoys"
+    for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
+      zip -j "${project}.zip" "${project}"/*
+      mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
+    done
+    travis_fold end gallery_projects
 
-  echo "...copying etoys quick guides..."
-  for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
-    targetdir="${TMP_DIR}/locale/${language##*/}"
-    mkdir -p "${targetdir}"
-    cp -R "${language}/QuickGuides" "${targetdir}/"
-  done
+    echo "...copying etoys quick guides..."
+    for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
+      targetdir="${TMP_DIR}/locale/${language##*/}"
+      mkdir -p "${targetdir}"
+      cp -R "${language}/QuickGuides" "${targetdir}/"
+    done
+  fi
+}
+
+# prepare locales for Squeak later than 5.0
+if ! is_Squeak_50; then
+  prepare_locales
 fi
 
 compress "${IMAGE_NAME}"

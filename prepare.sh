@@ -99,6 +99,10 @@ is_etoys() {
   [[ "${TRAVIS_SMALLTALK_VERSION}" == "Etoys"* ]]
 }
 
+is_Squeak_50() {
+  [[ "${TRAVIS_SMALLTALK_VERSION}" == "Squeak-5.0" ]]
+}
+
 if is_etoys; then
   readonly SMALLTALK_NAME="Etoys"
 else
@@ -123,8 +127,10 @@ copy_resources() {
   cp "${TMP_DIR}/Squeak.image" "${target}/${IMAGE_NAME}.image"
   cp "${TMP_DIR}/Squeak.changes" "${target}/${IMAGE_NAME}.changes"
   cp "${TMP_DIR}/"*.sources "${target}/"
-  cp -R "${RELEASE_NOTES_DIR}" "${target}/"
-  cp -R "${TMP_DIR}/locale" "${target}/"
+  if ! is_Squeak_50; then
+    cp -R "${RELEASE_NOTES_DIR}" "${target}/"
+    cp -R "${TMP_DIR}/locale" "${target}/"
+  fi
   if is_etoys; then
     cp "${TMP_DIR}/"*.pr "${target}/"
     cp -R "${TMP_DIR}/ExampleEtoys" "${target}/"
