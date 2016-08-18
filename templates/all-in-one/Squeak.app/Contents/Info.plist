@@ -2,10 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>NSSupportsAutomaticGraphicsSwitching</key>
-	<true/>
 	<key>CFBundleDocumentTypes</key>
 	<array>
 		<dict>
@@ -462,7 +458,7 @@
 	<key>CFBundleGetInfoString</key>
 	<string>%CFBundleGetInfoString%</string>
 	<key>CFBundleShortVersionString</key>
-	<string>%VERSION%</string>
+	<string>%CFBundleShortVersionString%</string>
 	<key>CFBundleIconFile</key>
 	<string>%SmalltalkName%.icns</string>
 	<key>CFBundleIdentifier</key>
@@ -470,21 +466,27 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>%VERSION%</string>
+	<string>%CFBundleName%</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleSignature</key>
 	<string>FAST</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>%CFBundleVersion%</string>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
 	<key>CGDisableCoalescedUpdates</key>
 	<true/>
 	<key>LSBackgroundOnly</key>
 	<false/>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Licensed under the MIT License with parts under the Apache License.</string>
 	<key>NSPrincipalClass</key>
 	<string>SqueakOSXApplication</string>
+	<key>NSSupportsAutomaticGraphicsSwitching</key>
+	<true/>
 	<key>SqueakBrowserMouseCmdButton1</key>
 	<integer>3</integer>
 	<key>SqueakBrowserMouseCmdButton2</key>
@@ -560,7 +562,7 @@
 	<key>SqueakUIFlushUseHighPercisionClock</key>
 	<false/>
 	<key>SqueakUnTrustedDirectory</key>
-	<string>~/Library/Preferences/Squeak/Internet/My Squeak/</string>
+	<string>~/Documents/Squeak/</string>
 	<key>SqueakWindowAttribute</key>
 	<data>ggAAHw==</data>
 	<key>SqueakWindowHasTitle</key>

@@ -62,8 +62,10 @@ rm -f "${BUILD_DIR}/squeak.sh.bak"
 # Info.plist
 sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_DESCRIPTION}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%VERSION%/${SQUEAK_VERSION}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION//./}.${IMAGE_BITS}.All-in-One/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION}.${IMAGE_BITS}.All-in-One/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleName%/${SMALLTALK_NAME} ${SQUEAK_VERSION_NUMBER} ${IMAGE_BITS}bit/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleVersion%/${SQUEAK_UPDATE}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.plist"
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 # Squeak.ini (consistent with contents in Info.plist)
