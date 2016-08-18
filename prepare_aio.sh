@@ -42,6 +42,7 @@ cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 rm -rf "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj/MainMenu.nib" "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
+cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
 
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
