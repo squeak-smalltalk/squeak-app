@@ -170,7 +170,7 @@ if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
   fi
   TARGET_PATH="${TARGET_PATH}/${IMAGE_NAME}"
   chmod 600 "${ENCRYPTED_DIR}/ssh_deploy_key"
-  rsync -crvz -e "ssh -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/"
+  rsync -rvz --ignore-existing -e "ssh -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/"
   echo "...done."
 else
   echo "...not uploading files because this is not the master branch."
