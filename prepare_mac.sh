@@ -22,11 +22,11 @@ cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
 copy_resources "${RESOURCES_DIR}"
 
 echo "...merging template..."
-cp -r "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
+cp -R "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 rm -rf "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
-cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj/MainMenu.nib" "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
+cp -R "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj/MainMenu.nib" "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
 
 echo "...setting permissions..."
