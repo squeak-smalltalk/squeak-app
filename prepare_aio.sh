@@ -62,15 +62,15 @@ sed -i ".bak" "s/%IMAGE_BITS%/${IMAGE_BITS}/g" "${BUILD_DIR}/squeak.sh"
 rm -f "${BUILD_DIR}/squeak.sh.bak"
 # Info.plist
 sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_DESCRIPTION}/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION}.${IMAGE_BITS}.All-in-One/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleName%/${SMALLTALK_NAME} ${SQUEAK_VERSION_NUMBER} ${IMAGE_BITS}bit/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleName%/${WINDOW_TITLE}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleVersion%/${SQUEAK_UPDATE}/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleVersion%/${IMAGE_BITS} bit/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.plist"
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 # Squeak.ini (consistent with contents in Info.plist)
-sed -i ".bak" "s/%VERSION%/${BUNDLE_DESCRIPTION}/g" "${VM_WIN_TARGET}/Squeak.ini"
+sed -i ".bak" "s/%WindowTitle%/${WINDOW_TITLE}/g" "${VM_WIN_TARGET}/Squeak.ini"
 rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 # Remove .map files from $VM_WIN_TARGET
 rm -f "${VM_WIN_TARGET}/"*.map

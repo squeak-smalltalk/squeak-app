@@ -28,7 +28,7 @@ chmod +x "${BUNDLE_DIR}/Squeak.exe"
 
 echo "...applying various patches..."
 # Squeak.ini
-sed -i ".bak" "s/%VERSION%/${BUNDLE_DESCRIPTION}/g" "${BUNDLE_DIR}/Squeak.ini"
+sed -i ".bak" "s/%WindowTitle%/${WINDOW_TITLE}/g" "${BUNDLE_DIR}/Squeak.ini"
 rm -f "${BUNDLE_DIR}/Squeak.ini.bak"
 # Remove .map files from $BUNDLE_DIR
 rm -f "${BUNDLE_DIR}/"*.map
