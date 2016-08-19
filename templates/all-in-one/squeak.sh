@@ -2,8 +2,8 @@
 # File:        squeak.sh (All-in-One version)
 # Authors:     Bert Freudenberg, Paul DeBruicker, Craig Latta, Chris Muller,
 #              Fabio Niephaus
-# Version:     2.0
-# Date:        08/15/2016
+# Version:     2.1
+# Date:        08/19/2016
 # Description: Script to run Squeak from the all-in-one app structure
 #              (based on Etoys-To-Go)
 
@@ -40,7 +40,7 @@ check_cpu() {
 # Ensure that Linux kernel is newer than 2.6.12 which is required for the heartbeat thread
 ensure_kernel() {
   local kernel_release="$(uname -r)"
-  local re='[^0-9]*\([0-9]*\)[.]\([0-9]*\)[.]\([0-9]*\)\([0-9A-Za-z-]*\)'
+  local re="[^0-9]*\([0-9]*\)[.]\([0-9]*\)[.]\([0-9]*\)\(.*\)"
   local major=$(echo "${kernel_release}" | sed -e "s#${re}#\1#")
   local minor=$(echo "${kernel_release}" | sed -e "s#${re}#\2#")
   local patch=$(echo "${kernel_release}" | sed -e "s#${re}#\3#")
@@ -96,7 +96,8 @@ ensure_image() {
     if which zenity &>/dev/null && [[ "$image_count" -ne 1 ]]; then
       IMAGE=$(zenity --title 'Select an image' --file-selection --filename "${RESOURCES}/" --file-filter '*.image' --file-filter '*')
     else
-      IMAGE="$(find "${RESOURCES}" -name "*.image" | head -n 1)"    
+      # Try to find first .image file not starting with a dot
+      IMAGE="$(find "${RESOURCES}" \( -iname "*.image" ! -iname ".*" \) | head -n 1)"
     fi
   fi
 }
