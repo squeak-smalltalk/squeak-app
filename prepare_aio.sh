@@ -40,9 +40,12 @@ cp "${AIO_TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
 cp -R "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
-rm -rf "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
-cp -R "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj/MainMenu.nib" "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
-cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
+ENGLISH_DIR="${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj"
+if ! is_Squeak_50; then
+  rm -rf "${ENGLISH_DIR}/MainMenu.nib"
+  cp -R "${ENGLISH_DIR}/MainMenu.nib" "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
+  cp "${ENGLISH_DIR}/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
+fi
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
 echo "...setting permissions..."
