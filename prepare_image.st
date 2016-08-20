@@ -47,6 +47,9 @@ Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 		MCMcmUpdater updateFromServer.
 		Transcript show: 'finished with etoys.'; cr; showln: SystemVersion current printString].
 
+Transcript showln: 'Checking for modified versions...'.
+MCWorkingCopy checkModified: true.
+
 ] on: ProgressNotification do: [:p | p resume]
 ] on: Warning do: [:warning | warning resume]
 ] on: MCNoChangesException do: [:ex | ex resume]
@@ -54,10 +57,6 @@ Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 	mrr merger conflicts do: [:conflict |
 		conflict chooseRemote].
 	mrr resume: true].
-
-Transcript showln: 'Checking for modified versions...'.
-[MCWorkingCopy checkModified: true]
-	on: MCEmptyVersion do: [:warning | warning resume].
 
 monitor terminate.
 monitor := nil.
