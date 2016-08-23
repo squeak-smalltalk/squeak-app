@@ -41,15 +41,10 @@ ensure_kernel() {
     showerror "Linux kernel ($(uname -r)) needs to be newer than ${min_major}.${min_minor}.${min_patch}."
     exit 1
   fi
-}
 
-ensure_vm() {
-  if [[ ! -x "${VM}" ]]; then
-    if [[ ! -r "${VM}" ]]; then
-      showerror "This Squeak version does not support $(uname -s)-${CPU}."
-    else
-      showerror "Squeak does not have permissions to execute."
-    fi
+  # Check for $CONF_FILE on systems with Linux kernel earlier than 4.x.x
+  if [[ "${major}" -lt "4" ]]; then
+    ensure_conf_file
   fi
 }
 
@@ -73,6 +68,16 @@ END
   fi
 }
 
+ensure_vm() {
+  if [[ ! -x "${VM}" ]]; then
+    if [[ ! -r "${VM}" ]]; then
+      showerror "This Squeak version does not support $(uname -s)-${CPU}."
+    else
+      showerror "Squeak does not have permissions to execute."
+    fi
+  fi
+}
+
 # Ensure that an image is selected
 ensure_image() {
   local image_count
@@ -90,7 +95,6 @@ ensure_image() {
 
 ensure_kernel
 ensure_vm
-ensure_conf_file
 ensure_image
 
 echo "Using ${VM}..."
