@@ -24,6 +24,30 @@ mv "${TMP_DIR}/"*.changes "${TMP_DIR}/Squeak.changes"
 cp -R "${RELEASE_NOTES_DIR}" "${TMP_DIR}/"
 cp "${ICONS_DIR}/balloon.png" "${TMP_DIR}/"
 
+if is_etoys; then
+  travis_fold start main_projects "...preparing etoys main projects..."
+  for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
+    zip -j "${project}.zip" "${project}"/*
+    mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
+  done
+  travis_fold end main_projects
+
+  travis_fold start gallery_projects "...preparing etoys gallery projects..."
+  mkdir -p "${TMP_DIR}/ExampleEtoys"
+  for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
+    zip -j "${project}.zip" "${project}"/*
+    mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
+  done
+  travis_fold end gallery_projects
+
+  echo "...copying etoys quick guides..."
+  for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
+    targetdir="${TMP_DIR}/locale/${language##*/}"
+    mkdir -p "${targetdir}"
+    cp -R "${language}/QuickGuides" "${targetdir}/"
+  done
+fi
+
 echo "...launching, updating, and configuring Squeak..."
 "${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak" "-exitonwarn" \
     "${TMP_DIR}/Squeak.image" "${TRAVIS_BUILD_DIR}/prepare_image.st" "${TRAVIS_SMALLTALK_VERSION}"
@@ -55,30 +79,6 @@ prepare_locales() {
     popd
   done
   travis_fold end prepare_translations
-
-  if is_etoys; then
-    travis_fold start main_projects "...preparing etoys main projects..."
-    for project in "${TRAVIS_BUILD_DIR}/etoys/"*.[0-9]*; do
-      zip -j "${project}.zip" "${project}"/*
-      mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
-    done
-    travis_fold end main_projects
-
-    travis_fold start gallery_projects "...preparing etoys gallery projects..."
-    mkdir -p "${TMP_DIR}/ExampleEtoys"
-    for project in "${TRAVIS_BUILD_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
-      zip -j "${project}.zip" "${project}"/*
-      mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
-    done
-    travis_fold end gallery_projects
-
-    echo "...copying etoys quick guides..."
-    for language in "${TRAVIS_BUILD_DIR}/etoys/QuickGuides/"*; do
-      targetdir="${TMP_DIR}/locale/${language##*/}"
-      mkdir -p "${targetdir}"
-      cp -R "${language}/QuickGuides" "${targetdir}/"
-    done
-  fi
 }
 
 # prepare locales for Squeak later than 5.0

@@ -37,6 +37,11 @@ monitor := [ [
 [[[[
 
 Transcript show: 'Updating...'.
+"XXX HACK work around updater bug"
+[(Installer squeak
+	project: 'trunk';
+	addPackage: 'SmallLand-ColorTheme-fbs.6.mcz')
+	mcThing] on: Error do: [:ex|].
 config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.

@@ -1,6 +1,7 @@
 #!/bin/bash
+git clean -fdx
 export TRAVIS_BUILD_DIR="$(pwd)"
-export TRAVIS_SMALLTALK_VERSION="Etoys-5.1"
+export TRAVIS_SMALLTALK_VERSION="Etoys-trunk"
 
 # On non-Travis runs, just disable codesigning, security, and the extracting
 # of the signing key
@@ -22,9 +23,13 @@ function curl() {
 	"$(which curl)" $@
     fi
 }
+function brew() {
+    sudo $(which brew) $@
+}
 export -f codesign
 export -f security
 export -f unzip
 export -f curl
+export -f brew
 
 exec ./prepare.sh
