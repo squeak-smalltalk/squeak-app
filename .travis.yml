@@ -29,10 +29,3 @@ script: ./prepare.sh
 
 addons:
   ssh_known_hosts: squeak.org
-  # Needed until https://github.com/travis-ci/travis-build/pull/819 is merged
-  apt:
-    packages:
-    - libc6:i386
-    - libuuid1:i386
-    - libfreetype6:i386
-    - libssl1.0.0:i386
