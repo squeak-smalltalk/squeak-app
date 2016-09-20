@@ -41,12 +41,6 @@ config := MCMcmUpdater default updateFromRepository: repo.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
-(smalltalkVersion beginsWith: 'Etoys')
-	ifTrue: [
-		MCMcmUpdater defaultUpdateURL: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/etoys-spur'.
-		MCMcmUpdater updateFromServer.
-		Transcript show: 'finished with etoys.'; cr; showln: SystemVersion current printString].
-
 Transcript showln: 'Checking for modified versions...'.
 MCWorkingCopy checkModified: true.
 
@@ -73,15 +67,10 @@ Project current instVarNamed: #uiManager put: MorphicUIManager new.
 Utilities setAuthorInitials: ''.
 
 "Finish."
-ReleaseBuilder prepareEnvironment.
-
-(smalltalkVersion beginsWith: 'Etoys')
-	ifTrue: [
-		Smalltalk zapAllOtherProjects.
-		ProjectHistory currentHistory initialize.
-		Smalltalk garbageCollect.
-		Project rebuildAllProjects.
-		ReleaseBuilderSqueakland new prepareReleaseImage].
+((smalltalkVersion beginsWith: 'Etoys')
+    ifTrue: [Smalltalk classNamed: 'ReleaseBuilderSqueakland']
+    ifFalse: [ReleaseBuilder])
+        prepareEnvironment.
 
 "Write out version information for deployment."
 FileStream fileNamed: 'version.sh' do: [:strm |
