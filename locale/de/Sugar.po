@@ -1,16 +1,5 @@
 msgid ""
-msgstr ""
-"Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-08-04 17:03-0000\n"
-"PO-Revision-Date: 2016-08-05 11:44+0200\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-Domain: Sugar\n"
-"Language: de\n"
-"X-Generator: Poedit 1.8.8\n"
+msgstr "Project-Id-Version: eToys\nPOT-Creation-Date: 2016-08-04 17:03-0000\nPO-Revision-Date: 2016-08-05 11:44+0200\nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Etoys-Domain: Sugar\nLanguage: de\nX-Generator: Poedit 1.8.8\n"
 
 #: Kernel-Objects,Object>>yourself
 msgid "          rest          "
@@ -61,23 +50,12 @@ msgid " height="
 msgstr " Höhe="
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-" is not a number;\n"
-"please correct and try again"
-msgstr ""
-" ist keine Zahl;\n"
-"Bitte verbessern und nochmals versuchen"
+msgid " is not a number;\nplease correct and try again"
+msgstr " ist keine Zahl;\nBitte verbessern und nochmals versuchen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-" is used by one or more members\n"
-"in your archive, and cannot be overwritten.\n"
-"Try writing to another file name"
-msgstr ""
-" stimmt mit einer oder mehreren Dateien\n"
-"in deinem Archiv überein und kann daher\n"
-"nicht überschrieben werden.\n"
-"Versuche es mit einem anderen Dateinamen"
+msgid " is used by one or more members\nin your archive, and cannot be overwritten.\nTry writing to another file name"
+msgstr " stimmt mit einer oder mehreren Dateien\nin deinem Archiv überein und kann daher\nnicht überschrieben werden.\nVersuche es mit einem anderen Dateinamen"
 
 #: Kernel-Objects,Object>>yourself
 msgid " loud"
@@ -96,12 +74,8 @@ msgid " OK "
 msgstr ""
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-" seconds.\n"
-"Double-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
-msgstr ""
-" Sekunden.\n"
-"Doppelklicken zum Anhören des Klangs.  \"Hinzufügen zu Klangbibliothek\" verfügbar im Halo-Menü.  Auch verwendbar zum Ablegen auf eine Notenrolle oder eine Ereignisrolle"
+msgid " seconds.\nDouble-click to hear the sound.  \"add to sound library\" available in halo menu.  Also suitable for dropping into a piano-roll or into an event-roll"
+msgstr " Sekunden.\nDoppelklicken zum Anhören des Klangs.  \"Hinzufügen zu Klangbibliothek\" verfügbar im Halo-Menü.  Auch verwendbar zum Ablegen auf eine Notenrolle oder eine Ereignisrolle"
 
 #: Kernel-Objects,Object>>yourself
 msgid " second(s) trimmed"
@@ -280,38 +254,8 @@ msgid "A viewer and editor for Zip archive files"
 msgstr "Ein Werkzeug, um Zip-Archive zu betrachten und zu bearbeiten"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"A \"stack\" is a place where you can create, store, view and retrieve data \"fields\" from a set of \"cards\".  Data that you want to occur on every card (such as a name and an address in an Address Stack) are represented by objects such as \"Simple Text\", \"Fancy Text\", and \"Scrolling Text\" that you obtain from the Stack Tools flap.\n"
-"\n"
-"When you look at a card in a Stack, you may be seeing three different kinds of material.  Press the § button in the stack's controls to see the current designations, and use the \"explain designations\" to get a reminder of what the three different colors mean.\n"
-"·  Things that are designated to be seen on every card, and have the same contents whichever card is being shown. (green)\n"
-"·  Things that are designated to be seen on every card, with each card having its own value for them. (orange)\n"
-"·  Things that are designated to occur only on the particular card at hand. (red)\n"
-"\n"
-"Use the \"stack/cards\" menu (in an object's halo menu) to change the designation of any object.  For example, if you have an object that is private to just one card, and you want to make it visible on all cards, use \"place onto background\".  If you further want it to hold a separate value for each separate card, use \"start holding separate data for each instance\".\n"
-"\n"
-"The normal sequence to define a Stack's structure is to obtain a blank Stack, then create your fields by grabbing what you want from the Stack Tools flap and dropping it where you want it in the stack.  For easiest use, give a name to each field (by editing the name in its halo) *before* you put it onto the background..  Those fields that you want to represent the basic data of the stack need to be given names, placed on the background, and then told to hold separate data.\n"
-"\n"
-"When you hit the + button in a stack's controls, a new card is created with default values in all the fields.  You can arrange for a particular default value to be used in a field -- do this either for one field at a time with \"be default value on new card\", or you can request that the all the values seen on a particular card serve as default by choosing \"be defaults for new cards\" from the stack's · menu.\n"
-"\n"
-"It is also possible to have multiple \"backgrounds\" in the same stack -- each different background defines a different data structure, and cards from multiple backgrounds can be freely mixed in the same stack.\n"
-"\n"
-"Besides text fields, it is also possible to have picture-valued fields -- and potentially fields with data values of any other type as well."
-msgstr ""
-"a \"Stack \" ist ein Ort, an dem Sie, speichern Ansicht erstellen und Daten \\ abrufen \"Felder \" aus einer Reihe von \"Karten \". Daten, die Sie auf jeder Karte (wie ein Name und eine Adresse in einem Adress Stack) auftreten soll durch Objekte wie \"einfachen Text \", \"fancy text \" und \"Scrolling text \" dargestellt, Sie erhalten aus dem Stapel Tools Klappe. \n"
-"\\ n, wenn Sie auf einer Karte in einem Stapel aussehen, können Sie drei verschiedene Arten von Material zu sehen sein. drücken Sie die Taste § in den Reglern des Stapels die aktuellen Bezeichnungen zu sehen, und verwenden Sie die \"Bezeichnungen erklären \", um eine Erinnerung von dem, was die drei verschiedenen Farben bedeuten. \n"
-"· Dinge, die auf jeder Karte bezeichnet sind zu sehen, und haben den gleichen Inhalt je nachdem, was Karte gezeigt wird. (Grün) \n"
-"· Dinge, die auf jeder Karte zu sehen sind, zu bezeichnen, wobei jede Karte für sie einen eigenen Wert. (Orange) \n"
-"· Dinge, die bestimmt sind nur auf die jeweilige Karte in der Hand auftreten. (Rot) \n"
-"\n"
-"verwenden, um die \"Stapel / Karten \" Menü (in einem Halo Menü des Objekts) die Benennung eines Objekts zu ändern. zum Beispiel, wenn Sie ein Objekt, das auf nur einer Karte ist privat, und Sie wollen es auf allen Karten, die Verwendung \"Platz auf Hintergrund \" sichtbar zu machen. wenn Sie weiter wollen, dass es einen separaten Wert für jede einzelne Karte zu halten, verwenden Sie \"beginnen getrennte Daten für jede Instanz \\ halten\". \n"
-"\n"
-"den normalen zeitlichen Ablauf eines Stapels Struktur zu definieren, ist eine leere Stapel zu erhalten, dann erstellen Sie Ihre Felder durch greifen, was Sie aus dem Stapel Tools Klappe wollen und fallen, wo du es in dem Stapel wollen. für einfachste Anwendung, einen Namen zu jedem Feld geben (durch Bearbeiten des Namens in seinem Halo) * vor * Sie es auf den Hintergrund .. die Felder, die Sie die Basisdaten des Stapels darstellen wollen, müssen Namen gegeben werden, platziert auf dem Hintergrund, und dann gesagt, getrennte Daten zu halten. \n"
-"\\ n, wenn Sie die Taste in einem Stapel der Kontrollen getroffen, eine neue Karte mit Standardwerten in allen Bereichen geschaffen. Sie können für einen bestimmten Standardwert arrangieren mit \"sein Standardwert auf neue Karte \", oder Sie können verlangen, zu einer Zeit, in einem Bereich, tun dies entweder für ein Feld verwendet werden, dass die alle auf einer bestimmten Karte gesehen Werte dienen als Standard durch die Wahl \"Standardeinstellungen für neue Karten sein \" aus dem · Menü-Stack. \n"
-"\n"
-"ist es auch mehrere \"Hintergründe \" zu haben, möglich, in demselben Stapel jeweils unterschiedlichen Hintergrund definiert eine andere Datenstruktur, und Karten aus mehreren Hintergründen kann sich frei im gleichen Stapel gemischt werden. \n"
-"\n"
-"neben Textfeldern, ist es auch möglich, Bild bewertet Felder zu haben und möglicherweise Felder als auch mit Datenwerten eines anderen Typs."
+msgid "A \"stack\" is a place where you can create, store, view and retrieve data \"fields\" from a set of \"cards\".  Data that you want to occur on every card (such as a name and an address in an Address Stack) are represented by objects such as \"Simple Text\", \"Fancy Text\", and \"Scrolling Text\" that you obtain from the Stack Tools flap.\n\nWhen you look at a card in a Stack, you may be seeing three different kinds of material.  Press the § button in the stack's controls to see the current designations, and use the \"explain designations\" to get a reminder of what the three different colors mean.\n·  Things that are designated to be seen on every card, and have the same contents whichever card is being shown. (green)\n·  Things that are designated to be seen on every card, with each card having its own value for them. (orange)\n·  Things that are designated to occur only on the particular card at hand. (red)\n\nUse the \"stack/cards\" menu (in an object's halo menu) to change the designation of any object.  For example, if you have an object that is private to just one card, and you want to make it visible on all cards, use \"place onto background\".  If you further want it to hold a separate value for each separate card, use \"start holding separate data for each instance\".\n\nThe normal sequence to define a Stack's structure is to obtain a blank Stack, then create your fields by grabbing what you want from the Stack Tools flap and dropping it where you want it in the stack.  For easiest use, give a name to each field (by editing the name in its halo) *before* you put it onto the background..  Those fields that you want to represent the basic data of the stack need to be given names, placed on the background, and then told to hold separate data.\n\nWhen you hit the + button in a stack's controls, a new card is created with default values in all the fields.  You can arrange for a particular default value to be used in a field -- do this either for one field at a time with \"be default value on new card\", or you can request that the all the values seen on a particular card serve as default by choosing \"be defaults for new cards\" from the stack's · menu.\n\nIt is also possible to have multiple \"backgrounds\" in the same stack -- each different background defines a different data structure, and cards from multiple backgrounds can be freely mixed in the same stack.\n\nBesides text fields, it is also possible to have picture-valued fields -- and potentially fields with data values of any other type as well."
+msgstr "a \"Stack \" ist ein Ort, an dem Sie, speichern Ansicht erstellen und Daten \\ abrufen \"Felder \" aus einer Reihe von \"Karten \". Daten, die Sie auf jeder Karte (wie ein Name und eine Adresse in einem Adress Stack) auftreten soll durch Objekte wie \"einfachen Text \", \"fancy text \" und \"Scrolling text \" dargestellt, Sie erhalten aus dem Stapel Tools Klappe. \n\\ n, wenn Sie auf einer Karte in einem Stapel aussehen, können Sie drei verschiedene Arten von Material zu sehen sein. drücken Sie die Taste § in den Reglern des Stapels die aktuellen Bezeichnungen zu sehen, und verwenden Sie die \"Bezeichnungen erklären \", um eine Erinnerung von dem, was die drei verschiedenen Farben bedeuten. \n· Dinge, die auf jeder Karte bezeichnet sind zu sehen, und haben den gleichen Inhalt je nachdem, was Karte gezeigt wird. (Grün) \n· Dinge, die auf jeder Karte zu sehen sind, zu bezeichnen, wobei jede Karte für sie einen eigenen Wert. (Orange) \n· Dinge, die bestimmt sind nur auf die jeweilige Karte in der Hand auftreten. (Rot) \n\nverwenden, um die \"Stapel / Karten \" Menü (in einem Halo Menü des Objekts) die Benennung eines Objekts zu ändern. zum Beispiel, wenn Sie ein Objekt, das auf nur einer Karte ist privat, und Sie wollen es auf allen Karten, die Verwendung \"Platz auf Hintergrund \" sichtbar zu machen. wenn Sie weiter wollen, dass es einen separaten Wert für jede einzelne Karte zu halten, verwenden Sie \"beginnen getrennte Daten für jede Instanz \\ halten\". \n\nden normalen zeitlichen Ablauf eines Stapels Struktur zu definieren, ist eine leere Stapel zu erhalten, dann erstellen Sie Ihre Felder durch greifen, was Sie aus dem Stapel Tools Klappe wollen und fallen, wo du es in dem Stapel wollen. für einfachste Anwendung, einen Namen zu jedem Feld geben (durch Bearbeiten des Namens in seinem Halo) * vor * Sie es auf den Hintergrund .. die Felder, die Sie die Basisdaten des Stapels darstellen wollen, müssen Namen gegeben werden, platziert auf dem Hintergrund, und dann gesagt, getrennte Daten zu halten. \n\\ n, wenn Sie die Taste in einem Stapel der Kontrollen getroffen, eine neue Karte mit Standardwerten in allen Bereichen geschaffen. Sie können für einen bestimmten Standardwert arrangieren mit \"sein Standardwert auf neue Karte \", oder Sie können verlangen, zu einer Zeit, in einem Bereich, tun dies entweder für ein Feld verwendet werden, dass die alle auf einer bestimmten Karte gesehen Werte dienen als Standard durch die Wahl \"Standardeinstellungen für neue Karten sein \" aus dem · Menü-Stack. \n\nist es auch mehrere \"Hintergründe \" zu haben, möglich, in demselben Stapel jeweils unterschiedlichen Hintergrund definiert eine andere Datenstruktur, und Karten aus mehreren Hintergründen kann sich frei im gleichen Stapel gemischt werden. \n\nneben Textfeldern, ist es auch möglich, Bild bewertet Felder zu haben und möglicherweise Felder als auch mit Datenwerten eines anderen Typs."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Abandon"
@@ -435,21 +379,15 @@ msgstr "sind Sie sicher, dass Sie nicht verwendete Zeichenketten zu entfernen?"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Are you sure you want to destroy this Project\\ and revert to an older version?\\\\(From the parent project, click on this project's thumbnail.)"
-msgstr ""
-"Willst du dieses Projekt wirklich löschen\n"
-"und zu einer älteren Version zurückkehren?\\\\(Klicke im übergeordneten Projekt auf das Symbol für dieses Projekt.)"
+msgstr "Willst du dieses Projekt wirklich löschen\nund zu einer älteren Version zurückkehren?\\\\(Klicke im übergeordneten Projekt auf das Symbol für dieses Projekt.)"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Are you sure you want to Quit Squeak?"
 msgstr "sind Sie sicher, dass Sie Squeak beenden möchten?"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Are you sure you want to quit Etoys?\n"
-"(the project will NOT be saved)"
-msgstr ""
-"Willst du Etoys wirklich beenden?\n"
-"(Das Projekt wird NICHT gespeichert!)"
+msgid "Are you sure you want to quit Etoys?\n(the project will NOT be saved)"
+msgstr "Willst du Etoys wirklich beenden?\n(Das Projekt wird NICHT gespeichert!)"
 
 #: Kernel-Objects,Object>>yourself
 msgid "ArrowNames"
@@ -772,11 +710,7 @@ msgid "Ballon Help font..."
 msgstr "Ballon Hilfe font ..."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Before calling tempCommand, you\n"
-"should first give it a definition.  To\n"
-"do this, choose \"define tempCommand\"\n"
-"from the debug menu."
+msgid "Before calling tempCommand, you\nshould first give it a definition.  To\ndo this, choose \"define tempCommand\"\nfrom the debug menu."
 msgstr "vor Temp Befehl aufrufen, müssen Sie \\ sollte zunächst eine Definition geben. ndo dies, wählen Sie \"definieren Temp Befehl \" \\ aus dem Debug-Menü auf \\."
 
 #: Kernel-Objects,Object>>yourself
@@ -1120,12 +1054,8 @@ msgid "Cannot truncate this number"
 msgstr "Kann den ganzzahligen Teil dieser Zahl nicht bestimmen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Can't delete {1}\n"
-"Select another file"
-msgstr ""
-"Löschen von {1} fehlgeschlagen\n"
-"Andere Datei wählen"
+msgid "Can't delete {1}\nSelect another file"
+msgstr "Löschen von {1} fehlgeschlagen\nAndere Datei wählen"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Can't exit the top project"
@@ -1140,26 +1070,12 @@ msgid "Categories"
 msgstr "Kategorien"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Caution -- every card of this background\n"
-"formerly had its own value for this\n"
-"item.  If you put it on the foreground,\n"
-"the values  of this item on all other\n"
-"cards will be lost"
+msgid "Caution -- every card of this background\nformerly had its own value for this\nitem.  If you put it on the foreground,\nthe values  of this item on all other\ncards will be lost"
 msgstr "jede Karte dieser Hintergrund Vorsicht \\ hatte früher seinen eigenen Wert für diese \\ nItem. wenn Sie es auf den Vordergrund, \\ nDie Werte dieses Artikels auf alle anderen \\ Karten setzen, gehen verloren"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Caution:  this is dangerous and destructive!\n"
-"Do you really want to \"trim\" your recording?\n"
-"(It might be smart to save the untrimmed\n"
-"version in a sound token before trimming)"
-msgstr ""
-"Achtung:  Das ist gefährlich und führt zu Beschädigungen!\n"
-"Willst du deine Aufnahme wirklich zurechtschneiden?\n"
-"(Es ist vielleicht klüger, die unbeschnittene\n"
-"Version vor dem weiteren Schneiden\n"
-"zuerst in ein Klang-Token zu speichern.)"
+msgid "Caution:  this is dangerous and destructive!\nDo you really want to \"trim\" your recording?\n(It might be smart to save the untrimmed\nversion in a sound token before trimming)"
+msgstr "Achtung:  Das ist gefährlich und führt zu Beschädigungen!\nWillst du deine Aufnahme wirklich zurechtschneiden?\n(Es ist vielleicht klüger, die unbeschnittene\nVersion vor dem weiteren Schneiden\nzuerst in ein Klang-Token zu speichern.)"
 
 #: Kernel-Objects,Object>>yourself
 msgid "CellPositioning"
@@ -1218,12 +1134,8 @@ msgid "Choose a flaps font"
 msgstr "Auswahl der Schriftart für Klappen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Choose a group of servers\n"
-"from which to fetch updates."
-msgstr ""
-"Eine Gruppe von Servern zum Herunterladen\n"
-"von Aktualisierungen auswählen"
+msgid "Choose a group of servers\nfrom which to fetch updates."
+msgstr "Eine Gruppe von Servern zum Herunterladen\nvon Aktualisierungen auswählen"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Choose a group of servers\\from which to fetch updates."
@@ -1246,14 +1158,8 @@ msgid "Choose a theme to install"
 msgstr "Thema auswählen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Choose a vocabulary\n"
-"blue = current\n"
-"red = imperfect"
-msgstr ""
-"Wähle ein Vokabular\n"
-"blau = gegenwärtig\n"
-"rot = unvollständig"
+msgid "Choose a vocabulary\nblue = current\nred = imperfect"
+msgstr "Wähle ein Vokabular\nblau = gegenwärtig\nrot = unvollständig"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Choose another directory"
@@ -1364,9 +1270,7 @@ msgid "Choose the standard menu font"
 msgstr "Auswahl der Standardschriftart für Menüs"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Choose the TYPE\n"
-"for "
+msgid "Choose the TYPE\nfor "
 msgstr "wählen Sie den Typ \\ für "
 
 #: Kernel-Objects,Object>>yourself
@@ -1974,14 +1878,8 @@ msgid "create a new file"
 msgstr "Erstellen Sie eine neue Datei"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"create a new file\n"
-"choose another name\n"
-"cancel"
-msgstr ""
-"Neue Datei anlegen\n"
-"Einen anderen Namen wählen\n"
-"Abbrechen"
+msgid "create a new file\nchoose another name\ncancel"
+msgstr "Neue Datei anlegen\nEinen anderen Namen wählen\nAbbrechen"
 
 #: Kernel-Objects,Object>>yourself
 msgid "create a new,. empty file, and add it to the current directory."
@@ -2144,12 +2042,8 @@ msgid "Destination Zip File Name:"
 msgstr "Name des zu benutzenden Zip-Archivs:"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Destroy this script\n"
-"(CAUTION!!)"
-msgstr ""
-"zerstören dieses Skript \n"
-"(Vorsicht !!)"
+msgid "Destroy this script\n(CAUTION!!)"
+msgstr "zerstören dieses Skript \n(Vorsicht !!)"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Dial a telephone number"
@@ -2192,19 +2086,11 @@ msgid "Do not write file"
 msgstr "nicht schreiben, Datei"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Do not write file\n"
-"Write file anyway\n"
-"Debug"
-msgstr ""
-"Datei nicht schreiben\n"
-"Datei trotzdem schreiben\n"
-"Debug"
+msgid "Do not write file\nWrite file anyway\nDebug"
+msgstr "Datei nicht schreiben\nDatei trotzdem schreiben\nDebug"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Do you really want to delete {1}\n"
-"and all its content?"
+msgid "Do you really want to delete {1}\nand all its content?"
 msgstr "tun Sie löschen möchten, um wirklich {1} \\ und alle seine Inhalte?"
 
 #: Kernel-Objects,Object>>yourself
@@ -2220,19 +2106,8 @@ msgid "Document could not be fetched"
 msgstr "Dokument konnte nicht geholt werden"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Double-click on me to change my color; \n"
-"single-click on me to change border color;\n"
-"hold mouse down within me and then move it to grow \n"
-" or shrink. When I time out my border changes width.\n"
-"Choose which of the above will work\n"
-"by selecting the boxes in the middle.\n"
-"See the boxes balloons."
-msgstr ""
-"Klicken Sie doppelt auf mich meine Farbe zu ändern; \\ Nsingle auf mich klicken Grenzfarbe zu ändern; \\ Nhold Maus in mir nach unten und dann \n"
-"oder schrumpfen zu wachsen bewegen. wenn ich meine Grenze Breite ändert Timeout. \n"
-"wählen, welche der oben arbeiten \\ nby Auswahl der Boxen in der Mitte. \n"
-"die Boxen Ballons zu sehen."
+msgid "Double-click on me to change my color; \nsingle-click on me to change border color;\nhold mouse down within me and then move it to grow \n or shrink. When I time out my border changes width.\nChoose which of the above will work\nby selecting the boxes in the middle.\nSee the boxes balloons."
+msgstr "Klicken Sie doppelt auf mich meine Farbe zu ändern; \\ Nsingle auf mich klicken Grenzfarbe zu ändern; \\ Nhold Maus in mir nach unten und dann \noder schrumpfen zu wachsen bewegen. wenn ich meine Grenze Breite ändert Timeout. \nwählen, welche der oben arbeiten \\ nby Auswahl der Boxen in der Mitte. \ndie Boxen Ballons zu sehen."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Drag to set the record level"
@@ -2347,12 +2222,8 @@ msgid "delete directory..."
 msgstr "Verzeichnis löschen..."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"delete old version\n"
-"cancel"
-msgstr ""
-"Alte Version löschen\n"
-"Abbrechen"
+msgid "delete old version\ncancel"
+msgstr "Alte Version löschen\nAbbrechen"
 
 #: Kernel-Objects,Object>>yourself
 msgid "delete the seleted item"
@@ -2619,20 +2490,8 @@ msgid "Enable sharing. When another user joins, you can exchange objects."
 msgstr "Teilen ermöglichen. Wenn ein anderer Nutzer teilnimmt, könnt ihr Objekte austauschen."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Enter a dash specification as\n"
-"{ major dash length. minor dash length. minor dash color }\n"
-"The major dash will have the normal border color.\n"
-"A blank response will remove the dash specification.\n"
-"[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
-"where the 4th ityem is zero, and the 5th is the number of pixels\n"
-"by which the dashes will move in each step of animation]"
-msgstr ""
-"einen Bindestrich-Spezifikation als \n"
-"{Hauptstrichlänge eingeben. kleinere Strichlänge . Moll Strich Farbe} \n"
-"der Haupt Strich wird die normale Grenzfarbe haben \n"
-"eine leere Antwort wird der Bindestrich-Spezifikation entfernen \n"
-"[Anmerkung:.. Sie 5 Elemente wie geben kann, zum Beispiel {10. 5. Farbe Weiß. 0. 3} \\ Nwhere die 4. ityem Null ist, und der fünfte ist die Anzahl der Pixel \\ nby denen die Striche in jedem Schritt der Animation bewegt]"
+msgid "Enter a dash specification as\n{ major dash length. minor dash length. minor dash color }\nThe major dash will have the normal border color.\nA blank response will remove the dash specification.\n[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\nwhere the 4th ityem is zero, and the 5th is the number of pixels\nby which the dashes will move in each step of animation]"
+msgstr "einen Bindestrich-Spezifikation als \n{Hauptstrichlänge eingeben. kleinere Strichlänge . Moll Strich Farbe} \nder Haupt Strich wird die normale Grenzfarbe haben \neine leere Antwort wird der Bindestrich-Spezifikation entfernen \n[Anmerkung:.. Sie 5 Elemente wie geben kann, zum Beispiel {10. 5. Farbe Weiß. 0. 3} \\ Nwhere die 4. ityem Null ist, und der fünfte ist die Anzahl der Pixel \\ nby denen die Striche in jedem Schritt der Animation bewegt]"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Enter a new file name"
@@ -2883,44 +2742,12 @@ msgid "File not found: {1}"
 msgstr "Datei nicht gefunden: {1}"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"File '{1}' is {2} bytes long.\n"
-"You may use the 'get' command to read the entire file.\n"
-"\n"
-"Here are the first 3500 characters...\n"
-"------------------------------------------\n"
-"{3}\n"
-"------------------------------------------\n"
-"... end of the first 3500 characters."
-msgstr ""
-"Datei '{1}' ist {2} Byte groß.\n"
-"Du solltest den Befehl 'get' anwenden, um die ganze Datei lesen zu können.\n"
-"\n"
-"Hier sind die ersten 3500 Zeichen...\n"
-"------------------------------------------\n"
-"{3}\n"
-"------------------------------------------\n"
-"... Ende der ersten 3500 Zeichen."
+msgid "File '{1}' is {2} bytes long.\nYou may use the 'get' command to read the entire file.\n\nHere are the first 3500 characters...\n------------------------------------------\n{3}\n------------------------------------------\n... end of the first 3500 characters."
+msgstr "Datei '{1}' ist {2} Byte groß.\nDu solltest den Befehl 'get' anwenden, um die ganze Datei lesen zu können.\n\nHier sind die ersten 3500 Zeichen...\n------------------------------------------\n{3}\n------------------------------------------\n... Ende der ersten 3500 Zeichen."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"File '{1}' is {2} bytes long.\n"
-"You may use the 'get' command to read the entire file.\n"
-"\n"
-"Here are the first 5000 characters...\n"
-"------------------------------------------\n"
-"{3}\n"
-"------------------------------------------\n"
-"... end of the first 5000 characters."
-msgstr ""
-"Die Datei '{1}' ist {2} Bytes groß.\n"
-"Mit dem Befehl \"ganze Datei laden\" kann sie vollständig gelesen werden.\n"
-"\n"
-"Die ersten 5000 Zeichen...\n"
-"------------------------------------------\n"
-"{3}\n"
-"------------------------------------------\n"
-"... Ende der ersten 5000 Zeichen."
+msgid "File '{1}' is {2} bytes long.\nYou may use the 'get' command to read the entire file.\n\nHere are the first 5000 characters...\n------------------------------------------\n{3}\n------------------------------------------\n... end of the first 5000 characters."
+msgstr "Die Datei '{1}' ist {2} Bytes groß.\nMit dem Befehl \"ganze Datei laden\" kann sie vollständig gelesen werden.\n\nDie ersten 5000 Zeichen...\n------------------------------------------\n{3}\n------------------------------------------\n... Ende der ersten 5000 Zeichen."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Find an entry in the Journal.  Hold mouse button down for further options."
@@ -3035,9 +2862,7 @@ msgid "filter"
 msgstr "Filter"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"filter with\n"
-"(empty string means no-filtering)"
+msgid "filter with\n(empty string means no-filtering)"
 msgstr "Filter mit \\ ein (leerer String bedeutet, dass keine Filterung)"
 
 #: Kernel-Objects,Object>>yourself
@@ -3797,15 +3622,8 @@ msgid "Invoke menu"
 msgstr "Menü öffnen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"It looks like a problem occurred while\n"
-"getting this project. It may be temporary,\n"
-"so you may want to try again,"
-msgstr ""
-"Anscheinend ist ein Problem aufgetreten,\n"
-"während versucht wurde, das Projekt verfügbar zu machen.\n"
-"Möglicherweise ist es nur vorübergehend,\n"
-"sodass du es nochmals versuchen solltest,"
+msgid "It looks like a problem occurred while\ngetting this project. It may be temporary,\nso you may want to try again,"
+msgstr "Anscheinend ist ein Problem aufgetreten,\nwährend versucht wurde, das Projekt verfügbar zu machen.\nMöglicherweise ist es nur vorübergehend,\nsodass du es nochmals versuchen solltest,"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Italic"
@@ -4200,14 +4018,8 @@ msgid "Length of this movie in seconds"
 msgstr "Länge dieses Filmes in Sekunden"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Let me type the name now\n"
-"Let me think about it\n"
-"Let me find a conversion file on the disk"
-msgstr ""
-"Lass mich den Namen jetzt eingeben\n"
-"Lass mich darüber nachdenken\n"
-"Lass mich eine Umwandlungsdatei auf der Festplatte suchen"
+msgid "Let me type the name now\nLet me think about it\nLet me find a conversion file on the disk"
+msgstr "Lass mich den Namen jetzt eingeben\nLass mich darüber nachdenken\nLass mich eine Umwandlungsdatei auf der Festplatte suchen"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Lets you change the amount of columns in the spreadsheet"
@@ -4702,36 +4514,8 @@ msgid "Making bundle"
 msgstr "Erstelle XO-Paket"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Many aspects of the system are governed by the settings of various \"Preferences\".  \n"
-"\n"
-"Click on any of brown tabs at the top of the panel to see all the preferences in that category.  \n"
-"Or type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n"
-"\n"
-"To find out more about any particular Preference, hold the mouse over it for a moment and balloon help will appear.  Also, a complete list of all the Preferences, with documentation for each, is included below.\n"
-"\n"
-"Preferences whose names are in shown in bold in the Preferences Panel are designated as being allowed to vary from project to project; those whose name are not in bold are \"global\", which is to say, they apply equally whatever project you are in.\n"
-"\n"
-"Click on the name of any preference to get a menu which allows you to *change* whether the preference should vary from project to project or should be global, and also allows you to browse all the senders of the preference, and to discover all the categories under which the preference has been classified, and to be handed a button that you can drop wherever you please that will control the preference.\n"
-"\n"
-"If you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n"
-"\n"
-"Also, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
-msgstr ""
-"Viele Elemente des Systems können über \"Einstellungen\" verwaltet werden.  \n"
-"\n"
-"Klicke auf eine der Kategorien ganz oben, um alle zugehörigen Einstellungen anzuzeigen.  \n"
-"Du kannst auch das Gewünschte in dem Feld über dem Suchknopf eingeben und dann auf \"Suchen\" drücken. Es erscheinen dann alle Einstellungen, die deiner Eingabe entsprechen, in den \"search results\".  Eine Einstellung entspricht deiner Suche, wenn ihr Name *oder* etwas im Hilfetext zu dieser Einstellung mit deiner Eingabe übereinstimmt.\n"
-"\n"
-"Um mehr über eine bestimmte Einstellung herauszufinden, halte kurz die Maus darüber und es erscheint eine Hilfeblase.  Weiter unten kannst du dir eine komplette Liste aller Einstellungen mit Erläuterungen ansehen.\n"
-"\n"
-"Einstellungen, deren Namen \"fett\" dargestellt sind, können sich zwischen Projekten unterscheiden. Die nicht \"fett\" markierten Einstellungen sind allgemein gültig, d.h. sie gelten für jedes Projekt, in dem Du dich befindest.\n"
-"\n"
-"Klicke auf den Namen einer Einstellung, um ein Menü zu erhalten. Dieses erlaubt dir *festzulegen*, ob eine Einstellungen zwischen den Projekten variiert oder allgemein gültig ist. Ferner kannst du die Nutzer der Einstellung und alle zu ihr gehörigen Kategorien untersuchen. Du kannst auch einen Knopf zur Verwaltung der Einstellung erhalten, der sich überall ablegen lässt.\n"
-"\n"
-"Wenn Du mit deinen momentanen Einstellungen zufrieden bist, dann solltest diese als persönliche Einstellungen speichern mittels \"Momentane Werte als Persönliche Einstellungen\". Dadurch können diese jederzeit wiederhergestellt werden mit \"Persönliche Einstellungen wiederherstellen\".\n"
-"\n"
-"Ferner kannst du \"Themen\" verwenden, um mehrere Einstellungen auf einmal zu setzen. Klicke dafür auf den \"Themen ändern\"-Knopf in der Squeak-Klappe oder im Kontrollfeld der Einstellungen, oder wähle ein Thema aus im Menü \"Aussehen\"."
+msgid "Many aspects of the system are governed by the settings of various \"Preferences\".  \n\nClick on any of brown tabs at the top of the panel to see all the preferences in that category.  \nOr type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n\nTo find out more about any particular Preference, hold the mouse over it for a moment and balloon help will appear.  Also, a complete list of all the Preferences, with documentation for each, is included below.\n\nPreferences whose names are in shown in bold in the Preferences Panel are designated as being allowed to vary from project to project; those whose name are not in bold are \"global\", which is to say, they apply equally whatever project you are in.\n\nClick on the name of any preference to get a menu which allows you to *change* whether the preference should vary from project to project or should be global, and also allows you to browse all the senders of the preference, and to discover all the categories under which the preference has been classified, and to be handed a button that you can drop wherever you please that will control the preference.\n\nIf you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n\nAlso, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
+msgstr "Viele Elemente des Systems können über \"Einstellungen\" verwaltet werden.  \n\nKlicke auf eine der Kategorien ganz oben, um alle zugehörigen Einstellungen anzuzeigen.  \nDu kannst auch das Gewünschte in dem Feld über dem Suchknopf eingeben und dann auf \"Suchen\" drücken. Es erscheinen dann alle Einstellungen, die deiner Eingabe entsprechen, in den \"search results\".  Eine Einstellung entspricht deiner Suche, wenn ihr Name *oder* etwas im Hilfetext zu dieser Einstellung mit deiner Eingabe übereinstimmt.\n\nUm mehr über eine bestimmte Einstellung herauszufinden, halte kurz die Maus darüber und es erscheint eine Hilfeblase.  Weiter unten kannst du dir eine komplette Liste aller Einstellungen mit Erläuterungen ansehen.\n\nEinstellungen, deren Namen \"fett\" dargestellt sind, können sich zwischen Projekten unterscheiden. Die nicht \"fett\" markierten Einstellungen sind allgemein gültig, d.h. sie gelten für jedes Projekt, in dem Du dich befindest.\n\nKlicke auf den Namen einer Einstellung, um ein Menü zu erhalten. Dieses erlaubt dir *festzulegen*, ob eine Einstellungen zwischen den Projekten variiert oder allgemein gültig ist. Ferner kannst du die Nutzer der Einstellung und alle zu ihr gehörigen Kategorien untersuchen. Du kannst auch einen Knopf zur Verwaltung der Einstellung erhalten, der sich überall ablegen lässt.\n\nWenn Du mit deinen momentanen Einstellungen zufrieden bist, dann solltest diese als persönliche Einstellungen speichern mittels \"Momentane Werte als Persönliche Einstellungen\". Dadurch können diese jederzeit wiederhergestellt werden mit \"Persönliche Einstellungen wiederherstellen\".\n\nFerner kannst du \"Themen\" verwenden, um mehrere Einstellungen auf einmal zu setzen. Klicke dafür auf den \"Themen ändern\"-Knopf in der Squeak-Klappe oder im Kontrollfeld der Einstellungen, oder wähle ein Thema aus im Menü \"Aussehen\"."
 
 #: Kernel-Objects,Object>>yourself
 msgid "MaybePutAnotherCategoryHere"
@@ -5259,10 +5043,7 @@ msgstr "Zahl"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Numerous \"Preferences\" govern many things about the way Squeak looks and behaves.  Set individual preferences using a \"Preferences\" panel.  Set an entire \"theme\" of many Preferences all at the same time by pressing this \"change theme\" button and choosing a theme to install.  Look in category \"themes\" in Preferences class to see what each theme does; add your own methods to the \"themes\" category and they will show up in the list of theme choices."
-msgstr ""
-"Zahlreiche Einstellungen regeln das Aussehen und Verhalten von Squeak. Einzelne Einstellungen werden im Einstellungsmanager gesetzt.\n"
-"Ein Thema setzt zahlreiche Einstellungen gleichzeitig, indem man den \"Thema wählen\"-Knopf drückt und ein Thema auswählt. \n"
-"Die Kategorie \"themes\" in der Klasse \"Preferences\" beschreibt jedes Thema in einer Methode."
+msgstr "Zahlreiche Einstellungen regeln das Aussehen und Verhalten von Squeak. Einzelne Einstellungen werden im Einstellungsmanager gesetzt.\nEin Thema setzt zahlreiche Einstellungen gleichzeitig, indem man den \"Thema wählen\"-Knopf drückt und ein Thema auswählt. \nDie Kategorie \"themes\" in der Klasse \"Preferences\" beschreibt jedes Thema in einer Methode."
 
 #: Kernel-Objects,Object>>yourself
 msgid "name"
@@ -5373,19 +5154,7 @@ msgid "no themes found"
 msgstr "Keine Themen gefunden"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"normal -- run when called\n"
-"paused -- ready to run all the time\n"
-"ticking -- run all the time\n"
-"mouseDown -- run when mouse goes down on me\n"
-"mouseStillDown -- while mouse still down\n"
-"mouseUp -- when mouse comes back up\n"
-"mouseEnter -- when mouse enters my bounds, button up\n"
-"mouseLeave -- when mouse exits my bounds, button up\n"
-"mouseEnterDragging -- when mouse enters my bounds, button down\n"
-"mouseLeaveDragging -- when mouse exits my bounds, button down\n"
-"opening -- when I am being opened\n"
-"closing -- when I am being closed"
+msgid "normal -- run when called\npaused -- ready to run all the time\nticking -- run all the time\nmouseDown -- run when mouse goes down on me\nmouseStillDown -- while mouse still down\nmouseUp -- when mouse comes back up\nmouseEnter -- when mouse enters my bounds, button up\nmouseLeave -- when mouse exits my bounds, button up\nmouseEnterDragging -- when mouse enters my bounds, button down\nmouseLeaveDragging -- when mouse exits my bounds, button down\nopening -- when I am being opened\nclosing -- when I am being closed"
 msgstr "Normallauf , wenn \\ npaused bereit genannt die ganze Zeit \\ nticking laufen die ganze Zeit \\ nmouse nach unten laufen zu laufen, wenn die Maus auf mich geht nach unten \\ nmouse noch nach unten, während die Maus immer noch nach unten \\ nmouse, wenn Maus nach oben \\ kommt zurück nmouse eingeben, wenn die Maus betritt meine Grenzen, Taste nach oben \\ nmouse verlassen, wenn die Maus meine Grenzen verlässt, Taste nach oben \\ ziehen nmouse eingeben, wenn die Maus meine Grenzen gelangt, Taste gedrückt \\ ziehen nmouse verlassen, wenn die Maus meine Grenzen verlässt, Taste gedrückt \\ nopening wenn i \\ nclosing geöffnet werde zu werden, wenn i geschlossen bin"
 
 #: Kernel-Objects,Object>>yourself
@@ -5393,14 +5162,8 @@ msgid "not translated"
 msgstr "nicht übersetzt"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"note that this will only have a noticeable\n"
-"effect if the universalTiles preference is\n"
-"set to true, which it currently is not"
-msgstr ""
-"Diese Änderung hat nur Auswirkungen, wenn\n"
-"die \"universalTiles\"-Einstellung gesetzt ist,\n"
-"was momentan nicht der Fall ist"
+msgid "note that this will only have a noticeable\neffect if the universalTiles preference is\nset to true, which it currently is not"
+msgstr "Diese Änderung hat nur Auswirkungen, wenn\ndie \"universalTiles\"-Einstellung gesetzt ist,\nwas momentan nicht der Fall ist"
 
 #: Kernel-Objects,Object>>yourself
 msgid "nothing to revert to"
@@ -5451,14 +5214,8 @@ msgid "Objects Hierarchy"
 msgstr "Objekte Hierarchie"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Objects you drag into the trash will automatically be saved here, one object per page, in case you need them later.  To disable this feature set the \"preserveTrash\" Preference to false.\n"
-"\n"
-"You can individually expunge objects by hitting the - control, and you can empty out all the objects in the trash can by hitting the \"EMPTY\" button at top right."
-msgstr ""
-"Objekte, die du in den Müll schiebst, werden automatisch hier gespeichert. Dies kannst du abschalten, in dem du die \"preserveTrash\"-Einstellung auf falsch setzt.\n"
-"\n"
-"Mit dem Knopf \"Ausleeren\" (rechts oben) kannst du alle Objekte auf einmal löschen."
+msgid "Objects you drag into the trash will automatically be saved here, one object per page, in case you need them later.  To disable this feature set the \"preserveTrash\" Preference to false.\n\nYou can individually expunge objects by hitting the - control, and you can empty out all the objects in the trash can by hitting the \"EMPTY\" button at top right."
+msgstr "Objekte, die du in den Müll schiebst, werden automatisch hier gespeichert. Dies kannst du abschalten, in dem du die \"preserveTrash\"-Einstellung auf falsch setzt.\n\nMit dem Knopf \"Ausleeren\" (rechts oben) kannst du alle Objekte auf einmal löschen."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Ogg Speex compress sound"
@@ -5477,9 +5234,7 @@ msgid "Old book"
 msgstr "altes Buch"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"One method in change set \"{1}\"\\has a halt, reference to the Transcript,\n"
-"and/or some other 'slip' in it.\\Would you like to browse it?"
+msgid "One method in change set \"{1}\"\\has a halt, reference to the Transcript,\nand/or some other 'slip' in it.\\Would you like to browse it?"
 msgstr "ein Verfahren, bei Änderung Satz \"{1} \" \\ hat einen Stillstand, wobei Bezug auf das Transkript, \\ nund / oder einem anderen \"Abrutschen\" in ihm. \\ möchten Sie es zu durchsuchen?"
 
 #: Kernel-Objects,Object>>yourself
@@ -5563,14 +5318,8 @@ msgid "Opening journal entry"
 msgstr "Öffne Tagebucheintrag"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Or, click to see Supplies.  \n"
-"Choose an object or \n"
-"choose the Object Catalog for more choices."
-msgstr ""
-"Oder klicke hier, um das Lager zu sehen.  \n"
-"Wähle ein Objekt aus oder \n"
-"nutze den Objektkatalog für weitere Wahlmöglichkeiten."
+msgid "Or, click to see Supplies.  \nChoose an object or \nchoose the Object Catalog for more choices."
+msgstr "Oder klicke hier, um das Lager zu sehen.  \nWähle ein Objekt aus oder \nnutze den Objektkatalog für weitere Wahlmöglichkeiten."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Other windows without color preferences."
@@ -5793,22 +5542,12 @@ msgid "overlaps any"
 msgstr "überlappt irgendein"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"overwrite that file\n"
-"choose another name\n"
-"cancel"
-msgstr ""
-"Datei überschreiben\n"
-"Einen anderen Namen wählen\n"
-"Abbrechen"
+msgid "overwrite that file\nchoose another name\ncancel"
+msgstr "Datei überschreiben\nEinen anderen Namen wählen\nAbbrechen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"overwrite that file\n"
-"select another file"
-msgstr ""
-"Diese Datei überschreiben\n"
-"Neuen Dateinamen wählen"
+msgid "overwrite that file\nselect another file"
+msgstr "Diese Datei überschreiben\nNeuen Dateinamen wählen"
 
 #: Kernel-Objects,Object>>yourself
 msgid "overwrite that file\\choose another name\\cancel"
@@ -6411,28 +6150,16 @@ msgid "R"
 msgstr ""
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Reading an instance of {1}.\n"
-"Which modern class should it translate to?"
-msgstr ""
-"Lese eine Instanz von {1} ein.\n"
-"In welche moderne Klasse soll sie übersetzt werden?"
+msgid "Reading an instance of {1}.\nWhich modern class should it translate to?"
+msgstr "Lese eine Instanz von {1} ein.\nIn welche moderne Klasse soll sie übersetzt werden?"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Reads the data from the file and loads it in the spreadsheet"
 msgstr "liest die Daten aus der Datei und lädt sie in der Tabelle"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Really delete the icon\n"
-"and remove the project\n"
-"{1} from Etoys?\n"
-"(file will still be saved on disk)"
-msgstr ""
-"Wirklich das Symbol löschen\n"
-"und das Projekt {1}\n"
-"aus Etoys entfernen?\n"
-"(die Datei bleibt auf der Festplatte gespeichert)"
+msgid "Really delete the icon\nand remove the project\n{1} from Etoys?\n(file will still be saved on disk)"
+msgstr "Wirklich das Symbol löschen\nund das Projekt {1}\naus Etoys entfernen?\n(die Datei bleibt auf der Festplatte gespeichert)"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Really delete {1}?"
@@ -6507,12 +6234,8 @@ msgid "Remove the vertex at my current cursor position"
 msgstr "Den Knotenpunkt an der momentanen Position meines Knotenzeigers entfernen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Removing \"{1}\".\n"
-"Are you sure you want to do this?"
-msgstr ""
-"Entfernen \"{1} \". \n"
-"sind Sie sicher, dass Sie dies tun wollen?"
+msgid "Removing \"{1}\".\nAre you sure you want to do this?"
+msgstr "Entfernen \"{1} \". \nsind Sie sicher, dass Sie dies tun wollen?"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Rename"
@@ -7163,12 +6886,8 @@ msgid "Select the file..."
 msgstr "wählen Sie die Datei ..."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Select the font to be\n"
-"used for buttons"
-msgstr ""
-"Auswahl der Schriftart\n"
-" für Schaltknöpfe"
+msgid "Select the font to be\nused for buttons"
+msgstr "Auswahl der Schriftart\n für Schaltknöpfe"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Select Zip archive to open..."
@@ -7359,12 +7078,8 @@ msgid "Simple Change Sorter"
 msgstr "einfache Änderung Sortierer"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Since this project has not been saved yet,\n"
-"I cannot tell someone where it is."
-msgstr ""
-"Nachdem das Projekt noch nicht gespeichert wurde,\n"
-"kann ich niemandem Bescheid sagen, wo es ist."
+msgid "Since this project has not been saved yet,\nI cannot tell someone where it is."
+msgstr "Nachdem das Projekt noch nicht gespeichert wurde,\nkann ich niemandem Bescheid sagen, wo es ist."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Skeleton"
@@ -7379,14 +7094,8 @@ msgid "Sorry, I cannot find that file"
 msgstr "Leider kann ich diese Datei nicht finden"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Sorry, I cannot find the user list.\n"
-"(this may be due to a network problem)\n"
-"Please hit Cancel if you wish to use Squeak."
-msgstr ""
-"Tut mir leid, ich kann die Benutzerliste nicht finden\n"
-" (möglicherweise auf Grund von Netzwerkproblemen).\n"
-" Bitte drücke auf Abbrechen, wenn du Squeak verwenden möchtest."
+msgid "Sorry, I cannot find the user list.\n(this may be due to a network problem)\nPlease hit Cancel if you wish to use Squeak."
+msgstr "Tut mir leid, ich kann die Benutzerliste nicht finden\n (möglicherweise auf Grund von Netzwerkproblemen).\n Bitte drücke auf Abbrechen, wenn du Squeak verwenden möchtest."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Sound Library"
@@ -8506,9 +8215,7 @@ msgstr "Der Richtungswinkel zu einem anderen Partikel"
 
 #: Kernel-Objects,Object>>yourself
 msgid "The angle, in degrees, that my heading vector makes with the positive x-axis"
-msgstr ""
-"Der Winkel (in Grad) zwischen meinem Richtungsvektor \n"
-"und der positiven x-Achse"
+msgstr "Der Winkel (in Grad) zwischen meinem Richtungsvektor \nund der positiven x-Achse"
 
 #: Kernel-Objects,Object>>yourself
 msgid "The angular displacement"
@@ -8779,31 +8486,8 @@ msgid "The number represented when the knob is at the right or bottom of the sli
 msgstr "Der größte Wert, den der Regler zurückgibt"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"The Objects tool allows you to browse through, and obtain copies of, many kinds of objects.  \n"
-"\n"
-"You can obtain an Objects tool by choosing \"Objects\" from the world menu, or by the shortcut of typing alt-o (cmd-o) any time the cursor is over the desktop.\n"
-"\n"
-"There are three ways to use Objects, corresponding to the three tabs seen at the top:\n"
-"\n"
-"alphabetic - gives you separate tabs for a, b, c, etc.  Click any tab, and you will see the icons of all the objects whose names begin with that letter\n"
-"\n"
-"search - gives you a type-in pane for a search string.  Type any letters there, and icons of all the objects whose names match what you have typed will appear in the bottom pane.\n"
-"\n"
-"categories - provides tabs representing categories of related items.  Click on any tab to see the icons of all the objects in the category.\n"
-"\n"
-"When the cursor lingers over the icon of any object, you will get balloon help for the item.\n"
-"\n"
-"When you drag an icon from Objects, it will result in a new copy of it in your hand; the new object will be deposited wherever you next click."
-msgstr ""
-"die Objekte Tool ermöglicht es Ihnen, zu durchsuchen und erhalten Kopien, viele Arten von Objekten. \\n\n"
-"können Sie ein Werkzeug Objekte, indem Sie \\ erhalten \"Objekte \" aus der Welt Menü oder durch die Verknüpfung der Eingabe alt o (cmd o) jederzeit den Cursor auf dem Desktop ist. \\n\n"
-"gibt es drei Möglichkeiten, Objekte zu verwenden, auf die drei Registerkarten oben gesehen entspricht: \n"
-"\\ nalphabetic gibt Ihnen für einen separaten Registerkarten, b, c, usw. eine beliebige Registerkarte klicken, und Sie werden die Symbole aller Objekte, deren Namen mit sehen dieser Brief \n"
-"\\ nsearch gibt Ihnen eine Art in Glas für einen Suchbegriff. Geben Sie dort alle Buchstaben und Symbole aller Objekte, deren Namen entsprechen, was Sie eingegeben haben im unteren Bereich. \n"
-"\\ Ncategories bietet Tabs repräsentieren Kategorien verwandter Elemente angezeigt. klicken Sie auf eine Registerkarte, um die Symbole aller Objekte in der Kategorie zu sehen. \n"
-"\\ n, wenn der Cursor über das Symbol eines beliebigen Objekts verweilt, werden Sie Ballon-Hilfe für das Einzelteil erhalten. \n"
-"\\ n, wenn Sie ziehen ein Symbol aus Objekte, wird es in einer neuen Kopie davon in der Hand führen; Das neue Objekt wird hinterlegt, wo immer Sie auf Weiter klicken."
+msgid "The Objects tool allows you to browse through, and obtain copies of, many kinds of objects.  \n\nYou can obtain an Objects tool by choosing \"Objects\" from the world menu, or by the shortcut of typing alt-o (cmd-o) any time the cursor is over the desktop.\n\nThere are three ways to use Objects, corresponding to the three tabs seen at the top:\n\nalphabetic - gives you separate tabs for a, b, c, etc.  Click any tab, and you will see the icons of all the objects whose names begin with that letter\n\nsearch - gives you a type-in pane for a search string.  Type any letters there, and icons of all the objects whose names match what you have typed will appear in the bottom pane.\n\ncategories - provides tabs representing categories of related items.  Click on any tab to see the icons of all the objects in the category.\n\nWhen the cursor lingers over the icon of any object, you will get balloon help for the item.\n\nWhen you drag an icon from Objects, it will result in a new copy of it in your hand; the new object will be deposited wherever you next click."
+msgstr "die Objekte Tool ermöglicht es Ihnen, zu durchsuchen und erhalten Kopien, viele Arten von Objekten. \\n\nkönnen Sie ein Werkzeug Objekte, indem Sie \\ erhalten \"Objekte \" aus der Welt Menü oder durch die Verknüpfung der Eingabe alt o (cmd o) jederzeit den Cursor auf dem Desktop ist. \\n\ngibt es drei Möglichkeiten, Objekte zu verwenden, auf die drei Registerkarten oben gesehen entspricht: \n\\ nalphabetic gibt Ihnen für einen separaten Registerkarten, b, c, usw. eine beliebige Registerkarte klicken, und Sie werden die Symbole aller Objekte, deren Namen mit sehen dieser Brief \n\\ nsearch gibt Ihnen eine Art in Glas für einen Suchbegriff. Geben Sie dort alle Buchstaben und Symbole aller Objekte, deren Namen entsprechen, was Sie eingegeben haben im unteren Bereich. \n\\ Ncategories bietet Tabs repräsentieren Kategorien verwandter Elemente angezeigt. klicken Sie auf eine Registerkarte, um die Symbole aller Objekte in der Kategorie zu sehen. \n\\ n, wenn der Cursor über das Symbol eines beliebigen Objekts verweilt, werden Sie Ballon-Hilfe für das Einzelteil erhalten. \n\\ n, wenn Sie ziehen ein Symbol aus Objekte, wird es in einer neuen Kopie davon in der Hand führen; Das neue Objekt wird hinterlegt, wo immer Sie auf Weiter klicken."
 
 #: Kernel-Objects,Object>>yourself
 msgid "The object this bubble is currently following"
@@ -8846,23 +8530,12 @@ msgid "The position of the object, expressed as a point"
 msgstr "Die Position des Objektes, als Punkt ausgedrückt"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"The preferred change set directory ('{1}') does not exist.\n"
-"Create it or use the default directory ({2})?"
-msgstr ""
-"Das bevorzugte Änderungslistenverzeichnis ('{1}') existiert nicht.\n"
-"Soll es neu erstellt werden oder das Standardverzeichnis ({2}) genutzt werden?"
+msgid "The preferred change set directory ('{1}') does not exist.\nCreate it or use the default directory ({2})?"
+msgstr "Das bevorzugte Änderungslistenverzeichnis ('{1}') existiert nicht.\nSoll es neu erstellt werden oder das Standardverzeichnis ({2}) genutzt werden?"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"The project {1}\n"
-"contains sub-projects.  You must remove these\n"
-"explicitly before removing their parent."
-msgstr ""
-"Das Projekt {1}\n"
-"enthält Unterprojekte.\n"
-"Diese müssen gelöscht werden, bevor\n"
-"das Elternprojekt gelöscht werden kann."
+msgid "The project {1}\ncontains sub-projects.  You must remove these\nexplicitly before removing their parent."
+msgstr "Das Projekt {1}\nenthält Unterprojekte.\nDiese müssen gelöscht werden, bevor\ndas Elternprojekt gelöscht werden kann."
 
 #: Kernel-Objects,Object>>yourself
 msgid "The rate for the decay function."
@@ -9009,15 +8682,8 @@ msgid "The y coordinate value at the vertex cursor"
 msgstr "Der Wert der y-Koordinate beim Knotenzeiger"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Theme {1} is now installed.\n"
-"Many of the changes will only be\n"
-"noticeable in new windows that you\n"
-"create from now on."
-msgstr ""
-"Das Thema {1} ist jetzt installiert.\n"
-"Die meisten Änderungen werden\n"
-"erst in neuen Fenstern sichtbar."
+msgid "Theme {1} is now installed.\nMany of the changes will only be\nnoticeable in new windows that you\ncreate from now on."
+msgstr "Das Thema {1} ist jetzt installiert.\nDie meisten Änderungen werden\nerst in neuen Fenstern sichtbar."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Themes & Colors"
@@ -9036,15 +8702,8 @@ msgid "There are updates available. Do you want to install them now?"
 msgstr "Es sind Aktualiserungen verfügbar. Willst du diese jetzt installieren?"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"This command requires that the\n"
-"change sets selected on the two\n"
-"sides of the change sorter *not*\n"
-"be the same."
-msgstr ""
-"Die Änderungslisten auf beiden Seiten\n"
-"der Änderungsverwaltung müssen\n"
-"*unterschiedlich* sein."
+msgid "This command requires that the\nchange sets selected on the two\nsides of the change sorter *not*\nbe the same."
+msgstr "Die Änderungslisten auf beiden Seiten\nder Änderungsverwaltung müssen\n*unterschiedlich* sein."
 
 #: Kernel-Objects,Object>>yourself
 msgid "This controls the human language in which tiles should be viewed.  It is potentially extensible to be a true localization mechanism, but initially it only works in the classic tile scripting system.  Each project has its own private language choice"
@@ -9067,28 +8726,16 @@ msgid "This is an ALPHA version. It means that new features might be\\introduced
 msgstr "Dies ist eine Alpha-Version. es bedeutet, dass neue Funktionen möglicherweise \\ mit jedem Update oder dass sehr grundlegende Funktionen könnten \\ sein im Moment ziemlich buggy eingeführt werden. \\\\ unterlassen Sie bitte diese Version für wichtige Projekte verwenden."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"This is not a PasteUpMorph or\n"
-"exported Project."
-msgstr ""
-"Dies ist weder ein PasteUpMorph\n"
-"noch ein exportiertes Projekt."
+msgid "This is not a PasteUpMorph or\nexported Project."
+msgstr "Dies ist weder ein PasteUpMorph\nnoch ein exportiertes Projekt."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"This is the name of current project.\n"
-"You can edit it as well."
-msgstr ""
-"Das ist der Name des aktuellen Projektes.\n"
-"Du kannst ihn auch ändern."
+msgid "This is the name of current project.\nYou can edit it as well."
+msgstr "Das ist der Name des aktuellen Projektes.\nDu kannst ihn auch ändern."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"This language needs additional fonts.\n"
-"Do you want to install the fonts?"
-msgstr ""
-"Diese Sprache benötigt zusätzliche Schriften.\n"
-"Sollen diese installiert werden?"
+msgid "This language needs additional fonts.\nDo you want to install the fonts?"
+msgstr "Diese Sprache benötigt zusätzliche Schriften.\nSollen diese installiert werden?"
 
 #: Kernel-Objects,Object>>yourself
 msgid "This object will always show whatever is on the text clipboard, in a scrollable pane."
@@ -9103,50 +8750,8 @@ msgid "This project thinks it has never been on a server"
 msgstr "Dieses Projekt ist möglicherweise noch nicht auf einem Server gespeichert."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n"
-"\n"
-"Click on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n"
-"\n"
-"Play button -- press this to start playing the selected sound.\n"
-"\n"
-"Stop button -- if the selected sound is playing, pressing this will stop it.\n"
-"\n"
-"Tile button -- Click on this to obtain a scripting tile representing the selected sound.\n"
-"\n"
-"Rename button -- allows you to rename the selected sound.\n"
-"\n"
-"Delete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n"
-"\n"
-"Load button -- allows you to load a sound into the Sound Library from a file.\n"
-"\n"
-"You can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n"
-"\n"
-"Note: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n"
-"\n"
-"Additionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
-msgstr ""
-"Dieses Werkzeug hilft beim Betrachten und Verwalten der \"Klangbibliothek\". Die Klangbibliothek ist eine Liste aller Klänge mit Namen, die im Kachel-Skript-System verwendet werden können.\n"
-"\n"
-"Klicke auf einen Klangnamen, um ihn auszuwählen.  Die Knöpfe ganz oben beim Werkzeug beziehen sich dann auf den von dir ausgewählten Klang.\n"
-"\n"
-"Abspielen -- Damit kannst du den ausgewählten Klang abspielen.\n"
-"\n"
-"Stopp -- Wenn der ausgewählte Klang abgespielt wird beendet dieser Knopf das Abspielen.\n"
-"\n"
-"Kachel -- Klicke darauf, um eine programmierbare Kachel mit dem ausgewählten Klang zu erhalten.\n"
-"\n"
-"Umbenennen -- Damit kannst du den ausgewählten Klang umbenennen.\n"
-"\n"
-"Löschen -- Damit kannst du den ausgewählten Klang aus der Klangbibliothek löschen.  Alle Kacheln, die früher auf diesen Klang verwiesen haben, werden auf den Klang \"quak\" geändert.\n"
-"\n"
-"Laden -- Damit kannst du einen Klang aus einer Datei in die Klangbibliothek laden.\n"
-"\n"
-"Du kannst Klänge zur Klangbibliothek mit dem Klangrekorder hinzufügen und auch mittels Ablegen einer externen Klangdatei (z.B. Dateien mit der Endung .waf oder .aif).\n"
-"\n"
-"Hinweis: Der in das System eingebaute \"Universal\"-Klang kann nicht umbenannt oder gelöscht werden.\n"
-"\n"
-"Einen Befehl zum Öffnen eines \"Sample-Editors\" für den ausgewählten Klang findest du im Halo-Menü des Werkzeuges."
+msgid "This tool allows you to view and manage the \"Sound Library\", which is the list of named sounds that can be used in the tile-scripting system.\n\nClick on a sound name in the list to select it.  The buttons at the top of the tool apply to the sound you have selected.\n\nPlay button -- press this to start playing the selected sound.\n\nStop button -- if the selected sound is playing, pressing this will stop it.\n\nTile button -- Click on this to obtain a scripting tile representing the selected sound.\n\nRename button -- allows you to rename the selected sound.\n\nDelete button -- allows you to delete the selected sound from the Sound Library.  All tiles that formerly pointed to this sound will be changed to point to \"croak\" instead.\n\nLoad button -- allows you to load a sound into the Sound Library from a file.\n\nYou can also add sounds to the Sound library using the Sound Recorder, and also by dragging an external sound file (e.g. a file with extensions .wav or .aif)  into etoys.\n\nNote: the \"universal\" sounds built in to the system cannot be renamed or deleted.\n\nAdditionally, a command for opening a \"wave editor\" tool on the selected sound can be found in the tool's halo menu."
+msgstr "Dieses Werkzeug hilft beim Betrachten und Verwalten der \"Klangbibliothek\". Die Klangbibliothek ist eine Liste aller Klänge mit Namen, die im Kachel-Skript-System verwendet werden können.\n\nKlicke auf einen Klangnamen, um ihn auszuwählen.  Die Knöpfe ganz oben beim Werkzeug beziehen sich dann auf den von dir ausgewählten Klang.\n\nAbspielen -- Damit kannst du den ausgewählten Klang abspielen.\n\nStopp -- Wenn der ausgewählte Klang abgespielt wird beendet dieser Knopf das Abspielen.\n\nKachel -- Klicke darauf, um eine programmierbare Kachel mit dem ausgewählten Klang zu erhalten.\n\nUmbenennen -- Damit kannst du den ausgewählten Klang umbenennen.\n\nLöschen -- Damit kannst du den ausgewählten Klang aus der Klangbibliothek löschen.  Alle Kacheln, die früher auf diesen Klang verwiesen haben, werden auf den Klang \"quak\" geändert.\n\nLaden -- Damit kannst du einen Klang aus einer Datei in die Klangbibliothek laden.\n\nDu kannst Klänge zur Klangbibliothek mit dem Klangrekorder hinzufügen und auch mittels Ablegen einer externen Klangdatei (z.B. Dateien mit der Endung .waf oder .aif).\n\nHinweis: Der in das System eingebaute \"Universal\"-Klang kann nicht umbenannt oder gelöscht werden.\n\nEinen Befehl zum Öffnen eines \"Sample-Editors\" für den ausgewählten Klang findest du im Halo-Menü des Werkzeuges."
 
 #: Kernel-Objects,Object>>yourself
 msgid "This virtual machine does not support the optional primitive #primitiveInterpreterSourceVersion"
@@ -9165,26 +8770,12 @@ msgid "This will open a method-list browser on all methods that the send the pre
 msgstr "Hier öffnet sich ein Methodenlisten-Browser für alle Methoden, die diese Einstellung benutzen."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"This will remove {1} stored preferences.\n"
-"Are you sure?"
-msgstr ""
-"Es werden {1} gespeicherte Einstellungen gelöscht.\n"
-"Wirklich löschen?"
+msgid "This will remove {1} stored preferences.\nAre you sure?"
+msgstr "Es werden {1} gespeicherte Einstellungen gelöscht.\nWirklich löschen?"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"To start,\n"
-"click here\n"
-"to create\n"
-"a new\n"
-"painting."
-msgstr ""
-"Zum Start\n"
-"klicke hier,\n"
-"um ein neues\n"
-"Bild zu\n"
-"erstellen."
+msgid "To start,\nclick here\nto create\na new\npainting."
+msgstr "Zum Start\nklicke hier,\num ein neues\nBild zu\nerstellen."
 
 #: Kernel-Objects,Object>>yourself
 msgid "TrailStyle"
@@ -9211,14 +8802,8 @@ msgid "Try to find a server\\Cancel"
 msgstr "Server suchen\\Abbrechen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Trying to rename a file to be\n"
-"{1}\n"
-"and it already exists."
-msgstr ""
-"Versuch, eine Datei in\n"
-"{1}\n"
-"umzubennen, obwohl diese bereits existiert."
+msgid "Trying to rename a file to be\n{1}\nand it already exists."
+msgstr "Versuch, eine Datei in\n{1}\numzubennen, obwohl diese bereits existiert."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Turn auto-extent on or off"
@@ -9509,9 +9094,7 @@ msgid "thinkText:"
 msgstr "denken Text:"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"this image has never been saved\n"
-"since changes were compressed"
+msgid "this image has never been saved\nsince changes were compressed"
 msgstr "Dieses Bild wurde nie \\ gespeichert, da Änderungen komprimiert wurden"
 
 #: Kernel-Objects,Object>>yourself
@@ -9859,14 +9442,8 @@ msgid "Unnamed"
 msgstr "Ohne Namen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Update completed.\n"
-"System version is now:\n"
-"{1}"
-msgstr ""
-"Aktualisierung abgeschlossen.\n"
-"Neue Systemversion:\n"
-"{1}"
+msgid "Update completed.\nSystem version is now:\n{1}"
+msgstr "Aktualisierung abgeschlossen.\nNeue Systemversion:\n{1}"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Update completed.\\\\Version: {1}\\Update: {2}\\\\Url: {3}\\Map: '{4}'\\\\{5}"
@@ -10141,9 +9718,7 @@ msgid "usingPrivatePresenterString"
 msgstr "mit privaten Moderator String"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Version notes are not saved.\n"
-"Is it OK to discard those notes?"
+msgid "Version notes are not saved.\nIs it OK to discard those notes?"
 msgstr "Versionshinweise werden nicht gespeichert. \\ und ist es in Ordnung, diese Noten zu verwerfen?"
 
 #: Kernel-Objects,Object>>yourself
@@ -10364,9 +9939,7 @@ msgstr "Bestimmt, ob die Anzeige dem Zeiger folgen soll."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Whether or not to clip my submorphs"
-msgstr ""
-"Bestimmt, ob überstehende Teile\n"
-"versteckt werden sollen."
+msgstr "Bestimmt, ob überstehende Teile\nversteckt werden sollen."
 
 #: Kernel-Objects,Object>>yourself
 msgid "Whether page controls are showing in the book"
@@ -10497,18 +10070,12 @@ msgid "Workspace"
 msgstr "Arbeitsplatz"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Would you like to include all the changes in the change set\n"
-"as part of this publishing operation?"
+msgid "Would you like to include all the changes in the change set\nas part of this publishing operation?"
 msgstr "würden Sie alle Änderungen in der Änderung \\ im Rahmen dieses Verlags Betrieb setzen wollen aufzunehmen?"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"Would you like to include all the changes in the change set\n"
-"\tas part of this publishing operation?"
-msgstr ""
-"Willst du alle Änderungen in die Änderungsliste aufnehmen\n"
-"\tals Teil dieses Veröffentlichungsvorganges?"
+msgid "Would you like to include all the changes in the change set\n\tas part of this publishing operation?"
+msgstr "Willst du alle Änderungen in die Änderungsliste aufnehmen\n\tals Teil dieses Veröffentlichungsvorganges?"
 
 #: Kernel-Objects,Object>>yourself
 msgid "Wrap direction"
@@ -10703,14 +10270,8 @@ msgid "Yes, Update\\No, Not now\\Don't ask again"
 msgstr "Ja, aktualisieren\\Nein, nicht jetzt\\Nicht mehr danach fragen"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"You are about to load some insecure content.\n"
-"If you continue, access to files as well as\n"
-"some other capabilities will be limited."
-msgstr ""
-"Du bist dabei, unsichere Inhalte zu laden.\n"
-"Wenn du weitermachst, werden Dateizugriffe\n"
-"und andere Dinge eingeschränkt."
+msgid "You are about to load some insecure content.\nIf you continue, access to files as well as\nsome other capabilities will be limited."
+msgstr "Du bist dabei, unsichere Inhalte zu laden.\nWenn du weitermachst, werden Dateizugriffe\nund andere Dinge eingeschränkt."
 
 #: Kernel-Objects,Object>>yourself
 msgid "You can either choose an existing item or add a new one.\\What do you want?"
@@ -10793,60 +10354,15 @@ msgid "Zip Tool"
 msgstr "Zip-Werkzeug"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"\n"
-"Press \"Record\" to start recording.  Press Stop when finished recording.\n"
-"\n"
-"After making a recording, you can:\n"
-"   Press \"Play\" to play back the recording.\n"
-"   Press \"Record\" to start a new recording\n"
-"      (the old one would be discarded).\n"
-"   Press \"Save\" to save the recording in the sound library.\n"
-"\n"
-"Press the menu icon to get a menu with further options.\n"
-"\n"
-"If you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n"
-"\n"
-"If you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n"
-"  You can double-click on the sound token to hear the sound again.\n"
-"  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n"
-"  You can drop the sound token into a PianoRoll or an EventRoll.\n"
-msgstr ""
-"\n"
-"Drücke \"Aufzeichnen\" zum Starten der Aufnahme.\n"
-"Drücke \"Stopp\" zum Beenden der Aufnahme.\n"
-"\n"
-"Nach Erstellen der Aufnahme kannst du:\n"
-"   \"Abspielen\" drücken zur Wiedergabe der Aufzeichnung.\n"
-"   \"Aufzeichnung\" drücken zum Starten einer neuen Aufnahme\n"
-"           (die alte wird dabei verworfen).\n"
-"   \"Speichern\" drücken zum Speichern der Aufzeichnung in die Klangbibliothek.\n"
-"\n"
-"Drücke das Menüsymbol, um ein Menü mit weiteren Möglichkeiten zu erhalten.\n"
-"\n"
-"Zum Verwenden der Klänge in Skripten müssen diese zur Klangbibliothek hinzugefügt werden. Drücke dafür \"Speichern\"; du musst dabei einen Namen angeben.\n"
-"\n"
-"Wenn du den Klang aufbewahren, aber nicht in einem Skript verwenden willst, musst du den Klang nicht mit einem Namen versehen. Stattdessen verwende \"Gib mir ein Klang-Token\" im Menü, um ein \"Klang-Token\" zu erhalten. Dieses kann in verschiedener Weise verwendet werden:\n"
-"   Du kannst auf das Klang-Token doppelklicken, um den Klang wieder anzuhören.\n"
-"   Du kannst den Klang auch noch über das Halo-Menü des Klang-Tokens abspeichern.\n"
-"   Du kannst das Klang-Token in eine Notenrolle oder eine Ereignisrolle ablegen.\n"
+msgid "\nPress \"Record\" to start recording.  Press Stop when finished recording.\n\nAfter making a recording, you can:\n   Press \"Play\" to play back the recording.\n   Press \"Record\" to start a new recording\n      (the old one would be discarded).\n   Press \"Save\" to save the recording in the sound library.\n\nPress the menu icon to get a menu with further options.\n\nIf you wish to refer to the sound in scripts, you need to add it to the sound library; press Save to do that; you will need to supply a name for it.\n\nIf you want to retain the sound but do not need to refer to it in scripts, you need not name it; instead, use \"hand me a sound token\", found in the menu, to obtain a little \"sound token\" object that you can subsequently use in a variety of ways:\n  You can double-click on the sound token to hear the sound again.\n  You can decide to save the sound after all, by using an item in the sound token's halo menu.\n  You can drop the sound token into a PianoRoll or an EventRoll.\n"
+msgstr "\nDrücke \"Aufzeichnen\" zum Starten der Aufnahme.\nDrücke \"Stopp\" zum Beenden der Aufnahme.\n\nNach Erstellen der Aufnahme kannst du:\n   \"Abspielen\" drücken zur Wiedergabe der Aufzeichnung.\n   \"Aufzeichnung\" drücken zum Starten einer neuen Aufnahme\n           (die alte wird dabei verworfen).\n   \"Speichern\" drücken zum Speichern der Aufzeichnung in die Klangbibliothek.\n\nDrücke das Menüsymbol, um ein Menü mit weiteren Möglichkeiten zu erhalten.\n\nZum Verwenden der Klänge in Skripten müssen diese zur Klangbibliothek hinzugefügt werden. Drücke dafür \"Speichern\"; du musst dabei einen Namen angeben.\n\nWenn du den Klang aufbewahren, aber nicht in einem Skript verwenden willst, musst du den Klang nicht mit einem Namen versehen. Stattdessen verwende \"Gib mir ein Klang-Token\" im Menü, um ein \"Klang-Token\" zu erhalten. Dieses kann in verschiedener Weise verwendet werden:\n   Du kannst auf das Klang-Token doppelklicken, um den Klang wieder anzuhören.\n   Du kannst den Klang auch noch über das Halo-Menü des Klang-Tokens abspeichern.\n   Du kannst das Klang-Token in eine Notenrolle oder eine Ereignisrolle ablegen.\n"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"\n"
-"Would you like to try the next server?\n"
-"(Normally, all servers are identical, but sometimes a\n"
-"server won't let us store new files, and gets out of date.)"
-msgstr ""
-"\n"
-"Willst den nächsten Server probieren?\n"
-"(Normalerweise sind alle Server gleich, manchmal\n"
-"lässt ein Server jedoch nicht zu, dass wir neue Dateien hinterlegen.)"
+msgid "\nWould you like to try the next server?\n(Normally, all servers are identical, but sometimes a\nserver won't let us store new files, and gets out of date.)"
+msgstr "\nWillst den nächsten Server probieren?\n(Normalerweise sind alle Server gleich, manchmal\nlässt ein Server jedoch nicht zu, dass wir neue Dateien hinterlegen.)"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"\n"
-"(currently "
+msgid "\n(currently "
 msgstr "\\n(derzeit "
 
 #: Kernel-Objects,Object>>yourself
@@ -11034,34 +10550,20 @@ msgid "{1} already exists. Overwrite?"
 msgstr "Eine Datei {1} existiert schon. Überschreiben?"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"{1} contents cannot\n"
-"meaningfully be saved at present."
-msgstr ""
-"{1} Inhalt kann derzeit nicht\n"
-"sinnvoll gespeichert werden."
+msgid "{1} contents cannot\nmeaningfully be saved at present."
+msgstr "{1} Inhalt kann derzeit nicht\nsinnvoll gespeichert werden."
 
 #: Kernel-Objects,Object>>yourself
 msgid "{1} has been deprecated. {2}"
 msgstr "{1} wurde verworfen. {2}"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"{1} is in secure mode.\n"
-"You cannot access the persistent preferences now.\n"
-"To change them, start {1} without loading a project."
-msgstr ""
-"{1} ist im sicheren Modus.\n"
-"Du kannst jetzt nicht auf die dauerhaften Einstellungen zugreifen.\n"
-"Um sie zu verändern, starte {1}, ohne ein Projekt zu laden."
+msgid "{1} is in secure mode.\nYou cannot access the persistent preferences now.\nTo change them, start {1} without loading a project."
+msgstr "{1} ist im sicheren Modus.\nDu kannst jetzt nicht auf die dauerhaften Einstellungen zugreifen.\nUm sie zu verändern, starte {1}, ohne ein Projekt zu laden."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"{1} methods in change set \"{2}\"\\have halts or references to the\n"
-"Transcript or other 'slips' in them.\\Would you like to browse them?"
-msgstr ""
-"{1} Methoden in Änderungsset \"{2} \" \\ Aufenthalte oder Verweise auf die \n"
-"transcript haben oder andere \"schlüpft\" in ihnen. \\ Möchten Sie sie zu durchsuchen?"
+msgid "{1} methods in change set \"{2}\"\\have halts or references to the\nTranscript or other 'slips' in them.\\Would you like to browse them?"
+msgstr "{1} Methoden in Änderungsset \"{2} \" \\ Aufenthalte oder Verweise auf die \ntranscript haben oder andere \"schlüpft\" in ihnen. \\ Möchten Sie sie zu durchsuchen?"
 
 #: Kernel-Objects,Object>>yourself
 msgid "{1} new update file(s) processed."
@@ -11088,20 +10590,12 @@ msgid "{1}Name"
 msgstr "{1} name"
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"{1}\n"
-"already exists."
-msgstr ""
-"{1}\n"
-"existiert bereits."
+msgid "{1}\nalready exists."
+msgstr "{1}\nexistiert bereits."
 
 #: Kernel-Objects,Object>>yourself
-msgid ""
-"{1}\n"
-"does not exist."
-msgstr ""
-"{1}\n"
-"existiert nicht."
+msgid "{1}\ndoes not exist."
+msgstr "{1}\nexistiert nicht."
 
 #: Kernel-Objects,Object>>yourself
 msgid "| {1} phrases | {2} translated | {3} untranslated |"

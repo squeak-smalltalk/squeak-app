@@ -1,15 +1,5 @@
 msgid ""
-msgstr ""
-"Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-21 12:49-0000\n"
-"PO-Revision-Date: 2016-09-21 12:49-0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-Domain: DrGeoII-Core\n"
-
+msgstr "Project-Id-Version: eToys\nPOT-Creation-Date: 2016-09-21 13:36-0000\nPO-Revision-Date: 2016-09-21 13:36-0000\nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Etoys-Domain: DrGeoII-Core\n"
 
 #: DrGeoII-Core-App,DrGService>>addCustomMenuItems:hand:,DrGService>>popupMenu
 msgid "Dr. Geo tools"
@@ -145,13 +135,7 @@ msgstr "Gruppierung erzeugen"
 
 #: DrGeoII-Core-App,DrGeoPresenter>>groupButtonData
 msgid "Create a selection group. To do a selection: i. set moving object mode, ii. select a zone by shift+drag over a background area."
-msgstr "Erzeuge eine Auswahlgruppierung.\n"
-" \n"
-"Treffen einer Auswahl:\n"
-" 1. Stelle den Modus \"bewegliche Objekte\" ein.\n"
-" 2. Wähle einen Bereich aus, indem Du die Umschalttaste\n"
-"   betätigst und mit gedrückter Maustaste einen\n"
-"   Bereich im Hintergrund aufziehst."
+msgstr "Erzeuge eine Auswahlgruppierung.\n \nTreffen einer Auswahl:\n 1. Stelle den Modus \"bewegliche Objekte\" ein.\n 2. Wähle einen Bereich aus, indem Du die Umschalttaste\n   betätigst und mit gedrückter Maustaste einen\n   Bereich im Hintergrund aufziehst."
 
 #: DrGeoII-Core-App,DrGeoPresenter>>homothetyButtonData
 msgid "Homothety (scale)"
@@ -566,18 +550,8 @@ msgid "Build a macro-construction"
 msgstr "Erzeuge eine Makro-Konstruktion"
 
 #: DrGeoII-Core-UI,DrGWizardMacroBuild>>firstPage
-msgid "To build a macro-construction,\n"
-"\n"
-" 1. First select the input paramaters,\n"
-" 2. Next select the output parameters,\n"
-" 3. Next chose a name and a description,\n"
-" 4. Last apply the selection."
-msgstr "Erzeugen einer Makro-Konstruktion:\n"
-"\n"
-" 1. Wähle zunächst die Eingabeparameter.\n"
-" 2. Wähle als nächstes die Ausgabeparameter.\n"
-" 3.Gib dann einen Namen und eine Beschreibung an.\n"
-" 4. Wende schließlich die Auswahl an."
+msgid "To build a macro-construction,\n\n 1. First select the input paramaters,\n 2. Next select the output parameters,\n 3. Next chose a name and a description,\n 4. Last apply the selection."
+msgstr "Erzeugen einer Makro-Konstruktion:\n\n 1. Wähle zunächst die Eingabeparameter.\n 2. Wähle als nächstes die Ausgabeparameter.\n 3.Gib dann einen Namen und eine Beschreibung an.\n 4. Wende schließlich die Auswahl an."
 
 #: DrGeoII-Core-UI,DrGWizardMacroBuild>>fourthPage,DrGWizardMacroPlay>>secondPage,DrGWizardScript>>secondPage
 msgid "Description:"
@@ -604,23 +578,8 @@ msgid "Execute a macro-construction"
 msgstr "Führe eine Makro-Konstruktion aus"
 
 #: DrGeoII-Core-UI,DrGWizardMacroPlay>>firstPage
-msgid "To execute a macro-construction,\n"
-"\n"
-" 1. First select a macro-construction from the list,\n"
-" 2. Select items on the figure. Only items relevant\n"
-" to the selected macro-construction are selectable.\n"
-" Once enough items are selected, the macro is\n"
-" automaticly executed.\n"
-" To start press the 'next' button."
-msgstr "Ausführen einer Makro-Konstruktion:\n"
-"\n"
-" 1. Wähle zunächst eine Makro-Konstruktion aus der Liste.\n"
-" 2. Wähle Objekte in der Zeichnung. Nur Objekte, die\n"
-"   für die Konstruktion von Belang sind, lassen sich\n"
-"   auswählen.\n"
-" Sobald genügend Objekte gewählt sind, wird das Makro\n"
-" automatisch ausgeführt.\n"
-" Klicke zum Start auf 'Weiter'."
+msgid "To execute a macro-construction,\n\n 1. First select a macro-construction from the list,\n 2. Select items on the figure. Only items relevant\n to the selected macro-construction are selectable.\n Once enough items are selected, the macro is\n automaticly executed.\n To start press the 'next' button."
+msgstr "Ausführen einer Makro-Konstruktion:\n\n 1. Wähle zunächst eine Makro-Konstruktion aus der Liste.\n 2. Wähle Objekte in der Zeichnung. Nur Objekte, die\n   für die Konstruktion von Belang sind, lassen sich\n   auswählen.\n Sobald genügend Objekte gewählt sind, wird das Makro\n automatisch ausgeführt.\n Klicke zum Start auf 'Weiter'."
 
 #: DrGeoII-Core-UI,DrGWizardMacroPlay>>secondPage
 msgid "Select a macro-construction then the figure items"
@@ -643,20 +602,8 @@ msgid "previous"
 msgstr "Zurück"
 
 #: DrGeoII-Core-UI,DrGWizardScript>>firstPage
-msgid "To use a script,\n"
-"\n"
-" 1. First select a script from the list,\n"
-" 2. Select items on the figure.\n"
-" Once enough items are selected, the script is\n"
-" inserted in the figure close to the latest selected item.\n"
-" To start press the 'next' button."
-msgstr "Verwenden eines Skriptes:\n"
-"\n"
-" 1. Wähle zunächst ein Skript aus der Liste.\n"
-" 2. Wähle Objekte in der Zeichnung.\n"
-" Sobald genügend Objekte gewählt sind, wird das Skript\n"
-" beim zuletzt gewählten Objekt in die Zeichnung eingefügt.\n"
-" Klicke zum Start auf 'Weiter'."
+msgid "To use a script,\n\n 1. First select a script from the list,\n 2. Select items on the figure.\n Once enough items are selected, the script is\n inserted in the figure close to the latest selected item.\n To start press the 'next' button."
+msgstr "Verwenden eines Skriptes:\n\n 1. Wähle zunächst ein Skript aus der Liste.\n 2. Wähle Objekte in der Zeichnung.\n Sobald genügend Objekte gewählt sind, wird das Skript\n beim zuletzt gewählten Objekt in die Zeichnung eingefügt.\n Klicke zum Start auf 'Weiter'."
 
 #: DrGeoII-Core-UI,DrGWizardScript>>firstPage
 msgid "Use a script in the figure"
@@ -669,4 +616,3 @@ msgstr "Skriptname:"
 #: DrGeoII-Core-UI,DrGWizardScript>>secondPage
 msgid "Select a script then the figure items"
 msgstr "Wähle ein Skript und dann die Objekte in der Zeichnung."
-

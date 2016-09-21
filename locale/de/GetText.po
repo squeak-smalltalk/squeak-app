@@ -1,247 +1,344 @@
 msgid ""
-msgstr ""
-"Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-21 12:49-0000\n"
-"PO-Revision-Date: 2016-09-21 12:49-0000\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-Domain: GetText\n"
-
+msgstr "Project-Id-Version: eToys\nPOT-Creation-Date: 2016-09-21 13:36-0000\nPO-Revision-Date: 2016-09-21 13:36-0000\nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Etoys-Domain: GetText\n"
 
 #: GetText-Editor,LanguageEditor>>addTranslation
+
+#, fuzzy
 msgid "enter the original:"
-msgstr ""
+msgstr "geben Sie das Original:"
 
 #: GetText-Editor,LanguageEditor>>browseMethodsWithTranslation
+
+#, fuzzy
 msgid "select the translation to look for"
-msgstr ""
+msgstr "wählen Sie die Übersetzung zu suchen"
 
 #: GetText-Editor,LanguageEditor>>browseMethodsWithUntranslated
+
+#, fuzzy
 msgid "select the untrans phrase to look for"
-msgstr ""
+msgstr "wählen Sie den untrans Ausdruck zu suchen"
 
 #: GetText-Editor,LanguageEditor>>check,LanguageEditor>>check
+
+#, fuzzy
 msgid "- checked {1} phrases of {2} ({3}%)..."
-msgstr ""
+msgstr "geprüft {1} Sätze von {2} ({3}%) ..."
 
 #: GetText-Editor,LanguageEditor>>checkUntranslatedPhrase:
+
+#, fuzzy
 msgid "possible double-translation"
-msgstr ""
+msgstr "mögliche Doppel Übersetzung"
 
 #: GetText-Editor,LanguageEditor>>codeSelectedTranslation
+
+#, fuzzy
 msgid "exported codes"
-msgstr ""
+msgstr "Export-Codes"
 
 #: GetText-Editor,LanguageEditor>>codeSelectedTranslationAsMimeString
+
+#, fuzzy
 msgid "exported codes in UTF8+Gzip+Base64 encoding"
-msgstr ""
+msgstr "Export-Codes in utf 8 gzip Base64-Codierung"
 
 #: GetText-Editor,LanguageEditor>>filterTranslations,LanguageEditor>>filterUntranslated
-msgid "filter with\n"
-"(empty string means no-filtering)"
-msgstr ""
+
+#, fuzzy
+msgid "filter with\n(empty string means no-filtering)"
+msgstr "Filter mit \ ein (leerer String bedeutet, dass keine Filterung)"
 
 #: GetText-Editor,LanguageEditor>>getText
+
+#, fuzzy
 msgid "Exports the translations to GetText format."
-msgstr ""
+msgstr "exportiert die Übersetzungen Textformat zu erhalten."
 
 #: GetText-Editor,LanguageEditor>>getText
+
+#, fuzzy
 msgid "Imports the translations from GetText format."
-msgstr ""
+msgstr "importiert die Übersetzungen aus dem get-Text-Format."
 
 #: GetText-Editor,LanguageEditor>>getText
+
+#, fuzzy
 msgid "exports the translations to gettext separated format."
-msgstr ""
+msgstr "exportiert die Übersetzungen Text getrennt Format zu bekommen."
 
 #: GetText-Editor,LanguageEditor>>getText
+
+#, fuzzy
 msgid "gettext export"
-msgstr ""
+msgstr "gettext Export"
 
 #: GetText-Editor,LanguageEditor>>getText
+
+#, fuzzy
 msgid "gettext import"
-msgstr ""
+msgstr "gettext importieren"
 
 #: GetText-Editor,LanguageEditor>>getText
+
+#, fuzzy
 msgid "gettext template"
-msgstr ""
+msgstr "gettext-Vorlage"
 
 #: GetText-Editor,LanguageEditor>>getTextImport
+
+#, fuzzy
 msgid "All *.po files"
-msgstr ""
+msgstr "alle * .po-Dateien"
 
 #: GetText-Editor,LanguageEditor>>getTextImport
 msgid "Choose a file"
 msgstr "Datei wählen"
 
 #: GetText-Editor,LanguageEditor>>getTextImport
+
+#, fuzzy
 msgid "Choose translation file"
-msgstr ""
+msgstr "wählen Übersetzungsdatei"
 
 #: GetText-Editor,LanguageEditor>>getTextImportAFile
 msgid "Select a File:"
 msgstr "Datei auswählen:"
 
 #: GetText-Editor,LanguageEditor>>initializeOn:
+
+#, fuzzy
 msgid "Language editor for: "
-msgstr ""
+msgstr "Spracheditor für: "
 
 #: GetText-Editor,LanguageEditor>>initializePanels
+
+#, fuzzy
 msgid "List of all the translated phrases."
-msgstr ""
+msgstr "Liste aller Sätze übersetzt."
 
 #: GetText-Editor,LanguageEditor>>initializePanels
+
+#, fuzzy
 msgid "List of all the untranslated phrases."
-msgstr ""
+msgstr "Liste aller nicht übersetzten Phrasen."
 
 #: GetText-Editor,LanguageEditor>>initializePanels
+
+#, fuzzy
 msgid "Translation for the selected phrase in the upper list."
-msgstr ""
+msgstr "Übersetzung für die gewählte Begriff in der oberen Liste."
 
 #: GetText-Editor,LanguageEditor>>newTranslations
+
+#, fuzzy
 msgid "New locale ID string?"
-msgstr ""
+msgstr "neue locale-ID-String?"
 
 #: GetText-Editor,LanguageEditor>>okToChange
+
+#, fuzzy
 msgid "Discard the changes to currently selected translated phrase?"
-msgstr ""
+msgstr "verwerfen die Änderungen aktuell übersetzten Satz ausgewählt?"
 
 #: GetText-Editor,LanguageEditor>>phraseToTranslate
+
+#, fuzzy
 msgid "new phrase to translate"
-msgstr ""
+msgstr "neue Begriff übersetzen"
 
 #: GetText-Editor,LanguageEditor>>printHeaderReportOn:
+
+#, fuzzy
 msgid "Language: {1}"
-msgstr ""
+msgstr "Sprache: {1}"
 
 #: GetText-Editor,LanguageEditor>>printHeaderReportOn:
+
+#, fuzzy
 msgid "{1} translated phrases"
-msgstr ""
+msgstr "{1} übersetzt Sätze"
 
 #: GetText-Editor,LanguageEditor>>printHeaderReportOn:
+
+#, fuzzy
 msgid "{1} untranslated phrases"
-msgstr ""
+msgstr "{1} nicht übersetzten Sätze"
 
 #: GetText-Editor,LanguageEditor>>printTranslationsReportOn:
+
+#, fuzzy
 msgid "translations"
-msgstr ""
+msgstr "Übersetzungen"
 
 #: GetText-Editor,LanguageEditor>>printUntranslatedReportOn:
+
+#, fuzzy
 msgid "not translated"
-msgstr ""
+msgstr "nicht übersetzt"
 
 #: GetText-Editor,LanguageEditor>>removeTranslatedButUnusedStrings,LanguageEditor>>removeUntranslatedButUnusedStrings
+
+#, fuzzy
 msgid "Are you sure that you want to remove unused strings?"
-msgstr ""
+msgstr "sind Sie sicher, dass Sie nicht verwendete Zeichenketten zu entfernen?"
 
 #: GetText-Editor,LanguageEditor>>removeTranslation,LanguageEditor>>removeUntranslated
-msgid "Removing \"{1}\".\n"
-"Are you sure you want to do this?"
-msgstr ""
+
+#, fuzzy
+msgid "Removing \"{1}\".\nAre you sure you want to do this?"
+msgstr "Entfernen \"{1} \". \nsind Sie sicher, dass Sie dies tun wollen?"
 
 #: GetText-Editor,LanguageEditor>>removeTranslation
+
+#, fuzzy
 msgid "select the translation to remove"
-msgstr ""
+msgstr "wählen Sie die Übersetzung zu entfernen"
 
 #: GetText-Editor,LanguageEditor>>removeUntranslated
+
+#, fuzzy
 msgid "select the untranslated phrase to remove"
-msgstr ""
+msgstr "wählen Sie den nicht übersetzten Satz zu entfernen"
 
 #: GetText-Editor,LanguageEditor>>report
+
+#, fuzzy
 msgid "report"
-msgstr ""
+msgstr "Bericht"
 
 #: GetText-Editor,LanguageEditor>>saveToFile
+
+#, fuzzy
 msgid "file name"
-msgstr ""
+msgstr "Dateiname"
 
 #: GetText-Editor,LanguageEditor>>searchTranslation,LanguageEditor>>searchUntranslated
+
+#, fuzzy
 msgid "search for"
-msgstr ""
+msgstr "suchen nach"
 
 #: GetText-Editor,LanguageEditor>>searchTranslation:,LanguageEditor>>searchUntranslated:
+
+#, fuzzy
 msgid "no matches for"
-msgstr ""
+msgstr "Keine Treffer für"
 
 #: GetText-Editor,LanguageEditor>>searchTranslation:
+
+#, fuzzy
 msgid "select the translation..."
-msgstr ""
+msgstr "wählen Sie die Übersetzung ..."
 
 #: GetText-Editor,LanguageEditor>>searchUntranslated:
+
+#, fuzzy
 msgid "select the untranslated phrase..."
-msgstr ""
+msgstr "wählen Sie den nicht übersetzten Satz ..."
 
 #: GetText-Editor,LanguageEditor>>selectTranslationFileName
+
+#, fuzzy
 msgid "Select the file..."
-msgstr ""
+msgstr "wählen Sie die Datei ..."
 
 #: GetText-Editor,LanguageEditor>>status
+
+#, fuzzy
 msgid "| {1} phrases | {2} translated | {3} untranslated |"
-msgstr ""
+msgstr "| {1} im Vergleich | {2} übersetzt | {3} untranslatierte |"
 
 #: GetText-Editor,LanguageEditor>>translatePhrase:
+
+#, fuzzy
 msgid "translation for: "
-msgstr ""
+msgstr "Übersetzung für: "
 
 #: GetText-Editor,LanguageEditor>>translation
+
+#, fuzzy
 msgid "<select a phrase from the upper list>"
-msgstr ""
+msgstr "<Wählen Sie eine Phrase aus der oberen Liste>"
 
 #: GetText-Editor,LanguageEditor>>translationsFilterWording,LanguageEditor>>untranslatedFilterWording
+
+#, fuzzy
 msgid "filter"
-msgstr ""
+msgstr "Filter"
 
 #: GetText-Editor,LanguageEditor>>translationsFilterWording,LanguageEditor>>untranslatedFilterWording
+
+#, fuzzy
 msgid "filtering: {1}"
-msgstr ""
+msgstr "Filterung: {1}"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:
+
+#, fuzzy
 msgid "deselect all"
-msgstr ""
+msgstr "Alle abwählen"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:
+
+#, fuzzy
 msgid "export selection"
-msgstr ""
+msgstr "Export-Auswahl"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:
+
+#, fuzzy
 msgid "export selection in do-it form"
-msgstr ""
+msgstr "Export Auswahl kann es in Form"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:
+
+#, fuzzy
 msgid "remove (x)"
-msgstr ""
+msgstr "entfernen (x)"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:
+
+#, fuzzy
 msgid "reset changed keys"
-msgstr ""
+msgstr "Reset Änderung Tasten"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:
+
+#, fuzzy
 msgid "select all"
-msgstr ""
+msgstr "alles auswählen"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:
+
+#, fuzzy
 msgid "select changed keys"
-msgstr ""
+msgstr "wählen den Änderungsschlüssel"
 
 #: GetText-Editor,LanguageEditor>>translationsMenu:,LanguageEditor>>untranslatedMenu:
+
+#, fuzzy
 msgid "where (E)"
-msgstr ""
+msgstr "wobei (e)"
 
 #: GetText-Editor,LanguageEditor>>untranslatedMenu:
 msgid "remove"
 msgstr "Entfernen"
 
 #: GetText-Editor,LanguageEditor>>untranslatedMenu:
+
+#, fuzzy
 msgid "translate (t)"
-msgstr ""
+msgstr "übersetzen (t)"
 
 #: GetText-Editor,LanguageEditor_class>>on:
+
+#, fuzzy
 msgid "Translator for {1} is not found"
-msgstr ""
+msgstr "Übersetzer für {1} nicht gefunden"
 
 #: GetText-Editor,LanguageEditor_class>>open
-msgid "Language Editor for..."
-msgstr ""
 
+#, fuzzy
+msgid "Language Editor for..."
+msgstr "Übersetzer für {1} nicht gefunden..."
