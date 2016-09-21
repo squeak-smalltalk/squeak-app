@@ -1,24 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-08-04 17:02-0000\n"
-"PO-Revision-Date: 2016-08-05 11:44+0200\n"
+"POT-Creation-Date: 2016-09-21 12:49-0000\n"
+"PO-Revision-Date: 2016-09-21 12:49-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: PreferenceBrowser\n"
-"Language: de\n"
-"X-Generator: Poedit 1.8.8\n"
+
 
 #: PreferenceBrowser,PBBooleanPreferenceView>>enabledButton
 msgid "enabled"
-msgstr "freigegeben"
+msgstr ""
 
 #: PreferenceBrowser,PBBooleanPreferenceView>>localToProjectButton
 msgid "local"
-msgstr "lokal"
+msgstr ""
 
 #: PreferenceBrowser,PBColorPreferenceView>>borderStyleMenu
 msgid "border color..."
@@ -26,7 +25,7 @@ msgstr "Randfarbe..."
 
 #: PreferenceBrowser,PBColorPreferenceView>>colorSwatch
 msgid "click here to change the color"
-msgstr "Klicken Sie hier, um die Farbe zu ändern"
+msgstr ""
 
 #: PreferenceBrowser,PBColorPreferenceView>>fillStyleMenu
 msgid "change color..."
@@ -42,59 +41,79 @@ msgstr "Hier klicken zum Bearbeiten der Methode, die die eigenen Halos definiert
 
 #: PreferenceBrowser,PBPreferenceButtonMorph>>moreButton
 msgid "Click here for advanced options"
-msgstr "Klicken Sie hier, um erweiterte Optionen"
+msgstr ""
 
 #: PreferenceBrowser,PBPreferenceButtonMorph>>moreButton
 msgid "more"
-msgstr "Mehr"
+msgstr ""
+
+#: PreferenceBrowser,PBPreferenceView>>offerPreferenceNameMenu:
+msgid "Preference senders: {1}"
+msgstr ""
 
 #: PreferenceBrowser,PBPreferenceView>>offerPreferenceNameMenu:
 msgid "browse senders"
 msgstr "Sender untersuchen"
 
-#: PreferenceBrowser,PBPreferenceView>>offerPreferenceNameMenu:
-msgid "Preference senders: {1}"
-msgstr "Präferenz Absender: {1}"
+#: PreferenceBrowser,PreferenceBrowser>>allCategoryLabel
+msgid "-- all --"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceBrowser>>defaultSelected
+msgid "Do you really want to restorethe default\\preferences?\\\\If you want to keep the current state,\\you have to save it first."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceBrowser>>loadFromDiskSelected
+msgid "Do you really want to restore your\\personal preferences from disk?\\\\The file 'my.prefs' will be loaded."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceBrowser>>loadSelected
+msgid "Do you really want to restore\\your personal preferences?"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceBrowser>>saveSelected
+msgid "Do you really want to overwrite\\your personal preferences?"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceBrowser>>saveToDiskSelected
+msgid "Do you really want to overwrite your\\personal preferences on disk?\\\\The file 'my.prefs' will be updated."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceBrowser>>searchResultsCategoryLabel
+msgid "-- search results --"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowser_class>>registerInFlaps
 msgid "A tool for expressing personal preferences for numerous options"
-msgstr "ein Werkzeug für die persönlichen Vorlieben für zahlreiche Optionen zum Ausdruck"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowser_class>>registerInFlaps
 msgid "Preference Browser"
-msgstr "Präferenz Browser"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowser_class>>registerInFlaps
 msgid "Tools"
 msgstr "Werkzeugkiste"
 
-#: PreferenceBrowser,PreferenceBrowser>>allCategoryLabel
-msgid "-- all --"
-msgstr "alle"
-
-#: PreferenceBrowser,PreferenceBrowser>>searchResultsCategoryLabel
-msgid "-- search results --"
-msgstr "Suchergebnisse"
-
 #: PreferenceBrowser,PreferenceBrowserMorph>>defaultButton
 msgid "default"
-msgstr "Standard"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>defaultButton
 msgid "default values."
-msgstr "Standardwerte."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceBrowserMorph>>helpButton
+msgid "Panel"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>helpButton
 msgid "help"
 msgstr "Hilfe"
 
-#: PreferenceBrowser,PreferenceBrowserMorph>>helpButton
-msgid "Panel"
-msgstr "Platte"
-
 #: PreferenceBrowser,PreferenceBrowserMorph>>loadButton
 msgid "in your Personal Preferences."
-msgstr "in Ihren persönlichen Vorlieben."
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>loadButton
 msgid "load"
@@ -102,15 +121,15 @@ msgstr "Laden"
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>loadFromDiskButton
 msgid "load from disk"
-msgstr "Last von der Festplatte"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>loadFromDiskButton
 msgid "their saved values on disk."
-msgstr "ihre gespeicherten Werte auf dem Datenträger."
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>newCategoryListPanelLabel
 msgid "Categories"
-msgstr "Kategorien"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>newPreferenceListPanelLabel
 msgid "Preferences"
@@ -122,11 +141,11 @@ msgstr "Suchen"
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>newSearchButton
 msgid "the \"Search\" button, or else hit RETURN or ENTER"
-msgstr "\"Search \" die \\ Taste, sonst drücken die Eingabetaste oder geben Sie"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>saveButton
 msgid "my Personal Preferences\"."
-msgstr "meine persönlichen Vorlieben \"."
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>saveButton
 msgid "save"
@@ -134,16 +153,201 @@ msgstr "Speichern"
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>saveToDiskButton
 msgid "save to disk"
-msgstr "Speichern auf der Festplatte"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>saveToDiskButton
 msgid "single gesture by clicking \"Restore Settings From Disk\"."
-msgstr "Geste, indem Sie auf \"wiederherstellen Einstellungen von der Festplatte \"."
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>themeButton
-msgid "choices."
-msgstr "Entscheidungen."
+msgid "Presents you with a menu of sets or preferences; each item's balloon-help will tell you about the particular set.  If you choose one, many different preferences that come along are set at the same time; you can subsequently change any settings by using a Preferences Panel"
+msgstr ""
 
 #: PreferenceBrowser,PreferenceBrowserMorph>>themeButton
-msgid "theme..."
-msgstr "Thema..."
+msgid "more ..."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>adjustSettingsForLowPerformance
+msgid "Please wait, optimizing performance..."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>adjustSettingsForLowPerformance
+msgid "Settings were adjusted for optimal performance."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initialize
+msgid "Welcome to Squeak"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializeButtons
+msgid "Configure"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializeButtons
+msgid "Done"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializeButtons
+msgid "Next"
+msgstr "Nächstes"
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializeButtons
+msgid "Previous"
+msgstr "Voriges"
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializeButtons
+msgid "Skip"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializeControlMorph
+msgid "Please take a few minutes and configure the look-and-feel of the environment. You can always adjust these settings later. You can see the effects of these settings in the live and editable windows to the right."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Blinking text cursor"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Colorful windows"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Fast drag and resize"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Flat widget look"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Hard shadows"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Rounded buttons"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Rounded windows"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Show keyboard focus"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Simple edit indication"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Soft shadows"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Whether to use a hard shadow for windows, menus, and dialogs."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage02Visuals
+msgid "Whether to use gradients or not."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Arrows in scrollbar"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Auto enclose brackets"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Auto indent lines"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Enclose text selections"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Focus follows mouse"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Menu in scrollbar"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Mouse wheel to focus"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Narrow scrollbars"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Retractable scrollbars"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Scrollbars on the right"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Swap mouse buttons"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Whether to show a menu button or not."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage03Interaction
+msgid "Whether to show arrows for scrolling or not."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage04InteractionMore
+msgid "Attach tools to mouse"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage04InteractionMore
+msgid "Filterable lists and trees"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage04InteractionMore
+msgid "Filters clear if unfocused"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage04InteractionMore
+msgid "Smart horizontal splitters"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage04InteractionMore
+msgid "Smart vertical splitters"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage04InteractionMore
+msgid "Window buttons always active"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage04InteractionMore
+msgid "Windows raise on click"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage05Tools
+msgid "Reuse tool windows"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage05Tools
+msgid "Tool and menu icons"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage05Tools
+msgid "Trace messages browser"
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePage05Tools
+msgid "Whether to show icons in tools and menus."
+msgstr ""
+
+#: PreferenceBrowser,PreferenceWizardMorph>>initializePreviewWorld
+msgid "Senders"
+msgstr ""
+
