@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-22 11:20-0000\n"
-"PO-Revision-Date: 2016-09-22 11:20-0000\n"
+"POT-Creation-Date: 2016-09-22 11:32-0000\n"
+"PO-Revision-Date: 2016-09-22 11:32-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr "Basis"
 
 #: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin
 msgid "Ellipse"
-msgstr ""
+msgstr "Ellipse"
 
 #: Morphic-Basic,ImageMorph>>opacityString
 msgid "opaque"
@@ -353,11 +353,11 @@ msgstr "Am Rand umbrechen"
 
 #: Morphic-Basic,TextMorph_class>>authoringPrototype
 msgid "abc"
-msgstr ""
+msgstr "abc"
 
 #: Morphic-Basic,TextMorph_class>>boldAuthoringPrototype,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
 msgid "A data field which will have a different value on every card of the background"
@@ -1029,7 +1029,7 @@ msgstr "Schrumpfzellen"
 
 #: Morphic-Kernel,Morph>>helpButton
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: Morphic-Kernel,Morph>>helpButton
 msgid "click here for help"
@@ -1131,11 +1131,11 @@ msgstr "Über Squeak"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>appsMenuOn:
 msgid "Apps"
-msgstr ""
+msgstr "Apps"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>browserMenuItemOn:
 msgid "Browser"
-msgstr ""
+msgstr "Browser"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>browserMenuItemOn:
 msgid "Open a browser"
@@ -1175,7 +1175,7 @@ msgstr "sammeln Müll"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
 msgid "Extras"
-msgstr ""
+msgstr "Extras"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
 msgid "Graphical Imports"
@@ -1601,6 +1601,10 @@ msgstr "Befehle um \"Tele-Morphic\" Experimente mit mehreren Computern auszufüh
 msgid "telemorphic..."
 msgstr "Tele-Morphic..."
 
+#: Morphic-Kernel,TheWorldMenu>>addPrintAndDebug:
+msgid "makes a screenshot and saves it to disk"
+msgstr ""
+
 #: Morphic-Kernel,TheWorldMenu>>addProjectEntries:
 msgid "load a project from a file"
 msgstr "Ein Projekt aus einer Datei laden"
@@ -1685,33 +1689,25 @@ msgstr "deaktivieren halt / inspizieren einmal"
 msgid "enable halt/inspect once"
 msgstr "ermöglichen halt / inspizieren einmal"
 
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "make screenshot"
-msgstr ""
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "makes a screenshot and saves it to disk"
-msgstr ""
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "open a browser"
-msgstr ""
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "open a test runner"
-msgstr ""
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "open a transcript"
-msgstr ""
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "open a workspace"
-msgstr ""
-
 #: Morphic-Kernel,TheWorldMenu>>loadProject
 msgid "Select a File:"
 msgstr "Datei auswählen:"
+
+#: Morphic-Kernel,TheWorldMenu>>makeConvenient:
+msgid "open a browser"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>makeConvenient:
+msgid "open a test runner"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>makeConvenient:
+msgid "open a transcript"
+msgstr ""
+
+#: Morphic-Kernel,TheWorldMenu>>makeConvenient:
+msgid "open a workspace"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMenu>>newMorph
 msgid "from a file..."
@@ -1924,6 +1920,10 @@ msgstr "Wo im Weltmenü ist..."
 msgid "jump to project..."
 msgstr "Zu Projekt springen..."
 
+#: Morphic-Menus,MenuIcons_class>>itemsIcons
+msgid "make screenshot"
+msgstr ""
+
 #: Morphic-Menus,MenuItemMorph>>buildDebugMenu:,PluggableButtonMorph>>buildDebugMenu:
 msgid "implementors of"
 msgstr "Implementierer"
@@ -2036,7 +2036,7 @@ msgstr "[Pause]"
 
 #: Morphic-Sound,ScorePlayerMorph>>makeControls
 msgid "Pause"
-msgstr ""
+msgstr "Pause"
 
 #: Morphic-Sound,ScorePlayerMorph>>makeControls
 msgid "Piano Roll"
@@ -2068,11 +2068,11 @@ msgstr "Keine .mid/.midi-Dateien im Squeak-Verzeichnis gefunden"
 
 #: Morphic-Sound,ScorePlayerMorph>>panAndVolControlsFor:
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: Morphic-Sound,ScorePlayerMorph>>panAndVolControlsFor:
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: Morphic-Sound,ScorePlayerMorph>>rateControl
 msgid " fast"
@@ -2120,7 +2120,7 @@ msgstr "Übernehmen"
 
 #: Morphic-Support,FontChooserTool>>buildButtonBarWith:,UserDialogBoxMorph_class>>inform:title:at:
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: Morphic-Support,FontImporterTool>>buildButtonBarWith:,GradientEditor>>closeButtonLabel,NewColorPickerMorph>>closeButtonLabel,TheWorldMainDockingBar>>windowMenuFor:on:
 msgid "Close"
@@ -2208,7 +2208,7 @@ msgstr "Bild als Hintergrund einstellen"
 
 #: Morphic-Support,MorphicProject>>setFlaps,MorphicProject>>updateLocaleDependents,MorphicProject>>updateLocaleDependents
 msgid "Navigator"
-msgstr ""
+msgstr "Navigator"
 
 #: Morphic-Support,MorphicProject>>setFlaps
 msgid "Objects"
@@ -2216,7 +2216,7 @@ msgstr "Objekte"
 
 #: Morphic-Support,MorphicProject>>setFlaps
 msgid "Squeak"
-msgstr ""
+msgstr "Squeak"
 
 #: Morphic-Support,MorphicProject>>setFlaps
 msgid "Supplies"
@@ -2530,7 +2530,7 @@ msgstr "Ein Steuerknüppel"
 
 #: Morphic-Widgets,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
 msgid "Joystick"
-msgstr ""
+msgstr "Joystick"
 
 #: Morphic-Widgets,MorphHierarchyListMorph>>createContainer
 msgid "Objects Hierarchy"
