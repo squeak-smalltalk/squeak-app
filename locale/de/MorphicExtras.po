@@ -1,21 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-22 11:32-0000\n"
-"PO-Revision-Date: 2016-09-22 11:32-0000\n"
+"POT-Creation-Date: 2016-09-22 15:38-0000\n"
+"PO-Revision-Date: 2016-09-22 15:53+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: MorphicExtras\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.8\n"
 
-
-#: Etoys-Scripting,Player>>importDataFromFile
-msgid "Skeleton"
-msgstr "Skelett"
-
-#: Kernel-Objects,Object>>yourself
 #: Kernel-Objects,Object>>yourself
 msgid "Werkzeugkiste"
 msgstr "Werkzeugkiste"
@@ -125,9 +121,11 @@ msgid "Curvier"
 msgstr "curvier"
 
 #: Morphic-Basic-NewCurve,MixedCurveMorph_class>>descriptionForPartsBin
-msgid "A Curve with optional bends and segments. Shift click to get handles.\n"
+msgid ""
+"A Curve with optional bends and segments. Shift click to get handles.\n"
 "\t\t\tClick handles to change bends. Move handles to move the points."
-msgstr "eine Kurve mit optionaler Kurven und Segmente. verschieben klicken, um Griffe zu bekommen. \n"
+msgstr ""
+"eine Kurve mit optionaler Kurven und Segmente. verschieben klicken, um Griffe zu bekommen. \n"
 "\\ t \\ t \\ t Klicken Griffe Kurven zu ändern. bewegen Griffe, die Punkte zu verschieben."
 
 #: Morphic-Demo,ClickExerciser_class>>descriptionForPartsBin
@@ -157,6 +155,10 @@ msgstr "den Standardsatz der gemeinsamen Klappen erstellen"
 #: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
 msgid "Group all the standard shared flaps along the bottom edge of the screen"
 msgstr "Alle gemeinsamen Klappen werden am unteren Bildschirmrand angeordnet"
+
+#: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
+msgid "If true, then upon every resizing of the outer application window, flaps along the bottom of the screen are automatically laid out such that they do not overlap, whenever that is possible."
+msgstr "Wenn \"true\", sind dann bei jeder Größenänderung des Anwendungsfensters äußere Klappen am unteren Rand des Bildschirms automatisch angelegt so dass sie nicht überlappen, wann immer das möglich ist."
 
 #: Morphic-Kernel,TheWorldMenu>>formulateFlapsMenu:
 msgid "Put up the default etoy flaps: a custom Suplies flap and the Navigator flap"
@@ -215,13 +217,15 @@ msgid "update from original"
 msgstr "Aktualisierung vom Original"
 
 #: MorphicExtras-AdditionalSupport,EmbeddedWorldBorderMorph>>initialize
-msgid "This is the frame of an embedded project. Click on the colored boxes:\n"
+msgid ""
+"This is the frame of an embedded project. Click on the colored boxes:\n"
 "blue - expand or reduce\n"
 "yellow - app view\n"
 "red - factory view\n"
 "cyan - full view\n"
 "white - enter the project completely"
-msgstr "Dies ist der Rahmen eines Projektes. Klicke auf die bunten Kästchen:\n"
+msgstr ""
+"Dies ist der Rahmen eines Projektes. Klicke auf die bunten Kästchen:\n"
 "blau - Vergrößern/Verkleinern\n"
 "gelb - Applikations-Ansicht\n"
 "rot - Factory-Ansicht\n"
@@ -305,10 +309,12 @@ msgid "not found"
 msgstr "Nicht gefunden"
 
 #: MorphicExtras-AdditionalWidgets,GraphicalDictionaryMenu>>renameGraphicTo:
-msgid "sorry that conflicts with\n"
+msgid ""
+"sorry that conflicts with\n"
 "the name of another\n"
 "entry in this dictionary"
-msgstr "Leider kollidiert das mit\n"
+msgstr ""
+"Leider kollidiert das mit\n"
 "dem Namen eines anderen\n"
 "Eintrags in dieser Liste."
 
@@ -326,7 +332,8 @@ msgstr "Voriges"
 
 #: MorphicExtras-AdditionalWidgets,TrashCanMorph>>initialize
 msgid "To remove an object, drop it on any trash can. To view, and maybe retrieve, items that have been thrown away, double-click on any trash-can.  Things are retained in the trash-can if the \"preserveTrash\" preference is set, otherwise they are purged immediately"
-msgstr "Um ein Objekt zu entfernen, schiebe es auf eine Mülltonne. Um Objekte im Müll zu sehen und evtl. wieder herauszuholen, mach einen Doppelklick auf eine Mülltonne.\n"
+msgstr ""
+"Um ein Objekt zu entfernen, schiebe es auf eine Mülltonne. Um Objekte im Müll zu sehen und evtl. wieder herauszuholen, mach einen Doppelklick auf eine Mülltonne.\n"
 "Die Dinge bleiben nur dann in der Mülltonne, wenn die Einstellung \"preserveTrash\" gesetzt ist, sonst werden sie sofort gelöscht."
 
 #: MorphicExtras-AdditionalWidgets,TrashCanMorph_class>>descriptionForPartsBin
@@ -462,17 +469,21 @@ msgid "Page does not have a url.  Send page to server first."
 msgstr "Keine URL vorhanden.  Seite zuerst auf Server speichern."
 
 #: MorphicExtras-Books,BookMorph>>deletePage
-msgid "Are you certain that you\n"
+msgid ""
+"Are you certain that you\n"
 "want to delete this page and\n"
 "everything that is on it? "
-msgstr "Soll diese Seite und\n"
+msgstr ""
+"Soll diese Seite und\n"
 "ihr Inhalt wirklich\n"
 "gelöscht werden? "
 
 #: MorphicExtras-Books,BookMorph>>getStemUrl
-msgid "url of the place to store a typical page in this book.\n"
+msgid ""
+"url of the place to store a typical page in this book.\n"
 "Must begin with file:// or ftp://"
-msgstr "URL des Speicherortes einer typischen Seite in diesem Buch.\n"
+msgstr ""
+"URL des Speicherortes einer typischen Seite in diesem Buch.\n"
 "Diese muss mit file:// or ftp:// beginnen."
 
 #: MorphicExtras-Books,BookMorph>>goToPage
@@ -486,6 +497,10 @@ msgstr "Buch"
 #: MorphicExtras-Books,BookMorph>>invokeBookMenu
 msgid "background color for all pages..."
 msgstr "Hintergrund-Farbe für alle Seiten..."
+
+#: MorphicExtras-Books,BookMorph>>invokeBookMenu
+msgid "close dragNdrop"
+msgstr "DragNdrop schließen"
 
 #: MorphicExtras-Books,BookMorph>>invokeBookMenu
 msgid "find..."
@@ -520,15 +535,19 @@ msgid "keep all pages the same size"
 msgstr "Alle Seiten auf gleicher Größe halten"
 
 #: MorphicExtras-Books,BookMorph>>menuPageSoundFor:event:
-msgid "Choose a sound\n"
+msgid ""
+"Choose a sound\n"
 "(it is now "
-msgstr "Klang auswählen\n"
+msgstr ""
+"Klang auswählen\n"
 "(momentan "
 
 #: MorphicExtras-Books,BookMorph>>menuPageVisualFor:event:
-msgid "Choose an effect\n"
+msgid ""
+"Choose an effect\n"
 "(it is now {1})"
-msgstr "Effekt auswählen\n"
+msgstr ""
+"Effekt auswählen\n"
 "(momentan {1})"
 
 #: MorphicExtras-Books,BookMorph>>printPSToFile,Morph>>printPSToFileNamed:
@@ -552,9 +571,11 @@ msgid "portrait (tall)"
 msgstr "Portrait (groß)"
 
 #: MorphicExtras-Books,BookMorph>>reload
-msgid "url of the place where this book's index is stored.\n"
+msgid ""
+"url of the place where this book's index is stored.\n"
 "Must begin with file:// or ftp://"
-msgstr "URL des Speicherortes des Buchindex.\n"
+msgstr ""
+"URL des Speicherortes des Buchindex.\n"
 "Diese muss mit file:// or ftp:// beginnen."
 
 #: MorphicExtras-Books,BookMorph>>saveIndexOfOnly:
@@ -566,9 +587,11 @@ msgid "just had one!"
 msgstr "Hatte gerade einen!"
 
 #: MorphicExtras-Books,BookMorph>>saveOnUrlPage:
-msgid "Modify the old book, or make a new\n"
+msgid ""
+"Modify the old book, or make a new\n"
 "book sharing its pages?"
-msgstr "Das alte Buch ändern oder ein neues Buch\n"
+msgstr ""
+"Das alte Buch ändern oder ein neues Buch\n"
 "erstellen, das seine Seiten enthält?"
 
 #: MorphicExtras-Books,BookMorph>>saveOnUrlPage:
@@ -580,10 +603,12 @@ msgid "Old book"
 msgstr "altes Buch"
 
 #: MorphicExtras-Books,BookMorph>>saveOnUrlPage:,BookMorph>>savePagesOnURL
-msgid "This book is marked 'keep in one file'. \n"
+msgid ""
+"This book is marked 'keep in one file'. \n"
 "Several pages use a common Player.\n"
 "Save the owner of the book instead."
-msgstr "Dieses Buch ist eingestellt auf 'In nur einer Datei speichern'. \n"
+msgstr ""
+"Dieses Buch ist eingestellt auf 'In nur einer Datei speichern'. \n"
 "Mehrere Seiten verwenden einen gemeinsamen Darsteller.\n"
 "Speichere stattdessen den Behälter des Buches."
 
@@ -592,10 +617,12 @@ msgid "where is the page?"
 msgstr "Wo ist die Seite?"
 
 #: MorphicExtras-Books,BookMorph>>savePagesOnURL
-msgid "Each page will be a file on the server.  \n"
+msgid ""
+"Each page will be a file on the server.  \n"
 "Do you want to page numbers be the names of the files? \n"
 "or name each one yourself?"
-msgstr "Jede Seite ist eine Datei auf dem Server.  \n"
+msgstr ""
+"Jede Seite ist eine Datei auf dem Server.  \n"
 "Sollen die Seitenzahlen die Dateinamen sein? \n"
 "Oder soll jede Datei einen eigenen Namen bekommen?"
 
@@ -620,9 +647,11 @@ msgid "Use page numbers"
 msgstr "Verwenden Sie die Seitenzahlen"
 
 #: MorphicExtras-Books,BookMorph>>textSearch
-msgid "words to search for.  Order is not important.\n"
+msgid ""
+"words to search for.  Order is not important.\n"
 "Beginnings of words are OK."
-msgstr "Zu suchende Wörter oder Wortanfänge\n"
+msgstr ""
+"Zu suchende Wörter oder Wortanfänge\n"
 "in beliebiger Reihenfolge."
 
 #: MorphicExtras-Books,BookMorph_class>>alreadyInFromUrl:
@@ -642,9 +671,11 @@ msgid "Book may be open in some other project"
 msgstr "Das Buch könnte in einem anderen Projekt geöffnet sein."
 
 #: MorphicExtras-Books,BookMorph_class>>openFromFile:
-msgid "Can only load a single morph\n"
+msgid ""
+"Can only load a single morph\n"
 "into an mvc project via this mechanism."
-msgstr "Auf diese Art kann nur ein einziger Morph\n"
+msgstr ""
+"Auf diese Art kann nur ein einziger Morph\n"
 "in ein MVC-Projekt geladen werden."
 
 #: MorphicExtras-Books,BookMorph_class>>registerInFlapsRegistry,BookMorph_class>>registerInFlapsRegistry,Flaps_class>>defaultsQuadsDefiningSuppliesFlap,Flaps_class>>newLoneSuppliesFlap
@@ -864,9 +895,11 @@ msgid "magnification..."
 msgstr "Vergrößerung..."
 
 #: MorphicExtras-Demo,MagnifierMorph>>chooseMagnification
-msgid "Choose magnification\n"
+msgid ""
+"Choose magnification\n"
 "(currently {1})"
-msgstr "Vergrößerung wählen\n"
+msgstr ""
+"Vergrößerung wählen\n"
 "(momentan {1})"
 
 #: MorphicExtras-Demo,MagnifierMorph>>showingPointerString
@@ -995,7 +1028,8 @@ msgstr "Reiterfarbe..."
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
 msgid "A flap housing the paint palette.  Click on the closed tab to make make a new painting"
-msgstr "Eine Klappe mit einem Malkasten.\n"
+msgstr ""
+"Eine Klappe mit einem Malkasten.\n"
 "Klicke auf die geschlossene Klappe, um ein neues Bild zu malen."
 
 #: MorphicExtras-Flaps,FlapTab>>balloonTextForFlapsMenu
@@ -1031,20 +1065,24 @@ msgid "Tools useful when doing tile scripting"
 msgstr "Nützliche Werkzeuge für die Kachel-Programmierung"
 
 #: MorphicExtras-Flaps,FlapTab>>changeColor
-msgid "Color only pertains to a flap tab when the \n"
+msgid ""
+"Color only pertains to a flap tab when the \n"
 "tab is textual or \"solid\".  This tab is\n"
 "currently graphical, so color-choice\n"
 "does not apply."
-msgstr "Dieser Reiter enthält ein Bild, daher kann\n"
+msgstr ""
+"Dieser Reiter enthält ein Bild, daher kann\n"
 "die Farbe nicht geändert werden.\n"
 "Dies geht nur bei durchgängigen Reitern\n"
 "oder Reitern mit Text."
 
 #: MorphicExtras-Flaps,FlapTab>>changeFlapColor
-msgid "The flap itself needs to be open\n"
+msgid ""
+"The flap itself needs to be open\n"
 "before you can change its\n"
 "color."
-msgstr "Zum Ändern der Farbe muss\n"
+msgstr ""
+"Zum Ändern der Farbe muss\n"
 "die Klappe offen sein."
 
 #: MorphicExtras-Flaps,FlapTab>>changeTabText
@@ -1052,17 +1090,21 @@ msgid "new wording for this tab:"
 msgstr "Neue Beschriftung für diesen Reiter:"
 
 #: MorphicExtras-Flaps,FlapTab>>destroyFlap
-msgid "Caution -- this is permanent!  Do\n"
+msgid ""
+"Caution -- this is permanent!  Do\n"
 "you really want to do this? "
-msgstr "Achtung -- dieser Vorgang ist endgültig!\n"
+msgstr ""
+"Achtung -- dieser Vorgang ist endgültig!\n"
 "Willst du das wirklich? "
 
 #: MorphicExtras-Flaps,FlapTab>>destroyFlap
-msgid "Caution -- this would permanently\n"
+msgid ""
+"Caution -- this would permanently\n"
 "remove this flap, so it would no longer be\n"
 "available in this or any other project.\n"
 "Do you really want to this? "
-msgstr "Vorsicht -- diese Aktion würde diese Klappe für immer\n"
+msgstr ""
+"Vorsicht -- diese Aktion würde diese Klappe für immer\n"
 " löschen, sodass sie für kein Projekt mehr verfügbar ist.\n"
 " Willst du das wirklich? "
 
@@ -1149,6 +1191,14 @@ msgstr "Malkasten"
 #: MorphicExtras-Flaps,Flaps_class>>askForEdgeOfNewFlap
 msgid "Where should the new flap cling?"
 msgstr "Wohin soll die neue Klappe?"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "Allows you to create a new Sketch by grabbing a rectangular patch from the screen"
+msgstr "Ermöglicht es Ihnen, eine neue Skizze erstellen, indem Sie einen rechteckigen Patch vom Bildschirm greifen"
+
+#: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningPlugInSuppliesFlap
+msgid "Allows you to create a new Sketch by lassoing an area from the screen"
+msgstr "Ermöglicht es Ihnen, eine neue Skizze erstellen, indem Sie mit dem Lasso einen Bereichs auf dem Bildschirm wählen"
 
 #: MorphicExtras-Flaps,Flaps_class>>defaultsQuadsDefiningScriptingFlap,Flaps_class>>defaultsQuadsDefiningSuppliesFlap
 msgid "A Scriptable button"
@@ -1399,7 +1449,8 @@ msgid "Text that you can edit into anything you desire."
 msgstr "Ein bearbeitbarer Text"
 
 #: MorphicExtras-Flaps,Flaps_class>>disableGlobalFlaps:
-msgid "CAUTION! This will destroy all the shared\n"
+msgid ""
+"CAUTION! This will destroy all the shared\n"
 "flaps, so that they will not be present in \n"
 "*any* project.  If, later, you want them\n"
 "back, you will have to reenable them, from\n"
@@ -1407,7 +1458,8 @@ msgid "CAUTION! This will destroy all the shared\n"
 "default set of shared flaps will be created.\n"
 "Do you really want to go ahead and clobber\n"
 "all shared flaps at this time?"
-msgstr "Vorsicht! Alle gemeinsamen Klappen werden gelöscht.\n"
+msgstr ""
+"Vorsicht! Alle gemeinsamen Klappen werden gelöscht.\n"
 "Sie stehen dann in keinem Projekt mehr zur Verfügung.\n"
 " Allerdings können die Standardklappen später mit\n"
 " \"Standardklappen installieren\" wieder eingerichtet werden. \n"
@@ -1421,8 +1473,86 @@ msgstr "Klappenproblem"
 msgid "Flaps"
 msgstr "Klappen"
 
+#: MorphicExtras-Flaps,Flaps_class>>explainFlaps
+msgid ""
+"Klappen sind wie Schubladen am Bildschirmrand, die sich öffnen und schließen lassen, sodass du ihren Inhalt nutzen kannst, wenn du ihn benötigst. Sie haben zahlreiche Verwendungsmöglichkeiten, von denen einige bei den Standardklappen gezeigt werden, die weiter unten beschrieben werden.\n"
+"\n"
+" 'Gemeinsame Klappen' sind in jedem Morphic-Projekt verfügbar. Wenn du von Projekt zu Projekt wechselst, wirst du diese gemeinsamen Klappen in jedem der Projekte gleich sehen. Allerdings gibt es auch projektabhängige Einstellungsoptionen, um auszuwählen, welche der gemeinsamen Klappen angezeigt werden sollen, oder auch um die Anzeige aller gemeinsamen Klappen vorübergehend zu unterdrücken.\n"
+"\n"
+" Um Klappen zu benutzen, öffne das Desktop-Menü und wähle 'Klappen...'. Sorge durch einen Klick auf das Stecknadelsymbol dafür, dass dieses Menü offen bleibt. Wenn du in diesem Klappenmenü eine Liste von Klappennamen wie 'Squeak', 'Lager' oder 'Geräte' siehst, bedeutet das, dass in deinem Image bereits Klappen installiert sind. Wenn du diese Liste nicht sehen kannst, erscheinen stattdessen Menüeinträge zum Installieren verschiedener gemeinsamer Standard-Klappen. Wählst du einen dieser Einträge aus, werden die entsprechenden Klappen erzeugt und das Menü verändert sich entsprechend.\n"
+"\n"
+" 'Projekt-Klappen' sind Klappen, die nur zu einem einzigen Morphic-Projekt gehören. Du siehst sie nur in dem betreffenden Projekt, nicht, wenn du in einem anderen Morphic-Projekt bist.\n"
+"\n"
+" Wenn eine Klappe  als Objektlager ausgelegt ist (wie z.B. die Lager- oder Geräte-Klappe), kannst du sie nutzen, um neue Objekte zu erzeugen -- öffne einfach die Klappe, suche das Objekt, das du möchtest und zieh es heraus; wenn der Zeiger die Klappe verlässt, schließt sich die Klappe und du hältst das neue Objekt -- klicke, um es genau dort zu platzieren, wo du es haben möchtest.\n"
+"\n"
+" Ist eine Klappe *kein* Objektlager, (wie z.B. die 'Squeak'-Klappe am linken Bildschirmrand), kannst du dort Objekte ablegen (das ist eine einfache Möglichkeit, Objekte von Projekt zu Projekt zu verschieben) oder deine eigenen Steuerelemente dort platzieren usw. Alles in der Standard-'Squeak'-Klappe (und allen anderen Standardklappen) hat Vorschlagscharakter -- jeder Benutzer wird die Klappen nach seinen Bedürfnissen und Vorstellungen anpassen.\n"
+"\n"
+" Jede Klappe lässt sich so einstellen, dass sie bei Maus-Hinein, Maus-Hinein-Gezogen, beiden oder keinem dieser Ereignisse erscheint. Beachte dazu und für weitere Optionen die Menüeinträge, die weiter unten beschrieben werden.\n"
+"\n"
+" Eine geschlossen Klappe kannst du durch Klicken auf ihren Reiter öffnen, oder indem du den Reiter zur Bildschirmmitte hin ziehst.\n"
+"\n"
+" Eine geöffnete Klappe kannst du durch Klicken auf ihren Reiter schließen, oder indem du den Reiter zurück zum Bildschirmrand ziehst.\n"
+"\n"
+" Zieh den Reiter einer Klappe, um die Klappe zu verschieben oder ihre Größe zu verändern. Das Verschieben beginnt, sobald du den Zeiger aus dem ursprünglichen Reiterbereich ziehst.\n"
+"\n"
+" Falls Klappen oder ihre Reiter falsch positioniert oder verschwunden zu sein scheinen, versuche ein 'Bildschirm wiederherstellen' aus dem Welt-Menü.\n"
+"\n"
+" Das Halo-Menü einer Klappe erlaubt es dir, die Eigenschaften der Klappe zu verändern. Sorge dafür, dass das Menü offen bleibt, dann kannst du bequem alle Optionen erkunden.\n"
+"\n"
+" Reiterfarbe...\t\t\t\t\t\tÄndert die Farbe des Klappenreiters.\n"
+" Klappenfarbe...\t\t\t\t\tÄndert die Farbe der Klappe selbst.\n"
+"\n"
+" Reiter mit Text verwenden\t\tWenn der Reiter keinen Text als Beschriftung hat,\n"
+"\t\t\t\t\t\t\t\t\terhält er eine.\n"
+" Reiterbeschriftung ändern...\tWenn der Reiter bereits eine Beschriftung hat,\n"
+"\t\t\t\t\t\t\t\t\tkannst du diese hier anpassen\n"
+"\n"
+" Reiter mit Bild verwenden\t\tWenn der Reiter kein Bild zeigt, kannst du hier\n"
+"\t\t\t\t\t\t\t\t\tdafür sorgen.\n"
+" Neues Bild...\t\t\t\t\t\tWenn der Reiter bereits ein Bild anzeigt, kannst du\n"
+"\t\t\t\t\t\t\t\t\tdieses Bild hier ändern\n"
+"\n"
+" Durchgehenden Reiter verwenden\n"
+"\t\t\t\t\t\t\t\t\tWenn der Reiter nicht durchgehend ist, \n"
+"\t\t\t\t\t\t\t\t\twird er das, d.h. er erscheint als\n"
+"\t\t\t\t\t\t\t\t\tdurchgehender Farbstreifen über\n"
+"\t\t\t\t\t\t\t\t\tdie gesamte Bildschirmhöhe oder -breite.\n"
+"\n"
+" Objektlager\t\t\t\t\t\tFalls ausgewählt, entsteht beim Ziehen eines\n"
+"\t\t\t\t\t\t\t\t\tObjektes aus der Klappe eine neue Kopie dieses\n"
+"\t\t\t\t\t\t\t\t\tObjektes.\n"
+"\n"
+" Öffnet bei Zeiger-Hinein-Gezogen\t\t\t\t\t\t\n"
+"\t\t\t\t\t\t\t\t\tFalls ausgewählt, öffnet und schließt\n"
+"\t\t\t\t\t\t\t\t\tsich die Klappe, wenn der Zeiger mit\n"
+"\t\t\t\t\t\t\t\t\tgedrückter Maustaste hinein- oder\n"
+"\t\t\t\t\t\t\t\t\thinausgezogen wird.\n"
+"\n"
+" Öffnet bei Zeiger-Hinein\t\tFalls ausgewählt, öffnet und schließt\n"
+"\t\t\t\t\t\t\t\t\tsich die Klappe, wenn der Zeiger hinein-\n"
+"\t\t\t\t\t\t\t\t\toder hinausgezogen wird.\n"
+"\n"
+" An Rand festklammern...\t\tLegt fest, an welcher Seite\n"
+"\t\t\t\t\t\t\t\t\tdes Bildschirms die Klappe sitzt.\n"
+"\n"
+" Gemeinsam nutzen\t\tFalls ausgewählt, ist die Klappe\n"
+"\t\t\t\t\t\t\t\t\tin allen Projekten verfügbar; falls nicht,\n"
+"\t\t\t\t\t\t\t\t\terscheint die Klappe nur in einem Projekt.\n"
+"\n"
+" Diese Klappe löschen\t\t Entfernt diese Klappe.\n"
+"\n"
+" Um eine neue Klappe anzulegen, wähle 'Neue Klappe erstellen...' aus dem 'Klappen'-Menü.\n"
+"\n"
+" Um die Standard-Systemklappen wiederherzustellen, kannst du im 'Klappen-Menü 'Alle gemeinsamen Klappen löschen' und, sobald sie weg sind, über das Klappenmenü Standardklappen installieren.\n"
+"\n"
+" Um Dinge in einer Klappe hinzuzufügen, zu entfernen oder zu bearbeiten, ist es oft sinnvoll, zunächst die Reaktion der Klappe auf 'Zeiger-Hinein' oder 'Zeiger-Hinein-Gezogen' auszusetzen. So verschwinden sie nicht dauernd, während du an ihnen arbeiten willst.\n"
+"\n"
+" Bei einigen der Standardklappen lassen sich im 'Klappen'-Menü noch weitere Klappen aktivieren -- etwa 'Malkasten', um schnell Zeichnungen erstellen zu können, oder 'Karteikarten', um stapelartigen Inhalt zu verwalten. Klicke einfach auf die entsprechenden Kontrollkästchen, um deren Sichtbarkeit zu verändern."
+msgstr ""
+
 #: MorphicExtras-Flaps,Flaps_class>>explainFlapsText
-msgid "Flaps are like drawers on the edge of the screen, which can be opened so that you can use what is inside them, and closed when you do not need them.  They have many possible uses, a few of which are illustrated by the default set of flaps you can get as described below.\n"
+msgid ""
+"Flaps are like drawers on the edge of the screen, which can be opened so that you can use what is inside them, and closed when you do not need them.  They have many possible uses, a few of which are illustrated by the default set of flaps you can get as described below.\n"
 "\n"
 " 'Shared flaps' are available in every morphic project.  As you move from project to project, you will see these same shared flaps in each, though there are also options, on a project-by-project basis, to choose which of the shared flaps should be shown, and also momentarily to suppress the showing of all shared flaps.   \n"
 "\n"
@@ -1487,7 +1617,8 @@ msgid "Flaps are like drawers on the edge of the screen, which can be opened so 
 " To add, delete, or edit things on a given flap, it is often wise first to suspend the flap's mouse-over and drag-over sensitivity, so it won't keep disappearing on you while you're trying to work with it.\n"
 "\n"
 " Besides the three standard flaps delivered with the default system, there are two other flaps readily available on demand from the 'flaps' menu -- one is called 'Stack Tools', which provides some tools useful for building stack-like content, the other is called 'Painting', which provides a quick way to make a new painting.  Simply clicking on the appropriate checkbox in the 'flaps' menu will toggle the corresponding flap between being visible and not being visible in the project."
-msgstr "Klappen sind wie Schubladen am Bildschirmrand, die sich öffnen und schließen lassen, sodass du ihren Inhalt nutzen kannst, wenn du ihn benötigst. Sie haben zahlreiche Verwendungsmöglichkeiten, von denen einige bei den Standardklappen gezeigt werden, die weiter unten beschrieben werden.\n"
+msgstr ""
+"Klappen sind wie Schubladen am Bildschirmrand, die sich öffnen und schließen lassen, sodass du ihren Inhalt nutzen kannst, wenn du ihn benötigst. Sie haben zahlreiche Verwendungsmöglichkeiten, von denen einige bei den Standardklappen gezeigt werden, die weiter unten beschrieben werden.\n"
 "\n"
 " 'Gemeinsame Klappen' sind in jedem Morphic-Projekt verfügbar. Wenn du von Projekt zu Projekt wechselst, wirst du diese gemeinsamen Klappen in jedem der Projekte gleich sehen. Allerdings gibt es auch projektabhängige Einstellungsoptionen, um auszuwählen, welche der gemeinsamen Klappen angezeigt werden sollen, oder auch um die Anzeige aller gemeinsamen Klappen vorübergehend zu unterdrücken.\n"
 "\n"
@@ -1942,9 +2073,11 @@ msgid "vertical orientation"
 msgstr "Senkrechte Anordnung"
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>publishProject
-msgid "You seem to be painting a sketch.\n"
+msgid ""
+"You seem to be painting a sketch.\n"
 "Do you continue and publish the project with the paint tool?"
-msgstr "Du scheinst eine Skizze anzufertigen.\n"
+msgstr ""
+"Du scheinst eine Skizze anzufertigen.\n"
 "Willst du fortsetzen und dieses Projekt mit dem Zeichenwerkzeug veröffentlichen?"
 
 #: MorphicExtras-Navigators,ProjectNavigationMorph>>quitSqueak
@@ -2015,6 +2148,10 @@ msgstr "Reiter sortieren"
 msgid "tabbedPalette"
 msgstr "Bücherregister"
 
+#: MorphicExtras-PartsBin,DescriptionForPartsBin>>translatedCategories
+msgid "Skelett"
+msgstr ""
+
 #: MorphicExtras-PartsBin,ObjectsTool>>addCustomMenuItems:hand:
 msgid "alphabetic"
 msgstr "ABC"
@@ -2031,6 +2168,18 @@ msgstr "Suchen"
 msgid "reset thumbnails"
 msgstr "Minibilder zurücksetzen"
 
+#: MorphicExtras-PartsBin,ObjectsTool>>modeTabs
+msgid "A separate tab for each letter of the alphabet"
+msgstr "Eine separate Registerkarte für jeden Buchstaben des Alphabets"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>modeTabs
+msgid "Grouped by category"
+msgstr "Nach Kategorien gruppiert"
+
+#: MorphicExtras-PartsBin,ObjectsTool>>modeTabs
+msgid "Provides a type-in pane allowing you to match"
+msgstr ""
+
 #: MorphicExtras-PartsBin,ObjectsTool>>newSearchPane
 msgid "Type here and all entries that match will be shown."
 msgstr "Alle Objekte, die zu der hier gemachten Eingabe passen, werden angezeigt."
@@ -2040,7 +2189,8 @@ msgid "About Objects"
 msgstr "über Objekte"
 
 #: MorphicExtras-PartsBin,ObjectsTool>>presentHelp
-msgid "The Objects tool allows you to browse through, and obtain copies of, many kinds of objects.  \n"
+msgid ""
+"The Objects tool allows you to browse through, and obtain copies of, many kinds of objects.  \n"
 "\n"
 "You can obtain an Objects tool by choosing \"Objects\" from the world menu, or by the shortcut of typing alt-o (cmd-o) any time the cursor is over the desktop.\n"
 "\n"
@@ -2055,7 +2205,8 @@ msgid "The Objects tool allows you to browse through, and obtain copies of, many
 "When the cursor lingers over the icon of any object, you will get balloon help for the item.\n"
 "\n"
 "When you drag an icon from Objects, it will result in a new copy of it in your hand; the new object will be deposited wherever you next click."
-msgstr "die Objekte Tool ermöglicht es Ihnen, zu durchsuchen und erhalten Kopien, viele Arten von Objekten. \\ N \n"
+msgstr ""
+"die Objekte Tool ermöglicht es Ihnen, zu durchsuchen und erhalten Kopien, viele Arten von Objekten. \\ N \n"
 "können Sie ein Werkzeug Objekte, indem Sie \\ erhalten \"Objekte \" aus der Welt Menü oder durch die Verknüpfung der Eingabe alt o (cmd o) jederzeit den Cursor auf dem Desktop ist. \\ N \n"
 "gibt es drei Möglichkeiten, Objekte zu verwenden, auf die drei Registerkarten oben gesehen entspricht: \n"
 "\\ nalphabetic gibt Ihnen für einen separaten Registerkarten, b, c, usw. eine beliebige Registerkarte klicken, und Sie werden die Symbole aller Objekte, deren Namen mit sehen dieser Brief \n"
@@ -2477,10 +2628,12 @@ msgid "Instrument name?"
 msgstr "Name des Instrument?"
 
 #: MorphicExtras-SoundInterface,WaveEditor>>setLoopStart
-msgid "Please set the loop end and the approximate frequency\n"
+msgid ""
+"Please set the loop end and the approximate frequency\n"
 "first, then position the cursor one or more cycles\n"
 "before the loop end and try this again."
-msgstr "Bitte setze zuerst das Schleifenende und die ungefähre Frequenz,\n"
+msgstr ""
+"Bitte setze zuerst das Schleifenende und die ungefähre Frequenz,\n"
 "dann positioniere die Anzeigemarke einen oder mehrere Zyklen\n"
 "vor dem Schleifenende und versuche es wieder."
 
@@ -2500,6 +2653,22 @@ msgstr "Sample-Editor"
 msgid "grab stamp from screen"
 msgstr "Stempel aus Bildschirm erzeugen"
 
+#: MorphicExtras-Support,PaintBoxMorph>>addGraphicLabels
+msgid "CLEAR"
+msgstr "Neu"
+
+#: MorphicExtras-Support,PaintBoxMorph>>addGraphicLabels
+msgid "KEEP"
+msgstr "OK"
+
+#: MorphicExtras-Support,PaintBoxMorph>>addGraphicLabels
+msgid "TOSS"
+msgstr "Weg"
+
+#: MorphicExtras-Support,PaintBoxMorph>>addGraphicLabels
+msgid "UNDO"
+msgstr "Ups!"
+
 #: MorphicExtras-Support,ScrapBook>>maybeEmptyTrash
 msgid "Do you really want to empty the trash?"
 msgstr "Möchtest du wirklich den Müll ausleeren?"
@@ -2509,8 +2678,26 @@ msgid "Click here to empty the trash."
 msgstr "Hier klicken, um den Müll auszuleeren"
 
 #: MorphicExtras-Support,ScrapBook>>scrapBook
-msgid "E"
+msgid ""
+"Close the trashcan.\n"
+"(to view again later, click on any trashcan)."
 msgstr ""
+"Schließen Sie den Papierkorb.\n"
+"(um später erneut anzuzeigen, klicken Sie auf Mülleimer)."
+
+#: MorphicExtras-Support,ScrapBook>>scrapBook
+msgid "E"
+msgstr "E"
+
+#: MorphicExtras-Support,ScrapBook>>scrapBook
+msgid ""
+"Objects you drag into the trash will automatically be saved here, one object per page, in case you need them later.  To disable this feature set the \"preserveTrash\" Preference to false.\n"
+"\n"
+"You can individually expunge objects by hitting the - control, and you can empty out all the objects in the trash can by hitting the \"E\" button at top right."
+msgstr ""
+"Objekte, die Sie in den Papierkorb ziehen, werden automatisch hier ein Objekt pro Seite, gespeichert für den Fall, dass Sie sie später brauchen.  Um dieses Feature zu deaktivieren setzen die \"PreserveTrash\" Einstellung auf False.\n"
+"\n"
+"Sie können Objekte einzeln tilgen, indem Sie auf das - Steuerelement, und Sie können alle Objekte in den Papierkorb, indem Sie auf die Taste \"E\" oben rechts können leer."
 
 #: MorphicExtras-Support,ScrapBook>>scrapBook
 msgid "scraps"
@@ -2525,23 +2712,28 @@ msgid "T R A S H"
 msgstr "M U E L L"
 
 #: MorphicExtras-Support,SketchEditorMorph>>addRotationScaleHandles
-msgid "Drag me sideways to\n"
+msgid ""
+"Drag me sideways to\n"
 "rotate your\n"
 "picture."
-msgstr "Nach links und rechts\n"
+msgstr ""
+"Nach links und rechts\n"
 "ziehen, um das Bild\n"
 "zu drehen."
 
 #: MorphicExtras-Support,SketchEditorMorph>>addRotationScaleHandles
-msgid "Drag me up and down to change\n"
+msgid ""
+"Drag me up and down to change\n"
 "the size\n"
 "of your picture."
-msgstr "Nach oben und unten\n"
+msgstr ""
+"Nach oben und unten\n"
 "ziehen, um die Größe\n"
 "des Bildes zu ändern."
 
 #: MorphicExtras-Support,SketchEditorMorph>>deliverPainting:evt:
-msgid "Do you really want to throw away \n"
+msgid ""
+"Do you really want to throw away \n"
 "what you just painted?"
 msgstr "Möchtest du dein Bild wirklich wegwerfen?"
 
@@ -2694,15 +2886,19 @@ msgid "switch to descending"
 msgstr "Zu Absteigend wechseln"
 
 #: MorphicExtras-Widgets,SimpleSliderMorph>>setActionSelector
-msgid "Please type the selector to be sent to\n"
+msgid ""
+"Please type the selector to be sent to\n"
 "the target when this slider is changed"
-msgstr "Gib den Selektor an, der an das Ziel gesandt\n"
+msgstr ""
+"Gib den Selektor an, der an das Ziel gesandt\n"
 "wird, wenn sich dieser Regler ändert"
 
 #: MorphicExtras-Widgets,SimpleSliderMorph>>setArguments,StringButtonMorph>>setArguments
-msgid "Please type the arguments to be sent to the target\n"
+msgid ""
+"Please type the arguments to be sent to the target\n"
 "when this button is pressed separated by periods"
-msgstr "Bitte gib, getrennt durch Punkte, die Argumente ein, die an\n"
+msgstr ""
+"Bitte gib, getrennt durch Punkte, die Argumente ein, die an\n"
 "das Ziel gesendet werden sollen, wenn der Knopf gedrückt wird."
 
 #: MorphicExtras-Widgets,SimpleSliderMorph>>truncateString
@@ -2754,14 +2950,72 @@ msgid "Choose one of the following conditions"
 msgstr "Wähle eine der folgenden Bedingungen aus"
 
 #: MorphicExtras-Widgets,StringButtonMorph>>setActionSelector
-msgid "Please type the selector to be sent to\n"
+msgid ""
+"Please type the selector to be sent to\n"
 "the target when this button is pressed"
-msgstr "Gib den Selektor an, der beim Drücken\n"
+msgstr ""
+"Gib den Selektor an, der beim Drücken\n"
 "dieses Knopfes an das Ziel gesendet wird."
 
 #: MorphicExtras-Widgets,StringButtonMorph_class>>defaultNameStemForInstances
 msgid "SButton"
 msgstr "Anklickbarer Text"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "frenchDoor"
+msgstr "französische Tür"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "inH"
+msgstr ""
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "outH"
+msgstr ""
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "pageBack"
+msgstr "Seite zurück"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "pageForward"
+msgstr "Seite vor"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "slideAway"
+msgstr "weggleiten"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "slideBorder"
+msgstr "vom Rand gleiten"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "slideBoth"
+msgstr "beide gleiten"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "slideOver"
+msgstr "rüber gleiten"
+
+#: MorphicExtras-Widgets,TransitionMorph>>changed
+msgid "zoomFrame"
+msgstr "zoom"
+
+#: MorphicExtras-Widgets,TransitionMorph>>effect:direction:
+msgid "downLeft"
+msgstr "runter-links"
+
+#: MorphicExtras-Widgets,TransitionMorph>>effect:direction:
+msgid "downRight"
+msgstr "runter-rechts"
+
+#: MorphicExtras-Widgets,TransitionMorph>>effect:direction:
+msgid "upLeft"
+msgstr "hoch-links"
+
+#: MorphicExtras-Widgets,TransitionMorph>>effect:direction:
+msgid "upRight"
+msgstr "hoch-rechts"
 
 #: MorphicExtras-Widgets,TransitionMorph_class>>allEffects
 msgid "dissolve"
@@ -2821,7 +3075,7 @@ msgstr "Unten rechts"
 
 #: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
 msgid "in"
-msgstr ""
+msgstr "in"
 
 #: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
 msgid "in h"
@@ -2859,6 +3113,10 @@ msgstr "Oben rechts"
 msgid "Collaborative"
 msgstr "kollaborative"
 
+#: Skeleton-CSV,CSVParser>>initializeWith:delimiter:
+msgid "Skeleton"
+msgstr "Skelett"
+
 #: Tools-Base,Workspace_class>>registerInFlapsRegistry
 msgid "A Workspace is a simple window for editing text.  You can later save the contents to a file if you desire."
 msgstr "Ein Workspace dient zur Eingabe von Text.  Er kann auch in einer Datei gespeichert werden."
@@ -2894,4 +3152,3 @@ msgstr "Methoden-Sucher"
 #: Tools-MethodFinder,MethodFinder>>initialize2
 msgid "Mixed"
 msgstr "gemischt"
-

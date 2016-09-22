@@ -1,15 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-22 11:32-0000\n"
-"PO-Revision-Date: 2016-09-22 11:32-0000\n"
+"POT-Creation-Date: 2016-09-22 15:38-0000\n"
+"PO-Revision-Date: 2016-09-22 16:03+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: System\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.8\n"
 
+#: Files-Kernel,FileStream_class>>serviceEditFile
+msgid "edit as text file"
+msgstr "als Text-Datei bearbeiten"
 
 #: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:ifDebug:
 msgid "choose another name"
@@ -23,6 +28,22 @@ msgstr "Erstellen Sie eine neue Datei"
 msgid "debug"
 msgstr "debuggen"
 
+#: Graphics-Display_Objects,Form_class>>serviceImageImportAndShowImports
+msgid "Load a graphic, placing it in the ImageImports repository and browse that repository."
+msgstr "Grafik in das Verzeichnis der Grafikimporte laden"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImportAndShowImports
+msgid "read graphic into and show ImageImports"
+msgstr "Grafik in die Grafikimporte einlesen"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImports
+msgid "Load a graphic, placing it in the ImageImports repository."
+msgstr "Grafik in das Verzeichnis der Grafikimporte laden"
+
+#: Graphics-Display_Objects,Form_class>>serviceImageImports
+msgid "read graphic into ImageImports"
+msgstr "Grafik in die Grafikimporte einlesen"
+
 #: Kernel-Objects,Object>>yourself
 #: System-Applications,SoundService_class>>soundEnablingString
 msgid "turn sound off"
@@ -32,19 +53,26 @@ msgstr "Ton aus"
 msgid "turn sound on"
 msgstr "Ton an"
 
+#: System-Changes,ChangeSet>>askRemovedInstVars:
+msgid "import"
+msgstr "Importieren"
+
 #: System-Changes,ChangeSet>>lookForSlips
 msgid "No slips detected in change set\\\"{1}\"."
 msgstr "keine schlüpft in Änderung erkannt gesetzt \\\"{1} \"."
 
 #: System-Changes,ChangeSet>>lookForSlips
-msgid "One method in change set \"{1}\"\\has a halt, reference to the Transcript,\n"
+msgid ""
+"One method in change set \"{1}\"\\has a halt, reference to the Transcript,\n"
 "and/or some other 'slip' in it.\\Would you like to browse it?"
 msgstr "ein Verfahren, bei Änderung Satz \"{1} \" \\ hat einen Stillstand, wobei Bezug auf das Transkript, \\ nund / oder einem anderen \"Abrutschen\" in ihm. \\ möchten Sie es zu durchsuchen?"
 
 #: System-Changes,ChangeSet>>lookForSlips
-msgid "{1} methods in change set \"{2}\"\\have halts or references to the\n"
+msgid ""
+"{1} methods in change set \"{2}\"\\have halts or references to the\n"
 "Transcript or other 'slips' in them.\\Would you like to browse them?"
-msgstr "{1} Methoden in Änderungsset \"{2} \" \\ Aufenthalte oder Verweise auf die \n"
+msgstr ""
+"{1} Methoden in Änderungsset \"{2} \" \\ Aufenthalte oder Verweise auf die \n"
 "transcript haben oder andere \"schlüpft\" in ihnen. \\ Möchten Sie sie zu durchsuchen?"
 
 #: System-Changes,ChangeSet_class>>currentChangeSetString,SmalltalkImage>>currentChangeSetString
@@ -64,9 +92,11 @@ msgid "Create directory"
 msgstr "Verzeichnis erstellen"
 
 #: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
-msgid "The preferred change set directory ('{1}') does not exist.\n"
+msgid ""
+"The preferred change set directory ('{1}') does not exist.\n"
 "Create it or use the default directory ({2})?"
-msgstr "Das bevorzugte Änderungslistenverzeichnis ('{1}') existiert nicht.\n"
+msgstr ""
+"Das bevorzugte Änderungslistenverzeichnis ('{1}') existiert nicht.\n"
 "Soll es neu erstellt werden oder das Standardverzeichnis ({2}) genutzt werden?"
 
 #: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
@@ -74,10 +104,12 @@ msgid "Use default directory and forget preference"
 msgstr "Verwenden Sie Standard-Verzeichnis und vergessen Präferenz"
 
 #: System-Download,ProjectLauncher>>loginAs:
-msgid "Sorry, I cannot find the user list.\n"
+msgid ""
+"Sorry, I cannot find the user list.\n"
 "(this may be due to a network problem)\n"
 "Please hit Cancel if you wish to use Squeak."
-msgstr "Tut mir leid, ich kann die Benutzerliste nicht finden\n"
+msgstr ""
+"Tut mir leid, ich kann die Benutzerliste nicht finden\n"
 " (möglicherweise auf Grund von Netzwerkproblemen).\n"
 " Bitte drücke auf Abbrechen, wenn du Squeak verwenden möchtest."
 
@@ -102,9 +134,11 @@ msgid "merge the translation file into the language named like the file"
 msgstr "Datei mit Übersetzungen für die Sprache gleichen Namens zusammenführen"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:,Locale_class>>switchAndInstallFontToID:gently:
-msgid "This language needs additional fonts.\n"
+msgid ""
+"This language needs additional fonts.\n"
 "Do you want to install the fonts?"
-msgstr "Diese Sprache benötigt zusätzliche Schriften.\n"
+msgstr ""
+"Diese Sprache benötigt zusätzliche Schriften.\n"
 "Sollen diese installiert werden?"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
@@ -172,10 +206,12 @@ msgid "Window Title font..."
 msgstr "Fenstertitel Schrift ..."
 
 #: System-Preferences,Preferences_class>>classicTilesSettingToggled,Preferences_class>>largeTilesSettingToggled
-msgid "note that this will only have a noticeable\n"
+msgid ""
+"note that this will only have a noticeable\n"
 "effect if the universalTiles preference is\n"
 "set to true, which it currently is not"
-msgstr "Diese Änderung hat nur Auswirkungen, wenn\n"
+msgstr ""
+"Diese Änderung hat nur Auswirkungen, wenn\n"
 "die \"universalTiles\"-Einstellung gesetzt ist,\n"
 "was momentan nicht der Fall ist"
 
@@ -316,7 +352,8 @@ msgid "Alphabetical listing of all Preferences"
 msgstr "Alphabetische Liste der Einstellungen"
 
 #: System-Preferences,Preferences_class>>giveHelpWithPreferences
-msgid "Many aspects of the system are governed by the settings of various \"Preferences\".  \n"
+msgid ""
+"Many aspects of the system are governed by the settings of various \"Preferences\".  \n"
 "\n"
 "Click on any of brown tabs at the top of the panel to see all the preferences in that category.  \n"
 "Or type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n"
@@ -330,7 +367,8 @@ msgid "Many aspects of the system are governed by the settings of various \"Pref
 "If you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n"
 "\n"
 "Also, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
-msgstr "Viele Elemente des Systems können über \"Einstellungen\" verwaltet werden.  \n"
+msgstr ""
+"Viele Elemente des Systems können über \"Einstellungen\" verwaltet werden.  \n"
 "\n"
 "Klicke auf eine der Kategorien ganz oben, um alle zugehörigen Einstellungen anzuzeigen.  \n"
 "Du kannst auch das Gewünschte in dem Feld über dem Suchknopf eingeben und dann auf \"Suchen\" drücken. Es erscheinen dann alle Einstellungen, die deiner Eingabe entsprechen, in den \"search results\".  Eine Einstellung entspricht deiner Suche, wenn ihr Name *oder* etwas im Hilfetext zu dieser Einstellung mit deiner Eingabe übereinstimmt.\n"
@@ -346,13 +384,19 @@ msgstr "Viele Elemente des Systems können über \"Einstellungen\" verwaltet wer
 "Ferner kannst du \"Themen\" verwenden, um mehrere Einstellungen auf einmal zu setzen. Klicke dafür auf den \"Themen ändern\"-Knopf in der Squeak-Klappe oder im Kontrollfeld der Einstellungen, oder wähle ein Thema aus im Menü \"Aussehen\"."
 
 #: System-Preferences,Preferences_class>>installTheme:
-msgid "Theme {1} is now installed.\n"
+msgid ""
+"Theme {1} is now installed.\n"
 "Many of the changes will only be\n"
 "noticeable in new windows that you\n"
 "create from now on."
-msgstr "Das Thema {1} ist jetzt installiert.\n"
+msgstr ""
+"Das Thema {1} ist jetzt installiert.\n"
 "Die meisten Änderungen werden\n"
 "erst in neuen Fenstern sichtbar."
+
+#: System-Preferences,Preferences_class>>menuColorString
+msgid "start menu-color-from-world"
+msgstr ""
 
 #: System-Preferences,Preferences_class>>navigatorShowingString
 msgid "show navigator (N)"
@@ -424,7 +468,8 @@ msgstr "Fenster überlappen"
 
 #: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
 msgid "Numerous \"Preferences\" govern many things about the way Squeak looks and behaves.  Set individual preferences using a \"Preferences\" panel.  Set an entire \"theme\" of many Preferences all at the same time by pressing this \"change theme\" button and choosing a theme to install.  Look in category \"themes\" in Preferences class to see what each theme does; add your own methods to the \"themes\" category and they will show up in the list of theme choices."
-msgstr "Zahlreiche Einstellungen regeln das Aussehen und Verhalten von Squeak. Einzelne Einstellungen werden im Einstellungsmanager gesetzt.\n"
+msgstr ""
+"Zahlreiche Einstellungen regeln das Aussehen und Verhalten von Squeak. Einzelne Einstellungen werden im Einstellungsmanager gesetzt.\n"
 "Ein Thema setzt zahlreiche Einstellungen gleichzeitig, indem man den \"Thema wählen\"-Knopf drückt und ein Thema auswählt. \n"
 "Die Kategorie \"themes\" in der Klasse \"Preferences\" beschreibt jedes Thema in einer Methode."
 
@@ -462,7 +507,8 @@ msgstr "Elternteil"
 
 #: System-Support,Project>>enter:revert:saveForRevert:
 msgid "Are you sure you want to destroy this Project\\ and revert to an older version?\\\\(From the parent project, click on this project's thumbnail.)"
-msgstr "Willst du dieses Projekt wirklich löschen\n"
+msgstr ""
+"Willst du dieses Projekt wirklich löschen\n"
 "und zu einer älteren Version zurückkehren?\\\\(Klicke im übergeordneten Projekt auf das Symbol für dieses Projekt.)"
 
 #: System-Support,Project>>enter:revert:saveForRevert:,Project>>loadFromServer:,Project>>storeOnServerInnards
@@ -482,9 +528,11 @@ msgid "Can't exit the top project"
 msgstr "Dies ist das oberste Projekt. Es kann nicht verlassen werden."
 
 #: System-Support,Project>>exportSegmentFileName:directory:withoutInteraction:
-msgid "Would you like to include all the changes in the change set\n"
+msgid ""
+"Would you like to include all the changes in the change set\n"
 "\tas part of this publishing operation?"
-msgstr "Willst du alle Änderungen in die Änderungsliste aufnehmen\n"
+msgstr ""
+"Willst du alle Änderungen in die Änderungsliste aufnehmen\n"
 "\tals Teil dieses Veröffentlichungsvorganges?"
 
 #: System-Support,Project>>loadFromServer:
@@ -544,9 +592,11 @@ msgid "\\There are newer version(s) on the server"
 msgstr "\\Davon gibt es bereits neue Version(en) auf dem Server."
 
 #: System-Support,Project>>tellAFriend:
-msgid "Since this project has not been saved yet,\n"
+msgid ""
+"Since this project has not been saved yet,\n"
 "I cannot tell someone where it is."
-msgstr "Nachdem das Projekt noch nicht gespeichert wurde,\n"
+msgstr ""
+"Nachdem das Projekt noch nicht gespeichert wurde,\n"
 "kann ich niemandem Bescheid sagen, wo es ist."
 
 #: System-Support,Project_class>>mostRecent:onServer:,Project_class>>sweep:
@@ -644,4 +694,3 @@ msgstr "Bitte gib deinen Namen ein:"
 #: System-Support,Utilities_class>>setAuthorName
 msgid "Your Name"
 msgstr "Dein Name"
-

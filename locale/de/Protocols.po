@@ -1,26 +1,95 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-22 11:32-0000\n"
-"PO-Revision-Date: 2016-09-22 11:32-0000\n"
+"POT-Creation-Date: 2016-09-22 15:38-0000\n"
+"PO-Revision-Date: 2016-09-22 16:04+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: Protocols\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.8\n"
 
+#: Kernel-Objects,Object>>yourself Protocols-Kernel,FullVocabulary>>initialize
+msgid "-"
+msgstr "-"
 
-#: Kernel-Objects,Object>>yourself
 #: Protocols-Kernel,ObjectWithDocumentation>>editDescription
 msgid "Kindly edit the description"
 msgstr "Beschreibung eingeben"
 
+#: Protocols-Kernel,Vocabulary>>translatedWordingFor:
+msgid "decrease by"
+msgstr "Verringern um"
+
+#: Protocols-Kernel,Vocabulary>>translatedWordingFor:
+msgid "increase by"
+msgstr "Erhöhen um"
+
+#: Protocols-Kernel,Vocabulary>>translatedWordingFor:
+msgid "multiply by"
+msgstr "Malnehmen mit"
+
+#: Protocols-Kernel,Vocabulary_class>>newTimeVocabulary
+msgid "max:"
+msgstr "max:"
+
+#: Protocols-Kernel,Vocabulary_class>>newTimeVocabulary
+msgid "min:"
+msgstr "min:"
+
 #: Protocols-Tools,Lexicon>>chooseVocabulary
-msgid "Choose a vocabulary\n"
+msgid "="
+msgstr "="
+
+#: Protocols-Tools,Lexicon>>chooseVocabulary
+msgid ""
+"Choose a vocabulary\n"
 "blue = current\n"
 "red = imperfect"
-msgstr "Wähle ein Vokabular\n"
+msgstr ""
+"Wähle ein Vokabular\n"
 "blau = gegenwärtig\n"
 "rot = unvollständig"
 
+#: Protocols-Tools,Lexicon>>customButtonSpecs
+msgid "<"
+msgstr "<"
+
+#: Protocols-Tools,Lexicon>>customButtonSpecs
+msgid ">"
+msgstr ">"
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid "*"
+msgstr "*"
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid "+"
+msgstr "+"
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid "/"
+msgstr "/"
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid "//"
+msgstr "//"
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid "<="
+msgstr "<="
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid ">="
+msgstr ">="
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid "\\\\"
+msgstr "\\\\"
+
+#: Protocols-Type_Vocabularies,NumberType>>initialize
+msgid "~="
+msgstr "~="
