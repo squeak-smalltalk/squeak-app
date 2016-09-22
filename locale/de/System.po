@@ -1,21 +1,25 @@
 msgid ""
-msgstr "Project-Id-Version: eToys\nPOT-Creation-Date: 2016-09-21 13:36-0000\nPO-Revision-Date: 2016-09-21 13:36-0000\nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Etoys-Domain: System\n"
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2016-09-22 10:48-0000\n"
+"PO-Revision-Date: 2016-09-22 10:48-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: System\n"
+
 
 #: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:ifDebug:
-
-#, fuzzy
 msgid "choose another name"
 msgstr "wählen Sie einen anderen Namen"
 
 #: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:ifDebug:
-
-#, fuzzy
 msgid "create a new file"
 msgstr "Erstellen Sie eine neue Datei"
 
 #: Files-Kernel,StandardFileStream_class>>fileDoesNotExistUserHandling:ifDebug:
-
-#, fuzzy
 msgid "debug"
 msgstr "debuggen"
 
@@ -28,22 +32,19 @@ msgid "turn sound on"
 msgstr "Ton an"
 
 #: System-Changes,ChangeSet>>lookForSlips
-
-#, fuzzy
 msgid "No slips detected in change set\\\"{1}\"."
 msgstr "keine schlüpft in Änderung erkannt gesetzt \\\"{1} \"."
 
 #: System-Changes,ChangeSet>>lookForSlips
-
-#, fuzzy
-msgid "One method in change set \"{1}\"\\has a halt, reference to the Transcript,\nand/or some other 'slip' in it.\\Would you like to browse it?"
-msgstr "ein Verfahren, bei Änderung Satz \"{1} \" \\ hat einen Stillstand, wobei Bezug auf das Transkript, \ nund / oder einem anderen "Abrutschen" in ihm. \\ möchten Sie es zu durchsuchen?"
+msgid "One method in change set \"{1}\"\\has a halt, reference to the Transcript,\n"
+"and/or some other 'slip' in it.\\Would you like to browse it?"
+msgstr "ein Verfahren, bei Änderung Satz \"{1} \" \\ hat einen Stillstand, wobei Bezug auf das Transkript, \\ nund / oder einem anderen \"Abrutschen\" in ihm. \\ möchten Sie es zu durchsuchen?"
 
 #: System-Changes,ChangeSet>>lookForSlips
-
-#, fuzzy
-msgid "{1} methods in change set \"{2}\"\\have halts or references to the\nTranscript or other 'slips' in them.\\Would you like to browse them?"
-msgstr "{1} Methoden in Änderungsset \"{2} \" \\ Aufenthalte oder Verweise auf die \ntranscript haben oder andere "schlüpft" in ihnen. \\ Möchten Sie sie zu durchsuchen?"
+msgid "{1} methods in change set \"{2}\"\\have halts or references to the\n"
+"Transcript or other 'slips' in them.\\Would you like to browse them?"
+msgstr "{1} Methoden in Änderungsset \"{2} \" \\ Aufenthalte oder Verweise auf die \n"
+"transcript haben oder andere \"schlüpft\" in ihnen. \\ Möchten Sie sie zu durchsuchen?"
 
 #: System-Changes,ChangeSet_class>>currentChangeSetString,SmalltalkImage>>currentChangeSetString
 msgid "Current Change Set: "
@@ -54,30 +55,30 @@ msgid "Unnamed"
 msgstr "Ohne Namen"
 
 #: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
-
-#, fuzzy
 msgid "Choose another directory"
 msgstr "wählen Sie ein anderes Verzeichnis"
 
 #: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
-
-#, fuzzy
 msgid "Create directory"
 msgstr "Verzeichnis erstellen"
 
 #: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
-msgid "The preferred change set directory ('{1}') does not exist.\nCreate it or use the default directory ({2})?"
-msgstr "Das bevorzugte Änderungslistenverzeichnis ('{1}') existiert nicht.\nSoll es neu erstellt werden oder das Standardverzeichnis ({2}) genutzt werden?"
+msgid "The preferred change set directory ('{1}') does not exist.\n"
+"Create it or use the default directory ({2})?"
+msgstr "Das bevorzugte Änderungslistenverzeichnis ('{1}') existiert nicht.\n"
+"Soll es neu erstellt werden oder das Standardverzeichnis ({2}) genutzt werden?"
 
 #: System-Changes,ChangeSet_class>>promptForDefaultChangeSetDirectoryIfNecessary
-
-#, fuzzy
 msgid "Use default directory and forget preference"
 msgstr "Verwenden Sie Standard-Verzeichnis und vergessen Präferenz"
 
 #: System-Download,ProjectLauncher>>loginAs:
-msgid "Sorry, I cannot find the user list.\n(this may be due to a network problem)\nPlease hit Cancel if you wish to use Squeak."
-msgstr "Tut mir leid, ich kann die Benutzerliste nicht finden\n (möglicherweise auf Grund von Netzwerkproblemen).\n Bitte drücke auf Abbrechen, wenn du Squeak verwenden möchtest."
+msgid "Sorry, I cannot find the user list.\n"
+"(this may be due to a network problem)\n"
+"Please hit Cancel if you wish to use Squeak."
+msgstr "Tut mir leid, ich kann die Benutzerliste nicht finden\n"
+" (möglicherweise auf Grund von Netzwerkproblemen).\n"
+" Bitte drücke auf Abbrechen, wenn du Squeak verwenden möchtest."
 
 #: System-Download,ProjectLauncher>>loginAs:
 msgid "Unknown user: "
@@ -100,8 +101,10 @@ msgid "merge the translation file into the language named like the file"
 msgstr "Datei mit Übersetzungen für die Sprache gleichen Namens zusammenführen"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:,Locale_class>>switchAndInstallFontToID:gently:
-msgid "This language needs additional fonts.\nDo you want to install the fonts?"
-msgstr "Diese Sprache benötigt zusätzliche Schriften.\nSollen diese installiert werden?"
+msgid "This language needs additional fonts.\n"
+"Do you want to install the fonts?"
+msgstr "Diese Sprache benötigt zusätzliche Schriften.\n"
+"Sollen diese installiert werden?"
 
 #: System-Localization,Locale_class>>switchAndInstallFontToID:gently:
 msgid "Cannot load additional fonts"
@@ -132,20 +135,14 @@ msgid "Code font..."
 msgstr "Programmtext-Schriftart..."
 
 #: System-Preferences,Preferences_class>>chooseEToysFont,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "eToys font..."
 msgstr "eToys font ..."
 
 #: System-Preferences,Preferences_class>>chooseEToysTitleFont
-
-#, fuzzy
 msgid "eToys Title font..."
 msgstr "eToys Titel font ..."
 
 #: System-Preferences,Preferences_class>>chooseFixedFont
-
-#, fuzzy
 msgid "Default fixed font..."
 msgstr "Standard Fixed Font ..."
 
@@ -166,34 +163,30 @@ msgid "Button font..."
 msgstr "Schriftart für Schaltknopf..."
 
 #: System-Preferences,Preferences_class>>chooseSystemFont
-
-#, fuzzy
 msgid "Default font..."
 msgstr "Standardschriftart ..."
 
 #: System-Preferences,Preferences_class>>chooseWindowTitleFont
-
-#, fuzzy
 msgid "Window Title font..."
 msgstr "Fenstertitel Schrift ..."
 
 #: System-Preferences,Preferences_class>>classicTilesSettingToggled,Preferences_class>>largeTilesSettingToggled
-msgid "note that this will only have a noticeable\neffect if the universalTiles preference is\nset to true, which it currently is not"
-msgstr "Diese Änderung hat nur Auswirkungen, wenn\ndie \"universalTiles\"-Einstellung gesetzt ist,\nwas momentan nicht der Fall ist"
+msgid "note that this will only have a noticeable\n"
+"effect if the universalTiles preference is\n"
+"set to true, which it currently is not"
+msgstr "Diese Änderung hat nur Auswirkungen, wenn\n"
+"die \"universalTiles\"-Einstellung gesetzt ist,\n"
+"was momentan nicht der Fall ist"
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
 msgid "Choose the default font to be used for code and  in workspaces, transcripts, etc."
 msgstr "Auswahl der voreingestellten Schriftart für Programmtext und in Arbeitsbereichen, Transkripten, etc."
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Choose the default font to be used for text that needs fixed width characters for layouting etc."
 msgstr "die Standard-Schriftart für Text verwendet werden, die feste Breite Zeichen für Layouten usw. benötigt"
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Choose the font to be used in buttons."
 msgstr "Wählen Sie die Schriftart in Tasten verwendet werden."
 
@@ -210,8 +203,6 @@ msgid "Choose the font to be used in menus"
 msgstr "Auswahl der Schriftart zur Verwendung in Menüs"
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Choose the font to be used in titles on eToys environment"
 msgstr "Wählen Sie die Schriftart in Titel auf eToys-Umgebung verwendet werden"
 
@@ -220,14 +211,10 @@ msgid "Choose the font to be used in window titles."
 msgstr "Auswahl der Schriftart für Fenstertitel."
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Choose the font to be used on eToys environment"
 msgstr "die Schriftart wählen, um auf eToys-Umgebung verwendet werden"
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Choose the font to be used on labels ih halo"
 msgstr "die Schriftart wählen, um auf Etiketten in Halo verwendet werden"
 
@@ -236,14 +223,10 @@ msgid "Choose the font to be used on textual flap tabs"
 msgstr "Auswahl der Schriftart für Textreiter an Klappen"
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Print the standard system font defaults to the Transcript"
 msgstr "drucken, um die Standardsystemschriftart standardmäßig das Transkript"
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Set Fonts usable for giving a presentation"
 msgstr "Set Fonts verwendbar für eine Präsentation"
 
@@ -252,8 +235,6 @@ msgid "Standard System Fonts"
 msgstr "Standard-Systemschriftarten"
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "Update this menu to reflect the current fonts"
 msgstr "In diesem Menü aktualisieren Sie die aktuellen Schriften reflektieren"
 
@@ -286,8 +267,6 @@ msgid "default text font..."
 msgstr "Voreingestellte Schriftart für Text..."
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "demo/hi-dpi mode"
 msgstr "Demo / HiDPI-Modus"
 
@@ -300,8 +279,6 @@ msgid "flaps font..."
 msgstr "Klappen-Schriftart..."
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "halo label font..."
 msgstr "Halo Label font ..."
 
@@ -314,8 +291,6 @@ msgid "menu font..."
 msgstr "Menü-Schriftart..."
 
 #: System-Preferences,Preferences_class>>fontConfigurationMenu:
-
-#, fuzzy
 msgid "print current font choices"
 msgstr "drucken aktuellen Schriftarten stehen zur Auswahl"
 
@@ -340,32 +315,57 @@ msgid "Alphabetical listing of all Preferences"
 msgstr "Alphabetische Liste der Einstellungen"
 
 #: System-Preferences,Preferences_class>>giveHelpWithPreferences
-msgid "Many aspects of the system are governed by the settings of various \"Preferences\".  \n\nClick on any of brown tabs at the top of the panel to see all the preferences in that category.  \nOr type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n\nTo find out more about any particular Preference, hold the mouse over it for a moment and balloon help will appear.  Also, a complete list of all the Preferences, with documentation for each, is included below.\n\nPreferences whose names are in shown in bold in the Preferences Panel are designated as being allowed to vary from project to project; those whose name are not in bold are \"global\", which is to say, they apply equally whatever project you are in.\n\nClick on the name of any preference to get a menu which allows you to *change* whether the preference should vary from project to project or should be global, and also allows you to browse all the senders of the preference, and to discover all the categories under which the preference has been classified, and to be handed a button that you can drop wherever you please that will control the preference.\n\nIf you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n\nAlso, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
-msgstr "Viele Elemente des Systems können über \"Einstellungen\" verwaltet werden.  \n\nKlicke auf eine der Kategorien ganz oben, um alle zugehörigen Einstellungen anzuzeigen.  \nDu kannst auch das Gewünschte in dem Feld über dem Suchknopf eingeben und dann auf \"Suchen\" drücken. Es erscheinen dann alle Einstellungen, die deiner Eingabe entsprechen, in den \"search results\".  Eine Einstellung entspricht deiner Suche, wenn ihr Name *oder* etwas im Hilfetext zu dieser Einstellung mit deiner Eingabe übereinstimmt.\n\nUm mehr über eine bestimmte Einstellung herauszufinden, halte kurz die Maus darüber und es erscheint eine Hilfeblase.  Weiter unten kannst du dir eine komplette Liste aller Einstellungen mit Erläuterungen ansehen.\n\nEinstellungen, deren Namen \"fett\" dargestellt sind, können sich zwischen Projekten unterscheiden. Die nicht \"fett\" markierten Einstellungen sind allgemein gültig, d.h. sie gelten für jedes Projekt, in dem Du dich befindest.\n\nKlicke auf den Namen einer Einstellung, um ein Menü zu erhalten. Dieses erlaubt dir *festzulegen*, ob eine Einstellungen zwischen den Projekten variiert oder allgemein gültig ist. Ferner kannst du die Nutzer der Einstellung und alle zu ihr gehörigen Kategorien untersuchen. Du kannst auch einen Knopf zur Verwaltung der Einstellung erhalten, der sich überall ablegen lässt.\n\nWenn Du mit deinen momentanen Einstellungen zufrieden bist, dann solltest diese als persönliche Einstellungen speichern mittels \"Momentane Werte als Persönliche Einstellungen\". Dadurch können diese jederzeit wiederhergestellt werden mit \"Persönliche Einstellungen wiederherstellen\".\n\nFerner kannst du \"Themen\" verwenden, um mehrere Einstellungen auf einmal zu setzen. Klicke dafür auf den \"Themen ändern\"-Knopf in der Squeak-Klappe oder im Kontrollfeld der Einstellungen, oder wähle ein Thema aus im Menü \"Aussehen\"."
+msgid "Many aspects of the system are governed by the settings of various \"Preferences\".  \n"
+"\n"
+"Click on any of brown tabs at the top of the panel to see all the preferences in that category.  \n"
+"Or type in to the box above the Search button, then hit Search, and all Preferences matching whatever you typed in will appear in the \"search results\" category.  A preference is considered to match your search if either its name matches the characters *or* if anything in the balloon help provided for the preferences matches the search text.\n"
+"\n"
+"To find out more about any particular Preference, hold the mouse over it for a moment and balloon help will appear.  Also, a complete list of all the Preferences, with documentation for each, is included below.\n"
+"\n"
+"Preferences whose names are in shown in bold in the Preferences Panel are designated as being allowed to vary from project to project; those whose name are not in bold are \"global\", which is to say, they apply equally whatever project you are in.\n"
+"\n"
+"Click on the name of any preference to get a menu which allows you to *change* whether the preference should vary from project to project or should be global, and also allows you to browse all the senders of the preference, and to discover all the categories under which the preference has been classified, and to be handed a button that you can drop wherever you please that will control the preference.\n"
+"\n"
+"If you like all your current Preferences settings, you may wish to hit the \"Save Current Settings as my Personal Preferences\" button.  Once you have done that, you can at any point in the future hit \"Restore my Personal Preferences\" and all your saved settings will get restored immediately.\n"
+"\n"
+"Also, you can use \"themes\" to set multiple preferences all at once; click on the \"change theme...\" button in the Squeak flap or in the Preferences panel, or seek out the themes item in the Appearance menu."
+msgstr "Viele Elemente des Systems können über \"Einstellungen\" verwaltet werden.  \n"
+"\n"
+"Klicke auf eine der Kategorien ganz oben, um alle zugehörigen Einstellungen anzuzeigen.  \n"
+"Du kannst auch das Gewünschte in dem Feld über dem Suchknopf eingeben und dann auf \"Suchen\" drücken. Es erscheinen dann alle Einstellungen, die deiner Eingabe entsprechen, in den \"search results\".  Eine Einstellung entspricht deiner Suche, wenn ihr Name *oder* etwas im Hilfetext zu dieser Einstellung mit deiner Eingabe übereinstimmt.\n"
+"\n"
+"Um mehr über eine bestimmte Einstellung herauszufinden, halte kurz die Maus darüber und es erscheint eine Hilfeblase.  Weiter unten kannst du dir eine komplette Liste aller Einstellungen mit Erläuterungen ansehen.\n"
+"\n"
+"Einstellungen, deren Namen \"fett\" dargestellt sind, können sich zwischen Projekten unterscheiden. Die nicht \"fett\" markierten Einstellungen sind allgemein gültig, d.h. sie gelten für jedes Projekt, in dem Du dich befindest.\n"
+"\n"
+"Klicke auf den Namen einer Einstellung, um ein Menü zu erhalten. Dieses erlaubt dir *festzulegen*, ob eine Einstellungen zwischen den Projekten variiert oder allgemein gültig ist. Ferner kannst du die Nutzer der Einstellung und alle zu ihr gehörigen Kategorien untersuchen. Du kannst auch einen Knopf zur Verwaltung der Einstellung erhalten, der sich überall ablegen lässt.\n"
+"\n"
+"Wenn Du mit deinen momentanen Einstellungen zufrieden bist, dann solltest diese als persönliche Einstellungen speichern mittels \"Momentane Werte als Persönliche Einstellungen\". Dadurch können diese jederzeit wiederhergestellt werden mit \"Persönliche Einstellungen wiederherstellen\".\n"
+"\n"
+"Ferner kannst du \"Themen\" verwenden, um mehrere Einstellungen auf einmal zu setzen. Klicke dafür auf den \"Themen ändern\"-Knopf in der Squeak-Klappe oder im Kontrollfeld der Einstellungen, oder wähle ein Thema aus im Menü \"Aussehen\"."
 
 #: System-Preferences,Preferences_class>>installTheme:
-msgid "Theme {1} is now installed.\nMany of the changes will only be\nnoticeable in new windows that you\ncreate from now on."
-msgstr "Das Thema {1} ist jetzt installiert.\nDie meisten Änderungen werden\nerst in neuen Fenstern sichtbar."
+msgid "Theme {1} is now installed.\n"
+"Many of the changes will only be\n"
+"noticeable in new windows that you\n"
+"create from now on."
+msgstr "Das Thema {1} ist jetzt installiert.\n"
+"Die meisten Änderungen werden\n"
+"erst in neuen Fenstern sichtbar."
 
 #: System-Preferences,Preferences_class>>navigatorShowingString
 msgid "show navigator (N)"
 msgstr "Zeige Navigator (N)"
 
 #: System-Preferences,Preferences_class>>offerThemesMenu
-
-#, fuzzy
 msgid "Choose a set of preferences to install"
 msgstr "eine Reihe von Voreinstellungen für die Installation auswählen"
 
 #: System-Preferences,Preferences_class>>offerThemesMenu
-
-#, fuzzy
 msgid "Puts up a tool that will allow you to view and edit the code underlying all of the available preference sets"
 msgstr "stellt ein Werkzeug, die Sie den Code zugrunde liegenden alle verfügbaren Vorzugssätze anzeigen und bearbeiten können"
 
 #: System-Preferences,Preferences_class>>offerThemesMenu
-
-#, fuzzy
 msgid "browse details..."
 msgstr "Browser Details ..."
 
@@ -394,20 +394,14 @@ msgid "Current system font settings"
 msgstr "Momentane Einstellung der System-Schriftarten"
 
 #: System-Preferences,Preferences_class>>restoreDefaultFonts
-
-#, fuzzy
 msgid "Apply UI Theme"
 msgstr "gelten ui Thema"
 
 #: System-Preferences,Preferences_class>>restoreDefaultFonts
-
-#, fuzzy
 msgid "Do you want to apply\\\"{1}\"?"
 msgstr "tun Sie anwenden möchten \\\"{1} \"?"
 
 #: System-Preferences,Preferences_class>>restoreDefaultFonts
-
-#, fuzzy
 msgid "Sorry, could not revert font choices.\\Please apply a UI theme with smaller fonts."
 msgstr "Leider konnte kein Schriftarten stehen zur Auswahl zurück. \\ bitte ein ui Thema mit kleinen Schriftarten anwenden."
 
@@ -420,8 +414,6 @@ msgid "Default size of arrowheads on pen trails "
 msgstr "Voreingestellte Größe der Pfeilspitzen bei Stiftspuren "
 
 #: System-Preferences,Preferences_class>>setDemoFonts
-
-#, fuzzy
 msgid "The current UI theme will be copied\\and larger fonts be installed."
 msgstr "die aktuelle ui Thema wird kopiert \\ und größere Schriftarten installiert werden."
 
@@ -431,15 +423,15 @@ msgstr "Fenster überlappen"
 
 #: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
 msgid "Numerous \"Preferences\" govern many things about the way Squeak looks and behaves.  Set individual preferences using a \"Preferences\" panel.  Set an entire \"theme\" of many Preferences all at the same time by pressing this \"change theme\" button and choosing a theme to install.  Look in category \"themes\" in Preferences class to see what each theme does; add your own methods to the \"themes\" category and they will show up in the list of theme choices."
-msgstr "Zahlreiche Einstellungen regeln das Aussehen und Verhalten von Squeak. Einzelne Einstellungen werden im Einstellungsmanager gesetzt.\nEin Thema setzt zahlreiche Einstellungen gleichzeitig, indem man den \"Thema wählen\"-Knopf drückt und ein Thema auswählt. \nDie Kategorie \"themes\" in der Klasse \"Preferences\" beschreibt jedes Thema in einer Methode."
+msgstr "Zahlreiche Einstellungen regeln das Aussehen und Verhalten von Squeak. Einzelne Einstellungen werden im Einstellungsmanager gesetzt.\n"
+"Ein Thema setzt zahlreiche Einstellungen gleichzeitig, indem man den \"Thema wählen\"-Knopf drückt und ein Thema auswählt. \n"
+"Die Kategorie \"themes\" in der Klasse \"Preferences\" beschreibt jedes Thema in einer Methode."
 
 #: System-Preferences,Preferences_class>>themeChoiceButtonOfColor:font:
 msgid "change theme..."
 msgstr "Thema wählen..."
 
 #: System-Support,DefaultExternalDropHandler>>chooseServiceFrom:,ExternalDropHandler_class>>chooseServiceFrom:
-
-#, fuzzy
 msgid "You dropped a file. Please choose a service:"
 msgstr "Sie ließ eine Datei. Bitte wählen Sie einen Dienst:"
 
@@ -452,32 +444,25 @@ msgid "load a package version"
 msgstr "Paket-Version laden"
 
 #: System-Support,Project>>buildJumpToMenu:
-
-#, fuzzy
 msgid "back {1}"
 msgstr "zurück {1}"
 
 #: System-Support,Project>>buildJumpToMenu:
-
-#, fuzzy
 msgid "current"
 msgstr "Strom"
 
 #: System-Support,Project>>buildJumpToMenu:
-
-#, fuzzy
 msgid "forward {1}"
 msgstr "vorwärts {1}"
 
 #: System-Support,Project>>buildJumpToMenu:
-
-#, fuzzy
 msgid "parent"
 msgstr "Elternteil"
 
 #: System-Support,Project>>enter:revert:saveForRevert:
 msgid "Are you sure you want to destroy this Project\\ and revert to an older version?\\\\(From the parent project, click on this project's thumbnail.)"
-msgstr "Willst du dieses Projekt wirklich löschen\nund zu einer älteren Version zurückkehren?\\\\(Klicke im übergeordneten Projekt auf das Symbol für dieses Projekt.)"
+msgstr "Willst du dieses Projekt wirklich löschen\n"
+"und zu einer älteren Version zurückkehren?\\\\(Klicke im übergeordneten Projekt auf das Symbol für dieses Projekt.)"
 
 #: System-Support,Project>>enter:revert:saveForRevert:,Project>>loadFromServer:,Project>>storeOnServerInnards
 msgid "Cancel"
@@ -496,8 +481,10 @@ msgid "Can't exit the top project"
 msgstr "Dies ist das oberste Projekt. Es kann nicht verlassen werden."
 
 #: System-Support,Project>>exportSegmentFileName:directory:withoutInteraction:
-msgid "Would you like to include all the changes in the change set\n\tas part of this publishing operation?"
-msgstr "Willst du alle Änderungen in die Änderungsliste aufnehmen\n\tals Teil dieses Veröffentlichungsvorganges?"
+msgid "Would you like to include all the changes in the change set\n"
+"\tas part of this publishing operation?"
+msgstr "Willst du alle Änderungen in die Änderungsliste aufnehmen\n"
+"\tals Teil dieses Veröffentlichungsvorganges?"
 
 #: System-Support,Project>>loadFromServer:
 msgid "Loading"
@@ -528,8 +515,6 @@ msgid "Project password"
 msgstr "Projekt-Passwort"
 
 #: System-Support,Project>>storeOnServerInnards
-
-#, fuzzy
 msgid "Store anyway"
 msgstr "Geschichte sowieso"
 
@@ -558,16 +543,16 @@ msgid "\\There are newer version(s) on the server"
 msgstr "\\Davon gibt es bereits neue Version(en) auf dem Server."
 
 #: System-Support,Project>>tellAFriend:
-msgid "Since this project has not been saved yet,\nI cannot tell someone where it is."
-msgstr "Nachdem das Projekt noch nicht gespeichert wurde,\nkann ich niemandem Bescheid sagen, wo es ist."
+msgid "Since this project has not been saved yet,\n"
+"I cannot tell someone where it is."
+msgstr "Nachdem das Projekt noch nicht gespeichert wurde,\n"
+"kann ich niemandem Bescheid sagen, wo es ist."
 
 #: System-Support,Project_class>>mostRecent:onServer:,Project_class>>sweep:
 msgid "server is unavailable"
 msgstr "Der Server ist nicht verfügbar."
 
 #: System-Support,ProjectLoading_class>>openName:stream:fromDirectory:withProjectView:clearOriginFlag:
-
-#, fuzzy
 msgid "Cannot load S-Expression format projects without Etoys"
 msgstr "können Projekte Ausdrucksformat nicht Last s ohne etoys"
 
@@ -596,14 +581,10 @@ msgid "{1} already exists. Overwrite?"
 msgstr "Eine Datei {1} existiert schon. Überschreiben?"
 
 #: System-Support,SmalltalkImage>>imageFormatVersion
-
-#, fuzzy
 msgid "primitive #primitiveImageFormatVersion"
 msgstr "primitive #primitive Bildformat Version"
 
 #: System-Support,SmalltalkImage>>interpreterSourceVersion
-
-#, fuzzy
 msgid "This virtual machine does not support the optional primitive #primitiveInterpreterSourceVersion"
 msgstr "diese virtuelle Maschine unterstützt nicht die optionale primitive #primitive Interpreter-Source-Version"
 
@@ -612,38 +593,26 @@ msgid "latest update: #"
 msgstr "Letztes Update: #"
 
 #: System-Support,SmalltalkImage>>platformSourceVersion
-
-#, fuzzy
 msgid "This virtual machine supports neither the optional primitive #primitivePlatformSourceVersion nor the optional system attribute 1009"
 msgstr "diese virtuelle Maschine unterstützt weder die optionale primitive #primitive Plattform-Source-Version noch das optionale System 1009 Attribut"
 
 #: System-Support,SmalltalkImage>>versionLabel
-
-#, fuzzy
 msgid "This virtual machine does not support the optional primitive #primitiveVMVersion"
 msgstr "diese virtuelle Maschine unterstützt nicht die optionale primitive #primitive vm Version"
 
 #: System-Support,SystemNavigation>>confirmRemovalOf:on:
-
-#, fuzzy
 msgid "The message \"{1}\" has {2} sender{3}."
 msgstr "die Meldung \"{1} \" hat {2} {3} Sensor."
 
 #: System-Support,SystemVersion>>description
-
-#, fuzzy
 msgid "ALPHA. New features which are not stable yet may come in\\with each update. Also, existing features might not work reliably\\due to updates and related changes."
 msgstr "Alpha. neue Features, die nicht stabil sind noch kommen kann \\ mit jedem Update. auch, arbeiten vorhandene Funktionen \\ möglicherweise nicht zuverlässig aufgrund von Aktualisierungen und der damit verbundenen Änderungen."
 
 #: System-Support,SystemVersion>>description
-
-#, fuzzy
 msgid "FEATURE FREEZE. A new release is being prepared.\\There will be only bugfixes, but no new features."
 msgstr "Feature-Freeze. eine neue Version ist in Vorbereitung. \\ nur Fehlerbehebungen sein wird, aber keine neuen Funktionen."
 
 #: System-Support,SystemVersion>>description
-
-#, fuzzy
 msgid "RELEASE CANDIDATE. The new release is almost ready.\\There will be only bugfixes, if any."
 msgstr "Release Candidate. Die neue Version ist fast fertig. \\ gibt es nur noch Fehlerkorrekturen , falls vorhanden sein."
 
@@ -674,3 +643,4 @@ msgstr "Bitte gib deinen Namen ein:"
 #: System-Support,Utilities_class>>setAuthorName
 msgid "Your Name"
 msgstr "Dein Name"
+

@@ -1,5 +1,16 @@
 msgid ""
-msgstr "Project-Id-Version: eToys\nPOT-Creation-Date: 2016-09-21 13:36-0000\nPO-Revision-Date: 2016-09-21 13:36-0000\nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Etoys-Domain: Morphic\n"
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2016-09-22 10:48-0000\n"
+"PO-Revision-Date: 2016-09-22 10:55+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: Morphic\n"
+"Language: de\n"
+"X-Generator: Poedit 1.8.8\n"
 
 #: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
 msgid "choose new graphic"
@@ -10,10 +21,8 @@ msgid "grab new graphic"
 msgstr "Neues Bild erfassen"
 
 #: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
-
-#, fuzzy
 msgid "change color ramp"
-msgstr "Farbe ändern Rampe"
+msgstr "Farbverlauf ändern"
 
 #: Balloon-Fills,GradientFillStyle>>addFillStyleMenuItems:hand:from:
 msgid "linear gradient"
@@ -32,22 +41,16 @@ msgid "change origin"
 msgstr "Ursprung ändern"
 
 #: Collections-Text,TextURL>>actOnClickFor:
-
-#, fuzzy
 msgid "Do you want to open this URL in a Web browser?\\\\{1}"
-msgstr "tun Sie diese URL in einem Web-Browser zu öffnen? \\\\ {1}"
+msgstr "Wollen Sie diese URL in einem Web-Browser öffnen? \\\\{1}"
 
 #: Collections-Text,TextURL>>actOnClickFor:,TextURL>>actOnClickFor:
-
-#, fuzzy
 msgid "Open Web Page"
-msgstr "Open-Web-Seite"
+msgstr "Webseite öffnen"
 
 #: Collections-Text,TextURL>>actOnClickFor:
-
-#, fuzzy
 msgid "There is no Web browser installed but the URL was copied to the clipboard:\\{1}\\\\Do you want to view the Web page's source/response anyway?"
-msgstr "es installiert ist kein Web-Browser wurde aber die URL in die Zwischenablage kopiert: \\ {1} \\\\ tun Sie die Webseite des Quelle / Antwort trotzdem anzeigen möchten?"
+msgstr "Wir konnten keinen Web-Browser finden, die URL wurde in die Zwischenablage kopiert:\\{1}\\\\Wollen Sie die Quelle/Antwort trotzdem anzeigen?"
 
 #: Graphics-Text,TextStyle_class>>emphasisMenuForFont:target:selector:highlight:
 msgid "emphasis"
@@ -83,7 +86,7 @@ msgstr "Grafik"
 
 #: Morphic-Basic,CircleMorph_class>>supplementaryPartsDescriptions
 msgid "Pin"
-msgstr ""
+msgstr "Stecknadel"
 
 #: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin
 msgid "An elliptical or circular shape"
@@ -174,22 +177,30 @@ msgid "closed"
 msgstr "Geschlossen"
 
 #: Morphic-Basic,PolygonMorph>>smoothOrSegmentedPhrase
-
-#, fuzzy
 msgid "make segmented {1}"
-msgstr "machen segmentierte {1}"
+msgstr "mach segmentiert {1}"
 
 #: Morphic-Basic,PolygonMorph>>smoothOrSegmentedPhrase
-
-#, fuzzy
 msgid "make smooth {1}"
-msgstr "machen glatt {1"
+msgstr "mach glatt {1}"
 
 #: Morphic-Basic,PolygonMorph>>specifyDashedLine
-
-#, fuzzy
-msgid "Enter a dash specification as\n{ major dash length. minor dash length. minor dash color }\nThe major dash will have the normal border color.\nA blank response will remove the dash specification.\n[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\nwhere the 4th ityem is zero, and the 5th is the number of pixels\nby which the dashes will move in each step of animation]"
-msgstr "einen Bindestrich-Spezifikation als \n{Hauptstrichlänge eingeben. kleinere Strichlänge . Moll Strich Farbe} \nder Haupt Strich wird die normale Grenzfarbe haben \neine leere Antwort wird der Bindestrich-Spezifikation entfernen \n[Anmerkung:.. Sie 5 Elemente wie geben kann, zum Beispiel {10. 5. Farbe Weiß. 0. 3} \ Nwhere die 4. ityem Null ist, und der fünfte ist die Anzahl der Pixel \ nby denen die Striche in jedem Schritt der Animation bewegt]"
+msgid ""
+"Enter a dash specification as\n"
+"{ major dash length. minor dash length. minor dash color }\n"
+"The major dash will have the normal border color.\n"
+"A blank response will remove the dash specification.\n"
+"[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
+"where the 4th ityem is zero, and the 5th is the number of pixels\n"
+"by which the dashes will move in each step of animation]"
+msgstr ""
+"Eine Bindestrich-Spezifikation eingeben als\n"
+"{Hauptstrichlänge. Zwischenstrichlänge. Zwischenstrichfarbe}\n"
+"der Hauptstrich wird die normale Randfarbe haben.\n"
+"Eine leere Antwort entfernt die Bindestrich-Spezifikation\n"
+"[Anmerkung: 5 Elemente können angegeben werden als, zum Beispiel {10. 5. Color white. 0. 3}\n"
+"Das 4. Element ist Null, und das Fünfte ist die Anzahl der Pixel\n"
+"um die die Striche in jedem Schritt der Animation bewegt werden]"
 
 #: Morphic-Basic,PolygonMorph_class>>descriptionForPartsBin
 msgid "A series of connected line segments, which may be a closed solid, or a zig-zag line.  Shift-click to get handles and move the points."
@@ -228,8 +239,16 @@ msgid "set as background"
 msgstr "Als Hintergrund verwenden"
 
 #: Morphic-Basic,SketchMorph>>callThisBaseGraphic,SketchMorph>>restoreBaseGraphicFromMenu
-msgid "oops, this menu is a for a morph that\nhas been replaced, probably because a\n\"look like\" script was run.  Please dismiss\nthe menu and get a new one!.  Sorry!"
-msgstr "Hoppla, dieses Menü ist für einen Morph, der\nersetzt wurde, wahrscheinlich weil ein\n\"look like\"-Skript lief.  Bitte verwirf dieses Menü\nund hol dir ein Neues!  Tut mir Leid!"
+msgid ""
+"oops, this menu is a for a morph that\n"
+"has been replaced, probably because a\n"
+"\"look like\" script was run.  Please dismiss\n"
+"the menu and get a new one!.  Sorry!"
+msgstr ""
+"Hoppla, dieses Menü ist für einen Morph, der\n"
+"ersetzt wurde, wahrscheinlich weil ein\n"
+"\"look like\"-Skript lief.  Bitte verwirf dieses Menü\n"
+"und hol dir ein Neues!  Tut mir Leid!"
 
 #: Morphic-Basic,SketchMorph>>callThisBaseGraphic
 msgid "this already *was* your baseGraphic"
@@ -248,8 +267,15 @@ msgid "now choose the color you want to replace it with"
 msgstr "Farbe auswählen, mit der ersetzt werden soll"
 
 #: Morphic-Basic,SketchMorph>>reduceColorPalette:
-msgid "Please enter a number greater than one.\n(note: this cannot be undone, so answer zero\nto abort if you need to make a backup first)"
-msgstr "Bitte gib eine Zahl größer als Null ein.\n(Hinweis: Dies kann nicht rückgängig gemacht werden;\nzum Abbrechen gib zuerst Null ein,\num vorher noch ein Backup zu machen.)"
+msgid ""
+"Please enter a number greater than one.\n"
+"(note: this cannot be undone, so answer zero\n"
+"to abort if you need to make a backup first)"
+msgstr ""
+"Bitte gib eine Zahl größer als Null ein.\n"
+"(Hinweis: Dies kann nicht rückgängig gemacht werden;\n"
+"zum Abbrechen gib zuerst Null ein,\n"
+"um vorher noch ein Backup zu machen.)"
 
 #: Morphic-Basic,SketchMorph>>restoreBaseGraphicFromMenu
 msgid "This object is *already* showing its baseGraphic"
@@ -280,10 +306,8 @@ msgid "add successor"
 msgstr "Nachfolger"
 
 #: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
-
-#, fuzzy
 msgid "avoid occlusions"
-msgstr "vermeiden Verstopfungen"
+msgstr "vermeiden Überlappungen"
 
 #: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
 msgid "fill owner's shape"
@@ -298,10 +322,8 @@ msgid "holder for characters"
 msgstr "Behälter für die Zeichen"
 
 #: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
-
-#, fuzzy
 msgid "ignore occlusions"
-msgstr "ignorieren Einschlüssen"
+msgstr "ignorieren Überlappungen"
 
 #: Morphic-Basic,TextMorph>>addCustomMenuItems:hand:
 msgid "rectangular bounds"
@@ -337,7 +359,7 @@ msgstr "Am Rand umbrechen"
 
 #: Morphic-Basic,TextMorph_class>>authoringPrototype
 msgid "abc"
-msgstr ""
+msgstr "abc"
 
 #: Morphic-Basic,TextMorph_class>>boldAuthoringPrototype,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
 msgid "Text"
@@ -380,16 +402,26 @@ msgid "Text that you can edit into anything you wish"
 msgstr "Frei änderbarer Text"
 
 #: Morphic-Basic,ThumbnailImageMorph>>popupFeatureString
-
-#, fuzzy
 msgid "Popup feature"
 msgstr "Pop-up-Funktion"
 
 #: Morphic-Demo,ClickExerciser>>balloonText
-
-#, fuzzy
-msgid "Double-click on me to change my color; \nsingle-click on me to change border color;\nhold mouse down within me and then move it to grow \n or shrink. When I time out my border changes width.\nChoose which of the above will work\nby selecting the boxes in the middle.\nSee the boxes balloons."
-msgstr "Klicken Sie doppelt auf mich meine Farbe zu ändern; \ Nsingle auf mich klicken Grenzfarbe zu ändern; \ Nhold Maus in mir nach unten und dann \noder schrumpfen zu wachsen bewegen. wenn ich meine Grenze Breite ändert Timeout. \nwählen, welche der oben arbeiten \ nby Auswahl der Boxen in der Mitte. \ndie Boxen Ballons zu sehen."
+msgid ""
+"Double-click on me to change my color; \n"
+"single-click on me to change border color;\n"
+"hold mouse down within me and then move it to grow \n"
+" or shrink. When I time out my border changes width.\n"
+"Choose which of the above will work\n"
+"by selecting the boxes in the middle.\n"
+"See the boxes balloons."
+msgstr ""
+"Klicken Sie doppelt auf mich meine Farbe zu ändern; \n"
+"Einmal klicken um die Randfarbe zu ändern; \n"
+"Maus in mir gedrückt halten und dann bewegen um wachsen\n"
+"oder schrumpfen zu lasssen. Wenn meine Zeit abläuft, ändert sich meine Randdicke. \n"
+"Wählen Sie, welche der Funktionen eingeschaltet sein sollen\n"
+"indem die Boxen in der Mitte ausgewählt werden. \n"
+"Sehen Sie dazu auch die Hilfetexte der Boxen."
 
 #: Morphic-Kernel,BorderedMorph>>addBorderStyleMenuItems:hand:
 msgid "border color..."
@@ -404,18 +436,22 @@ msgid "border width..."
 msgstr "Randbreite..."
 
 #: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
-msgid "Move cursor farther from\nthis point to increase border width.\nClick when done."
-msgstr "Schiebe den Zeiger von hier weg,\num den Rand breiter zu machen.\nKlicke, wenn fertig."
+msgid ""
+"Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr ""
+"Schiebe den Zeiger von hier weg,\n"
+"um den Rand breiter zu machen.\n"
+"Klicke, wenn fertig."
 
 #: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
 msgid "border change"
 msgstr "Rahmen ändern"
 
 #: Morphic-Kernel,HandMorph>>pasteMorph
-
-#, fuzzy
 msgid "Nothing to paste."
-msgstr "nichts einzufügen."
+msgstr "Nichts einzufügen."
 
 #: Morphic-Kernel,Morph>>addCellLayoutMenuItems:hand:
 msgid "child layout"
@@ -614,10 +650,8 @@ msgid "change layout inset..."
 msgstr "Äußeren Rand ändern..."
 
 #: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
-
-#, fuzzy
 msgid "copy layout properties"
-msgstr "Kopie Layout-Eigenschaften"
+msgstr "Kopiere Layout-Eigenschaften"
 
 #: Morphic-Kernel,Morph>>addLayoutMenuItems:hand:
 msgid "layout"
@@ -680,16 +714,12 @@ msgid "blur"
 msgstr "verwischen"
 
 #: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
-
-#, fuzzy
 msgid "detect edges"
-msgstr "erkennt Kanten"
+msgstr "Erkenne Kanten"
 
 #: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
-
-#, fuzzy
 msgid "emboss"
-msgstr "Präge"
+msgstr "Prägung"
 
 #: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
 msgid "erase pixels of color"
@@ -728,10 +758,8 @@ msgid "set rotation style"
 msgstr "Drehtyp setzen"
 
 #: Morphic-Kernel,Morph>>addPaintingItemsTo:hand:
-
-#, fuzzy
 msgid "sharpen"
-msgstr "schärfen"
+msgstr "Schärfen"
 
 #: Morphic-Kernel,Morph>>addStandardHaloMenuItemsTo:hand:,Morph>>addYellowButtonMenuItemsTo:event:
 msgid "bring to front"
@@ -802,34 +830,24 @@ msgid "sight target"
 msgstr "Anblick Ziel"
 
 #: Morphic-Kernel,Morph>>addYellowButtonMenuItemsTo:event:
-
-#, fuzzy
 msgid "connect to"
-msgstr "verbunden mit"
+msgstr "Verbinden mit"
 
 #: Morphic-Kernel,Morph>>addYellowButtonMenuItemsTo:event:
-
-#, fuzzy
 msgid "deselect"
 msgstr "Abwählen"
 
 #: Morphic-Kernel,Morph>>addYellowButtonMenuItemsTo:event:
-
-#, fuzzy
 msgid "move onscreen"
-msgstr "bewegen auf dem Bildschirm"
+msgstr "Auf dem Bildschirm bewegen"
 
 #: Morphic-Kernel,Morph>>addYellowButtonMenuItemsTo:event:
-
-#, fuzzy
 msgid "select"
-msgstr "wählen"
+msgstr "Anwählen"
 
 #: Morphic-Kernel,Morph>>balloonHelpTextForHandle:
-
-#, fuzzy
 msgid "unknown halo handle"
-msgstr "unbekannt Halo Griff"
+msgstr "Unbekannter Griff"
 
 #: Morphic-Kernel,Morph>>buildDebugMenu:
 msgid "Opens a Viewer on this Morph, rather than on its Player"
@@ -840,16 +858,12 @@ msgid "Opens a viewer on my Player -- this is the same thing you get if you clic
 msgstr "Öffnet einen Betrachter für den Darsteller - wie bei dem türkisen \"Betrachter öffnen\"-Knauf im Halo."
 
 #: Morphic-Kernel,Morph>>buildDebugMenu:
-
-#, fuzzy
 msgid "browse morph class"
-msgstr "durchsuchen Morph-Klasse"
+msgstr "Morph-Klasse untersuchen"
 
 #: Morphic-Kernel,Morph>>buildDebugMenu:
-
-#, fuzzy
 msgid "browse player class"
-msgstr "Browse-Spieler-Klasse"
+msgstr "Spieler-Klasse untersuchen"
 
 #: Morphic-Kernel,Morph>>buildDebugMenu:
 msgid "call #tempCommand"
@@ -1025,43 +1039,27 @@ msgstr "Schrumpfzellen"
 
 #: Morphic-Kernel,Morph>>helpButton
 msgid "?"
-msgstr ""
+msgstr "?"
 
 #: Morphic-Kernel,Morph>>helpButton
 msgid "click here for help"
 msgstr "Hier klicken für Hilfe"
-
-#: Morphic-Kernel,Morph>>innocuousName
-
-#, fuzzy
-msgid "Bordered"
-msgstr "grenzte"
-
-#: Morphic-Kernel,Morph>>innocuousName
-msgid "KedamaTurtle"
-msgstr ""
 
 #: Morphic-Kernel,Morph>>lockedString
 msgid "be locked"
 msgstr "Gesperrt"
 
 #: Morphic-Kernel,Morph>>makeGraphPaper
-
-#, fuzzy
 msgid "Choose a background color"
-msgstr "eine Hintergrundfarbe wählen"
+msgstr "Eine Hintergrundfarbe wählen"
 
 #: Morphic-Kernel,Morph>>makeGraphPaper
-
-#, fuzzy
 msgid "Choose a line color"
-msgstr "eine Linienfarbe wählen"
+msgstr "Eine Linienfarbe wählen"
 
 #: Morphic-Kernel,Morph>>makeGraphPaper
-
-#, fuzzy
 msgid "Enter grid size"
-msgstr "Geben Sie Rastergröße"
+msgstr "Rastergröße eingeben"
 
 #: Morphic-Kernel,Morph>>makeMultipleSiblings:
 msgid "how many siblings do you want?"
@@ -1100,10 +1098,16 @@ msgid "resist being picked up"
 msgstr "Nicht anzuheben"
 
 #: Morphic-Kernel,Morph>>tempCommand
-
-#, fuzzy
-msgid "Before calling tempCommand, you\nshould first give it a definition.  To\ndo this, choose \"define tempCommand\"\nfrom the debug menu."
-msgstr "vor Temp Befehl aufrufen, müssen Sie \ sollte zunächst eine Definition geben. ndo dies, wählen Sie \"definieren Temp Befehl \" \ aus dem Debug-Menü auf \."
+msgid ""
+"Before calling tempCommand, you\n"
+"should first give it a definition.  To\n"
+"do this, choose \"define tempCommand\"\n"
+"from the debug menu."
+msgstr ""
+"Vor dem aufrufen von tempCommand,\n"
+"sollten Sie zunächst eine Definition angeben.\n"
+"Dazu wählen Sie \"definiere tempCommand\"\n"
+"aus dem Debug-Menü."
 
 #: Morphic-Kernel,Morph>>undoGrabCommand
 msgid "move "
@@ -1130,34 +1134,24 @@ msgid "open editing"
 msgstr "Editieren beginnen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>aboutMenuItemOn:
-
-#, fuzzy
 msgid "About Squeak..."
-msgstr "über Squeak ..."
+msgstr "Über Squeak ..."
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>aboutSqueak,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "About Squeak"
-msgstr "über Squeak"
+msgstr "Über Squeak"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>appsMenuOn:
-
-#, fuzzy
 msgid "Apps"
 msgstr "Apps"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>browserMenuItemOn:
-
-#, fuzzy
 msgid "Browser"
 msgstr "Browser"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>browserMenuItemOn:
-
-#, fuzzy
 msgid "Open a browser"
-msgstr "öffnen Sie einen Browser"
+msgstr "Öffnen Sie einen Browser"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>doMenuOn:
 msgid "Do"
@@ -1168,26 +1162,18 @@ msgid "Dual Change Sorter"
 msgstr "Doppelte Änderungsverwaltung"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>dualChangeSorterMenuItemOn:
-
-#, fuzzy
 msgid "Open a Dual Change Sorter"
-msgstr "öffnen Sie ein Dual Änderung Sortierer"
+msgstr "Öffnen Sie ein zweispaltigen Änderungssortierer"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Annotation Setup"
-msgstr "Anmerkung Setup"
+msgstr "Annotationseinstellungen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Browse My Changes"
-msgstr "durchsuchen meine Änderungen"
+msgstr "Meine Änderungen durchsuchen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Browse all of my changes since the last time #condenseSources was run."
 msgstr "da die #condense Quellen letzte Mal alle meine Änderungen zu sehen ausgeführt wurde."
 
@@ -1196,140 +1182,94 @@ msgid "Click here to get a little window that will allow you to specify which ty
 msgstr "Liefert ein kleines Fenster, in dem man einstellen kann, welche Informationen im Anmerkungsfeld von Browsern dargestellt werden sollen."
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Collect Garbage"
 msgstr "sammeln Müll"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Extras"
 msgstr "Extras"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Graphical Imports"
 msgstr "graphische Importe"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Language"
 msgstr "Sprache"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Lets you view and change the system's standard library of graphics"
 msgstr "können Sie das System der Standardbibliothek von Grafiken anzeigen und ändern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Purge Undo Records"
 msgstr "Purge Undo Aufzeichnungen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Rebuild Menus"
 msgstr "Wiederaufbau Menüs"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Rebuilds the menu bar"
 msgstr "baut die Menüleiste"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Recover Changes"
 msgstr "erholen Änderungen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Recover changes after a crash"
 msgstr "erholen Änderungen nach einem Absturz"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Redraws the entire display"
 msgstr "zeichnet das gesamte Display"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Restore Display (r)"
-msgstr ""
+msgstr "Anzeige wiederherstellen (r)"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Run the garbage collector and report space usage"
 msgstr "Führen Sie den Garbage Collector und berichten Raumnutzung"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Save space by removing all the undo information remembered in all projects"
 msgstr "Platz sparen, indem er alle Undo-Informationen in allen Projekten in Erinnerung zu entfernen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Set Author Initials"
-msgstr ""
+msgstr "Author Initialien setzen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Sets the author initials"
 msgstr "setzt die Autor Initialen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Standard Graphics Library"
 msgstr "Standard-Grafik-Bibliothek"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Start Profiler"
 msgstr "Start-Profiler"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Starts the profiler"
-msgstr ""
+msgstr "Den Profiler starten"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Themes & Colors"
-msgstr "Themen & Farben"
+msgstr "Aussehen & Farben"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "VM statistics"
 msgstr "vm Statistiken"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "View the global repository called ImageImports; you can easily import external graphics into ImageImports via the FileList"
 msgstr "Im Global-Repository Bild Importe genannt; Sie können leicht externe Grafiken in Bildimporte über die Dateiliste importieren"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
-
-#, fuzzy
 msgid "Virtual Machine information"
 msgstr "virtuelle Maschine Informationen"
 
@@ -1338,44 +1278,30 @@ msgid "File List"
 msgstr "Dateiliste"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>fileListMenuItemOn:
-
-#, fuzzy
 msgid "Open a file list"
 msgstr "Öffnen Sie eine Dateiliste"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "A very simple way to access Squeak Swiki resources in the image"
 msgstr "eine sehr einfache Art und Weise Squeak Swiki Ressourcen in das Bild zugreifen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Changes in this release"
 msgstr "Änderungen in diesem Release"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Concise information about language and environment"
-msgstr "präzise Informationen über Sprache und Umgebung"
+msgstr "Präzise Informationen über Sprache und Umgebung"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Extending the system"
 msgstr "Erweiterung des Systems"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Font Size Summary"
 msgstr "Schriftgröße Zusammenfassung"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Font size summary."
 msgstr "Schriftgröße Zusammenfassung."
 
@@ -1384,242 +1310,126 @@ msgid "Help"
 msgstr "Hilfe"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Includes code snippets to evaluate for extending the system"
-msgstr "einschließlich Code-Schnipsel für die Erweiterung des Systems zu bewerten"
+msgstr "Enthält Code-Schnipsel für die Erweiterung des Systems"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Integrated Help System"
-msgstr "integriertes Hilfesystem"
+msgstr "Integriertes Hilfesystem"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Keyboard Shortcuts"
 msgstr "Tastatürkürzel"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Keyboard bindings used in Squeak"
-msgstr "Tastaturbindungen in Squeak verwendet"
+msgstr "In Squeak verwendete Tastaturkürzel"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "License Information"
 msgstr "Lizenzinformationen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Online Resources"
 msgstr "Online-Ressourcen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Online resources for Squeak"
-msgstr ""
+msgstr "Online-Ressourcen für Squeak"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Release Notes"
 msgstr "Versionshinweise"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Squeak Help"
 msgstr "Squeak Hilfe"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Squeak Swiki"
 msgstr "Squeak Wiki"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "SystemReporter status of the image and runtime environment"
-msgstr "System Reporter Status des Bildes und Laufzeitumgebung"
+msgstr "SystemReporter Status vom Image und der Laufzeitumgebung"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Terse Guide to Squeak"
-msgstr "prägnanten Leitfaden für Squeak"
+msgstr "Kurzleitfaden für Squeak"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "The Squeak User Interface"
-msgstr "das Squeak Benutzeroberfläche"
+msgstr "Die Squeak Benutzeroberfläche"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Useful Expressions"
-msgstr "nützliche Ausdrücke"
+msgstr "Nützliche Ausdrücke"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
 msgid "Useful expressions"
 msgstr "nützliche Ausdrücke"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>helpMenuOn:
-
-#, fuzzy
 msgid "Working With Squeak"
 msgstr "Arbeiten mit Squeak"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>jumpToProjectMenuItemOn:
-
-#, fuzzy
 msgid "Jump To Project"
-msgstr "Sprung zum Projekt"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "DBus Explorer"
-msgstr "d Bus-Explorer"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "Dependency Browser"
-msgstr "Abhängigkeit Browser"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "Font Importer"
-msgstr "font Importeur"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "Help Browser"
-msgstr "Hilfe-Browser"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "Preference Browser"
-msgstr "Präferenz Browser"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "Preference Wizard"
-msgstr "Präferenz-Assistenten"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "Services Browser"
-msgstr "Dienste-Browser"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "Skeleton Spreadsheet"
-msgstr "Skelett-Tabelle"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "SqueakMap Catalog"
-msgstr "Squeak Karte Katalog"
-
-#: Morphic-Kernel,TheWorldMainDockingBar>>listAppsOn:
-
-#, fuzzy
-msgid "SqueakMap Categories"
-msgstr "Squeak Karte Kategorien"
+msgstr "Zu Projekt springen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>listCommonRequestsOn:
 msgid "edit this list"
 msgstr "Liste editieren"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>listWindowsOn:
-
-#, fuzzy
 msgid "No Windows"
-msgstr ""
+msgstr "Keine Fenster"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>loadProjectMenuItemOn:
-
-#, fuzzy
 msgid "Load Project"
-msgstr "Last-Projekt"
+msgstr "Projekt laden"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>loadProjectMenuItemOn:
-
-#, fuzzy
 msgid "Load a project from a file"
-msgstr "laden ein Projekt aus einer Datei"
+msgstr "Projekt aus einer Datei laden"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>methodFinderMenuItemOn:
 msgid "Method Finder"
 msgstr "Methoden-Sucher"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>methodFinderMenuItemOn:
-
-#, fuzzy
 msgid "Open the Method Finder"
-msgstr "Öffnen Sie die Methode finder"
+msgstr "Den Methoden-Finder öffnen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>monticelloBrowserMenuItemOn:
-
-#, fuzzy
 msgid "Monticello Browser"
-msgstr "Monticello Browser"
+msgstr "Monticello-Browser"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>monticelloBrowserMenuItemOn:
-
-#, fuzzy
 msgid "Open a Monticello Browser"
-msgstr "öffnen Sie einen Browser Monticello"
+msgstr "Einen Monticello-Browser öffnen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>monticelloConfigurationsMenuItemOn:
-
-#, fuzzy
 msgid "Monticello Configurations"
-msgstr "Monticello Konfigurationen"
+msgstr "Monticello-Konfigurationen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>monticelloConfigurationsMenuItemOn:
-
-#, fuzzy
 msgid "Open a Monticello Configurations Editor"
 msgstr "öffnen Sie eine Monti Konfigurationen Editor"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>newProjectMenuItemOn:
-
-#, fuzzy
 msgid "New Project"
-msgstr "neues Projekt"
+msgstr "Neues Projekt"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>newProjectMenuItemOn:
-
-#, fuzzy
 msgid "Start a new MorphicProject"
 msgstr "ein neues Projekt zu starten morphic"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>openHelp:topic:styled:,TheWorldMainDockingBar>>squeakHelp
-
-#, fuzzy
 msgid "Sorry, there is no help system installed."
 msgstr "Sorry, es gibt keine Hilfesystem installiert."
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>preferenceBrowserMenuItemOn:
-
-#, fuzzy
 msgid "Open a Preferences Browser"
 msgstr "öffnen Sie ein Browser-Einstellungen"
 
@@ -1628,32 +1438,22 @@ msgid "Preferences"
 msgstr "Einstellungsverwaltung"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>previousProjectMenuItemOn:
-
-#, fuzzy
 msgid "Previous Project"
-msgstr "vorheriges Projekt"
+msgstr "Voriges Projekt"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>previousProjectMenuItemOn:
-
-#, fuzzy
 msgid "Return to the most-recently-visited project"
 msgstr "Rückkehr zum zuletzt besuchten Projekt"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>processBrowserMenuItemOn:
-
-#, fuzzy
 msgid "Open a Process Browser"
-msgstr "Öffnen Sie ein Prozess Browser"
+msgstr "Öffnen Sie ein Prozess-Browser"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>processBrowserMenuItemOn:
-
-#, fuzzy
 msgid "Process Browser"
 msgstr "Prozess-Browser"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>projectsMenuOn:
-
-#, fuzzy
 msgid "Projects"
 msgstr "Projekte"
 
@@ -1662,160 +1462,110 @@ msgid "Quit"
 msgstr "Verlassen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>quitMenuItemOn:
-
-#, fuzzy
 msgid "Quit out of Squeak"
-msgstr "Beenden von Squeak"
+msgstr "Squeak beenden"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>quitSqueak,TheWorldMenu>>quitSession
 msgid "Save changes before quitting?"
 msgstr "Änderungen vor dem Verlassen speichern?"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveAndQuitMenuItemOn:
-
-#, fuzzy
 msgid "Save And Quit"
-msgstr "speichern und Beenden"
+msgstr "Speichern und Beenden"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveAndQuitMenuItemOn:
-
-#, fuzzy
 msgid "Save the current state of Squeak on disk, and quit out of Squeak"
-msgstr "speichern den aktuellen Stand der Squeak auf der Festplatte , und beenden aus Squeak"
+msgstr "Den aktuellen Stand auf der Festplatte speichern, und Squeak beenden"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveAsMenuItemOn:
-
-#, fuzzy
 msgid "Save As..."
-msgstr "speichern als..."
+msgstr "Speichern unter..."
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveAsMenuItemOn:
-
-#, fuzzy
 msgid "Save the current state of Squeak on disk under a new name"
-msgstr "speichern den aktuellen Stand der Squeak auf der Festplatte unter einem neuen Namen"
+msgstr "Den aktuellen Stand auf der Festplatte unter einem neuen Namen speichern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveAsNewVersionMenuItemOn:
-
-#, fuzzy
 msgid "Save As New Version"
-msgstr "speichern als neue Version"
+msgstr "Als neue Version speichern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveAsNewVersionMenuItemOn:
-
-#, fuzzy
 msgid "Save the current state of Squeak on disk under a version-stamped name"
-msgstr "speichern den aktuellen Stand der Squeak auf der Platte unter einer Version gestempelt Namen"
+msgstr "Den aktuellen Stand auf der Festplatte unter einem versionierten Namen speichern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveMenuItemOn:
 msgid "Save"
 msgstr "Speichern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveMenuItemOn:
-
-#, fuzzy
 msgid "Save the current state of Squeak on disk"
-msgstr "speichern den aktuellen Stand der Squeak auf der Festplatte"
+msgstr "Den aktuellen Stand auf der Festplatte speichern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveProjectMenuItemOn:
-
-#, fuzzy
 msgid "Save Project"
 msgstr "Projekt speichern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>saveProjectMenuItemOn:
-
-#, fuzzy
 msgid "Save this project on a file"
-msgstr "Speichern Sie dieses Projekt auf eine Datei"
+msgstr "Dieses Projekt in einer Datei speichern"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>simpleChangeSorterMenuItemOn:
-
-#, fuzzy
 msgid "Open a Change Sorter"
 msgstr "Öffnen Sie eine Änderung Sortierer"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>simpleChangeSorterMenuItemOn:
-
-#, fuzzy
 msgid "Simple Change Sorter"
 msgstr "einfache Änderung Sortierer"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>testRunnerMenuItemOn:
-
-#, fuzzy
 msgid "Open the Test Runner"
 msgstr "Öffnen Sie den Test-Runner"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>testRunnerMenuItemOn:
-
-#, fuzzy
 msgid "Test Runner"
 msgstr "Test-Runner"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "(No UI themes found.)"
-msgstr "(Keine ui Themen gefunden.)"
+msgstr "(Keine UI Schemas gefunden.)"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Colorful Windows"
-msgstr "bunte Fenster"
+msgstr "Bunte Fenster"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Edit Current UI Theme..."
 msgstr "bearbeiten aktuelle ui Thema ..."
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Flat Widget Look"
 msgstr "flache Widget-Look"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Hard Shadows"
 msgstr "harte Schatten"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Restore UI Theme Background"
 msgstr "ui Thema Hintergrund wiederherstellen"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Rounded Button/Scrollbar Look"
 msgstr "abgerundete Taste / Scrollbar Look"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Rounded Window/Dialog/Menu Look"
 msgstr "abgerundete Fenster / Dialog / Menü-Look"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>themesAndWindowColorsOn:
-
-#, fuzzy
 msgid "Soft Shadows"
 msgstr "weiche Schatten"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>toggleFullScreenOn:
-
-#, fuzzy
 msgid "toggle full screen mode"
 msgstr "Vollbildmodus umschalten"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>transcriptMenuItemOn:
-
-#, fuzzy
 msgid "Open the Transcript"
 msgstr "öffnen Sie das Transkript"
 
@@ -1824,32 +1574,22 @@ msgid "Transcript"
 msgstr "Abschrift"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>updateMenuItemOn:
-
-#, fuzzy
 msgid "Load latest code updates via the internet"
 msgstr "laden neuesten Code-Updates über das Internet"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>updateMenuItemOn:
-
-#, fuzzy
 msgid "Update Squeak"
-msgstr "Update Squeak"
+msgstr "Squeak aktualisieren"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>windowMenuFor:on:
-
-#, fuzzy
 msgid "Close all but this"
 msgstr "schließen alle, aber diese"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>windowMenuFor:on:
-
-#, fuzzy
 msgid "Close all like this"
 msgstr "schließen wie das alles"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>windowMenuFor:on:
-
-#, fuzzy
 msgid "Expand or Contract"
 msgstr "ausdehnen oder zusammenziehen"
 
@@ -1858,8 +1598,6 @@ msgid "Windows"
 msgstr "Fenster"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>workspaceMenuItemOn:
-
-#, fuzzy
 msgid "Open a Workspace"
 msgstr "Öffnen Sie einen Arbeitsbereich"
 
@@ -1868,52 +1606,102 @@ msgid "Workspace"
 msgstr "Arbeitsplatz"
 
 #: Morphic-Kernel,TheWorldMenu>>cleanUpWorld
-msgid "This will remove all windows except those\ncontaining unsubmitted text edits, and will\nalso remove all non-window morphs (other\nthan flaps) found on the desktop.  Are you\nsure you want to do this?"
-msgstr "Dies entfernt alle Fenster außer jenen\nmit ungespeicherten Texteingaben.\nFerner werden alle Nicht-Fenster-Morphe\n(außer Klappen) von der Arbeitsfläche entfernt.\nBist du sicher, dass du das willst?"
+msgid ""
+"This will remove all windows except those\n"
+"containing unsubmitted text edits, and will\n"
+"also remove all non-window morphs (other\n"
+"than flaps) found on the desktop.  Are you\n"
+"sure you want to do this?"
+msgstr ""
+"Dies entfernt alle Fenster außer jenen\n"
+"mit ungespeicherten Texteingaben.\n"
+"Ferner werden alle Nicht-Fenster-Morphe\n"
+"(außer Klappen) von der Arbeitsfläche entfernt.\n"
+"Bist du sicher, dass du das willst?"
 
 #: Morphic-Kernel,TheWorldMenu>>debugMenu
-
-#, fuzzy
 msgid "disable halt/inspect once"
 msgstr "deaktivieren halt / inspizieren einmal"
 
 #: Morphic-Kernel,TheWorldMenu>>debugMenu
-
-#, fuzzy
 msgid "enable halt/inspect once"
 msgstr "ermöglichen halt / inspizieren einmal"
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-
-#, fuzzy
-msgid "make screenshot"
-msgstr "machen Screenshot"
+msgid "commands for doing multi-machine \"telemorphic\" experiments"
+msgstr "Befehle um \"Tele-Morphic\" Experimente mit mehreren Computern auszuführen"
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-
-#, fuzzy
-msgid "makes a screenshot and saves it to disk"
-msgstr "einen Screenshot macht und auf der Festplatte speichern"
+msgid "give the current image a new version-stamped name and save it under that name on disk."
+msgstr "Den aktuellen Stand auf der Festplatte unter einem versionierten Namen speichern"
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "open a browser"
-msgstr "öffnen Sie einen Browser"
+msgid "jump to project..."
+msgstr "Zu Projekt springen..."
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-
-#, fuzzy
-msgid "open a test runner"
-msgstr "öffnen Sie eine Test-Runner"
+msgid "load a project from a file"
+msgstr "Ein Projekt aus einer Datei laden"
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-
-#, fuzzy
-msgid "open a transcript"
-msgstr "öffnen Sie ein Transkript"
+msgid "load project from file..."
+msgstr "Projekt aus einer Datei laden..."
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "open a workspace"
-msgstr "Öffnen Sie einen Arbeitsbereich"
+msgid "put up a list of all projects, letting me choose one to go to"
+msgstr "Zeige eine Liste mit allen Projekten, und lass mich eines auswählen"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "quit out of Squeak."
+msgstr "Squeak beenden"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
+msgstr "Anzeige neu zeichenen -- nützlich um z.B. unerwünschte Anzeigefehler zu beheben"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "restore display (r)"
+msgstr "Anzeige wiederherstellen (r)"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "return to the most-recently-visited project"
+msgstr "Rückkehr zum zuletzt besuchten Projekt"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save and quit"
+msgstr "Speichern und Beenden"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save as new version"
+msgstr "Als neue Version speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save as..."
+msgstr "Speichern unter..."
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save project on file..."
+msgstr "Dieses Projekt in einer Datei speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save the current image on disk, and quit out of Squeak."
+msgstr "Den aktuellen Stand auf der Festplatte speichern, und Squeak beenden"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save the current version of the image on disk"
+msgstr "Den aktuellen Stand auf der Festplatte speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save the current version of the image on disk under a new name."
+msgstr "Den aktuellen Stand auf der Festplatte unter einem neuen Namen speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "save this project on a file"
+msgstr "Dieses Projekt in einer Datei speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
+msgid "telemorphic..."
+msgstr "Tele-Morphic..."
 
 #: Morphic-Kernel,TheWorldMenu>>loadProject
 msgid "Select a File:"
@@ -1956,12 +1744,20 @@ msgid "make new drawing"
 msgstr "Neue Zeichnung"
 
 #: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
-msgid "Choose a file\nto load"
+msgid ""
+"Choose a file\n"
+"to load"
 msgstr "Datei auswählen"
 
 #: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
-msgid "Sorry, no suitable files found\n(names should end with .morph, .gif,\n.bmp, .jpeg, .jpe, .jp, or .form)"
-msgstr "Keine passende Datei gefunden\n(Name muss auf .morph, .gif,\n.bmp, .jpeg, .jpe, .jp oder .form enden.)"
+msgid ""
+"Sorry, no suitable files found\n"
+"(names should end with .morph, .gif,\n"
+".bmp, .jpeg, .jpe, .jp, or .form)"
+msgstr ""
+"Keine passende Datei gefunden\n"
+"(Name muss auf .morph, .gif,\n"
+".bmp, .jpeg, .jpe, .jp oder .form enden.)"
 
 #: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
 msgid "unrecognized image file format"
@@ -2108,8 +1904,12 @@ msgid "send top window to back (\\)"
 msgstr "Oberstes Fenster nach hinten (\\)"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
-msgid "stagger: new windows positioned so you can see a portion of each one.\n                tile: new windows positioned so that they do not overlap others, if possible."
-msgstr "Überlappen: neue Fenster werden so angeordnet, dass zumindest ein Teil von jedem sichtbar ist.\n                Kacheln: neue Fenster werden wenn möglich nebeneinander angeordnet."
+msgid ""
+"stagger: new windows positioned so you can see a portion of each one.\n"
+"                tile: new windows positioned so that they do not overlap others, if possible."
+msgstr ""
+"Überlappen: neue Fenster werden so angeordnet, dass zumindest ein Teil von jedem sichtbar ist.\n"
+"                Kacheln: neue Fenster werden wenn möglich nebeneinander angeordnet."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
 msgid "windows"
@@ -2120,8 +1920,6 @@ msgid "Where in the world menu is..."
 msgstr "Wo im Weltmenü ist..."
 
 #: Morphic-Menus,MenuItemMorph>>buildDebugMenu:,PluggableButtonMorph>>buildDebugMenu:
-
-#, fuzzy
 msgid "implementors of"
 msgstr "Implementierer"
 
@@ -2150,32 +1948,22 @@ msgid "No"
 msgstr "Nein"
 
 #: Morphic-Menus,MenuMorph_class>>example
-
-#, fuzzy
 msgid "Fruit"
 msgstr "Frucht"
 
 #: Morphic-Menus-DockingBar,DockingBarMorph>>autoGradientString
-
-#, fuzzy
 msgid "auto gradient"
 msgstr "auto-Gradient"
 
 #: Morphic-Menus-DockingBar,DockingBarMorph>>avoidVisibleBordersAtEdgeString
-
-#, fuzzy
 msgid "avoid visible borders at edge"
 msgstr "vermeiden sichtbare Ränder am Rand"
 
 #: Morphic-Menus-DockingBar,DockingBarMorph>>fillsOwnerString
-
-#, fuzzy
 msgid "fills owner"
 msgstr "Füllungen Besitzer"
 
 #: Morphic-Menus-DockingBar,SearchBar>>buildWith:
-
-#, fuzzy
 msgid "Search or evaluate..."
 msgstr "suchen oder bewerten ..."
 
@@ -2196,8 +1984,12 @@ msgid "Choose the font for this list"
 msgstr "Schriftart für diese Liste auswählen"
 
 #: Morphic-Pluggable_Widgets,PluggableTextMorph>>promptForCancel
-msgid "Changes have not been saved.\nIs it OK to cancel those changes?"
-msgstr "Änderungen wurden nicht gespeichert.\nDiese Änderungen verwerfen?"
+msgid ""
+"Changes have not been saved.\n"
+"Is it OK to cancel those changes?"
+msgstr ""
+"Änderungen wurden nicht gespeichert.\n"
+"Diese Änderungen verwerfen?"
 
 #: Morphic-Sound,ScorePlayerMorph>>invokeMenu
 msgid "make a pause marker"
@@ -2244,8 +2036,6 @@ msgid "Pause"
 msgstr "Pause"
 
 #: Morphic-Sound,ScorePlayerMorph>>makeControls
-
-#, fuzzy
 msgid "Piano Roll"
 msgstr "Piano-Roll"
 
@@ -2275,11 +2065,11 @@ msgstr "Keine .mid/.midi-Dateien im Squeak-Verzeichnis gefunden"
 
 #: Morphic-Sound,ScorePlayerMorph>>panAndVolControlsFor:
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: Morphic-Sound,ScorePlayerMorph>>panAndVolControlsFor:
 msgid "R"
-msgstr ""
+msgstr "R"
 
 #: Morphic-Sound,ScorePlayerMorph>>rateControl
 msgid " fast"
@@ -2327,21 +2117,17 @@ msgstr "Übernehmen"
 
 #: Morphic-Support,FontChooserTool>>buildButtonBarWith:,UserDialogBoxMorph_class>>inform:title:at:
 msgid "OK"
-msgstr ""
+msgstr "OK"
 
 #: Morphic-Support,FontImporterTool>>buildButtonBarWith:,GradientEditor>>closeButtonLabel,NewColorPickerMorph>>closeButtonLabel,TheWorldMainDockingBar>>windowMenuFor:on:
 msgid "Close"
 msgstr "Schließen"
 
 #: Morphic-Support,FontImporterTool>>buildButtonBarWith:
-
-#, fuzzy
 msgid "Import"
 msgstr "einführen"
 
 #: Morphic-Support,FontImporterTool>>buildWindowWith:specs:
-
-#, fuzzy
 msgid "Choose a Font to import"
 msgstr "Wählen Sie eine Schriftart zu importieren"
 
@@ -2374,8 +2160,6 @@ msgid "Debug"
 msgstr "Debuggen"
 
 #: Morphic-Support,MorphicProject>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
-
-#, fuzzy
 msgid "Do not write file"
 msgstr "nicht schreiben, Datei"
 
@@ -2384,8 +2168,6 @@ msgid "Segment not written"
 msgstr "Segment nicht geschrieben"
 
 #: Morphic-Support,MorphicProject>>exportSegmentWithChangeSet:fileName:directory:withoutInteraction:
-
-#, fuzzy
 msgid "Write file anyway"
 msgstr "schreiben Datei trotzdem"
 
@@ -2402,8 +2184,6 @@ msgid "Loading"
 msgstr "Laden des Projektes läuft."
 
 #: Morphic-Support,MorphicProject>>loadFromServer:
-
-#, fuzzy
 msgid "Reload anyway"
 msgstr "nachladen sowieso"
 
@@ -2448,8 +2228,6 @@ msgid "Widgets"
 msgstr "Geräte"
 
 #: Morphic-Support,MorphicProject>>showWorldMainDockingBarString
-
-#, fuzzy
 msgid "show main docking bar (M)"
 msgstr "zeigen Haupt Docking-Bar (m)"
 
@@ -2458,8 +2236,12 @@ msgid "show shared tabs (F)"
 msgstr "Gemeinsame Klappen anzeigen (F)"
 
 #: Morphic-Support,MorphicProject_class>>openViewAndEnter:
-msgid "This is not a PasteUpMorph or\nexported Project."
-msgstr "Dies ist weder ein PasteUpMorph\nnoch ein exportiertes Projekt."
+msgid ""
+"This is not a PasteUpMorph or\n"
+"exported Project."
+msgstr ""
+"Dies ist weder ein PasteUpMorph\n"
+"noch ein exportiertes Projekt."
 
 #: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
 msgid "align bottom edges"
@@ -2518,8 +2300,6 @@ msgid "normal"
 msgstr "Normal"
 
 #: Morphic-Text_Support,TextEditor>>changeTextFont
-
-#, fuzzy
 msgid "Change the selected text's font to..."
 msgstr "Ändern des ausgewählten Textes Schriftart ..."
 
@@ -2532,8 +2312,6 @@ msgid "cut (x)"
 msgstr "Ausschneiden (x)"
 
 #: Morphic-Text_Support,TextEditor_class>>initializeYellowButtonMenu
-
-#, fuzzy
 msgid "do/replace again (j)"
 msgstr "Sie / ersetzen wieder (j)"
 
@@ -2542,8 +2320,6 @@ msgid "find again (g)"
 msgstr "Nächstes Suchen (g)"
 
 #: Morphic-Text_Support,TextEditor_class>>initializeYellowButtonMenu
-
-#, fuzzy
 msgid "find and replace ..."
 msgstr "suchen und Ersetzen ..."
 
@@ -2560,8 +2336,6 @@ msgid "paste..."
 msgstr "Einfügen..."
 
 #: Morphic-Text_Support,TextEditor_class>>initializeYellowButtonMenu
-
-#, fuzzy
 msgid "redo (Z)"
 msgstr "Redo (z)"
 
@@ -2622,10 +2396,8 @@ msgid "TrueType banner"
 msgstr "TrueType-Schriftzug"
 
 #: Morphic-Widgets,BalloonMorph_class>>chooseBalloonFont
-
-#, fuzzy
 msgid "Ballon Help font..."
-msgstr "Ballon Hilfe font ..."
+msgstr "Ballon-Hilfe Schriftart ..."
 
 #: Morphic-Widgets,ColorPickerMorph>>addCustomMenuItems:hand:
 msgid "do not stay up"
@@ -2664,58 +2436,28 @@ msgid "dismiss color picker"
 msgstr "Pipette schließen"
 
 #: Morphic-Widgets,ColorPickerMorph>>initializeModal:
-
-#, fuzzy
 msgid "put me somewhere"
-msgstr "setzte mich irgendwo"
+msgstr "Setzte mich irgendwo ab"
 
 #: Morphic-Widgets,ColorPickerMorph>>initializeModal:
-
-#, fuzzy
 msgid "theSelector"
 msgstr "der Selektor"
 
 #: Morphic-Widgets,GradientEditor>>addColorButtonLabel
-
-#, fuzzy
 msgid "Add color"
 msgstr "Farbe hinzufügen"
 
 #: Morphic-Widgets,GradientEditor>>removeColorButtonLabel
-
-#, fuzzy
 msgid "Remove color"
 msgstr "entfernen Farbe"
 
 #: Morphic-Widgets,HaloMorph>>addDirectionHandles
-
-#, fuzzy
 msgid "Rotation center (hold down the shift key and drag from here to change it)"
 msgstr "Rotationszentrum (halten Sie die Umschalttaste gedrückt und ziehen Sie von hier, es zu ändern)"
 
 #: Morphic-Widgets,HaloMorph>>addDirectionHandles
-
-#, fuzzy
 msgid "Set forward direction"
 msgstr "Satz Vorwärtsrichtung"
-
-#: Morphic-Widgets,HaloMorph>>addHandleAt:color:icon:on:send:to:
-
-#, fuzzy
-msgid "Change color"
-msgstr "Farbe ändern"
-
-#: Morphic-Widgets,HaloMorph>>addHandleAt:color:icon:on:send:to:
-
-#, fuzzy
-msgid "Change size"
-msgstr "Größe ändern"
-
-#: Morphic-Widgets,HaloMorph>>addHandleAt:color:icon:on:send:to:
-
-#, fuzzy
-msgid "Open a Viewer for me. Press shift for a snapshot."
-msgstr "öffnet sich ein Betrachter für mich. Presse Verschiebung für einen Schnappschuss."
 
 #: Morphic-Widgets,HaloMorph>>maybeDismiss:with:
 msgid "Really throw this away"
@@ -2790,14 +2532,10 @@ msgid "Joystick"
 msgstr "Joystick"
 
 #: Morphic-Widgets,MorphHierarchyListMorph>>createContainer
-
-#, fuzzy
 msgid "Objects Hierarchy"
 msgstr "Objekte Hierarchie"
 
 #: Morphic-Widgets,NewColorPickerMorph>>newBottomRow
-
-#, fuzzy
 msgid "Current selection:"
 msgstr "aktuelle Auswahl:"
 
@@ -2838,12 +2576,20 @@ msgid "Choose one of the following conditions"
 msgstr "Wähle eine der folgenden Bedingungen aus"
 
 #: Morphic-Widgets,SimpleButtonMorph>>setActionSelector
-msgid "Please type the selector to be sent to\nthe target when this button is pressed"
-msgstr "Gib den Selektor an, der beim Drücken\ndieses Knopfes an das Ziel gesendet wird."
+msgid ""
+"Please type the selector to be sent to\n"
+"the target when this button is pressed"
+msgstr ""
+"Gib den Selektor an, der beim Drücken\n"
+"dieses Knopfes an das Ziel gesendet wird."
 
 #: Morphic-Widgets,SimpleButtonMorph>>setArguments
-msgid "Please type the arguments to be sent to the target\nwhen this button is pressed separated by periods"
-msgstr "Bitte gib, getrennt durch Punkte, die Argumente ein, die an\ndas Ziel gesendet werden sollen, wenn der Knopf gedrückt wird."
+msgid ""
+"Please type the arguments to be sent to the target\n"
+"when this button is pressed separated by periods"
+msgstr ""
+"Bitte gib, getrennt durch Punkte, die Argumente ein, die an\n"
+"das Ziel gesendet werden sollen, wenn der Knopf gedrückt wird."
 
 #: Morphic-Widgets,SimpleButtonMorph>>setTarget
 msgid "Enter an expression that create the target"
@@ -2852,34 +2598,6 @@ msgstr "Ausdruck eingeben zum Erstellen des Ziel"
 #: Morphic-Widgets,SimpleButtonMorph_class>>defaultNameStemForInstances
 msgid "Button"
 msgstr "Schaltknopf"
-
-#: Morphic-Widgets,UpdatingStringMorph>>acceptValueFromTarget:
-
-#, fuzzy
-msgid "1049.0@940.0"
-msgstr "1049.0@940.0"
-
-#: Morphic-Widgets,UpdatingStringMorph>>acceptValueFromTarget:
-
-#, fuzzy
-msgid "1049@940"
-msgstr "1049 @ 940"
-
-#: Morphic-Widgets,UpdatingStringMorph>>acceptValueFromTarget:
-
-#, fuzzy
-msgid "a Player98 (1772161) named KedamaPatch"
-msgstr "ein Spieler 98 (1772161) namens kendama Patch"
-
-#: Morphic-Widgets,UpdatingStringMorph>>acceptValueFromTarget:
-msgid "emptyScript"
-msgstr "leeres Skript"
-
-#: Morphic-Widgets,UpdatingStringMorph>>acceptValueFromTarget:
-
-#, fuzzy
-msgid "logScale"
-msgstr "logarithmischer Maßstab"
 
 #: Morphic-Widgets,UpdatingStringMorph>>addCustomMenuItems:hand:
 msgid "decimal places..."
@@ -2926,46 +2644,42 @@ msgid "Cancel"
 msgstr "Abbrechen"
 
 #: Morphic-Windows,DialogWindow>>createTitle:
-
-#, fuzzy
 msgid "Cancel this dialog"
 msgstr "brechen Sie diesen Dialog"
 
 #: Morphic-Windows,DialogWindow>>createTitle:
-
-#, fuzzy
 msgid "Dialog menu"
 msgstr "Dialogmenü"
 
 #: Morphic-Windows,DialogWindow>>offerDialogMenu
-
-#, fuzzy
 msgid "be modally exclusive"
 msgstr "sein modal exklusiv"
 
 #: Morphic-Windows,DialogWindow>>offerDialogMenu
-
-#, fuzzy
 msgid "explore dialog invocation"
 msgstr "erkunden Dialogaufruf"
 
 #: Morphic-Windows,ProjectViewMorph>>balloonText
-msgid "Click here to enter the\nproject named\n\"{1}\""
-msgstr "Hier klicken zum Starten\ndes Projektes\n\"{1}\""
+msgid ""
+"Click here to enter the\n"
+"project named\n"
+"\"{1}\""
+msgstr ""
+"Hier klicken zum Starten\n"
+"des Projektes\n"
+"\"{1}\""
 
 #: Morphic-Windows,ProjectViewMorph>>dismissViaHalo,ProjectViewMorph>>expungeProject
-msgid "Do you really want to delete {1}\nand all its content?"
-msgstr "tun Sie löschen möchten, um wirklich {1} \ und alle seine Inhalte?"
+msgid ""
+"Do you really want to delete {1}\n"
+"and all its content?"
+msgstr "tun Sie löschen möchten, um wirklich {1} \\ und alle seine Inhalte?"
 
 #: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
-
-#, fuzzy
 msgid "no - delete the window only"
 msgstr "Löschen nicht das Fenster nur"
 
 #: Morphic-Windows,ProjectViewMorph>>dismissViaHalo
-
-#, fuzzy
 msgid "yes - delete the window and the project"
 msgstr "ja löschen Sie das Fenster und das Projekt"
 
@@ -3042,8 +2756,6 @@ msgid "full screen"
 msgstr "Vollbild"
 
 #: Morphic-Windows,SystemWindow>>buildWindowMenu
-
-#, fuzzy
 msgid "original size"
 msgstr "Originalgröße"
 
@@ -3080,8 +2792,6 @@ msgid "Note"
 msgstr "UML - Notiz"
 
 #: Morphic-Worlds,PasteUpMorph>>addCustomMenuItems:hand:
-
-#, fuzzy
 msgid "old desktop menu... (W)"
 msgstr "alten Desktop-Menü ... (w)"
 
@@ -3166,8 +2876,12 @@ msgid "world scale and clip..."
 msgstr "Weltskalierung und -ausschnitt..."
 
 #: Morphic-Worlds,PasteUpMorph>>assureNotPaintingElse:
-msgid "Sorry, you can only paint\none object at a time"
-msgstr "Leider kannst du nur ein Objekt\ngleichzeitig zeichnen"
+msgid ""
+"Sorry, you can only paint\n"
+"one object at a time"
+msgstr ""
+"Leider kannst du nur ein Objekt\n"
+"gleichzeitig zeichnen"
 
 #: Morphic-Worlds,PasteUpMorph>>autoLineLayoutString
 msgid "auto-line-layout"
@@ -3178,16 +2892,24 @@ msgid "abandon costume history"
 msgstr "Kostümverlauf verlassen"
 
 #: Morphic-Worlds,PasteUpMorph>>closeUnchangedWindows
-msgid "Do you really want to close all windows\nexcept those with unaccepted edits?"
-msgstr "Wirklich alle Fenster schließen, die keine\nungespeicherten Änderungen enthalten?"
+msgid ""
+"Do you really want to close all windows\n"
+"except those with unaccepted edits?"
+msgstr ""
+"Wirklich alle Fenster schließen, die keine\n"
+"ungespeicherten Änderungen enthalten?"
 
 #: Morphic-Worlds,PasteUpMorph>>defaultNameStemForInstances
 msgid "world"
 msgstr "Welt"
 
 #: Morphic-Worlds,PasteUpMorph>>deleteNonWindows
-msgid "Do you really want to discard all objects\nthat are not in windows?"
-msgstr "Wirklich alle Objekte außerhalb\nvon Fenstern löschen?"
+msgid ""
+"Do you really want to discard all objects\n"
+"that are not in windows?"
+msgstr ""
+"Wirklich alle Objekte außerhalb\n"
+"von Fenstern löschen?"
 
 #: Morphic-Worlds,PasteUpMorph>>findWindow:,TheWorldMenu>>windowsMenu
 msgid "find window"
@@ -3274,8 +2996,6 @@ msgid "resize to fit"
 msgstr "Größe anpassen"
 
 #: Morphic-Worlds,PasteUpMorph>>saveOnFile
-
-#, fuzzy
 msgid "File name? (\".project\" will be added to end)"
 msgstr "Dateiname? (\". Projekt \" wird zu Ende hinzugefügt werden)"
 

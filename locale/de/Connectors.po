@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Project-Id-Version: eToys\nPOT-Creation-Date: 2016-09-21 13:36-0000\nPO-Revision-Date: 2016-09-21 13:36-0000\nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Etoys-Domain: Connectors\n"
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2016-09-22 10:48-0000\n"
+"PO-Revision-Date: 2016-09-22 10:48-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: Connectors\n"
+
 
 #: Connectors-Base,NCAAConnectorMorph>>addBasicArrowMenuItemsTo:event:
 msgid "arrow sizes"
@@ -66,16 +76,24 @@ msgid "New line border width?"
 msgstr "Neue Linienrandbreite?"
 
 #: Connectors-Base,NCAAConnectorMorph>>changeBorderWidthInteractively:
-msgid "Move cursor farther from\nthis point to increase border width.\nClick when done."
-msgstr "Schiebe den Zeiger von hier weg,\num den Rand breiter zu machen.\nKlicke, wenn fertig."
+msgid "Move cursor farther from\n"
+"this point to increase border width.\n"
+"Click when done."
+msgstr "Schiebe den Zeiger von hier weg,\n"
+"um den Rand breiter zu machen.\n"
+"Klicke, wenn fertig."
 
 #: Connectors-Base,NCAAConnectorMorph>>changeLineWidth:
 msgid "New line width?"
 msgstr "Neue Linienbreite?"
 
 #: Connectors-Base,NCAAConnectorMorph>>changeLineWidthInteractively:
-msgid "Move cursor farther from\nthis point to increase line width.\nClick when done."
-msgstr "Schiebe den Zeiger von hier weg,\num den Rand breiter zu machen.\nKlicke, wenn fertig."
+msgid "Move cursor farther from\n"
+"this point to increase line width.\n"
+"Click when done."
+msgstr "Schiebe den Zeiger von hier weg,\n"
+"um den Rand breiter zu machen.\n"
+"Klicke, wenn fertig."
 
 #: Connectors-Base,NCAAConnectorMorph>>handlesShowingPhrase
 msgid "hide handles"
@@ -282,8 +300,12 @@ msgid "if set, Connectors will use labels that try to re-position themselves to 
 msgstr "Wenn ausgewählt, dann verwenden Verbinder Beschriftungen, die sich möglichst wenig störend positionieren."
 
 #: Connectors-Lines_and_Curves,NCLineMorph>>changeArrowScaleInteractively:
-msgid "Move cursor farther from\nthis point to increase the size of the arrows.\nClick when done."
-msgstr "Schiebe den Zeiger von hier weg,\num die Pfeilgröße zu ändern.\nKlicke wenn fertig."
+msgid "Move cursor farther from\n"
+"this point to increase the size of the arrows.\n"
+"Click when done."
+msgstr "Schiebe den Zeiger von hier weg,\n"
+"um die Pfeilgröße zu ändern.\n"
+"Klicke wenn fertig."
 
 #: Connectors-Shapes,NCBasicEllipseMorph>>addYellowButtonMenuItemsTo:event:,NCBasicShapeMorph>>addDebugMenuItemsTo:event:,NCSketchMorph>>addYellowButtonMenuItemsTo:event:
 msgid "add mouse up action"
@@ -442,10 +464,8 @@ msgid "An ellipse or circle"
 msgstr "Eine Ellipse oder Kreis"
 
 #: Connectors-Shapes,NCEllipseMorph_class>>registerInFlapsRegistry,NCEllipseMorph_class>>registerInFlapsRegistry
-
-#, fuzzy
 msgid "Ellipse"
-msgstr "Ellipse"
+msgstr ""
 
 #: Connectors-Shapes,NCEllipseMorph_class>>supplementaryPartsDescriptions
 msgid "An elliptical or circular shape with text"
@@ -632,8 +652,12 @@ msgid "New key? "
 msgstr "Neuer Schlüssel? "
 
 #: Connectors-Tools,NCArrowDictionaryMenu>>renameEntry
-msgid "sorry, that conflicts with\nthe name of another\nentry in this dictionary"
-msgstr "Leider kollidiert das mit\ndem Namen eines anderen\nEintrags in dieser Liste."
+msgid "sorry, that conflicts with\n"
+"the name of another\n"
+"entry in this dictionary"
+msgstr "Leider kollidiert das mit\n"
+"dem Namen eines anderen\n"
+"Eintrags in dieser Liste."
 
 #: Connectors-Tools,NCArrowDictionaryMenu>>showMenu,NCArrowDictionaryMenu>>showMenu
 msgid "-"
@@ -672,8 +696,6 @@ msgid "find..."
 msgstr "Suchen..."
 
 #: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
-
-#, fuzzy
 msgid "findEntry"
 msgstr "finden Eintrag"
 
@@ -686,8 +708,6 @@ msgid "remove"
 msgstr "Entfernen"
 
 #: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
-
-#, fuzzy
 msgid "removeEntry"
 msgstr "entfernen Eintrag"
 
@@ -696,8 +716,6 @@ msgid "rename"
 msgstr "Umbenennen"
 
 #: Connectors-Tools,NCArrowDictionaryMenu>>showMenu
-
-#, fuzzy
 msgid "renameEntry"
 msgstr "umbenennen Eintrag"
 
@@ -874,26 +892,18 @@ msgid "Write code"
 msgstr "Programmtext erzeugen"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "adjustArrowScales"
 msgstr "einstellen Pfeil Skalen"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "chooseFont"
 msgstr "wählen Schriftart"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "clearClicks"
 msgstr "klare Klicks"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "createCurveMorph"
 msgstr "schaffen Kurve Morph"
 
@@ -902,26 +912,18 @@ msgid "install"
 msgstr "Installieren"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "rotateGlyph"
 msgstr "drehen Glyphe"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "sample"
 msgstr "Sample"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "toggleDots"
 msgstr "Toggle-Punkte"
 
 #: Connectors-Tools,NCGlyphEditor>>initialize
-
-#, fuzzy
 msgid "writeConstructor"
 msgstr "Schreib Konstruktor"
 
@@ -994,18 +996,20 @@ msgid "Drop a Morph on me"
 msgstr "Lege einen Morph auf mir ab."
 
 #: Connectors-Tools,NCMakerButton>>setActionSelector
-msgid "Please type the selector to be sent to\nthe target when this button is pressed.\nSome possibilities:"
-msgstr "Den Selektor angeben, der an das Ziel\ngesendet wird, wenn dieser Knopf gedrückt wird.\nEin paar Möglichkeiten:"
+msgid "Please type the selector to be sent to\n"
+"the target when this button is pressed.\n"
+"Some possibilities:"
+msgstr "Den Selektor angeben, der an das Ziel\n"
+"gesendet wird, wenn dieser Knopf gedrückt wird.\n"
+"Ein paar Möglichkeiten:"
 
 #: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
 msgid "Graph paper"
 msgstr "Gitternetz"
 
 #: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
-
-#, fuzzy
 msgid "Text"
-msgstr "Text"
+msgstr ""
 
 #: Etoys-Experimental,ObjectPropertiesMorph>>addOptionalButtonsTo:
 msgid "adopt graph paper as fill style"
@@ -1180,8 +1184,6 @@ msgid "Title"
 msgstr "Titel"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
-
-#, fuzzy
 msgid "authoringPrototype"
 msgstr "Authoring-Prototyp"
 
@@ -1190,32 +1192,22 @@ msgid "new"
 msgstr ""
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
-
-#, fuzzy
 msgid "newCurvyArrow"
 msgstr "neuen gekrümmten Pfeil"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
-
-#, fuzzy
 msgid "newCurvyConnector"
 msgstr "neue Gekrümmte Verbindung"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
-
-#, fuzzy
 msgid "newNCPartsBinFlap"
 msgstr "neue nc Teile bin Klappe"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap,Flaps_class>>quadsDefiningFSMConnectorsFlap
-
-#, fuzzy
 msgid "newStandAlone"
 msgstr "neue Stand-alone"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningConnectorsFlap
-
-#, fuzzy
 msgid "newWithArrow"
 msgstr "neu mit Pfeil"
 
@@ -1280,32 +1272,22 @@ msgid "State Transition"
 msgstr "Zustandsübergang"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
-
-#, fuzzy
 msgid "newCompositeState"
 msgstr "neu zusammengesetzten Zustand"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
-
-#, fuzzy
 msgid "newEndState"
 msgstr "neuen Endzustand"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
-
-#, fuzzy
 msgid "newStartState"
 msgstr "neuen Startzustand"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
-
-#, fuzzy
 msgid "newStateSymbol"
 msgstr "neue Staatssymbol"
 
 #: MorphicExtras-Flaps,Flaps_class>>quadsDefiningFSMConnectorsFlap
-
-#, fuzzy
 msgid "newStateTransition"
 msgstr "neue Zustandsübergang"
 
@@ -1340,3 +1322,4 @@ msgstr "Menü-Schriftart..."
 #: System-Preferences,Preferences_class>>presentMvcFontConfigurationMenu
 msgid "window-title font..."
 msgstr "Fenstertitel-Schriftart..."
+

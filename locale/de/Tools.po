@@ -1,5 +1,15 @@
 msgid ""
-msgstr "Project-Id-Version: eToys\nPOT-Creation-Date: 2016-09-21 13:36-0000\nPO-Revision-Date: 2016-09-21 13:36-0000\nLast-Translator: \nLanguage-Team: \nMIME-Version: 1.0\nContent-Type: text/plain; charset=utf-8\nContent-Transfer-Encoding: 8bit\nX-Etoys-Domain: Tools\n"
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2016-09-22 10:48-0000\n"
+"PO-Revision-Date: 2016-09-22 10:48-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: Tools\n"
+
 
 #: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
 msgid "browse it (b)"
@@ -82,8 +92,6 @@ msgid "accept (s)"
 msgstr "OK (s)"
 
 #: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
-
-#, fuzzy
 msgid "button for it"
 msgstr "Taste für sie"
 
@@ -96,8 +104,6 @@ msgid "copy (c)"
 msgstr "Kopieren (c)"
 
 #: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
-
-#, fuzzy
 msgid "copy html"
 msgstr "kopieren html"
 
@@ -106,8 +112,6 @@ msgid "cut (x)"
 msgstr "Ausschneiden (x)"
 
 #: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
-
-#, fuzzy
 msgid "debug it (D)"
 msgstr "debuggen es (d)"
 
@@ -176,14 +180,10 @@ msgid "show bytecodes"
 msgstr "Bytecode anzeigen"
 
 #: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
-
-#, fuzzy
 msgid "spy on it"
 msgstr "Spion auf sie"
 
 #: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
-
-#, fuzzy
 msgid "tally it"
 msgstr "Tally es"
 
@@ -192,8 +192,13 @@ msgid "undo (z)"
 msgstr "Rückgängig (z)"
 
 #: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
-msgid " is used by one or more members\nin your archive, and cannot be overwritten.\nTry writing to another file name"
-msgstr " stimmt mit einer oder mehreren Dateien\nin deinem Archiv überein und kann daher\nnicht überschrieben werden.\nVersuche es mit einem anderen Dateinamen"
+msgid " is used by one or more members\n"
+"in your archive, and cannot be overwritten.\n"
+"Try writing to another file name"
+msgstr " stimmt mit einer oder mehreren Dateien\n"
+"in deinem Archiv überein und kann daher\n"
+"nicht überschrieben werden.\n"
+"Versuche es mit einem anderen Dateinamen"
 
 #: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
 msgid "Destination Zip File Name:"
@@ -248,38 +253,26 @@ msgid "what to show..."
 msgstr "Was angezeigt werden soll..."
 
 #: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
-
-#, fuzzy
 msgid "source code decompiled from byteCodes"
 msgstr "Quellcode von Byte-Codes dekompilierten"
 
 #: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
-
-#, fuzzy
 msgid "the bytecodes that comprise the compiled method"
 msgstr "die Bytecodes, die den kompilierten Verfahren umfassen"
 
 #: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
-
-#, fuzzy
 msgid "the first comment in the method"
 msgstr "der erste Kommentar im Verfahren"
 
 #: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
-
-#, fuzzy
 msgid "the method source presented in a standard text format"
 msgstr "die Methode Quelle in einem Standard-Textformat"
 
 #: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
-
-#, fuzzy
 msgid "the textual source code as written"
 msgstr "die Text Quellcode geschrieben"
 
 #: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
-
-#, fuzzy
 msgid "the textual source diffed from its prior version"
 msgstr "die Textquelle von seiner früheren Version abweichen"
 
@@ -296,32 +289,22 @@ msgid "<yes> create textual references to dropped morphs"
 msgstr "<yes> Text-Verweise auf abgelegte Morphe erzeugen"
 
 #: Tools-Base,Workspace>>mustDeclareVariableWording
-
-#, fuzzy
 msgid "<no> automatically create variable declaration"
 msgstr "<Nein> erstellen automatisch Variablendeklaration"
 
 #: Tools-Base,Workspace>>mustDeclareVariableWording
-
-#, fuzzy
 msgid "<yes> automatically create variable declaration"
 msgstr "<Ja> erstellen automatisch Variablendeklaration"
 
 #: Tools-Browser,Browser>>buildSwitchesWith:
-
-#, fuzzy
 msgid "Cycle between definition, comment, and hierarchy view"
 msgstr "Zyklus zwischen Definition, Kommentar und Hierarchieansicht"
 
 #: Tools-Browser,Browser>>buildSwitchesWith:
-
-#, fuzzy
 msgid "Show class-side methods"
 msgstr "Show-Klasse Seite Methoden"
 
 #: Tools-Browser,Browser>>buildSwitchesWith:
-
-#, fuzzy
 msgid "Show instance-side methods"
 msgstr "zeigen Instanz Seite Methoden"
 
@@ -335,31 +318,24 @@ msgstr "Ein Werkzeug zum Anzeigen des gesamten Progammtextes aller Klassen"
 
 #: Tools-Browser,Browser_class>>registerInFlapsRegistry
 msgid "Browser"
-msgstr "Browser"
+msgstr ""
 
 #: Tools-Browser,MessageNames>>buildSearchPaneWith:
-
-#, fuzzy
 msgid "Type here, then hit Search."
 msgstr "Geben Sie hier, dann drücken Sie suchen."
 
 #: Tools-Browser,SelectorBrowser>>labelString
-
-#, fuzzy
 msgid "Selector Browser"
 msgstr "Selektor-Browser"
 
 #: Tools-Changes,ChangeList_class>>browseRecentLogOn:startingFrom:
-
-#, fuzzy
 msgid "Browse as far back as..."
 msgstr "zu sehen, wie weit zurück, wie ..."
 
 #: Tools-Changes,ChangeList_class>>browseRecentLogOn:startingFrom:
-
-#, fuzzy
-msgid "this image has never been saved\nsince changes were compressed"
-msgstr "Dieses Bild wurde nie \ gespeichert, da Änderungen komprimiert wurden"
+msgid "this image has never been saved\n"
+"since changes were compressed"
+msgstr "Dieses Bild wurde nie \\ gespeichert, da Änderungen komprimiert wurden"
 
 #: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
 msgid "changelist browser"
@@ -386,8 +362,13 @@ msgid "recent changes in file"
 msgstr "Letzte Änderungen in Datei"
 
 #: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
-msgid "This command requires that the\nchange sets selected on the two\nsides of the change sorter *not*\nbe the same."
-msgstr "Die Änderungslisten auf beiden Seiten\nder Änderungsverwaltung müssen\n*unterschiedlich* sein."
+msgid "This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+msgstr "Die Änderungslisten auf beiden Seiten\n"
+"der Änderungsverwaltung müssen\n"
+"*unterschiedlich* sein."
 
 #: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
 msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
@@ -414,10 +395,8 @@ msgid "Exact Match"
 msgstr "Exakte Übereinstimmung"
 
 #: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
-
-#, fuzzy
 msgid "{1} (in {2})"
-msgstr "{1} (in {2})"
+msgstr ""
 
 #: Tools-Changes,VersionsBrowser>>titleVersionsMenu:
 msgid "Versions"
@@ -428,16 +407,30 @@ msgid "Please provide a good category for the new method!"
 msgstr "Bitte gib eine passende Kategorie für diese neue Methode an!"
 
 #: Tools-Debugger,Debugger>>buildFullWith:
-
-#, fuzzy
 msgid "<- Select context's field"
 msgstr "<Select Kontextfeld"
 
 #: Tools-Debugger,Debugger>>buildFullWith:
-
-#, fuzzy
 msgid "<- Select receiver's field"
 msgstr "<Select Empfängerfeld"
+
+#: Tools-Debugger,Debugger>>lowSpaceChoices
+msgid "Warning! Squeak is almost out of memory!\n"
+"\n"
+"Low space detection is now disabled. It will be restored when you close or proceed from this error notifier. Don't panic, but do proceed with caution.\n"
+"\n"
+"Here are some suggestions:\n"
+"\n"
+" If you suspect an infinite recursion (the same methods calling each other again and again), then close this debugger, and fix the problem.\n"
+"\n"
+" If you want this computation to finish, then make more space available (read on) and choose \"proceed\" in this debugger. Here are some ways to make more space available...\n"
+"   > Close any windows that are not needed.\n"
+"   > Get rid of some large objects (e.g., images).\n"
+"   > Leave this window on the screen, choose \"save as...\" from the screen menu, quit, restart the Squeak VM with a larger memory allocation, then restart the image you just saved, and choose \"proceed\" in this window.\n"
+"\n"
+" If you want to investigate further, choose \"debug\" in this window.  Do not use the debugger \"fullStack\" command unless you are certain that the stack is not very deep. (Trying to show the full stack will definitely use up all remaining memory if the low-space problem is caused by an infinite recursion!).\n"
+"\n"
+msgstr ""
 
 #: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
 msgid "Abandon"
@@ -476,8 +469,6 @@ msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
 msgstr "Leider ist ein Fehler aufgetreten. Das Einfachste ist, auf 'Abbrechen' zu drücken.  Tut mir leid."
 
 #: Tools-Explorer,ObjectExplorer>>buildWith:
-
-#, fuzzy
 msgid "Evaluate expressions for the current tree selection..."
 msgstr "Ausdrücke auswerten für die aktuelle Baum Auswahl ..."
 
@@ -486,8 +477,6 @@ msgid "Class exists already in the system"
 msgstr "Klasse existiert bereits."
 
 #: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
-
-#, fuzzy
 msgid "Existing method removed  by this change-set"
 msgstr "bestehende Verfahren durch diese Änderung Satz entfernt"
 
@@ -536,8 +525,6 @@ msgid "Open"
 msgstr "Öffnen"
 
 #: Tools-FileList,FileChooser_class>>example3,FileChooser_class>>example4
-
-#, fuzzy
 msgid "Select a picture file"
 msgstr "wählen Sie eine Bilddatei"
 
@@ -546,8 +533,6 @@ msgid "New {1} Name?"
 msgstr "Neuer {1} Name?"
 
 #: Tools-FileList,FileList>>addNew:byEvaluating:
-
-#, fuzzy
 msgid "{1}Name"
 msgstr "{1} name"
 
@@ -576,20 +561,50 @@ msgid "No fileName is selected"
 msgstr "Kein Dateiname ist ausgewählt"
 
 #: Tools-FileList,FileList>>put:
-msgid "{1} contents cannot\nmeaningfully be saved at present."
-msgstr "{1} Inhalt kann derzeit nicht\nsinnvoll gespeichert werden."
+msgid "{1} contents cannot\n"
+"meaningfully be saved at present."
+msgstr "{1} Inhalt kann derzeit nicht\n"
+"sinnvoll gespeichert werden."
 
 #: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
-msgid "File '{1}' is {2} bytes long.\nYou may use the 'get' command to read the entire file.\n\nHere are the first 5000 characters...\n------------------------------------------\n{3}\n------------------------------------------\n... end of the first 5000 characters."
-msgstr "Die Datei '{1}' ist {2} Bytes groß.\nMit dem Befehl \"ganze Datei laden\" kann sie vollständig gelesen werden.\n\nDie ersten 5000 Zeichen...\n------------------------------------------\n{3}\n------------------------------------------\n... Ende der ersten 5000 Zeichen."
+msgid "File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 5000 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 5000 characters."
+msgstr "Die Datei '{1}' ist {2} Bytes groß.\n"
+"Mit dem Befehl \"ganze Datei laden\" kann sie vollständig gelesen werden.\n"
+"\n"
+"Die ersten 5000 Zeichen...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... Ende der ersten 5000 Zeichen."
 
 #: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:,FileList>>readServerBrief
 msgid "For some reason, this file cannot be read"
 msgstr "Aus verschiedenen Gründen kann diese Datei nicht gelesen werden"
 
 #: Tools-FileList,FileList>>readServerBrief
-msgid "File '{1}' is {2} bytes long.\nYou may use the 'get' command to read the entire file.\n\nHere are the first 3500 characters...\n------------------------------------------\n{3}\n------------------------------------------\n... end of the first 3500 characters."
-msgstr "Datei '{1}' ist {2} Byte groß.\nDu solltest den Befehl 'get' anwenden, um die ganze Datei lesen zu können.\n\nHier sind die ersten 3500 Zeichen...\n------------------------------------------\n{3}\n------------------------------------------\n... Ende der ersten 3500 Zeichen."
+msgid "File '{1}' is {2} bytes long.\n"
+"You may use the 'get' command to read the entire file.\n"
+"\n"
+"Here are the first 3500 characters...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... end of the first 3500 characters."
+msgstr "Datei '{1}' ist {2} Byte groß.\n"
+"Du solltest den Befehl 'get' anwenden, um die ganze Datei lesen zu können.\n"
+"\n"
+"Hier sind die ersten 3500 Zeichen...\n"
+"------------------------------------------\n"
+"{3}\n"
+"------------------------------------------\n"
+"... Ende der ersten 3500 Zeichen."
 
 #: Tools-FileList,FileList>>renameFile
 msgid "NewFileName?"
@@ -756,14 +771,10 @@ msgid "Load A Project"
 msgstr "Projekt laden"
 
 #: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
-
-#, fuzzy
 msgid "Please select a project"
 msgstr "Bitte wählen Sie ein Projekt"
 
 #: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
-
-#, fuzzy
 msgid "Please select a folder"
 msgstr "Bitte wählen Sie einen Ordner"
 
@@ -798,3 +809,4 @@ msgstr "Zeigt alle laufenden Prozesse an"
 #: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
 msgid "Processes"
 msgstr "Prozesse"
+
