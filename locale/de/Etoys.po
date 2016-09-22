@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-22 10:48-0000\n"
-"PO-Revision-Date: 2016-09-22 10:48-0000\n"
+"POT-Creation-Date: 2016-09-22 11:20-0000\n"
+"PO-Revision-Date: 2016-09-22 11:20-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -10,6 +10,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: EToys\n"
 
+
+#: Collections-Arrayed,ByteArray>>bytesAnd:
+msgid "Kedama"
+msgstr "Teilchenwelt"
 
 #: Collections-Streams,TranscriptStream_class>>windowColorSpecification
 msgid "The system transcript"
@@ -86,7 +90,8 @@ msgstr "Kann nicht das aktuelle Projekt löschen"
 #: Etoys-Experimental,EToyProjectHistoryMorph>>confirmedDelete:evt:from:
 msgid "Do you really want to delete {1}\n"
 "and all its content?"
-msgstr "tun Sie löschen möchten, um wirklich {1} \\ und alle seine Inhalte?"
+msgstr "Wollen Sie wirklich {1}  und alle\n"
+"seine Inhalte löschen?"
 
 #: Etoys-Experimental,EToyProjectHistoryMorph>>rebuild
 msgid "Jump..."
@@ -5429,6 +5434,43 @@ msgid " is not a number;\n"
 msgstr " ist keine Zahl;\n"
 "Bitte verbessern und nochmals versuchen"
 
+#: Kernel-Objects,Object>>yourself
+#: Kernel-Objects,Object>>yourself
+msgid "A \"stack\" is a place where you can create, store, view and retrieve data \"fields\" from a set of \"cards\".  Data that you want to occur on every card (such as a name and an address in an Address Stack) are represented by objects such as \"Simple Text\", \"Fancy Text\", and \"Scrolling Text\" that you obtain from the Stack Tools flap.\n"
+"\n"
+"When you look at a card in a Stack, you may be seeing three different kinds of material.  Press the Â§ button in the stack's controls to see the current designations, and use the \"explain designations\" to get a reminder of what the three different colors mean.\n"
+"Â·  Things that are designated to be seen on every card, and have the same contents whichever card is being shown. (green)\n"
+"Â·  Things that are designated to be seen on every card, with each card having its own value for them. (orange)\n"
+"Â·  Things that are designated to occur only on the particular card at hand. (red)\n"
+"\n"
+"Use the \"stack/cards\" menu (in an object's halo menu) to change the designation of any object.  For example, if you have an object that is private to just one card, and you want to make it visible on all cards, use \"place onto background\".  If you further want it to hold a separate value for each separate card, use \"start holding separate data for each instance\".\n"
+"\n"
+"The normal sequence to define a Stack's structure is to obtain a blank Stack, then create your fields by grabbing what you want from the Stack Tools flap and dropping it where you want it in the stack.  For easiest use, give a name to each field (by editing the name in its halo) *before* you put it onto the background..  Those fields that you want to represent the basic data of the stack need to be given names, placed on the background, and then told to hold separate data.\n"
+"\n"
+"When you hit the + button in a stack's controls, a new card is created with default values in all the fields.  You can arrange for a particular default value to be used in a field -- do this either for one field at a time with \"be default value on new card\", or you can request that the all the values seen on a particular card serve as default by choosing \"be defaults for new cards\" from the stack's Â· menu.\n"
+"\n"
+"It is also possible to have multiple \"backgrounds\" in the same stack -- each different background defines a different data structure, and cards from multiple backgrounds can be freely mixed in the same stack.\n"
+"\n"
+"Besides text fields, it is also possible to have picture-valued fields -- and potentially fields with data values of any other type as well."
+msgstr "a \"Stack \" ist ein Ort, an dem Sie, speichern Ansicht erstellen und Daten \\ abrufen \"Felder \" aus einer Reihe von \"Karten \". Daten, die Sie auf jeder Karte (wie ein Name und eine Adresse in einem Adress Stack) auftreten soll durch Objekte wie \"einfachen Text \", \"fancy text \" und \"Scrolling text \" dargestellt, Sie erhalten aus dem Stapel Tools Klappe. \n"
+"\\ n, wenn Sie auf einer Karte in einem Stapel aussehen, können Sie drei verschiedene Arten von Material zu sehen sein. drücken Sie die Taste § in den Reglern des Stapels die aktuellen Bezeichnungen zu sehen, und verwenden Sie die \"Bezeichnungen erklären \", um eine Erinnerung von dem, was die drei verschiedenen Farben bedeuten. \n"
+"· Dinge, die auf jeder Karte bezeichnet sind zu sehen, und haben den gleichen Inhalt je nachdem, was Karte gezeigt wird. (Grün) \n"
+"· Dinge, die auf jeder Karte zu sehen sind, zu bezeichnen, wobei jede Karte für sie einen eigenen Wert. (Orange) \n"
+"· Dinge, die bestimmt sind nur auf die jeweilige Karte in der Hand auftreten. (Rot) \n"
+"\n"
+"verwenden, um die \"Stapel / Karten \" Menü (in einem Halo Menü des Objekts) die Benennung eines Objekts zu ändern. zum Beispiel, wenn Sie ein Objekt, das auf nur einer Karte ist privat, und Sie wollen es auf allen Karten, die Verwendung \"Platz auf Hintergrund \" sichtbar zu machen. wenn Sie weiter wollen, dass es einen separaten Wert für jede einzelne Karte zu halten, verwenden Sie \"beginnen getrennte Daten für jede Instanz \\ halten\". \n"
+"\n"
+"den normalen zeitlichen Ablauf eines Stapels Struktur zu definieren, ist eine leere Stapel zu erhalten, dann erstellen Sie Ihre Felder durch greifen, was Sie aus dem Stapel Tools Klappe wollen und fallen, wo du es in dem Stapel wollen. für einfachste Anwendung, einen Namen zu jedem Feld geben (durch Bearbeiten des Namens in seinem Halo) * vor * Sie es auf den Hintergrund .. die Felder, die Sie die Basisdaten des Stapels darstellen wollen, müssen Namen gegeben werden, platziert auf dem Hintergrund, und dann gesagt, getrennte Daten zu halten. \n"
+"\\ n, wenn Sie die Taste in einem Stapel der Kontrollen getroffen, eine neue Karte mit Standardwerten in allen Bereichen geschaffen. Sie können für einen bestimmten Standardwert arrangieren mit \"sein Standardwert auf neue Karte \", oder Sie können verlangen, zu einer Zeit, in einem Bereich, tun dies entweder für ein Feld verwendet werden, dass die alle auf einer bestimmten Karte gesehen Werte dienen als Standard durch die Wahl \"Standardeinstellungen für neue Karten sein \" aus dem · Menü-Stack. \n"
+"\n"
+"ist es auch mehrere \"Hintergründe \" zu haben, möglich, in demselben Stapel jeweils unterschiedlichen Hintergrund definiert eine andere Datenstruktur, und Karten aus mehreren Hintergründen kann sich frei im gleichen Stapel gemischt werden. \n"
+"\n"
+"neben Textfeldern, ist es auch möglich, Bild bewertet Felder zu haben und möglicherweise Felder als auch mit Datenwerten eines anderen Typs."
+
+#: Kernel-Objects,Object>>yourself
+msgid "KedamaTurtle1"
+msgstr "Teilchen"
+
 #: Kernel-Objects,Object_class>>windowColorSpecification
 msgid "Default"
 msgstr "Standardpunkte"
@@ -5460,6 +5502,10 @@ msgstr "Farbe auswählen, die ersetzt werden soll"
 #: Morphic-Basic,SketchMorph>>recolorPixelsOfColor:
 msgid "now choose the color you want to replace it with"
 msgstr "Farbe auswählen, mit der ersetzt werden soll"
+
+#: Morphic-Basic,SketchMorph_class>>additionsToViewerCategoryGraphicsFilters
+msgid "graphics filters"
+msgstr "Grafikfilter"
 
 #: Morphic-Basic,TextMorph>>addFitAndWrapItemsTo:
 msgid "When checked, bounds are automatically adjusted to fit the contents."
@@ -7144,6 +7190,10 @@ msgstr "mit Pedal"
 msgid "Retry\\Give Up"
 msgstr "Wiederholen\\Abbrechen"
 
+#: Protocols-Kernel,Vocabulary_class>>initializeStandardVocabularies
+msgid "KedamaPatch"
+msgstr "Teilchenspur"
+
 #: Protocols-Type_Vocabularies,DataType>>addWatcherItemsToMenu:forGetter:
 msgid "attach an unlabeled readout to the object which shows the value of this variable"
 msgstr "Klebt eine unbeschriftete Anzeige an das Objekt, die den Wert dieser Variablen anzeigt."
@@ -7191,6 +7241,14 @@ msgstr "Dezimalstellen..."
 #: Protocols-Type_Vocabularies,StringType>>defaultArgumentTile
 msgid "abc"
 msgstr ""
+
+#: Skeleton-Base,SkBasicSheetMorph_class>>additionsToViewerCategories
+msgid "data i/o"
+msgstr "Daten-I / O"
+
+#: Skeleton-Base,SkBasicSheetMorph_class>>additionsToViewerCategories
+msgid "spreadsheet"
+msgstr "Kalkulationstabelle"
 
 #: System-Preferences,Preference>>isDisabledOnStartupString
 msgid "disable preference on startup"

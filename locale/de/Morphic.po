@@ -1,16 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-22 10:48-0000\n"
-"PO-Revision-Date: 2016-09-22 10:55+0200\n"
+"POT-Creation-Date: 2016-09-22 11:20-0000\n"
+"PO-Revision-Date: 2016-09-22 11:20-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: Morphic\n"
-"Language: de\n"
-"X-Generator: Poedit 1.8.8\n"
+
 
 #: Balloon-Fills,BitmapFillStyle>>addFillStyleMenuItems:hand:from:
 msgid "choose new graphic"
@@ -56,6 +55,7 @@ msgstr "Wir konnten keinen Web-Browser finden, die URL wurde in die Zwischenabla
 msgid "emphasis"
 msgstr "Betonung"
 
+#: Kernel-Objects,Object>>yourself
 #: Morphic-Basic,AlignmentMorph_class>>columnPrototype
 msgid "Things dropped into here will automatically be organized into a column. Once you have added your own items here, you will want to remove the sample colored rectangles that this started with, and you will want to change this balloon help message to one of your own!"
 msgstr "Dinge, die hier abgelegt werden, werden automatisch in einer Spalte senkrecht untereinander angeordnet. Wenn du deine Objekte hier abgelegt hast, kannst du die bunten Rechtecke löschen und deinen eigenen Hilfetext schreiben!"
@@ -98,7 +98,7 @@ msgstr "Basis"
 
 #: Morphic-Basic,EllipseMorph_class>>descriptionForPartsBin
 msgid "Ellipse"
-msgstr "Ellipse"
+msgstr ""
 
 #: Morphic-Basic,ImageMorph>>opacityString
 msgid "opaque"
@@ -185,16 +185,14 @@ msgid "make smooth {1}"
 msgstr "mach glatt {1}"
 
 #: Morphic-Basic,PolygonMorph>>specifyDashedLine
-msgid ""
-"Enter a dash specification as\n"
+msgid "Enter a dash specification as\n"
 "{ major dash length. minor dash length. minor dash color }\n"
 "The major dash will have the normal border color.\n"
 "A blank response will remove the dash specification.\n"
 "[Note: You may give 5 items as, eg, {10. 5. Color white. 0. 3}\n"
 "where the 4th ityem is zero, and the 5th is the number of pixels\n"
 "by which the dashes will move in each step of animation]"
-msgstr ""
-"Eine Bindestrich-Spezifikation eingeben als\n"
+msgstr "Eine Bindestrich-Spezifikation eingeben als\n"
 "{Hauptstrichlänge. Zwischenstrichlänge. Zwischenstrichfarbe}\n"
 "der Hauptstrich wird die normale Randfarbe haben.\n"
 "Eine leere Antwort entfernt die Bindestrich-Spezifikation\n"
@@ -239,13 +237,11 @@ msgid "set as background"
 msgstr "Als Hintergrund verwenden"
 
 #: Morphic-Basic,SketchMorph>>callThisBaseGraphic,SketchMorph>>restoreBaseGraphicFromMenu
-msgid ""
-"oops, this menu is a for a morph that\n"
+msgid "oops, this menu is a for a morph that\n"
 "has been replaced, probably because a\n"
 "\"look like\" script was run.  Please dismiss\n"
 "the menu and get a new one!.  Sorry!"
-msgstr ""
-"Hoppla, dieses Menü ist für einen Morph, der\n"
+msgstr "Hoppla, dieses Menü ist für einen Morph, der\n"
 "ersetzt wurde, wahrscheinlich weil ein\n"
 "\"look like\"-Skript lief.  Bitte verwirf dieses Menü\n"
 "und hol dir ein Neues!  Tut mir Leid!"
@@ -267,12 +263,10 @@ msgid "now choose the color you want to replace it with"
 msgstr "Farbe auswählen, mit der ersetzt werden soll"
 
 #: Morphic-Basic,SketchMorph>>reduceColorPalette:
-msgid ""
-"Please enter a number greater than one.\n"
+msgid "Please enter a number greater than one.\n"
 "(note: this cannot be undone, so answer zero\n"
 "to abort if you need to make a backup first)"
-msgstr ""
-"Bitte gib eine Zahl größer als Null ein.\n"
+msgstr "Bitte gib eine Zahl größer als Null ein.\n"
 "(Hinweis: Dies kann nicht rückgängig gemacht werden;\n"
 "zum Abbrechen gib zuerst Null ein,\n"
 "um vorher noch ein Backup zu machen.)"
@@ -359,11 +353,11 @@ msgstr "Am Rand umbrechen"
 
 #: Morphic-Basic,TextMorph_class>>authoringPrototype
 msgid "abc"
-msgstr "abc"
+msgstr ""
 
 #: Morphic-Basic,TextMorph_class>>boldAuthoringPrototype,TextMorph_class>>defaultNameStemForInstances,TextMorph_class>>registerInFlapsRegistry,TextMorph_class>>registerInFlapsRegistry
 msgid "Text"
-msgstr "Text"
+msgstr ""
 
 #: Morphic-Basic,TextMorph_class>>registerInFlapsRegistry
 msgid "A data field which will have a different value on every card of the background"
@@ -406,16 +400,14 @@ msgid "Popup feature"
 msgstr "Pop-up-Funktion"
 
 #: Morphic-Demo,ClickExerciser>>balloonText
-msgid ""
-"Double-click on me to change my color; \n"
+msgid "Double-click on me to change my color; \n"
 "single-click on me to change border color;\n"
 "hold mouse down within me and then move it to grow \n"
 " or shrink. When I time out my border changes width.\n"
 "Choose which of the above will work\n"
 "by selecting the boxes in the middle.\n"
 "See the boxes balloons."
-msgstr ""
-"Klicken Sie doppelt auf mich meine Farbe zu ändern; \n"
+msgstr "Klicken Sie doppelt auf mich meine Farbe zu ändern; \n"
 "Einmal klicken um die Randfarbe zu ändern; \n"
 "Maus in mir gedrückt halten und dann bewegen um wachsen\n"
 "oder schrumpfen zu lasssen. Wenn meine Zeit abläuft, ändert sich meine Randdicke. \n"
@@ -436,12 +428,10 @@ msgid "border width..."
 msgstr "Randbreite..."
 
 #: Morphic-Kernel,BorderedMorph>>changeBorderWidth:
-msgid ""
-"Move cursor farther from\n"
+msgid "Move cursor farther from\n"
 "this point to increase border width.\n"
 "Click when done."
-msgstr ""
-"Schiebe den Zeiger von hier weg,\n"
+msgstr "Schiebe den Zeiger von hier weg,\n"
 "um den Rand breiter zu machen.\n"
 "Klicke, wenn fertig."
 
@@ -1039,7 +1029,7 @@ msgstr "Schrumpfzellen"
 
 #: Morphic-Kernel,Morph>>helpButton
 msgid "?"
-msgstr "?"
+msgstr ""
 
 #: Morphic-Kernel,Morph>>helpButton
 msgid "click here for help"
@@ -1098,13 +1088,11 @@ msgid "resist being picked up"
 msgstr "Nicht anzuheben"
 
 #: Morphic-Kernel,Morph>>tempCommand
-msgid ""
-"Before calling tempCommand, you\n"
+msgid "Before calling tempCommand, you\n"
 "should first give it a definition.  To\n"
 "do this, choose \"define tempCommand\"\n"
 "from the debug menu."
-msgstr ""
-"Vor dem aufrufen von tempCommand,\n"
+msgstr "Vor dem aufrufen von tempCommand,\n"
 "sollten Sie zunächst eine Definition angeben.\n"
 "Dazu wählen Sie \"definiere tempCommand\"\n"
 "aus dem Debug-Menü."
@@ -1143,11 +1131,11 @@ msgstr "Über Squeak"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>appsMenuOn:
 msgid "Apps"
-msgstr "Apps"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>browserMenuItemOn:
 msgid "Browser"
-msgstr "Browser"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>browserMenuItemOn:
 msgid "Open a browser"
@@ -1187,7 +1175,7 @@ msgstr "sammeln Müll"
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
 msgid "Extras"
-msgstr "Extras"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMainDockingBar>>extrasMenuOn:
 msgid "Graphical Imports"
@@ -1605,15 +1593,85 @@ msgstr "Öffnen Sie einen Arbeitsbereich"
 msgid "Workspace"
 msgstr "Arbeitsplatz"
 
+#: Morphic-Kernel,TheWorldMenu>>addObjectsAndTools:
+msgid "commands for doing multi-machine \"telemorphic\" experiments"
+msgstr "Befehle um \"Tele-Morphic\" Experimente mit mehreren Computern auszuführen"
+
+#: Morphic-Kernel,TheWorldMenu>>addObjectsAndTools:
+msgid "telemorphic..."
+msgstr "Tele-Morphic..."
+
+#: Morphic-Kernel,TheWorldMenu>>addProjectEntries:
+msgid "load a project from a file"
+msgstr "Ein Projekt aus einer Datei laden"
+
+#: Morphic-Kernel,TheWorldMenu>>addProjectEntries:
+msgid "load project from file..."
+msgstr "Projekt aus einer Datei laden..."
+
+#: Morphic-Kernel,TheWorldMenu>>addProjectEntries:
+msgid "put up a list of all projects, letting me choose one to go to"
+msgstr "Zeige eine Liste mit allen Projekten, und lass mich eines auswählen"
+
+#: Morphic-Kernel,TheWorldMenu>>addProjectEntries:
+msgid "return to the most-recently-visited project"
+msgstr "Rückkehr zum zuletzt besuchten Projekt"
+
+#: Morphic-Kernel,TheWorldMenu>>addProjectEntries:
+msgid "save project on file..."
+msgstr "Dieses Projekt in einer Datei speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>addProjectEntries:
+msgid "save this project on a file"
+msgstr "Dieses Projekt in einer Datei speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>addRestoreDisplay:
+msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
+msgstr "Anzeige neu zeichenen -- nützlich um z.B. unerwünschte Anzeigefehler zu beheben"
+
+#: Morphic-Kernel,TheWorldMenu>>addRestoreDisplay:
+msgid "restore display (r)"
+msgstr "Anzeige wiederherstellen (r)"
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "give the current image a new version-stamped name and save it under that name on disk."
+msgstr "Den aktuellen Stand auf der Festplatte unter einem versionierten Namen speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "quit out of Squeak."
+msgstr "Squeak beenden"
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "save and quit"
+msgstr "Speichern und Beenden"
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "save as new version"
+msgstr "Als neue Version speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "save as..."
+msgstr "Speichern unter..."
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "save the current image on disk, and quit out of Squeak."
+msgstr "Den aktuellen Stand auf der Festplatte speichern, und Squeak beenden"
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "save the current version of the image on disk"
+msgstr "Den aktuellen Stand auf der Festplatte speichern"
+
+#: Morphic-Kernel,TheWorldMenu>>addSaveAndQuit:
+msgid "save the current version of the image on disk under a new name."
+msgstr "Den aktuellen Stand auf der Festplatte unter einem neuen Namen speichern"
+
 #: Morphic-Kernel,TheWorldMenu>>cleanUpWorld
-msgid ""
-"This will remove all windows except those\n"
+msgid "This will remove all windows except those\n"
 "containing unsubmitted text edits, and will\n"
 "also remove all non-window morphs (other\n"
 "than flaps) found on the desktop.  Are you\n"
 "sure you want to do this?"
-msgstr ""
-"Dies entfernt alle Fenster außer jenen\n"
+msgstr "Dies entfernt alle Fenster außer jenen\n"
 "mit ungespeicherten Texteingaben.\n"
 "Ferner werden alle Nicht-Fenster-Morphe\n"
 "(außer Klappen) von der Arbeitsfläche entfernt.\n"
@@ -1628,80 +1686,28 @@ msgid "enable halt/inspect once"
 msgstr "ermöglichen halt / inspizieren einmal"
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "commands for doing multi-machine \"telemorphic\" experiments"
-msgstr "Befehle um \"Tele-Morphic\" Experimente mit mehreren Computern auszuführen"
+msgid "make screenshot"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "give the current image a new version-stamped name and save it under that name on disk."
-msgstr "Den aktuellen Stand auf der Festplatte unter einem versionierten Namen speichern"
+msgid "makes a screenshot and saves it to disk"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "jump to project..."
-msgstr "Zu Projekt springen..."
+msgid "open a browser"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "load a project from a file"
-msgstr "Ein Projekt aus einer Datei laden"
+msgid "open a test runner"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "load project from file..."
-msgstr "Projekt aus einer Datei laden..."
+msgid "open a transcript"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "put up a list of all projects, letting me choose one to go to"
-msgstr "Zeige eine Liste mit allen Projekten, und lass mich eines auswählen"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "quit out of Squeak."
-msgstr "Squeak beenden"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "repaint the screen -- useful for removing unwanted display artifacts, lingering cursors, etc."
-msgstr "Anzeige neu zeichenen -- nützlich um z.B. unerwünschte Anzeigefehler zu beheben"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "restore display (r)"
-msgstr "Anzeige wiederherstellen (r)"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "return to the most-recently-visited project"
-msgstr "Rückkehr zum zuletzt besuchten Projekt"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save and quit"
-msgstr "Speichern und Beenden"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save as new version"
-msgstr "Als neue Version speichern"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save as..."
-msgstr "Speichern unter..."
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save project on file..."
-msgstr "Dieses Projekt in einer Datei speichern"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save the current image on disk, and quit out of Squeak."
-msgstr "Den aktuellen Stand auf der Festplatte speichern, und Squeak beenden"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save the current version of the image on disk"
-msgstr "Den aktuellen Stand auf der Festplatte speichern"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save the current version of the image on disk under a new name."
-msgstr "Den aktuellen Stand auf der Festplatte unter einem neuen Namen speichern"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "save this project on a file"
-msgstr "Dieses Projekt in einer Datei speichern"
-
-#: Morphic-Kernel,TheWorldMenu>>fillIn:from:
-msgid "telemorphic..."
-msgstr "Tele-Morphic..."
+msgid "open a workspace"
+msgstr ""
 
 #: Morphic-Kernel,TheWorldMenu>>loadProject
 msgid "Select a File:"
@@ -1744,18 +1750,15 @@ msgid "make new drawing"
 msgstr "Neue Zeichnung"
 
 #: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
-msgid ""
-"Choose a file\n"
+msgid "Choose a file\n"
 "to load"
 msgstr "Datei auswählen"
 
 #: Morphic-Kernel,TheWorldMenu>>readMorphFromAFile
-msgid ""
-"Sorry, no suitable files found\n"
+msgid "Sorry, no suitable files found\n"
 "(names should end with .morph, .gif,\n"
 ".bmp, .jpeg, .jpe, .jp, or .form)"
-msgstr ""
-"Keine passende Datei gefunden\n"
+msgstr "Keine passende Datei gefunden\n"
 "(Name muss auf .morph, .gif,\n"
 ".bmp, .jpeg, .jpe, .jp oder .form enden.)"
 
@@ -1904,11 +1907,9 @@ msgid "send top window to back (\\)"
 msgstr "Oberstes Fenster nach hinten (\\)"
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
-msgid ""
-"stagger: new windows positioned so you can see a portion of each one.\n"
+msgid "stagger: new windows positioned so you can see a portion of each one.\n"
 "                tile: new windows positioned so that they do not overlap others, if possible."
-msgstr ""
-"Überlappen: neue Fenster werden so angeordnet, dass zumindest ein Teil von jedem sichtbar ist.\n"
+msgstr "Überlappen: neue Fenster werden so angeordnet, dass zumindest ein Teil von jedem sichtbar ist.\n"
 "                Kacheln: neue Fenster werden wenn möglich nebeneinander angeordnet."
 
 #: Morphic-Kernel,TheWorldMenu>>windowsMenu
@@ -1918,6 +1919,10 @@ msgstr "Fenster"
 #: Morphic-Kernel,TheWorldMenu>>worldMenuHelp
 msgid "Where in the world menu is..."
 msgstr "Wo im Weltmenü ist..."
+
+#: Morphic-Menus,MenuIcons_class>>itemsIcons
+msgid "jump to project..."
+msgstr "Zu Projekt springen..."
 
 #: Morphic-Menus,MenuItemMorph>>buildDebugMenu:,PluggableButtonMorph>>buildDebugMenu:
 msgid "implementors of"
@@ -1984,11 +1989,9 @@ msgid "Choose the font for this list"
 msgstr "Schriftart für diese Liste auswählen"
 
 #: Morphic-Pluggable_Widgets,PluggableTextMorph>>promptForCancel
-msgid ""
-"Changes have not been saved.\n"
+msgid "Changes have not been saved.\n"
 "Is it OK to cancel those changes?"
-msgstr ""
-"Änderungen wurden nicht gespeichert.\n"
+msgstr "Änderungen wurden nicht gespeichert.\n"
 "Diese Änderungen verwerfen?"
 
 #: Morphic-Sound,ScorePlayerMorph>>invokeMenu
@@ -2033,7 +2036,7 @@ msgstr "[Pause]"
 
 #: Morphic-Sound,ScorePlayerMorph>>makeControls
 msgid "Pause"
-msgstr "Pause"
+msgstr ""
 
 #: Morphic-Sound,ScorePlayerMorph>>makeControls
 msgid "Piano Roll"
@@ -2065,11 +2068,11 @@ msgstr "Keine .mid/.midi-Dateien im Squeak-Verzeichnis gefunden"
 
 #: Morphic-Sound,ScorePlayerMorph>>panAndVolControlsFor:
 msgid "L"
-msgstr "L"
+msgstr ""
 
 #: Morphic-Sound,ScorePlayerMorph>>panAndVolControlsFor:
 msgid "R"
-msgstr "R"
+msgstr ""
 
 #: Morphic-Sound,ScorePlayerMorph>>rateControl
 msgid " fast"
@@ -2117,7 +2120,7 @@ msgstr "Übernehmen"
 
 #: Morphic-Support,FontChooserTool>>buildButtonBarWith:,UserDialogBoxMorph_class>>inform:title:at:
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: Morphic-Support,FontImporterTool>>buildButtonBarWith:,GradientEditor>>closeButtonLabel,NewColorPickerMorph>>closeButtonLabel,TheWorldMainDockingBar>>windowMenuFor:on:
 msgid "Close"
@@ -2205,7 +2208,7 @@ msgstr "Bild als Hintergrund einstellen"
 
 #: Morphic-Support,MorphicProject>>setFlaps,MorphicProject>>updateLocaleDependents,MorphicProject>>updateLocaleDependents
 msgid "Navigator"
-msgstr "Navigator"
+msgstr ""
 
 #: Morphic-Support,MorphicProject>>setFlaps
 msgid "Objects"
@@ -2213,7 +2216,7 @@ msgstr "Objekte"
 
 #: Morphic-Support,MorphicProject>>setFlaps
 msgid "Squeak"
-msgstr "Squeak"
+msgstr ""
 
 #: Morphic-Support,MorphicProject>>setFlaps
 msgid "Supplies"
@@ -2236,11 +2239,9 @@ msgid "show shared tabs (F)"
 msgstr "Gemeinsame Klappen anzeigen (F)"
 
 #: Morphic-Support,MorphicProject_class>>openViewAndEnter:
-msgid ""
-"This is not a PasteUpMorph or\n"
+msgid "This is not a PasteUpMorph or\n"
 "exported Project."
-msgstr ""
-"Dies ist weder ein PasteUpMorph\n"
+msgstr "Dies ist weder ein PasteUpMorph\n"
 "noch ein exportiertes Projekt."
 
 #: Morphic-Support,SelectionMorph>>addCustomMenuItems:hand:
@@ -2529,7 +2530,7 @@ msgstr "Ein Steuerknüppel"
 
 #: Morphic-Widgets,JoystickMorph_class>>descriptionForPartsBin,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry,JoystickMorph_class>>registerInFlapsRegistry
 msgid "Joystick"
-msgstr "Joystick"
+msgstr ""
 
 #: Morphic-Widgets,MorphHierarchyListMorph>>createContainer
 msgid "Objects Hierarchy"
@@ -2576,19 +2577,15 @@ msgid "Choose one of the following conditions"
 msgstr "Wähle eine der folgenden Bedingungen aus"
 
 #: Morphic-Widgets,SimpleButtonMorph>>setActionSelector
-msgid ""
-"Please type the selector to be sent to\n"
+msgid "Please type the selector to be sent to\n"
 "the target when this button is pressed"
-msgstr ""
-"Gib den Selektor an, der beim Drücken\n"
+msgstr "Gib den Selektor an, der beim Drücken\n"
 "dieses Knopfes an das Ziel gesendet wird."
 
 #: Morphic-Widgets,SimpleButtonMorph>>setArguments
-msgid ""
-"Please type the arguments to be sent to the target\n"
+msgid "Please type the arguments to be sent to the target\n"
 "when this button is pressed separated by periods"
-msgstr ""
-"Bitte gib, getrennt durch Punkte, die Argumente ein, die an\n"
+msgstr "Bitte gib, getrennt durch Punkte, die Argumente ein, die an\n"
 "das Ziel gesendet werden sollen, wenn der Knopf gedrückt wird."
 
 #: Morphic-Widgets,SimpleButtonMorph>>setTarget
@@ -2660,18 +2657,15 @@ msgid "explore dialog invocation"
 msgstr "erkunden Dialogaufruf"
 
 #: Morphic-Windows,ProjectViewMorph>>balloonText
-msgid ""
-"Click here to enter the\n"
+msgid "Click here to enter the\n"
 "project named\n"
 "\"{1}\""
-msgstr ""
-"Hier klicken zum Starten\n"
+msgstr "Hier klicken zum Starten\n"
 "des Projektes\n"
 "\"{1}\""
 
 #: Morphic-Windows,ProjectViewMorph>>dismissViaHalo,ProjectViewMorph>>expungeProject
-msgid ""
-"Do you really want to delete {1}\n"
+msgid "Do you really want to delete {1}\n"
 "and all its content?"
 msgstr "tun Sie löschen möchten, um wirklich {1} \\ und alle seine Inhalte?"
 
@@ -2876,11 +2870,9 @@ msgid "world scale and clip..."
 msgstr "Weltskalierung und -ausschnitt..."
 
 #: Morphic-Worlds,PasteUpMorph>>assureNotPaintingElse:
-msgid ""
-"Sorry, you can only paint\n"
+msgid "Sorry, you can only paint\n"
 "one object at a time"
-msgstr ""
-"Leider kannst du nur ein Objekt\n"
+msgstr "Leider kannst du nur ein Objekt\n"
 "gleichzeitig zeichnen"
 
 #: Morphic-Worlds,PasteUpMorph>>autoLineLayoutString
@@ -2892,11 +2884,9 @@ msgid "abandon costume history"
 msgstr "Kostümverlauf verlassen"
 
 #: Morphic-Worlds,PasteUpMorph>>closeUnchangedWindows
-msgid ""
-"Do you really want to close all windows\n"
+msgid "Do you really want to close all windows\n"
 "except those with unaccepted edits?"
-msgstr ""
-"Wirklich alle Fenster schließen, die keine\n"
+msgstr "Wirklich alle Fenster schließen, die keine\n"
 "ungespeicherten Änderungen enthalten?"
 
 #: Morphic-Worlds,PasteUpMorph>>defaultNameStemForInstances
@@ -2904,11 +2894,9 @@ msgid "world"
 msgstr "Welt"
 
 #: Morphic-Worlds,PasteUpMorph>>deleteNonWindows
-msgid ""
-"Do you really want to discard all objects\n"
+msgid "Do you really want to discard all objects\n"
 "that are not in windows?"
-msgstr ""
-"Wirklich alle Objekte außerhalb\n"
+msgstr "Wirklich alle Objekte außerhalb\n"
 "von Fenstern löschen?"
 
 #: Morphic-Worlds,PasteUpMorph>>findWindow:,TheWorldMenu>>windowsMenu
@@ -3034,3 +3022,4 @@ msgstr "Keine Darsteller mit Skripten vorhanden"
 #: Morphic-Worlds,Presenter>>browseAllScriptsTextually
 msgid "there are no scripts in this project!"
 msgstr "In diesem Projekt gibt es keine Skripte!"
+

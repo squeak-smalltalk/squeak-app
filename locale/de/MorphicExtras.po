@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2016-09-22 10:48-0000\n"
-"PO-Revision-Date: 2016-09-22 10:48-0000\n"
+"POT-Creation-Date: 2016-09-22 11:20-0000\n"
+"PO-Revision-Date: 2016-09-22 11:20-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -10,6 +10,19 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: MorphicExtras\n"
 
+
+#: Etoys-Scripting,Player>>importDataFromFile
+msgid "Skeleton"
+msgstr "Skelett"
+
+#: Graphics-Primitives,BitBlt_class>>antiAliasDemo
+msgid "Demo"
+msgstr ""
+
+#: Kernel-Objects,Object>>yourself
+#: Kernel-Objects,Object>>yourself
+msgid "Werkzeugkiste"
+msgstr ""
 
 #: Morphic-Basic,AlignmentMorph_class>>supplementaryPartsDescriptions
 msgid "An object that presents the things within it in a column"
@@ -60,6 +73,10 @@ msgid "A line with an arrowhead.  Shift-click to get handles and move the ends."
 msgstr "Eine Linie mit einem Pfeil.  Mit Umschalttaste drücken und klicken erhältst du Griffe zum Bewegen der Enden."
 
 #: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
+msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points."
+msgstr "eine glatte Wiggly Kurve, oder eine gekrümmte solide. Schiebe klicken Griffe zu bekommen und die Punkte bewegen."
+
+#: Morphic-Basic,PolygonMorph_class>>supplementaryPartsDescriptions
 msgid "A smooth wiggly curve, or a curved solid.  Shift-click to get handles and move the points.  Using the halo menu, can be coverted into a polygon, and can be made \"open\" rather than closed."
 msgstr "Eine glatte veränderbare Kurve oder ein Flächenstück mit einer Kurve als Kontur.  Umschalttaste drücken und Klicken, um Griffe zu erhalten und  Kontrollpunkte zu verschieben.  Mit dem Halo-Menü kann die Kurve in einen Streckenzug oder ein Polygon verwandelt  und geöffnet oder geschlossen werden."
 
@@ -102,6 +119,20 @@ msgstr "Ein Textfeld mit Rand"
 #: Morphic-Basic,TextMorph_class>>supplementaryPartsDescriptions
 msgid "Text (border)"
 msgstr "Text (mit Rand)"
+
+#: Morphic-Basic-NewCurve,CurvierMorph_class>>descriptionForPartsBin
+msgid "A smooth wiggly curve, or a smooth curved solid without bends.  Shift-click to get handles and move the points."
+msgstr "eine glatte Wiggly Kurve oder eine glatte gekrümmte feste ohne Kurven. Schiebe klicken Griffe zu bekommen und die Punkte bewegen."
+
+#: Morphic-Basic-NewCurve,CurvierMorph_class>>descriptionForPartsBin
+msgid "Curvier"
+msgstr "curvier"
+
+#: Morphic-Basic-NewCurve,MixedCurveMorph_class>>descriptionForPartsBin
+msgid "A Curve with optional bends and segments. Shift click to get handles.\n"
+"\t\t\tClick handles to change bends. Move handles to move the points."
+msgstr "eine Kurve mit optionaler Kurven und Segmente. verschieben klicken, um Griffe zu bekommen. \n"
+"\\ t \\ t \\ t Klicken Griffe Kurven zu ändern. bewegen Griffe, die Punkte zu verschieben."
 
 #: Morphic-Kernel,Morph>>dismissButton
 msgid "dismiss"
@@ -220,6 +251,10 @@ msgstr "Band zum Lesen"
 #: MorphicExtras-AdditionalSupport,EventRecorderMorph>>shrink
 msgid "{1} events reduced to {2}"
 msgstr "{1} Ereignisse reduziert auf {2}"
+
+#: MorphicExtras-AdditionalSupport,EventRecorderMorph_class>>descriptionForPartsBin
+msgid "Presentation"
+msgstr "Präsentation"
 
 #: MorphicExtras-AdditionalWidgets,FatBitsPaint>>addCustomMenuItems:hand:
 msgid "accept"
@@ -2819,6 +2854,14 @@ msgstr "Oben links"
 #: MorphicExtras-Widgets,TransitionMorph_class>>directionsForEffect:
 msgid "up right"
 msgstr "Oben rechts"
+
+#: Nebraska-Morphs,AudioChatGUI_class>>descriptionForPartsBin
+msgid "Collaborative"
+msgstr "kollaborative"
+
+#: Tests-Environments,ExplicitNamePolicyTest>>testMixedSpec
+msgid "Mixed"
+msgstr "gemischt"
 
 #: Tools-Base,Workspace_class>>registerInFlapsRegistry
 msgid "A Workspace is a simple window for editing text.  You can later save the contents to a file if you desire."
