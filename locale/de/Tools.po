@@ -2,14 +2,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
 "POT-Creation-Date: 2016-09-22 15:38-0000\n"
-"PO-Revision-Date: 2016-09-22 15:38-0000\n"
+"PO-Revision-Date: 2016-09-29 14:37+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Etoys-Domain: Tools\n"
-
+"Language: de\n"
+"X-Generator: Poedit 1.8.9\n"
 
 #: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
 msgid "browse it (b)"
@@ -193,10 +194,12 @@ msgstr "Rückgängig (z)"
 
 #: Kernel-Objects,Object>>yourself
 #: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
-msgid " is used by one or more members\n"
+msgid ""
+" is used by one or more members\n"
 "in your archive, and cannot be overwritten.\n"
 "Try writing to another file name"
-msgstr " stimmt mit einer oder mehreren Dateien\n"
+msgstr ""
+" stimmt mit einer oder mehreren Dateien\n"
 "in deinem Archiv überein und kann daher\n"
 "nicht überschrieben werden.\n"
 "Versuche es mit einem anderen Dateinamen"
@@ -334,7 +337,8 @@ msgid "Browse as far back as..."
 msgstr "zu sehen, wie weit zurück, wie ..."
 
 #: Tools-Changes,ChangeList_class>>browseRecentLogOn:startingFrom:
-msgid "this image has never been saved\n"
+msgid ""
+"this image has never been saved\n"
 "since changes were compressed"
 msgstr "Dieses Bild wurde nie \\ gespeichert, da Änderungen komprimiert wurden"
 
@@ -363,11 +367,13 @@ msgid "recent changes in file"
 msgstr "Letzte Änderungen in Datei"
 
 #: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
-msgid "This command requires that the\n"
+msgid ""
+"This command requires that the\n"
 "change sets selected on the two\n"
 "sides of the change sorter *not*\n"
 "be the same."
-msgstr "Die Änderungslisten auf beiden Seiten\n"
+msgstr ""
+"Die Änderungslisten auf beiden Seiten\n"
 "der Änderungsverwaltung müssen\n"
 "*unterschiedlich* sein."
 
@@ -416,7 +422,8 @@ msgid "<- Select receiver's field"
 msgstr "<Select Empfängerfeld"
 
 #: Tools-Debugger,Debugger>>lowSpaceChoices
-msgid "Warning! Squeak is almost out of memory!\n"
+msgid ""
+"Warning! Squeak is almost out of memory!\n"
 "\n"
 "Low space detection is now disabled. It will be restored when you close or proceed from this error notifier. Don't panic, but do proceed with caution.\n"
 "\n"
@@ -432,6 +439,21 @@ msgid "Warning! Squeak is almost out of memory!\n"
 " If you want to investigate further, choose \"debug\" in this window.  Do not use the debugger \"fullStack\" command unless you are certain that the stack is not very deep. (Trying to show the full stack will definitely use up all remaining memory if the low-space problem is caused by an infinite recursion!).\n"
 "\n"
 msgstr ""
+"Warnung! Squeak hat fast keinen Speicherplatz mehr!\n"
+"\n"
+"Der Mechanismus um diese Warnung zu erzeugen ist jetzt abgeschaltet. Er wird wieder angeschaltet, wenn dieses Fenster geschlossen wird. Es ist kein Grund zur Panik, aber Vorsicht ist geboten.\n"
+"\n"
+"Hier ein paar Vorschläge:\n"
+"\n"
+" Wenn es eine nicht-terminierende Rekursion sein könnte (wenn dieselben Methoden sich wieder und wieder gegenseitig aufrufen), dann schließe diesen Debugger und behebe das Problem.\n"
+"\n"
+" Wenn diese Berechnung weiterlaufen soll, dann musst du für mehr Speicherplatz sorgen (dazu erstmal weiterlesen!) und danach sollte hier \"Fortfahren\" gedrückt werden. Hier sind ein paar Möglichkeiten, um mehr Speicher verfügbar zu machen:\n"
+"    > Schließe alle Squeak Fenster die nicht benötigt werden.\n"
+"    > Werde einige große Objekte los (z.B. Bilder)\n"
+"    > Lass dieses Fenster hier, speichere das Squeak Image unter einem neuen Namen, schließe es, starte die Squeak VM mit mehr Speicher, und öffne das Image unter dem neuen Namen, dann einfach \"Fortfahren\" in diesem Fenster drücken.\n"
+"\n"
+"Um das Problem genauer zu untersuchen, einfach in diesem Fenster debuggen. Allerdings dabei nicht den vollen Stack anzeigen lassen (es sei denn, es handelt sich hier ganz ganz sicher nicht um eine endlose Rekursion). Ansonsten wird der Versuch den ganzen Stack anzuzeigen definitiv den letzten Rest Speicher verwenden, und dann geht nichts mehr.\n"
+"\n"
 
 #: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
 msgid "Abandon"
@@ -449,6 +471,10 @@ msgstr "Fortfahren"
 msgid "Store log"
 msgstr "Protokoll speichern"
 
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Send error log"
+msgstr "Fehlerbericht senden"
+
 #: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
 msgid "abandon this execution by closing this window"
 msgstr "Ausführen durch Schließen des Fensters abbrechen"
@@ -465,9 +491,25 @@ msgstr "Weiter ausführen"
 msgid "write a log of the encountered problem"
 msgstr "Fehlereintrag zum aufgetretenen Problem schreiben"
 
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "send a log of the encountered problem"
+msgstr "Sendet einen Fehlerbericht an die Entwickler"
+
 #: Tools-Debugger,Debugger>>preDebugMessageString
 msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
 msgstr "Leider ist ein Fehler aufgetreten. Das Einfachste ist, auf 'Abbrechen' zu drücken.  Tut mir leid."
+
+#: Tools-Debugger,Debugger>>preDebugMessageString
+msgid ""
+"An error has occurred; you can send us an error log and then you should probably just hit 'abandon'.  Sorry!\n"
+"\n"
+"If you decide to send us an error log, we will show you what will be sent.\n"
+"In the report, there is no personal information, it is only information about the error that the Squeak developers can use to fix the error."
+msgstr ""
+"Leider ist ein Fehler aufgetreten. Du kannst uns einen Fehlerbericht senden und dann solltest du auf 'Abbrechen' drücken.  Tut mir leid.\n"
+"\n"
+"Wenn du uns einen Fehlerbericht senden willst, zeigen wir vorher, was gesendet wird.\n"
+"Im Fehlerbericht sind keine persönlichen Informationen, nur allgemeine Informationen über den Fehler damit wir Squeak Entwickler den Fehler beheben können."
 
 #: Tools-Explorer,ObjectExplorer>>buildWith:
 msgid "Evaluate expressions for the current tree selection..."
@@ -562,13 +604,16 @@ msgid "No fileName is selected"
 msgstr "Kein Dateiname ist ausgewählt"
 
 #: Tools-FileList,FileList>>put:
-msgid "{1} contents cannot\n"
+msgid ""
+"{1} contents cannot\n"
 "meaningfully be saved at present."
-msgstr "{1} Inhalt kann derzeit nicht\n"
+msgstr ""
+"{1} Inhalt kann derzeit nicht\n"
 "sinnvoll gespeichert werden."
 
 #: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
-msgid "File '{1}' is {2} bytes long.\n"
+msgid ""
+"File '{1}' is {2} bytes long.\n"
 "You may use the 'get' command to read the entire file.\n"
 "\n"
 "Here are the first 5000 characters...\n"
@@ -576,7 +621,8 @@ msgid "File '{1}' is {2} bytes long.\n"
 "{3}\n"
 "------------------------------------------\n"
 "... end of the first 5000 characters."
-msgstr "Die Datei '{1}' ist {2} Bytes groß.\n"
+msgstr ""
+"Die Datei '{1}' ist {2} Bytes groß.\n"
 "Mit dem Befehl \"ganze Datei laden\" kann sie vollständig gelesen werden.\n"
 "\n"
 "Die ersten 5000 Zeichen...\n"
@@ -590,7 +636,8 @@ msgid "For some reason, this file cannot be read"
 msgstr "Aus verschiedenen Gründen kann diese Datei nicht gelesen werden"
 
 #: Tools-FileList,FileList>>readServerBrief
-msgid "File '{1}' is {2} bytes long.\n"
+msgid ""
+"File '{1}' is {2} bytes long.\n"
 "You may use the 'get' command to read the entire file.\n"
 "\n"
 "Here are the first 3500 characters...\n"
@@ -598,7 +645,8 @@ msgid "File '{1}' is {2} bytes long.\n"
 "{3}\n"
 "------------------------------------------\n"
 "... end of the first 3500 characters."
-msgstr "Datei '{1}' ist {2} Byte groß.\n"
+msgstr ""
+"Datei '{1}' ist {2} Byte groß.\n"
 "Du solltest den Befehl 'get' anwenden, um die ganze Datei lesen zu können.\n"
 "\n"
 "Hier sind die ersten 3500 Zeichen...\n"
@@ -810,4 +858,3 @@ msgstr "Zeigt alle laufenden Prozesse an"
 #: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
 msgid "Processes"
 msgstr "Prozesse"
-
