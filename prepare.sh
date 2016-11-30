@@ -176,7 +176,7 @@ if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
   fi
   TARGET_PATH="${TARGET_PATH}/${IMAGE_NAME}"
   chmod 600 "${ENCRYPTED_DIR}/ssh_deploy_key"
-  ssh-keyscan -t ecdsa-sha2-nistp256 -p "${ENCRYPTED_PROXY_PORT}" -H "${ENCRYPTED_PROXY_HOST}" 2>&1 | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
+  ssh-keyscan -t ecdsa-sha2-nistp256 -p "${ENCRYPTED_PROXY_PORT}" "${ENCRYPTED_PROXY_HOST}" 2>&1 | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
   echo "${ENCRYPTED_HOST} ecdsa-sha2-nistp256 ${ENCRYPTED_PUBLIC_KEY}" | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
   rsync -rvz --ignore-existing -e "ssh -o ProxyCommand='ssh -l ${ENCRYPTED_PROXY_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key -p ${ENCRYPTED_PROXY_PORT} -W %h:%p ${ENCRYPTED_PROXY_HOST}' -l ${ENCRYPTED_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/";
   echo "...done."
