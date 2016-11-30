@@ -57,12 +57,12 @@ MCWorkingCopy checkModified: true.
 		conflict chooseRemote].
 	mrr resume: true].
 
-monitor terminate.
-monitor := nil.
-
 "Configure image state"
 Transcript showln: 'Condensing changes...'.
 Smalltalk condenseChanges.
+
+monitor terminate.
+monitor := nil.
 
 "Revert the update-specific changes."
 TranscriptStream redirectToStdOut: false.
