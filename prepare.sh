@@ -30,7 +30,7 @@ readonly WIN_TEMPLATE_DIR="${TEMPLATE_DIR}/win"
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 readonly PRODUCT_DIR="${TRAVIS_BUILD_DIR}/product"
 readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
-readonly SENSITIVE_DIR="${TRAVIS_BUILD_DIR}/sensitive"
+readonly ENCRYPTED_DIR="${TRAVIS_BUILD_DIR}/encrypted"
 
 readonly LOCALE_DIR="${TRAVIS_BUILD_DIR}/locale"
 readonly ICONS_DIR="${TRAVIS_BUILD_DIR}/icons"
@@ -45,7 +45,7 @@ readonly VM_VERSIONS="versions.txt"
 
 # Extract encrypted files
 unzip -q .encrypted.zip
-if [[ ! -d "${SENSITIVE_DIR}" ]]; then
+if [[ ! -d "${ENCRYPTED_DIR}" ]]; then
   echo "Failed to locate decrypted files."
   exit 1
 fi
@@ -56,8 +56,8 @@ security create-keychain -p travis "${KEY_CHAIN}"
 security default-keychain -s "${KEY_CHAIN}"
 security unlock-keychain -p travis "${KEY_CHAIN}"
 security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
-security import "${SENSITIVE_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
-security import "${SENSITIVE_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
+security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
 
 # Create build, product, and temp folders
 mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
@@ -175,15 +175,15 @@ if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
     TARGET_PATH="${TARGET_PATH}/${SQUEAK_VERSION/Squeak/}"
   fi
   TARGET_PATH="${TARGET_PATH}/${IMAGE_NAME}"
-  chmod 600 "${SENSITIVE_DIR}/ssh_deploy_key"
+  chmod 600 "${ENCRYPTED_DIR}/ssh_deploy_key"
   ssh-keyscan -t ecdsa-sha2-nistp256 -p "${ENCRYPTED_PROXY_PORT}" -H "${ENCRYPTED_PROXY_HOST}" 2>&1 | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
   echo "${ENCRYPTED_HOST} ecdsa-sha2-nistp256 ${ENCRYPTED_PUBLIC_KEY}" | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
-  rsync -rvz --ignore-existing -e "ssh -o ProxyCommand='ssh -l ${ENCRYPTED_PROXY_USER} -i ${SENSITIVE_DIR}/ssh_deploy_key -p ${ENCRYPTED_PROXY_PORT} -W %h:%p ${ENCRYPTED_PROXY_HOST}' -l ${ENCRYPTED_USER} -i ${SENSITIVE_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/";
+  rsync -rvz --ignore-existing -e "ssh -o ProxyCommand='ssh -l ${ENCRYPTED_PROXY_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key -p ${ENCRYPTED_PROXY_PORT} -W %h:%p ${ENCRYPTED_PROXY_HOST}' -l ${ENCRYPTED_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/";
   echo "...done."
 else
   echo "...not uploading files because this is not the master branch."
 fi
 
 # Remove sensitive information
-rm -rf "${SENSITIVE_DIR}"
+rm -rf "${ENCRYPTED_DIR}"
 security delete-keychain "${KEY_CHAIN}"
