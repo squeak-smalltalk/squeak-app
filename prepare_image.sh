@@ -59,7 +59,7 @@ prepare_image() {
   travis_fold end prepare_image
 }
 
-run_sunit_tests() {
+test_image() {
   travis_fold start test_image "...testing Squeak..."
   "${SMALLTALK_VM}" "-exitonwarn" "${TMP_DIR}/Squeak.image" \
       "${TRAVIS_BUILD_DIR}/test_image.st" \
@@ -111,7 +111,7 @@ prepare_locales() {
 echo "Preparing ${TRAVIS_SMALLTALK_VERSION}..."
 download_and_prepare_files
 prepare_image
-run_sunit_tests
+test_image
 
 # prepare locales for Squeak later than 5.0
 if ! is_Squeak_50; then

@@ -1,6 +1,6 @@
 | monitor |
-buildDir := Smalltalk at: 1.
-smalltalkCIDir := Smalltalk at: 2.
+buildDir := Smalltalk argumentAt: 1.
+smalltalkCIDir := Smalltalk argumentAt: 2.
 
 monitor := [ [
   FileStream stdout nextPutAll: '.'.
