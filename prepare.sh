@@ -79,6 +79,8 @@ echo "...downloading and extracting macOS VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
 unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
 
+readonly SMALLTALK_VM="${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak"
+
 echo "...downloading and extracting Linux VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}.zip" "${VM_BASE}/${VM_LIN}.zip"
 unzip -q "${TMP_DIR}/${VM_LIN}.zip" -d "${TMP_DIR}/${VM_LIN}"
@@ -101,6 +103,18 @@ is_etoys() {
 
 is_Squeak_50() {
   [[ "${TRAVIS_SMALLTALK_VERSION}" == "Squeak-5.0" ]]
+}
+
+is_file() {
+  [[ -f $1 ]]
+}
+
+is_dir() {
+  [[ -d $1 ]]
+}
+
+is_nonzero() {
+  [[ $1 -ne 0 ]]
 }
 
 if is_etoys; then
@@ -167,7 +181,7 @@ if is_32bit; then
 fi
 
 if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
-  echo "...uploading all files to files.squeak.org..."
+  travis_fold start upload_files "...uploading all files to files.squeak.org..."
   TARGET_PATH="/var/www/files.squeak.org"
   if is_etoys; then
     TARGET_PATH="${TARGET_PATH}/etoys/${SQUEAK_VERSION/Etoys/}"
@@ -179,7 +193,7 @@ if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
   ssh-keyscan -t ecdsa-sha2-nistp256 -p "${ENCRYPTED_PROXY_PORT}" "${ENCRYPTED_PROXY_HOST}" 2>&1 | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
   echo "${ENCRYPTED_HOST} ecdsa-sha2-nistp256 ${ENCRYPTED_PUBLIC_KEY}" | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
   rsync -rvz --ignore-existing -e "ssh -o ProxyCommand='ssh -l ${ENCRYPTED_PROXY_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key -p ${ENCRYPTED_PROXY_PORT} -W %h:%p ${ENCRYPTED_PROXY_HOST}' -l ${ENCRYPTED_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/";
-  echo "...done."
+  travis_fold end upload_files
 else
   echo "...not uploading files because this is not the master branch."
 fi
