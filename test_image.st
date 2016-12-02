@@ -1,4 +1,4 @@
-| monitor |
+| buildDir smalltalkCIDir monitor |
 buildDir := Smalltalk argumentAt: 1.
 smalltalkCIDir := Smalltalk argumentAt: 2.
 
@@ -37,14 +37,14 @@ Installer gemsource
 
 [ Metacello new
   baseline: 'SmalltalkCI';
-  repository: 'filetree://', smalltalkCIDir , '/repository")';
+  repository: 'filetree://', smalltalkCIDir , '/repository';
   onConflict: [:ex | ex pass];
   load ] on: Warning do: [:w | w resume ].
 
 monitor terminate.
 monitor := nil.
 
-(Smalltalk at: #SmalltalkCI) test: buildDir, '/.smalltalk.ston'.
+(Smalltalk at: #SmalltalkCI) test: buildDir, '/.smalltalk.ston' named: 'Squeak SUnit Tests'.
 
 "Currently not reached, because SmalltalkCI>>test: closes image already"
 Smalltalk snapshot: false andQuit: true.
