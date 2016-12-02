@@ -5,24 +5,22 @@ SmalltalkCISpec {
     #hidePassingTests : true,
     #exclude : {
       #classes : [
-        #AllocationTest,
-        #BasicBehaviorClassMetaclassTest,
-        #BitmapStreamTests,
+        #BrowserTest,
+        #ClosureCompilerTest,
         #DecompilerTests,
-        #DoubleByteArrayTest,
+        #ExceptionTests,
+        #FileList2ModalDialogsTest,
+        #FontTest,
         #IslandVMTweaksTestCase,
         #LangEnvBugs,
-        #MorphicUIManagerTest,
-        #MultiByteFileStreamTest,
+        #LocaleTest,
         #MVCToolBuilderTests,
         #PackageDependencyTest,
-        #ReleaseTest,
         #SocketTest,
         #SqueakSSLTest,
         #StandardSystemFontsTest,
-        #TileMorphTest,
-        #WordArrayTest,
-        #WriteStreamTest
+        #UnimplementedCallBugz,
+        #WebClientServerTest
       ]
     }
   }

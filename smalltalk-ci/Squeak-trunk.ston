@@ -1,0 +1,37 @@
+SmalltalkCISpec {
+  #testing : {
+    #allTestCases : true,
+    #defaultTimeout : 10,
+    #hidePassingTests : true,
+    #exclude : {
+      #classes : [
+        #AllocationTest,
+        #BasicBehaviorClassMetaclassTest,
+        #BitmapStreamTests,
+        #BrowserTest,
+        #ClosureCompilerTest,
+        #CompilerTest,
+        #DecompilerTests,
+        #DoubleByteArrayTest,
+        #ExceptionTests,
+        #FontTest,
+        #IslandVMTweaksTestCase,
+        #LangEnvBugs,
+        #MorphicUIManagerTest,
+        #MultiByteFileStreamTest,
+        #MVCToolBuilderTests,
+        #PackageDependencyTest,
+        #ReleaseTest,
+        #SocketTest,
+        #SqueakSSLTest,
+        #StandardSystemFontsTest,
+        #StringTest,
+        #TextAttributesScanningTest,
+        #TileMorphTest,
+        #TraitSystemTest,
+        #WordArrayTest,
+        #WriteStreamTest
+      ]
+    }
+  }
+}

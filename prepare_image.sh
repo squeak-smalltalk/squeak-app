@@ -60,10 +60,18 @@ prepare_image() {
 }
 
 test_image() {
+  local ston_config="default.ston"
+
+  case "${TRAVIS_SMALLTALK_VERSION}" in
+    "Squeak-trunk"|"Squeak-5.1"|"Squeak-5.0")
+      ston_config="${TRAVIS_SMALLTALK_VERSION//-64}.ston"
+      ;;
+  esac
+
   travis_fold start test_image "...testing Squeak..."
   "${SMALLTALK_VM}" "-exitonwarn" "${TMP_DIR}/Squeak.image" \
       "${TRAVIS_BUILD_DIR}/test_image.st" \
-      "${TRAVIS_BUILD_DIR}" "${SMALLTALK_CI_HOME}"
+      "${TRAVIS_BUILD_DIR}" "${SMALLTALK_CI_HOME}" "${ston_config}"
   check_test_status
   travis_fold end test_image
 }
@@ -111,7 +119,9 @@ prepare_locales() {
 echo "Preparing ${TRAVIS_SMALLTALK_VERSION}..."
 download_and_prepare_files
 prepare_image
-test_image
+if ! is_etoys; then
+  test_image
+fi
 
 # prepare locales for Squeak later than 5.0
 if ! is_Squeak_50; then
