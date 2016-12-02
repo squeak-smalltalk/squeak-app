@@ -14,4 +14,4 @@ A build works basically as follows. The [prepare.sh](prepare.sh) script download
 * [prepare_lin.sh](prepare_lin.sh) builds the Linux x86 release
 * [prepare_armv6.sh](prepare_armv6.sh) builds the Linux ARM release
 
-Finally, [prepare.sh](prepare.sh) uploads everything to https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/
+Finally, [prepare.sh](prepare.sh) uploads everything to http://files.squeak.org
