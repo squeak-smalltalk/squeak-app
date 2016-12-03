@@ -54,7 +54,7 @@ download_and_prepare_additional_files_for_etoys() {
 
 prepare_image() {
   travis_fold start prepare_image "...launching, updating, and configuring Squeak..."
-  "${SMALLTALK_VM}" "-exitonwarn" "${TMP_DIR}/Squeak.image" \
+  "${SMALLTALK_VM}" -headless "${TMP_DIR}/Squeak.image" \
       "${TRAVIS_BUILD_DIR}/prepare_image.st" "${TRAVIS_SMALLTALK_VERSION}"
   travis_fold end prepare_image
 }
@@ -69,9 +69,9 @@ test_image() {
   esac
 
   travis_fold start test_image "...testing Squeak..."
-  "${SMALLTALK_VM}" "-exitonwarn" "${TMP_DIR}/Squeak.image" \
+  "${SMALLTALK_VM}" -headless "${TMP_DIR}/Squeak.image" \
       "${TRAVIS_BUILD_DIR}/test_image.st" \
-      "${TRAVIS_BUILD_DIR}" "${SMALLTALK_CI_HOME}" "${ston_config}"
+      "${SMALLTALK_CI_HOME}" "${TRAVIS_BUILD_DIR}/smalltalk-ci/${ston_config}"
   check_test_status
   travis_fold end test_image
 }

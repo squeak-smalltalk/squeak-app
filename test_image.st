@@ -1,7 +1,6 @@
-| buildDir smalltalkCIDir stonConfig monitor |
-buildDir := Smalltalk argumentAt: 1.
-smalltalkCIDir := Smalltalk argumentAt: 2.
-stonConfig := Smalltalk argumentAt: 3.
+| smalltalkCIDir stonConfig monitor |
+smalltalkCIDir := Smalltalk argumentAt: 1.
+stonConfig := Smalltalk argumentAt: 2.
 
 monitor := [ [
   FileStream stdout nextPutAll: '.'.
@@ -45,9 +44,9 @@ Installer gemsource
 monitor terminate.
 monitor := nil.
 
-(Smalltalk at: #SmalltalkCI)
-  test: buildDir, '/smalltalk-ci/', stonConfig , '.ston'
-  named: 'Squeak SUnit Tests'.
+FileStream stdout closed ifTrue: [ FileStream startUp: true ].
+
+(Smalltalk at: #SmalltalkCI) test: stonConfig named: 'Squeak SUnit Tests'.
 
 "Currently not reached, because SmalltalkCI>>test: closes image already"
 Smalltalk snapshot: false andQuit: true.
