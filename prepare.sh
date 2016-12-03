@@ -43,14 +43,21 @@ readonly VM_WIN="vm-win"
 readonly VM_ARM6="vm-armv6"
 readonly VM_VERSIONS="versions.txt"
 
-# Extract encrypted files
+readonly SMALLTALK_VM="${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak"
+
+
+source "helpers.sh"
+
+# Decrypt and extract sensitive files
+openssl aes-256-cbc -K $encrypted_7fdec7aaa5ee_key \
+  -iv $encrypted_7fdec7aaa5ee_iv -in .encrypted.zip.enc -out .encrypted.zip -d
 unzip -q .encrypted.zip
-if [[ ! -d "${ENCRYPTED_DIR}" ]]; then
+if ! is_dir "${ENCRYPTED_DIR}"; then
   echo "Failed to locate decrypted files."
   exit 1
 fi
 
-# Prepare signing
+travis_fold start macos_signing "...preparing signing..."
 KEY_CHAIN=macos-build.keychain
 security create-keychain -p travis "${KEY_CHAIN}"
 security default-keychain -s "${KEY_CHAIN}"
@@ -58,10 +65,12 @@ security unlock-keychain -p travis "${KEY_CHAIN}"
 security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
 security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
 security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+travis_fold end macos_signing
 
 # Create build, product, and temp folders
 mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 
+travis_fold start download_extract "...downloading and extracting all files..."
 echo "...downloading and extracting VM for build..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
 unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
@@ -79,8 +88,6 @@ echo "...downloading and extracting macOS VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
 unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
 
-readonly SMALLTALK_VM="${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak"
-
 echo "...downloading and extracting Linux VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}.zip" "${VM_BASE}/${VM_LIN}.zip"
 unzip -q "${TMP_DIR}/${VM_LIN}.zip" -d "${TMP_DIR}/${VM_LIN}"
@@ -88,34 +95,8 @@ unzip -q "${TMP_DIR}/${VM_LIN}.zip" -d "${TMP_DIR}/${VM_LIN}"
 echo "...downloading and extracting Windows VM..."
 curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}.zip" "${VM_BASE}/${VM_WIN}.zip"
 unzip -q "${TMP_DIR}/${VM_WIN}.zip" -d "${TMP_DIR}/${VM_WIN}"
+travis_fold end download_extract
 
-is_64bit() {
-  [[ "${TRAVIS_SMALLTALK_VERSION}" == *"-64" ]]
-}
-
-is_32bit() {
-  ! is_64bit
-}
-
-is_etoys() {
-  [[ "${TRAVIS_SMALLTALK_VERSION}" == "Etoys"* ]]
-}
-
-is_Squeak_50() {
-  [[ "${TRAVIS_SMALLTALK_VERSION}" == "Squeak-5.0" ]]
-}
-
-is_file() {
-  [[ -f $1 ]]
-}
-
-is_dir() {
-  [[ -d $1 ]]
-}
-
-is_nonzero() {
-  [[ $1 -ne 0 ]]
-}
 
 if is_etoys; then
   readonly SMALLTALK_NAME="Etoys"
@@ -148,19 +129,6 @@ copy_resources() {
   if is_etoys; then
     cp "${TMP_DIR}/"*.pr "${target}/"
     cp -R "${TMP_DIR}/ExampleEtoys" "${target}/"
-  fi
-}
-
-travis_fold() {
-  local action=$1
-  local name=$2
-  local title="${3:-}"
-
-  if [[ "${TRAVIS:-}" = "true" ]]; then
-    echo -en "travis_fold:${action}:${name}\r\033[0K"
-  fi
-  if [[ -n "${title}" ]]; then
-    echo -e "\033[34;1m${title}\033[0m"
   fi
 }
 
