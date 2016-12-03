@@ -26,6 +26,10 @@ is_nonzero() {
   [[ $1 -ne 0 ]]
 }
 
+is_master_branch() {
+  [[ "${TRAVIS_BRANCH}" == "master" ]]
+}
+
 travis_fold() {
   local action=$1
   local name=$2

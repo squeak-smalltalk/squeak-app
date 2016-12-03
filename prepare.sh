@@ -45,6 +45,11 @@ readonly VM_VERSIONS="versions.txt"
 
 readonly SMALLTALK_VM="${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak"
 
+if is_etoys; then
+  readonly SMALLTALK_NAME="Etoys"
+else
+  readonly SMALLTALK_NAME="Squeak"
+fi
 
 source "helpers.sh"
 
@@ -70,39 +75,41 @@ travis_fold end macos_signing
 # Create build, product, and temp folders
 mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 
-travis_fold start download_extract "...downloading and extracting all files..."
-echo "...downloading and extracting VM for build..."
-curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
-unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
+download_and_extract_files() {
+  travis_fold start download_extract "...downloading and extracting all files..."
+  echo "...downloading and extracting VM for build..."
+  curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
+  unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
 
-echo "...downloading and sourcing VM versions file..."
-curl -f -s --retry 3 -o "${TMP_DIR}/vm-versions" "${VM_BASE}/${VM_VERSIONS}"
-source "${TMP_DIR}/vm-versions"
-if [[ -z "${VERSION_VM_ARMV6}" ]] || [[ -z "${VERSION_VM_LINUX}" ]] || \
-   [[ -z "${VERSION_VM_MACOS}" ]] || [[ -z "${VERSION_VM_WIN}" ]]; then
-  echo "Could not determine all required VM versions."
-  exit 1
-fi
+  echo "...downloading and sourcing VM versions file..."
+  curl -f -s --retry 3 -o "${TMP_DIR}/vm-versions" "${VM_BASE}/${VM_VERSIONS}"
+  source "${TMP_DIR}/vm-versions"
+  if [[ -z "${VERSION_VM_ARMV6}" ]] || [[ -z "${VERSION_VM_LINUX}" ]] || \
+     [[ -z "${VERSION_VM_MACOS}" ]] || [[ -z "${VERSION_VM_WIN}" ]]; then
+    echo "Could not determine all required VM versions."
+    exit 1
+  fi
 
-echo "...downloading and extracting macOS VM..."
-curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
-unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
+  echo "...downloading and extracting macOS VM..."
+  curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
+  unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
 
-echo "...downloading and extracting Linux VM..."
-curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}.zip" "${VM_BASE}/${VM_LIN}.zip"
-unzip -q "${TMP_DIR}/${VM_LIN}.zip" -d "${TMP_DIR}/${VM_LIN}"
+  echo "...downloading and extracting Linux VM..."
+  curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}.zip" "${VM_BASE}/${VM_LIN}.zip"
+  unzip -q "${TMP_DIR}/${VM_LIN}.zip" -d "${TMP_DIR}/${VM_LIN}"
 
-echo "...downloading and extracting Windows VM..."
-curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}.zip" "${VM_BASE}/${VM_WIN}.zip"
-unzip -q "${TMP_DIR}/${VM_WIN}.zip" -d "${TMP_DIR}/${VM_WIN}"
-travis_fold end download_extract
+  echo "...downloading and extracting Windows VM..."
+  curl -f -s --retry 3 -o "${TMP_DIR}/${VM_WIN}.zip" "${VM_BASE}/${VM_WIN}.zip"
+  unzip -q "${TMP_DIR}/${VM_WIN}.zip" -d "${TMP_DIR}/${VM_WIN}"
 
-
-if is_etoys; then
-  readonly SMALLTALK_NAME="Etoys"
-else
-  readonly SMALLTALK_NAME="Squeak"
-fi
+  # ARMv6 currently only supported on 32-bit
+  if is_32bit; then
+    echo "...downloading and extracting ARMv6 VM..."
+    curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM6}.zip" "${VM_BASE}/${VM_ARM6}.zip"
+    unzip -q "${TMP_DIR}/${VM_ARM6}.zip" -d "${TMP_DIR}/${VM_ARM6}"
+  fi
+  travis_fold end download_extract
+}
 
 compress() {
   target=$1
@@ -132,12 +139,7 @@ copy_resources() {
   fi
 }
 
-# ARMv6 currently only supported on 32-bit
-if is_32bit; then
-  echo "...downloading and extracting ARMv6 VM..."
-  curl -f -s --retry 3 -o "${TMP_DIR}/${VM_ARM6}.zip" "${VM_BASE}/${VM_ARM6}.zip"
-  unzip -q "${TMP_DIR}/${VM_ARM6}.zip" -d "${TMP_DIR}/${VM_ARM6}"
-fi
+download_and_extract_files
 
 source "prepare_image.sh"
 source "prepare_aio.sh"
@@ -148,7 +150,7 @@ if is_32bit; then
   source "prepare_armv6.sh"
 fi
 
-if [[ "${TRAVIS_BRANCH}" == "master" ]]; then
+if is_master_branch; then
   travis_fold start upload_files "...uploading all files to files.squeak.org..."
   TARGET_PATH="/var/www/files.squeak.org"
   if is_etoys; then
