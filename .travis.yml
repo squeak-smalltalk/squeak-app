@@ -23,6 +23,3 @@ matrix:
   fast_finish: true
 
 script: ./prepare.sh
-
-addons:
-  ssh_known_hosts: squeak.org

@@ -43,15 +43,13 @@ readonly VM_WIN="vm-win"
 readonly VM_ARM6="vm-armv6"
 readonly VM_VERSIONS="versions.txt"
 
-readonly SMALLTALK_VM="${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak"
+source "helpers.sh"
 
 if is_etoys; then
   readonly SMALLTALK_NAME="Etoys"
 else
   readonly SMALLTALK_NAME="Squeak"
 fi
-
-source "helpers.sh"
 
 # Decrypt and extract sensitive files
 openssl aes-256-cbc -K $encrypted_7fdec7aaa5ee_key \
@@ -75,11 +73,16 @@ travis_fold end macos_signing
 # Create build, product, and temp folders
 mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 
-download_and_extract_files() {
-  travis_fold start download_extract "...downloading and extracting all files..."
+download_and_extract_vms() {
+  travis_fold start download_extract "...downloading and extracting all VMs..."
   echo "...downloading and extracting VM for build..."
   curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
   unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
+  readonly SMALLTALK_VM="${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak"
+  if ! is_file "${SMALLTALK_VM}"; then
+    echo "Failed to locate VM for build."
+    exit 1
+  fi
 
   echo "...downloading and sourcing VM versions file..."
   curl -f -s --retry 3 -o "${TMP_DIR}/vm-versions" "${VM_BASE}/${VM_VERSIONS}"
@@ -139,7 +142,7 @@ copy_resources() {
   fi
 }
 
-download_and_extract_files
+download_and_extract_vms
 
 source "prepare_image.sh"
 source "prepare_aio.sh"
