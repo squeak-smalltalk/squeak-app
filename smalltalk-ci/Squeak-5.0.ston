@@ -5,15 +5,18 @@ SmalltalkCISpec {
     #hidePassingTests : true,
     #exclude : {
       #classes : [
-        #CompilerTest,
-        #MCSnapshotBrowserTest,
+        #AllocationTest,
         #BrowserTest,
-        #ExceptionTests,
-        #StringTest,
         #ClosureCompilerTest,
+        #CompilerTest,
+        #DecompilerTests,
+        #ExceptionTests,
         #FontTest,
+        #MCSnapshotBrowserTest,
+        #PackageDependencyTest,
         #SocketTest,
         #SqueakSSLTest,
+        #StringTest,
         #TextAttributesScanningTest,
         #TraitSystemTest
       ]
