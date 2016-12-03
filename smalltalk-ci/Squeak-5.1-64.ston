@@ -5,6 +5,7 @@ SmalltalkCISpec {
     #hidePassingTests : true,
     #exclude : {
       #classes : [
+        #AllocationTest,
         #BrowserTest,
         #BitmapStreamTests,
         #ClosureCompilerTest,
