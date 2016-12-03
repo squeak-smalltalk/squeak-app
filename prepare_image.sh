@@ -9,7 +9,7 @@
 ################################################################################
 
 download_and_prepare_files() {
-  echo "...downloading and extracting image, changes, and sources..."
+  print_info "...downloading and extracting image, changes, and sources..."
   curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"
 
   if [[ ! -f "${TMP_DIR}/base.zip" ]]; then
@@ -116,7 +116,7 @@ prepare_locales() {
   travis_fold end prepare_translations
 }
 
-echo "Preparing ${TRAVIS_SMALLTALK_VERSION}..."
+print_info "...starting to build ${TRAVIS_SMALLTALK_VERSION}..."
 download_and_prepare_files
 prepare_image
 if ! is_etoys; then

@@ -30,6 +30,11 @@ is_master_branch() {
   [[ "${TRAVIS_BRANCH}" == "master" ]]
 }
 
+print_info() {
+  local message=$1
+  echo -e "\033[34;1m${message}\033[0m"
+}
+
 travis_fold() {
   local action=$1
   local name=$2
@@ -39,6 +44,6 @@ travis_fold() {
     echo -en "travis_fold:${action}:${name}\r\033[0K"
   fi
   if [[ -n "${title}" ]]; then
-    echo -e "\033[34;1m${title}\033[0m"
+    print_info "${title}"
   fi
 }
