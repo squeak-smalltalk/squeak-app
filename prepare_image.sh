@@ -63,8 +63,8 @@ test_image() {
   local ston_config="default.ston"
 
   case "${TRAVIS_SMALLTALK_VERSION}" in
-    "Squeak-trunk"|"Squeak-5.1"|"Squeak-5.0")
-      ston_config="${TRAVIS_SMALLTALK_VERSION//-64}.ston"
+    "Squeak-trunk"*|"Squeak-5.1"*|"Squeak-5.0")
+      ston_config="${TRAVIS_SMALLTALK_VERSION}.ston"
       ;;
   esac
 
