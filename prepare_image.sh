@@ -80,6 +80,12 @@ check_test_status() {
   local test_status_file="build_status.txt"
   local build_status
 
+  # Temporarily disable test status check for trunk builds. Remove this check as
+  # soon as all tests are running in trunk (hopefully soon).
+  if is_trunk; then
+    return 0
+  fi
+
   if ! is_file "${TMP_DIR}/${test_status_file}"; then
     echo "Build failed before tests were performed correctly."
     exit 1

@@ -2,45 +2,6 @@ SmalltalkCISpec {
   #testing : {
     #allTestCases : true,
     #defaultTimeout : 10,
-    #hidePassingTests : true,
-    #exclude : {
-      #classes : [
-        #AllocationTest,
-        #BasicBehaviorClassMetaclassTest,
-        #BitmapStreamTests,
-        #BrowserTest,
-        #ClosureCompilerTest,
-        #CompilerTest,
-        #CompilerNotifyingTest,
-        #CompilerSyntaxErrorNotifyingTest,
-        #DateAndTimeLeapTest,
-        #DecompilerTests,
-        #DoubleByteArrayTest,
-        #DoubleWordArrayTest,
-        #ExceptionTests,
-        #FileContentsBrowserTest,
-        #FontTest,
-        #IslandVMTweaksTestCase,
-        #LangEnvBugs,
-        #LocaleTest,
-        #MorphicUIManagerTest,
-        #MultiByteFileStreamTest,
-        #MVCToolBuilderTests,
-        #PackageDependencyTest,
-        #ReleaseTest,
-        #RWBinaryOrTextStreamTest,
-        #SocketTest,
-        #SqueakSSLTest,
-        #StandardSystemFontsTest,
-        #StringTest,
-        #SystemChangeFileTest,
-        #TextAttributesScanningTest,
-        #TileMorphTest,
-        #TraitSystemTest,
-        #WebClientServerTest,
-        #WordArrayTest,
-        #WriteStreamTest
-      ]
-    }
+    #hidePassingTests : true
   }
 }

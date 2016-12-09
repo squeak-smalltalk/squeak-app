@@ -14,6 +14,10 @@ is_Squeak_50() {
   [[ "${TRAVIS_SMALLTALK_VERSION}" == "Squeak-5.0" ]]
 }
 
+is_trunk() {
+  [[ "${TRAVIS_SMALLTALK_VERSION}" == *"trunk"* ]]
+}
+
 is_file() {
   [[ -f $1 ]]
 }
