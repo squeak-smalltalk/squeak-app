@@ -75,14 +75,6 @@ mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 
 download_and_extract_vms() {
   travis_fold start download_extract "...downloading and extracting all VMs..."
-  echo "...downloading and extracting VM for build..."
-  curl -f -s --retry 3 -o "${TMP_DIR}/${VM_BUILD}.zip" "${VM_BASE}/${VM_BUILD}.zip"
-  unzip -q "${TMP_DIR}/${VM_BUILD}.zip" -d "${TMP_DIR}/${VM_BUILD}"
-  readonly SMALLTALK_VM="${TMP_DIR}/${VM_BUILD}/CogSpur.app/Contents/MacOS/Squeak"
-  if ! is_file "${SMALLTALK_VM}"; then
-    echo "Failed to locate VM for build."
-    exit 1
-  fi
 
   echo "...downloading and sourcing VM versions file..."
   curl -f -s --retry 3 -o "${TMP_DIR}/vm-versions" "${VM_BASE}/${VM_VERSIONS}"
@@ -96,6 +88,11 @@ download_and_extract_vms() {
   echo "...downloading and extracting macOS VM..."
   curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
   unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
+  readonly SMALLTALK_VM="${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak"
+  if ! is_file "${SMALLTALK_VM}"; then
+    echo "Failed to locate macOS VM binary."
+    exit 1
+  fi
 
   echo "...downloading and extracting Linux VM..."
   curl -f -s --retry 3 -o "${TMP_DIR}/${VM_LIN}.zip" "${VM_BASE}/${VM_LIN}.zip"

@@ -2,6 +2,12 @@ SmalltalkCISpec {
   #testing : {
     #allTestCases : true,
     #defaultTimeout : 10,
-    #hidePassingTests : true
+    #hidePassingTests : true,
+    #exclude : {
+      #classes : [
+        #AllocationTest,
+        #LangEnvBugs
+      ]
+    }
   }
 }
