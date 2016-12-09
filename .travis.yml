@@ -22,3 +22,7 @@ matrix:
   fast_finish: true
 
 script: ./prepare.sh
+
+notifications:
+  email:
+    - squeak-dev@lists.squeakfoundation.org
