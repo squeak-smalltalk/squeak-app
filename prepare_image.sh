@@ -57,6 +57,10 @@ prepare_image() {
   "${SMALLTALK_VM}" -headless "${TMP_DIR}/Squeak.image" \
       "${TRAVIS_BUILD_DIR}/prepare_image.st" "${TRAVIS_SMALLTALK_VERSION}"
   travis_fold end prepare_image
+  if ! is_file "${VERSION_FILE}"; then
+    echo "Image preparation failed: version.sh file was not exported."
+    exit 1
+  fi
 }
 
 test_image() {
@@ -135,7 +139,7 @@ if ! is_Squeak_50; then
 fi
 
 # Source in version.sh file produced by image
-source "${TMP_DIR}/version.sh"
+source "${VERSION_FILE}"
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
 readonly SQUEAK_VERSION_NUMBER=$(echo "${SQUEAK_VERSION}" | sed "s/^[A-Za-z]*\(.*\)$/\1/")
 readonly WINDOW_TITLE="${SMALLTALK_NAME} ${SQUEAK_VERSION_NUMBER} (${IMAGE_BITS} bit)"

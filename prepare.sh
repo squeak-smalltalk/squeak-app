@@ -43,6 +43,9 @@ readonly VM_WIN="vm-win"
 readonly VM_ARM6="vm-armv6"
 readonly VM_VERSIONS="versions.txt"
 
+# version.sh file produced by image
+readonly VERSION_FILE="${TMP_DIR}/version.sh"
+
 source "helpers.sh"
 
 if is_etoys; then
