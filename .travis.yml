@@ -23,4 +23,10 @@ matrix:
 script: ./prepare.sh
 
 notifications:
-  slack: squeak:ID1VVfPsB1X17YiDK9F1VUcS
+  slack:
+    rooms:
+      - squeak:ID1VVfPsB1X17YiDK9F1VUcS#trunk
+    template:
+      - "Build <%{build_url}|#%{build_number}> of <https://github.com/squeak-smalltalk/squeak-app|squeak-app> %{result} in %{duration}"
+    on_success: change
+    on_failure: always
