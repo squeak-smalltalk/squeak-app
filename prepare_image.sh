@@ -54,7 +54,8 @@ download_and_prepare_additional_files_for_etoys() {
 
 prepare_image() {
   travis_fold start prepare_image "...launching, updating, and configuring Squeak..."
-  "${SMALLTALK_VM}" -headless "${TMP_DIR}/Squeak.image" \
+  # Do not use -headless here, otherwise there is a problem with the image's initial dimensions
+  "${SMALLTALK_VM}" "${TMP_DIR}/Squeak.image" \
       "${TRAVIS_BUILD_DIR}/prepare_image.st" "${TRAVIS_SMALLTALK_VERSION}"
   travis_fold end prepare_image
   if ! is_file "${VERSION_FILE}"; then
