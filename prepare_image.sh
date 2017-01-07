@@ -73,8 +73,11 @@ test_image() {
       ;;
   esac
 
+  cp "${TMP_DIR}/Squeak.image" "${TMP_DIR}/Test.image"
+  cp "${TMP_DIR}/Squeak.changes" "${TMP_DIR}/Test.changes"
+
   travis_fold start test_image "...testing Squeak..."
-  "${SMALLTALK_VM}" -headless "${TMP_DIR}/Squeak.image" \
+  "${SMALLTALK_VM}" -headless "${TMP_DIR}/Test.image" \
       "${TRAVIS_BUILD_DIR}/test_image.st" \
       "${SMALLTALK_CI_HOME}" "${TRAVIS_BUILD_DIR}/smalltalk-ci/${ston_config}"
   check_test_status
