@@ -8,6 +8,14 @@ monitor := [ [
 
 "# Install Metacello/FileTree ================================================="
 
+"Add BlockContext as a blank subclass of Context. This is a temporary fix until
+Metacello is updated to support Squeak images with the new Context class."
+Context variableSubclass: #BlockContext
+  instanceVariableNames: ''
+  classVariableNames: ''
+  poolDictionaries: ''
+  category: 'Kernel-Methods'.
+
 "Get the Metacello configuration (for Squeak users)"
 Installer gemsource
     project: 'metacello';
