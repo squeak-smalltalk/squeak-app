@@ -1,6 +1,10 @@
-| smalltalkCIDir stonConfig monitor |
-smalltalkCIDir := Smalltalk argumentAt: 1.
-stonConfig := Smalltalk argumentAt: 2.
+| smalltalkVersion smalltalkCIDir stonConfig monitor |
+smalltalkVersion := (Smalltalk argumentAt: 1) ifNil: [''].
+smalltalkCIDir := Smalltalk argumentAt: 2.
+stonConfig := Smalltalk argumentAt: 3.
+
+"Ensure FileStream stdout is open"
+FileStream startUp: true.
 
 monitor := [ [
   FileStream stdout nextPutAll: '.'.
@@ -10,11 +14,13 @@ monitor := [ [
 
 "Add BlockContext as a blank subclass of Context. This is a temporary fix until
 Metacello is updated to support Squeak images with the new Context class."
-Context variableSubclass: #BlockContext
-  instanceVariableNames: ''
-  classVariableNames: ''
-  poolDictionaries: ''
-  category: 'Kernel-Methods'.
+('*trunk*' match: smalltalkVersion) ifTrue: [
+  FileStream stdout nextPutAll: 'Applying BlockContext workaround for Metacello'; flush.
+  Context variableSubclass: #BlockContext
+    instanceVariableNames: ''
+    classVariableNames: ''
+    poolDictionaries: ''
+    category: 'Kernel-Methods'].
 
 "Get the Metacello configuration (for Squeak users)"
 Installer gemsource
