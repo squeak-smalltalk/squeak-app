@@ -17,7 +17,7 @@ matrix:
   allow_failures:
     # - smalltalk: Squeak-trunk-64
     # - smalltalk: Squeak-5.1-64
-    - Squeak-5.0 # currently broken due to a stale test
+    - smalltalk: Squeak-5.0 # currently broken due to a stale test
     - smalltalk: Etoys-trunk-64
     - smalltalk: Etoys-trunk
 
