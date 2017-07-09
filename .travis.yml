@@ -5,20 +5,20 @@ osx_image: xcode7.3 # use macOS 10.11
 
 smalltalk:
   - Squeak-trunk
-  - Squeak-trunk-64 # experimental
+  - Squeak64-trunk # experimental
   - Squeak-5.1
-  - Squeak-5.1-64 # experimental
+  - Squeak64-5.1 # experimental
   - Squeak-5.0
 
-  - Etoys-trunk-64
+  - Etoys64-trunk
   - Etoys-trunk
 
 matrix:
   allow_failures:
-    # - smalltalk: Squeak-trunk-64
-    # - smalltalk: Squeak-5.1-64
+    # - smalltalk: Squeak64-trunk
+    # - smalltalk: Squeak64-5.1
     - smalltalk: Squeak-5.0 # currently broken due to a stale test
-    - smalltalk: Etoys-trunk-64
+    - smalltalk: Etoys64-trunk
     - smalltalk: Etoys-trunk
 
 script: ./prepare.sh

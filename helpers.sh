@@ -1,5 +1,5 @@
 is_64bit() {
-  [[ "${TRAVIS_SMALLTALK_VERSION}" == *"-64" ]]
+  [[ "${TRAVIS_SMALLTALK_VERSION}" == *"64-"* ]]
 }
 
 is_32bit() {
