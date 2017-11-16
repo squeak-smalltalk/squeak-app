@@ -126,13 +126,6 @@ copy_resources() {
 download_and_extract_vms
 
 source "prepare_image.sh"
-source "prepare_aio.sh"
-source "prepare_mac.sh"
-source "prepare_lin.sh"
-source "prepare_win.sh"
-if is_32bit; then
-  source "prepare_armv6.sh"
-fi
 
 if is_master_branch; then
   # Decrypt and extract sensitive files
@@ -153,7 +146,17 @@ if is_master_branch; then
   security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
   security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
   travis_fold end macos_signing
+fi
 
+source "prepare_aio.sh"
+source "prepare_mac.sh"
+source "prepare_lin.sh"
+source "prepare_win.sh"
+if is_32bit; then
+  source "prepare_armv6.sh"
+fi
+
+if is_master_branch; then
   travis_fold start upload_files "...uploading all files to files.squeak.org..."
   TARGET_PATH="/var/www/files.squeak.org"
   if is_etoys; then
