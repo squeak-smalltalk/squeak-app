@@ -54,25 +54,6 @@ else
   readonly SMALLTALK_NAME="Squeak"
 fi
 
-# Decrypt and extract sensitive files
-openssl aes-256-cbc -K $encrypted_7fdec7aaa5ee_key \
-  -iv $encrypted_7fdec7aaa5ee_iv -in .encrypted.zip.enc -out .encrypted.zip -d
-unzip -q .encrypted.zip
-if ! is_dir "${ENCRYPTED_DIR}"; then
-  echo "Failed to locate decrypted files."
-  exit 1
-fi
-
-travis_fold start macos_signing "...preparing signing..."
-KEY_CHAIN=macos-build.keychain
-security create-keychain -p travis "${KEY_CHAIN}"
-security default-keychain -s "${KEY_CHAIN}"
-security unlock-keychain -p travis "${KEY_CHAIN}"
-security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
-security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
-security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
-travis_fold end macos_signing
-
 # Create build, product, and temp folders
 mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 
@@ -154,6 +135,25 @@ if is_32bit; then
 fi
 
 if is_master_branch; then
+  # Decrypt and extract sensitive files
+  openssl aes-256-cbc -K $encrypted_7fdec7aaa5ee_key \
+    -iv $encrypted_7fdec7aaa5ee_iv -in .encrypted.zip.enc -out .encrypted.zip -d
+  unzip -q .encrypted.zip
+  if ! is_dir "${ENCRYPTED_DIR}"; then
+    echo "Failed to locate decrypted files."
+    exit 1
+  fi
+
+  travis_fold start macos_signing "...preparing signing..."
+  KEY_CHAIN=macos-build.keychain
+  security create-keychain -p travis "${KEY_CHAIN}"
+  security default-keychain -s "${KEY_CHAIN}"
+  security unlock-keychain -p travis "${KEY_CHAIN}"
+  security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
+  security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
+  security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+  travis_fold end macos_signing
+
   travis_fold start upload_files "...uploading all files to files.squeak.org..."
   TARGET_PATH="/var/www/files.squeak.org"
   if is_etoys; then
@@ -167,10 +167,10 @@ if is_master_branch; then
   echo "${ENCRYPTED_HOST} ecdsa-sha2-nistp256 ${ENCRYPTED_PUBLIC_KEY}" | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
   rsync -rvz --ignore-existing -e "ssh -o ProxyCommand='ssh -l ${ENCRYPTED_PROXY_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key -p ${ENCRYPTED_PROXY_PORT} -W %h:%p ${ENCRYPTED_PROXY_HOST}' -l ${ENCRYPTED_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/";
   travis_fold end upload_files
+
+  # Remove sensitive information
+  rm -rf "${ENCRYPTED_DIR}"
+  security delete-keychain "${KEY_CHAIN}"
 else
   echo "...not uploading files because this is not the master branch."
 fi
-
-# Remove sensitive information
-rm -rf "${ENCRYPTED_DIR}"
-security delete-keychain "${KEY_CHAIN}"
