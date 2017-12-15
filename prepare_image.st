@@ -64,20 +64,21 @@ Smalltalk condenseChanges.
 monitor terminate.
 monitor := nil.
 
-"Revert the update-specific changes."
+Transcript showln: 'Reverting update-specific changes...'.
 TranscriptStream redirectToStdOut: false.
 TranscriptStream forceUpdate: true.
 ToolSet default: (Smalltalk at: #StandardToolSet).
 Project current instVarNamed: #uiManager put: MorphicUIManager new.
 Utilities setAuthorInitials: ''.
 
-"Finish."
+FileStream stdout nextPutAll: 'Triggering ReleaseBuilder...'; cr; flush.
 ((smalltalkVersion beginsWith: 'Etoys')
     ifTrue: [Smalltalk classNamed: 'ReleaseBuilderSqueakland']
     ifFalse: [ReleaseBuilder])
         prepareEnvironment.
 
-"Write out version information for deployment."
+
+FileStream stdout nextPutAll: 'Exporting version information for deployment...'; cr; flush.
 FileStream fileNamed: 'version.sh' do: [:strm |
 	strm
 		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
@@ -85,4 +86,5 @@ FileStream fileNamed: 'version.sh' do: [:strm |
 		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
 		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
 
+FileStream stdout nextPutAll: '[DONE]'; cr; flush.
 Smalltalk snapshot: true andQuit: true.
