@@ -15,6 +15,7 @@ if [[ -z "${TRAVIS_BUILD_DIR}" ]]; then
   exit 1
 fi
 
+readonly DEPLOYMENT_BRANCH="squeak-trunk"
 readonly FILES_BASE="http://files.squeak.org/base"
 readonly RELEASE_URL="${FILES_BASE}/${TRAVIS_SMALLTALK_VERSION/Etoys/Squeak}"
 readonly IMAGE_URL="${RELEASE_URL}/base.zip"
@@ -129,7 +130,7 @@ download_and_extract_vms
 
 source "prepare_image.sh"
 
-if is_master_branch; then
+if is_deployment_branch; then
   # Decrypt and extract sensitive files
   openssl aes-256-cbc -K $encrypted_7fdec7aaa5ee_key \
     -iv $encrypted_7fdec7aaa5ee_iv -in .encrypted.zip.enc -out .encrypted.zip -d
@@ -158,7 +159,7 @@ if is_32bit; then
   source "prepare_armv6.sh"
 fi
 
-if is_master_branch; then
+if is_deployment_branch; then
   travis_fold start upload_files "...uploading all files to files.squeak.org..."
   TARGET_PATH="/var/www/files.squeak.org"
   if is_etoys; then
@@ -177,5 +178,5 @@ if is_master_branch; then
   rm -rf "${ENCRYPTED_DIR}"
   security delete-keychain "${KEY_CHAIN}"
 else
-  echo "...not uploading files because this is not the master branch."
+  echo "...not uploading files because this is not the '${DEPLOYMENT_BRANCH}'' branch."
 fi

@@ -30,8 +30,8 @@ is_nonzero() {
   [[ $1 -ne 0 ]]
 }
 
-is_master_branch() {
-  [[ "${TRAVIS_BRANCH}" == "master" ]]
+is_deployment_branch() {
+  [[ "${TRAVIS_BRANCH}" == "${DEPLOYMENT_BRANCH}" ]]
 }
 
 print_info() {
