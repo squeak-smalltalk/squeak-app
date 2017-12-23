@@ -17,9 +17,9 @@ RESOURCES_DIR="${CONTENTS_DIR}/Resources"
 VM_MAC_TARGET="${CONTENTS_DIR}/MacOS"
 
 echo "...copying macOS VM ..."
-if [[ -d "${TMP_DIR}/${VM_MAC}/Squeak.app" ]]; then
+if is_dir "${TMP_DIR}/${VM_MAC}/Squeak.app"; then
   cp -R "${TMP_DIR}/${VM_MAC}/Squeak.app" "${APP_DIR}"
-elif [[ -d "${TMP_DIR}/${VM_MAC}/CogSpur.app" ]]; then
+elif is_dir "${TMP_DIR}/${VM_MAC}/CogSpur.app"; then
   cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
 else
   echo "Unable to locate macOS VM." && exit 1
