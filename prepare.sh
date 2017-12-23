@@ -72,10 +72,12 @@ download_and_extract_vms() {
   echo "...downloading and extracting macOS VM..."
   curl -f -s --retry 3 -o "${TMP_DIR}/${VM_MAC}.zip" "${VM_BASE}/${VM_MAC}.zip"
   unzip -q "${TMP_DIR}/${VM_MAC}.zip" -d "${TMP_DIR}/${VM_MAC}"
-  readonly SMALLTALK_VM="${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak"
-  if ! is_file "${SMALLTALK_VM}"; then
-    echo "Failed to locate macOS VM binary."
-    exit 1
+  if is_dir "${TMP_DIR}/${VM_MAC}/Squeak.app"; then
+    readonly SMALLTALK_VM="${TMP_DIR}/${VM_MAC}/Squeak.app/Contents/MacOS/Squeak"
+  elif is_dir "${TMP_DIR}/${VM_MAC}/CogSpur.app"; then
+    readonly SMALLTALK_VM="${TMP_DIR}/${VM_MAC}/CogSpur.app/Contents/MacOS/Squeak"
+  else
+    echo "Failed to locate macOS VM app." && exit 1
   fi
 
   echo "...downloading and extracting Linux VM..."
