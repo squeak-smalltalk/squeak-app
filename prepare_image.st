@@ -1,6 +1,7 @@
 | smalltalkVersion |
 smalltalkVersion := (Smalltalk argumentAt: 1) ifNil: [''].
 
+FileStream startUp: true. "Reload stdio file handles"
 SystemProgressMorph reset.
 Utilities setAuthorInitials: 'buildscript'.
 TranscriptStream redirectToStdOut: true.
@@ -8,11 +9,6 @@ TranscriptStream redirectToStdOut: true.
 "Avoid showing system progress bar and using graphical tools."
 Project current instVarNamed: #uiManager put: DummyUIManager new.
 ToolSet default: (Smalltalk at: #CommandLineToolSet).
-
-"Patch bug in DummyUIManager."
-DummyUIManager
-	compile: 'informUserDuring: aBlock\	aBlock value: Association new' withCRs
-	classified: 'ui requests'.
 	
 MCMcmUpdater updateMissingPackages: true.
 MCConfiguration upgradeIsMerge: true. "See below"
@@ -37,12 +33,7 @@ monitor := [ [
 [[[[
 
 Transcript show: 'Updating...'.
-"XXX HACK work around updater bug"
-[(Installer squeak
-	project: 'trunk';
-	addPackage: 'SmallLand-ColorTheme-fbs.6.mcz')
-	mcThing] on: Error do: [:ex|].
-config := MCMcmUpdater default updateFromRepository: repo.
+config := MCMcmUpdater default updateFromRepository: repo upTo: 999999.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
