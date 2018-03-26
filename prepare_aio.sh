@@ -25,7 +25,7 @@ VM_MAC_TARGET="${CONTENTS_DIR}/MacOS"
 VM_WIN_TARGET="${CONTENTS_DIR}/Win32"
 
 echo "...copying VMs into bundle..."
-cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
+cp -R "${TMP_DIR}/${VM_MAC}/Squeak.app" "${APP_DIR}"
 if is_32bit; then
   cp -R "${TMP_DIR}/${VM_ARM6}" "${VM_ARM_TARGET}"
 fi
