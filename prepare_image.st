@@ -26,8 +26,7 @@ monitor := [ [
 [[[[
 
 Transcript show: 'Updating...'.
-config := MCMcmUpdater default doUpdate: false.
-config setSystemVersion.
+MCMcmUpdater default doUpdate: false.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
 Transcript showln: 'Checking for modified versions...'.
