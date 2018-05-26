@@ -56,6 +56,15 @@ rm -f "${CONTENTS_DIR}/Info.plist.bak"
 echo "...signing the bundle..."
 codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 
-compress "${BUNDLE_NAME}"
+echo "...compressing the bundle for macOS..."
+TMP_DMG="temp.dmg"
+hdiutil create -size 192m -volname "${BUNDLE_NAME}" -srcfolder "${APP_DIR}" \
+    -fs HFS+ -fsargs "-c c=64,a=16,e=16" -format UDRW -nospotlight "${TMP_DMG}"
+DEVICE="$(hdiutil attach -readwrite -noautoopen -nobrowse "${TMP_DMG}" | awk 'NR==1{print$1}')"
+VOLUME="$(mount | grep "${DEVICE}" | sed 's/^[^ ]* on //;s/ ([^)]*)$//')"
+hdiutil detach "${DEVICE}"
+hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${PRODUCT_DIR}/${BUNDLE_NAME}.dmg"
+rm -f "${TMP_DMG}"
+echo "...done."
 
 travis_fold end mac_bundle
