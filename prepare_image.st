@@ -16,15 +16,8 @@ MCConfiguration upgradeIsMerge: true. "See below"
 MCMcmUpdater defaultUpdateURL ifEmpty: [
 	Error signal: 'There is no update URL set in the image.'].
 
-repo := MCRepositoryGroup default repositories
-	detect: [:r | r description = MCMcmUpdater defaultUpdateURL]
-	ifNone: [Error signal: 'The update repository does not exist.'].
-
 (NetNameResolver addressForName: 'www.google.com' timeout: 1)
 	ifNil: [Error signal: 'There is no internet connection available.'].
-
-"Flush all caches. If a previous download failed this is often helpful"
-MCFileBasedRepository flushAllCaches.
 
 monitor := [ [
 	FileStream stdout nextPutAll: '.'.
@@ -33,7 +26,7 @@ monitor := [ [
 [[[[
 
 Transcript show: 'Updating...'.
-config := MCMcmUpdater default updateFromRepository: repo upTo: 999999.
+config := MCMcmUpdater default doUpdate: false.
 config setSystemVersion.
 Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 
