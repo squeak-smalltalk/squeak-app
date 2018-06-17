@@ -153,6 +153,7 @@ if is_deployment_branch; then
   travis_fold end macos_signing
 fi
 
+reset_buildir
 source "prepare_aio.sh"
 reset_buildir
 source "prepare_mac.sh"
