@@ -105,9 +105,11 @@ compress() {
   # tar czf "${PRODUCT_DIR}/${target}.tar.gz" "./"
   zip -q -r "${PRODUCT_DIR}/${target}.zip" "./"
   popd > /dev/null
-  # Reset $BUILD_DIR
-  rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
   echo "...done."
+}
+
+reset_buildir() {
+  rm -rf "${BUILD_DIR}" && mkdir "${BUILD_DIR}"
 }
 
 copy_resources() {
@@ -152,9 +154,13 @@ if is_deployment_branch; then
 fi
 
 source "prepare_aio.sh"
+reset_buildir
 source "prepare_mac.sh"
+reset_buildir
 source "prepare_lin.sh"
+reset_buildir
 source "prepare_win.sh"
+reset_buildir
 if is_32bit; then
   source "prepare_armv6.sh"
 fi
