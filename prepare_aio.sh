@@ -9,8 +9,8 @@
 ################################################################################
 
 travis_fold start aio_bundle "Creating All-in-one bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${IMAGE_NAME}-All-in-One"
-APP_NAME="${BUNDLE_NAME}.app"
+BUNDLE_NAME_AIO="${IMAGE_NAME}-All-in-One"
+APP_NAME="${BUNDLE_NAME_AIO}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
 RESOURCES_DIR="${CONTENTS_DIR}/Resources"
@@ -64,7 +64,7 @@ sed -i ".bak" "s/%IMAGE_BITS%/${IMAGE_BITS}/g" "${BUILD_DIR}/squeak.sh"
 rm -f "${BUILD_DIR}/squeak.sh.bak"
 # Info.plist
 sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_NAME}/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_NAME_AIO}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION}.${IMAGE_BITS}.All-in-One/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONTENTS_DIR}/Info.plist"
@@ -81,6 +81,6 @@ rm -f "${VM_WIN_TARGET}/"*.map
 echo "...signing the bundle..."
 codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 
-compress "${BUNDLE_NAME}"
+compress "${BUNDLE_NAME_AIO}"
 
 travis_fold end aio_bundle

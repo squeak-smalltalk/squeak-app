@@ -21,6 +21,7 @@ readonly RELEASE_URL="${FILES_BASE}/${TRAVIS_SMALLTALK_VERSION/Etoys/Squeak}"
 readonly IMAGE_URL="${RELEASE_URL}/base.zip"
 readonly VM_BASE="${RELEASE_URL}"
 readonly TARGET_URL="https://www.hpi.uni-potsdam.de/hirschfeld/artefacts/squeak/"
+readonly TARGET_BASE="/var/www/files.squeak.org"
 
 readonly TEMPLATE_DIR="${TRAVIS_BUILD_DIR}/templates"
 readonly AIO_TEMPLATE_DIR="${TEMPLATE_DIR}/all-in-one"
@@ -168,11 +169,10 @@ fi
 
 if is_deployment_branch; then
   travis_fold start upload_files "...uploading all files to files.squeak.org..."
-  TARGET_PATH="/var/www/files.squeak.org"
   if is_etoys; then
-    TARGET_PATH="${TARGET_PATH}/etoys/${SQUEAK_VERSION/Etoys/}"
+    TARGET_PATH="${TARGET_BASE}/etoys/${SQUEAK_VERSION/Etoys/}"
   else
-    TARGET_PATH="${TARGET_PATH}/${SQUEAK_VERSION/Squeak/}"
+    TARGET_PATH="${TARGET_BASE}/${SQUEAK_VERSION/Squeak/}"
   fi
   TARGET_PATH="${TARGET_PATH}/${IMAGE_NAME}"
   chmod 600 "${ENCRYPTED_DIR}/ssh_deploy_key"
@@ -180,6 +180,19 @@ if is_deployment_branch; then
   echo "${ENCRYPTED_HOST} ecdsa-sha2-nistp256 ${ENCRYPTED_PUBLIC_KEY}" | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
   rsync -rvz --ignore-existing -e "ssh -o ProxyCommand='ssh -l ${ENCRYPTED_PROXY_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key -p ${ENCRYPTED_PROXY_PORT} -W %h:%p ${ENCRYPTED_PROXY_HOST}' -l ${ENCRYPTED_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key" "${PRODUCT_DIR}/" "${ENCRYPTED_HOST}:${TARGET_PATH}/";
   travis_fold end upload_files
+
+  travis_fold start update_symlinks "...updating latest symlinks on server..."
+  LATEST_PREFIX="${TARGET_BASE}/nightly/Squeak-latest-${IMAGE_BITS}bit"
+  SYMS_CMD="ln -f -s ${TARGET_PATH}/${IMAGE_NAME}.zip ${LATEST_PREFIX}.zip"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${TARGET_PATH}/${BUNDLE_NAME_LIN}.zip ${LATEST_PREFIX}-Linux.zip"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${TARGET_PATH}/${BUNDLE_NAME_MAC}.dmg ${LATEST_PREFIX}-macOS.dmg"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${TARGET_PATH}/${BUNDLE_NAME_WIN}.zip ${LATEST_PREFIX}-Windows.zip"
+  if is_32bit; then
+    SYMS_CMD="${SYMS_CMD} && ln -f -s ${TARGET_PATH}/${BUNDLE_NAME_ARM}.zip ${LATEST_PREFIX}-ARMv6.zip"
+  fi
+  ssh -o ProxyCommand="ssh -l ${ENCRYPTED_PROXY_USER} -i ${ENCRYPTED_DIR}/ssh_deploy_key -p ${ENCRYPTED_PROXY_PORT} -W %h:%p ${ENCRYPTED_PROXY_HOST}" \
+    -l "${ENCRYPTED_USER}" -i "${ENCRYPTED_DIR}/ssh_deploy_key" "${ENCRYPTED_HOST}" -t "${SYMS_CMD}"
+  travis_fold end update_symlinks
 
   # Remove sensitive information
   rm -rf "${ENCRYPTED_DIR}"

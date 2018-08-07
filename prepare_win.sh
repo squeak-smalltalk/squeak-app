@@ -9,8 +9,8 @@
 ################################################################################
 
 travis_fold start win_bundle "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${IMAGE_NAME}-${VERSION_VM_WIN}-Windows"
-BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME}"
+BUNDLE_NAME_WIN="${IMAGE_NAME}-${VERSION_VM_WIN}-Windows"
+BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME_WIN}"
 
 echo "...creating directories..."
 mkdir "${BUNDLE_DIR}"
@@ -33,6 +33,6 @@ rm -f "${BUNDLE_DIR}/Squeak.ini.bak"
 # Remove .map files from $BUNDLE_DIR
 rm -f "${BUNDLE_DIR}/"*.map
 
-compress "${BUNDLE_NAME}"
+compress "${BUNDLE_NAME_WIN}"
 
 travis_fold end win_bundle

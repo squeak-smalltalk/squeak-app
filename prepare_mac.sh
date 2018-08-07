@@ -9,7 +9,7 @@
 ################################################################################
 
 travis_fold start mac_bundle "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
-BUNDLE_NAME="${IMAGE_NAME}-${VERSION_VM_MACOS}-macOS"
+BUNDLE_NAME_MAC="${IMAGE_NAME}-${VERSION_VM_MACOS}-macOS"
 APP_NAME="${IMAGE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
@@ -44,7 +44,7 @@ chmod +x "${VM_MAC_TARGET}/Squeak"
 echo "...patching Info.plist..."
 # Info.plist
 sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_NAME}/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_NAME_MAC}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION}.${IMAGE_BITS}.macOS/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONTENTS_DIR}/Info.plist"
@@ -58,12 +58,12 @@ codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 
 echo "...compressing the bundle for macOS..."
 TMP_DMG="temp.dmg"
-hdiutil create -size 192m -volname "${BUNDLE_NAME}" -srcfolder "${APP_DIR}" \
+hdiutil create -size 192m -volname "${BUNDLE_NAME_MAC}" -srcfolder "${APP_DIR}" \
     -fs HFS+ -fsargs "-c c=64,a=16,e=16" -format UDRW -nospotlight "${TMP_DMG}"
 DEVICE="$(hdiutil attach -readwrite -noautoopen -nobrowse "${TMP_DMG}" | awk 'NR==1{print$1}')"
 VOLUME="$(mount | grep "${DEVICE}" | sed 's/^[^ ]* on //;s/ ([^)]*)$//')"
 hdiutil detach "${DEVICE}"
-hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${PRODUCT_DIR}/${BUNDLE_NAME}.dmg"
+hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${PRODUCT_DIR}/${BUNDLE_NAME_MAC}.dmg"
 rm -f "${TMP_DMG}"
 echo "...done."
 
