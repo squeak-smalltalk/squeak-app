@@ -21,7 +21,6 @@ smalltalk:
 #     - smalltalk: Etoys64-trunk
 #     - smalltalk: Etoys-trunk
 
-before_script: sudo Xvfb :99 -ac -screen 0 1200x900x32 &
 script: ./prepare.sh
 
 notifications:
