@@ -21,7 +21,7 @@ smalltalk:
 #     - smalltalk: Etoys64-trunk
 #     - smalltalk: Etoys-trunk
 
-script: ./prepare.sh
+script: xvfb-run --server-args="-screen 0 1200x900x32" ./prepare.sh
 
 notifications:
   slack:
