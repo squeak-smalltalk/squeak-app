@@ -69,5 +69,6 @@ FileStream fileNamed: 'version.sh' do: [:strm |
 		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
 		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
 
+ReleaseBuilder setDisplayExtent: 1024@768.
 FileStream stdout nextPutAll: '[DONE]'; cr; flush.
 Smalltalk snapshot: true andQuit: true.
