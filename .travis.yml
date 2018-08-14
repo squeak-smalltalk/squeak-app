@@ -21,6 +21,9 @@ smalltalk:
 #     - smalltalk: Etoys64-trunk
 #     - smalltalk: Etoys-trunk
 
+# Increase display resolution (1176x885 max on Travis CI's macOS containers)
+before_script: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 1200 900
+
 script: ./prepare.sh
 
 notifications:
