@@ -15,7 +15,7 @@ if [[ -z "${TRAVIS_BUILD_DIR}" ]]; then
   exit 1
 fi
 
-readonly DEPLOYMENT_BRANCH="squeak-trunk"
+readonly DEPLOYMENT_BRANCH="squeak-5.2"
 readonly FILES_BASE="http://files.squeak.org/base"
 readonly RELEASE_URL="${FILES_BASE}/${TRAVIS_SMALLTALK_VERSION/Etoys/Squeak}"
 readonly IMAGE_URL="${RELEASE_URL}/base.zip"
