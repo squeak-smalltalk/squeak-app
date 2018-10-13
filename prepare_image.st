@@ -40,6 +40,9 @@ MCWorkingCopy checkModified: true.
 		conflict chooseRemote].
 	mrr resume: true].
 
+"Remove obsolete classes for #testNoObsoleteClasses"
+PreferenceViewRegistry removeObsolete.
+
 "Configure image state"
 Transcript showln: 'Condensing changes...'.
 Smalltalk condenseChanges.
