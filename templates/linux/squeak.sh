@@ -87,8 +87,8 @@ ensure_image() {
     if which zenity &>/dev/null && [[ "$image_count" -ne 1 ]]; then
       IMAGE=$(zenity --title 'Select an image' --file-selection --filename "${RESOURCES}/" --file-filter '*.image' --file-filter '*')
     else
-      # Try to find first .image file not starting with a dot
-      IMAGE="$(find "${RESOURCES}" \( -iname "*.image" ! -iname ".*" \) | head -n 1)"
+      # Try to find first .image file in RESOURCES directory not starting with a dot
+      IMAGE="$(find "${RESOURCES}" \( -iname "*.image" ! -iname ".*" \) -depth 1 | head -n 1)"
     fi
   fi
 }
