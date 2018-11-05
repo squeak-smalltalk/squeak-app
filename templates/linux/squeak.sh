@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # File:        squeak.sh (Linux version)
 # Author:      Fabio Niephaus
-# Version:     2.1
-# Date:        08/19/2016
+# Version:     2.2
+# Date:        2018/11/05
 # Description: Script to run Squeak from the Linux bundle
 
 # paths
