@@ -1,4 +1,4 @@
-| smalltalkVersion |
+| smalltalkVersion releaseBuilder |
 smalltalkVersion := (Smalltalk argumentAt: 1) ifNil: [''].
 
 FileStream startUp: true. "Reload stdio file handles"
@@ -44,8 +44,6 @@ MCWorkingCopy checkModified: true.
 PreferenceViewRegistry removeObsolete.
 
 "Configure image state"
-Transcript showln: 'Condensing changes...'.
-Smalltalk condenseChanges.
 
 monitor terminate.
 monitor := nil.
@@ -58,10 +56,10 @@ Project current instVarNamed: #uiManager put: MorphicUIManager new.
 Utilities setAuthorInitials: ''.
 
 FileStream stdout nextPutAll: 'Triggering ReleaseBuilder...'; cr; flush.
-((smalltalkVersion beginsWith: 'Etoys')
+releaseBuilder := ((smalltalkVersion beginsWith: 'Etoys')
     ifTrue: [Smalltalk classNamed: 'ReleaseBuilderSqueakland']
-    ifFalse: [ReleaseBuilder])
-        prepareEnvironment.
+    ifFalse: [ReleaseBuilder]).
+releaseBuilder prepareEnvironment.
 
 
 FileStream stdout nextPutAll: 'Exporting version information for deployment...'; cr; flush.
@@ -73,4 +71,4 @@ FileStream fileNamed: 'version.sh' do: [:strm |
 		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
 
 FileStream stdout nextPutAll: '[DONE]'; cr; flush.
-Smalltalk snapshot: true andQuit: true.
+releaseBuilder saveAndQuit.
