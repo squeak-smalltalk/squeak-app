@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # File:        squeak.sh (Linux version)
 # Author:      Fabio Niephaus
-# Version:     2.2
-# Date:        2018/11/05
+# Version:     2.3
+# Date:        2019/05/06
 # Description: Script to run Squeak from the Linux bundle
 
 # paths
-DIR=$(readlink -f $0) #resolve symlink
+DIR=$(readlink -f "$0") #resolve symlink
 ROOT=$(dirname "${DIR}") #obtain dir of the resolved path
 VM="${ROOT}/bin/squeak"
 RESOURCES="${ROOT}/shared"
