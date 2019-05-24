@@ -79,7 +79,8 @@ test_image() {
   travis_fold start test_image "...testing Squeak..."
   "${SMALLTALK_VM}" -headless "${TMP_DIR}/Test.image" \
       "${TRAVIS_BUILD_DIR}/test_image.st" "${TRAVIS_SMALLTALK_VERSION}" \
-      "${SMALLTALK_CI_HOME}" "${TRAVIS_BUILD_DIR}/smalltalk-ci/${ston_config}"
+      "${SMALLTALK_CI_HOME}" "${TRAVIS_BUILD_DIR}/smalltalk-ci/${ston_config}" \
+        || true # Ignore crashes/failures
   check_test_status
   travis_fold end test_image
 }
