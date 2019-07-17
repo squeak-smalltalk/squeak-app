@@ -1,4 +1,4 @@
-| smalltalkVersion releaseBuilder |
+| smalltalkVersion releaseBuilder monitor |
 smalltalkVersion := (Smalltalk argumentAt: 1) ifNil: [''].
 
 FileStream startUp: true. "Reload stdio file handles"
