@@ -32,6 +32,9 @@ Transcript show: 'finished.'; cr; showln: SystemVersion current printString.
 Transcript showln: 'Checking for modified versions...'.
 MCWorkingCopy checkModified: true.
 
+Transcript showln: 'Recompiling...'.
+Compiler recompileAll.
+
 ] on: ProgressNotification do: [:p | p resume]
 ] on: Warning do: [:warning | warning resume]
 ] on: MCNoChangesException do: [:ex | ex resume]
