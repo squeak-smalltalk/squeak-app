@@ -113,8 +113,11 @@ rename_and_move_image() {
 
 prepare_locales() {
   travis_fold start install_gettext "...installing gettext..."
-  brew update
-  brew install gettext
+
+  # gettext 0.19.8.1 is preinstalled, see .travis.yml
+  # brew update
+  # brew install gettext
+
   brew link --force gettext
   travis_fold end install_gettext
 
