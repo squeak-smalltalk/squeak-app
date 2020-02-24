@@ -113,6 +113,7 @@ rename_and_move_image() {
 
 prepare_locales() {
   travis_fold start install_gettext "...installing gettext..."
+  brew doctor
   brew untap homebrew/homebrew-versions
   brew update
   brew install gettext
