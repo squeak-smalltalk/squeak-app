@@ -113,6 +113,7 @@ rename_and_move_image() {
 
 prepare_locales() {
   travis_fold start install_gettext "...installing gettext..."
+  brew untap homebrew/homebrew-versions
   brew update
   brew install gettext
   brew link --force gettext
@@ -132,10 +133,10 @@ prepare_locales() {
 }
 
 print_info "...starting to build ${TRAVIS_SMALLTALK_VERSION}..."
-download_and_prepare_files
-prepare_image
+# download_and_prepare_files
+# prepare_image
 if ! is_etoys; then
-  test_image
+  # test_image
 fi
 
 # prepare locales for Squeak later than 5.0
