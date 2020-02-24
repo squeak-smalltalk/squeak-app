@@ -137,6 +137,7 @@ print_info "...starting to build ${TRAVIS_SMALLTALK_VERSION}..."
 # prepare_image
 if ! is_etoys; then
   # test_image
+  echo "skip"
 fi
 
 # prepare locales for Squeak later than 5.0
