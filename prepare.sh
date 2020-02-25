@@ -145,12 +145,17 @@ if is_deployment_branch; then
 
   travis_fold start macos_signing "...preparing signing..."
   KEY_CHAIN=macos-build.keychain
+  # Create the keychain with a password
   security create-keychain -p travis "${KEY_CHAIN}"
+  # Make the custom keychain default, so xcodebuild will use it for signing
   security default-keychain -s "${KEY_CHAIN}"
+  # Unlock the keychain
   security unlock-keychain -p travis "${KEY_CHAIN}"
-  security set-keychain-settings -t 3600 -u "${KEY_CHAIN}"
+  # Add certificates to keychain and allow codesign to access them
   security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
   security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+  # Make codesign work on macOS 10.12 or later (see https://git.io/JvE7X)
+  security set-key-partition-list -S apple-tool:,apple: -s -k travis "${KEY_CHAIN}"
   travis_fold end macos_signing
 fi
 
