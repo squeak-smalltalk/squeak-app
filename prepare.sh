@@ -106,7 +106,6 @@ compress() {
   # tar czf "${PRODUCT_DIR}/${target}.tar.gz" "./"
   zip -q -r "${PRODUCT_DIR}/${target}.zip" "./"
   popd > /dev/null
-  echo "...done."
 }
 
 reset_buildir() {

@@ -74,6 +74,9 @@ if is_deployment_branch; then
       -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
       -f "${BUNDLE_TARGET_MAC}"
   
+  sleep 120 # Wait for Apple to approve the package
+  
+  echo "...stapling the ticket to bundle..."
   xcrun stapler staple "${BUNDLE_TARGET_MAC}"
 fi
 

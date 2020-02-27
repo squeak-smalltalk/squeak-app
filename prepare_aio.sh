@@ -89,6 +89,9 @@ if is_deployment_branch; then
       -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
       -f "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip"
   
+  sleep 120 # Wait for Apple to approve the package
+  
+  echo "...stapling the ticket to bundle..."
   xcrun stapler staple "${APP_DIR}"
 
   # Create new ZIP with stapled bundle for distribution
