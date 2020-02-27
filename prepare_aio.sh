@@ -86,8 +86,7 @@ if is_deployment_branch; then
   notarize_app "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip" "${BUNDLE_ID_AIO}"
 
   echo "...stapling the ticket to AIO app..."
-  # Retry stapling if it fails the first time
-  xcrun stapler staple "${APP_DIR}" || xcrun stapler staple "${APP_DIR}"
+  xcrun stapler staple "${APP_DIR}"
 
   echo "...rebundling stapled AIO for distribution..."
   rm -f "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip"

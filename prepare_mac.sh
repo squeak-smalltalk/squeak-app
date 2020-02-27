@@ -63,17 +63,20 @@ hdiutil create -size 192m -volname "${BUNDLE_NAME_MAC}" -srcfolder "${APP_DIR}" 
 DEVICE="$(hdiutil attach -readwrite -noautoopen -nobrowse "${TMP_DMG}" | awk 'NR==1{print$1}')"
 VOLUME="$(mount | grep "${DEVICE}" | sed 's/^[^ ]* on //;s/ ([^)]*)$//')"
 hdiutil detach "${DEVICE}"
-hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_TARGET_MAC}"
-rm -f "${TMP_DMG}"
 
 if is_deployment_branch; then
-  notarize_app "${BUNDLE_TARGET_MAC}" "${BUNDLE_ID_MAC}"
+  notarize_app "${TMP_DMG}" "${BUNDLE_ID_MAC}"
 
-  echo "...stapling the ticket to dmg..."
-  # Retry stapling if it fails the first time
-  xcrun stapler staple "${BUNDLE_TARGET_MAC}" || \
-    xcrun stapler staple "${BUNDLE_TARGET_MAC}"
+  echo "...stapling the ticket to app in temporary dmg..."
+  DEVICE="$(hdiutil attach -readwrite -noautoopen -nobrowse "${TMP_DMG}" | awk 'NR==1{print$1}')"
+  VOLUME="$(mount | grep "${DEVICE}" | sed 's/^[^ ]* on //;s/ ([^)]*)$//')"
+  xcrun stapler staple "${VOLUME}/${APP_NAME}"
+  hdiutil detach "${DEVICE}"
 fi
+
+echo "...rebundling app for distribution..."
+hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_TARGET_MAC}"
+rm -f "${TMP_DMG}"
 
 echo "...done."
 
