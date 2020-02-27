@@ -167,7 +167,7 @@ notarize_app() {
     sleep 60
     xcrun altool --notarization-info "${uuid}" \
         -u "${NOTARIZATION_USER}" \
-        -p "${NOTARIZATION_PASSWORD}" 2>&1 > tee notarization-info.log
+        -p "${NOTARIZATION_PASSWORD}" 2>&1 > notarization-info.log
     status=$(cat notarization-info.log | sed -n 's/^[ ]*Status: //p')
   done
 
