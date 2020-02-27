@@ -151,7 +151,8 @@ codesign_bundle() {
   done
 
   # Sign the app bundle
-  codesign -s "${SIGN_IDENTITY}" --force --deep --verbose --entitlements "${MAC_TEMPLATE_DIR}/entitlements.plist" "${target}"
+  codesign -s "${SIGN_IDENTITY}" --force --deep --verbose --options=runtime \
+    --entitlements "${MAC_TEMPLATE_DIR}/entitlements.plist" "${target}"
 }
 
 download_and_extract_vms
