@@ -76,7 +76,7 @@ if is_deployment_branch; then
   sleep 120 # Wait for Apple to approve the package
 
   echo "...stapling the ticket to bundle..."
-  xcrun stapler staple "${BUNDLE_TARGET_MAC}"
+  xcrun stapler staple -v "${BUNDLE_TARGET_MAC}"
 fi
 
 echo "...done."
