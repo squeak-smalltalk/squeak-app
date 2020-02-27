@@ -134,15 +134,6 @@ codesign_bundle() {
 
   xattr -cr "${target}" # Remove all extended attributes from app bundle
 
-  # Sign any QuickLook libraries
-  if [[ -d "${target}/Contents/Library/QuickLook" ]]; then
-    for d in "${target}/Contents/Library/QuickLook/"*/; do
-      if [[ "${d}" == *".qlgenerator/" ]]; then
-        codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
-      fi
-    done
-  fi
-
   # Sign all plugin bundles
   for d in "${target}/Contents/Resources/"*/; do
     if [[ "${d}" == *".bundle/" ]]; then
