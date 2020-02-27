@@ -56,8 +56,7 @@ rm -f "${CONTENTS_DIR}/Info.plist.bak"
 
 # Signing the macOS application
 echo "...signing the bundle..."
-xattr -cr "${APP_DIR}" # Remove all extended attributes from app bundle
-codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
+codesign_bundle "${APP_DIR}"
 
 echo "...compressing the bundle for macOS..."
 TMP_DMG="temp.dmg"

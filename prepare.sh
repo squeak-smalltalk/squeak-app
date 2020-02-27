@@ -129,6 +129,31 @@ copy_resources() {
   fi
 }
 
+codesign_bundle() {
+  local target=$1
+
+  xattr -cr "${target}" # Remove all extended attributes from app bundle
+
+  # Sign any QuickLook libraries
+  if [[ -d "${target}/Contents/Library/QuickLook" ]]; then
+    for d in "${target}/Contents/Library/QuickLook/*/"; do
+      if [[ "${d}" == *".qlgenerator" ]]; then
+        codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
+      fi
+    done
+  fi
+
+  # Sign all plugin bundles
+  for d in "${target}/Contents/Resources/*/"; do
+    if [[ "${d}" == *".bundle" ]]; then
+      codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
+    fi
+  done
+
+  # Sign the app bundle
+  codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${target}"
+}
+
 download_and_extract_vms
 
 source "prepare_image.sh"

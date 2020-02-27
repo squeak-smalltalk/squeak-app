@@ -80,8 +80,7 @@ rm -f "${VM_WIN_TARGET}/"*.map
 
 # Signing the macOS application
 echo "...signing the bundle..."
-xattr -cr "${APP_DIR}" # Remove all extended attributes from app bundle
-codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
+codesign_bundle "${APP_DIR}"
 
 compress "${BUNDLE_NAME_AIO}"
 
