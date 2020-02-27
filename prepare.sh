@@ -136,7 +136,7 @@ codesign_bundle() {
 
   # Sign any QuickLook libraries
   if [[ -d "${target}/Contents/Library/QuickLook" ]]; then
-    for d in "${target}/Contents/Library/QuickLook/*/"; do
+    for d in "${target}/Contents/Library/QuickLook/"*/; do
       if [[ "${d}" == *".qlgenerator" ]]; then
         codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
       fi
@@ -144,14 +144,14 @@ codesign_bundle() {
   fi
 
   # Sign all plugin bundles
-  for d in "${target}/Contents/Resources/*/"; do
+  for d in "${target}/Contents/Resources/"*/; do
     if [[ "${d}" == *".bundle" ]]; then
       codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
     fi
   done
 
   # Sign the app bundle
-  codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${target}"
+  codesign -s "${SIGN_IDENTITY}" --force --deep --verbose --entitlements "${MAC_TEMPLATE_DIR}/entitlements.plist" "${target}"
 }
 
 download_and_extract_vms
