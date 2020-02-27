@@ -10,6 +10,7 @@
 
 travis_fold start aio_bundle "Creating All-in-one bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME_AIO="${IMAGE_NAME}-All-in-One"
+BUNDLE_ID_AIO="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-aio-${IMAGE_BITS}bit"
 APP_NAME="${BUNDLE_NAME_AIO}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
@@ -65,7 +66,7 @@ rm -f "${BUILD_DIR}/squeak.sh.bak"
 # Info.plist
 sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_NAME_AIO}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION}.${IMAGE_BITS}.All-in-One/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleIdentifier%/${BUNDLE_ID_AIO}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleVersion%/${IMAGE_BITS} bit/g" "${CONTENTS_DIR}/Info.plist"
@@ -83,5 +84,20 @@ xattr -cr "${APP_DIR}" # Remove all extended attributes from app bundle
 codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${APP_DIR}"
 
 compress "${BUNDLE_NAME_AIO}"
+
+if is_deployment_branch; then
+  echo "...notarizing the bundle..."
+  xcrun altool --notarize-app --primary-bundle-id "${BUNDLE_ID_AIO}" \
+      -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
+      -f "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip"
+  
+  xcrun stapler staple "${APP_DIR}"
+
+  # Create new ZIP with stapled bundle for distribution
+  rm -f "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip"
+  compress "${BUNDLE_NAME_AIO}"
+fi
+
+echo "...done."
 
 travis_fold end aio_bundle

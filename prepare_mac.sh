@@ -10,6 +10,8 @@
 
 travis_fold start mac_bundle "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
 BUNDLE_NAME_MAC="${IMAGE_NAME}-${VERSION_VM_MACOS}-macOS"
+BUNDLE_ID_MAC="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-${IMAGE_BITS}bit"
+BUNDLE_TARGET_MAC="${PRODUCT_DIR}/${BUNDLE_NAME_MAC}.dmg"
 APP_NAME="${IMAGE_NAME}.app"
 APP_DIR="${BUILD_DIR}/${APP_NAME}"
 CONTENTS_DIR="${APP_DIR}/Contents"
@@ -45,7 +47,7 @@ echo "...patching Info.plist..."
 # Info.plist
 sed -i ".bak" "s/%SmalltalkName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleGetInfoString%/${BUNDLE_NAME_MAC}/g" "${CONTENTS_DIR}/Info.plist"
-sed -i ".bak" "s/%CFBundleIdentifier%/org.squeak.${SQUEAK_VERSION}.${IMAGE_BITS}.macOS/g" "${CONTENTS_DIR}/Info.plist"
+sed -i ".bak" "s/%CFBundleIdentifier%/${BUNDLE_ID_MAC}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleName%/${SMALLTALK_NAME}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONTENTS_DIR}/Info.plist"
 sed -i ".bak" "s/%CFBundleVersion%/${IMAGE_BITS} bit/g" "${CONTENTS_DIR}/Info.plist"
@@ -64,8 +66,18 @@ hdiutil create -size 192m -volname "${BUNDLE_NAME_MAC}" -srcfolder "${APP_DIR}" 
 DEVICE="$(hdiutil attach -readwrite -noautoopen -nobrowse "${TMP_DMG}" | awk 'NR==1{print$1}')"
 VOLUME="$(mount | grep "${DEVICE}" | sed 's/^[^ ]* on //;s/ ([^)]*)$//')"
 hdiutil detach "${DEVICE}"
-hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${PRODUCT_DIR}/${BUNDLE_NAME_MAC}.dmg"
+hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_TARGET_MAC}"
 rm -f "${TMP_DMG}"
+
+if is_deployment_branch; then
+  echo "...notarizing the bundle..."
+  xcrun altool --notarize-app --primary-bundle-id "${BUNDLE_ID_MAC}" \
+      -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
+      -f "${BUNDLE_TARGET_MAC}"
+  
+  xcrun stapler staple "${BUNDLE_TARGET_MAC}"
+fi
+
 echo "...done."
 
 travis_fold end mac_bundle
