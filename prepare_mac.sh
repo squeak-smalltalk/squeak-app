@@ -30,7 +30,6 @@ fi
 copy_resources "${RESOURCES_DIR}"
 
 echo "...merging template..."
-cp -R "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Library" "${CONTENTS_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 ENGLISH_DIR="${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj"
@@ -75,7 +74,7 @@ if is_deployment_branch; then
       -f "${BUNDLE_TARGET_MAC}"
   
   sleep 120 # Wait for Apple to approve the package
-  
+
   echo "...stapling the ticket to bundle..."
   xcrun stapler staple "${BUNDLE_TARGET_MAC}"
 fi
