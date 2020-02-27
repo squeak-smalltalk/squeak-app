@@ -54,7 +54,6 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 
 # Signing the macOS application
-echo "...signing the bundle..."
 codesign_bundle "${APP_DIR}"
 
 echo "...compressing the bundle for macOS..."
@@ -68,15 +67,12 @@ hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_T
 rm -f "${TMP_DMG}"
 
 if is_deployment_branch; then
-  echo "...notarizing the bundle..."
-  xcrun altool --notarize-app --primary-bundle-id "${BUNDLE_ID_MAC}" \
-      -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
-      -f "${BUNDLE_TARGET_MAC}"
-  
-  sleep 120 # Wait for Apple to approve the package
+  notarize_app "${BUNDLE_TARGET_MAC}" "${BUNDLE_ID_MAC}"
 
-  echo "...stapling the ticket to bundle..."
-  xcrun stapler staple -v "${BUNDLE_TARGET_MAC}"
+  echo "...stapling the ticket to dmg..."
+  # Retry stapling if it fails the first time
+  xcrun stapler staple "${BUNDLE_TARGET_MAC}" || \
+    xcrun stapler staple "${BUNDLE_TARGET_MAC}"
 fi
 
 echo "...done."

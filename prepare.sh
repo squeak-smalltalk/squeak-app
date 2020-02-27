@@ -131,6 +131,8 @@ copy_resources() {
 codesign_bundle() {
   local target=$1
 
+  echo "...signing the bundle..."
+
   xattr -cr "${target}" # Remove all extended attributes from app bundle
 
   # Sign all plugin bundles
@@ -143,6 +145,44 @@ codesign_bundle() {
   # Sign the app bundle
   codesign -s "${SIGN_IDENTITY}" --force --deep --verbose --options=runtime \
     --entitlements "${MAC_TEMPLATE_DIR}/entitlements.plist" "${target}"
+}
+
+notarize_app() {
+  local file=$1
+  local bundle_id=$2
+
+  echo "...notarizing the bundle..."
+
+  xcrun altool --notarize-app --primary-bundle-id "${bundle_id}" \
+      -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
+      -f "${file}" 2>&1 | tee notarize-app.log
+
+  # Get UUID of notarization request
+  uuid=$(cat notarize-app.log | sed -n 's/^[ ]*RequestUUID = //p')
+
+  # Query status until no longer in progress
+  status="in progress"
+  while [[ "${status}" = "in progress" ]]; do
+    echo "...waiting for Apple to approve package..."
+    sleep 60
+    xcrun altool --notarization-info "${uuid}" \
+        -u "${NOTARIZATION_USER}" \
+        -p "${NOTARIZATION_PASSWORD}" 2>&1 | tee notarization-info.log
+    status=$(cat notarization-info.log | sed -n 's/^[ ]*Status: //p')
+  done
+
+  if [[ "${status}" != "success" ]]; then
+    echo "Notarization failed!"
+    exit 1
+  fi
+
+  logfile=$(cat notarization-info.log | sed -n 's/^[ ]*LogFileURL: //p')
+  issues=$(curl -sL "${logfile}" | sed -n 's/^[ ]*\"issues\": //p')
+
+  if [[ "$issues" != "null" ]]; then
+    echo "Notarization found issues!"
+    exit 1
+  fi
 }
 
 download_and_extract_vms

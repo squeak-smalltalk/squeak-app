@@ -78,23 +78,18 @@ rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 rm -f "${VM_WIN_TARGET}/"*.map
 
 # Signing the macOS application
-echo "...signing the bundle..."
 codesign_bundle "${APP_DIR}"
 
 compress "${BUNDLE_NAME_AIO}"
 
 if is_deployment_branch; then
-  echo "...notarizing the bundle..."
-  xcrun altool --notarize-app --primary-bundle-id "${BUNDLE_ID_AIO}" \
-      -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
-      -f "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip"
-  
-  sleep 120 # Wait for Apple to approve the package
-  
-  echo "...stapling the ticket to bundle..."
-  xcrun stapler staple "${APP_DIR}"
+  notarize_app "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip" "${BUNDLE_ID_AIO}"
 
-  # Create new ZIP with stapled bundle for distribution
+  echo "...stapling the ticket to AIO app..."
+  # Retry stapling if it fails the first time
+  xcrun stapler staple "${APP_DIR}" || xcrun stapler staple "${APP_DIR}"
+
+  echo "...rebundling stapled AIO for distribution..."
   rm -f "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip"
   compress "${BUNDLE_NAME_AIO}"
 fi
