@@ -137,7 +137,7 @@ codesign_bundle() {
   # Sign any QuickLook libraries
   if [[ -d "${target}/Contents/Library/QuickLook" ]]; then
     for d in "${target}/Contents/Library/QuickLook/"*/; do
-      if [[ "${d}" == *".qlgenerator" ]]; then
+      if [[ "${d}" == *".qlgenerator/" ]]; then
         codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
       fi
     done
@@ -145,7 +145,7 @@ codesign_bundle() {
 
   # Sign all plugin bundles
   for d in "${target}/Contents/Resources/"*/; do
-    if [[ "${d}" == *".bundle" ]]; then
+    if [[ "${d}" == *".bundle/" ]]; then
       codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
     fi
   done
