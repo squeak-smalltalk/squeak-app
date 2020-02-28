@@ -155,7 +155,7 @@ notarize_app() {
 
   xcrun altool --notarize-app --primary-bundle-id "${bundle_id}" \
       -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
-      -f "${file}" 2>&1 | tee notarize-app.log
+      -f "${file}" &> notarize-app.log
 
   # Get UUID of notarization request
   uuid=$(cat notarize-app.log | sed -n 's/^[ ]*RequestUUID = //p')
