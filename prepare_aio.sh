@@ -42,8 +42,6 @@ cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 ENGLISH_DIR="${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj"
 if ! is_Squeak_50; then
-  rm -rf "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
-  cp -R "${ENGLISH_DIR}/MainMenu.nib" "${RESOURCES_DIR}/English.lproj/MainMenu.nib"
   cp "${ENGLISH_DIR}/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
 fi
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
