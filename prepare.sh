@@ -31,6 +31,7 @@ readonly WIN_TEMPLATE_DIR="${TEMPLATE_DIR}/win"
 
 readonly BUILD_DIR="${TRAVIS_BUILD_DIR}/build"
 readonly PRODUCT_DIR="${TRAVIS_BUILD_DIR}/product"
+readonly SCI_DIR="${TRAVIS_BUILD_DIR}/smalltalk-ci"
 readonly TMP_DIR="${TRAVIS_BUILD_DIR}/tmp"
 readonly ENCRYPTED_DIR="${TRAVIS_BUILD_DIR}/encrypted"
 
