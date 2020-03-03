@@ -6,25 +6,9 @@ SmalltalkCISpec {
     #exclude : {
       #classes : [
         #AllocationTest,
-        #BrowserTest,
-        #BitmapStreamTests,
-        #ClosureCompilerTest,
-        #DecompilerTests,
-        #ExceptionTests,
-        #FileList2ModalDialogsTest,
-        #FontTest,
-        #IntegerArrayTest,
-        #IslandVMTweaksTestCase,
+        #DebuggerTests,
         #LangEnvBugs,
-        #LocaleTest,
-        #MVCToolBuilderTests,
-        #PackageDependencyTest,
-        #SocketTest,
-        #SqueakSSLTest,
-        #StandardSystemFontsTest,
-        #TestValueWithinFix,
-        #UnimplementedCallBugz,
-        #WebClientServerTest
+        #SqueakSSLTest
       ]
     }
   }
