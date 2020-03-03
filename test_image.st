@@ -27,4 +27,5 @@ FileStream stdout closed ifTrue: [ FileStream startUp: true ].
 (Smalltalk at: #SmalltalkCI) test: stonConfig named: 'Squeak SUnit Tests'.
 
 "Currently not reached, because SmalltalkCI>>test: closes image already"
+FileStream stdout nextPutAll: 'Closing image after testing...'; cr; flush.
 Smalltalk snapshot: false andQuit: true.

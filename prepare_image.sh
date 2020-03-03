@@ -76,7 +76,7 @@ test_image() {
   cp "${TMP_DIR}/Squeak.image" "${TMP_DIR}/Test.image"
   cp "${TMP_DIR}/Squeak.changes" "${TMP_DIR}/Test.changes"
 
-  travis_fold start test_image "...testing Squeak..."
+  travis_fold start test_image "...testing Squeak with ${ston_config}..."
   "${SMALLTALK_VM}" -headless "${TMP_DIR}/Test.image" \
       "${TRAVIS_BUILD_DIR}/test_image.st" "${TRAVIS_SMALLTALK_VERSION}" \
       "${SMALLTALK_CI_HOME}" "${TRAVIS_BUILD_DIR}/smalltalk-ci/${ston_config}" \
