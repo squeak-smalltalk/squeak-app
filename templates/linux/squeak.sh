@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # File:        squeak.sh (Linux version)
 # Author:      Fabio Niephaus
-# Version:     2.3
-# Date:        2019/05/06
+# Version:     2.4
+# Date:        2020/03/31
 # Description: Script to run Squeak from the Linux bundle
 
 # paths
@@ -36,8 +36,8 @@ ensure_kernel() {
   local min_patch="12"
 
   if [[ "${major}" -lt "${min_major}" ]] || \
-     [[ "${major}" -le "${min_major}" && "${major}" -lt "${min_minor}" ]] || \
-     [[ "${major}" -le "${min_major}" && "${major}" -le "${min_minor}" && "${patch}" -lt "${min_patch}" ]]; then
+     [[ "${major}" -le "${min_major}" && "${minor}" -lt "${min_minor}" ]] || \
+     [[ "${major}" -le "${min_major}" && "${minor}" -le "${min_minor}" && "${patch}" -lt "${min_patch}" ]]; then
     showerror "Linux kernel ($(uname -r)) needs to be newer than ${min_major}.${min_minor}.${min_patch}."
     exit 1
   fi
