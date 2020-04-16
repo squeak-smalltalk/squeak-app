@@ -33,6 +33,8 @@ before_script: /Library/Application\ Support/VMware\ Tools/vmware-resolutionSet 
 script: ./prepare.sh
 
 notifications:
+  email:
+    - squeak-dev@lists.squeakfoundation.org
   slack:
     rooms:
       - squeak:ID1VVfPsB1X17YiDK9F1VUcS#trunk
