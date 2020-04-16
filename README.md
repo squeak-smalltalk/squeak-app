@@ -1,6 +1,6 @@
 # The Squeak/Smalltalk Programming System
 
-[![Build Status](https://secure.travis-ci.org/squeak-smalltalk/squeak-app.png?branch=squeak-trunk)](http://travis-ci.org/squeak-smalltalk/squeak-app)
+[![Build Status](https://secure.travis-ci.org/squeak-smalltalk/squeak-app.png?branch=squeak-5.3)](http://travis-ci.org/squeak-smalltalk/squeak-app/branches)
 
 This is the code repository for Squeak's build system.
 
