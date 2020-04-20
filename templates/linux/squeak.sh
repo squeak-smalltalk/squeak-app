@@ -4,14 +4,54 @@
 # Version:     2.4
 # Date:        2020/03/31
 # Description: Script to run Squeak from the Linux bundle
+# usage:
+#    squeak [<vmoptions>] *.image [ <stscript> [ <st args> ... ]]
+
+APP_NAME=Squeak
 
 # paths
 DIR=$(readlink -f "$0") #resolve symlink
 ROOT=$(dirname "${DIR}") #obtain dir of the resolved path
-VM="${ROOT}/bin/squeak"
-RESOURCES="${ROOT}/shared"
-CONF_FILE="/etc/security/limits.d/squeak.conf"
-IMAGE=$*
+CONF_FILE="/etc/security/limits.d/${APP}.conf"
+OS=$(uname -s)
+CPU=$(uname -m)
+case "${CPU}" in
+    "x86_64") CPU="i686" ;;
+    "armv6l"|"armv7l") CPU="ARM" ;;
+esac
+
+if [ -d ${ROOT}/bin ]; then
+    BINDIR="${ROOT}/bin"
+    RESOURCES="${ROOT}/shared"
+else
+    # all-in-one bundle
+    appdir=$(echo ${APP_NAME}*.app/)
+    BINDIR="${appdir}/Contents/${OS}-${CPU}/"
+    RESOURCES="${appdir}/Contents/Resources/"
+fi
+
+APP=$(echo $APP_NAME | tr [:upper:] [:lower:])
+VM=${BINDIR}/${APP}
+VMOPTIONS="-encoding UTF-8"
+STSCRIPT=""
+STARGS=""
+
+# separate vm and script arguments
+while [ -n "$1" ] ; do
+    case "$1" in
+         *.image) IMAGE="$1"; break;;
+	 --) break;;
+         *) VMOPTIONS="$VMOPTIONS $1";;
+    esac
+    shift
+done
+while [ -n "$1" ]; do
+    case "$1" in
+         *.image) IMAGE="$1";;
+	 *) STARGS="$STARGS $1" ;;
+    esac
+    shift
+done
 
 showerror() {
   if [[ -n "${DISPLAY}" ]] && [[ -x "$(which kdialog 2>/dev/null)" ]]; then
@@ -93,9 +133,24 @@ ensure_image() {
   fi
 }
 
+detect_sound() {
+    if pulseaudio --check 2>/dev/null ; then
+        if "$VM" --help 2>/dev/null | grep -q vm-sound-pulse ; then
+	    VMOPTIONS="$VMOPTIONS -vm-sound-pulse"
+        else
+            VMOPTIONS="$VMOPTIONS -vm-sound-oss"
+            if padsp true 2>/dev/null; then
+                SOUNDSERVER=padsp
+            fi
+        fi
+    fi
+}
+
 ensure_kernel
+ensure_cpu
 ensure_vm
 ensure_image
+detect_sound
 
-echo "Using ${VM}..."
-exec "${VM}" "${IMAGE}"
+set -x
+exec $SOUNDSERVER "${VM}" $VMOPTIONS "${IMAGE}" $STSCRIPT $STARGS
