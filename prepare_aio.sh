@@ -80,7 +80,7 @@ codesign_bundle "${APP_DIR}"
 
 compress "${BUNDLE_NAME_AIO}"
 
-if is_deployment_branch; then
+if is_deployment_branch && ! is_trunk; then
   notarize_app "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip" "${BUNDLE_ID_AIO}"
 
   echo "...stapling the ticket to AIO app..."

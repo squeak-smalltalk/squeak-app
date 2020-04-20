@@ -54,7 +54,7 @@ rm -f "${CONTENTS_DIR}/Info.plist.bak"
 # Signing the macOS application
 codesign_bundle "${APP_DIR}"
 
-if is_deployment_branch; then
+if is_deployment_branch && ! is_trunk; then
   # Zip the bundle for notarization
   compress "${BUNDLE_NAME_MAC}"
   notarize_app "${PRODUCT_DIR}/${BUNDLE_NAME_MAC}.zip" "${BUNDLE_ID_MAC}"
