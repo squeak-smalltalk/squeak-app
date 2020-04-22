@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
-# File:        squeak.sh (Linux version)
-# Author:      Fabio Niephaus
-# Version:     2.4
-# Date:        2020/03/31
-# Description: Script to run Squeak from the Linux bundle
+# File:        squeak.sh
+# Author:      Fabio Niephaus, K K Subramaniam
+# Version:     2.5
+# Date:        2020/04/22
+# Description: Script to launch Squeak executable from a bundle
 # usage:
-#    squeak [<vmoptions>] *.image [ <stscript> [ <st args> ... ]]
+#    squeak [<vmargs>] [ *.image [ <stargs> ... ]]
 
-APP_NAME=Squeak
+# extract top directory and app name from command
+ROOT=$(cd -P $(dirname "$0"); pwd)
+APP=$(basename "$0" .sh)
+readonly APP_NAME=${APP^}  # first letter uppercase
 
-# paths
-DIR=$(readlink -f "$0") #resolve symlink
-ROOT=$(dirname "${DIR}") #obtain dir of the resolved path
 CONF_FILE="/etc/security/limits.d/${APP}.conf"
 OS=$(uname -s)
 CPU=$(uname -m)
@@ -20,7 +20,7 @@ case "${CPU}" in
     "armv6l"|"armv7l") CPU="ARM" ;;
 esac
 
-if [ -d ${ROOT}/bin ]; then
+if [[ -d ${ROOT}/bin ]]; then
     BINDIR="${ROOT}/bin"
     RESOURCES="${ROOT}/shared"
 else
@@ -30,25 +30,23 @@ else
     RESOURCES="${appdir}/Contents/Resources/"
 fi
 
-APP=$(echo $APP_NAME | tr [:upper:] [:lower:])
-VM=${BINDIR}/${APP}
+VM="${BINDIR}/${APP}"
 VMOPTIONS="-encoding UTF-8"
-STSCRIPT=""
-STARGS=""
+STARGS=
 
 # separate vm and script arguments
-while [ -n "$1" ] ; do
+while [[ -n "$1" ]] ; do
     case "$1" in
          *.image) IMAGE="$1"; break;;
 	 --) break;;
-         *) VMOPTIONS="$VMOPTIONS $1";;
+         *) VMARGS="${VMARGS} $1";;
     esac
     shift
 done
-while [ -n "$1" ]; do
+while [[ -n "$1" ]]; do
     case "$1" in
          *.image) IMAGE="$1";;
-	 *) STARGS="$STARGS $1" ;;
+	 *) STARGS="${STARGS} $1" ;;
     esac
     shift
 done
@@ -135,10 +133,10 @@ ensure_image() {
 
 detect_sound() {
     if pulseaudio --check 2>/dev/null ; then
-        if "$VM" --help 2>/dev/null | grep -q vm-sound-pulse ; then
-	    VMOPTIONS="$VMOPTIONS -vm-sound-pulse"
+        if "${VM}" --help 2>/dev/null | grep -q vm-sound-pulse ; then
+	    VMOPTIONS="${VMOPTIONS} -vm-sound-pulse"
         else
-            VMOPTIONS="$VMOPTIONS -vm-sound-oss"
+            VMOPTIONS="${VMOPTIONS} -vm-sound-oss"
             if padsp true 2>/dev/null; then
                 SOUNDSERVER=padsp
             fi
@@ -147,10 +145,9 @@ detect_sound() {
 }
 
 ensure_kernel
-ensure_cpu
 ensure_vm
 ensure_image
 detect_sound
 
-set -x
-exec $SOUNDSERVER "${VM}" $VMOPTIONS "${IMAGE}" $STSCRIPT $STARGS
+set -x # print actual command executed with all options
+exec ${SOUNDSERVER} "${VM}" ${VMOPTIONS} ${VMARGS} "${IMAGE}" ${STARGS}
