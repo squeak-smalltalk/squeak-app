@@ -62,7 +62,7 @@ showerror() {
 }
 
 # Ensure that Linux kernel is newer than 2.6.12 which is required for the heartbeat thread
-ensure_kernel() {
+ensure_linux_kernel() {
   local kernel_release="$(uname -r)"
   local re="[^0-9]*\([0-9]*\)[.]\([0-9]*\)[.]\([0-9]*\)\(.*\)"
   local major=$(echo "${kernel_release}" | sed -e "s#${re}#\1#")
@@ -144,10 +144,10 @@ detect_sound() {
     fi
 }
 
-ensure_kernel
+[[ "${OS}" == Linux ]] && ensure_linux_kernel
 ensure_vm
 ensure_image
 detect_sound
 
-set -x # print actual command executed with all options
+echo "Using ${VM} ..."
 exec ${SOUNDSERVER} "${VM}" ${VMOPTIONS} ${VMARGS} "${IMAGE}" ${STARGS}
