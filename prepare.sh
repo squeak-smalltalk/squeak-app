@@ -187,10 +187,10 @@ if is_deployment_branch; then
   # Unlock the keychain
   security unlock-keychain -p travis "${KEY_CHAIN}"
   # Add certificates to keychain and allow codesign to access them
-  security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign
-  security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
+  security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign > /dev/null
+  security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign > /dev/null
   # Make codesign work on macOS 10.12 or later (see https://git.io/JvE7X)
-  security set-key-partition-list -S apple-tool:,apple: -s -k travis "${KEY_CHAIN}"
+  security set-key-partition-list -S apple-tool:,apple: -s -k travis "${KEY_CHAIN}" > /dev/null
   # Store notarization password in keychain for xcnotary
   xcrun altool --store-password-in-keychain-item "ALTOOL_PASSWORD" -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}"
   travis_fold end macos_signing
