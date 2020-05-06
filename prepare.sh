@@ -153,12 +153,13 @@ notarize() {
 
   if ! command -v xcnotary >/dev/null 2>&1; then
     echo "...installing xcnotary helper..."
-    HOMEBREW_NO_AUTO_UPDATE=1 HOMEBREW_NO_INSTALL_CLEANUP=1 \
-      brew install --force-bottle akeru-inc/tap/xcnotary
+    curl -sL https://github.com/akeru-inc/xcnotary/releases/download/v0.4.0/xcnotary-0.4.0.catalina.bottle.tar.gz | \
+      tar -zxvf - --strip-components=3 xcnotary/0.4.0/bin/xcnotary
+    chmod +x xcnotary
   fi
 
   echo "...notarizing the bundle..."
-  xcnotary notarize "${path}"
+  ./xcnotary notarize "${path}" \
     --developer-account "${NOTARIZATION_USER}" \
     --developer-password-keychain-item "ALTOOL_PASSWORD"
 }
