@@ -15,7 +15,7 @@ VM_DIR="${BUNDLE_DIR}/bin"
 SHARED_DIR="${BUNDLE_DIR}/shared"
 
 echo "...creating directories..."
-mkdir "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
+mkdir -p "${BUNDLE_DIR}" "${VM_DIR}" "${SHARED_DIR}"
 
 echo "...copying Linux VM..."
 cp -R "${TMP_DIR}/${VM_LIN}/lib/squeak/"*/ "${VM_DIR}"

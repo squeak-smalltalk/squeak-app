@@ -58,7 +58,7 @@ else
 fi
 
 # Create build, product, and temp folders
-mkdir "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
+mkdir -p "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
 
 download_and_extract_vms() {
   travis_fold start download_extract "...downloading and extracting all VMs..."

@@ -13,7 +13,7 @@ BUNDLE_NAME_WIN="${IMAGE_NAME}-${VERSION_VM_WIN}-Windows"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME_WIN}"
 
 echo "...creating directories..."
-mkdir "${BUNDLE_DIR}"
+mkdir -p "${BUNDLE_DIR}"
 
 echo "...copying Windows VM..."
 cp -R "${TMP_DIR}/${VM_WIN}/" "${BUNDLE_DIR}"
