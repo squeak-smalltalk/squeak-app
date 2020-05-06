@@ -2,8 +2,8 @@ language: smalltalk
 
 os: osx
 
-# use macOS 10.13 (comes with gettext 0.19.8.1, see https://blog.travis-ci.com/2018-09-13-xcode-10-is-now-available)
-osx_image: xcode10.1
+# xcnotary requires Xcode 11 or later
+osx_image: xcode11.4
 
 smalltalk:
   - Squeak-trunk
