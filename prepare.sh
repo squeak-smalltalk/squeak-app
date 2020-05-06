@@ -148,42 +148,19 @@ codesign_bundle() {
     --entitlements "${MAC_TEMPLATE_DIR}/entitlements.plist" "${target}"
 }
 
-notarize_app() {
-  local file=$1
-  local bundle_id=$2
+notarize() {
+  local path=$1
+
+  if ! command -v xcnotary >/dev/null 2>&1; then
+    echo "...installing xcnotary helper..."
+    brew update
+    brew install akeru-inc/tap/xcnotary
+  fi
 
   echo "...notarizing the bundle..."
-
-  xcrun altool --notarize-app --primary-bundle-id "${bundle_id}" \
-      -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}" \
-      -f "${file}" &> notarize-app.log
-
-  # Get UUID of notarization request
-  uuid=$(cat notarize-app.log | sed -n 's/^[ ]*RequestUUID = //p')
-
-  # Query status until no longer in progress
-  status="in progress"
-  while [[ "${status}" = "in progress" ]]; do
-    echo "...waiting for Apple to approve package..."
-    sleep 60
-    xcrun altool --notarization-info "${uuid}" \
-        -u "${NOTARIZATION_USER}" \
-        -p "${NOTARIZATION_PASSWORD}" &> notarization-info.log
-    status=$(cat notarization-info.log | sed -n 's/^[ ]*Status: //p')
-  done
-
-  if [[ "${status}" != "success" ]]; then
-    echo "Notarization failed!"
-    exit 1
-  fi
-
-  logfile=$(cat notarization-info.log | sed -n 's/^[ ]*LogFileURL: //p')
-  issues=$(curl -sL "${logfile}" | sed -n 's/^[ ]*\"issues\": //p')
-
-  if [[ "$issues" != "null" ]]; then
-    echo "Notarization found issues!"
-    exit 1
-  fi
+  xcnotary notarize "${path}"
+    --developer-account "${NOTARIZATION_USER}" \
+    --developer-password-keychain-item "ALTOOL_PASSWORD"
 }
 
 download_and_extract_vms
@@ -213,6 +190,8 @@ if is_deployment_branch; then
   security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign
   # Make codesign work on macOS 10.12 or later (see https://git.io/JvE7X)
   security set-key-partition-list -S apple-tool:,apple: -s -k travis "${KEY_CHAIN}"
+  # Store notarization password in keychain for xcnotary
+  xcrun altool --store-password-in-keychain-item "ALTOOL_PASSWORD" -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}"
   travis_fold end macos_signing
 fi
 

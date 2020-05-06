@@ -78,18 +78,11 @@ rm -f "${VM_WIN_TARGET}/"*.map
 # Signing the macOS application
 codesign_bundle "${APP_DIR}"
 
-compress "${BUNDLE_NAME_AIO}"
-
-if is_deployment_branch && ! is_trunk; then
-  notarize_app "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip" "${BUNDLE_ID_AIO}"
-
-  echo "...stapling the ticket to AIO app..."
-  xcrun stapler staple "${APP_DIR}"
-
-  echo "...rebundling stapled AIO for distribution..."
-  rm -f "${PRODUCT_DIR}/${BUNDLE_NAME_AIO}.zip"
-  compress "${BUNDLE_NAME_AIO}"
+if is_deployment_branch; then
+  notarize "${APP_DIR}"
 fi
+
+compress "${BUNDLE_NAME_AIO}"
 
 echo "...done."
 

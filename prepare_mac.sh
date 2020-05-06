@@ -54,17 +54,6 @@ rm -f "${CONTENTS_DIR}/Info.plist.bak"
 # Signing the macOS application
 codesign_bundle "${APP_DIR}"
 
-if is_deployment_branch && ! is_trunk; then
-  # Zip the bundle for notarization
-  compress "${BUNDLE_NAME_MAC}"
-  notarize_app "${PRODUCT_DIR}/${BUNDLE_NAME_MAC}.zip" "${BUNDLE_ID_MAC}"
-
-  echo "...stapling the ticket to macOS app..."
-  xcrun stapler staple "${APP_DIR}"
-
-  rm -f "${PRODUCT_DIR}/${BUNDLE_NAME_MAC}.zip"
-fi
-
 echo "...compressing the bundle for macOS..."
 TMP_DMG="temp.dmg"
 hdiutil create -size 192m -volname "${BUNDLE_NAME_MAC}" -srcfolder "${APP_DIR}" \
@@ -74,6 +63,10 @@ VOLUME="$(mount | grep "${DEVICE}" | sed 's/^[^ ]* on //;s/ ([^)]*)$//')"
 hdiutil detach "${DEVICE}"
 hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_TARGET_MAC}"
 rm -f "${TMP_DMG}"
+
+if is_deployment_branch; then
+  notarize "${BUNDLE_TARGET_MAC}"
+fi
 
 echo "...done."
 
