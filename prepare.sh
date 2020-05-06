@@ -153,7 +153,8 @@ notarize() {
 
   if ! command -v xcnotary >/dev/null 2>&1; then
     echo "...installing xcnotary helper..."
-    brew install akeru-inc/tap/xcnotary
+    HOMEBREW_NO_AUTO_UPDATE=1 HOMEBREW_NO_INSTALL_CLEANUP=1 \
+      brew install --force-bottle akeru-inc/tap/xcnotary
   fi
 
   echo "...notarizing the bundle..."
