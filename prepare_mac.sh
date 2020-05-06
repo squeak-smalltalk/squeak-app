@@ -64,6 +64,9 @@ hdiutil detach "${DEVICE}"
 hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_TARGET_MAC}"
 rm -f "${TMP_DMG}"
 
+# Signing the DMG
+codesign_bundle "${BUNDLE_TARGET_MAC}"
+
 if is_deployment_branch; then
   notarize "${BUNDLE_TARGET_MAC}"
 fi
