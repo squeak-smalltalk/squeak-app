@@ -153,7 +153,6 @@ notarize() {
 
   if ! command -v xcnotary >/dev/null 2>&1; then
     echo "...installing xcnotary helper..."
-    brew update
     brew install akeru-inc/tap/xcnotary
   fi
 
