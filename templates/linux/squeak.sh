@@ -1,17 +1,55 @@
 #!/usr/bin/env bash
-# File:        squeak.sh (Linux version)
-# Author:      Fabio Niephaus
-# Version:     2.4
-# Date:        2020/03/31
-# Description: Script to run Squeak from the Linux bundle
+# File:        squeak.sh
+# Author:      Fabio Niephaus, K K Subramaniam
+# Version:     2.5
+# Date:        2020/04/22
+# Description: Script to launch Squeak executable from a bundle
+# usage:
+#    squeak [<vmargs>] [ *.image [ <stargs> ... ]]
 
-# paths
-DIR=$(readlink -f "$0") #resolve symlink
-ROOT=$(dirname "${DIR}") #obtain dir of the resolved path
-VM="${ROOT}/bin/squeak"
-RESOURCES="${ROOT}/shared"
-CONF_FILE="/etc/security/limits.d/squeak.conf"
-IMAGE=$*
+# extract top directory and app name from command
+ROOT=$(cd -P $(dirname "$0"); pwd)
+APP=$(basename "$0" .sh)
+readonly APP_NAME=${APP^}  # first letter uppercase
+
+CONF_FILE="/etc/security/limits.d/${APP}.conf"
+OS=$(uname -s)
+CPU=$(uname -m)
+case "${CPU}" in
+    "x86_64") CPU="i686" ;;
+    "armv6l"|"armv7l") CPU="ARM" ;;
+esac
+
+if [[ -d ${ROOT}/bin ]]; then
+    BINDIR="${ROOT}/bin"
+    RESOURCES="${ROOT}/shared"
+else
+    # all-in-one bundle
+    appdir=$(echo ${APP_NAME}*.app/)
+    BINDIR="${appdir}/Contents/${OS}-${CPU}/"
+    RESOURCES="${appdir}/Contents/Resources/"
+fi
+
+VM="${BINDIR}/${APP}"
+VMOPTIONS="-encoding UTF-8"
+STARGS=
+
+# separate vm and script arguments
+while [[ -n "$1" ]] ; do
+    case "$1" in
+         *.image) IMAGE="$1"; break;;
+	 --) break;;
+         *) VMARGS="${VMARGS} $1";;
+    esac
+    shift
+done
+while [[ -n "$1" ]]; do
+    case "$1" in
+         *.image) IMAGE="$1";;
+	 *) STARGS="${STARGS} $1" ;;
+    esac
+    shift
+done
 
 showerror() {
   if [[ -n "${DISPLAY}" ]] && [[ -x "$(which kdialog 2>/dev/null)" ]]; then
@@ -24,7 +62,7 @@ showerror() {
 }
 
 # Ensure that Linux kernel is newer than 2.6.12 which is required for the heartbeat thread
-ensure_kernel() {
+ensure_linux_kernel() {
   local kernel_release="$(uname -r)"
   local re="[^0-9]*\([0-9]*\)[.]\([0-9]*\)[.]\([0-9]*\)\(.*\)"
   local major=$(echo "${kernel_release}" | sed -e "s#${re}#\1#")
@@ -93,9 +131,23 @@ ensure_image() {
   fi
 }
 
-ensure_kernel
+detect_sound() {
+    if pulseaudio --check 2>/dev/null ; then
+        if "${VM}" --help 2>/dev/null | grep -q vm-sound-pulse ; then
+	    VMOPTIONS="${VMOPTIONS} -vm-sound-pulse"
+        else
+            VMOPTIONS="${VMOPTIONS} -vm-sound-oss"
+            if padsp true 2>/dev/null; then
+                SOUNDSERVER=padsp
+            fi
+        fi
+    fi
+}
+
+[[ "${OS}" == Linux ]] && ensure_linux_kernel
 ensure_vm
 ensure_image
+detect_sound
 
-echo "Using ${VM}..."
-exec "${VM}" "${IMAGE}"
+echo "Using ${VM} ..."
+exec ${SOUNDSERVER} "${VM}" ${VMOPTIONS} ${VMARGS} "${IMAGE}" ${STARGS}
