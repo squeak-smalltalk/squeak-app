@@ -2,8 +2,8 @@ language: smalltalk
 
 os: osx
 
-# xcnotary requires Xcode 11 or later
-osx_image: xcode11.4
+# xcnotary requires Xcode 11 or later, but we can't build 32bit on macOS Catalina (10.15 or later)
+osx_image: xcode11.3
 
 smalltalk:
   - Squeak-trunk
