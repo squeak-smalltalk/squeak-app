@@ -78,7 +78,7 @@ rm -f "${VM_WIN_TARGET}/"*.map
 # Signing the macOS application
 codesign_bundle "${APP_DIR}"
 
-if is_deployment_branch; then
+if is_deployment_branch && ! is_trunk; then
   notarize "${APP_DIR}"
 fi
 

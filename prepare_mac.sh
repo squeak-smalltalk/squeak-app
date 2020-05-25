@@ -67,7 +67,7 @@ rm -f "${TMP_DMG}"
 # Signing the DMG
 codesign_bundle "${BUNDLE_TARGET_MAC}"
 
-if is_deployment_branch; then
+if is_deployment_branch && ! is_trunk; then
   notarize "${BUNDLE_TARGET_MAC}"
 fi
 
