@@ -1,6 +1,6 @@
 | smalltalkVersion smalltalkCIDir stonConfig monitor |
 smalltalkVersion := (Smalltalk argumentAt: 1) ifNil: [''].
-smalltalkCIDir := Smalltalk argumentAt: 2.
+smalltalkCIDir := (FileDirectory default on: (Smalltalk argumentAt: 2)) fullName.
 stonConfig := Smalltalk argumentAt: 3.
 
 "Ensure FileStream stdout is open"
@@ -18,6 +18,9 @@ monitor := [ [
   repository: 'filetree://', smalltalkCIDir , '/repository';
   onConflict: [:ex | ex pass];
   load ] on: Warning do: [:w | w resume ].
+
+"Patch smalltalkCI to support GitHub Actions"
+FileStream fileIn: smalltalkCIDir, FileDirectory slash, 'gha-support.cs'.
 
 monitor terminate.
 monitor := nil.

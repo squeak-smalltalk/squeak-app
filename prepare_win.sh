@@ -8,7 +8,7 @@
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-travis_fold start win_bundle "Creating Windows bundle for ${TRAVIS_SMALLTALK_VERSION}..."
+begin_group "Creating Windows bundle for ${SMALLTALK_VERSION}..."
 BUNDLE_NAME_WIN="${IMAGE_NAME}-${VERSION_VM_WIN}-Windows"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME_WIN}"
 
@@ -35,4 +35,4 @@ rm -f "${BUNDLE_DIR}/"*.map
 
 compress "${BUNDLE_NAME_WIN}"
 
-travis_fold end win_bundle
+end_group

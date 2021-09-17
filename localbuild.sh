@@ -1,9 +1,12 @@
 #!/bin/bash
 git clean -fdx
-export TRAVIS_BUILD_DIR="$(pwd)"
-export TRAVIS_SMALLTALK_VERSION="Etoys-trunk"
+export HOME_DIR="$(pwd)"
+export SMALLTALK_VERSION="Squeak64-trunk"
+export RUNNER_OS="Windows"
+export GIT_BRANCH="squeak-trunk"
+export DEPLOYMENT_BRANCH="squeak-trunk"
 
-# On non-Travis runs, just disable codesigning, security, and the extracting
+# On local runs, just disable codesigning, security, and the extracting
 # of the signing key
 mkdir encrypted
 export UNZIPPATH=$(which unzip)
@@ -32,4 +35,7 @@ export -f unzip
 export -f curl
 export -f brew
 
-exec ./prepare.sh
+exec ./prepare_image.sh
+exec ./test_image.sh
+exec ./prepare_bundles.sh
+# exec ./deploy_image.sh

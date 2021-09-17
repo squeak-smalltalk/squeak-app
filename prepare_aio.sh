@@ -8,7 +8,7 @@
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-travis_fold start aio_bundle "Creating All-in-one bundle for ${TRAVIS_SMALLTALK_VERSION}..."
+begin_group "Creating All-in-one bundle for ${SMALLTALK_VERSION}..."
 BUNDLE_NAME_AIO="${IMAGE_NAME}-All-in-One"
 BUNDLE_ID_AIO="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-aio-${IMAGE_BITS}bit"
 APP_NAME="${BUNDLE_NAME_AIO}.app"
@@ -41,9 +41,7 @@ cp "${AIO_TEMPLATE_DIR}/squeak.sh" "${BUILD_DIR}/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 ENGLISH_DIR="${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj"
-if ! is_Squeak_50; then
-  cp "${ENGLISH_DIR}/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
-fi
+cp "${ENGLISH_DIR}/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
 
 echo "...setting permissions..."
@@ -76,14 +74,20 @@ rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 rm -f "${VM_WIN_TARGET}/"*.map
 
 # Signing the macOS application
-codesign_bundle "${APP_DIR}"
+if [[ ! -z "${SIGN_IDENTITY}" ]]; then
+  codesign_bundle "${APP_DIR}"
+else
+  print_warning "...not signing bundle because secret missing."
+fi
 
 if is_deployment_branch && ! is_trunk; then
-  notarize "${APP_DIR}"
+  if [[ ! -z "${NOTARIZATION_USER}" ]]; then
+    notarize "${APP_DIR}"
+  else
+    print_warning "...not notarizing bundle because secret missing."
+  fi
 fi
 
 compress "${BUNDLE_NAME_AIO}"
 
-echo "...done."
-
-travis_fold end aio_bundle
+end_group

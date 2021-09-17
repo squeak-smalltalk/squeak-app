@@ -8,7 +8,7 @@
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-travis_fold start mac_bundle "Creating macOS bundle for ${TRAVIS_SMALLTALK_VERSION}..."
+begin_group "Creating macOS bundle for ${SMALLTALK_VERSION}..."
 BUNDLE_NAME_MAC="${IMAGE_NAME}-${VERSION_VM_MACOS}-macOS"
 BUNDLE_ID_MAC="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-${IMAGE_BITS}bit"
 BUNDLE_TARGET_MAC="${PRODUCT_DIR}/${BUNDLE_NAME_MAC}.dmg"
@@ -21,8 +21,6 @@ VM_MAC_TARGET="${CONTENTS_DIR}/MacOS"
 echo "...copying macOS VM ..."
 if is_dir "${TMP_DIR}/${VM_MAC}/Squeak.app"; then
   cp -R "${TMP_DIR}/${VM_MAC}/Squeak.app" "${APP_DIR}"
-elif is_dir "${TMP_DIR}/${VM_MAC}/CogSpur.app"; then
-  cp -R "${TMP_DIR}/${VM_MAC}/CogSpur.app" "${APP_DIR}"
 else
   echo "Unable to locate macOS VM." && exit 1
 fi
@@ -33,9 +31,7 @@ echo "...merging template..."
 cp "${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Info.plist" "${CONTENTS_DIR}/"
 cp "${ICONS_DIR}/${SMALLTALK_NAME}"*.icns "${RESOURCES_DIR}/"
 ENGLISH_DIR="${AIO_TEMPLATE_DIR}/Squeak.app/Contents/Resources/English.lproj"
-if ! is_Squeak_50; then
-  cp "${ENGLISH_DIR}/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
-fi
+cp "${ENGLISH_DIR}/Credits.rtf" "${RESOURCES_DIR}/English.lproj/"
 
 echo "...setting permissions..."
 chmod +x "${VM_MAC_TARGET}/Squeak"
@@ -52,7 +48,11 @@ sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 
 # Signing the macOS application
-codesign_bundle "${APP_DIR}"
+if [[ ! -z "${SIGN_IDENTITY}" ]]; then
+  codesign_bundle "${APP_DIR}"
+else
+  print_warning "...not signing bundle because secret missing."
+fi
 
 echo "...compressing the bundle for macOS..."
 TMP_DMG="temp.dmg"
@@ -65,12 +65,18 @@ hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_T
 rm -f "${TMP_DMG}"
 
 # Signing the DMG
-codesign_bundle "${BUNDLE_TARGET_MAC}"
-
-if is_deployment_branch && ! is_trunk; then
-  notarize "${BUNDLE_TARGET_MAC}"
+if [[ ! -z "${SIGN_IDENTITY}" ]]; then
+  codesign_bundle "${BUNDLE_TARGET_MAC}"
+else
+  print_warning "...not signing DMG because secret missing."
 fi
 
-echo "...done."
+if is_deployment_branch && ! is_trunk; then
+  if [[ ! -z "${NOTARIZATION_USER}" ]]; then
+    notarize "${BUNDLE_TARGET_MAC}"
+  else
+    print_warning "...not notarizing bundle because secret missing."
+  fi
+fi
 
-travis_fold end mac_bundle
+end_group

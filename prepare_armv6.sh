@@ -8,7 +8,7 @@
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-travis_fold start armv6_bundle "Creating ARMv6 bundle for ${TRAVIS_SMALLTALK_VERSION}..."
+begin_group "Creating ARMv6 bundle for ${SMALLTALK_VERSION}..."
 BUNDLE_NAME_ARM="${IMAGE_NAME}-${VERSION_VM_ARMV6}-ARMv6"
 BUNDLE_DIR="${BUILD_DIR}/${BUNDLE_NAME_ARM}"
 VM_DIR="${BUNDLE_DIR}/bin"
@@ -30,4 +30,4 @@ chmod +x "${VM_DIR}/squeak"
 
 compress "${BUNDLE_NAME_ARM}"
 
-travis_fold end armv6_bundle
+end_group

@@ -1,0 +1,14 @@
+readonly HOME_DIR="$(pwd)"
+readonly TMP_DIR="${HOME_DIR}/tmp"
+
+readonly FILES_BASE="http://files.squeak.org/base"
+readonly RELEASE_URL="${FILES_BASE}/${SMALLTALK_VERSION/Etoys/Squeak}"
+readonly IMAGE_URL="${RELEASE_URL}/base.zip"
+
+readonly VM_BASE="${RELEASE_URL}"
+
+# version.sh file produced by image
+readonly VERSION_FILE="${TMP_DIR}/version.sh"
+
+readonly ICONS_DIR="${HOME_DIR}/icons"
+readonly RELEASE_NOTES_DIR="${HOME_DIR}/release-notes"
