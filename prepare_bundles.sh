@@ -125,8 +125,8 @@ notarize() {
 
   if ! command -v xcnotary >/dev/null 2>&1; then
     echo "...installing xcnotary helper..."
-    curl -sL https://github.com/akeru-inc/xcnotary/releases/download/v0.4.0/xcnotary-0.4.0.catalina.bottle.tar.gz | \
-      tar -zxvf - --strip-components=3 xcnotary/0.4.0/bin/xcnotary
+    curl -sL https://github.com/akeru-inc/xcnotary/releases/download/v0.4.8/xcnotary-0.4.8.catalina.bottle.tar.gz | \
+      tar -zxvf - --strip-components=3 xcnotary/0.4.8/bin/xcnotary
     chmod +x xcnotary
   fi
 

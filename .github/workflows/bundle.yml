@@ -1,14 +1,14 @@
 name: Bundle
 
 on:
-  push: # All branches, but appropriate paths only.
+  push: # Choose the branch that matches the Smalltalk version below
     # branches:
     #   - squeak-trunk
       # - squeak-5.3
       # - squeak-5.2
     paths-ignore:
       - '**.md' # Skip changes in documentation artifacts
-  pull_request:
+  pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
       - squeak-trunk
       # - squeak-5.3
@@ -31,6 +31,8 @@ jobs:
           # - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
+          # - Etoys-trunk
+          # - Etoys64-trunk
     runs-on: windows-latest
     name: 🛠 Prepare image for ${{ matrix.smalltalk }}
     env:
@@ -67,6 +69,8 @@ jobs:
           # - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
+          # - Etoys-trunk
+          # - Etoys64-trunk
     runs-on: windows-latest
     name: 🧪 Test image of ${{ matrix.smalltalk }}
     env:
@@ -97,7 +101,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: ${{ matrix.smalltalk }}-tests
-          path: tmp/*.xml
+          path: tmp/*.xml # smalltalkCI test results
 
 
   prepare-bundles:
@@ -112,7 +116,9 @@ jobs:
           # - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
-    runs-on: macos-latest
+          # - Etoys-trunk
+          # - Etoys64-trunk
+    runs-on: macos-10.15 # macos-latest
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
