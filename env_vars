@@ -1,5 +1,4 @@
 readonly HOME_DIR="$(pwd)"
-readonly TMP_DIR="${HOME_DIR}/tmp"
 
 readonly FILES_BASE="http://files.squeak.org/base"
 readonly RELEASE_URL="${FILES_BASE}/${SMALLTALK_VERSION/Etoys/Squeak}"

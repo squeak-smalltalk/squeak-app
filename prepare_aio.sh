@@ -73,18 +73,10 @@ rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 # Remove .map files from $VM_WIN_TARGET
 rm -f "${VM_WIN_TARGET}/"*.map
 
-# Signing the macOS application
-if [[ ! -z "${SIGN_IDENTITY}" ]]; then
-  codesign_bundle "${APP_DIR}"
-else
-  print_warning "...not signing bundle because secret missing."
-fi
-
-if is_deployment_branch && ! is_trunk; then
-  if [[ ! -z "${NOTARIZATION_USER}" ]]; then
-    notarize "${APP_DIR}"
-  else
-    print_warning "...not notarizing bundle because secret missing."
+if is_deployment_branch; then
+  codesign "${APP_DIR}" # *.app
+  if ! is_trunk; then
+    notarize "${APP_DIR}" # *.app
   fi
 fi
 

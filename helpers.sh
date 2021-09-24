@@ -105,3 +105,54 @@ prepare_platform_vm() {
     echo "Failed to locate VM executable." && exit 1
   fi
 }
+
+lock_secret() {
+  local name=secret-$1
+  local key=$2
+  local iv=$3
+
+  local secret_dir="${HOME_DIR}/${name}"
+
+  if ! is_dir "${secret_dir}"; then
+    print_error "Failed to locate files to encrypt."
+    exit 1
+  fi
+
+  zip -q -r "${HOME_DIR}/.${name}.zip" "${name}"
+  rm -r -d "${secret_dir}"
+
+  openssl aes-256-cbc -e -in .${name}.zip -out .${name}.zip.enc \
+    -pbkdf2 -K "${key}" -iv "${iv}"
+  rm .${name}.zip
+}
+
+unlock_secret() {
+  local name=secret-$1
+  local key=$2
+  local iv=$3
+
+  local secret_dir="${HOME_DIR}/${name}"
+
+  if ! is_file .${name}.zip.enc; then
+    print_error "Failed to locate encrypted archive."
+    exit 1
+  fi
+
+  openssl aes-256-cbc -d -in .${name}.zip.enc -out .${name}.zip \
+    -pbkdf2 -K "${key}" -iv "${iv}"
+  rm .${name}.zip.enc
+
+  unzip -q .${name}.zip
+  rm .${name}.zip
+
+  if ! is_dir "${secret_dir}"; then
+    print_error "Failed to locate decrypted files."
+    exit 1
+  fi
+}
+
+# Assure the existence of all working directories
+readonly BUILD_DIR="${HOME_DIR}/build"
+readonly PRODUCT_DIR="${HOME_DIR}/product"
+readonly TMP_DIR="${HOME_DIR}/tmp"
+mkdir -p "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"

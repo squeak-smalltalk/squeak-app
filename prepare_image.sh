@@ -16,8 +16,6 @@ set -o errexit
 source "env_vars"
 source "helpers.sh"
 
-mkdir -p "${TMP_DIR}"
-
 download_and_prepare_files() {
   print_info "...downloading and extracting image, changes, and sources..."
   curl -f -s --retry 3 -o "${TMP_DIR}/base.zip" "${IMAGE_URL}"

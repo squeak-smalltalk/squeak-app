@@ -125,8 +125,20 @@ jobs:
       GIT_BRANCH: ${{ github.ref }}
       DEPLOYMENT_BRANCH: squeak-trunk
 
-      ENCRYPTED_KEY: ${{ secrets.ENCRYPTED_KEY }}
-      ENCRYPTED_IV: ${{ secrets.ENCRYPTED_IV }}
+      CODESIGN_KEY: ${{ secrets.CODESIGN_KEY }}
+      CODESIGN_IV: ${{ secrets.CODESIGN_IV }}
+
+      CERT_IDENTITY: ${{ secrets.SIGN_IDENTITY }}
+      CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
+
+      NOTARIZATION_USER: ${{ secrets.NOTARIZATION_USER }}
+      NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
+
+
+
+      DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+      DEPLOY_IV: ${{ secrets.DEPLOY_IV }}
+
       PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
 
       PROXY_PORT: ${{ secrets.PROXY_PORT }}
@@ -135,10 +147,6 @@ jobs:
       UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
       UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}
 
-      CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
-      SIGN_IDENTITY: ${{ secrets.SIGN_IDENTITY }}
-      NOTARIZATION_USER: ${{ secrets.NOTARIZATION_USER }}
-      NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 
     steps:
       - uses: actions/checkout@v2

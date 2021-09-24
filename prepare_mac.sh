@@ -47,11 +47,8 @@ sed -i ".bak" "s/%CFBundleVersion%/${IMAGE_BITS} bit/g" "${CONTENTS_DIR}/Info.pl
 sed -i ".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_DIR}/Info.plist"
 rm -f "${CONTENTS_DIR}/Info.plist.bak"
 
-# Signing the macOS application
-if [[ ! -z "${SIGN_IDENTITY}" ]]; then
-  codesign_bundle "${APP_DIR}"
-else
-  print_warning "...not signing bundle because secret missing."
+if is_deployment_branch; then
+  codesign "${APP_DIR}" # *.app
 fi
 
 echo "...compressing the bundle for macOS..."
@@ -64,18 +61,10 @@ hdiutil detach "${DEVICE}"
 hdiutil convert "${TMP_DMG}" -format UDBZ -imagekey bzip2-level=6 -o "${BUNDLE_TARGET_MAC}"
 rm -f "${TMP_DMG}"
 
-# Signing the DMG
-if [[ ! -z "${SIGN_IDENTITY}" ]]; then
-  codesign_bundle "${BUNDLE_TARGET_MAC}"
-else
-  print_warning "...not signing DMG because secret missing."
-fi
-
-if is_deployment_branch && ! is_trunk; then
-  if [[ ! -z "${NOTARIZATION_USER}" ]]; then
-    notarize "${BUNDLE_TARGET_MAC}"
-  else
-    print_warning "...not notarizing bundle because secret missing."
+if is_deployment_branch; then
+  codesign "${BUNDLE_TARGET_MAC}" # *.dmg
+  if ! is_trunk; then
+    notarize "${BUNDLE_TARGET_MAC}" # *.dmg
   fi
 fi
 
