@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # File:        squeak.sh
-# Author:      Fabio Niephaus, K K Subramaniam
-# Version:     2.5
-# Date:        2020/04/22
+# Author:      Fabio Niephaus, K K Subramaniam, Marcel Taeumel
+# Version:     2.5.1
+# Date:        2021/09/25
 # Description: Script to launch Squeak executable from a bundle
 # usage:
 #    squeak [<vmargs>] [ *.image [ <stargs> ... ]]
@@ -12,7 +12,7 @@ ROOT=$(cd -P $(dirname "$0"); pwd)
 APP=$(basename "$0" .sh)
 readonly APP_NAME=${APP^}  # first letter uppercase
 
-CONF_FILE="/etc/security/limits.d/${APP}.conf"
+CONF_FILEPATH="/etc/security/limits.d/${APP}.conf"
 OS=$(uname -s)
 CPU=$(uname -m)
 case "${CPU}" in
@@ -80,21 +80,21 @@ ensure_linux_kernel() {
     exit 1
   fi
 
-  # Check for $CONF_FILE on systems with Linux kernel earlier than 4.x.x
+  # Check for $CONF_FILEPATH on systems with Linux kernel earlier than 4.x.x
   if [[ "${major}" -lt "4" ]]; then
     ensure_conf_file
   fi
 }
 
-# Ensure that the $CONF_FILE configuration file exists and help to create one
+# Ensure that the $CONF_FILEPATH configuration file exists and help to create one
 ensure_conf_file() {
   local user_input
-  if ! [[ -f "${CONF_FILE}" ]]; then
-    read -p "${CONF_FILE} is missing. Do you want to create one?
+  if ! [[ -f "${CONF_FILEPATH}" ]]; then
+    read -p "${CONF_FILEPATH} is missing. Do you want to create one?
 This operation requires sudo permissions. (y/N): " user_input
     if [[ "${user_input}" = "y" ]]; then
       echo "You may be asked to enter your password..."
-      sudo tee -a "${CONF_FILE}" > /dev/null <<END
+      sudo tee -a "${CONF_FILEPATH}" > /dev/null <<END
 *       hard    rtprio  2
 *       soft    rtprio  2
 END

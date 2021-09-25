@@ -12,8 +12,8 @@ prepare_codesign() {
 
   begin_group "...preparing code signing..."
   unlock_secret "codesign" "${CODESIGN_KEY}" "${CODESIGN_IV}"
-  readonly CERT_FILEPATH_CER="{HOME_DIR}/secret-codesign/codesign.cer"
-  readonly CERT_FILEPATH_P12="{HOME_DIR}/secret-codesign/codesign.p12"
+  readonly CERT_FILEPATH_CER="{HOME_PATH}/secret-codesign/codesign.cer"
+  readonly CERT_FILEPATH_P12="{HOME_PATH}/secret-codesign/codesign.p12"
   prepare_codesign_$RUNNER_OS
   prepare_notarize_$RUNNER_OS
   end_group
@@ -26,10 +26,11 @@ cleanup_codesign() {
   fi
   begin_group "...cleaning up code signing..."
   cleanup_codesign_$RUNNER_OS
+  rm -r -d "{HOME_PATH}/secret-codesign"
   end_group
 }
 
-codesign() {
+do_codesign() {
   if [[ ! $(type -t codesign_$RUNNER_OS) ]]; then
     print_warning "...not code signing because platform not supported: ${RUNNER_OS}."
     return
@@ -40,10 +41,10 @@ codesign() {
     return
   fi
 
-  codesign_$RUNNER_OS $1
+  do_codesign_$RUNNER_OS $1
 }
 
-notarize() {
+do_notarize() {
   if [[ ! $(type -t notarize_$RUNNER_OS) ]]; then
     print_warning "...not notarizing because platform not supported: ${RUNNER_OS}."
     return
@@ -54,7 +55,7 @@ notarize() {
     return
   fi
 
-  notarize_$RUNNER_OS $1
+  do_notarize_$RUNNER_OS $1
 }
 
 prepare_codesign_macOS() {
@@ -66,8 +67,8 @@ prepare_codesign_macOS() {
   # removing relock timeout on keychain
   security set-keychain-settings "${KEY_CHAIN}"
   # Add certificates to keychain and allow codesign to access them
-  security import "${ENCRYPTED_DIR}/sign.cer" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign > /dev/null
-  security import "${ENCRYPTED_DIR}/sign.p12" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign > /dev/null
+  security import "${CERT_FILEPATH_CER}" -k ~/Library/Keychains/"${KEY_CHAIN}" -T /usr/bin/codesign > /dev/null
+  security import "${CERT_FILEPATH_P12}" -k ~/Library/Keychains/"${KEY_CHAIN}" -P "${CERT_PASSWORD}" -T /usr/bin/codesign > /dev/null
   # Make codesign work on macOS 10.12 or later (see https://git.io/JvE7X)
   security set-key-partition-list -S apple-tool:,apple: -s -k "${KEY_CHAIN_PASSWORD}" "${KEY_CHAIN}" > /dev/null
 
@@ -84,7 +85,7 @@ prepare_notarize_macOS() {
 
 
 
-codesign_macOS() {
+do_codesign_macOS() {
   local target=$1
 
   echo "...signing the bundle..."
@@ -94,16 +95,16 @@ codesign_macOS() {
   # Sign all plugin bundles
   for d in "${target}/Contents/Resources/"*/; do
     if [[ "${d}" == *".bundle/" ]]; then
-      codesign -s "${SIGN_IDENTITY}" --force --deep --verbose "${d}"
+      codesign -s "${CERT_IDENTITY}" --force --deep --verbose "${d}"
     fi
   done
 
   # Sign the app bundle
-  codesign -s "${SIGN_IDENTITY}" --force --deep --verbose --options=runtime \
-    --entitlements "${MAC_TEMPLATE_DIR}/entitlements.plist" "${target}"
+  codesign -s "${CERT_IDENTITY}" --force --deep --verbose --options=runtime \
+    --entitlements "${MAC_TEMPLATE_PATH}/entitlements.plist" "${target}"
 }
 
-notarize_macOS() {
+do_notarize_macOS() {
   local path=$1
 
   if ! command -v xcnotary >/dev/null 2>&1; then

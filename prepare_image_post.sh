@@ -4,38 +4,53 @@
 #  FILE:    prepare_image_post.sh
 #  CONTENT: Prepare content around the base image.
 #
+#  REQUIRES:
+#    SMALLTALK_VERSION ... e.g., Squeak64-trunk
+#    SQUEAK_VERSION    ... e.g., Squeak6.0alpha
+#    SQUEAK_UPDATE     ... e.g., 20639
+#    IMAGE_BITS        ... i.e., 64 or 32
+#    tmp/Squeak.image
+#    tmp/Squeak.changes
+#    tmp/*.sources
+#  PROVIDES:
+#    IMAGE_NAME        ... e.g., Squeak6.0alpha-20639-64bit
+#
 #  AUTHORS: Fabio Niephaus, Hasso Plattner Institute, Potsdam, Germany
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
 download_and_prepare_additional_files_for_etoys() {
   begin_group "...preparing Etoys main projects..."
-  for project in "${HOME_DIR}/etoys/"*.[0-9]*; do
+  for project in "${HOME_PATH}/etoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
-    mv "${project}.zip" "${TMP_DIR}/${project##*/}.pr"
+    mv "${project}.zip" "${TMP_PATH}/${project##*/}.pr"
   done
   end_group
 
   begin_group "...preparing etoys gallery projects..."
-  mkdir -p "${TMP_DIR}/ExampleEtoys"
-  for project in "${HOME_DIR}/etoys/ExampleEtoys/"*.[0-9]*; do
+  mkdir -p "${TMP_PATH}/ExampleEtoys"
+  for project in "${HOME_PATH}/etoys/ExampleEtoys/"*.[0-9]*; do
     zip -j "${project}.zip" "${project}"/*
-    mv "${project}.zip" "${TMP_DIR}/ExampleEtoys/${project##*/}.pr"
+    mv "${project}.zip" "${TMP_PATH}/ExampleEtoys/${project##*/}.pr"
   done
   end_group
 
   echo "...copying etoys quick guides..."
-  for language in "${HOME_DIR}/etoys/QuickGuides/"*; do
-    targetdir="${TMP_DIR}/locale/${language##*/}"
+  for language in "${HOME_PATH}/etoys/QuickGuides/"*; do
+    targetdir="${TMP_PATH}/locale/${language##*/}"
     mkdir -p "${targetdir}"
     cp -R "${language}/QuickGuides" "${targetdir}/"
   done
 }
 
-rename_and_move_image() {
-  echo "...copying image files into build dir..."
-  cp "${TMP_DIR}/Squeak.image" "${BUILD_DIR}/${IMAGE_NAME}.image"
-  cp "${TMP_DIR}/Squeak.changes" "${BUILD_DIR}/${IMAGE_NAME}.changes"
+prepare_image_bundle() {
+  begin_group "Creating .image/.changes bundle for ${SMALLTALK_VERSION}..."
+  echo "...copying files into build dir..."
+  cp "${TMP_PATH}/Squeak.image" "${BUILD_PATH}/${IMAGE_NAME}.image"
+  cp "${TMP_PATH}/Squeak.changes" "${BUILD_PATH}/${IMAGE_NAME}.changes"
+  compress_into_product "${IMAGE_NAME}"
+  reset_build_dir
+  end_group
 }
 
 prepare_locales() {
@@ -45,10 +60,16 @@ prepare_locales() {
   brew link --force gettext
   end_group
 
+  if [[ ! $(type -t msgfmt) ]]; then
+    mkdir -p "${TMP_PATH}/locale" # Bundle empty locale directory
+    print_warning "Preparing locales (2/2): Cannot prepare locales because gettext not installed."
+    return
+  fi
+
   begin_group "Preparing locales (2/2): Compiling translations..."
-  for language in "${LOCALE_DIR}/"*; do
+  for language in "${LOCALE_PATH}/"*; do
     pushd "${language}"
-    targetdir="${TMP_DIR}/locale/${language##*/}/LC_MESSAGES"
+    targetdir="${TMP_PATH}/locale/${language##*/}/LC_MESSAGES"
     for f in *.po; do
       mkdir -p "${targetdir}"
       msgfmt -v -o "${targetdir}/${f%%po}mo" "${f}" || true # ignore translation problems
@@ -64,22 +85,8 @@ fi
 
 prepare_locales
 
-# Source in version.sh file produced by image
-source "${VERSION_FILE}"
 readonly IMAGE_NAME="${SQUEAK_VERSION}-${SQUEAK_UPDATE}-${IMAGE_BITS}bit"
+export_variable "IMAGE_NAME" "${IMAGE_NAME}"
+
 readonly SQUEAK_VERSION_NUMBER=$(echo "${SQUEAK_VERSION}" | sed "s/^[A-Za-z]*\(.*\)$/\1/")
 readonly WINDOW_TITLE="${SMALLTALK_NAME} ${SQUEAK_VERSION_NUMBER} (${IMAGE_BITS} bit)"
-
-export_variable "SQUEAK_VERSION" "${SQUEAK_VERSION}"
-export_variable "SQUEAK_UPDATE" "${SQUEAK_UPDATE}"
-export_variable "IMAGE_BITS" "${IMAGE_BITS}"
-export_variable "IMAGE_FORMAT" "${IMAGE_FORMAT}"
-
-export_variable "IMAGE_NAME" "${IMAGE_NAME}"
-export_variable "SQUEAK_VERSION_NUMBER" "${SQUEAK_VERSION_NUMBER}"
-export_variable "WINDOW_TITLE" "${WINDOW_TITLE}"
-
-begin_group "Finalizing image..."
-rename_and_move_image
-compress "${IMAGE_NAME}"
-end_group

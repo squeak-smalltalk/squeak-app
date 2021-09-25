@@ -3,7 +3,7 @@ name: Bundle
 on:
   push: # Choose the branch that matches the Smalltalk version below
     # branches:
-    #   - squeak-trunk
+      # - squeak-trunk
       # - squeak-5.3
       # - squeak-5.2
     paths-ignore:
@@ -53,8 +53,6 @@ jobs:
             tmp/*.sources
             tmp/*.image
             tmp/*.changes
-            tmp/version.sh
-            !tmp/Test*
 
 
   test-image:
@@ -118,35 +116,12 @@ jobs:
           # - Squeak64-5.2
           # - Etoys-trunk
           # - Etoys64-trunk
-    runs-on: macos-10.15 # macos-latest
+    runs-on: macos-10.15 # fixed for xcnotary
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
-      GIT_BRANCH: ${{ github.ref }}
-      DEPLOYMENT_BRANCH: squeak-trunk
-
-      CODESIGN_KEY: ${{ secrets.CODESIGN_KEY }}
-      CODESIGN_IV: ${{ secrets.CODESIGN_IV }}
-
-      CERT_IDENTITY: ${{ secrets.SIGN_IDENTITY }}
-      CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
-
-      NOTARIZATION_USER: ${{ secrets.NOTARIZATION_USER }}
-      NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
-
-
-
-      DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-      DEPLOY_IV: ${{ secrets.DEPLOY_IV }}
-
-      PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
-
-      PROXY_PORT: ${{ secrets.PROXY_PORT }}
-      PROXY_HOST: ${{ secrets.PROXY_HOST }}
-      PROXY_USER: ${{ secrets.PROXY_USER }}
-      UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
-      UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}
-
+      SHOULD_DEPLOY: endsWith(github.ref, "squeak-trunk")
+      SHOULD_CODESIGN: env.SHOULD_DEPLOY
 
     steps:
       - uses: actions/checkout@v2
@@ -158,6 +133,13 @@ jobs:
           path: tmp
 
       - run: ./prepare_bundles.sh
+        env:
+          CODESIGN_KEY: ${{ secrets.CODESIGN_KEY }}
+          CODESIGN_IV: ${{ secrets.CODESIGN_IV }}
+          CERT_IDENTITY: ${{ secrets.CERT_IDENTITY }}
+          CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
+          NOTARIZATION_USER: ${{ secrets.NOTARIZATION_USER }}
+          NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
@@ -166,4 +148,13 @@ jobs:
           path: product/*
 
       - run: ./deploy_bundles.sh
-        if: endsWith(github.ref, env.DEPLOYMENT_BRANCH)
+        if: env.SHOULD_DEPLOY
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_IV: ${{ secrets.DEPLOY_IV }}
+          SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+          PROXY_PORT: ${{ secrets.PROXY_PORT }}
+          PROXY_HOST: ${{ secrets.PROXY_HOST }}
+          PROXY_USER: ${{ secrets.PROXY_USER }}
+          UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
+          UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}

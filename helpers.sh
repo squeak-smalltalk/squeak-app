@@ -22,8 +22,12 @@ is_dir() {
   [[ -d $1 ]]
 }
 
-is_deployment_branch() {
-  [[ "${GIT_BRANCH}" == *"${DEPLOYMENT_BRANCH}"* ]]
+should_deploy() {
+  [[ "${SHOULD_DEPLOY}" == "true" ]]
+}
+
+should_codesign() {
+  [[ "${SHOULD_CODESIGN}" == "true" ]]
 }
 
 readonly COLOR_RESET="\033[0m"
@@ -66,9 +70,9 @@ download_and_extract_vm() {
   local url=$2 # e.g., files.squeak.org/base/Squeak-trunk/vm-win.zip
   local target=$3 # e.g., tmp/vm-win
   echo "...downloading and extracting ${name} VM..."
-  curl -f -s --retry 3 -o "${TMP_DIR}/vm.zip" "${url}"
-  unzip -q "${TMP_DIR}/vm.zip" -d "${target}"
-  rm "${TMP_DIR}/vm.zip"
+  curl -f -s --retry 3 -o "${TMP_PATH}/vm.zip" "${url}"
+  unzip -q "${TMP_PATH}/vm.zip" -d "${target}"
+  rm "${TMP_PATH}/vm.zip"
 }
 
 export_variable() {
@@ -84,22 +88,22 @@ export_variable() {
 prepare_platform_vm() {
   case $RUNNER_OS in
     "Windows")
-      readonly VM_URL="${VM_BASE}/vm-win.zip"
-      readonly SMALLTALK_VM="${TMP_DIR}/vm/SqueakConsole.exe"
+      readonly VM_URL="${VM_BASE}/${VM_WIN}.zip"
+      readonly SMALLTALK_VM="${TMP_PATH}/vm/SqueakConsole.exe"
       # Add other GNU tools (e.g., wget) for third-party build scripts
       PATH=$PATH:/c/msys64/usr/bin
       ;;
     "Linux")
-      readonly VM_URL="${VM_BASE}/vm-linux.zip"
-      readonly SMALLTALK_VM="${TMP_DIR}/vm/squeak"
+      readonly VM_URL="${VM_BASE}/${VM_LIN}.zip"
+      readonly SMALLTALK_VM="${TMP_PATH}/vm/squeak"
       ;;
     "macOS")
-      readonly VM_URL="${VM_BASE}/vm-macos.zip"
-      readonly SMALLTALK_VM="${TMP_DIR}/vm/Squeak.app/Contents/MacOS/Squeak"
+      readonly VM_URL="${VM_BASE}/${VM_MAC}.zip"
+      readonly SMALLTALK_VM="${TMP_PATH}/vm/Squeak.app/Contents/MacOS/Squeak"
       ;;
   esac
 
-  download_and_extract_vm "$RUNNER_OS" "${VM_URL}" "${TMP_DIR}/vm"
+  download_and_extract_vm "$RUNNER_OS" "${VM_URL}" "${TMP_PATH}/vm"
 
   if [[ ! -f "${SMALLTALK_VM}" ]]; then
     echo "Failed to locate VM executable." && exit 1
@@ -111,14 +115,14 @@ lock_secret() {
   local key=$2
   local iv=$3
 
-  local secret_dir="${HOME_DIR}/${name}"
+  local secret_dir="${HOME_PATH}/${name}"
 
   if ! is_dir "${secret_dir}"; then
     print_error "Failed to locate files to encrypt."
     exit 1
   fi
 
-  zip -q -r "${HOME_DIR}/.${name}.zip" "${name}"
+  zip -q -r "${HOME_PATH}/.${name}.zip" "${name}"
   rm -r -d "${secret_dir}"
 
   openssl aes-256-cbc -e -in .${name}.zip -out .${name}.zip.enc \
@@ -131,7 +135,7 @@ unlock_secret() {
   local key=$2
   local iv=$3
 
-  local secret_dir="${HOME_DIR}/${name}"
+  local secret_dir="${HOME_PATH}/${name}"
 
   if ! is_file .${name}.zip.enc; then
     print_error "Failed to locate encrypted archive."
@@ -152,7 +156,25 @@ unlock_secret() {
 }
 
 # Assure the existence of all working directories
-readonly BUILD_DIR="${HOME_DIR}/build"
-readonly PRODUCT_DIR="${HOME_DIR}/product"
-readonly TMP_DIR="${HOME_DIR}/tmp"
-mkdir -p "${BUILD_DIR}" "${PRODUCT_DIR}" "${TMP_DIR}"
+readonly BUILD_PATH="${HOME_PATH}/build"
+readonly PRODUCT_PATH="${HOME_PATH}/product"
+readonly TMP_PATH="${HOME_PATH}/tmp"
+mkdir -p "${BUILD_PATH}" "${PRODUCT_PATH}" "${TMP_PATH}"
+
+# Assure $RUNNER_OS if not invoked from within GitHub Actions
+if [[ -z "${RUNNER_OS}" ]]; then
+  case $(uname -s) in
+    Darwin*)
+      export RUNNER_OS="macOS"
+      ;;
+    Linux*)
+      export RUNNER_OS="Linux"
+      ;;
+    CYGWIN*|MINGW*)
+      export RUNNER_OS="Windows"
+      ;;
+    *)
+      echo "Unsupported platform."
+      exit 1
+  esac
+fi
