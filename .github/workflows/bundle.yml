@@ -2,8 +2,8 @@ name: Bundle
 
 on:
   push: # Choose the branch that matches the Smalltalk version below
-    # branches:
-      # - squeak-trunk
+    branches:
+      - squeak-trunk
       # - squeak-5.3
       # - squeak-5.2
     paths-ignore:
