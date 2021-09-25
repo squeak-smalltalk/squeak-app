@@ -31,7 +31,7 @@ cleanup_codesign() {
 }
 
 do_codesign() {
-  if [[ ! $(type -t codesign_$RUNNER_OS) ]]; then
+  if [[ ! $(type -t do_codesign_$RUNNER_OS) ]]; then
     print_warning "...not code signing because platform not supported: ${RUNNER_OS}."
     return
   fi
@@ -45,7 +45,7 @@ do_codesign() {
 }
 
 do_notarize() {
-  if [[ ! $(type -t notarize_$RUNNER_OS) ]]; then
+  if [[ ! $(type -t do_notarize_$RUNNER_OS) ]]; then
     print_warning "...not notarizing because platform not supported: ${RUNNER_OS}."
     return
   fi
