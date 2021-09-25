@@ -26,7 +26,7 @@ cleanup_codesign() {
   fi
   begin_group "...cleaning up code signing..."
   cleanup_codesign_$RUNNER_OS
-  rm -r -d "{HOME_PATH}/secret-codesign"
+  rm -r -d "${HOME_PATH}/secret-codesign"
   end_group
 }
 
