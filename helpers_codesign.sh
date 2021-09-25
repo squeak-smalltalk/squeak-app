@@ -12,8 +12,8 @@ prepare_codesign() {
 
   begin_group "...preparing code signing..."
   unlock_secret "codesign" "${CODESIGN_KEY}" "${CODESIGN_IV}"
-  readonly CERT_FILEPATH_CER="{HOME_PATH}/secret-codesign/codesign.cer"
-  readonly CERT_FILEPATH_P12="{HOME_PATH}/secret-codesign/codesign.p12"
+  readonly CERT_FILEPATH_CER="${HOME_PATH}/secret-codesign/codesign.cer"
+  readonly CERT_FILEPATH_P12="${HOME_PATH}/secret-codesign/codesign.p12"
   prepare_codesign_$RUNNER_OS
   prepare_notarize_$RUNNER_OS
   end_group
