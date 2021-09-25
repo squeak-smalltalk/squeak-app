@@ -1,17 +1,17 @@
 #!/usr/bin/env bash
 # File:        squeak.sh (All-in-One version)
 # Authors:     Bert Freudenberg, Paul DeBruicker, Craig Latta, Chris Muller,
-#              Fabio Niephaus
-# Version:     2.2
-# Date:        2020/03/31
+#              Fabio Niephaus, Marcel Taeumel
+# Version:     2.2.1
+# Date:        2021/09/25
 # Description: Script to run Squeak from the all-in-one app structure
 #              (based on Etoys-To-Go)
 
-APP_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )/%APP_NAME%" && pwd )"
-IMAGE="${APP_DIR}/Contents/Resources/%SqueakImageName%"
+APP_PATH="$( cd "$( dirname "${BASH_SOURCE[0]}" )/%APP_NAME%" && pwd )"
+IMAGE="${APP_PATH}/Contents/Resources/%SqueakImageName%"
 IMAGE_BITS="%IMAGE_BITS%"
 CPU="$(uname -m)"
-CONF_FILE="/etc/security/limits.d/squeak.conf"
+CONF_FILEPATH="/etc/security/limits.d/squeak.conf"
 
 showerror() {
   if [[ -n "${DISPLAY}" ]] && [[ -x "$(which kdialog 2>/dev/null)" ]]; then
@@ -56,21 +56,21 @@ ensure_kernel() {
     exit 1
   fi
 
-  # Check for $CONF_FILE on systems with Linux kernel earlier than 4.x.x
+  # Check for $CONF_FILEPATH on systems with Linux kernel earlier than 4.x.x
   if [[ "${major}" -lt "4" ]]; then
     ensure_conf_file
   fi
 }
 
-# Ensure that the $CONF_FILE configuration file exists and help to create one
+# Ensure that the $CONF_FILEPATH configuration file exists and help to create one
 ensure_conf_file() {
   local user_input
-  if ! [[ -f "${CONF_FILE}" ]]; then
-    read -p "${CONF_FILE} is missing. Do you want to create one?
+  if ! [[ -f "${CONF_FILEPATH}" ]]; then
+    read -p "${CONF_FILEPATH} is missing. Do you want to create one?
 This operation requires sudo permissions. (y/N): " user_input
     if [[ "${user_input}" = "y" ]]; then
       echo "You may be asked to enter your password..."
-      sudo tee -a "${CONF_FILE}" > /dev/null <<END
+      sudo tee -a "${CONF_FILEPATH}" > /dev/null <<END
 *       hard    rtprio  2
 *       soft    rtprio  2
 END
@@ -109,7 +109,7 @@ ensure_image() {
 
 ensure_kernel
 check_cpu
-VM="${APP_DIR}/Contents/Linux-${CPU}/bin/squeak"
+VM="${APP_PATH}/Contents/Linux-${CPU}/bin/squeak"
 ensure_vm
 ensure_image
 

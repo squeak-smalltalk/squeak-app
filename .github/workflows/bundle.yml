@@ -1,0 +1,178 @@
+name: Bundle
+
+on:
+  push: # Choose the branch that matches the Smalltalk version below
+    branches:
+      - squeak-trunk
+      # - squeak-5.3
+      # - squeak-5.2
+    paths-ignore:
+      - '**.md' # Skip changes in documentation artifacts
+  pull_request: # Choose the branch that matches the Smalltalk version below
+    branches:
+      - squeak-trunk
+      # - squeak-5.3
+      # - squeak-5.2
+    paths-ignore:
+      - '**.md'
+  schedule:
+    - cron: '0 0 * * *' # Build everyday at midnight
+  workflow_dispatch:
+
+jobs:
+  prepare-image:
+    strategy:
+      fail-fast: true
+      matrix:
+        smalltalk:
+          - Squeak-trunk
+          - Squeak64-trunk
+          # - Squeak-5.3
+          # - Squeak64-5.3
+          # - Squeak-5.2
+          # - Squeak64-5.2
+          # - Etoys-trunk
+          # - Etoys64-trunk
+    runs-on: windows-latest
+    name: 🛠 Prepare image for ${{ matrix.smalltalk }}
+    env:
+      SMALLTALK_VERSION: ${{ matrix.smalltalk }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Prepare image
+        shell: bash
+        run: ./prepare_image.sh
+        timeout-minutes: 20
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}
+          path: |
+            tmp/*.sources
+            tmp/*.image
+            tmp/*.changes
+
+      - name: Export global environment
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-env
+          path: tmp/global-env
+
+
+  test-image:
+    needs: [prepare-image]
+    strategy:
+      fail-fast: true
+      matrix:
+        smalltalk:
+          - Squeak-trunk
+          - Squeak64-trunk
+          # - Squeak-5.3
+          # - Squeak64-5.3
+          # - Squeak-5.2
+          # - Squeak64-5.2
+          # - Etoys-trunk
+          # - Etoys64-trunk
+    runs-on: windows-latest
+    name: 🧪 Test image of ${{ matrix.smalltalk }}
+    env:
+      SMALLTALK_VERSION: ${{ matrix.smalltalk }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Import global environment
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-env
+          path: tmp
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}
+          path: tmp
+
+      - name: "Set up SmalltalkCI"
+        # uses: hpi-swa/setup-smalltalkCI@v1
+        uses: marceltaeumel/setup-smalltalkCI@marceltaeumel/install-path
+        with:
+          smalltalk-image: ${{ matrix.smalltalk }}
+          smalltalkCI-workspace: ${{ github.workspace }}
+
+      - name: "Run tests"
+        continue-on-error: true
+        shell: bash
+        run: ./test_image.sh
+        timeout-minutes: 20
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-tests
+          path: tmp/*.xml # smalltalkCI test results
+
+
+  prepare-bundles:
+    needs: [prepare-image]
+    strategy:
+      fail-fast: true
+      matrix:
+        smalltalk:
+          - Squeak-trunk
+          - Squeak64-trunk
+          # - Squeak-5.3
+          # - Squeak64-5.3
+          # - Squeak-5.2
+          # - Squeak64-5.2
+          # - Etoys-trunk
+          # - Etoys64-trunk
+    runs-on: macos-10.15 # fixed for xcnotary
+    name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
+    env:
+      SMALLTALK_VERSION: ${{ matrix.smalltalk }}
+      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') }}
+      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Import global environment
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-env
+          path: tmp
+
+      - name: Download artifacts
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}
+          path: tmp
+
+      - run: ./prepare_bundles.sh
+        env:
+          CODESIGN_KEY: ${{ secrets.CODESIGN_KEY }}
+          CODESIGN_IV: ${{ secrets.CODESIGN_IV }}
+          CERT_IDENTITY: ${{ secrets.CERT_IDENTITY }}
+          CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
+          NOTARIZATION_USER: ${{ secrets.NOTARIZATION_USER }}
+          NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-bundles
+          path: product/*
+
+      - run: ./deploy_bundles.sh
+        if: env.SHOULD_DEPLOY == 'true'
+        env:
+          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
+          DEPLOY_IV: ${{ secrets.DEPLOY_IV }}
+          SSH_PUBLIC_KEY: ${{ secrets.SSH_PUBLIC_KEY }}
+          PROXY_PORT: ${{ secrets.PROXY_PORT }}
+          PROXY_HOST: ${{ secrets.PROXY_HOST }}
+          PROXY_USER: ${{ secrets.PROXY_USER }}
+          UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
+          UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}

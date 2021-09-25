@@ -68,10 +68,10 @@ releaseBuilder prepareEnvironment.
 FileStream stdout nextPutAll: 'Exporting version information for deployment...'; cr; flush.
 FileStream fileNamed: 'version.sh' do: [:strm |
 	strm
-		nextPutAll: ('SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
-		nextPutAll: ('SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); lf;
-		nextPutAll: ('IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
-		nextPutAll: ('IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
+		nextPutAll: ('export SQUEAK_VERSION="{1}"' format: {SystemVersion current version}); lf;
+		nextPutAll: ('export SQUEAK_UPDATE="{1}"' format: {SystemVersion current highestUpdate}); lf;
+		nextPutAll: ('export IMAGE_BITS="{1}"' format: {Smalltalk image wordSize * 8}); lf;
+		nextPutAll: ('export IMAGE_FORMAT="{1}"' format: {Smalltalk image imageFormatVersion}); lf].
 
 FileStream stdout nextPutAll: '[DONE]'; cr; flush.
 releaseBuilder saveAndQuit.

@@ -1,0 +1,15 @@
+readonly HOME_PATH="$(pwd)"
+
+readonly FILES_BASE="http://files.squeak.org/base"
+readonly RELEASE_URL="${FILES_BASE}/${SMALLTALK_VERSION/Etoys/Squeak}"
+
+readonly IMAGE_URL="${RELEASE_URL}/base.zip"
+readonly VM_BASE="${RELEASE_URL}"
+
+readonly VM_LIN="vm-linux"
+readonly VM_MAC="vm-macos"
+readonly VM_WIN="vm-win"
+readonly VM_ARM6="vm-armv6"
+
+readonly ICONS_PATH="${HOME_PATH}/icons"
+readonly RELEASE_NOTES_PATH="${HOME_PATH}/release-notes"
