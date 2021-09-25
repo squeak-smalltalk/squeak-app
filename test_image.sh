@@ -19,11 +19,11 @@
 
 set -o errexit
 
-[[ -z "${SMALLTALK_VERSION}" ]] && exit 2
-[[ -z "${SMALLTALK_CI_HOME}" ]] && exit 3
-
 source "env_vars"
 source "helpers.sh"
+
+[[ -z "${SMALLTALK_VERSION}" ]] && exit 2
+[[ -z "${SMALLTALK_CI_HOME}" ]] && exit 3
 
 readonly SCI_PATH="${HOME_PATH}/smalltalk-ci"
 

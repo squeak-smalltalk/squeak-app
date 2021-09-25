@@ -31,16 +31,16 @@
 
 set -o errexit
 
+source "env_vars"
+source "helpers.sh"
+source "helpers_bundles.sh"
+
 [[ -z "${SMALLTALK_VERSION}" ]] && exit 2
 [[ -z "${SHOULD_CODESIGN}" ]] && exit 3
 
 [[ -z "${SQUEAK_VERSION}" ]] && exit 4
 [[ -z "${SQUEAK_UPDATE}" ]] && exit 5
 [[ -z "${IMAGE_BITS}" ]] && exit 6
-
-source "env_vars"
-source "helpers.sh"
-source "helpers_bundles.sh"
 
 readonly TEMPLATE_PATH="${HOME_PATH}/templates"
 readonly AIO_TEMPLATE_PATH="${TEMPLATE_PATH}/all-in-one"

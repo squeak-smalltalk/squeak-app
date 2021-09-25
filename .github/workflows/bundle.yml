@@ -54,6 +54,12 @@ jobs:
             tmp/*.image
             tmp/*.changes
 
+      - name: Export global environment
+        uses: actions/upload-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-env
+          path: tmp/global-env
+
 
   test-image:
     needs: [prepare-image]
@@ -75,6 +81,12 @@ jobs:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
     steps:
       - uses: actions/checkout@v2
+
+      - name: Import global environment
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-env
+          path: tmp
 
       - name: Download artifacts
         uses: actions/download-artifact@v2
@@ -120,11 +132,17 @@ jobs:
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
-      SHOULD_DEPLOY: endsWith(github.ref, "squeak-trunk")
-      SHOULD_CODESIGN: env.SHOULD_DEPLOY
+      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') }}
+      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: Import global environment
+        uses: actions/download-artifact@v2
+        with:
+          name: ${{ matrix.smalltalk }}-env
+          path: tmp
 
       - name: Download artifacts
         uses: actions/download-artifact@v2
@@ -148,7 +166,7 @@ jobs:
           path: product/*
 
       - run: ./deploy_bundles.sh
-        if: env.SHOULD_DEPLOY
+        if: env.SHOULD_DEPLOY == 'true'
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
           DEPLOY_IV: ${{ secrets.DEPLOY_IV }}

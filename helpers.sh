@@ -80,8 +80,17 @@ export_variable() {
   local var_value=$2
   if [[ ! -z ${GITHUB_ENV} ]]; then
     echo "${var_name}=${var_value}" >> $GITHUB_ENV
+    echo "${var_name}=${var_value}" >> $GLOBAL_ENV
   else
     print_warning "...skipping export of $var_name outside GitHub Actions..."
+  fi
+}
+
+import_variables() {
+  if is_file $GLOBAL_ENV; then
+    source $GLOBAL_ENV
+  else
+    echo "No global variables to import."
   fi
 }
 
@@ -160,6 +169,10 @@ readonly BUILD_PATH="${HOME_PATH}/build"
 readonly PRODUCT_PATH="${HOME_PATH}/product"
 readonly TMP_PATH="${HOME_PATH}/tmp"
 mkdir -p "${BUILD_PATH}" "${PRODUCT_PATH}" "${TMP_PATH}"
+
+# Communicate variables beyond a single action
+readonly GLOBAL_ENV="${TMP_PATH}/global-env"
+import_variables
 
 # Assure $RUNNER_OS if not invoked from within GitHub Actions
 if [[ -z "${RUNNER_OS}" ]]; then
