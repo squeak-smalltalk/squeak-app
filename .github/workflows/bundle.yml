@@ -117,7 +117,7 @@ jobs:
   prepare-bundles:
     needs: [prepare-image]
     strategy:
-      fail-fast: true
+      fail-fast: false # Maybe make deployment extra job?
       matrix:
         smalltalk:
           - Squeak-trunk
@@ -128,7 +128,7 @@ jobs:
           # - Squeak64-5.2
           # - Etoys-trunk
           # - Etoys64-trunk
-    runs-on: macos-10.15 # fixed for xcnotary
+    runs-on: macos-10.15 # fixed version for xcnotary
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}

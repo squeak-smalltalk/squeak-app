@@ -76,7 +76,7 @@ rm -f "${VM_WIN_TARGET}/"*.map
 
 if should_codesign; then
   do_codesign "${APP_PATH}" # *.app
-  if ! is_trunk; then
+  if should_notarize; then
     do_notarize "${APP_PATH}" # *.app
   fi
 fi

@@ -54,7 +54,7 @@ compress_into_product_macOS() {
 
 if should_codesign; then
   do_codesign "${target_path}" # *.dmg
-  if ! is_trunk; then
+  if should_notarize; then
     do_notarize "${target_path}" # *.dmg
   fi
 fi

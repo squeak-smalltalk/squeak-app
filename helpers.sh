@@ -30,6 +30,11 @@ should_codesign() {
   [[ "${SHOULD_CODESIGN}" == "true" ]]
 }
 
+should_notarize() {
+  # [[ ! isTrunk ]]
+  return 0
+}
+
 readonly COLOR_RESET="\033[0m"
 readonly COLOR_LIGHT_RED="\033[1;31m"
 readonly COLOR_LIGHT_GREEN="\033[1;32m"
