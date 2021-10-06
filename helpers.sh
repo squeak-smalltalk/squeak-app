@@ -31,8 +31,8 @@ should_codesign() {
 }
 
 should_notarize() {
-  # [[ ! isTrunk ]]
-  return 0
+  [[ ! is_trunk ]]
+  # return 0
 }
 
 readonly COLOR_RESET="\033[0m"
