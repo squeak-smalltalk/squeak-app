@@ -53,8 +53,12 @@ if [[ -z "${DEPLOY_KEY}" ]]; then
   exit 1
 else
   unlock_secret "deploy" "${DEPLOY_KEY}" "${DEPLOY_IV}"
-  readonly SSH_KEY_FILEPATH="${HOME_PATH}/secret-deploy/ssh_deploy_key"
   readonly SSH_KEY_PATH="${HOME_PATH}/secret-deploy"
+  readonly SSH_KEY_FILEPATH="${SSH_KEY_PATH}/ssh_deploy_key"
+  if ! is_file "${SSH_KEY_FILEPATH}"; then
+    print_error "Cannot find ssh_deploy_key"
+    exit 1
+  fi
   chmod 600 "${SSH_KEY_FILEPATH}"
 fi
 
