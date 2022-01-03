@@ -89,13 +89,14 @@ download_and_extract_vm() {
 
   # Extraction code based on https://github.com/hpi-swa/smalltalkCI
   if [[ "${filepath}" == *".tar.gz" ]]; then
+    mkdir -p "${target}"
     tar xzf "${filepath}" -C "${target}"
   elif [[ "${filepath}" == *".zip" ]]; then
     unzip "${filepath}" -d "${target}"
   elif [[ "${filepath}" == *".dmg" ]]; then
-    readonly VOLUME=$(hdiutil attach "${filepath}" | tail -1 | awk '{print $3}')
-    cp -R "${VOLUME}/"* "${target}/"
-    diskutil unmount "${VOLUME}"
+    local volume=$(hdiutil attach "${filepath}" | tail -1 | awk '{print $3}')
+    cp -R "${volume}/"* "${target}/"
+    diskutil unmount "${volume}"
   fi
 
   rm "${filepath}"
