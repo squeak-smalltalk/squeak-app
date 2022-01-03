@@ -37,19 +37,19 @@ download_and_extract_all_vms_rc() {
 
   if is_64bit; then
     download_and_extract_vm "macOS (x64)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_macos64x64.dmg" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_macos64x64.dmg" \
       "${TMP_PATH}/${VM_MAC}"
     download_and_extract_vm "macOS (ARMv8)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_macos64ARMv8.dmg" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_macos64ARMv8.dmg" \
       "${TMP_PATH}/${VM_MAC_ARM}"
     download_and_extract_vm "Linux (x64)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux64x64.tar.gz" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux64x64.tar.gz" \
       "${TMP_PATH}/${VM_LIN}"
     download_and_extract_vm "Linux (ARMv8)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux64ARMv8.tar.gz" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux64ARMv8.tar.gz" \
       "${TMP_PATH}/${VM_LIN_ARM}"
     download_and_extract_vm "Windows (x64)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_win64x64.zip" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_win64x64.zip" \
       "${TMP_PATH}/${VM_WIN}"
 
     readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x64"
@@ -62,13 +62,13 @@ download_and_extract_all_vms_rc() {
   else # 32-bit
     echo "(No support for 32-bit macOS anymore.)"
     download_and_extract_vm "Linux (x86)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux32x86.tar.gz" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux32x86.tar.gz" \
       "${TMP_PATH}/${VM_LIN}"
     download_and_extract_vm "Linux (ARMv6)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux32ARMv6.tar.gz" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux32ARMv6.tar.gz" \
       "${TMP_PATH}/${VM_LIN_ARM}"
     download_and_extract_vm "Windows (x86)" \
-      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_win32x86.zip" \
+      "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_win32x86.zip" \
       "${TMP_PATH}/${VM_WIN}"
 
     readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x86"
