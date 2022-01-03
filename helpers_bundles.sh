@@ -22,6 +22,66 @@ download_and_extract_all_vms() {
   end_group
 }
 
+download_and_extract_all_vms_rc() {
+  begin_group "Downloading and extracting all VMs (release candidate)..."
+
+  echo "...downloading and sourcing VM versions file..."
+  # Use latest release candidate of OSVM
+  # https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/tag/202112201228
+  readonly VERSION_VM_LINUX="${VM_RC_TAG}"
+  readonly VERSION_VM_MACOS="${VM_RC_TAG}"
+  readonly VERSION_VM_WIN="${VM_RC_TAG}"
+  readonly VERSION_VM_LINUX_ARM="${VM_RC_TAG}"
+  readonly VERSION_VM_MACOS_ARM="${VM_RC_TAG}"
+  readonly VERSION_VM_WIN_ARM="n/a"
+
+  if is_64bit; then
+    download_and_extract_vm "macOS (x64)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_macos64x64.dmg" \
+      "${TMP_PATH}/${VM_MAC}"
+    download_and_extract_vm "macOS (ARMv8)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_macos64ARMv8.dmg" \
+      "${TMP_PATH}/${VM_MAC_ARM}"
+    download_and_extract_vm "Linux (x64)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux64x64.tar.gz" \
+      "${TMP_PATH}/${VM_LIN}"
+    download_and_extract_vm "Linux (ARMv8)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux64ARMv8.tar.gz" \
+      "${TMP_PATH}/${VM_LIN_ARM}"
+    download_and_extract_vm "Windows (x64)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_win64x64.zip" \
+      "${TMP_PATH}/${VM_WIN}"
+
+    readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x64"
+    readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv8"
+    readonly BUNDLE_NAME_MAC_X86_SUFFIX="macOS-x64"
+    readonly BUNDLE_NAME_MAC_ARM_SUFFIX="macOS-ARMv8"
+    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows"
+    readonly BUNDLE_NAME_WIN_ARM_SUFFIX=""
+
+  else # 32-bit
+    echo "(No support for 32-bit macOS anymore.)"
+    download_and_extract_vm "Linux (x86)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux32x86.tar.gz" \
+      "${TMP_PATH}/${VM_LIN}"
+    download_and_extract_vm "Linux (ARMv6)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_linux32ARMv6.tar.gz" \
+      "${TMP_PATH}/${VM_LIN_ARM}"
+    download_and_extract_vm "Windows (x86)" \
+      "${VM_RC_BASE}/${RC_TAG}/squeak.cog.spur_win32x86.zip" \
+      "${TMP_PATH}/${VM_WIN}"
+
+    readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x86"
+    readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv6"
+    readonly BUNDLE_NAME_MAC_X86_SUFFIX=""
+    readonly BUNDLE_NAME_MAC_ARM_SUFFIX=""
+    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows"
+    readonly BUNDLE_NAME_WIN_ARM_SUFFIX=""
+  fi
+
+  end_group
+}
+
 compress_into_product() {
   target=$1
   echo "...compressing $target..."

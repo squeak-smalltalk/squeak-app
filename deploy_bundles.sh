@@ -11,10 +11,11 @@
 #    product/*.dmg
 #    IMAGE_NAME
 #    IMAGE_BITS
-#....BUNDLE_NAME_LIN
-#....BUNDLE_NAME_MAC
-#....BUNDLE_NAME_WIN
-#....BUNDLE_NAME_ARM   ... only on 32-bit
+#....BUNDLE_NAME_MAC_X86
+#....BUNDLE_NAME_MAC_ARM
+#....BUNDLE_NAME_LIN_X86
+#....BUNDLE_NAME_LIN_ARM
+#....BUNDLE_NAME_WIN_X86
 #    DEPLOY_KEY        ... i.e., for unlocking secret files
 #    DEPLOY_IV         ... i.e., for unlocking secret files
 #    SSH_PUBLIC_KEY
@@ -38,12 +39,16 @@ source "helpers.sh"
 [[ -z "${IMAGE_NAME}" ]] && exit 2
 [[ -z "${IMAGE_BITS}" ]] && exit 3
 
-[[ -z "${BUNDLE_NAME_LIN}" ]] && exit 4
-[[ -z "${BUNDLE_NAME_MAC}" ]] && exit 5
-[[ -z "${BUNDLE_NAME_WIN}" ]] && exit 6
-
-if is_32bit; then
-  [[ -z "${BUNDLE_NAME_ARM}" ]] && exit 7
+if is_64bit; then
+  [[ -z "${BUNDLE_NAME_LIN_X86}" ]] && exit 4
+  [[ -z "${BUNDLE_NAME_MAC_X86}" ]] && exit 5
+  [[ -z "${BUNDLE_NAME_WIN_X86}" ]] && exit 6
+  [[ -z "${BUNDLE_NAME_LIN_ARM}" ]] && exit 7
+  [[ -z "${BUNDLE_NAME_MAC_ARM}" ]] && exit 8
+else
+  [[ -z "${BUNDLE_NAME_LIN_X86}" ]] && exit 9
+  [[ -z "${BUNDLE_NAME_WIN_X86}" ]] && exit 10
+  [[ -z "${BUNDLE_NAME_LIN_ARM}" ]] && exit 11
 fi
 
 begin_group "...preparing deployment..."
@@ -86,11 +91,19 @@ begin_group "...updating 'latest' symlinks on server..."
 
 LATEST_PREFIX="${UPSTREAM_BASE}/nightly/Squeak-latest-${IMAGE_BITS}bit"
 SYMS_CMD="ln -f -s ${UPSTREAM_PATH}/${IMAGE_NAME}.zip ${LATEST_PREFIX}.zip"
-SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN}.zip ${LATEST_PREFIX}-Linux.zip"
-SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_MAC}.dmg ${LATEST_PREFIX}-macOS.dmg"
-SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_WIN}.zip ${LATEST_PREFIX}-Windows.zip"
-if is_32bit; then
-  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_ARM}.zip ${LATEST_PREFIX}-ARMv6.zip"
+if is_64bit; then
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_X86}.zip ${LATEST_PREFIX}-Linux-x64.zip"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_ARM}.zip ${LATEST_PREFIX}-Linux-ARMv8.zip"
+
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_MAC_X86}.dmg ${LATEST_PREFIX}-macOS-x64.dmg"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_MAC_ARM}.dmg ${LATEST_PREFIX}-macOS-ARMv8.dmg"
+
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_WIN_X86}.zip ${LATEST_PREFIX}-Windows.zip"
+else
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_X86}.zip ${LATEST_PREFIX}-Linux-x86.zip"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_ARM}.zip ${LATEST_PREFIX}-Linux-ARMv6.zip"
+
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_WIN_X86}.zip ${LATEST_PREFIX}-Windows.zip"
 fi
 ssh -o ProxyCommand="ssh -l ${PROXY_USER} -i ${SSH_KEY_FILEPATH} -p ${PROXY_PORT} -W %h:%p ${PROXY_HOST}" \
   -l "${UPSTREAM_USER}" -i "${SSH_KEY_FILEPATH}" "${UPSTREAM_HOST}" -t "${SYMS_CMD}"

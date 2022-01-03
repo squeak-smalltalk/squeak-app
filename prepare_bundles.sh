@@ -59,7 +59,14 @@ else
 fi
 
 source "prepare_image_post.sh"
-download_and_extract_all_vms
+
+if should_use_rc_vm; then
+  # use latest release candidate from GitHub
+  # https://github.com/OpenSmalltalk/opensmalltalk-vm/releases
+  download_and_extract_all_vms_rc
+else
+  download_and_extract_all_vms
+fi
 
 if should_codesign; then
   source "helpers_codesign.sh"
@@ -67,14 +74,15 @@ if should_codesign; then
 fi
 
 prepare_image_bundle # Just .image and .changes in an archive
-source "prepare_bundle_aio.sh"
-source "prepare_bundle_macos.sh"
-source "prepare_bundle_linux.sh"
-source "prepare_bundle_windows.sh"
+# source "prepare_bundle_aio.sh"
+# source "prepare_bundle_macos.sh" # Unified binary x86+ARM
+source "prepare_bundle_macos_x86.sh"
+source "prepare_bundle_macos_arm.sh"
 
-if is_32bit; then
-  source "prepare_bundle_linux_armv6.sh"
-fi
+source "prepare_bundle_linux_x86.sh"
+source "prepare_bundle_linux_arm.sh"
+source "prepare_bundle_windows_x86.sh"
+# source "prepare_bundle_windows_arm.sh"
 
 if should_codesign; then
   cleanup_codesign

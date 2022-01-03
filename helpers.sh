@@ -35,6 +35,10 @@ should_notarize() {
   # return 0
 }
 
+should_use_rc_vm() {
+  [[ ! -z ${VM_RC_TAG} ]]
+}
+
 readonly COLOR_RESET="\033[0m"
 readonly COLOR_LIGHT_RED="\033[1;31m"
 readonly COLOR_LIGHT_GREEN="\033[1;32m"
@@ -71,14 +75,32 @@ end_group() {
 }
 
 download_and_extract_vm() {
+# Examples for $url
+#   https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/latest-build/squeak.cog.spur_win64x64.zip
+#   https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/latest-build/squeak.cog.spur_macos64x64.dmg
+#   https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/latest-build/squeak.cog.spur_linux64ARMv8.tar.gz
   local name=$1
   local url=$2 # e.g., files.squeak.org/base/Squeak-trunk/vm-win.zip
   local target=$3 # e.g., tmp/vm-win
+  local archive=$(basename "${url}")
+  local filepath="${TMP_PATH}/${archive}"
   echo "...downloading and extracting ${name} VM..."
-  curl -f -s --retry 3 -o "${TMP_PATH}/vm.zip" "${url}"
-  unzip -q "${TMP_PATH}/vm.zip" -d "${target}"
-  rm "${TMP_PATH}/vm.zip"
+  curl -f -s --retry 3 -L -o "${filepath}" "${url}"
+
+  # Extraction code based on https://github.com/hpi-swa/smalltalkCI
+  if [[ "${filepath}" == *".tar.gz" ]]; then
+    tar xzf "${filepath}" -C "${target}"
+  elif [[ "${filepath}" == *".zip" ]]; then
+    unzip "${filepath}" -d "${target}"
+  elif [[ "${filepath}" == *".dmg" ]]; then
+    readonly VOLUME=$(hdiutil attach "${filepath}" | tail -1 | awk '{print $3}')
+    cp -R "${VOLUME}/"* "${target}/"
+    diskutil unmount "${VOLUME}"
+  fi
+
+  rm "${filepath}"
 }
+
 
 export_variable() {
   local var_name=$1

@@ -2,21 +2,21 @@
 ################################################################################
 #  PROJECT: Squeak Bundle Generation
 #  FILE:    prepare_bundle_windows.sh
-#  CONTENT: Generate bundle for Windows.
+#  CONTENT: Generate bundle for Windows (x86 and x86_64).
 #
 #  AUTHORS: Fabio Niephaus, Hasso Plattner Institute, Potsdam, Germany
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
 begin_group "Creating Windows bundle for ${SMALLTALK_VERSION}..."
-BUNDLE_NAME_WIN="${IMAGE_NAME}-${VERSION_VM_WIN}-Windows"
-export_variable "BUNDLE_NAME_WIN" "${BUNDLE_NAME_WIN}"
-BUNDLE_PATH="${BUILD_PATH}/${BUNDLE_NAME_WIN}"
+BUNDLE_NAME_WIN_X86="${IMAGE_NAME}-${VERSION_VM_WIN}-${BUNDLE_NAME_WIN_X86_SUFFIX}"
+export_variable "BUNDLE_NAME_WIN_X86" "${BUNDLE_NAME_WIN_X86}"
+BUNDLE_PATH="${BUILD_PATH}/${BUNDLE_NAME_WIN_X86}"
 
 echo "...creating directories..."
 mkdir -p "${BUNDLE_PATH}"
 
-echo "...copying Windows VM..."
+echo "...copying Windows VM (x86-based)..."
 cp -R "${TMP_PATH}/${VM_WIN}/"* "${BUNDLE_PATH}"
 
 copy_resources "${BUNDLE_PATH}"
@@ -34,7 +34,7 @@ rm -f "${BUNDLE_PATH}/Squeak.ini.bak"
 # Remove .map files from $BUNDLE_PATH
 rm -f "${BUNDLE_PATH}/"*.map
 
-compress_into_product "${BUNDLE_NAME_WIN}"
+compress_into_product "${BUNDLE_NAME_WIN_X86}"
 reset_build_dir
 
 end_group

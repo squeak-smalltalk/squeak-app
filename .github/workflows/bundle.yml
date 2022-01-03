@@ -4,6 +4,7 @@ on:
   push: # Choose the branch that matches the Smalltalk version below
     branches:
       - squeak-trunk
+      - marceltaeumel/add-armv8
       # - squeak-5.3
       # - squeak-5.2
     paths-ignore:
@@ -134,6 +135,7 @@ jobs:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
       SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') }}
       SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
+      VM_RC_TAG: "202112201228" # comment out to use VM from files.squeak.org
 
     steps:
       - uses: actions/checkout@v2
