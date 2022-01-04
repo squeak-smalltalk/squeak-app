@@ -95,6 +95,7 @@ download_and_extract_vm() {
     unzip "${filepath}" -d "${target}"
   elif [[ "${filepath}" == *".dmg" ]]; then
     local volume=$(hdiutil attach "${filepath}" | tail -1 | awk '{print $3}')
+    mkdir -p "${target}"
     cp -R "${volume}/"* "${target}/"
     diskutil unmount "${volume}"
   else
