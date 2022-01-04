@@ -12,6 +12,14 @@ begin_group "Creating Linux bundle for ${SMALLTALK_VERSION}..."
 BUNDLE_NAME_LIN_X86="${IMAGE_NAME}-${VERSION_VM_LINUX}-${BUNDLE_NAME_LIN_X86_SUFFIX}"
 export_variable "BUNDLE_NAME_LIN_X86" "${BUNDLE_NAME_LIN_X86}"
 BUNDLE_PATH="${BUILD_PATH}/${BUNDLE_NAME_LIN_X86}"
+
+VM_BASE_PATH="${TMP_PATH}/${VM_LIN_X86}"
+if should_use_rc_vm; then
+  # There is an extra indirection in the OSVM builds on GitHub
+  # E.g., vm-linux/sqcogspur32linuxht/...
+  VM_BASE_PATH="${VM_BASE_PATH}/$(find * -type d | head -n 1)"
+fi
+
 VM_PATH="${BUNDLE_PATH}/bin"
 SHARED_PATH="${BUNDLE_PATH}/shared"
 
@@ -19,7 +27,8 @@ echo "...creating directories..."
 mkdir -p "${BUNDLE_PATH}" "${VM_PATH}" "${SHARED_PATH}"
 
 echo "...copying Linux VM (x86-based)..."
-cp -R "${TMP_PATH}/${VM_LIN_X86}/lib/squeak/"*/* "${VM_PATH}"
+# Note that in 'bin' is only a symlink to the actual binary in 'lib/squeak'
+cp -R "${VM_BASE_PATH}/lib/squeak/"*/* "${VM_PATH}"
 
 copy_resources "${SHARED_PATH}"
 

@@ -19,8 +19,8 @@ RESOURCES_PATH="${CONTENTS_PATH}/Resources"
 VM_MAC_TARGET="${CONTENTS_PATH}/MacOS"
 
 echo "...copying macOS VM (ARM-based)..."
-if is_dir "${TMP_PATH}/${VM_MAC_X86}/Squeak.app"; then
-  cp -R "${TMP_PATH}/${VM_MAC_X86}/Squeak.app" "${APP_PATH}"
+if is_dir "${TMP_PATH}/${VM_MAC_ARM}/Squeak.app"; then
+  cp -R "${TMP_PATH}/${VM_MAC_ARM}/Squeak.app" "${APP_PATH}"
 else
   echo "Unable to locate macOS VM." && exit 1
 fi

@@ -22,6 +22,9 @@ echo "...copying macOS VM (x86-based)..."
 if is_dir "${TMP_PATH}/${VM_MAC_X86}/Squeak.app"; then
   cp -R "${TMP_PATH}/${VM_MAC_X86}/Squeak.app" "${APP_PATH}"
 else
+  pushd "${TMP_PATH}/${VM_MAC_X86}"
+  ls -lisa
+  popd
   echo "Unable to locate macOS VM." && exit 1
 fi
 
