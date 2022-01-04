@@ -97,6 +97,8 @@ download_and_extract_vm() {
     local volume=$(hdiutil attach "${filepath}" | tail -1 | awk '{print $3}')
     cp -R "${volume}/"* "${target}/"
     diskutil unmount "${volume}"
+  else
+    echo "Unknown archive format." && exit 77
   fi
 
   rm "${filepath}"

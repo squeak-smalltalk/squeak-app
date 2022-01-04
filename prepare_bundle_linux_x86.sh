@@ -17,7 +17,9 @@ VM_BASE_PATH="${TMP_PATH}/${VM_LIN_X86}"
 if should_use_rc_vm; then
   # There is an extra indirection in the OSVM builds on GitHub
   # E.g., vm-linux/sqcogspur32linuxht/...
+  pushd ${VM_BASE_PATH}
   VM_BASE_PATH="${VM_BASE_PATH}/$(find * -type d | head -n 1)"
+  popd
 fi
 
 VM_PATH="${BUNDLE_PATH}/bin"
