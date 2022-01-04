@@ -38,10 +38,10 @@ download_and_extract_all_vms_rc() {
   if is_64bit; then
     download_and_extract_vm "macOS (x64)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_macos64x64.dmg" \
-      "${TMP_PATH}/${VM_MAC_X86}/Squeak.app"
+      "${TMP_PATH}/${VM_MAC_X86}"
     download_and_extract_vm "macOS (ARMv8)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_macos64ARMv8.dmg" \
-      "${TMP_PATH}/${VM_MAC_ARM}/Squeak.app"
+      "${TMP_PATH}/${VM_MAC_ARM}"
     download_and_extract_vm "Linux (x64)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux64x64.tar.gz" \
       "${TMP_PATH}/${VM_LIN_X86}"

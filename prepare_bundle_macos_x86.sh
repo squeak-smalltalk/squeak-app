@@ -25,16 +25,6 @@ else
   echo "Unable to locate macOS VM." && exit 1
 fi
 
-pushd "${APP_PATH}"
-ls -lisa
-popd
-pushd "${CONTENTS_PATH}"
-ls -lisa
-popd
-pushd "${RESOURCES_PATH}"
-ls -lisa
-popd
-
 copy_resources "${RESOURCES_PATH}"
 
 echo "...merging template..."
