@@ -125,17 +125,17 @@ import_variables() {
 prepare_platform_vm() {
   case $RUNNER_OS in
     "Windows")
-      readonly VM_URL="${VM_BASE}/${VM_WIN}.zip"
+      readonly VM_URL="${VM_BASE}/${VM_WIN_X86}.zip"
       readonly SMALLTALK_VM="${TMP_PATH}/vm/SqueakConsole.exe"
       # Add other GNU tools (e.g., wget) for third-party build scripts
       PATH=$PATH:/c/msys64/usr/bin
       ;;
     "Linux")
-      readonly VM_URL="${VM_BASE}/${VM_LIN}.zip"
+      readonly VM_URL="${VM_BASE}/${VM_LIN_X86}.zip"
       readonly SMALLTALK_VM="${TMP_PATH}/vm/squeak"
       ;;
     "macOS")
-      readonly VM_URL="${VM_BASE}/${VM_MAC}.zip"
+      readonly VM_URL="${VM_BASE}/${VM_MAC_X86}.zip"
       readonly SMALLTALK_VM="${TMP_PATH}/vm/Squeak.app/Contents/MacOS/Squeak"
       ;;
   esac

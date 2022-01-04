@@ -17,7 +17,7 @@ echo "...creating directories..."
 mkdir -p "${BUNDLE_PATH}"
 
 echo "...copying Windows VM (x86-based)..."
-cp -R "${TMP_PATH}/${VM_WIN}/"* "${BUNDLE_PATH}"
+cp -R "${TMP_PATH}/${VM_WIN_X86}/"* "${BUNDLE_PATH}"
 
 copy_resources "${BUNDLE_PATH}"
 

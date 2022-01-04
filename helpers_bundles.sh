@@ -10,9 +10,9 @@ download_and_extract_all_vms() {
     exit 1
   fi
 
-  download_and_extract_vm "macOS" "${VM_BASE}/${VM_MAC}.zip" "${TMP_PATH}/${VM_MAC}"
-  download_and_extract_vm "Linux" "${VM_BASE}/${VM_LIN}.zip" "${TMP_PATH}/${VM_LIN}"
-  download_and_extract_vm "Windows" "${VM_BASE}/${VM_WIN}.zip" "${TMP_PATH}/${VM_WIN}"
+  download_and_extract_vm "macOS" "${VM_BASE}/${VM_MAC_X86}.zip" "${TMP_PATH}/${VM_MAC_X86}"
+  download_and_extract_vm "Linux" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
+  download_and_extract_vm "Windows" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"
 
   # ARMv6 currently only supported on 32-bit
   if is_32bit; then
@@ -38,45 +38,45 @@ download_and_extract_all_vms_rc() {
   if is_64bit; then
     download_and_extract_vm "macOS (x64)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_macos64x64.dmg" \
-      "${TMP_PATH}/${VM_MAC}"
+      "${TMP_PATH}/${VM_MAC_X86}"
     download_and_extract_vm "macOS (ARMv8)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_macos64ARMv8.dmg" \
       "${TMP_PATH}/${VM_MAC_ARM}"
     download_and_extract_vm "Linux (x64)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux64x64.tar.gz" \
-      "${TMP_PATH}/${VM_LIN}"
+      "${TMP_PATH}/${VM_LIN_X86}"
     download_and_extract_vm "Linux (ARMv8)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux64ARMv8.tar.gz" \
       "${TMP_PATH}/${VM_LIN_ARM}"
     download_and_extract_vm "Windows (x64)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_win64x64.zip" \
-      "${TMP_PATH}/${VM_WIN}"
+      "${TMP_PATH}/${VM_WIN_X86}"
 
     readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x64"
     readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv8"
     readonly BUNDLE_NAME_MAC_X86_SUFFIX="macOS-x64"
     readonly BUNDLE_NAME_MAC_ARM_SUFFIX="macOS-ARMv8"
     readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows"
-    readonly BUNDLE_NAME_WIN_ARM_SUFFIX=""
+    readonly BUNDLE_NAME_WIN_ARM_SUFFIX="" # n/a
 
   else # 32-bit
     echo "(No support for 32-bit macOS anymore.)"
     download_and_extract_vm "Linux (x86)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux32x86.tar.gz" \
-      "${TMP_PATH}/${VM_LIN}"
+      "${TMP_PATH}/${VM_LIN_X86}"
     download_and_extract_vm "Linux (ARMv6)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_linux32ARMv6.tar.gz" \
       "${TMP_PATH}/${VM_LIN_ARM}"
     download_and_extract_vm "Windows (x86)" \
       "${VM_RC_BASE}/${VM_RC_TAG}/squeak.cog.spur_win32x86.zip" \
-      "${TMP_PATH}/${VM_WIN}"
+      "${TMP_PATH}/${VM_WIN_X86}"
 
     readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x86"
     readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv6"
-    readonly BUNDLE_NAME_MAC_X86_SUFFIX=""
-    readonly BUNDLE_NAME_MAC_ARM_SUFFIX=""
+    readonly BUNDLE_NAME_MAC_X86_SUFFIX="" # n/a for 32-bit
+    readonly BUNDLE_NAME_MAC_ARM_SUFFIX="" # n/a for 32-bit
     readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows"
-    readonly BUNDLE_NAME_WIN_ARM_SUFFIX=""
+    readonly BUNDLE_NAME_WIN_ARM_SUFFIX="" # n/a
   fi
 
   end_group

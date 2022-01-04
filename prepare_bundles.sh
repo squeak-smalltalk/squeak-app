@@ -74,10 +74,12 @@ if should_codesign; then
 fi
 
 prepare_image_bundle # Just .image and .changes in an archive
+if is_64bit; then
 # source "prepare_bundle_aio.sh"
 # source "prepare_bundle_macos.sh" # Unified binary x86+ARM
-source "prepare_bundle_macos_x86.sh"
-source "prepare_bundle_macos_arm.sh"
+  source "prepare_bundle_macos_x86.sh"
+  source "prepare_bundle_macos_arm.sh"
+fi
 
 source "prepare_bundle_linux_x86.sh"
 source "prepare_bundle_linux_arm.sh"

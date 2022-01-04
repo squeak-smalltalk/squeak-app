@@ -19,7 +19,7 @@ echo "...creating directories..."
 mkdir -p "${BUNDLE_PATH}" "${VM_PATH}" "${SHARED_PATH}"
 
 echo "...copying Linux VM (x86-based)..."
-cp -R "${TMP_PATH}/${VM_LIN}/lib/squeak/"*/* "${VM_PATH}"
+cp -R "${TMP_PATH}/${VM_LIN_X86}/lib/squeak/"*/* "${VM_PATH}"
 
 copy_resources "${SHARED_PATH}"
 
