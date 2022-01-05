@@ -67,6 +67,7 @@ if should_use_rc_vm; then
 else
   download_and_extract_all_vms
 fi
+create_unified_vm_macOS "${TMP_PATH}/${VM_MAC}" "${TMP_PATH}/${VM_MAC_ARM}" "${TMP_PATH}/${VM_MAC_X86}"
 
 if should_codesign; then
   source "helpers_codesign.sh"
@@ -75,12 +76,12 @@ fi
 
 prepare_image_bundle # Just .image and .changes in an archive
 if is_64bit; then
-# source "prepare_bundle_aio.sh"
-# source "prepare_bundle_macos.sh" # Unified binary x86+ARM
+  source "prepare_bundle_macos.sh" # Unified binary arm64+x64
   source "prepare_bundle_macos_x86.sh"
   source "prepare_bundle_macos_arm.sh"
 fi
 
+source "prepare_bundle_aio.sh"
 source "prepare_bundle_linux_x86.sh"
 source "prepare_bundle_linux_arm.sh"
 source "prepare_bundle_windows_x86.sh"

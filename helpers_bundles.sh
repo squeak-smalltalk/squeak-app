@@ -139,3 +139,77 @@ copy_resources() {
     cp -R "${TMP_PATH}/ExampleEtoys" "${target}/"
   fi
 }
+
+# Make a fat binary from a pair of VMs in
+# build.macos64{x64,ARMv8}/virtend.cog.spur/Virtend*.app
+# To choose the oldest nib the oldest deployment target (x86_64) should be last
+create_unified_vm_macOS() {
+  local MISMATCHINGNIBS=
+  local MISMATCHINGPLISTS=
+
+  readonly O="$1"
+  readonly A="$2"
+  readonly B="$3"
+
+  if [ ! -d "$A" ]; then
+    echo "$A does not exist; aborting"
+    exit 44
+  fi
+
+  if [ ! -d "$B" ]; then
+    echo "$B does not exist; aborting"
+    exit 45
+  fi
+
+  echo "merging $A \& $B into $O..."
+  mkdir -p $O
+
+  for f in `cd $A >/dev/null; find . | sed 's|^\.\/||'`; do
+    if [ -d "$A/$f" ]; then
+      mkdir -p $O/$f
+    # elif [ -L "$A/$f" ]; then
+    #   echo ln -s `readlink "$A/$f"` "$O/$f"
+    elif [ ! -f "$A/$f" ]; then
+      echo  "$A/$f does not exist; how come?"
+    elif [ ! -f "$B/$f" ]; then
+      echo  "$B/$f does not exist; how come?"
+    else
+      case `file -b "$A/$f"` in
+        Mach-O*)
+          lipo -create -output "$O/$f" "$A/$f" "$B/$f";;
+        *)
+          if cmp -s "$A/$f" "$B/$f"; then
+            cp "$A/$f" "$O/$f"
+          else
+            echo "EXCLUDING $f because it differs"
+            case "$f" in
+              *.plist)
+                MISMATCHINGPLISTS="$MISMATCHINGPLISTS $f"
+                ;;
+              *.nib)
+                MISMATCHINGNIBS="$MISMATCHINGNIBS   $f"
+                echo "using $B version"
+                cp "$B/$f" "$O/$f"
+                ;;
+            esac
+          fi
+      esac
+    fi
+  done
+
+  if [ -n "$MISMATCHINGPLISTS" ]; then
+    echo "Builds $A \& $B are NOT in perfect sync. Rebuild one or other to resolve"
+    for f in $MISMATCHINGPLISTS; do
+      echo "$f"
+      diff $A/$f $B/$f
+    done
+    exit 46
+  fi
+
+  if [ -n "$MISMATCHINGNIBS" ]; then
+    echo "Builds $A \& $B are NOT in perfect sync. ui nibs differ. Took $B\'s"
+    for f in $MISMATCHINGNIBS; do
+      echo $f
+    done
+  fi
+}
