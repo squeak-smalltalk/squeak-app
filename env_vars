@@ -5,11 +5,17 @@ readonly RELEASE_URL="${FILES_BASE}/${SMALLTALK_VERSION/Etoys/Squeak}"
 
 readonly IMAGE_URL="${RELEASE_URL}/base.zip"
 readonly VM_BASE="${RELEASE_URL}"
+readonly VM_RC_BASE="https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/"
 
-readonly VM_LIN="vm-linux"
-readonly VM_MAC="vm-macos"
-readonly VM_WIN="vm-win"
-readonly VM_ARM6="vm-armv6"
+# List the names of VM archives on files.squeak.org/base
+# E.g., vm-linux.zip
+readonly VM_LIN_X86="vm-linux"
+readonly VM_LIN_ARM="vm-linux-arm"
+readonly VM_MAC_X86="vm-macos"
+readonly VM_MAC_ARM="vm-macos-arm"
+readonly VM_MAC="vm-macos-unified"
+readonly VM_WIN_X86="vm-win"
+readonly VM_WIN_ARM="vm-win-arm"
 
 readonly ICONS_PATH="${HOME_PATH}/icons"
 readonly RELEASE_NOTES_PATH="${HOME_PATH}/release-notes"

@@ -134,6 +134,7 @@ jobs:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
       SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') }}
       SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
+      VM_RC_TAG: "202112201228" # comment out to use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }} 
 
     steps:
       - uses: actions/checkout@v2

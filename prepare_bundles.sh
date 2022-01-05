@@ -46,7 +46,7 @@ readonly TEMPLATE_PATH="${HOME_PATH}/templates"
 readonly AIO_TEMPLATE_PATH="${TEMPLATE_PATH}/all-in-one"
 readonly LIN_TEMPLATE_PATH="${TEMPLATE_PATH}/linux"
 readonly MAC_TEMPLATE_PATH="${TEMPLATE_PATH}/macos"
-readonly WIN_TEMPLATE_PATH="${TEMPLATE_PATH}/win"
+readonly WIN_TEMPLATE_PATH="${TEMPLATE_PATH}/windows"
 
 readonly LOCALE_PATH="${HOME_PATH}/locale"
 
@@ -59,7 +59,21 @@ else
 fi
 
 source "prepare_image_post.sh"
-download_and_extract_all_vms
+
+if should_use_rc_vm; then
+  # use latest release candidate from GitHub
+  # https://github.com/OpenSmalltalk/opensmalltalk-vm/releases
+  download_and_extract_all_vms_rc
+else
+  download_and_extract_all_vms
+fi
+if is_64bit; then
+  # There are no 32-bit VMs for macOS anymore.
+  begin_group "Creating unified VM for macOS..."
+  create_unified_vm_macOS "${TMP_PATH}/${VM_MAC}" "${TMP_PATH}/${VM_MAC_ARM}" "${TMP_PATH}/${VM_MAC_X86}"
+  end_group
+  readonly VERSION_VM_MACOS=${VERSION_VM_MACOS_ARM}
+fi
 
 if should_codesign; then
   source "helpers_codesign.sh"
@@ -67,14 +81,17 @@ if should_codesign; then
 fi
 
 prepare_image_bundle # Just .image and .changes in an archive
-source "prepare_bundle_aio.sh"
-source "prepare_bundle_macos.sh"
-source "prepare_bundle_linux.sh"
-source "prepare_bundle_windows.sh"
-
-if is_32bit; then
-  source "prepare_bundle_linux_armv6.sh"
+if is_64bit; then
+  source "prepare_bundle_macos.sh" # Unified binary arm64+x64
+  source "prepare_bundle_macos_x86.sh"
+  source "prepare_bundle_macos_arm.sh"
 fi
+
+source "prepare_bundle_aio.sh"
+source "prepare_bundle_linux_x86.sh"
+source "prepare_bundle_linux_arm.sh"
+source "prepare_bundle_windows_x86.sh"
+# source "prepare_bundle_windows_arm.sh"
 
 if should_codesign; then
   cleanup_codesign

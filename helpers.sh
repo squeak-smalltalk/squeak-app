@@ -31,8 +31,12 @@ should_codesign() {
 }
 
 should_notarize() {
-  [[ ! is_trunk ]]
-  # return 0
+  # [[ ! is_trunk ]]
+  return 0
+}
+
+should_use_rc_vm() {
+  [[ ! -z ${VM_RC_TAG} ]]
 }
 
 readonly COLOR_RESET="\033[0m"
@@ -71,14 +75,36 @@ end_group() {
 }
 
 download_and_extract_vm() {
+# Examples for $url
+#   https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/latest-build/squeak.cog.spur_win64x64.zip
+#   https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/latest-build/squeak.cog.spur_macos64x64.dmg
+#   https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/download/latest-build/squeak.cog.spur_linux64ARMv8.tar.gz
   local name=$1
   local url=$2 # e.g., files.squeak.org/base/Squeak-trunk/vm-win.zip
   local target=$3 # e.g., tmp/vm-win
+  local archive=$(basename "${url}")
+  local filepath="${TMP_PATH}/${archive}"
   echo "...downloading and extracting ${name} VM..."
-  curl -f -s --retry 3 -o "${TMP_PATH}/vm.zip" "${url}"
-  unzip -q "${TMP_PATH}/vm.zip" -d "${target}"
-  rm "${TMP_PATH}/vm.zip"
+  curl -f -s --retry 3 -L -o "${filepath}" "${url}"
+
+  # Extraction code based on https://github.com/hpi-swa/smalltalkCI
+  if [[ "${filepath}" == *".tar.gz" ]]; then
+    mkdir -p "${target}"
+    tar xzf "${filepath}" -C "${target}"
+  elif [[ "${filepath}" == *".zip" ]]; then
+    unzip "${filepath}" -d "${target}"
+  elif [[ "${filepath}" == *".dmg" ]]; then
+    local volume=$(hdiutil attach "${filepath}" | tail -1 | awk '{print $3}')
+    mkdir -p "${target}"
+    cp -R "${volume}/"* "${target}/"
+    diskutil unmount "${volume}"
+  else
+    echo "Unknown archive format." && exit 77
+  fi
+
+  rm "${filepath}"
 }
+
 
 export_variable() {
   local var_name=$1
@@ -102,17 +128,17 @@ import_variables() {
 prepare_platform_vm() {
   case $RUNNER_OS in
     "Windows")
-      readonly VM_URL="${VM_BASE}/${VM_WIN}.zip"
+      readonly VM_URL="${VM_BASE}/${VM_WIN_X86}.zip"
       readonly SMALLTALK_VM="${TMP_PATH}/vm/SqueakConsole.exe"
       # Add other GNU tools (e.g., wget) for third-party build scripts
       PATH=$PATH:/c/msys64/usr/bin
       ;;
     "Linux")
-      readonly VM_URL="${VM_BASE}/${VM_LIN}.zip"
+      readonly VM_URL="${VM_BASE}/${VM_LIN_X86}.zip"
       readonly SMALLTALK_VM="${TMP_PATH}/vm/squeak"
       ;;
     "macOS")
-      readonly VM_URL="${VM_BASE}/${VM_MAC}.zip"
+      readonly VM_URL="${VM_BASE}/${VM_MAC_X86}.zip"
       readonly SMALLTALK_VM="${TMP_PATH}/vm/Squeak.app/Contents/MacOS/Squeak"
       ;;
   esac
