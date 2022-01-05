@@ -44,7 +44,7 @@ echo "...applying various templates (squeak.sh)..."
 sed -i".bak" "s/%VM_NAME%/squeak/g" "${BUNDLE_PATH}/squeak.sh"
 rm -f "${BUNDLE_PATH}/squeak.sh.bak"
 
-compress_into_product "${BUNDLE_NAME_LIN_ARM}"
+compress_into_product_Linux "${BUNDLE_NAME_LIN_ARM}"
 reset_build_dir
 
 end_group

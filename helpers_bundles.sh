@@ -106,8 +106,15 @@ compress_into_product() {
   target=$1
   echo "...compressing $target..."
   pushd "${BUILD_PATH}" > /dev/null
-  # tar czf "${PRODUCT_PATH}/${target}.tar.gz" "./"
   zip -q -r "${PRODUCT_PATH}/${target}.zip" "./"
+  popd > /dev/null
+}
+
+compress_into_product_Linux() {
+  target=$1
+  echo "...compressing $target..."
+  pushd "${BUILD_PATH}" > /dev/null
+  tar czf "${PRODUCT_PATH}/${target}.tar.gz" "./"
   popd > /dev/null
 }
 
