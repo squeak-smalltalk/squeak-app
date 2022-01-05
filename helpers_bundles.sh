@@ -4,33 +4,51 @@ download_and_extract_all_vms() {
   echo "...downloading and sourcing VM versions file..."
   curl -f -s --retry 3 -o "${TMP_PATH}/vm-versions" "${VM_BASE}/${VM_VERSIONS}"
   source "${TMP_PATH}/vm-versions"
-  if [[ -z "${VERSION_VM_ARMV6}" ]] || [[ -z "${VERSION_VM_LINUX}" ]] || \
-     [[ -z "${VERSION_VM_MACOS}" ]] || [[ -z "${VERSION_VM_WIN}" ]]; then
-    print_error "...could not determine all required VM versions!"
-    exit 1
-  fi
 
-  download_and_extract_vm "macOS" "${VM_BASE}/${VM_MAC_X86}.zip" "${TMP_PATH}/${VM_MAC_X86}"
-  download_and_extract_vm "Linux" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
-  download_and_extract_vm "Windows" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"
+  if is_64bit; then
 
-  # ARMv6 currently only supported on 32-bit
-  if is_32bit; then
-    download_and_extract_vm "ARMv6" "${VM_BASE}/${VM_ARM6}.zip" "${TMP_PATH}/${VM_ARM6}"
+    if [[ -z "${VERSION_VM_LINUX_ARM}" ]] || \
+       [[ -z "${VERSION_VM_LINUX_X86}" ]] || \
+       [[ -z "${VERSION_VM_MACOS_ARM}" ]] || \
+       [[ -z "${VERSION_VM_MACOS_X86}" ]] || \
+       [[ -z "${VERSION_VM_WIN_X86}" ]]; then
+      print_error "...could not determine all required VM versions!"
+      exit 1
+    fi
+
+    download_and_extract_vm "macOS (x64)" "${VM_BASE}/${VM_MAC_X86}.zip" "${TMP_PATH}/${VM_MAC_X86}"
+    download_and_extract_vm "macOS (ARMv8)" "${VM_BASE}/${VM_MAC_ARM}.zip" "${TMP_PATH}/${VM_MAC_ARM}"
+    # unified binary will be constructed on-the-fly
+    # download_and_extract_vm "macOS (unified)" "${VM_BASE}/${VM_MAC}.zip" "${TMP_PATH}/${VM_MAC}"
+    download_and_extract_vm "Linux (x64)" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
+    download_and_extract_vm "Linux (ARMv8)" "${VM_BASE}/${VM_LIN_ARM}.zip" "${TMP_PATH}/${VM_LIN_ARM}"
+    download_and_extract_vm "Windows (x64)" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"
+  else # 32-bit
+
+    if [[ -z "${VERSION_VM_LINUX_ARM}" ]] || \
+       [[ -z "${VERSION_VM_LINUX_X86}" ]] || \
+       [[ -z "${VERSION_VM_WIN_X86}" ]]; then
+      print_error "...could not determine all required VM versions!"
+      exit 1
+    fi
+
+    download_and_extract_vm "Linux (x86)" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
+    download_and_extract_vm "Linux (ARMv6)" "${VM_BASE}/${VM_LIN_ARM}.zip" "${TMP_PATH}/${VM_LIN_ARM}"
+    download_and_extract_vm "Windows (x86)" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"    
   fi
 
   end_group
 }
 
 download_and_extract_all_vms_rc() {
-  begin_group "Downloading and extracting all VMs (release candidate)..."
+  begin_group "Downloading and extracting all VMs (RC ${VM_RC_TAG})..."
 
   echo "...downloading and sourcing VM versions file..."
   # Use latest release candidate of OSVM
   # https://github.com/OpenSmalltalk/opensmalltalk-vm/releases/tag/202112201228
-  readonly VERSION_VM_LINUX="${VM_RC_TAG}"
-  readonly VERSION_VM_MACOS="${VM_RC_TAG}"
-  readonly VERSION_VM_WIN="${VM_RC_TAG}"
+  readonly VERSION_VM_LINUX_X86="${VM_RC_TAG}"
+  readonly VERSION_VM_MACOS_X86="${VM_RC_TAG}"
+  readonly VERSION_VM_WIN_X86="${VM_RC_TAG}"
   readonly VERSION_VM_LINUX_ARM="${VM_RC_TAG}"
   readonly VERSION_VM_MACOS_ARM="${VM_RC_TAG}"
   readonly VERSION_VM_WIN_ARM="n/a"

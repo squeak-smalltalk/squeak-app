@@ -9,7 +9,7 @@
 ################################################################################
 
 begin_group "Creating Windows bundle for ${SMALLTALK_VERSION}..."
-BUNDLE_NAME_WIN_X86="${IMAGE_NAME}-${VERSION_VM_WIN}-${BUNDLE_NAME_WIN_X86_SUFFIX}"
+BUNDLE_NAME_WIN_X86="${IMAGE_NAME}-${VERSION_VM_WIN_X86}-${BUNDLE_NAME_WIN_X86_SUFFIX}"
 export_variable "BUNDLE_NAME_WIN_X86" "${BUNDLE_NAME_WIN_X86}"
 BUNDLE_PATH="${BUILD_PATH}/${BUNDLE_NAME_WIN_X86}"
 

@@ -69,7 +69,10 @@ else
 fi
 if is_64bit; then
   # There are no 32-bit VMs for macOS anymore.
+  begin_group "Creating unified VM for macOS..."
   create_unified_vm_macOS "${TMP_PATH}/${VM_MAC}" "${TMP_PATH}/${VM_MAC_ARM}" "${TMP_PATH}/${VM_MAC_X86}"
+  end_group
+  readonly VERSION_VM_MACOS=${VERSION_VM_MACOS_ARM}
 fi
 
 if should_codesign; then

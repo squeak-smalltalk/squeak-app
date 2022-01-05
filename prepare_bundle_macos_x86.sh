@@ -9,7 +9,7 @@
 ################################################################################
 
 begin_group "Creating macOS bundle for ${SMALLTALK_VERSION}..."
-BUNDLE_NAME_MAC_X86="${IMAGE_NAME}-${VERSION_VM_MACOS}-${BUNDLE_NAME_MAC_X86_SUFFIX}"
+BUNDLE_NAME_MAC_X86="${IMAGE_NAME}-${VERSION_VM_MACOS_X86}-${BUNDLE_NAME_MAC_X86_SUFFIX}"
 export_variable "BUNDLE_NAME_MAC_X86" "${BUNDLE_NAME_MAC_X86}"
 BUNDLE_ID_MAC="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-${IMAGE_BITS}bit"
 APP_NAME="${IMAGE_NAME}.app"

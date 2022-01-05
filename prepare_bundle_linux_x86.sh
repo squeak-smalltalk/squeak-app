@@ -9,7 +9,7 @@
 ################################################################################
 
 begin_group "Creating Linux bundle for ${SMALLTALK_VERSION}..."
-BUNDLE_NAME_LIN_X86="${IMAGE_NAME}-${VERSION_VM_LINUX}-${BUNDLE_NAME_LIN_X86_SUFFIX}"
+BUNDLE_NAME_LIN_X86="${IMAGE_NAME}-${VERSION_VM_LINUX_X86}-${BUNDLE_NAME_LIN_X86_SUFFIX}"
 export_variable "BUNDLE_NAME_LIN_X86" "${BUNDLE_NAME_LIN_X86}"
 BUNDLE_PATH="${BUILD_PATH}/${BUNDLE_NAME_LIN_X86}"
 
