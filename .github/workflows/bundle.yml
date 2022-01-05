@@ -4,7 +4,6 @@ on:
   push: # Choose the branch that matches the Smalltalk version below
     branches:
       - squeak-trunk
-      - marceltaeumel/add-armv8
       # - squeak-5.3
       # - squeak-5.2
     paths-ignore:
