@@ -44,10 +44,11 @@ download_and_prepare_additional_files_for_etoys() {
 }
 
 prepare_image_bundle() {
-  begin_group "Creating .image/.changes bundle for ${SMALLTALK_VERSION}..."
+  begin_group "Creating .image/.changes/.sources bundle for ${SMALLTALK_VERSION}..."
   echo "...copying files into build dir..."
   cp "${TMP_PATH}/Squeak.image" "${BUILD_PATH}/${IMAGE_NAME}.image"
   cp "${TMP_PATH}/Squeak.changes" "${BUILD_PATH}/${IMAGE_NAME}.changes"
+  cp "${TMP_PATH}/"*.sources "${target}/"
   compress_into_product "${IMAGE_NAME}"
   reset_build_dir
   end_group
