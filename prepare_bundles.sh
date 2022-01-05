@@ -67,7 +67,10 @@ if should_use_rc_vm; then
 else
   download_and_extract_all_vms
 fi
-create_unified_vm_macOS "${TMP_PATH}/${VM_MAC}" "${TMP_PATH}/${VM_MAC_ARM}" "${TMP_PATH}/${VM_MAC_X86}"
+if is_64bit; then
+  # There are no 32-bit VMs for macOS anymore.
+  create_unified_vm_macOS "${TMP_PATH}/${VM_MAC}" "${TMP_PATH}/${VM_MAC_ARM}" "${TMP_PATH}/${VM_MAC_X86}"
+fi
 
 if should_codesign; then
   source "helpers_codesign.sh"

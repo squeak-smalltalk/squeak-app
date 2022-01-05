@@ -38,19 +38,32 @@ VM_LIN_ARM_TARGET="${CONTENTS_PATH}/${VM_LIN_ARM_TARGET_NAME}"
 VM_WIN_TARGET="${CONTENTS_PATH}/${VM_WIN_TARGET_NAME}"
 # VM_WIN_ARM_TARGET="${CONTENTS_PATH}/${VM_WIN_ARM_TARGET_NAME}"
 
+VM_LIN_X86_PATH="${TMP_PATH}/${VM_LIN_X86}"
+VM_LIN_ARM_PATH="${TMP_PATH}/${VM_LIN_ARM}"
+if should_use_rc_vm; then
+  # There is an extra indirection in the OSVM builds on GitHub
+  # E.g., vm-linux/sqcogspur32linuxht/...
+  pushd ${VM_LIN_X86_PATH}
+  VM_LIN_X86_PATH="${VM_LIN_X86_PATH}/$(find * -type d | head -n 1)"
+  popd
+  pushd ${VM_LIN_ARM_PATH}
+  VM_LIN_ARM_PATH="${VM_LIN_ARM_PATH}/$(find * -type d | head -n 1)"
+  popd
+fi
+
 echo "...copying VMs into bundle..."
 if [[ "${IMAGE_BITS}" == "64" ]]; then
   cp -R "${TMP_PATH}/${VM_MAC}/Squeak.app" "${APP_PATH}" # unified binary
-  cp -R "${TMP_PATH}/${VM_LIN_X86}" "${VM_LIN_TARGET}"
-  cp -R "${TMP_PATH}/${VM_LIN_ARM}" "${VM_LIN_ARM_TARGET}"
+  cp -R "${VM_LIN_X86_PATH}" "${VM_LIN_TARGET}"
+  cp -R "${VM_LIN_ARM_PATH}" "${VM_LIN_ARM_TARGET}"
   cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
   # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
 else # 32-bit
   mkdir -p "${APP_PATH}" # no 32-bit macOS .app anymore
   mkdir -p "${CONTENTS_PATH}" # no 32-bit macOS .app anymore
   mkdir -p "${RESOURCES_PATH}" # no 32-bit macOS .app anymore
-  cp -R "${TMP_PATH}/${VM_LIN_X86}" "${VM_LIN_TARGET}"
-  cp -R "${TMP_PATH}/${VM_LIN_ARM}" "${VM_LIN_ARM_TARGET}"
+  cp -R "${VM_LIN_X86_PATH}" "${VM_LIN_TARGET}"
+  cp -R "${VM_LIN_ARM_PATH}" "${VM_LIN_ARM_TARGET}"
   cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
   # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
 fi
