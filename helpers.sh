@@ -31,8 +31,8 @@ should_codesign() {
 }
 
 should_notarize() {
-  # [[ ! is_trunk ]]
-  return 0
+  [[ ! is_trunk ]]
+  # return 0
 }
 
 should_use_rc_vm() {
