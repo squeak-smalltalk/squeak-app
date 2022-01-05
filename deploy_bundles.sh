@@ -97,8 +97,8 @@ begin_group "...updating 'latest' symlinks on server..."
 LATEST_PREFIX="${UPSTREAM_BASE}/nightly/Squeak-latest-${IMAGE_BITS}bit"
 SYMS_CMD="ln -f -s ${UPSTREAM_PATH}/${IMAGE_NAME}.zip ${LATEST_PREFIX}.zip"
 if [[ "${IMAGE_BITS}" == "64" ]]; then
-  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_X86}.zip ${LATEST_PREFIX}-Linux-x64.zip"
-  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_ARM}.zip ${LATEST_PREFIX}-Linux-ARMv8.zip"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_X86}.tar.gz ${LATEST_PREFIX}-Linux-x64.tar.gz"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_ARM}.tar.gz ${LATEST_PREFIX}-Linux-ARMv8.tar.gz"
 
   SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_MAC_X86}.dmg ${LATEST_PREFIX}-macOS-x64.dmg"
   SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_MAC_ARM}.dmg ${LATEST_PREFIX}-macOS-ARMv8.dmg"
@@ -106,8 +106,8 @@ if [[ "${IMAGE_BITS}" == "64" ]]; then
 
   SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_WIN_X86}.zip ${LATEST_PREFIX}-Windows-x64.zip"
 else
-  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_X86}.zip ${LATEST_PREFIX}-Linux-x86.zip"
-  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_ARM}.zip ${LATEST_PREFIX}-Linux-ARMv6.zip"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_X86}.tar.gz ${LATEST_PREFIX}-Linux-x86.tar.gz"
+  SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_LIN_ARM}.tar.gz ${LATEST_PREFIX}-Linux-ARMv6.tar.gz"
 
   SYMS_CMD="${SYMS_CMD} && ln -f -s ${UPSTREAM_PATH}/${BUNDLE_NAME_WIN_X86}.zip ${LATEST_PREFIX}-Windows-x86.zip"
 fi

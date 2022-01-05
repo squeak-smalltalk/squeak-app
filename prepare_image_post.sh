@@ -48,7 +48,7 @@ prepare_image_bundle() {
   echo "...copying files into build dir..."
   cp "${TMP_PATH}/Squeak.image" "${BUILD_PATH}/${IMAGE_NAME}.image"
   cp "${TMP_PATH}/Squeak.changes" "${BUILD_PATH}/${IMAGE_NAME}.changes"
-  cp "${TMP_PATH}/"*.sources "${target}/"
+  cp "${TMP_PATH}/"*.sources "${BUILD_PATH}/"
   compress_into_product "${IMAGE_NAME}"
   reset_build_dir
   end_group
