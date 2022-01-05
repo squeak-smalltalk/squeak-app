@@ -22,7 +22,7 @@ cp -R "${TMP_PATH}/${VM_WIN_X86}/"* "${BUNDLE_PATH}"
 copy_resources "${BUNDLE_PATH}"
 
 echo "...merging template..."
-cp "${AIO_TEMPLATE_PATH}/Squeak.app/Contents/Win32/Squeak.ini" "${BUNDLE_PATH}/"
+cp "${WIN_TEMPLATE_PATH}/Squeak.ini" "${BUNDLE_PATH}/"
 
 echo "...setting permissions..."
 chmod +x "${BUNDLE_PATH}/Squeak.exe"

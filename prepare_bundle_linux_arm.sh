@@ -39,6 +39,11 @@ cp "${LIN_TEMPLATE_PATH}/squeak.sh" "${BUNDLE_PATH}/"
 echo "...setting permissions..."
 chmod +x "${VM_PATH}/squeak"
 
+echo "...applying various templates (squeak.sh)..."
+# squeak.sh launcher
+sed -i".bak" "s/%VM_NAME%/squeak/g" "${BUNDLE_PATH}/squeak.sh"
+rm -f "${BUNDLE_PATH}/squeak.sh.bak"
+
 compress_into_product "${BUNDLE_NAME_LIN_ARM}"
 reset_build_dir
 

@@ -97,16 +97,7 @@ download_and_extract_vm() {
     local volume=$(hdiutil attach "${filepath}" | tail -1 | awk '{print $3}')
     mkdir -p "${target}"
     cp -R "${volume}/"* "${target}/"
-    echo "Extracted into ${target}/ from ${volume}/"
-    pushd ${volume}
-    ls -lisa
-    popd
-    pushd ${target}
-    ls -lisa
-    popd
-
     diskutil unmount "${volume}"
-
   else
     echo "Unknown archive format." && exit 77
   fi

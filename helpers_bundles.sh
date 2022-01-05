@@ -56,7 +56,7 @@ download_and_extract_all_vms_rc() {
     readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv8"
     readonly BUNDLE_NAME_MAC_X86_SUFFIX="macOS-x64"
     readonly BUNDLE_NAME_MAC_ARM_SUFFIX="macOS-ARMv8"
-    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows"
+    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows-x64"
     readonly BUNDLE_NAME_WIN_ARM_SUFFIX="" # n/a
 
   else # 32-bit
@@ -75,7 +75,7 @@ download_and_extract_all_vms_rc() {
     readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv6"
     readonly BUNDLE_NAME_MAC_X86_SUFFIX="" # n/a for 32-bit
     readonly BUNDLE_NAME_MAC_ARM_SUFFIX="" # n/a for 32-bit
-    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows"
+    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows-x86"
     readonly BUNDLE_NAME_WIN_ARM_SUFFIX="" # n/a
   fi
 

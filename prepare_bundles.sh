@@ -46,7 +46,7 @@ readonly TEMPLATE_PATH="${HOME_PATH}/templates"
 readonly AIO_TEMPLATE_PATH="${TEMPLATE_PATH}/all-in-one"
 readonly LIN_TEMPLATE_PATH="${TEMPLATE_PATH}/linux"
 readonly MAC_TEMPLATE_PATH="${TEMPLATE_PATH}/macos"
-readonly WIN_TEMPLATE_PATH="${TEMPLATE_PATH}/win"
+readonly WIN_TEMPLATE_PATH="${TEMPLATE_PATH}/windows"
 
 readonly LOCALE_PATH="${HOME_PATH}/locale"
 

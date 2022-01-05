@@ -17,45 +17,83 @@ APP_PATH="${BUILD_PATH}/${APP_NAME}"
 CONTENTS_PATH="${APP_PATH}/Contents"
 RESOURCES_PATH="${CONTENTS_PATH}/Resources"
 
-VM_ARM_TARGET="${CONTENTS_PATH}/Linux-ARM"
 if [[ "${IMAGE_BITS}" == "64" ]]; then
-  VM_LIN_TARGET="${CONTENTS_PATH}/Linux-x86_64"
+  VM_MAC_TARGET_NAME="MacOS" # unified binary
+
+  VM_LIN_TARGET_NAME="Linux-x86_64"
+  VM_LIN_ARM_TARGET_NAME="Linux-arm64"
+
+  VM_WIN_TARGET_NAME="Windows-x86_64"
+  # VM_WIN_ARM_TARGET_NAME="Win32-arm64"
 else
-  VM_LIN_TARGET="${CONTENTS_PATH}/Linux-i686"
+  VM_LIN_TARGET_NAME="Linux-i686"
+  VM_LIN_ARM_TARGET_NAME="Linux-arm"
+  VM_WIN_TARGET_NAME="Windows-x86"
+  # VM_WIN_ARM_TARGET_NAME="Win32-arm"
 fi
-VM_MAC_TARGET="${CONTENTS_PATH}/MacOS"
-VM_WIN_TARGET="${CONTENTS_PATH}/Win32"
+
+VM_MAC_TARGET="${CONTENTS_PATH}/${VM_MAC_TARGET_NAME}"
+VM_LIN_TARGET="${CONTENTS_PATH}/${VM_LIN_TARGET_NAME}"
+VM_LIN_ARM_TARGET="${CONTENTS_PATH}/${VM_LIN_ARM_TARGET_NAME}"
+VM_WIN_TARGET="${CONTENTS_PATH}/${VM_WIN_TARGET_NAME}"
+# VM_WIN_ARM_TARGET="${CONTENTS_PATH}/${VM_WIN_ARM_TARGET_NAME}"
 
 echo "...copying VMs into bundle..."
-cp -R "${TMP_PATH}/${VM_MAC}/Squeak.app" "${APP_PATH}"
-if is_32bit; then
-  cp -R "${TMP_PATH}/${VM_ARM6}" "${VM_ARM_TARGET}"
+if [[ "${IMAGE_BITS}" == "64" ]]; then
+  cp -R "${TMP_PATH}/${VM_MAC}/Squeak.app" "${APP_PATH}" # unified binary
+  cp -R "${TMP_PATH}/${VM_LIN_X86}" "${VM_LIN_TARGET}"
+  cp -R "${TMP_PATH}/${VM_LIN_ARM}" "${VM_LIN_ARM_TARGET}"
+  cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
+  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
+else # 32-bit
+  mkdir -p "${APP_PATH}" # no 32-bit macOS .app anymore
+  mkdir -p "${CONTENTS_PATH}" # no 32-bit macOS .app anymore
+  mkdir -p "${RESOURCES_PATH}" # no 32-bit macOS .app anymore
+  cp -R "${TMP_PATH}/${VM_LIN_X86}" "${VM_LIN_TARGET}"
+  cp -R "${TMP_PATH}/${VM_LIN_ARM}" "${VM_LIN_ARM_TARGET}"
+  cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
+  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
 fi
-cp -R "${TMP_PATH}/${VM_LIN}" "${VM_LIN_TARGET}"
-cp -R "${TMP_PATH}/${VM_WIN}" "${VM_WIN_TARGET}"
 
 copy_resources "${RESOURCES_PATH}"
 
 echo "...merging template..."
-cp "${AIO_TEMPLATE_PATH}/squeak.bat" "${BUILD_PATH}/"
-cp "${AIO_TEMPLATE_PATH}/squeak.sh" "${BUILD_PATH}/"
-cp "${AIO_TEMPLATE_PATH}/Squeak.app/Contents/Info.plist" "${CONTENTS_PATH}/"
+cp "${WIN_TEMPLATE_PATH}/squeak.bat" "${BUILD_PATH}/"
+cp "${LIN_TEMPLATE_PATH}/squeak.sh" "${BUILD_PATH}/"
+cp "${MAC_TEMPLATE_PATH}/Squeak.app/Contents/Info.plist" "${CONTENTS_PATH}/"
 cp "${ICONS_PATH}/${SMALLTALK_NAME}"*.icns "${RESOURCES_PATH}/"
-ENGLISH_PATH="${AIO_TEMPLATE_PATH}/Squeak.app/Contents/Resources/English.lproj"
+ENGLISH_PATH="${MAC_TEMPLATE_PATH}/Squeak.app/Contents/Resources/English.lproj"
 cp "${ENGLISH_PATH}/Credits.rtf" "${RESOURCES_PATH}/English.lproj/"
-cp "${AIO_TEMPLATE_PATH}/Squeak.app/Contents/Win32/Squeak.ini" "${VM_WIN_TARGET}/"
+cp "${WIN_TEMPLATE_PATH}/Squeak.ini" "${VM_WIN_TARGET}/"
 
 echo "...setting permissions..."
-chmod +x "${VM_LIN_TARGET}/squeak" "${VM_MAC_TARGET}/Squeak" "${VM_WIN_TARGET}/Squeak.exe" \
-    "${BUILD_PATH}/squeak.sh" "${BUILD_PATH}/squeak.bat"
+chmod +x \
+  "${BUILD_PATH}/squeak.sh" \
+  "${BUILD_PATH}/squeak.bat"
+if [[ "${IMAGE_BITS}" == "64" ]]; then
+  chmod +x \
+    "${VM_MAC_TARGET}/Squeak" \
+    "${VM_LIN_TARGET}/squeak" \
+    "${VM_LIN_ARM_TARGET}/squeak" \
+    "${VM_WIN_TARGET}/Squeak.exe"
+    # "${VM_WIN_ARM_TARGET}/Squeak.exe"
+else # 32-bit
+  chmod +x \
+    "${VM_LIN_TARGET}/squeak" \
+    "${VM_LIN_ARM_TARGET}/squeak" \
+    "${VM_WIN_TARGET}/Squeak.exe"
+    # "${VM_WIN_ARM_TARGET}/Squeak.exe"
+fi
 
 echo "...applying various templates (squeak.sh, Info.plist, etc)..."
 # squeak.bat launcher
-sed -i".bak" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_PATH}/squeak.bat"
+sed -i".bak" "s/%AIO_APP_NAME%/${APP_NAME}/g" "${BUILD_PATH}/squeak.bat"
+sed -i".bak" "s/%AIO_VM_NAME%/${VM_WIN_TARGET_NAME}\\\\Squeak.exe/g" "${BUILD_PATH}/squeak.bat"
 sed -i".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${BUILD_PATH}/squeak.bat"
 rm -f "${BUILD_PATH}/squeak.bat.bak"
 # squeak.sh launcher
-sed -i".bak" "s/%APP_NAME%/${APP_NAME}/g" "${BUILD_PATH}/squeak.sh"
+sed -i".bak" "s/%VM_NAME%/squeak/g" "${BUILD_PATH}/squeak.sh"
+sed -i".bak" "s/%AIO_APP_NAME%/${APP_NAME}/g" "${BUILD_PATH}/squeak.sh"
 sed -i".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${BUILD_PATH}/squeak.sh"
 sed -i".bak" "s/%IMAGE_BITS%/${IMAGE_BITS}/g" "${BUILD_PATH}/squeak.sh"
 rm -f "${BUILD_PATH}/squeak.sh.bak"

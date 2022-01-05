@@ -1,33 +1,50 @@
 #!/usr/bin/env bash
 # File:        squeak.sh
 # Author:      Fabio Niephaus, K K Subramaniam, Marcel Taeumel
-# Version:     2.5.1
-# Date:        2021/09/25
+# Version:     2.6.0
+# Date:        2022/01/05
 # Description: Script to launch Squeak executable from a bundle
 # usage:
 #    squeak [<vmargs>] [ *.image [ <stargs> ... ]]
 
 # extract top directory and app name from command
 ROOT=$(cd -P $(dirname "$0"); pwd)
-APP=$(basename "$0" .sh)
-readonly APP_NAME=${APP^}  # first letter uppercase
+APP="%VM_NAME%"
 
 CONF_FILEPATH="/etc/security/limits.d/${APP}.conf"
 OS=$(uname -s)
 CPU=$(uname -m)
 case "${CPU}" in
-    "x86_64") CPU="i686" ;;
-    "armv6l"|"armv7l") CPU="ARM" ;;
+    # "x86_64") ;;
+    # "i686") ;;
+    "i386") CPU="i686" ;;
+    "aarch64") ;; CPU="arm64" ;;
+    # "arm64") ;;
+    "armv6l"|"armv7l") CPU="arm" ;;
 esac
 
 if [[ -d ${ROOT}/bin ]]; then
     BINDIR="${ROOT}/bin"
     RESOURCES="${ROOT}/shared"
-else
-    # all-in-one bundle
-    appdir=$(echo ${APP_NAME}*.app/)
-    BINDIR="${appdir}/Contents/${OS}-${CPU}/"
-    RESOURCES="${appdir}/Contents/Resources/"
+else # all-in-one bundle
+    local aioAppPath="${ROOT}/%AIO_APP_NAME%"
+    BINDIR="${aioAppPath}/Contents/Linux-${CPU}/"
+    RESOURCES="${aioAppPath}/Contents/Resources/"
+    IMAGE="${RESOURCES}/%SqueakImageName%"
+    IMAGE_BITS="%IMAGE_BITS%"
+
+    if [[ "${IMAGE_BITS}" == "32" ]]; then
+        case "${CPU}" in
+            "x86_64")        
+                CPU="i686"
+                echo "Running 32-bit Squeak on a 64-bit System. install-libs32 may install them."
+                ;;
+            "arm64")
+                echo "You cannot run a 32-bit Squeak on a 64-bit ARM platform."
+                exit 1
+                ;;
+        esac
+    fi
 fi
 
 VM="${BINDIR}/${APP}"

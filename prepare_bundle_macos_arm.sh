@@ -28,9 +28,9 @@ fi
 copy_resources "${RESOURCES_PATH}"
 
 echo "...merging template..."
-cp "${AIO_TEMPLATE_PATH}/Squeak.app/Contents/Info.plist" "${CONTENTS_PATH}/"
+cp "${MAC_TEMPLATE_PATH}/Squeak.app/Contents/Info.plist" "${CONTENTS_PATH}/"
 cp "${ICONS_PATH}/${SMALLTALK_NAME}"*.icns "${RESOURCES_PATH}/"
-ENGLISH_PATH="${AIO_TEMPLATE_PATH}/Squeak.app/Contents/Resources/English.lproj"
+ENGLISH_PATH="${MAC_TEMPLATE_PATH}/Squeak.app/Contents/Resources/English.lproj"
 cp "${ENGLISH_PATH}/Credits.rtf" "${RESOURCES_PATH}/English.lproj/"
 
 echo "...setting permissions..."
