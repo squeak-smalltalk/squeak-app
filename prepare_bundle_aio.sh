@@ -62,6 +62,7 @@ else # 32-bit
   mkdir -p "${APP_PATH}" # no 32-bit macOS .app anymore
   mkdir -p "${CONTENTS_PATH}" # no 32-bit macOS .app anymore
   mkdir -p "${RESOURCES_PATH}" # no 32-bit macOS .app anymore
+  mkdir -p "${RESOURCES_PATH}/English.lproj/"
   cp -R "${VM_LIN_X86_PATH}" "${VM_LIN_TARGET}"
   cp -R "${VM_LIN_ARM_PATH}" "${VM_LIN_ARM_TARGET}"
   cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
@@ -125,10 +126,13 @@ rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 # Remove .map files from $VM_WIN_TARGET
 rm -f "${VM_WIN_TARGET}/"*.map
 
-if should_codesign; then
-  do_codesign "${APP_PATH}" # *.app
-  if should_notarize; then
-    do_notarize "${APP_PATH}" # *.app
+if [[ "${IMAGE_BITS}" == "64" ]]; then
+  # No 32-bit macOS VM anymore
+  if should_codesign; then
+    do_codesign "${APP_PATH}" # *.app
+    if should_notarize; then
+      do_notarize "${APP_PATH}" # *.app
+    fi
   fi
 fi
 
