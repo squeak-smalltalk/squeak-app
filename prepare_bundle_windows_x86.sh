@@ -23,6 +23,8 @@ copy_resources "${BUNDLE_PATH}"
 
 echo "...merging template..."
 cp "${WIN_TEMPLATE_PATH}/Squeak.ini" "${BUNDLE_PATH}/"
+cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${BUNDLE_PATH}/"
+cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${BUNDLE_PATH}/SqueakConsole.exe.manifest"
 
 echo "...setting permissions..."
 chmod +x "${BUNDLE_PATH}/Squeak.exe"

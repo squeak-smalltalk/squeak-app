@@ -79,6 +79,8 @@ cp "${ICONS_PATH}/${SMALLTALK_NAME}"*.icns "${RESOURCES_PATH}/"
 ENGLISH_PATH="${MAC_TEMPLATE_PATH}/Squeak.app/Contents/Resources/English.lproj"
 cp "${ENGLISH_PATH}/Credits.rtf" "${RESOURCES_PATH}/English.lproj/"
 cp "${WIN_TEMPLATE_PATH}/Squeak.ini" "${VM_WIN_TARGET}/"
+cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${VM_WIN_TARGET}/"
+cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${VM_WIN_TARGET}/SqueakConsole.exe.manifest"
 
 echo "...setting permissions..."
 chmod +x \
