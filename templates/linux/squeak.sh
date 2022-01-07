@@ -18,7 +18,7 @@ case "${CPU}" in
     # "x86_64") ;;
     # "i686") ;;
     "i386") CPU="i686" ;;
-    "aarch64") ;; CPU="arm64" ;;
+    "aarch64") CPU="arm64" ;;
     # "arm64") ;;
     "armv6l"|"armv7l") CPU="arm" ;;
 esac
