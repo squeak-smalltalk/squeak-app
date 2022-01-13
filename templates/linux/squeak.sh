@@ -27,7 +27,7 @@ if [[ -d ${ROOT}/bin ]]; then
     BINDIR="${ROOT}/bin"
     RESOURCES="${ROOT}/shared"
 else # all-in-one bundle
-    local aioAppPath="${ROOT}/%AIO_APP_NAME%"
+    aioAppPath="${ROOT}/%AIO_APP_NAME%"
     BINDIR="${aioAppPath}/Contents/Linux-${CPU}/"
     RESOURCES="${aioAppPath}/Contents/Resources/"
     IMAGE="${RESOURCES}/%SqueakImageName%"
@@ -69,12 +69,14 @@ while [[ -n "$1" ]]; do
 done
 
 showerror() {
-  if [[ -n "${DISPLAY}" ]] && [[ -x "$(which kdialog 2>/dev/null)" ]]; then
+  if [[ -n "${DISPLAY}" && -x "$(command -v kdialog)" ]]; then
     kdialog --error "$1"
-  elif [[ -n "${DISPLAY}" ]] && [[ -x "$(which zenity 2>/dev/null)" ]]; then
+  elif [[ -n "${DISPLAY}" && -x "$(command -v zenity)" ]]; then
     zenity --error --text "$1"
-  else
+  elif [[ -x "$(command -v dialog)" ]]; then
     dialog --msgbox "$1" 0 0
+  else
+    printf "ERROR: %s" "$1" 1>&2
   fi
 }
 
