@@ -54,8 +54,8 @@ STARGS=
 # separate vm and script arguments
 while [[ -n "$1" ]] ; do
     case "$1" in
-         *.image) IMAGE="$1"; break;;
-         *.st|*.cs) STARGS="${STARGS} $1"; break;;
+         *.image) break;;
+         *.st|*.cs) STARGS="${STARGS} $1";;
 	 --) break;;
          *) VMARGS="${VMARGS} $1";;
     esac
