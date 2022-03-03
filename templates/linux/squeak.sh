@@ -35,7 +35,7 @@ else # all-in-one bundle
 
     if [[ "${IMAGE_BITS}" == "32" ]]; then
         case "${CPU}" in
-            "x86_64")        
+            "x86_64")
                 CPU="i686"
                 echo "Running 32-bit Squeak on a 64-bit System. install-libs32 may install them."
                 ;;
@@ -54,7 +54,8 @@ STARGS=
 # separate vm and script arguments
 while [[ -n "$1" ]] ; do
     case "$1" in
-         *.image) IMAGE="$1"; break;;
+         *.image) break;;
+         *.st|*.cs) STARGS="${STARGS} $1";;
 	 --) break;;
          *) VMARGS="${VMARGS} $1";;
     esac
@@ -139,7 +140,7 @@ ensure_vm() {
 ensure_image() {
   local image_count
   # zenity is part of GNOME
-  if [[ -z "${IMAGE}" ]]; then 
+  if [[ -z "${IMAGE}" ]]; then
     image_count=$(ls "${RESOURCES}"/*.image 2>/dev/null | wc -l)
     if which zenity &>/dev/null && [[ "$image_count" -ne 1 ]]; then
       IMAGE=$(zenity --title 'Select an image' --file-selection --filename "${RESOURCES}/" --file-filter '*.image' --file-filter '*')
