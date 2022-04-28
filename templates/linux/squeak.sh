@@ -49,13 +49,13 @@ fi
 
 VM="${BINDIR}/${APP}"
 VMOPTIONS="-encoding UTF-8"
-STARGS=
+STARGS=()
 
 # separate vm and script arguments
 while [[ -n "$1" ]] ; do
     case "$1" in
          *.image) break;;
-         *.st|*.cs) STARGS="${STARGS} $1";;
+         *.st|*.cs) STARGS+=("$1");;
 	 --) break;;
          *) VMARGS="${VMARGS} $1";;
     esac
@@ -64,7 +64,7 @@ done
 while [[ -n "$1" ]]; do
     case "$1" in
          *.image) IMAGE="$1";;
-	 *) STARGS="${STARGS} $1" ;;
+	 *) STARGS+=("$1");;
     esac
     shift
 done
@@ -170,4 +170,4 @@ ensure_image
 detect_sound
 
 echo "Using ${VM} ..."
-exec ${SOUNDSERVER} "${VM}" ${VMOPTIONS} ${VMARGS} "${IMAGE}" ${STARGS}
+exec ${SOUNDSERVER} "${VM}" ${VMOPTIONS} ${VMARGS} "${IMAGE}" "${STARGS[@]}"
