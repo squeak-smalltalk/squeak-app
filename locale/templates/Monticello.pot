@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2022-05-11 14:33-0000\n"
+"PO-Revision-Date: 2022-05-11 14:33-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: Monticello\n"
+
+
+#: Monticello-Modeling,MCMethodDefinition>>printAnnotations:on:
+msgid "unknown author"
+msgstr ""
+
+#: Monticello-Repositories,MCPackageNotFound>>messageText
+msgid "{1} not found in {2}"
+msgstr ""
+
+#: Monticello-UI,MCOperationsBrowser>>filterOutUnchangedMethods
+msgid "Ignore {1} methods that only differ in timestamp?"
+msgstr ""
+
+#: Monticello-UI,MCOperationsBrowser>>revertUnchangedMethods
+msgid "Revert {1} methods that only differ in timestamp?"
+msgstr ""
+
+#: Monticello-UI,MCRepositoryInspector>>save
+msgid "Versions from the inbox should only be moved, not copied. Instead, use the web interface via source.squeak.org to manage inbox contributions.\\\\Do you want to proceed anyway?"
+msgstr ""
+
+#: Monticello-UI,MCSaveVersionDialog>>accept
+msgid "The log message is empty. Are you sure you want to commit anyway?"
+msgstr ""
+
+#: Monticello-UI,MCSaveVersionDialog>>okToClose
+msgid "Version notes are not saved.\n"
+"Is it OK to discard those notes?"
+msgstr ""
+
+#: Monticello-UI,MCSnapshotBrowser>>categoryListMenu:
+msgid "load all extension methods"
+msgstr ""
+
+#: Monticello-UI,MCSnapshotBrowser>>categoryListMenu:
+msgid "load class category {1}"
+msgstr ""
+
+#: Monticello-UI,MCSnapshotBrowser>>classListMenu:
+msgid "load class {1}"
+msgstr ""
+
+#: Monticello-UI,MCSnapshotBrowser>>classListMenu:
+msgid "load class {1} into other Environment..."
+msgstr ""
+
+#: Monticello-UI,MCSnapshotBrowser>>methodListMenu:
+msgid "load method"
+msgstr ""
+
+#: Monticello-UI,MCSnapshotBrowser>>protocolListMenu:
+msgid "load protocol '{1}'"
+msgstr ""
+
+#: Monticello-UI,MCTool>>answer:
+msgid "This modal dialog was interrupted\\and thus cannot proceed.\\\\Please close it or cancel the operation."
+msgstr ""
+
+#: Monticello-UI,MCVersionHistoryBrowser>>defaultLabel
+msgid "{1} History"
+msgstr ""
+
+#: Monticello-UI,MCVersionHistoryBrowser>>searchHistory,MCWorkingCopyBrowser>>searchHistory,MCWorkingCopyBrowser>>viewHistory
+msgid "Version History: {1}"
+msgstr ""
+
+#: Monticello-UI,MCVersionHistoryBrowser>>viewChanges:snapshot:relativeTo:snapshot:
+msgid "changes between {1} and {2}"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>addWorkingCopy
+msgid "Name of package:"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>backportChanges
+msgid "You must save the working copy before backporting."
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>checkForNewerVersions
+msgid "CAUTION! {1}:\\\\\t{2}\\\\Do you really want to save this version?"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>checkForNewerVersions
+msgid "These {1} versions in the repository may be newer"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>checkForNewerVersions
+msgid "This version in the repository may be newer"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>defaultLabel
+msgid "Monticello Browser"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>editRepository
+msgid "Must not change repository type!"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>editScript:
+msgid "{1} of the Package {2}"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>flushCachedVersions
+msgid "{1} versions flushed\\{2} bytes reclaimed"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>flushCachedVersionsAncestry
+msgid "{1} versions flushed\\{2\\ infos flushed\\{3} reclaimed"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>newRepository
+msgid "Repository type:"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>pickAncestorVersionInfo
+msgid "Ancestor:"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>pickRepositorySatisfying:
+msgid "Repository:"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>pickWorkingCopySatisfying:
+msgid "Package:"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>recompilePackage
+msgid "Recompiling..."
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>renamePackage
+msgid "New name of package:"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>renamePackage
+msgid "Only unmodified packages should be renamed."
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>renamePackage
+msgid "Please select a package to be renamed."
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>revertPackage
+msgid "No repository found for {1}"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>saveVersion
+msgid "CODE FREEZE. The new release is almost ready.\\Please do only do URGENT fixes, if any."
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>saveVersion
+msgid "FEATURE FREEZE. A new release is being prepared.\\Please do only do bugfixes, but no new features."
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>viewChanges
+msgid "No changes between your working copy of the package\\\\\t{1}\\\\ and the repository at location\\\\\t{2}"
+msgstr ""
+
+#: Monticello-UI,MCWorkingCopyBrowser>>viewChanges
+msgid "Patch Browser: {1}"
+msgstr ""
+
+#: Monticello-Versioning,MCWorkingCopy_class>>checkModified:
+msgid "Checking package {1} for changes ..."
+msgstr ""
+
+#: Tools-Base,CodeHolder>>classListMenuMonticello:,CodeHolder>>messageListMenuMonticello:
+msgid "browse revisions"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>monticelloChangeSetMenu:
+msgid "delete Monticello load change sets"
+msgstr ""
+

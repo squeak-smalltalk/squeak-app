@@ -1,0 +1,169 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2022-05-11 14:33-0000\n"
+"PO-Revision-Date: 2022-05-11 14:33-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: ReleaseBuilder\n"
+
+
+#: ReleaseBuilder,ReleaseBuilder_class>>assureReleaseRepositoryReadAccess:
+msgid "Release Builder - Manual Step Required\\\\Please create the release repository:\\{1}\\...and ensure that you have global read access to it."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>assureReleaseRepositoryWriteAccess:
+msgid "Enter password for {1}"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>assureReleaseRepositoryWriteAccess:
+msgid "Enter user for {1}"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForDirtyPackages
+msgid "Dirty Packages Found"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForDirtyPackages
+msgid "Do you want to discard all local changes?"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForDirtyPackages
+msgid "Release building canceled."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForDirtyPackages
+msgid "There are unmerged packages."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForNilCategories
+msgid "Checking for invalid categories..."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForNilCategories
+msgid "Messages with invalid categories"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForNilCategories
+msgid "There are classes or methods with invalid categories!"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForUndeclaredSymbols
+msgid "Checking for undeclared symbols..."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForUndeclaredSymbols
+msgid "Invalid Messages"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>checkForUndeclaredSymbols
+msgid "There is source code with undeclared symbols!"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>configureProjects
+msgid "MVC must be installed in the release image."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>configureProjects
+msgid "The current project is not Morphic. Please create a new Morphic project, enter it, and restart the release building process."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>copyPackagesFrom:to:depth:
+msgid "There were versions not found in the source repository."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>doNextStep
+msgid "This is a release image. Please use a trunk image to prepare the next release"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>fileOutChangesBetweenReleases
+msgid "Files written:"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>openWelcomeWorkspacesWith:
+msgid "Please choose a topic from the left sidebar."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>openWelcomeWorkspacesWith:
+msgid "Welcome to Squeak"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>recompileAll
+msgid "Do you want to make it the default in this release?"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>recompileAll
+msgid "The SistaV1 Bytecode Set Is Available"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>releaseRepository
+msgid "Could not build the release."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>requestNextReleaseVersion
+msgid "Please Choose Next Version"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>saveAsNewClean
+msgid "Prepare Clean Image"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>saveAsNewClean
+msgid "Save clean image as..."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>saveAsNewClean
+msgid "This will update and clean-up the current image,\\which is then saved under a new name.\\\\Do you want to continue?"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>saveClean
+msgid "Clean Image"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>saveClean
+msgid "This will update and clean-up the current (!) image,\\which is then saved under the same (!) name.\\\\Do you want to continue?"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>setDisplayExtent:
+msgid "[ReleaseBuilder] Failed to set display extent to: {1}. Keep {2}."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>setNewSystemVersion:
+msgid "You just changed the system version to {1}.\\Please upload the changed 'ReleaseBuilder' package to\\\\   {2}\\\\so that this version change will be official."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step1FeatureFreeze
+msgid "Do you really want to feature-freeze the trunk\\in preparation for the next release {1}?\\Bugfixes only after this."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step1FeatureFreeze
+msgid "Release Builder Step 1 of 4: Feature Freeze"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step2CodeFreeze
+msgid "Do you really want to code-freeze the trunk\\in preparation for the next release {1}?\\Urgent fixes only after this."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step3NextReleaseCandidate
+msgid "Do you want create another release candidate\\for the next release {1}?\\Urgent fixes still possible."
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step3NextReleaseCandidate
+msgid "Release Builder Step 3 of 4: Release Candidate"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step4Release
+msgid " locally"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step4Release
+msgid "Do you want release {1}{2}?"
+msgstr ""
+
+#: ReleaseBuilder,ReleaseBuilder_class>>step4Release
+msgid "Release Builder Step 4 of 4: The Release"
+msgstr ""
+
