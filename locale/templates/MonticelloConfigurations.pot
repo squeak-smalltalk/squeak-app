@@ -1,0 +1,202 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eToys\n"
+"POT-Creation-Date: 2022-05-11 14:33-0000\n"
+"PO-Revision-Date: 2022-05-11 14:33-0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Etoys-Domain: MonticelloConfigurations\n"
+
+
+#: MonticelloConfigurations,MCConfiguration>>depsSatisfying:versionDo:displayingProgress:,MCConfiguration>>depsSatisfying:versionDo:displayingProgress:
+msgid "Aborting"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>depsSatisfying:versionDo:displayingProgress:
+msgid "Could not download version {1} from {2}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>depsSatisfying:versionDo:displayingProgress:,MCConfiguration>>versionNamed:for:from:,MCConfiguration>>versionNamed:for:from:
+msgid "Downloading {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>depsSatisfying:versionDo:displayingProgress:
+msgid "Installing {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>depsSatisfying:versionDo:displayingProgress:
+msgid "Version {1} not found in any repository"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>load
+msgid "loading packages"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>merge
+msgid "merging packages"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>updateFromRepositoriesWithoutCaching,MCConfiguration>>updateFromRepositoriesWithoutCaching:,MCMcmUpdater>>updateListFor:
+msgid "Checking {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>updateFromRepositoriesWithoutCaching
+msgid "Downloading new versions ..."
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>updateFromRepositoriesWithoutCaching,MCConfiguration>>updateFromRepositoriesWithoutCaching:
+msgid "Searching new versions"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>upgrade
+msgid "upgrading packages"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfiguration>>versionNamed:for:from:
+msgid "Using cached {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>addDependency
+msgid "You must save {1} first!\n"
+"Skipping this package"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>addRepository
+msgid "Not all of these repositories support MCConfigurations."
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>changedList
+msgid "nothing selected"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>checkMissing,MCConfigurationBrowser>>checkModified
+msgid "Do you still want to store?"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>checkMissing
+msgid "No repository found for"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>checkModified
+msgid "These packages are modified:"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>checkRepositories
+msgid "(only HTTP repositories are supported)"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>checkRepositories
+msgid "Please remove these repositories:"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>checkRepositoryTemplates
+msgid "Creation template missing for"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>checkRepositoryTemplates
+msgid "Please fill in the details first!"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>completeStoreAction
+msgid "Saved {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>completeStoreAction
+msgid "The configuration does already exist in the repository you specified. If you proceed, it will be overwritten.\\\\Repository: {1}\\Configuration: {2}\\\\Do you want to proceed anyway?"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>description
+msgid "A configuration is a set of particular versions of packages.  These can be used to manage multiple dependencies amongst packages when an update requires changes to multiple packages.  One stores the current configuration and then modifies the various packages needing modification.  On load, the image will be updated to at least the versions in the current configuration, hence providing the support needed to load the new packages.\\\\To create a new configuration first load the most up-to-date configuration in your repository (e.g., {1}), open that repository in the Monticello browser, scroll down to the \"update\" package, select the first entry in the list on the right hand side and click Browse, which will open the configuration in a new MCConfigurationBrowser.  Then in the new MCConfigurationBrowser click Update, and choose \"update all from image\" from the pop-up menu.  Click Store to save back to the repository.  If required, one can add repositories to the browser to store the configuration in a different repository."
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>description:
+msgid "This does not match the previous definition!"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>enterVersionCommentAndCompleteWith:nameForRestore:
+msgid "Comment accepted"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>enterVersionCommentAndCompleteWith:nameForRestore:
+msgid "Comment for {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>enterVersionCommentAndCompleteWith:nameForRestore:
+msgid "Continue editing comment"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>enterVersionCommentAndCompleteWith:nameForRestore:
+msgid "Enter or edit a comment for {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>enterVersionCommentAndCompleteWith:nameForRestore:
+msgid "Proceed to save configuration"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>index:
+msgid "cannot select"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>pickName
+msgid "Name ({1} will be appended):"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>pickRepositorySatisfying:
+msgid "Repository:"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>pickWorkingCopiesSatisfying:
+msgid "Package:"
+msgstr ""
+
+#: MonticelloConfigurations,MCConfigurationBrowser>>pickWorkingCopiesSatisfying:
+msgid "Packages matching:"
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>doUpdate:,MCMcmUpdater>>doUpdate:upTo:
+msgid "==========  Unable to retrieve updates from remote repository. =========="
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>doUpdate:,MCMcmUpdater>>doUpdate:upTo:
+msgid "Unable to retrieve updates from remote repository."
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>logUpdateOf:previousUpdateLevel:interactive:
+msgid "==========  Update of {1} completed. =========="
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>logUpdateOf:previousUpdateLevel:interactive:
+msgid "==========  Update of {1} completed:  "
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>logUpdateOf:previousUpdateLevel:interactive:
+msgid "Update of {1} completed."
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>updateFromRepository,MCMcmUpdater>>updateFromRepository:upTo:
+msgid "Processing configurations"
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>updateFromRepository
+msgid "Processing {1}"
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>updateFromRepository:upTo:
+msgid "Processing "
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>updateMessageFor:
+msgid "(build inaccessible!)"
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater>>updateMessageFor:
+msgid "Update completed.<br><br>Version: {1}<br>Update: {3}<b>{2}</b><br><br>Url: <a href=\"{4}\">{4}</{10}><br>Map: '{5}'<br>CI status: <a href=\"{8}\"><img src=\"{7}\" /> {9}</{10}>{6}"
+msgstr ""
+
+#: MonticelloConfigurations,MCMcmUpdater_class>>defaultUpdateURL
+msgid "There is no update URL configured. Proceed to use Squeak's Trunk repository."
+msgstr ""
+

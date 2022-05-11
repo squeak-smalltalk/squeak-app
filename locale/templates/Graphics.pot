@@ -1,16 +1,23 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2012-07-28 16:04-0000\n"
-"PO-Revision-Date: 2012-07-28 16:04-0000\n"
+"POT-Creation-Date: 2022-05-11 14:33-0000\n"
+"PO-Revision-Date: 2022-05-11 14:33-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-SystemVersion: etoys5.0 of 28 July 2012 update 2409\n"
 "X-Etoys-Domain: Graphics\n"
 
+
+#: Graphics-Display_Objects,DisplayScreen>>uiScaleFactor:
+msgid "Blurry Fonts Detected"
+msgstr ""
+
+#: Graphics-Display_Objects,DisplayScreen>>uiScaleFactor:
+msgid "You are currently using <b>TrueType fonts</b>. Your requested scale factor of <b>{1}%</b> looks better using pre-rendered <b>pixel fonts</b>.<br><br>Do you want to switch to pixel fonts now?"
+msgstr ""
 
 #: Graphics-Display_Objects,Form_class>>serviceImageAsBackground
 msgid "background"
@@ -24,16 +31,8 @@ msgstr ""
 msgid "use the graphic as the background for the desktop"
 msgstr ""
 
-#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
-msgid "import all images from here and subdirectories"
-msgstr ""
-
-#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
-msgid "import subdirs"
-msgstr ""
-
-#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
-msgid "Load all graphics found in this directory and its subdirectories, adding them to the ImageImports repository."
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectory
+msgid "Load all graphics found in this directory, adding them to the ImageImports repository."
 msgstr ""
 
 #: Graphics-Display_Objects,Form_class>>serviceImageImportDirectory
@@ -44,20 +43,16 @@ msgstr ""
 msgid "import dir"
 msgstr ""
 
-#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectory
-msgid "Load all graphics found in this directory, adding them to the ImageImports repository."
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
+msgid "Load all graphics found in this directory and its subdirectories, adding them to the ImageImports repository."
 msgstr ""
 
-#: Graphics-Display_Objects,Form_class>>serviceImageImports
-msgid "import"
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
+msgid "import all images from here and subdirectories"
 msgstr ""
 
-#: Graphics-Display_Objects,Form_class>>serviceImageImports
-msgid "Load a graphic, placing it in the ImageImports repository."
-msgstr ""
-
-#: Graphics-Display_Objects,Form_class>>serviceImageImports
-msgid "read graphic into ImageImports"
+#: Graphics-Display_Objects,Form_class>>serviceImageImportDirectoryWithSubdirectories
+msgid "import subdirs"
 msgstr ""
 
 #: Graphics-Display_Objects,Form_class>>serviceOpenImageInWindow
@@ -72,63 +67,199 @@ msgstr ""
 msgid "open graphic in a window"
 msgstr ""
 
-#: Graphics-Display_Objects,Form>>setAsBackground
-msgid "set background to a picture"
+#: Graphics-Files,BMPReadWriter>>nextPutImage:
+msgid "Write failure"
 msgstr ""
 
-#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
-msgid "Bold"
+#: Graphics-Files,GIFReadWriter>>readHeader
+msgid "This does not appear to be a GIF file"
 msgstr ""
 
-#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
-msgid "Italic"
+#: Graphics-Files,GIFReadWriter_class>>grabScreenAndSaveOnDisk
+msgid "Writing {1}"
 msgstr ""
 
-#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
-msgid "Narrow"
+#: Graphics-Files,ImageReadWriter>>changePadOfBits:width:height:depth:from:to:
+msgid "Incorrect bitmap array size."
+msgstr ""
+
+#: Graphics-Files,ImageReadWriter>>changePadOfBits:width:height:depth:from:to:,ImageReadWriter>>changePadOfBits:width:height:depth:from:to:
+msgid "Invalid pad: {1}"
+msgstr ""
+
+#: Graphics-Files,ImageReadWriter>>unpackBits:depthTo8From:with:height:pad:
+msgid "depth must be 1, 2, or 4"
+msgstr ""
+
+#: Graphics-Files,ImageReadWriter>>unpackBits:depthTo8From:with:height:pad:
+msgid "pad must be 8, 16, or 32"
+msgstr ""
+
+#: Graphics-Files,ImageReadWriter_class>>formFromStream:
+msgid "image format not recognized"
+msgstr ""
+
+#: Graphics-Files,JPEGReadStream>>decodeValueFrom:
+msgid "Invalid huffman table entry"
+msgstr ""
+
+#: Graphics-Files,JPEGReadStream>>getBits:
+msgid "not enough bits available to decode"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>nextImageDitheredToDepth:
+msgid "can only dither to display depths"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseAPPn
+msgid "APP0 thumbnail length is incorrect."
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseDecoderRestartInterval
+msgid "DRI length is incorrect."
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseFirstMarker
+msgid "JFIF marker expected"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseFirstMarker
+msgid "SOI marker expected"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseHuffmanTable
+msgid "Huffman Table count is incorrect"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseHuffmanTable,JPEGReadWriter>>parseQuantizationTable
+msgid "image has more than {1} quantization tables"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseNextMarker
+msgid "marker {1} cannot be handled"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseStartOfFile
+msgid "cannot handle {1}-bit components"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseStartOfFile
+msgid "component length is incorrect"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseStartOfFile
+msgid "empty image"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>parseStartOfScan
+msgid "SOS length is incorrect"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter>>perScanSetup
+msgid "JPEG color space not recognized"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter2>>compress:quality:,JPEGReadWriter2>>nextPutImage:quality:progressiveJPEG:
+msgid "buffer too small for compressed data"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter2>>uncompress:into:doDithering:
+msgid "Cannot uncompress multi-channel JPEGs into 8-bit deep forms"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter2>>uncompress:into:doDithering:
+msgid "Cannot uncompress single-channel JPEGs into 8-bit deep forms that are not grayscale"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter2>>uncompress:into:doDithering:
+msgid "Current plugin version doesn't support uncompressing JPEGs into 8-bit deep forms"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter2>>uncompress:into:doDithering:
+msgid "Current plugin version doesn't support uncompressing JPEGs into little-endian forms"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter2>>uncompress:into:doDithering:
+msgid "Current plugin version doesn't support uncompressing JPEGs with an odd width into 16-bit deep forms"
+msgstr ""
+
+#: Graphics-Files,JPEGReadWriter2>>uncompress:into:doDithering:
+msgid "form dimensions do not match"
+msgstr ""
+
+#: Graphics-Files,PCXReadWriter>>readPalette
+msgid "no Color Palette!"
+msgstr ""
+
+#: Graphics-Files,PNGReadWriter>>nextImage
+msgid "image data is missing"
+msgstr ""
+
+#: Graphics-Files,PNGReadWriter>>processInterlaced
+msgid "Unexpected data"
+msgstr ""
+
+#: Graphics-Files,PNGReadWriter>>processNextChunk
+msgid "PNGReadWriter crc error in chunk {1}"
+msgstr ""
+
+#: Graphics-Files,PNMReadWriter>>nextImage
+msgid "Not a PNM file"
+msgstr ""
+
+#: Graphics-Files,PNMReadWriter>>nextImage
+msgid "Plain PBM, PGM or PPM have only one image"
+msgstr ""
+
+#: Graphics-Files,PNMReadWriter>>readGray
+msgid "Gray value > {1} bits not supported in Squeak"
+msgstr ""
+
+#: Graphics-Files,PNMReadWriter>>readHeader
+msgid "Pixmap > {1} bits are not supported in Squeak"
+msgstr ""
+
+#: Graphics-Files,PNMReadWriter>>readHeader
+msgid "Pixmap > {1} bits not supported in PPM"
+msgstr ""
+
+#: Graphics-Files,PNMReadWriter>>readPlainBW
+msgid "End of file reading PBM"
+msgstr ""
+
+#: Graphics-Files,PNMReadWriter>>readPlainRGB,PNMReadWriter>>readRGB
+msgid "RGB value > {1} bits not supported in Squeak"
 msgstr ""
 
 #: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
 msgid "Normal"
 msgstr ""
 
-#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
-msgid "StruckOut"
-msgstr ""
-
-#: Graphics-Fonts,AbstractFont_class>>emphasisStringFor:
-msgid "Underlined"
-msgstr ""
-
-#: Graphics-Fonts,HostFont_class>>fontNameFromUser,StrikeFont_class>>hostFontFromUser
-msgid "Choose your font"
-msgstr ""
-
-#: Graphics-Fonts,StrikeFont_class>>fromUser:allowKeyboard:
-msgid "external font"
-msgstr ""
-
-#: Graphics-Fonts,StrikeFont_class>>fromUser:allowKeyboard:,TextStyle_class>>addNewStyle:
-msgid "new size"
+#: Graphics-Fonts,StrikeFont_class>>generateDejaVuMethods:
+msgid "Generating {1}"
 msgstr ""
 
 #: Graphics-Primitives,Color>>addFillStyleMenuItems:hand:from:
 msgid "change color..."
 msgstr ""
 
-#: Graphics-Text,TextStyle_class>>addNewStyle:
-msgid "new font name"
-msgstr ""
-
-#: Graphics-Text,TextStyle_class>>emphasisMenuForFont:target:selector:highlight:
-msgid "emphasis"
-msgstr ""
-
 #: Graphics-Text,TextStyle_class>>fontSizeSummary
 msgid "Font styles and sizes"
 msgstr ""
 
-#: Graphics-Text,TextStyle>>addNewFontSizeDialog:
-msgid "Enter the point size"
+#: Graphics-Text,TextStyle_class>>fontSizeSummaryContents
+msgid "The following pre-rendered legacy fonts are still available. Note that you can only choose from the point sizes that are listed here. Each point size has a pixel size for 96 PPI. The system scales currently for {1} PPI."
+msgstr ""
+
+#: Graphics-Text,TextStyle_class>>fontSizeSummaryContents
+msgid "This page lists all known text styles and for each style's font the available point sizes. Most text fields offer the {1} where you can choose a different font or point size. Note that you can use any new point size for TrueType fonts. This is, however, not possible for our pre-rendred legacy fonts. If you need more fonts, use the {2} to import TrueType fonts from your current platform. Click {3} to browse all styles by example.\\\\"
+msgstr ""
+
+#: Graphics-Text,TextStyle_class>>fontSizeSummaryContents
+msgid "browse"
+msgstr ""
+
+#: Graphics-Text,TextStyle_class>>fontSizeSummaryContents
+msgid "explore"
 msgstr ""
 
