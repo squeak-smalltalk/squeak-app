@@ -31,7 +31,7 @@ should_codesign() {
 }
 
 should_notarize() {
-  [[ ! is_trunk ]]
+  return $(! is_trunk)
   # return 0
 }
 
