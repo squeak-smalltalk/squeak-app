@@ -23,6 +23,15 @@ download_and_extract_all_vms() {
     download_and_extract_vm "Linux (x64)" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
     download_and_extract_vm "Linux (ARMv8)" "${VM_BASE}/${VM_LIN_ARM}.zip" "${TMP_PATH}/${VM_LIN_ARM}"
     download_and_extract_vm "Windows (x64)" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"
+
+    readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x64"
+    readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv8"
+    readonly BUNDLE_NAME_MAC_SUFFIX="macOS"
+    readonly BUNDLE_NAME_MAC_X86_SUFFIX="macOS-x64"
+    readonly BUNDLE_NAME_MAC_ARM_SUFFIX="macOS-ARMv8"
+    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows-x64"
+    readonly BUNDLE_NAME_WIN_ARM_SUFFIX="" # n/a
+
   else # 32-bit
 
     if [[ -z "${VERSION_VM_LINUX_ARM}" ]] || \
@@ -34,7 +43,15 @@ download_and_extract_all_vms() {
 
     download_and_extract_vm "Linux (x86)" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
     download_and_extract_vm "Linux (ARMv6)" "${VM_BASE}/${VM_LIN_ARM}.zip" "${TMP_PATH}/${VM_LIN_ARM}"
-    download_and_extract_vm "Windows (x86)" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"    
+    download_and_extract_vm "Windows (x86)" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"
+
+    readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x86"
+    readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv6"
+    readonly BUNDLE_NAME_MAC_SUFFIX="" # n/a for 32-bit
+    readonly BUNDLE_NAME_MAC_X86_SUFFIX="" # n/a for 32-bit
+    readonly BUNDLE_NAME_MAC_ARM_SUFFIX="" # n/a for 32-bit
+    readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows-x86"
+    readonly BUNDLE_NAME_WIN_ARM_SUFFIX="" # n/a
   fi
 
   end_group
