@@ -3,15 +3,15 @@ name: Bundle
 on:
   push: # Choose the branch that matches the Smalltalk version below
     branches:
-      - squeak-trunk
-      # - squeak-5.3
+      # - squeak-trunk
+      - squeak-5.3
       # - squeak-5.2
     paths-ignore:
       - '**.md' # Skip changes in documentation artifacts
   pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
-      - squeak-trunk
-      # - squeak-5.3
+      # - squeak-trunk
+      - squeak-5.3
       # - squeak-5.2
     paths-ignore:
       - '**.md'
@@ -25,10 +25,10 @@ jobs:
       fail-fast: true
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
-          # - Squeak-5.3
-          # - Squeak64-5.3
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-5.3
+          - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
           # - Etoys-trunk
@@ -67,10 +67,10 @@ jobs:
       fail-fast: true
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
-          # - Squeak-5.3
-          # - Squeak64-5.3
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-5.3
+          - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
           # - Etoys-trunk
@@ -120,10 +120,10 @@ jobs:
       fail-fast: false # Maybe make deployment extra job?
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
-          # - Squeak-5.3
-          # - Squeak64-5.3
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-5.3
+          - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
           # - Etoys-trunk
@@ -132,8 +132,8 @@ jobs:
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
-      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') }}
-      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
+      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-5.3') }}
+      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-5.3') }}
       # VM_RC_TAG: "202205110711" # comment out to use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }} 
 
     steps:
