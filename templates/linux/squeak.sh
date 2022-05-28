@@ -27,12 +27,7 @@ if [[ -d ${ROOT}/bin ]]; then
     BINDIR="${ROOT}/bin"
     RESOURCES="${ROOT}/shared"
 else # all-in-one bundle
-    aioAppPath="${ROOT}/%AIO_APP_NAME%"
-    BINDIR="${aioAppPath}/Contents/Linux-${CPU}/"
-    RESOURCES="${aioAppPath}/Contents/Resources/"
-    IMAGE="${RESOURCES}/%SqueakImageName%"
     IMAGE_BITS="%IMAGE_BITS%"
-
     if [[ "${IMAGE_BITS}" == "32" ]]; then
         case "${CPU}" in
             "x86_64")
@@ -45,6 +40,11 @@ else # all-in-one bundle
                 ;;
         esac
     fi
+
+    aioAppPath="${ROOT}/%AIO_APP_NAME%"
+    BINDIR="${aioAppPath}/Contents/Linux-${CPU}/"
+    RESOURCES="${aioAppPath}/Contents/Resources/"
+    IMAGE="${RESOURCES}/%SqueakImageName%"
 fi
 
 VM="${BINDIR}/${APP}"
