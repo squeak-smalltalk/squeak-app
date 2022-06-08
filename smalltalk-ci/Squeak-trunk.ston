@@ -6,10 +6,8 @@ SmalltalkCISpec {
     #exclude : {
       #classes : [
         #AllocationTest,
-        #CaseErrorTest,
-        #DebuggerTests,
         #LangEnvBugs,
-        #SqueakSSLTest
+        #Win32VMTest
       ]
     }
   }
