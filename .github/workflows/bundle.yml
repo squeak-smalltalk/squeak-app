@@ -6,15 +6,17 @@ on:
       - squeak-trunk
       # - squeak-5.3
       # - squeak-5.2
-    paths-ignore:
-      - '**.md' # Skip changes in documentation artifacts
+    paths-ignore: # Skip changes in documentation artifacts
+      - '**.md'
+      - release-notes/
   pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
       - squeak-trunk
       # - squeak-5.3
       # - squeak-5.2
-    paths-ignore:
+    paths-ignore: # Skip changes in documentation artifacts
       - '**.md'
+      - release-notes/
   schedule:
     - cron: '0 0 * * *' # Build everyday at midnight
   workflow_dispatch:
@@ -134,7 +136,7 @@ jobs:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
       SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') }}
       SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
-      # VM_RC_TAG: "202205110711" # comment out to use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }} 
+      # VM_RC_TAG: "202205110711" # comment out to use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }}
 
     steps:
       - uses: actions/checkout@v2
