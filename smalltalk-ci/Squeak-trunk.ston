@@ -8,7 +8,10 @@ SmalltalkCISpec {
         #DebuggerTests,
         #LangEnvBugs,
         #Win32VMTest
-      ]
+      ],
+      #classComments : {
+        #DebuggerTests : 'generates user interrupt which would abort test execution'
+      }
     }
   }
 }
