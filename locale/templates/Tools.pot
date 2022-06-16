@@ -1,19 +1,324 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eToys\n"
-"POT-Creation-Date: 2012-07-28 16:04-0000\n"
-"PO-Revision-Date: 2012-07-28 16:04-0000\n"
+"POT-Creation-Date: 2022-05-11 14:33-0000\n"
+"PO-Revision-Date: 2022-05-11 14:33-0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Etoys-SystemVersion: etoys5.0 of 28 July 2012 update 2409\n"
 "X-Etoys-Domain: Tools\n"
 
 
+#: Graphics-Text,TextStyle>>chooseExtraGap
+msgid "Change extra leading for font\\{1}.\\Reset to default via non-number."
+msgstr ""
+
+#: Graphics-Text,TextStyle>>chooseExtraScale
+msgid "Change extra scale for glyphs of font\\{1}.\\Reset to default via non-number."
+msgstr ""
+
+#: Kernel-Models,Model>>buildMenu:withBuilders:shifted:
+msgid "<menu builder failed: {1}>"
+msgstr ""
+
+#: Kernel-Models,Model>>saveContents:accessMode:
+msgid "Save text contents in file..."
+msgstr ""
+
+#: Kernel-Models,Model>>saveContents:onFileNamed:accessMode:workBlock:
+msgid "Unknown file access mode: {1}"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "browse it (b)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "change sets with it"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "class comments with it"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "class names containing it"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "explain"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "file it in (G)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "implementors of it (m)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "method source with it"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "method strings with it (E)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "pretty print"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "pretty print with color"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "printer setup"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "references to it (N)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "save contents to file..."
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "selectors containing it (W)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "send contents to printer"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "senders of it (n)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "spawn (o)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>shiftedYellowButtonMenuItems
+msgid "special menu..."
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "accept (s)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "button for it"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "cancel (l)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "copy (c)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "copy as html"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "cut (x)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "debug it (D)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "do it (d)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "do/replace again (j)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "explore it (I)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "find again (g)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "find and replace ..."
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "inspect it (i)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "make project link (P)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "paste (v)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "paste..."
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "print it (p)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "redo (Z)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "set alignment... (u)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "set font... (k)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "set style... (K)"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "show bytecodes"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "spy on it"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "tally it"
+msgstr ""
+
+#: Kernel-Models,StringHolder_class>>yellowButtonMenuItems
+msgid "undo (z)"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Activate the \"Objects Tool\""
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Activate the Preferences tool"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Bring a Monticello window into focus."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Browse recently-logged changes"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Close the topmost window"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Decrease all font sizes"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Increase all font sizes"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Make a Change Sorter visible"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Make a File List visible"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Make a MessageNames tool visible"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Make a Recent Submissions browser visible"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Make a System Transcript visible"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Open a new System Browser"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Open a new Workspace"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Put up the \"New Morph\" menu"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Quit the image immediately."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Redraw the screen"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Save the image."
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Send the top window to the back"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Show/Hide the Main Docking Bar"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Show/Hide the classic Navigator, if appropriate"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Toggle the display of flaps"
+msgstr ""
+
+#: Morphic-Worlds,PasteUpMorph>>defaultDesktopCommandKeyTriplets
+msgid "Undo or redo the last undoable command"
+msgstr ""
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid " is used by one or more members\n"
+"in your archive, and cannot be overwritten.\n"
+"Try writing to another file name"
+msgstr ""
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Choose location to save archive"
+msgstr ""
+
+#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
+msgid "Prepended File:"
+msgstr ""
+
 #: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
 msgid "A viewer and editor for Zip archive files"
+msgstr ""
+
+#: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
+msgid "Tools"
 msgstr ""
 
 #: Tools-ArchiveViewer,ArchiveViewer_class>>descriptionForPartsBin
@@ -48,35 +353,77 @@ msgstr ""
 msgid "open zip"
 msgstr ""
 
-#: Tools-ArchiveViewer,ArchiveViewer>>openNewArchive
-msgid "Select Zip archive to open..."
+#: Tools-Base,CodeHolder>>informPossiblyCorruptSource
+msgid "There may be a problem with your sources file!\n"
+"\n"
+"The source code for every method should (usually) start with the method selector but this is not the case with this method! You may proceed with caution but it is recommended that you get a new source file.\n"
+"\n"
+"This can happen if you download the \"{1}\" file, or the \".changes\" file you use, as TEXT. It must be transfered in BINARY mode, even if it looks like a text file, to preserve the CR line ends.\n"
+"\n"
+"Mac users: This may have been caused by Stuffit Expander. To prevent the files above to be converted to Mac line ends when they are expanded, do this: Start the program, then from Preferences... in the File menu, choose the Cross Platform panel, then select \"Never\" and press OK. Then expand the compressed archive again.\n"
+"\n"
+"(Occasionally, the source code for a method may legitimately start with a non-alphabetic character -- for example, Behavior\n"
+"method #formalHeaderPartsFor:.  In such rare cases, you can happily disregard this warning.)"
 msgstr ""
 
-#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
-msgid ""
-" is used by one or more members\n"
-"in your archive, and cannot be overwritten.\n"
-"Try writing to another file name"
+#: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
+msgid "source code decompiled from byteCodes"
 msgstr ""
 
-#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
-msgid "Destination Zip File Name:"
+#: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
+msgid "the bytecodes that comprise the compiled method"
 msgstr ""
 
-#: Tools-ArchiveViewer,ArchiveViewer>>writePrependingFile
-msgid "Prepended File:"
+#: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
+msgid "the first comment in the method"
 msgstr ""
 
-#: Tools-Base,CodeHolder>>addModelItemsToWindowMenu:
-msgid "what to show..."
+#: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
+msgid "the method source presented in a standard text format"
 msgstr ""
 
-#: Tools-Base,CodeHolder>>offerWhatToShowMenu,CodeHolder>>offerWhatToShowMenu
-msgid "What to show"
+#: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
+msgid "the textual source code as written"
+msgstr ""
+
+#: Tools-Base,CodeHolder_class>>defaultContentsSymbolQuints
+msgid "the textual source diffed from its prior version"
 msgstr ""
 
 #: Tools-Base,MethodHolder>>addModelMenuItemsTo:forMorph:hand:
 msgid "whose script is this?"
+msgstr ""
+
+#: Tools-Base,StandardToolSet_class>>debugProcess:context:label:contents:fullView:
+msgid "Nothing to debug. Process has terminated.\\Expression optimized."
+msgstr ""
+
+#: Tools-Base,StandardToolSet_class>>handleWarning:
+msgid "All '{1}' warnings will be suppressed."
+msgstr ""
+
+#: Tools-Base,StandardToolSet_class>>handleWarning:
+msgid "All '{1}' warnings will be suppressed\\and reset on the next image startup."
+msgstr ""
+
+#: Tools-Base,StandardToolSet_class>>handleWarning:
+msgid "If you do not want to be interrupted anymore, you can {1} this kind of warning. You can also {2}, which resets such warnings on the next image startup."
+msgstr ""
+
+#: Tools-Base,StandardToolSet_class>>handleWarning:
+msgid "Select \"Proceed\" to continue or close this window to cancel the operation."
+msgstr ""
+
+#: Tools-Base,StandardToolSet_class>>handleWarning:
+msgid "Warning"
+msgstr ""
+
+#: Tools-Base,Workspace>>acceptContents:
+msgid "(You will not be asked again for this window. Use the window menu to revise your decision later. Disable this prompt via the system-wide #fileOutOnAccept preference.)"
+msgstr ""
+
+#: Tools-Base,Workspace>>acceptContents:
+msgid "Do you want to append the contents to\\\\\t{1}\\\\on accept so that you can safely close this window?\\\\{2}"
 msgstr ""
 
 #: Tools-Base,Workspace>>acceptDroppedMorphsWording
@@ -87,60 +434,221 @@ msgstr ""
 msgid "<yes> create textual references to dropped morphs"
 msgstr ""
 
-#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
-msgid "append contents of file..."
+#: Tools-Base,Workspace>>appendContentsToFileOnAccept
+msgid "Do you really want to change file access mode\\from #update to #append?\\\\You might corrupt data when accepting changes."
 msgstr ""
 
-#: Tools-Base,Workspace>>addModelItemsToWindowMenu:
-msgid "save contents to file..."
+#: Tools-Base,Workspace>>saveContentsInFileOnAccept
+msgid "Do you really want to change file access mode\\from #append to #update?\\\\You might lose data when accepting changes."
 msgstr ""
 
-#: Tools-Browser,Browser_class>>registerInFlapsRegistry
-msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
+#: Tools-Browser,Browser>>buildSwitchesWith:
+msgid "Cycle between definition, comment, and hierarchy view"
 msgstr ""
 
-#: Tools-Browser,Browser_class>>registerInFlapsRegistry,Browser_class>>windowColorSpecification
-msgid "Browser"
+#: Tools-Browser,Browser>>buildSwitchesWith:
+msgid "Show class-side methods"
 msgstr ""
 
-#: Tools-Browser,Browser_class>>windowColorSpecification
-msgid "The standard \"system browser\" tool that allows you to browse through all the code in the system"
+#: Tools-Browser,Browser>>buildSwitchesWith:
+msgid "Show instance-side methods"
+msgstr ""
+
+#: Tools-Browser,Browser>>dropOnMessageCategories:at:
+msgid "Classes \"{1}\" and \"{2}\" are unrelated.{3}Are you sure you want to move this method?"
+msgstr ""
+
+#: Tools-Browser,Browser>>informUnknownPackage
+msgid "The category <b>{1}</b> does not belong to a known package."
+msgstr ""
+
+#: Tools-Browser,Browser>>mainMessageListMenu:,Debugger>>mainContextStackMenu:,MessageSet>>mainMessageListMenu:
+msgid "break on entry"
+msgstr ""
+
+#: Tools-Browser,Browser>>mainPackageMenu:
+msgid "(No package found.)"
+msgstr ""
+
+#: Tools-Browser,Browser>>mainSystemCategoryMenu:
+msgid "browse package '{1}'"
 msgstr ""
 
 #: Tools-Browser,Browser>>noCommentNagString
 msgid "THIS CLASS HAS NO COMMENT!"
 msgstr ""
 
-#: Tools-Browser,MessageNames_class>>windowColorSpecification
-msgid "A tool finding, viewing, and editing all methods whose names contiane a given character sequence."
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry
+msgid "A Browser is a tool that allows you to view all the code of all the classes in the system"
 msgstr ""
 
-#: Tools-Browser,MessageNames_class>>windowColorSpecification
-msgid "Message Names"
+#: Tools-Browser,Browser_class>>registerInFlapsRegistry
+msgid "Browser"
 msgstr ""
 
-#: Tools-Browser,MessageSet_class>>windowColorSpecification
-msgid "A list of messages (e.g. senders, implementors)"
+#: Tools-Browser,DependencyBrowser>>buildClassDepsWith:
+msgid "Required classes"
 msgstr ""
 
-#: Tools-Browser,MessageSet_class>>windowColorSpecification
-msgid "Message List"
+#: Tools-Browser,DependencyBrowser>>buildClassListWith:
+msgid "Client classes"
 msgstr ""
 
-#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
-msgid "A system browser with an extra pane at top-left for module."
+#: Tools-Browser,DependencyBrowser>>buildMessageListWith:
+msgid "Client methods"
 msgstr ""
 
-#: Tools-Browser,PackagePaneBrowser_class>>windowColorSpecification
-msgid "Package Browser"
+#: Tools-Browser,DependencyBrowser>>buildPackageDepsWith:
+msgid "Required Packages"
 msgstr ""
 
-#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
-msgid "A tool for finding methods by giving sample arguments and values."
+#: Tools-Browser,DependencyBrowser>>buildPackageListWith:
+msgid "Packages"
 msgstr ""
 
-#: Tools-Browser,SelectorBrowser_class>>windowColorSpecification
-msgid "Method Finder"
+#: Tools-Browser,DependencyBrowser>>classDepsList,DependencyBrowser>>packageDepsList
+msgid " (defs only)"
+msgstr ""
+
+#: Tools-Browser,DependencyBrowser>>classDepsList,DependencyBrowser>>packageDepsList
+msgid " *exts only"
+msgstr ""
+
+#: Tools-Browser,DependencyBrowser>>classList
+msgid " (class definition)"
+msgstr ""
+
+#: Tools-Browser,DependencyBrowser>>classList
+msgid "*extensions"
+msgstr ""
+
+#: Tools-Browser,DependencyBrowser>>contents:notifying:
+msgid "unacceptable accept"
+msgstr ""
+
+#: Tools-Browser,DependencyBrowser>>messageList,DependencyBrowser>>selectedClassName
+msgid "(class definition)"
+msgstr ""
+
+#: Tools-Browser,DependencyBrowser_class>>openInvertedOn:
+msgid "Dependency Browser (inverted on {1})"
+msgstr ""
+
+#: Tools-Browser,DependencyBrowser_class>>openOn:
+msgid "Dependency Browser (on selected packages)"
+msgstr ""
+
+#: Tools-Browser,MessageNames>>buildSearchPaneWith:
+msgid "Type here, then hit Search."
+msgstr ""
+
+#: Tools-Browser,MessageTrace>>removeMessage
+msgid "Are you certain you want to remove all the {1} selected methods from the image?"
+msgstr ""
+
+#: Tools-Browser,SelectorBrowser>>labelString
+msgid "Selector Browser"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>acceptFrom:
+msgid "You can only accept this version as-is.\n"
+"If you want to edit, copy the text to a browser"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>browseAllVersionsOfSelections,ChangeList>>browseCurrentVersionsOfSelections
+msgid "no selected methods have in-memory counterparts"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>browseCurrentVersionsOfSelections
+msgid "Current versions of selected methods in {1}"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>compareToCurrentSource:
+msgid "Comparison to Current Version"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>compareToCurrentSource:,VersionsBrowser>>compareToOtherVersion
+msgid "Exact Match"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>contents:
+msgid "This is a view of a method on a file.\\Please cancel your changes.  You may\\accept, but only when the method is untouched."
+msgstr ""
+
+#: Tools-Changes,ChangeList>>destroyCurrentCodeOfSelections
+msgid "Warning! This will actually remove {1} method(s) from the system!"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>fileInSelections
+msgid "nothing selected, so nothing done"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>fileOutSelections
+msgid "Enter the base of file name"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>fileOutSelections
+msgid "Filename"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>mainChangeListMenu:
+msgid "change list"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>removeNonSelections
+msgid "That would remove everything.\n"
+"Why would you want to do that?"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>scanFile:from:to:
+msgid "Scanning {1}..."
+msgstr ""
+
+#: Tools-Changes,ChangeList>>scanFile:from:to:
+msgid "\\\\Proceed to try the legacy MacRoman encoding."
+msgstr ""
+
+#: Tools-Changes,ChangeList>>selectContentsMatching
+msgid "pattern to match"
+msgstr ""
+
+#: Tools-Changes,ChangeList>>selectSuchThat
+msgid "selection criteria for a change named aChangeRecord?\\For instance, \"{1}\""
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseMethodVersions
+msgid "Parsing source code at {1}..."
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseMethodVersions:
+msgid "All local versions for {1}"
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseMethodVersions:
+msgid "Recover method versions"
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseRecent:on:
+msgid "Recent changes"
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseRecentLogOn:
+msgid "File {1} does not appear to be a changes file"
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseRecentLogOn:startingFrom:
+msgid "Browse as far back as..."
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseRecentLogOn:startingFrom:
+msgid "this image has never been saved\n"
+"since changes were compressed"
+msgstr ""
+
+#: Tools-Changes,ChangeList_class>>browseStream:
+msgid "The file {1}\n"
+"is really long ({2} characters).\n"
+"Would you prefer to view only the last million characters?"
 msgstr ""
 
 #: Tools-Changes,ChangeList_class>>serviceBrowseChangeFile,ChangeList_class>>serviceBrowseCompressedChangeFile
@@ -167,100 +675,660 @@ msgstr ""
 msgid "recent changes in file"
 msgstr ""
 
-#: Tools-Changes,ChangeList_class>>windowColorSpecification
-msgid "A tool that presents a list of all the changes found in an external file."
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "add postscript..."
 msgstr ""
 
-#: Tools-Changes,ChangeList_class>>windowColorSpecification
-msgid "Change List"
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:
+msgid "add preamble..."
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:
+msgid "browse methods"
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:
+msgid "destroy change set"
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "edit postscript..."
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:
+msgid "edit preamble..."
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:
+msgid "file out"
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:
+msgid "make changes go to me"
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:,FileList>>serviceAllFileOptions,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:,StringHolder_class>>shiftedYellowButtonMenuItems,StringHolder_class>>yellowButtonMenuItems
+msgid "more..."
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "remove postscript"
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "remove preamble"
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:
+msgid "rename change set"
+msgstr ""
+
+#: Tools-Changes,ChangeSetBrowser>>addModelItemsToWindowMenu:,CodeHolder>>addModelItemsToWindowMenu:
+msgid "what to show..."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>addPriorVersionsCountForSelector:ofClass:to:
+msgid "no prior versions"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>addPriorVersionsCountForSelector:ofClass:to:
+msgid "version(s) retrievable here"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>browseMethodConflicts
+msgid "Methods in \"{1}\" that are also in other change sets ({2})"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>browseMethodConflicts
+msgid "No other change set has changes\n"
+"for any method in this change set."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForDropInClassCats:
+msgid " Drops any changes in given class categories"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForDropInClassCats:
+msgid "remove contained in class categories..."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForModification:
+msgid "Applies a standard reordering of all change-sets in the system -- at the bottom will come the sets that come with the release; next will come all the numbered updates; finally, at the top, will come all other change sets"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForModification:
+msgid "Load a fileout from disk and place its changes into a new change set (seldom needed -- much better to do this from a file-list browser these days.)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForModification:
+msgid "file into new..."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForModification:
+msgid "reorder all change sets"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForOpposite:
+msgid "Browse all methods that occur both in this change set and in the one on the opposite side of the change sorter."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForOpposite:
+msgid "conflicts with change set opposite"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForPromote:
+msgid "Make this change set appear first in change-set lists in all change sorters."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>changeSetMenuForPromote:
+msgid "promote to top of list"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
+msgid "This command requires that the\n"
+"change sets selected on the two\n"
+"sides of the change sorter *not*\n"
+"be the same."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>clearChangeSet
+msgid "Are you certain that you want to\\forget all the changes in this set?"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>contents:notifying:
+msgid "Part of the preamble is not within double-quotes.\n"
+"To put a double-quote inside a comment, type two double-quotes in a row.\n"
+"(Ignore this warning if you are including a doIt in the preamble.)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>contents:notifying:
+msgid "unmatched double quotes in preamble"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>findCngSet
+msgid "ChangeSet name or fragment?"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>goToChangeSetsProject
+msgid "Has no project"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>inspectChangeSet
+msgid "Change set: {1}"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>labelString
+msgid "ChangeSet: {1}"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>labelString,DualChangeSorter>>labelString
+msgid "Changes go to \"{1}\""
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>mainClassListMenu:,ChangeSorter>>shiftedClassListMenu:
+msgid "class list"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>methodConflictsWithOtherSide
+msgid "Methods in \"{1}\" that are also in {2} ({3})"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>methodConflictsWithOtherSide
+msgid "There are no methods that appear\n"
+"both in this change set and\n"
+"in the one on the other side."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>packageNoteForClass:selector:
+msgid "<class was deleted???>"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>removeContainedInClassCategories
+msgid "Enter class category name (wildcard is ok)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>removePostscript
+msgid "Cannot remove the postscript right\n"
+"now because there is at least one\n"
+"window open on that postscript.\n"
+"Close that window and try again."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>removePrompting:
+msgid "Are you certain that you want to \n"
+"remove (destroy) the change set\n"
+"named  \"{1}\" ?"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>removePrompting:
+msgid "Caution!  This change set has\n"
+"{1} which will be\n"
+"lost if you destroy the change set.\n"
+"Do you really want to go ahead with this?"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>removePrompting:
+msgid "a postscript"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>removePrompting:
+msgid "a preamble"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>removePrompting:
+msgid "a preamble and a postscript"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>rename
+msgid "New name for this change set"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>rename
+msgid "Sorry that name is already used"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Added then removed (see versions)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Class definition was added."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Class definition was changed."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Class name was changed."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Class organization was changed."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Class was added then removed."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Entire class was removed."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "Method has been removed (see versions)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents,ChangeSorter>>setContents
+msgid "Method was added, but cannot be found!"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setContents
+msgid "New class comment."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>setRecentUpdatesMarker
+msgid "Enter the lowest change-set number\n"
+"that you wish to consider \"recent\"?\n"
+"(note: highest change-set number\n"
+"in this image at this time is {1})"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid " Drops any methods added and then removed, as well as renaming and reorganization of newly-added classes.  NOTE: can cause confusion if later filed in over an earlier version of these changes"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Attempt to uninstall this change set. CAUTION: this may not work completely and is irreversible!"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Browse all methods that occur both in this change set and in at least one other change set."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Change set (shifted)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Check for classes with code in this changeset which lack class comments"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Check this change set for halts and references to Transcript."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Check this change set for messages that are not sent anywhere in the system"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Check this change set for methods any of whose authoring stamps do not start with \"{1}\""
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Check this change set for methods that do not have comments"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Check this change set for methods whose current authoring stamp does not start with \"{1}\""
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Check to see if any methods in the selected change set have not yet been assigned to a category.  If any are found, open a browser on them."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "If this change set is currently associated with a Project, go to that project right now."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Open an inspector on this change set. (There are some details in a change set which you don't see in a change sorter.)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Remove from the change set all memory of uniclasses, e.g. classes added on behalf of etoys, fabrik, etc., whose classnames end with a digit."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Reset this change set to a pristine state where it holds no information. CAUTION: this is destructive and irreversible!"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "Update the display for this change set.  (This is done automatically when you activate this window, so is seldom needed.)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "check for any other authors"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "check for other authors"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "check for slips"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "check for uncategorized methods"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "check for uncommented classes"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "check for uncommented methods"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "check for unsent messages"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "clear this change set"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "conflicts with other change sets"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "expunge uniclasses"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "go to change set's project"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "inspect change set"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "trim history"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "uninstall this change set"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>shiftedChangeSetMenu:
+msgid "update"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>submergeIntoOtherSide
+msgid "Both sides are the same!"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>submergeIntoOtherSide
+msgid "Caution!  This change set has a preamble or\n"
+"a postscript or both.  If you submerge it into\n"
+"the other side, these will be lost.\n"
+"Do you really want to go ahead with this?"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>submergeIntoOtherSide
+msgid "Nothing to copy.  To remove,\n"
+"simply choose \"remove\"."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>submergeIntoOtherSide
+msgid "Please confirm:  copy all changes\n"
+"in \"{1}\" into \"{2}\"\n"
+"and then destroy the change set\n"
+"named \"{3}\"?"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:,ChangeSorter_class>>registerInFlapsRegistry
+msgid "Change Set"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "Change Set:\n"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "add preamble... (p)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "browse change set (B)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "browse methods (b)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "copy all to other side (c)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "destroy change set (x)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "edit preamble... (p)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "file out (o)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:,StringHolder_class>>yellowButtonMenuItems
+msgid "find...(f)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "mail to list"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "make changes go to me (m)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "new change set... (n)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "rename change set (r)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "select change set..."
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "submerge into other side"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedChangeSetMenu:
+msgid "subtract other side (-)"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter>>unshiftedMessageMenu:
+msgid "message list"
+msgstr ""
+
+#: Tools-Changes,ChangeSorter_class>>browseChangeSetsWithClass:selector:,ChangeSorter_class>>browseChangeSetsWithSelector:
+msgid "{1}\\is not in any change set"
 msgstr ""
 
 #: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
 msgid "A tool that allows you to view and manipulate all the code changes in a single change set"
 msgstr ""
 
-#: Tools-Changes,ChangeSorter_class>>registerInFlapsRegistry
-msgid "Change Set"
+#: Tools-Changes,ChangesOrganizer_class>>fileOutChangeSetsNamed:
+msgid "{1} change set(s) filed out"
 msgstr ""
 
-#: Tools-Changes,ChangeSorter_class>>removeEmptyUnnamedChangeSets
-msgid "Unnamed"
+#: Tools-Changes,ChangesOrganizer_class>>fileOutChangeSetsNamed:
+msgid "{1} change set(s) not found:"
 msgstr ""
 
-#: Tools-Changes,ChangeSorter_class>>windowColorSpecification
-msgid "A tool that lets you see the code for one change set at a time."
+#: Tools-Changes,ChangesOrganizer_class>>fileOutChangeSetsNamed:
+msgid "{1} change set(s) were empty:"
 msgstr ""
 
-#: Tools-Changes,ChangeSorter_class>>windowColorSpecification,DualChangeSorter_class>>registerInFlapsRegistry
+#: Tools-Changes,ChangesOrganizer_class>>mostRecentChangeSetWithChangeForClass:selector:
+msgid "not in any change set"
+msgstr ""
+
+#: Tools-Changes,ChangesOrganizer_class>>mostRecentChangeSetWithChangeForClass:selector:
+msgid "recent cs: {1}"
+msgstr ""
+
+#: Tools-Changes,ChangesOrganizer_class>>newChangeSet
+msgid "Please name the new change set:"
+msgstr ""
+
+#: Tools-Changes,ChangesOrganizer_class>>removeEmptyUnnamedChangeSets
+msgid "{1} change set(s) removed."
+msgstr ""
+
+#: Tools-Changes,ClassCommentVersionsBrowser>>offerVersionsHelp
+msgid "Class Comment Versions Browsers"
+msgstr ""
+
+#: Tools-Changes,ClassCommentVersionsBrowser>>scanVersionsOf:
+msgid "<historical>"
+msgstr ""
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>browseCommentOf:,VersionsBrowser_class>>browseVersionsOf:class:meta:category:selector:lostMethodPointer:
+msgid "No versions available"
+msgstr ""
+
+#: Tools-Changes,ClassCommentVersionsBrowser_class>>browseCommentOf:
+msgid "Recent versions of {1}'s comments"
+msgstr ""
+
+#: Tools-Changes,DualChangeSorter_class>>registerInFlapsRegistry
 msgid "Change Sorter"
-msgstr ""
-
-#: Tools-Changes,ChangeSorter>>checkThatSidesDiffer:
-msgid ""
-"This command requires that the\n"
-"change sets selected on the two\n"
-"sides of the change sorter *not*\n"
-"be the same."
-msgstr ""
-
-#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
-msgid "A tool for viewing prior versions of a class comment."
-msgstr ""
-
-#: Tools-Changes,ClassCommentVersionsBrowser_class>>windowColorSpecification
-msgid "Class Comment Versions Browser"
 msgstr ""
 
 #: Tools-Changes,DualChangeSorter_class>>registerInFlapsRegistry
 msgid "Shows two change sets side by side"
 msgstr ""
 
-#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
-msgid "Dual Change Sorter"
+#: Tools-Changes,VersionsBrowser>>addPriorVersionsCountForSelector:ofClass:to:
+msgid "Deleted - one prior version"
 msgstr ""
 
-#: Tools-Changes,DualChangeSorter_class>>windowColorSpecification
-msgid "Lets you view and manipulate two change sets concurrently."
-msgstr ""
-
-#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
-msgid "A tool for viewing prior versions of a method."
-msgstr ""
-
-#: Tools-Changes,VersionsBrowser_class>>windowColorSpecification
-msgid "Versions Browser"
+#: Tools-Changes,VersionsBrowser>>addPriorVersionsCountForSelector:ofClass:to:
+msgid "surprisingly, no prior versions"
 msgstr ""
 
 #: Tools-Changes,VersionsBrowser>>compareToOtherVersion
 msgid "Comparison from {1} to {2}"
 msgstr ""
 
-#: Tools-Changes,VersionsBrowser>>compareToOtherVersion
-msgid "Exact Match"
+#: Tools-Changes,VersionsBrowser>>fileOutSelection
+msgid "single version not selected, so nothing done"
+msgstr ""
+
+#: Tools-Changes,VersionsBrowser>>findOriginalChangeSet
+msgid "This version is in the .sources file."
+msgstr ""
+
+#: Tools-Changes,VersionsBrowser>>findOriginalChangeSet
+msgid "This version was not found in any changeset nor in the .sources file."
 msgstr ""
 
 #: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
 msgid "{1} (in {2})"
 msgstr ""
 
-#: Tools-Changes,VersionsBrowser>>versionsMenu:
+#: Tools-Changes,VersionsBrowser>>scanVersionsOf:class:meta:category:selector:
+msgid "{1} {2} {3} \\{{4}\\}"
+msgstr ""
+
+#: Tools-Changes,VersionsBrowser>>titleVersionsMenu:
 msgid "Versions"
 msgstr ""
 
-#: Tools-Debugger,Debugger_class>>windowColorSpecification
-msgid "Debugger"
+#: Tools-Changes,VersionsBrowser>>versionsHelpString
+msgid "Each entry in the list pane represents a version of the source code for the same method; the topmost entry is the current version, the next entry is the next most recent, etc.\n"
+"\n"
+"To revert to an earlier version, select it (in the list pane) and then do any of the following:\n"
+"  *  Choose \"revert to this version\" from the list pane menu.\n"
+"  *  Hit the \"revert\" button,\n"
+"  *  Type ENTER in the code pane\n"
+"  *  Type cmd-s (alt-s) in the code pane.\n"
+"\n"
+"The code pane shows the source for the selected version.  If \"diffing\" is in effect, then differences betwen the selected version and the version before it are pointed out in the pane.  Turn diffing on and off by choosing \"toggle diffing\" from the list pane menu, or hitting the \"diffs\" button, or hitting cmd-D when the cursor is over the list pane.\n"
+"\n"
+"To get a comparison between the selected version and the current version, choose \"compare to current\" from the list pane menu or hit the \"compare to current\" button.  (This is meaningless if the current version is selected, and is unnecessary if you're interested in diffs from between the current version and the next-most-recent version, since the standard in-pane \"diff\" feature will give you that.)\n"
+"\n"
+"You can also compare the selected version with any other version using the \"compare to version...\" menu choice.\n"
+"\n"
+"If further versions of the method in question have been submitted elsewhere since you launched a particular Versions Browser, it will still stay nicely up-to-date if you're in Morphic and have asked that smart updating be maintained; if you're in mvc or in morphic but with smart-updating turned off, a versions browser is only brought up to date when you activate its window (and when you issue \"revert\" from within it, of course,) and you can also use the \"update list\" command to make certain the versions list is up to date.\n"
+"\n"
+"Hit the \"remove from changes\" button, or choose the corresponding command in the list pane menu, to have the method in question deleted from the current change set.  This is useful if you've put debugging code into a method, and now want to strip it out and cleanse your current change set of all memory of the excursion.\n"
+"\n"
+"Note:  the annotation pane in versions browsers shows information about the *current* version of the method in the image, not about the selected version."
 msgstr ""
 
-#: Tools-Debugger,Debugger_class>>windowColorSpecification
-msgid "The system debugger."
+#: Tools-Changes,VersionsBrowser_class>>browseVersionsOf:class:meta:category:selector:lostMethodPointer:
+msgid "Recent versions of {1}"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>addModelItemsToWindowMenu:
+msgid "explore process"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>addModelItemsToWindowMenu:
+msgid "inspect process"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>addModelItemsToWindowMenu:
+msgid "other than Abandon, this will allow the active context to unwind first."
+msgstr ""
+
+#: Tools-Debugger,Debugger>>addModelItemsToWindowMenu:
+msgid "terminate process"
 msgstr ""
 
 #: Tools-Debugger,Debugger>>askForCategoryIn:default:
-msgid "Please provide a good category for the new method!"
+msgid "Please provide a good category for the new method"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>buildFullWith:
+msgid "<- Select context's field"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>buildFullWith:
+msgid "<- Select receiver's field"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>contents:notifying:
+msgid "I will have to revert to the method from\\which this block originated. Is that OK?"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>contents:notifying:
+msgid "Method for block not found on stack, can't edit and continue"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>contents:notifying:
+msgid "Method saved, but current context unchanged\\because of unwind error. Click OK to see error"
 msgstr ""
 
 #: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
 msgid "Abandon"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
+msgid "Debug"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Proceed"
+msgstr ""
+
+#: Tools-Debugger,Debugger>>preDebugButtonQuads
+msgid "Send error report"
 msgstr ""
 
 #: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
@@ -275,56 +1343,27 @@ msgstr ""
 msgid "continue execution"
 msgstr ""
 
-#: Tools-Debugger,Debugger>>preDebugButtonQuads,Debugger>>preDebugButtonQuads
-msgid "Debug"
-msgstr ""
-
 #: Tools-Debugger,Debugger>>preDebugButtonQuads
-msgid "Proceed"
+msgid "send a report of the encountered problem to the Squeak developers"
 msgstr ""
 
-#: Tools-Debugger,Debugger>>preDebugButtonQuads
-msgid "Store log"
+#: Tools-Debugger,Debugger>>preDebugMessageString
+msgid "An error has occurred, sorry! You could send the Squeak developers an error report or just hit 'Abandon'.\n"
+"\n"
+"In the error report, there is no personal information, only information that we can use to investigate the error. If you decide to send us the error report, it will include the following text:\n"
+"\n"
 msgstr ""
 
-#: Tools-Debugger,Debugger>>preDebugButtonQuads
-msgid "write a log of the encountered problem"
+#: Tools-Debugger,Debugger>>preDebugMessageString
+msgid "no text, there was an error creating the error report"
 msgstr ""
 
-#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
-msgid "An error has occurred in\\{3} of {2}.\\Fix your script(s), hit 'Abandon' and try again."
+#: Tools-Debugger,Debugger_class>>openOn:context:label:contents:fullView:
+msgid "Debugger"
 msgstr ""
 
-#: Tools-Debugger,Debugger>>preDebugNotifierContentsFrom:
-msgid "An error has occurred; you should probably just hit 'abandon'.  Sorry!"
-msgstr ""
-
-#: Tools-File_Contents_Browser,FileContentsBrowser_class>>selectAndBrowseFile:
-msgid "What files?"
-msgstr ""
-
-#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCodeFiles
-msgid "browse code files"
-msgstr ""
-
-#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
-msgid "code"
-msgstr ""
-
-#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
-msgid "code-file browser"
-msgstr ""
-
-#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
-msgid "open a \"file-contents browser\" on this file, allowing you to view and selectively load its code"
-msgstr ""
-
-#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
-msgid "File Contents Browser"
-msgstr ""
-
-#: Tools-File_Contents_Browser,FileContentsBrowser_class>>windowColorSpecification
-msgid "Lets you view the contents of a file as code, in a browser-like tool."
+#: Tools-Explorer,ObjectExplorer>>buildWith:
+msgid "Evaluate expressions for the current tree selection..."
 msgstr ""
 
 #: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
@@ -332,7 +1371,7 @@ msgid "Class exists already in the system"
 msgstr ""
 
 #: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
-msgid "Existing method removed by this change-set"
+msgid "Existing method removed  by this change-set"
 msgstr ""
 
 #: Tools-File_Contents_Browser,FileContentsBrowser>>infoViewContents
@@ -351,24 +1390,40 @@ msgstr ""
 msgid "Removal request for a method that is not present in this image"
 msgstr ""
 
-#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
-msgid " already exists in the package"
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code"
 msgstr ""
 
-#: Tools-File_Contents_Browser,FileContentsBrowser>>renameClass
-msgid "Please type new class name"
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "code-file browser"
 msgstr ""
 
-#: Tools-FileList,FileList_class>>registerInFlapsRegistry
-msgid "A File List is a tool for browsing folders and files on disks and on ftp types."
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCode,FileContentsBrowser_class>>serviceBrowseCompressedCode
+msgid "open a \"file-contents browser\" on this file, allowing you to view and selectively load its code"
 msgstr ""
 
-#: Tools-FileList,FileList_class>>registerInFlapsRegistry,FileList_class>>windowColorSpecification
-msgid "File List"
+#: Tools-File_Contents_Browser,FileContentsBrowser_class>>serviceBrowseCodeFiles
+msgid "browse code files"
 msgstr ""
 
-#: Tools-FileList,FileList_class>>windowColorSpecification
-msgid "A tool for looking at files"
+#: Tools-FileList,FileChooser>>createCancelButton,PopUpMenu_class>>confirm:orCancel:
+msgid "Cancel"
+msgstr ""
+
+#: Tools-FileList,FileChooser>>createDialogBoxCaptionPane,FileChooser>>createSystemWindowCaptionPane,FileChooser>>createSystemWindowMorphicView,FileList2>>blueButtonForService:textColor:inWindow:
+msgid "Please select a file"
+msgstr ""
+
+#: Tools-FileList,FileChooser>>createOkButton
+msgid "Open"
+msgstr ""
+
+#: Tools-FileList,FileChooser_class>>example3,FileChooser_class>>example4
+msgid "Select a picture file"
+msgstr ""
+
+#: Tools-FileList,FileList>>addNew:byEvaluating:
+msgid "'{1}' already exists"
 msgstr ""
 
 #: Tools-FileList,FileList>>addNew:byEvaluating:
@@ -395,72 +1450,20 @@ msgstr ""
 msgid "Really delete {1}?"
 msgstr ""
 
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "accept (s)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "cancel (l)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "copy (c)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "cut (x)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "do again (j)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "do it (d)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "fileIn selection (G)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "find again (g)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "find...(f)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "inspect it (i)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:,FileList>>serviceAllFileOptions,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
-msgid "more..."
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "paste (v)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "paste..."
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "print it (p)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "set search string (h)"
-msgstr ""
-
-#: Tools-FileList,FileList>>fileContentsMenu:shifted:
-msgid "undo (z)"
-msgstr ""
-
 #: Tools-FileList,FileList>>fullFileListMenu:shifted:
 msgid "all possible file operations"
+msgstr ""
+
+#: Tools-FileList,FileList>>put:,FileList>>put:,FileList>>put:
+msgid "Abbreviated contents"
+msgstr ""
+
+#: Tools-FileList,FileList>>put:
+msgid "Directory contents"
+msgstr ""
+
+#: Tools-FileList,FileList>>put:
+msgid "Hexadecimal contents"
 msgstr ""
 
 #: Tools-FileList,FileList>>put:
@@ -468,14 +1471,16 @@ msgid "No fileName is selected"
 msgstr ""
 
 #: Tools-FileList,FileList>>put:
-msgid ""
-"{1} contents cannot\n"
+msgid "These contents"
+msgstr ""
+
+#: Tools-FileList,FileList>>put:
+msgid "{1} cannot\n"
 "meaningfully be saved at present."
 msgstr ""
 
 #: Tools-FileList,FileList>>readContentsBrief:,FileList>>readContentsHex:
-msgid ""
-"File '{1}' is {2} bytes long.\n"
+msgid "File '{1}' is {2} bytes long.\n"
 "You may use the 'get' command to read the entire file.\n"
 "\n"
 "Here are the first 5000 characters...\n"
@@ -490,8 +1495,7 @@ msgid "For some reason, this file cannot be read"
 msgstr ""
 
 #: Tools-FileList,FileList>>readServerBrief
-msgid ""
-"File '{1}' is {2} bytes long.\n"
+msgid "File '{1}' is {2} bytes long.\n"
 "You may use the 'get' command to read the entire file.\n"
 "\n"
 "Here are the first 3500 characters...\n"
@@ -499,10 +1503,6 @@ msgid ""
 "{3}\n"
 "------------------------------------------\n"
 "... end of the first 3500 characters."
-msgstr ""
-
-#: Tools-FileList,FileList>>removeVersionNumberFromFileName
-msgid "do you want to clobber the existing"
 msgstr ""
 
 #: Tools-FileList,FileList>>renameFile
@@ -529,18 +1529,6 @@ msgstr ""
 msgid "show all the options available"
 msgstr ""
 
-#: Tools-FileList,FileList>>serviceBroadcastUpdate
-msgid "broadcast"
-msgstr ""
-
-#: Tools-FileList,FileList>>serviceBroadcastUpdate
-msgid "broadcast as update"
-msgstr ""
-
-#: Tools-FileList,FileList>>serviceBroadcastUpdate
-msgid "broadcast file as update"
-msgstr ""
-
 #: Tools-FileList,FileList>>serviceCompressFile,FileList>>serviceCompressFile
 msgid "compress"
 msgstr ""
@@ -561,14 +1549,6 @@ msgstr ""
 msgid "delete the seleted item"
 msgstr ""
 
-#: Tools-FileList,FileList>>serviceGetEncodedText,FileList>>serviceGetEncodedText
-msgid "view as encoded text"
-msgstr ""
-
-#: Tools-FileList,FileList>>serviceGetHex,FileList>>serviceGetHex
-msgid "view as hex"
-msgstr ""
-
 #: Tools-FileList,FileList>>serviceGet
 msgid "get entire file"
 msgstr ""
@@ -577,16 +1557,12 @@ msgstr ""
 msgid "if the file has only been partially read in, because it is very large, read the entire file in at this time."
 msgstr ""
 
-#: Tools-FileList,FileList>>serviceRemoveVersionNumber
-msgid "remove version number from file name"
+#: Tools-FileList,FileList>>serviceGetEncodedText,FileList>>serviceGetEncodedText
+msgid "view as encoded text"
 msgstr ""
 
-#: Tools-FileList,FileList>>serviceRemoveVersionNumber
-msgid "remove version number from filename"
-msgstr ""
-
-#: Tools-FileList,FileList>>serviceRemoveVersionNumber
-msgid "remove version #"
+#: Tools-FileList,FileList>>serviceGetHex,FileList>>serviceGetHex
+msgid "view as hex"
 msgstr ""
 
 #: Tools-FileList,FileList>>serviceRenameFile
@@ -641,68 +1617,12 @@ msgstr ""
 msgid "workspace with contents"
 msgstr ""
 
-#: Tools-FileList,FileList>>volumeMenu:
-msgid "add server..."
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry
+msgid "A File List is a tool for browsing folders and files on disks and on ftp types."
 msgstr ""
 
-#: Tools-FileList,FileList>>volumeMenu:
-msgid "delete directory..."
-msgstr ""
-
-#: Tools-FileList,FileList>>volumeMenu:
-msgid "recent..."
-msgstr ""
-
-#: Tools-FileList,FileList>>volumeMenu:
-msgid "remove server..."
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,PopUpMenu_class>>informCenteredAboveCursor:,PopUpMenu_class>>inform:
-msgid "OK"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
-msgid "return without saving"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
-msgid "Save"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:
-msgid "Save in the place specified above"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
-msgid "Save on local disk only"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>buildSaveButtons:fileList:
-msgid "saves in the Squeaklets folder"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>morphicViewFileSelectorForSuffixes:
-msgid "Please select a file"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>morphicViewGeneralLoaderInWorld:
-msgid "Find..."
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
-msgid "Load A Project"
-msgstr ""
-
-#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
-msgid "Publish This Project"
-msgstr ""
-
-#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
-msgid "Network Error"
-msgstr ""
-
-#: Tools-FileList,FileList2>>directoryNamesFor:,FileList2>>setSelectedDirectoryTo:
-msgid "Unknown Error"
+#: Tools-FileList,FileList_class>>registerInFlapsRegistry
+msgid "File List"
 msgstr ""
 
 #: Tools-FileList,FileList2>>serviceCancel,FileList2>>serviceCancel
@@ -737,48 +1657,221 @@ msgstr ""
 msgid "open project from file"
 msgstr ""
 
-#: Tools-FileList,FileList2>>updateLoginButtonAppearance
-msgid "Log in to share projects on the Squeakland server"
+#: Tools-FileList,FileList2_class>>morphicViewGeneralLoaderInWorld:
+msgid "Find..."
 msgstr ""
 
-#: Tools-FileList,FileList2>>updateLoginButtonAppearance
-msgid "Log out from the Squeakland server"
+#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
+msgid "Load A Project"
 msgstr ""
 
-#: Tools-FileList,FileList2>>updateLoginButtonAppearance
-msgid "Login"
+#: Tools-FileList,FileList2_class>>morphicViewProjectLoader2InWorld:reallyLoad:dirFilterType:
+msgid "Please select a project"
 msgstr ""
 
-#: Tools-FileList,FileList2>>updateLoginButtonAppearance
-msgid "Logout"
+#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
+msgid "Please select a folder"
 msgstr ""
 
-#: Tools-FileList,FileList2>>updateLoginButtonAppearance,FileList2>>updateLoginButtonAppearance
-msgid "Your Squeakland user name"
+#: Tools-FileList,FileList2_class>>morphicViewProjectSaverFor:
+msgid "Publish This Project"
 msgstr ""
 
-#: Tools-FileList,FileList2>>updateLoginButtonAppearance
-msgid "(not logged in)"
+#: Tools-Inspector,BasicInspector>>labelString,Inspector>>labelString
+msgid " (read-only)"
 msgstr ""
 
-#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:,FileList2_class>>buildLoadButtons:fileList:reallyLoad:,FileList2_class>>buildSaveButtons:fileList:,FileList2_class>>buildSaveButtons:fileList:,PopUpMenu_class>>confirm:orCancel:
-msgid "Cancel"
+#: Tools-Inspector,BasicInspector>>labelString
+msgid "[basic]"
 msgstr ""
 
-#: Tools-FileList,FileList2>>update:fileTypeRow:morphUp:
-msgid "Cancel this search"
+#: Tools-Inspector,BitsetInspector>>fieldSize
+msgid "num 1 bits"
 msgstr ""
 
-#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:
-msgid ""
-"overwrite that file\n"
-"select another file"
+#: Tools-Inspector,BlockClosureInspector>>fieldSource,CompiledCodeInspector>>fieldSource
+msgid "source code"
 msgstr ""
 
-#: Tools-FileList,PluggableFileList_class>>okToOpen:without:,PluggableFileList_class>>okToOverwrite:,StandardFileMenu>>confirmExistingFiles:
-msgid ""
-"{1}\n"
-"already exists."
+#: Tools-Inspector,CollectionInspector>>addElement
+msgid "Enter expression for new object"
+msgstr ""
+
+#: Tools-Inspector,CollectionInspector>>addElement:
+msgid "The new element {1} was added.\\\\Yet, the list of fields is quite long. The new field\\got truncated and is thus not visible."
+msgstr ""
+
+#: Tools-Inspector,CompiledCodeInspector>>fieldByteCodes
+msgid "all bytecodes"
+msgstr ""
+
+#: Tools-Inspector,CompiledCodeInspector>>fieldDecompile
+msgid "decompiled"
+msgstr ""
+
+#: Tools-Inspector,CompiledCodeInspector>>fieldHeader
+msgid "header"
+msgstr ""
+
+#: Tools-Inspector,ContextInspector>>allTempVarsTranslated
+msgid "all temp vars"
+msgstr ""
+
+#: Tools-Inspector,ContextInspector>>stackTopTranslated
+msgid "stack top"
+msgstr ""
+
+#: Tools-Inspector,ContextInspector>>streamFieldsOn:
+msgid "Cannot inspect a context with nil method"
+msgstr ""
+
+#: Tools-Inspector,ContextInspector>>streamFieldsOn:
+msgid "Cannot inspect a nil context"
+msgstr ""
+
+#: Tools-Inspector,ContextInspector>>streamTemporaryVariablesOn:,ContextVariablesInspector>>streamTemporaryVariablesOn:
+msgid "Invalid temporaries"
+msgstr ""
+
+#: Tools-Inspector,DictionaryInspector>>addElement:
+msgid "The new key {1} was added.\\\\Yet, the list of fields is quite long. The new field\\got truncated and is thus not visible."
+msgstr ""
+
+#: Tools-Inspector,DictionaryInspector>>renameKey:
+msgid "The selected key was renamed to {1}.\\\\Yet, the list of fields is quite long. The new field\\got truncated and is thus not visible."
+msgstr ""
+
+#: Tools-Inspector,DictionaryInspector>>renameKey:
+msgid "The target key exists. Do you want to replace it?"
+msgstr ""
+
+#: Tools-Inspector,DictionaryInspector>>requestKeyInitialAnswer:orCancel:
+msgid "Enter an expression for the new key\\such as #tree, 'apple', and 3+4."
+msgstr ""
+
+#: Tools-Inspector,FormInspector>>embedForm:inText:
+msgid " (hash: {1})"
+msgstr ""
+
+#: Tools-Inspector,FormInspector>>fieldPixels
+msgid "pixels"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>addCollectionItemsTo:
+msgid "inspect element..."
+msgstr ""
+
+#: Tools-Inspector,Inspector>>allInstVarsTranslated
+msgid "all inst vars"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>buildCodePaneWith:
+msgid "Evaluate expressions on inspected object"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>buildExploreButtonWith:
+msgid "Switch to an explorer tool"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>buildExploreButtonWith:
+msgid "explore"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>buildValuePaneWith:
+msgid "Selected field's value"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>contentsForErrorDoing:
+msgid "An error occurred while inspecting this object. {1} to debug the error."
+msgstr ""
+
+#: Tools-Inspector,Inspector>>contentsForErrorDoing:,Inspector>>contentsForTruncationOf:
+msgid "Click here"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>contentsForTruncationOf:
+msgid "<Fields named {1} to {2} are not shown. {3} to inspect one of those fields or select \"inspect element\" from the field list menu.>"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>copyExpression
+msgid "Cannot determine field expression"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>copyName
+msgid "Cannot determine field name."
+msgstr ""
+
+#: Tools-Inspector,Inspector>>inspectOneOf:
+msgid "Inspect which field?"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>inspectOneOf:
+msgid "Nothing to inspect."
+msgstr ""
+
+#: Tools-Inspector,Inspector>>inspectOneOfFrom:to:
+msgid "Enter the name of the field to inspect.\\Names range from {1} to {2}."
+msgstr ""
+
+#: Tools-Inspector,Inspector>>okToDiscardCustomFields
+msgid "All custom fields will be discarded:"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>removeCustomField:
+msgid "Do you really want to remove the field '{1}'?"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>replaceInspectorWithExplorer
+msgid "Changes have not been saved.\n"
+"Is it OK to cancel those changes?"
+msgstr ""
+
+#: Tools-Inspector,Inspector>>replaceSelectionValue:
+msgid "This will exchange the inspected object."
+msgstr ""
+
+#: Tools-Inspector,Inspector>>streamError:on:
+msgid "<error>"
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>addCustomItemsFor:to:
+msgid "add field setter..."
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>addCustomItemsFor:to:
+msgid "edit field getter..."
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>addCustomItemsFor:to:
+msgid "edit field name..."
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>addCustomItemsFor:to:
+msgid "edit field setter..."
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>addCustomItemsFor:to:
+msgid "remove field '{1}' (x)"
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>editGetterFor:orCancel:
+msgid "Please enter an evaluable expression<br>to <b>get</b> this field's value:"
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>editNameOrCancel:
+msgid "Please enter a new name for this field:"
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>editSetterFor:orCancel:
+msgid "Please enter an evaluable expression<br>to <b>set</b> this field's value:"
+msgstr ""
+
+#: Tools-Inspector,InspectorField>>setSetterFor:to:ifFail:
+msgid "Setter must be evaluable like a block with one argument"
+msgstr ""
+
+#: Tools-Menus,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
+msgid "start over..."
 msgstr ""
 
 #: Tools-Menus,PopUpMenu_class>>confirm:,PopUpMenu_class>>confirm:orCancel:
@@ -789,33 +1882,88 @@ msgstr ""
 msgid "Yes"
 msgstr ""
 
-#: Tools-Menus,PopUpMenu>>startUpSegmented:withCaption:at:,PopUpMenu>>startUpSegmented:withCaption:at:allowKeyboard:
-msgid "start over..."
+#: Tools-Menus,PopUpMenu_class>>inform:
+msgid " OK "
 msgstr ""
 
-#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
-msgid ""
-"Can't delete {1}\n"
-"Select another file"
+#: Tools-Process_Browser,ProcessBrowser>>changePriority
+msgid "Bad priority"
 msgstr ""
 
-#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
-msgid ""
-"overwrite that file\n"
-"choose another name\n"
-"cancel"
+#: Tools-Process_Browser,ProcessBrowser>>changePriority
+msgid "New priority"
 msgstr ""
 
-#: Tools-Menus,StandardFileMenu>>confirmExistingFiles:
-msgid "Select Another File"
+#: Tools-Process_Browser,ProcessBrowser>>changePriority
+msgid "Nope, won't change priority of {1}"
 msgstr ""
 
-#: Tools-Menus,StandardFileMenu>>getTypedFileName:
-msgid "Enter a new file name"
+#: Tools-Process_Browser,ProcessBrowser>>destroyProcess
+msgid "Nope, won't destroy {1}"
 msgstr ""
 
-#: Tools-Menus,StandardFileMenu>>getTypedFileName:,StandardFileMenu_class>>newFileFrom:,StandardFileMenu_class>>oldFileFrom:
-msgid "Select a File:"
+#: Tools-Process_Browser,ProcessBrowser>>findContext
+msgid "Enter a string to search for in the process stack lists"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>messageTally
+msgid "Profile for how many seconds?"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "chase pointers (c)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "destroy"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "resume (r)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "signal Semaphore (S)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "start CPUWatcher"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "stop CPUWatcher"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "suspend (s)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "terminate (t)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "terminate aggressively (T)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "turn off auto-update (a)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "turn on auto-update (a)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>processListMenu:shifted:
+msgid "update list (u)"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser>>terminateProcess:
+msgid "Nope, won't terminate {1}"
+msgstr ""
+
+#: Tools-Process_Browser,ProcessBrowser_class>>debugProcess:
+msgid "Interrupted from the Process Browser"
 msgstr ""
 
 #: Tools-Process_Browser,ProcessBrowser_class>>registerInFlapsRegistry
