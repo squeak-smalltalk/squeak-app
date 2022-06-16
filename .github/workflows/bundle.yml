@@ -8,7 +8,7 @@ on:
       # - squeak-5.2
     paths-ignore: # Skip changes in documentation artifacts
       - '**.md'
-      - release-notes/**
+      - 'release-notes/**'
   pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
       - squeak-trunk
@@ -16,7 +16,7 @@ on:
       # - squeak-5.2
     paths-ignore: # Skip changes in documentation artifacts
       - '**.md'
-      - release-notes/**
+      - 'release-notes/**'
   schedule:
     - cron: '0 0 * * *' # Build everyday at midnight
   workflow_dispatch:
