@@ -5,8 +5,6 @@ SmalltalkCISpec {
     #hidePassingTests : true,
     #exclude : {
       #classes : [
-        #AllocationTest,
-        #CaseErrorTest,
         #DebuggerTests,
         #LangEnvBugs,
         #SqueakSSLTest
