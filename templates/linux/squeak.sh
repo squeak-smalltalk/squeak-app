@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # File:        squeak.sh
 # Author:      Fabio Niephaus, K K Subramaniam, Marcel Taeumel
-# Version:     2.6.0
-# Date:        2022/01/05
+# Version:     2.6.1
+# Date:        2022/06/27
 # Description: Script to launch Squeak executable from a bundle
 # usage:
 #    squeak [<vmargs>] [ *.image [ <stargs> ... ]]
@@ -27,12 +27,7 @@ if [[ -d ${ROOT}/bin ]]; then
     BINDIR="${ROOT}/bin"
     RESOURCES="${ROOT}/shared"
 else # all-in-one bundle
-    aioAppPath="${ROOT}/%AIO_APP_NAME%"
-    BINDIR="${aioAppPath}/Contents/Linux-${CPU}/"
-    RESOURCES="${aioAppPath}/Contents/Resources/"
-    IMAGE="${RESOURCES}/%SqueakImageName%"
     IMAGE_BITS="%IMAGE_BITS%"
-
     if [[ "${IMAGE_BITS}" == "32" ]]; then
         case "${CPU}" in
             "x86_64")
@@ -45,6 +40,11 @@ else # all-in-one bundle
                 ;;
         esac
     fi
+
+    aioAppPath="${ROOT}/%AIO_APP_NAME%"
+    BINDIR="${aioAppPath}/Contents/Linux-${CPU}/"
+    RESOURCES="${aioAppPath}/Contents/Resources/"
+    IMAGE="${RESOURCES}/%SqueakImageName%"
 fi
 
 VM="${BINDIR}/${APP}"
@@ -56,7 +56,7 @@ while [[ -n "$1" ]] ; do
     case "$1" in
          *.image) break;;
          *.st|*.cs) STARGS+=("$1");;
-	 --) break;;
+   --) break;;
          *) VMARGS="${VMARGS} $1";;
     esac
     shift
@@ -64,7 +64,7 @@ done
 while [[ -n "$1" ]]; do
     case "$1" in
          *.image) IMAGE="$1";;
-	 *) STARGS+=("$1");;
+   *) STARGS+=("$1");;
     esac
     shift
 done
@@ -154,7 +154,7 @@ ensure_image() {
 detect_sound() {
     if pulseaudio --check 2>/dev/null ; then
         if "${VM}" --help 2>/dev/null | grep -q vm-sound-pulse ; then
-	    VMOPTIONS="${VMOPTIONS} -vm-sound-pulse"
+      VMOPTIONS="${VMOPTIONS} -vm-sound-pulse"
         else
             VMOPTIONS="${VMOPTIONS} -vm-sound-oss"
             if padsp true 2>/dev/null; then
@@ -168,6 +168,10 @@ detect_sound() {
 ensure_vm
 ensure_image
 detect_sound
+
+# Enable per-monitor scaling to work around memory leak:
+# https://github.com/OpenSmalltalk/opensmalltalk-vm/issues/642
+export SQUEAK_DISPLAY_PER_MONITOR_SCALE=1 
 
 echo "Using ${VM} ..."
 exec ${SOUNDSERVER} "${VM}" ${VMOPTIONS} ${VMARGS} "${IMAGE}" "${STARGS[@]}"
