@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # File:        squeak.sh
 # Author:      Fabio Niephaus, K K Subramaniam, Marcel Taeumel
-# Version:     2.6.0
-# Date:        2022/01/05
+# Version:     2.6.1
+# Date:        2022/06/27
 # Description: Script to launch Squeak executable from a bundle
 # usage:
 #    squeak [<vmargs>] [ *.image [ <stargs> ... ]]
