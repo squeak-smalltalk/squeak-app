@@ -169,5 +169,9 @@ ensure_vm
 ensure_image
 detect_sound
 
+# Enable per-monitor scaling to work around memory leak:
+# https://github.com/OpenSmalltalk/opensmalltalk-vm/issues/642
+export SQUEAK_DISPLAY_PER_MONITOR_SCALE=1 
+
 echo "Using ${VM} ..."
 exec ${SOUNDSERVER} "${VM}" ${VMOPTIONS} ${VMARGS} "${IMAGE}" "${STARGS[@]}"
