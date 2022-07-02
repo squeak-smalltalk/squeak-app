@@ -3,7 +3,8 @@ name: Bundle
 on:
   push: # Choose the branch that matches the Smalltalk version below
     branches:
-      - squeak-trunk
+      # - squeak-trunk
+      - squeak-6.0
       # - squeak-5.3
       # - squeak-5.2
     paths-ignore: # Skip changes in documentation artifacts
@@ -11,7 +12,8 @@ on:
       - 'release-notes/**'
   pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
-      - squeak-trunk
+      # - squeak-trunk
+      - squeak-6.0
       # - squeak-5.3
       # - squeak-5.2
     paths-ignore: # Skip changes in documentation artifacts
@@ -27,8 +29,10 @@ jobs:
       fail-fast: true
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-6.0
+          - Squeak64-6.0
           # - Squeak-5.3
           # - Squeak64-5.3
           # - Squeak-5.2
@@ -69,8 +73,10 @@ jobs:
       fail-fast: true
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-6.0
+          - Squeak64-6.0
           # - Squeak-5.3
           # - Squeak64-5.3
           # - Squeak-5.2
@@ -122,8 +128,10 @@ jobs:
       fail-fast: false # Maybe make deployment extra job?
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-6.0
+          - Squeak64-6.0
           # - Squeak-5.3
           # - Squeak64-5.3
           # - Squeak-5.2
