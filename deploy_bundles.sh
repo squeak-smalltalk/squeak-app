@@ -88,7 +88,20 @@ UPSTREAM_PATH="${UPSTREAM_PATH}/${IMAGE_NAME}"
 
 ssh-keyscan -t ecdsa-sha2-nistp256 -p "${PROXY_PORT}" "${PROXY_HOST}" 2>&1 | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
 echo "${UPSTREAM_HOST} ecdsa-sha2-nistp256 ${SSH_PUBLIC_KEY}" | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
-rsync -rvz --ignore-existing -e "ssh -o ProxyCommand='ssh -l ${PROXY_USER} -i ${SSH_KEY_FILEPATH} -p ${PROXY_PORT} -W %h:%p ${PROXY_HOST}' -l ${UPSTREAM_USER} -i ${SSH_KEY_FILEPATH}" "${PRODUCT_PATH}/" "${UPSTREAM_HOST}:${UPSTREAM_PATH}/";
+
+SSH_CONFIG_PATH=${HOME}/.ssh/config
+touch ${SSH_CONFIG_PATH}
+if grep -vq "^Host ${PROXY_HOST}$" ${SSH_CONFIG_PATH}; then
+cat >> ${SSH_CONFIG_PATH} <<EOF
+Host $PROXY_HOST
+         User $PROXY_USER
+         IdentityFile $SSH_KEY_FILEPATH
+         IdentitiesOnly yes
+         PreferredAuthentications publickey
+         PubkeyAuthentication yes
+EOF
+fi
+rsync -rvz --ignore-existing -e "ssh -o ProxyJump=${PROXY_HOST} -l ${UPSTREAM_USER} -i ${SSH_KEY_FILEPATH}" "${PRODUCT_PATH}/" "${UPSTREAM_HOST}:${UPSTREAM_PATH}/";
 
 end_group
 
