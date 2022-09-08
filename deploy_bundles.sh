@@ -85,7 +85,7 @@ else
 fi
 UPSTREAM_PATH="${UPSTREAM_PATH}/${IMAGE_NAME}"
 
-
+ssh-keygen -R ${PROXY_HOST}
 ssh-keyscan -t ecdsa-sha2-nistp256 -p "${PROXY_PORT}" "${PROXY_HOST}" 2>&1 | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
 echo "${UPSTREAM_HOST} ecdsa-sha2-nistp256 ${SSH_PUBLIC_KEY}" | tee -a "${HOME}/.ssh/known_hosts" > /dev/null;
 
