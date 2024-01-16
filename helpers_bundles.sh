@@ -216,14 +216,14 @@ create_unified_vm_macOS() {
     #   echo ln -s `readlink "$A/$f"` "$O/$f"
     elif [ ! -f "$A/$f" ]; then
       echo  "$A/$f does not exist; how come?"
-    elif [ "$f" != *"MainMenu.nib" ] && [ ! -f "$B/$f" ]; then
+    elif [[ ! "$f" =~ ^.*MainMenu.nib$  ]] && [ ! -f "$B/$f" ]; then
       echo  "$B/$f does not exist; how come?"
     else
       case `file -b "$A/$f"` in
         Mach-O*)
           lipo -create -output "$O/$f" "$A/$f" "$B/$f";;
         *)
-          if [ "$f" == *"MainMenu.nib" ] || [ cmp -s "$A/$f" "$B/$f" ]; then
+          if [[ "$f" =~ ^.*MainMenu.nib$ ]] || [ cmp -s "$A/$f" "$B/$f" ]; then
             cp "$A/$f" "$O/$f"
           else
             echo "EXCLUDING $f because it differs"
