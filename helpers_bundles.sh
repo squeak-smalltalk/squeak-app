@@ -185,15 +185,16 @@ copy_resources() {
 }
 
 # Make a fat binary from a pair of VMs in
-# build.macos64{x64,ARMv8}/virtend.cog.spur/Virtend*.app
-# To choose the oldest nib the oldest deployment target (x86_64) should be last
+# building/macos64{x64,ARMv8}/squeak.cog.spur/Squeak*.app
+# To choose the oldest *.nib, meaning the oldest deployment
+# target (x86_64) should be the second argument
 create_unified_vm_macOS() {
   local MISMATCHINGNIBS=
   local MISMATCHINGPLISTS=
 
   readonly O="$1"
-  readonly A="$2"
-  readonly B="$3"
+  readonly A="$2" # ARMv8
+  readonly B="$3" # x64
 
   if [ ! -d "$A" ]; then
     echo "$A does not exist; aborting"
@@ -215,14 +216,14 @@ create_unified_vm_macOS() {
     #   echo ln -s `readlink "$A/$f"` "$O/$f"
     elif [ ! -f "$A/$f" ]; then
       echo  "$A/$f does not exist; how come?"
-    elif [ ! -f "$B/$f" ]; then
+    elif [ "$f" != *"MainMenu.nib" ] && [ ! -f "$B/$f" ]; then
       echo  "$B/$f does not exist; how come?"
     else
       case `file -b "$A/$f"` in
         Mach-O*)
           lipo -create -output "$O/$f" "$A/$f" "$B/$f";;
         *)
-          if cmp -s "$A/$f" "$B/$f"; then
+          if [ "$f" == *"MainMenu.nib" ] || [ cmp -s "$A/$f" "$B/$f" ]; then
             cp "$A/$f" "$O/$f"
           else
             echo "EXCLUDING $f because it differs"
