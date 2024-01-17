@@ -185,15 +185,16 @@ copy_resources() {
 }
 
 # Make a fat binary from a pair of VMs in
-# build.macos64{x64,ARMv8}/virtend.cog.spur/Virtend*.app
-# To choose the oldest nib the oldest deployment target (x86_64) should be last
+# building/macos64{x64,ARMv8}/squeak.cog.spur/Squeak*.app
+# To choose the oldest *.nib, meaning the oldest deployment
+# target (x86_64) should be the second argument
 create_unified_vm_macOS() {
   local MISMATCHINGNIBS=
   local MISMATCHINGPLISTS=
 
   readonly O="$1"
-  readonly A="$2"
-  readonly B="$3"
+  readonly A="$2" # ARMv8
+  readonly B="$3" # x64
 
   if [ ! -d "$A" ]; then
     echo "$A does not exist; aborting"
@@ -215,22 +216,33 @@ create_unified_vm_macOS() {
     #   echo ln -s `readlink "$A/$f"` "$O/$f"
     elif [ ! -f "$A/$f" ]; then
       echo  "$A/$f does not exist; how come?"
-    elif [ ! -f "$B/$f" ]; then
+    elif [[ ! "$f" =~ ^.*MainMenu\.nib$  ]] && [ ! -f "$B/$f" ]; then
       echo  "$B/$f does not exist; how come?"
     else
       case `file -b "$A/$f"` in
         Mach-O*)
           lipo -create -output "$O/$f" "$A/$f" "$B/$f";;
         *)
-          if cmp -s "$A/$f" "$B/$f"; then
+          if [ -f "$B/$f" ] && (cmp -s "$A/$f" "$B/$f"); then
             cp "$A/$f" "$O/$f"
           else
-            echo "EXCLUDING $f because it differs"
             case "$f" in
               *.plist)
+                echo "EXCLUDING $f because it differs"
                 MISMATCHINGPLISTS="$MISMATCHINGPLISTS $f"
                 ;;
+              *MainMenu.nib)
+                # Use old binary plist from x64 bundle.
+                # Ignore NIBArchive keyedobjects-101300.nib.
+                # Ignore NIBArchive MainMenu.nib from ARM bundle.
+                if [ -d "$B/$f" ]; then
+                  cp "$B/$f/keyedobjects.nib" "$O/$f"
+                else
+                  echo "$B/$f should be a directory; how come?"
+                fi
+                ;;
               *.nib)
+                echo "REPLACING $f because it differs"
                 MISMATCHINGNIBS="$MISMATCHINGNIBS   $f"
                 echo "using $B version"
                 cp "$B/$f" "$O/$f"
