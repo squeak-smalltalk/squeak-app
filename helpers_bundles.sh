@@ -216,22 +216,33 @@ create_unified_vm_macOS() {
     #   echo ln -s `readlink "$A/$f"` "$O/$f"
     elif [ ! -f "$A/$f" ]; then
       echo  "$A/$f does not exist; how come?"
-    elif [[ ! "$f" =~ ^.*MainMenu.nib$  ]] && [ ! -f "$B/$f" ]; then
+    elif [[ ! "$f" =~ ^.*MainMenu\.nib$  ]] && [ ! -f "$B/$f" ]; then
       echo  "$B/$f does not exist; how come?"
     else
       case `file -b "$A/$f"` in
         Mach-O*)
           lipo -create -output "$O/$f" "$A/$f" "$B/$f";;
         *)
-          if [[ "$f" =~ ^.*MainMenu.nib$ ]] || [ cmp -s "$A/$f" "$B/$f" ]; then
+          if [ -f "$B/$f" ] && (cmp -s "$A/$f" "$B/$f"); then
             cp "$A/$f" "$O/$f"
           else
-            echo "EXCLUDING $f because it differs"
             case "$f" in
               *.plist)
+                echo "EXCLUDING $f because it differs"
                 MISMATCHINGPLISTS="$MISMATCHINGPLISTS $f"
                 ;;
+              *MainMenu.nib)
+                # Use old binary plist from x64 bundle.
+                # Ignore NIBArchive keyedobjects-101300.nib.
+                # Ignore NIBArchive MainMenu.nib from ARM bundle.
+                if [ -d "$B/$f" ]; then
+                  cp "$B/$f/keyedobjects.nib" "$O/$f"
+                else
+                  echo "$B/$f should be a directory; how come?"
+                fi
+                ;;
               *.nib)
+                echo "REPLACING $f because it differs"
                 MISMATCHINGNIBS="$MISMATCHINGNIBS   $f"
                 echo "using $B version"
                 cp "$B/$f" "$O/$f"
