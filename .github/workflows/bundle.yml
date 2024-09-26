@@ -48,7 +48,7 @@ jobs:
         timeout-minutes: 20
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}
           path: |
@@ -57,7 +57,7 @@ jobs:
             tmp/*.changes
 
       - name: Export global environment
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp/global-env
@@ -85,13 +85,13 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Import global environment
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
 
       - name: Download artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}
           path: tmp
@@ -110,7 +110,7 @@ jobs:
         timeout-minutes: 20
 
       - name: Upload test results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-tests
           path: tmp/*.xml # smalltalkCI test results
@@ -142,7 +142,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Import global environment
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
@@ -163,7 +163,7 @@ jobs:
           NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-bundles
           path: product/*
