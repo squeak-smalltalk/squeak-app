@@ -66,7 +66,7 @@ jobs:
   test-image:
     needs: [prepare-image]
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         smalltalk:
           - Squeak-trunk
@@ -114,6 +114,7 @@ jobs:
         with:
           name: ${{ matrix.smalltalk }}-tests
           path: tmp/*.xml # smalltalkCI test results
+          if-no-files-found: error # If smalltalkCI run does not complete, no output is produced
 
 
   prepare-bundles:
