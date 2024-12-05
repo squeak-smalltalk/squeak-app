@@ -130,7 +130,7 @@ jobs:
           # - Squeak64-5.2
           # - Etoys-trunk
           # - Etoys64-trunk
-    runs-on: macos-12
+    runs-on: macos-13
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
