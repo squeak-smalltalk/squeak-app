@@ -10,7 +10,7 @@ This guide describes a user-local installation.
 
 - Copy `balloon.svg` to `~/.local/squeak/squeak.svg`
 
-- Create `~/.ocal/bin/squeak`:
+- Create `~/.local/bin/squeak`:
 
   ```sh
   #!/bin/sh
