@@ -179,3 +179,11 @@ jobs:
           PROXY_USER: ${{ secrets.PROXY_USER }}
           UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
           UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}
+
+  workflow-keepalive:
+    if: github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      actions: write
+    steps:
+      - uses: liskin/gh-workflow-keepalive@v1
