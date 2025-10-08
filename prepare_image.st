@@ -56,7 +56,7 @@ TranscriptStream redirectToStdOut: false.
 TranscriptStream forceUpdate: true.
 ToolSet default: (Smalltalk at: #StandardToolSet).
 Project current instVarNamed: #uiManager put: MorphicUIManager new.
-Utilities setAuthorInitials: ''.
+Utilities authorInitials: ''.
 
 FileStream stdout nextPutAll: 'Triggering ReleaseBuilder...'; cr; flush.
 releaseBuilder := ((smalltalkVersion beginsWith: 'Etoys')

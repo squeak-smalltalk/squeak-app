@@ -6,15 +6,17 @@ on:
       # - squeak-trunk
       - squeak-5.3
       # - squeak-5.2
-    paths-ignore:
-      - '**.md' # Skip changes in documentation artifacts
+    paths-ignore: # Skip changes in documentation artifacts
+      - '**.md'
+      - 'release-notes/**'
   pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
       # - squeak-trunk
       - squeak-5.3
       # - squeak-5.2
-    paths-ignore:
+    paths-ignore: # Skip changes in documentation artifacts
       - '**.md'
+      - 'release-notes/**'
   schedule:
     - cron: '0 0 * * *' # Build everyday at midnight
   workflow_dispatch:
@@ -46,7 +48,7 @@ jobs:
         timeout-minutes: 20
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}
           path: |
@@ -55,7 +57,7 @@ jobs:
             tmp/*.changes
 
       - name: Export global environment
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp/global-env
@@ -83,13 +85,13 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Import global environment
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
 
       - name: Download artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}
           path: tmp
@@ -108,7 +110,7 @@ jobs:
         timeout-minutes: 20
 
       - name: Upload test results
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-tests
           path: tmp/*.xml # smalltalkCI test results
@@ -128,7 +130,7 @@ jobs:
           # - Squeak64-5.2
           # - Etoys-trunk
           # - Etoys64-trunk
-    runs-on: macos-11 # fixed version for xcnotary
+    runs-on: macos-14 # macos-13 had issues with hdutil
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
@@ -140,13 +142,13 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Import global environment
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
 
       - name: Download artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}
           path: tmp
@@ -161,7 +163,7 @@ jobs:
           NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.smalltalk }}-bundles
           path: product/*
