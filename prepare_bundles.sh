@@ -91,7 +91,7 @@ source "prepare_bundle_aio.sh"
 source "prepare_bundle_linux_x86.sh"
 source "prepare_bundle_linux_arm.sh"
 source "prepare_bundle_windows_x86.sh"
-# source "prepare_bundle_windows_arm.sh"
+source "prepare_bundle_windows_arm.sh"
 
 if should_codesign; then
   cleanup_codesign

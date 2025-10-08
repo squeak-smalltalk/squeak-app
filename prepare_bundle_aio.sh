@@ -32,19 +32,19 @@ if [[ "${IMAGE_BITS}" == "64" ]]; then
   VM_LIN_ARM_TARGET_NAME="Linux-arm64"
 
   VM_WIN_TARGET_NAME="Windows-x86_64"
-  # VM_WIN_ARM_TARGET_NAME="Win32-arm64"
+  VM_WIN_ARM_TARGET_NAME="Windows-ARMv8"
 else
   VM_LIN_TARGET_NAME="Linux-i686"
   VM_LIN_ARM_TARGET_NAME="Linux-arm"
   VM_WIN_TARGET_NAME="Windows-x86"
-  # VM_WIN_ARM_TARGET_NAME="Win32-arm"
+  # VM_WIN_ARM_TARGET_NAME="Win32-arm" --- not supported
 fi
 
 VM_MAC_TARGET="${CONTENTS_PATH}/${VM_MAC_TARGET_NAME}"
 VM_LIN_TARGET="${CONTENTS_PATH}/${VM_LIN_TARGET_NAME}"
 VM_LIN_ARM_TARGET="${CONTENTS_PATH}/${VM_LIN_ARM_TARGET_NAME}"
 VM_WIN_TARGET="${CONTENTS_PATH}/${VM_WIN_TARGET_NAME}"
-# VM_WIN_ARM_TARGET="${CONTENTS_PATH}/${VM_WIN_ARM_TARGET_NAME}"
+VM_WIN_ARM_TARGET="${CONTENTS_PATH}/${VM_WIN_ARM_TARGET_NAME}"
 
 VM_LIN_X86_PATH="${TMP_PATH}/${VM_LIN_X86}"
 VM_LIN_ARM_PATH="${TMP_PATH}/${VM_LIN_ARM}"
@@ -65,7 +65,7 @@ if [[ "${IMAGE_BITS}" == "64" ]]; then
   cp -R "${VM_LIN_X86_PATH}" "${VM_LIN_TARGET}"
   cp -R "${VM_LIN_ARM_PATH}" "${VM_LIN_ARM_TARGET}"
   cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
-  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
+  cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
 else # 32-bit
   mkdir -p "${APP_PATH}" # no 32-bit macOS .app anymore
   mkdir -p "${CONTENTS_PATH}" # no 32-bit macOS .app anymore
@@ -74,7 +74,7 @@ else # 32-bit
   cp -R "${VM_LIN_X86_PATH}" "${VM_LIN_TARGET}"
   cp -R "${VM_LIN_ARM_PATH}" "${VM_LIN_ARM_TARGET}"
   cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
-  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
+  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}" -- not supported
 fi
 
 copy_resources "${RESOURCES_PATH}"
@@ -99,20 +99,21 @@ if [[ "${IMAGE_BITS}" == "64" ]]; then
     "${VM_MAC_TARGET}/Squeak" \
     "${VM_LIN_TARGET}/squeak" \
     "${VM_LIN_ARM_TARGET}/squeak" \
-    "${VM_WIN_TARGET}/Squeak.exe"
-    # "${VM_WIN_ARM_TARGET}/Squeak.exe"
+    "${VM_WIN_TARGET}/Squeak.exe" \
+    "${VM_WIN_ARM_TARGET}/Squeak.exe"
 else # 32-bit
   chmod +x \
     "${VM_LIN_TARGET}/squeak" \
     "${VM_LIN_ARM_TARGET}/squeak" \
     "${VM_WIN_TARGET}/Squeak.exe"
-    # "${VM_WIN_ARM_TARGET}/Squeak.exe"
+    # "${VM_WIN_ARM_TARGET}/Squeak.exe" -- not supported
 fi
 
 echo "...applying various templates (squeak.sh, Info.plist, etc)..."
 # squeak.bat launcher
 sed -i".bak" "s/%AIO_APP_NAME%/${APP_NAME}/g" "${BUILD_PATH}/squeak.bat"
 sed -i".bak" "s/%AIO_VM_NAME%/${VM_WIN_TARGET_NAME}\\\\Squeak.exe/g" "${BUILD_PATH}/squeak.bat"
+sed -i".bak" "s/%AIO_VM_ARM_NAME%/${VM_WIN_ARM_TARGET_NAME}\\\\Squeak.exe/g" "${BUILD_PATH}/squeak.bat"
 sed -i".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${BUILD_PATH}/squeak.bat"
 rm -f "${BUILD_PATH}/squeak.bat.bak"
 # squeak.sh launcher
