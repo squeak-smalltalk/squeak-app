@@ -31,8 +31,8 @@ should_codesign() {
 }
 
 should_notarize() {
-  return $(! is_trunk)
-  # return 0
+  # return $(! is_trunk)
+  return 0
 }
 
 should_use_rc_vm() {

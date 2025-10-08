@@ -80,7 +80,7 @@ prepare_codesign_macOS() {
 
 prepare_notarize_macOS() {
   # Store notarization password in keychain for xcnotary
-  xcrun notarytool store-credentials "NOTARYTOOL_PASSWORD" --apple-id "${NOTARIZATION_USER}" --password "${NOTARIZATION_PASSWORD}" --keychain ~/Library/Keychains/"${KEY_CHAIN}"
+  xcrun notarytool store-credentials "NOTARYTOOL_PASSWORD" --apple-id "${NOTARIZATION_USER}" --password "${NOTARIZATION_PASSWORD}"
 }
 
 
@@ -112,5 +112,5 @@ do_notarize_macOS() {
 
 cleanup_codesign_macOS() {
   security delete-keychain "${KEY_CHAIN}"
-  #TODO: Remove ALTOOL_PASSWORD from local key chain
+  #TODO: Remove NOTARYTOOL_PASSWORD from local key chain
 }
