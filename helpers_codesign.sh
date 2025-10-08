@@ -15,7 +15,9 @@ prepare_codesign() {
   readonly CERT_FILEPATH_CER="${HOME_PATH}/secret-codesign/codesign.cer"
   readonly CERT_FILEPATH_P12="${HOME_PATH}/secret-codesign/codesign.p12"
   prepare_codesign_$RUNNER_OS
-  prepare_notarize_$RUNNER_OS
+  if should_notarize; then
+    prepare_notarize_$RUNNER_OS
+  fi
   end_group
 }
 
