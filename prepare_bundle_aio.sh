@@ -9,7 +9,15 @@
 ################################################################################
 
 begin_group "Creating All-in-one bundle for ${SMALLTALK_VERSION}..."
-BUNDLE_NAME_AIO="${IMAGE_NAME}-All-in-One"
+
+if should_use_rc_vm; then
+  # Need to distinguish custom OSVM bundles, because they will be uploaded
+  # as pre-release 'custom-osvm-bundle' to GitHub; see bundle.yml
+  BUNDLE_NAME_AIO="${IMAGE_NAME}-${VM_RC_TAG}-All-in-One"
+else
+  BUNDLE_NAME_AIO="${IMAGE_NAME}-All-in-One"
+fi
+
 export_variable "BUNDLE_NAME_AIO" "${BUNDLE_NAME_AIO}"
 BUNDLE_ID_AIO="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-aio-${IMAGE_BITS}bit"
 APP_NAME="${BUNDLE_NAME_AIO}.app"

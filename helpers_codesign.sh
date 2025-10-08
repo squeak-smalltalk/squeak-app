@@ -80,7 +80,7 @@ prepare_codesign_macOS() {
 
 prepare_notarize_macOS() {
   # Store notarization password in keychain for xcnotary
-  xcrun altool --store-password-in-keychain-item "ALTOOL_PASSWORD" -u "${NOTARIZATION_USER}" -p "${NOTARIZATION_PASSWORD}"
+  xcrun notarytool store-credentials "NOTARYTOOL_PASSWORD" --apple-id "${NOTARIZATION_USER}" --password "${NOTARIZATION_PASSWORD}"
 }
 
 
@@ -106,18 +106,8 @@ do_codesign_macOS() {
 
 do_notarize_macOS() {
   local path=$1
-
-  if ! command -v xcnotary >/dev/null 2>&1; then
-    echo "...installing xcnotary helper..."
-    curl -sL https://github.com/akeru-inc/xcnotary/releases/download/v0.4.8/xcnotary-0.4.8.catalina.bottle.tar.gz | \
-      tar -zxvf - --strip-components=3 xcnotary/0.4.8/bin/xcnotary
-    chmod +x xcnotary
-  fi
-
   echo "...notarizing the bundle..."
-  ./xcnotary notarize "${path}" \
-    --developer-account "${NOTARIZATION_USER}" \
-    --developer-password-keychain-item "ALTOOL_PASSWORD"
+  xcrun notarytool submit "${path}" --keychain-profile "NOTARYTOOL_PASSWORD" --wait
 }
 
 cleanup_codesign_macOS() {
