@@ -32,7 +32,10 @@ should_codesign() {
 
 should_notarize() {
   # return $(! is_trunk)
-  return 0
+  
+  # 0 ... everything is okay, TRUE
+  # 1 ... some error code, FALSE
+  return 1
 }
 
 should_use_rc_vm() {
