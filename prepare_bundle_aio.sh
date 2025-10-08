@@ -95,6 +95,11 @@ chmod +x \
   "${BUILD_PATH}/squeak.sh" \
   "${BUILD_PATH}/squeak.bat"
 if [[ "${IMAGE_BITS}" == "64" ]]; then
+  # Only 64-bit Windows has ARMv8 support
+  cp "${WIN_TEMPLATE_PATH}/Squeak.ini" "${VM_WIN_ARM_TARGET}/"
+  cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${VM_WIN_ARM_TARGET}/"
+  cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${VM_WIN_ARM_TARGET}/SqueakConsole.exe.manifest"
+
   chmod +x \
     "${VM_MAC_TARGET}/Squeak" \
     "${VM_LIN_TARGET}/squeak" \
@@ -131,11 +136,19 @@ sed -i".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONT
 sed -i".bak" "s/%CFBundleVersion%/${IMAGE_BITS} bit/g" "${CONTENTS_PATH}/Info.plist"
 sed -i".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_PATH}/Info.plist"
 rm -f "${CONTENTS_PATH}/Info.plist.bak"
+
 # Squeak.ini (consistent with contents in Info.plist)
 sed -i".bak" "s/%WindowTitle%/${WINDOW_TITLE}/g" "${VM_WIN_TARGET}/Squeak.ini"
 rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 # Remove .map files from $VM_WIN_TARGET
 rm -f "${VM_WIN_TARGET}/"*.map
+if [[ "${IMAGE_BITS}" == "64" ]]; then
+  sed -i".bak" "s/%WindowTitle%/${WINDOW_TITLE}/g" "${VM_WIN_ARM_TARGET}/Squeak.ini"
+  rm -f "${VM_WIN_ARM_TARGET}/Squeak.ini.bak"
+  # Remove .map files from $VM_WIN_TARGET
+  rm -f "${VM_WIN_ARM_TARGET}/"*.map
+fi
+
 
 if [[ "${IMAGE_BITS}" == "64" ]]; then
   # No 32-bit macOS VM anymore
