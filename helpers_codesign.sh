@@ -80,7 +80,7 @@ prepare_codesign_macOS() {
 
 prepare_notarize_macOS() {
   # Store notarization password in keychain for xcnotary
-  xcrun notarytool store-credentials "NOTARYTOOL_PASSWORD" --apple-id "${NOTARIZATION_USER}" --password "${NOTARIZATION_PASSWORD}"
+  xcrun notarytool store-credentials "NOTARYTOOL_PASSWORD" --apple-id "${NOTARIZATION_USER}" --password "${NOTARIZATION_PASSWORD}" --keychain "${KEY_CHAIN}"
 }
 
 
