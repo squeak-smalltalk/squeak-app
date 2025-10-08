@@ -22,6 +22,11 @@ on:
   schedule:
     - cron: '0 0 * * *' # Build everyday at midnight
   workflow_dispatch:
+    inputs:
+      osvm-build:
+        description: "Build with latest-build OSVM. Leave empty for using current OSVM release."
+        required: false # if empty, use default VM from files.squeak.org/base
+        default: YYYYMMDDHHMM
 
 jobs:
   prepare-image:
@@ -102,14 +107,14 @@ jobs:
           name: ${{ matrix.smalltalk }}
           path: tmp
 
-      - name: "Set up SmalltalkCI"
+      - name: Set up SmalltalkCI
         # uses: hpi-swa/setup-smalltalkCI@v1
         uses: marceltaeumel/setup-smalltalkCI@marceltaeumel/install-path
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
           smalltalkCI-workspace: ${{ github.workspace }}
 
-      - name: "Run tests"
+      - name: Run tests
         continue-on-error: true
         shell: bash
         run: ./test_image.sh
@@ -142,9 +147,9 @@ jobs:
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
-      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-6.0') }}
+      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-6.0') && github.event.inputs.osvm-build == '' }}
       SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-6.0') }}
-      # VM_RC_TAG: "202205110711" # comment out to use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }}
+      VM_RC_TAG: ${{ github.event.inputs.osvm-build }} # only workflow-dispatch; otherwise, use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }}
 
     steps:
       - uses: actions/checkout@v2
@@ -187,3 +192,15 @@ jobs:
           PROXY_USER: ${{ secrets.PROXY_USER }}
           UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
           UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}
+
+      - name: Update artifact in custom-osvm-bundle
+        uses: ncipollo/release-action@v1
+        if: env.SHOULD_DEPLOY == 'false' # only if not uploaded to file.squeak.org
+        with:
+          prerelease: true # release candidate
+          allowUpdates: true
+          replacesArtifacts: true
+          artifacts: product/*
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: 'custom-osvm-bundle'
+          body: ${{ github.event.head_commit.message }}
