@@ -10,14 +10,15 @@ This guide describes a user-local installation.
 
 - Copy `balloon.svg` to `~/.local/squeak/squeak.svg`
 
-- Create `~/.local/bin/squeak`:
+Ensure that `~/.local/bin` exists and is in your `PATH` (if not, create it, make sure your `~/.profile` or a similar script adds it to the path, and login again or manually `source ~/.profile` in your shell).
+
+Create `~/.local/bin/squeak`:
 
   ```sh
   #!/bin/sh
   set -e
   version=202502080249
-  cd "$HOME/.local/squeak/$version/"
-  exec ./squeak "$@"
+  exec "$HOME/.local/squeak/$version/squeak" "$@"
   ```
 
   - Make it executable (`chmod +x`)
