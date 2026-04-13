@@ -24,9 +24,9 @@ on:
   workflow_dispatch:
     inputs:
       osvm-build:
-        description: "Build with latest-build OSVM. Leave empty for using current OSVM release."
+        description: "Build with latest-build OSVM (i.e., YYYYMMDDHHMM tag). Leave empty for using current OSVM release."
         required: false # if empty, use default VM from files.squeak.org/base
-        default: YYYYMMDDHHMM
+        default: ''
 
 jobs:
   prepare-image:
