@@ -85,7 +85,11 @@ if is_64bit; then
   source "prepare_bundle_macos.sh" # Unified binary arm64+x64
   source "prepare_bundle_macos_x86.sh"
   source "prepare_bundle_macos_arm.sh"
-  source "prepare_bundle_windows_arm.sh"
+  if should_use_rc_vm; then
+    # add for all bundles (not just RC) when OSVM 2026 released
+    # see files.squeak.org/base
+    source "prepare_bundle_windows_arm.sh" 
+  fi
 fi
 
 source "prepare_bundle_aio.sh"
