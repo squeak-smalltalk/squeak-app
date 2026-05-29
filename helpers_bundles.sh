@@ -6,11 +6,11 @@ download_and_extract_all_vms() {
   source "${TMP_PATH}/vm-versions"
 
   if is_64bit; then
-# [[ -z "${VERSION_VM_WIN_ARM}" ]] || \
     if [[ -z "${VERSION_VM_LINUX_ARM}" ]] || \
        [[ -z "${VERSION_VM_LINUX_X86}" ]] || \
        [[ -z "${VERSION_VM_MACOS_ARM}" ]] || \
        [[ -z "${VERSION_VM_MACOS_X86}" ]] || \
+       [[ -z "${VERSION_VM_WIN_ARM}" ]] || \
        [[ -z "${VERSION_VM_WIN_X86}" ]]; then
       print_error "...could not determine all required VM versions!"
       exit 1
@@ -23,7 +23,7 @@ download_and_extract_all_vms() {
     download_and_extract_vm "Linux (x64)" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
     download_and_extract_vm "Linux (ARMv8)" "${VM_BASE}/${VM_LIN_ARM}.zip" "${TMP_PATH}/${VM_LIN_ARM}"
     download_and_extract_vm "Windows (x64)" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"
-    # download_and_extract_vm "Windows (ARMv8)" "${VM_BASE}/${VERSION_VM_WIN_ARM}.zip" "${TMP_PATH}/${VERSION_VM_WIN_ARM}"
+    download_and_extract_vm "Windows (ARMv8)" "${VM_BASE}/${VERSION_VM_WIN_ARM}.zip" "${TMP_PATH}/${VERSION_VM_WIN_ARM}"
 
     readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x64"
     readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv8"
@@ -31,7 +31,7 @@ download_and_extract_all_vms() {
     readonly BUNDLE_NAME_MAC_X86_SUFFIX="macOS-x64"
     readonly BUNDLE_NAME_MAC_ARM_SUFFIX="macOS-ARMv8"
     readonly BUNDLE_NAME_WIN_X86_SUFFIX="Windows-x64"
-    # readonly BUNDLE_NAME_WIN_ARM_SUFFIX="Windows-ARMv8"
+    readonly BUNDLE_NAME_WIN_ARM_SUFFIX="Windows-ARMv8"
 
   else # 32-bit
 
