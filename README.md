@@ -13,14 +13,14 @@ A build works basically as follows. First, 32-bit and 64-bit images are prepared
 
 Second, the [prepare-bundles.sh](prepare-bundles.sh) script downloads VMs from http://files.squeak.org/base/ and then creates the bundles through the following scripts:
 
-* [prepare_aio.sh](prepare_aio.sh) builds the All-In-One bundle
-* [prepare_macos.sh](prepare_macos.sh) builds the macOS bundle (64-bit, unified binary)
-* [prepare_macos_arm.sh](prepare_macos_arm.sh) builds the macOS bundle (64-bit, M1 silicon and later)
-* [prepare_macos_x86.sh](prepare_macos_x86.sh) builds the macOS release (64-bit, Intel silicon)
-* [prepare_windows_arm.sh](prepare_windows_arm.sh) builds the Windows bundle (64-bit, ARM-based)
-* [prepare_windows_x86.sh](prepare_windows_x86.sh) builds the Windows bundle (32/64-bit, x86-based) 
-* [prepare_linux_arm.sh](prepare_linux_arm.sh) builds the Linux bundle (32/64-bit, ARM-based, Ubuntu-like)
-* [prepare_linux_x86.sh](prepare_linux_x86.sh) builds the Linux bundle (32/64-bit, x86-based, Ubuntu-like)
+* [prepare_bundle_aio.sh](prepare_bundle_aio.sh) builds the All-In-One bundle
+* [prepare_bundle_macos.sh](prepare_bundle_macos.sh) builds the macOS bundle (64-bit, unified binary)
+* [prepare_bundle_macos_arm.sh](prepare_bundle_macos_arm.sh) builds the macOS bundle (64-bit, M1 silicon and later)
+* [prepare_bundle_macos_x86.sh](prepare_bundle_macos_x86.sh) builds the macOS release (64-bit, Intel silicon)
+* [prepare_bundle_windows_arm.sh](prepare_bundle_windows_arm.sh) builds the Windows bundle (64-bit, ARM-based)
+* [prepare_bundle_windows_x86.sh](prepare_bundle_windows_x86.sh) builds the Windows bundle (32/64-bit, x86-based) 
+* [prepare_bundle_linux_arm.sh](prepare_bundle_linux_arm.sh) builds the Linux bundle (32/64-bit, ARM-based, Ubuntu-like)
+* [prepare_bundle_linux_x86.sh](prepare_bundle_linux_x86.sh) builds the Linux bundle (32/64-bit, x86-based, Ubuntu-like)
 
 Finally, [deploy_bundles.sh](deploy_bundles.sh) uploads everything to http://files.squeak.org/
 (e.g., bleeding-edge trunk builds go to http://files.squeak.org/trunk).
