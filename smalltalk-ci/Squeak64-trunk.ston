@@ -5,11 +5,13 @@ SmalltalkCISpec {
     #hidePassingTests : true,
     #exclude : {
       #classes : [
-        #AllocationTest,
         #DebuggerTests,
         #LangEnvBugs,
         #Win32VMTest
-      ]
+      ],
+      #classComments : {
+        #DebuggerTests : 'generates user interrupt which would abort test execution'
+      }
     }
   }
 }
