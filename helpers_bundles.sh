@@ -23,7 +23,7 @@ download_and_extract_all_vms() {
     download_and_extract_vm "Linux (x64)" "${VM_BASE}/${VM_LIN_X86}.zip" "${TMP_PATH}/${VM_LIN_X86}"
     download_and_extract_vm "Linux (ARMv8)" "${VM_BASE}/${VM_LIN_ARM}.zip" "${TMP_PATH}/${VM_LIN_ARM}"
     download_and_extract_vm "Windows (x64)" "${VM_BASE}/${VM_WIN_X86}.zip" "${TMP_PATH}/${VM_WIN_X86}"
-    download_and_extract_vm "Windows (ARMv8)" "${VM_BASE}/${VERSION_VM_WIN_ARM}.zip" "${TMP_PATH}/${VERSION_VM_WIN_ARM}"
+    download_and_extract_vm "Windows (ARMv8)" "${VM_BASE}/${VM_WIN_ARM}.zip" "${TMP_PATH}/${VM_WIN_ARM}"
 
     readonly BUNDLE_NAME_LIN_X86_SUFFIX="Linux-x64"
     readonly BUNDLE_NAME_LIN_ARM_SUFFIX="Linux-ARMv8"
