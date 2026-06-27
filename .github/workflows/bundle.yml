@@ -147,8 +147,8 @@ jobs:
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
-      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') && github.event.inputs.osvm-build == '' }}
-      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
+      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-6.0') && github.event.inputs.osvm-build == '' }}
+      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-6.0') }}
       VM_RC_TAG: ${{ github.event.inputs.osvm-build }} # only workflow-dispatch; otherwise, use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }}
 
     steps:
