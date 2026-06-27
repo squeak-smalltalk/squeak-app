@@ -49,7 +49,7 @@ jobs:
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - name: Prepare image
         shell: bash
@@ -57,7 +57,7 @@ jobs:
         timeout-minutes: 20
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.smalltalk }}
           path: |
@@ -93,16 +93,16 @@ jobs:
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - name: Import global environment
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
 
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}
           path: tmp
@@ -121,7 +121,7 @@ jobs:
         timeout-minutes: 20
 
       - name: Upload test results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.smalltalk }}-tests
           path: tmp/*.xml # smalltalkCI test results
@@ -152,16 +152,16 @@ jobs:
       VM_RC_TAG: ${{ github.event.inputs.osvm-build }} # only workflow-dispatch; otherwise, use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - name: Import global environment
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
 
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}
           path: tmp
@@ -176,7 +176,7 @@ jobs:
           NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.smalltalk }}-bundles
           path: product/*
