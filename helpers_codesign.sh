@@ -110,7 +110,10 @@ do_notarize_macOS() {
   local path=$1
   echo "...notarizing the bundle..."
   xcrun notarytool submit "${path}" --keychain-profile "NOTARYTOOL_PASSWORD" --wait
-  xcrun stapler staple "${path}"
+
+  if [[ "${path}" == *".dmg" ]]; then  
+    xcrun stapler staple "${path}"
+  fi
 }
 
 cleanup_codesign_macOS() {
