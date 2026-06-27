@@ -88,8 +88,12 @@ jobs:
           # - Squeak64-5.2
           # - Etoys-trunk
           # - Etoys64-trunk
-    runs-on: windows-latest
-    name: 🧪 Test image of ${{ matrix.smalltalk }}
+        os:
+          - linux-latest
+          - macos-latest
+          - windows-latest
+    runs-on: ${{ matrix.os }}
+    name: 🧪 Test image of ${{ matrix.smalltalk }} on ${{ matrix.os }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
     steps:
