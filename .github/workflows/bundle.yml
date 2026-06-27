@@ -89,8 +89,8 @@ jobs:
           # - Etoys-trunk
           # - Etoys64-trunk
         os:
-          - linux-latest
           - macos-latest
+          - ubuntu-latest
           - windows-latest
     runs-on: ${{ matrix.os }}
     name: 🧪 Test image of ${{ matrix.smalltalk }} on ${{ matrix.os }}
