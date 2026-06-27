@@ -173,6 +173,7 @@ jobs:
           CERT_IDENTITY: ${{ secrets.CERT_IDENTITY }}
           CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
           NOTARIZATION_USER: ${{ secrets.NOTARIZATION_USER }}
+          NOTARIZATION_TEAM: ${{ secrets.NOTARIZATION_TEAM }}
           NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 
       - name: Upload artifacts

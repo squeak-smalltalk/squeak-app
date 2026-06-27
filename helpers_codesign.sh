@@ -81,8 +81,8 @@ prepare_codesign_macOS() {
 }
 
 prepare_notarize_macOS() {
-  # Store notarization password in keychain for xcnotary
-  xcrun notarytool store-credentials "NOTARYTOOL_PASSWORD" --apple-id "${NOTARIZATION_USER}" --password "${NOTARIZATION_PASSWORD}"
+  # Store notarization password in keychain for notarytool
+  xcrun notarytool store-credentials "NOTARYTOOL_PASSWORD" --apple-id "${NOTARIZATION_USER}" --team-id "${NOTARIZATION_TEAM}" --password "${NOTARIZATION_PASSWORD}"
 }
 
 
@@ -110,6 +110,7 @@ do_notarize_macOS() {
   local path=$1
   echo "...notarizing the bundle..."
   xcrun notarytool submit "${path}" --keychain-profile "NOTARYTOOL_PASSWORD" --wait
+  xcrun stapler staple "${path}"
 }
 
 cleanup_codesign_macOS() {
