@@ -122,6 +122,14 @@ jobs:
         shell: bash
         run: ./test_image.sh
         timeout-minutes: 20
+      
+      - name: Check whether tests were performed correctly (xml files exist)
+        shell: bash
+        run: |
+          if ! compgen -G "tmp/*.xml" > /dev/null; then
+            echo "Error: No test result XML files found. Tests may not have been performed correctly."
+            exit 1
+          fi
 
       - name: Upload test results
         uses: actions/upload-artifact@v4
