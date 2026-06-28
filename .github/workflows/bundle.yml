@@ -113,10 +113,9 @@ jobs:
 
       - name: Set up SmalltalkCI
         # uses: hpi-swa/setup-smalltalkCI@v1
-        uses: marceltaeumel/setup-smalltalkCI@marceltaeumel/install-path
+        uses: LinqLover/setup-smalltalkCI@marceltaeumel/install-path
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
-          smalltalkCI-workspace: ${{ github.workspace }}
 
       - name: Run tests
         continue-on-error: true
