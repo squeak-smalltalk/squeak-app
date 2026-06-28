@@ -75,7 +75,7 @@ jobs:
   test-image:
     needs: [prepare-image]
     strategy:
-      fail-fast: true
+      fail-fast: false
       matrix:
         smalltalk:
           - Squeak-trunk
