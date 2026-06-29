@@ -4,7 +4,8 @@ on:
   push: # Choose the branch that matches the Smalltalk version below
     branches:
       # - squeak-trunk
-      - squeak-5.3
+      - squeak-6.0
+      # - squeak-5.3
       # - squeak-5.2
     paths-ignore: # Skip changes in documentation artifacts
       - '**.md'
@@ -12,7 +13,8 @@ on:
   pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
       # - squeak-trunk
-      - squeak-5.3
+      - squeak-6.0
+      # - squeak-5.3
       # - squeak-5.2
     paths-ignore: # Skip changes in documentation artifacts
       - '**.md'
@@ -20,6 +22,11 @@ on:
   schedule:
     - cron: '0 0 * * *' # Build everyday at midnight
   workflow_dispatch:
+    inputs:
+      osvm-build:
+        description: "Build with latest-build OSVM (i.e., YYYYMMDDHHMM tag). Leave empty for using current OSVM release."
+        required: false # if empty, use default VM from files.squeak.org/base
+        default: ''
 
 jobs:
   prepare-image:
@@ -29,8 +36,10 @@ jobs:
         smalltalk:
           # - Squeak-trunk
           # - Squeak64-trunk
-          - Squeak-5.3
-          - Squeak64-5.3
+          - Squeak-6.0
+          - Squeak64-6.0
+          # - Squeak-5.3
+          # - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
           # - Etoys-trunk
@@ -40,7 +49,7 @@ jobs:
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - name: Prepare image
         shell: bash
@@ -48,7 +57,7 @@ jobs:
         timeout-minutes: 20
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.smalltalk }}
           path: |
@@ -71,8 +80,10 @@ jobs:
         smalltalk:
           # - Squeak-trunk
           # - Squeak64-trunk
-          - Squeak-5.3
-          - Squeak64-5.3
+          - Squeak-6.0
+          - Squeak64-6.0
+          # - Squeak-5.3
+          # - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
           # - Etoys-trunk
@@ -82,35 +93,35 @@ jobs:
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - name: Import global environment
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
 
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}
           path: tmp
 
-      - name: "Set up SmalltalkCI"
+      - name: Set up SmalltalkCI
         # uses: hpi-swa/setup-smalltalkCI@v1
         uses: marceltaeumel/setup-smalltalkCI@marceltaeumel/install-path
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
           smalltalkCI-workspace: ${{ github.workspace }}
 
-      - name: "Run tests"
+      - name: Run tests
         continue-on-error: true
         shell: bash
         run: ./test_image.sh
         timeout-minutes: 20
 
       - name: Upload test results
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.smalltalk }}-tests
           path: tmp/*.xml # smalltalkCI test results
@@ -124,8 +135,10 @@ jobs:
         smalltalk:
           # - Squeak-trunk
           # - Squeak64-trunk
-          - Squeak-5.3
-          - Squeak64-5.3
+          - Squeak-6.0
+          - Squeak64-6.0
+          # - Squeak-5.3
+          # - Squeak64-5.3
           # - Squeak-5.2
           # - Squeak64-5.2
           # - Etoys-trunk
@@ -134,21 +147,21 @@ jobs:
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
-      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-5.3') }}
-      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-5.3') }}
-      # VM_RC_TAG: "202205110711" # comment out to use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }} 
+      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-6.0') && github.event.inputs.osvm-build == '' }}
+      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-6.0') }}
+      VM_RC_TAG: ${{ github.event.inputs.osvm-build }} # only workflow-dispatch; otherwise, use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v7
 
       - name: Import global environment
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}-env
           path: tmp
 
       - name: Download artifacts
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v8
         with:
           name: ${{ matrix.smalltalk }}
           path: tmp
@@ -160,10 +173,11 @@ jobs:
           CERT_IDENTITY: ${{ secrets.CERT_IDENTITY }}
           CERT_PASSWORD: ${{ secrets.CERT_PASSWORD }}
           NOTARIZATION_USER: ${{ secrets.NOTARIZATION_USER }}
+          NOTARIZATION_TEAM: ${{ secrets.NOTARIZATION_TEAM }}
           NOTARIZATION_PASSWORD: ${{ secrets.NOTARIZATION_PASSWORD }}
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ matrix.smalltalk }}-bundles
           path: product/*
@@ -179,3 +193,15 @@ jobs:
           PROXY_USER: ${{ secrets.PROXY_USER }}
           UPSTREAM_HOST: ${{ secrets.UPSTREAM_HOST }}
           UPSTREAM_USER: ${{ secrets.UPSTREAM_USER }}
+
+      - name: Update artifact in custom-osvm-bundle
+        uses: ncipollo/release-action@v1
+        if: env.SHOULD_DEPLOY == 'false' # only if not uploaded to file.squeak.org
+        with:
+          prerelease: true # release candidate
+          allowUpdates: true
+          replacesArtifacts: true
+          artifacts: product/*
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: 'custom-osvm-bundle'
+          body: ${{ github.event.head_commit.message }}

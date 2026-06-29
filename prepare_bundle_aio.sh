@@ -9,7 +9,15 @@
 ################################################################################
 
 begin_group "Creating All-in-one bundle for ${SMALLTALK_VERSION}..."
-BUNDLE_NAME_AIO="${IMAGE_NAME}-All-in-One"
+
+if should_use_rc_vm; then
+  # Need to distinguish custom OSVM bundles, because they will be uploaded
+  # as pre-release 'custom-osvm-bundle' to GitHub; see bundle.yml
+  BUNDLE_NAME_AIO="${IMAGE_NAME}-${VM_RC_TAG}-All-in-One"
+else
+  BUNDLE_NAME_AIO="${IMAGE_NAME}-All-in-One"
+fi
+
 export_variable "BUNDLE_NAME_AIO" "${BUNDLE_NAME_AIO}"
 BUNDLE_ID_AIO="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-aio-${IMAGE_BITS}bit"
 APP_NAME="${BUNDLE_NAME_AIO}.app"
@@ -24,19 +32,19 @@ if [[ "${IMAGE_BITS}" == "64" ]]; then
   VM_LIN_ARM_TARGET_NAME="Linux-arm64"
 
   VM_WIN_TARGET_NAME="Windows-x86_64"
-  # VM_WIN_ARM_TARGET_NAME="Win32-arm64"
+  VM_WIN_ARM_TARGET_NAME="Windows-ARMv8"
 else
   VM_LIN_TARGET_NAME="Linux-i686"
   VM_LIN_ARM_TARGET_NAME="Linux-arm"
   VM_WIN_TARGET_NAME="Windows-x86"
-  # VM_WIN_ARM_TARGET_NAME="Win32-arm"
+  # VM_WIN_ARM_TARGET_NAME="Win32-arm" --- not supported
 fi
 
 VM_MAC_TARGET="${CONTENTS_PATH}/${VM_MAC_TARGET_NAME}"
 VM_LIN_TARGET="${CONTENTS_PATH}/${VM_LIN_TARGET_NAME}"
 VM_LIN_ARM_TARGET="${CONTENTS_PATH}/${VM_LIN_ARM_TARGET_NAME}"
 VM_WIN_TARGET="${CONTENTS_PATH}/${VM_WIN_TARGET_NAME}"
-# VM_WIN_ARM_TARGET="${CONTENTS_PATH}/${VM_WIN_ARM_TARGET_NAME}"
+VM_WIN_ARM_TARGET="${CONTENTS_PATH}/${VM_WIN_ARM_TARGET_NAME}"
 
 VM_LIN_X86_PATH="${TMP_PATH}/${VM_LIN_X86}"
 VM_LIN_ARM_PATH="${TMP_PATH}/${VM_LIN_ARM}"
@@ -57,7 +65,7 @@ if [[ "${IMAGE_BITS}" == "64" ]]; then
   cp -R "${VM_LIN_X86_PATH}" "${VM_LIN_TARGET}"
   cp -R "${VM_LIN_ARM_PATH}" "${VM_LIN_ARM_TARGET}"
   cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
-  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
+  cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
 else # 32-bit
   mkdir -p "${APP_PATH}" # no 32-bit macOS .app anymore
   mkdir -p "${CONTENTS_PATH}" # no 32-bit macOS .app anymore
@@ -66,7 +74,7 @@ else # 32-bit
   cp -R "${VM_LIN_X86_PATH}" "${VM_LIN_TARGET}"
   cp -R "${VM_LIN_ARM_PATH}" "${VM_LIN_ARM_TARGET}"
   cp -R "${TMP_PATH}/${VM_WIN_X86}" "${VM_WIN_TARGET}"
-  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}"
+  # cp -R "${TMP_PATH}/${VM_WIN_ARM}" "${VM_WIN_ARM_TARGET}" -- not supported
 fi
 
 copy_resources "${RESOURCES_PATH}"
@@ -87,24 +95,30 @@ chmod +x \
   "${BUILD_PATH}/squeak.sh" \
   "${BUILD_PATH}/squeak.bat"
 if [[ "${IMAGE_BITS}" == "64" ]]; then
+  # Only 64-bit Windows has ARMv8 support
+  cp "${WIN_TEMPLATE_PATH}/Squeak.ini" "${VM_WIN_ARM_TARGET}/"
+  cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${VM_WIN_ARM_TARGET}/"
+  cp "${WIN_TEMPLATE_PATH}/Squeak.exe.manifest" "${VM_WIN_ARM_TARGET}/SqueakConsole.exe.manifest"
+
   chmod +x \
     "${VM_MAC_TARGET}/Squeak" \
     "${VM_LIN_TARGET}/squeak" \
     "${VM_LIN_ARM_TARGET}/squeak" \
-    "${VM_WIN_TARGET}/Squeak.exe"
-    # "${VM_WIN_ARM_TARGET}/Squeak.exe"
+    "${VM_WIN_TARGET}/Squeak.exe" \
+    "${VM_WIN_ARM_TARGET}/Squeak.exe"
 else # 32-bit
   chmod +x \
     "${VM_LIN_TARGET}/squeak" \
     "${VM_LIN_ARM_TARGET}/squeak" \
     "${VM_WIN_TARGET}/Squeak.exe"
-    # "${VM_WIN_ARM_TARGET}/Squeak.exe"
+    # "${VM_WIN_ARM_TARGET}/Squeak.exe" -- not supported
 fi
 
 echo "...applying various templates (squeak.sh, Info.plist, etc)..."
 # squeak.bat launcher
 sed -i".bak" "s/%AIO_APP_NAME%/${APP_NAME}/g" "${BUILD_PATH}/squeak.bat"
 sed -i".bak" "s/%AIO_VM_NAME%/${VM_WIN_TARGET_NAME}\\\\Squeak.exe/g" "${BUILD_PATH}/squeak.bat"
+sed -i".bak" "s/%AIO_VM_ARM_NAME%/${VM_WIN_ARM_TARGET_NAME}\\\\Squeak.exe/g" "${BUILD_PATH}/squeak.bat"
 sed -i".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${BUILD_PATH}/squeak.bat"
 rm -f "${BUILD_PATH}/squeak.bat.bak"
 # squeak.sh launcher
@@ -122,23 +136,37 @@ sed -i".bak" "s/%CFBundleShortVersionString%/${SQUEAK_VERSION_NUMBER}/g" "${CONT
 sed -i".bak" "s/%CFBundleVersion%/${IMAGE_BITS} bit/g" "${CONTENTS_PATH}/Info.plist"
 sed -i".bak" "s/%SqueakImageName%/${IMAGE_NAME}.image/g" "${CONTENTS_PATH}/Info.plist"
 rm -f "${CONTENTS_PATH}/Info.plist.bak"
+
 # Squeak.ini (consistent with contents in Info.plist)
 sed -i".bak" "s/%WindowTitle%/${WINDOW_TITLE}/g" "${VM_WIN_TARGET}/Squeak.ini"
 rm -f "${VM_WIN_TARGET}/Squeak.ini.bak"
 # Remove .map files from $VM_WIN_TARGET
 rm -f "${VM_WIN_TARGET}/"*.map
+if [[ "${IMAGE_BITS}" == "64" ]]; then
+  sed -i".bak" "s/%WindowTitle%/${WINDOW_TITLE}/g" "${VM_WIN_ARM_TARGET}/Squeak.ini"
+  rm -f "${VM_WIN_ARM_TARGET}/Squeak.ini.bak"
+  # Remove .map files from $VM_WIN_TARGET
+  rm -f "${VM_WIN_ARM_TARGET}/"*.map
+fi
+
 
 if [[ "${IMAGE_BITS}" == "64" ]]; then
   # No 32-bit macOS VM anymore
   if should_codesign; then
     do_codesign "${APP_PATH}" # *.app
-    if should_notarize; then
-      do_notarize "${APP_PATH}" # *.app
-    fi
   fi
 fi
 
 compress_into_product "${BUNDLE_NAME_AIO}"
+
+if [[ "${IMAGE_BITS}" == "64" ]]; then
+  # No 32-bit macOS VM anymore
+  # We can only notarize containers such as *.dmg and *.zip, no *.app directly
+  if should_notarize; then
+    do_notarize "${PRODUCT_PATH}/${BUNDLE_NAME_AIO}.zip" # *.zip
+  fi
+fi
+
 reset_build_dir
 
 end_group
