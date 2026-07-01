@@ -96,10 +96,21 @@ jobs:
           # no 32-bit support on macOS
           - smalltalk: Squeak-trunk
             os: macos-latest
+        include:
+          - smalltalk: Squeak64-trunk
+            os: macos-latest
+            extra: '-installer-smoke'
+          - smalltalk: Squeak64-trunk
+            os: ubuntu-latest
+            extra: '-installer-smoke'
+          - smalltalk: Squeak64-trunk
+            os: windows-latest
+            extra: '-installer-smoke'
     runs-on: ${{ matrix.os }}
-    name: 🧪 Test image of ${{ matrix.smalltalk }} on ${{ matrix.os }}
+    name: 🧪 Test image of ${{ matrix.smalltalk }}${{ matrix.extra }} on ${{ matrix.os }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
+      SMALLTALK_CI_CONFIG: ${{ matrix.smalltalk }}${{ matrix.extra }}
     steps:
       - uses: actions/checkout@v2
 
@@ -127,7 +138,7 @@ jobs:
         run: ./test_image.sh
         timeout-minutes: 20
       
-      - name: Check whether tests were performed correctly (xml files exist)
+      - name: Check whether tests were performed correctly
         shell: bash
         run: |
           if ! compgen -G "tmp/*.xml" > /dev/null; then

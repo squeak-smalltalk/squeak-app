@@ -27,10 +27,9 @@ monitor := nil.
 
 FileStream stdout closed ifTrue: [ FileStream startUp: true ].
 
-Utilities useAuthorInitials: 'smalltalkCI' during: [
-  InstallerSmokeTest generateTests].
-
-(Smalltalk at: #SmalltalkCI) test: stonConfig named: 'Squeak SUnit Tests'.
+(Smalltalk at: #SmalltalkCI)
+  test: (FileDirectory default / stonConfig) fullName
+  named: ('Squeak SUnit Tests ({1})' format: {stonConfig}).
 
 "Currently not reached, because SmalltalkCI>>test: closes image already"
 FileStream stdout nextPutAll: 'Closing image after testing...'; cr; flush.

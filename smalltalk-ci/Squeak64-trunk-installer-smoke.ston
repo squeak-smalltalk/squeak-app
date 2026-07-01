@@ -1,0 +1,14 @@
+SmalltalkCISpec {
+  #preTesting : SCICustomScript {
+    #path : '../prepare_installer_smoke_tests.st'
+  },
+  #testing : {
+    #classes : [
+      #InstallerSmokeTest
+    ],
+    #hidePassingTests : true,
+    #comments : {
+      #preTesting : 'NB: Depends on TMP_PATH=<here>/folder'
+    }
+  }
+}
