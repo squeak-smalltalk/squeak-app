@@ -92,6 +92,10 @@ jobs:
           - macos-latest
           - ubuntu-latest
           - windows-latest
+        exclude:
+          # no 32-bit support on macOS
+          - smalltalk: Squeak-trunk
+            os: macos-latest
     runs-on: ${{ matrix.os }}
     name: 🧪 Test image of ${{ matrix.smalltalk }} on ${{ matrix.os }}
     env:
