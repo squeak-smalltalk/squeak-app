@@ -27,7 +27,8 @@ monitor := nil.
 
 FileStream stdout closed ifTrue: [ FileStream startUp: true ].
 
-InstallerSmokeTest generateTests.
+Utilities useAuthorInitials: 'smalltalkCI' during: [
+  InstallerSmokeTest generateTests].
 
 (Smalltalk at: #SmalltalkCI) test: stonConfig named: 'Squeak SUnit Tests'.
 
