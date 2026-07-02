@@ -92,6 +92,8 @@ jobs:
           - macos-latest
           - ubuntu-latest
           - windows-latest
+        extra:
+          - null
         exclude:
           # no 32-bit support on macOS
           - smalltalk: Squeak-trunk
