@@ -108,8 +108,7 @@ jobs:
           path: tmp
 
       - name: Set up SmalltalkCI
-        # uses: hpi-swa/setup-smalltalkCI@v1
-        uses: marceltaeumel/setup-smalltalkCI@marceltaeumel/install-path
+        uses: hpi-swa/setup-smalltalkCI@v1
         with:
           smalltalk-image: ${{ matrix.smalltalk }}
           smalltalkCI-workspace: ${{ github.workspace }}
