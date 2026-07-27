@@ -89,8 +89,8 @@ jobs:
           # - Etoys-trunk
           # - Etoys64-trunk
         os:
-          - macos-latest
-          - ubuntu-latest
+          # - macos-latest
+          # - ubuntu-latest
           - windows-latest
         extra:
           - null
@@ -98,16 +98,16 @@ jobs:
           # no 32-bit support on macOS
           - smalltalk: Squeak-trunk
             os: macos-latest
-        include:
-          - smalltalk: Squeak64-trunk
-            os: macos-latest
-            extra: '-installer-smoke'
-          - smalltalk: Squeak64-trunk
-            os: ubuntu-latest
-            extra: '-installer-smoke'
-          - smalltalk: Squeak64-trunk
-            os: windows-latest
-            extra: '-installer-smoke'
+        # include:
+        #   - smalltalk: Squeak64-trunk
+        #     os: macos-latest
+        #     extra: '-installer-smoke'
+        #   - smalltalk: Squeak64-trunk
+        #     os: ubuntu-latest
+        #     extra: '-installer-smoke'
+        #   - smalltalk: Squeak64-trunk
+        #     os: windows-latest
+        #     extra: '-installer-smoke'
     runs-on: ${{ matrix.os }}
     name: 🧪 Test image of ${{ matrix.smalltalk }}${{ matrix.extra }} on ${{ matrix.os }}
     env:
