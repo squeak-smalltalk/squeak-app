@@ -154,13 +154,19 @@ if [[ "${IMAGE_BITS}" == "64" ]]; then
   # No 32-bit macOS VM anymore
   if should_codesign; then
     do_codesign "${APP_PATH}" # *.app
-    if should_notarize; then
-      do_notarize "${APP_PATH}" # *.app
-    fi
   fi
 fi
 
 compress_into_product "${BUNDLE_NAME_AIO}"
+
+if [[ "${IMAGE_BITS}" == "64" ]]; then
+  # No 32-bit macOS VM anymore
+  # We can only notarize containers such as *.dmg and *.zip, no *.app directly
+  if should_notarize; then
+    do_notarize "${PRODUCT_PATH}/${BUNDLE_NAME_AIO}.zip" # *.zip
+  fi
+fi
+
 reset_build_dir
 
 end_group

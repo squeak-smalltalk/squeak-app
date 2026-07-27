@@ -8,7 +8,7 @@
 #           Marcel Taeumel, Hasso Plattner Institute, Potsdam, Germany
 ################################################################################
 
-begin_group "Creating macOS bundle for ${SMALLTALK_VERSION}..."
+begin_group "Creating macOS bundle for ${SMALLTALK_VERSION} (unified)..."
 BUNDLE_NAME_MAC="${IMAGE_NAME}-${VERSION_VM_MACOS}-${BUNDLE_NAME_MAC_SUFFIX}"
 export_variable "BUNDLE_NAME_MAC" "${BUNDLE_NAME_MAC}"
 BUNDLE_ID_MAC="org.squeak.$(echo ${SQUEAK_VERSION} | tr '[:upper:]' '[:lower:]')-${IMAGE_BITS}bit"
