@@ -5,11 +5,13 @@ SmalltalkCISpec {
     #hidePassingTests : true,
     #exclude : {
       #classes : [
-        #AllocationTest,
-        #DebuggerTests,
-        #LangEnvBugs,
-        #Win32VMTest
-      ]
+        #Win32VMTest,
+        #ProcessTest
+      ],
+      #comments : {
+        #Win32VMTest : 'No INI file on CI?',
+        #ProcessTest : 'Flaky on CI'
+      }
     }
   }
 }

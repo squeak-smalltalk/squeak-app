@@ -6,6 +6,7 @@
 #
 #  REQUIRES:
 #    SMALLTALK_VERSION ... e.g., Squeak64-trunk
+#    SMALLTALK_CI_CONFIG ... e.g., Squeak64-trunk-installer-smoke
 #    SMALLTALK_CI_HOME ... i.e., the path to smalltalkCI sources
 #    tmp/Squeak.image
 #    tmp/Squeak.changes
@@ -23,15 +24,16 @@ source "env_vars"
 source "helpers.sh"
 
 [[ -z "${SMALLTALK_VERSION}" ]] && exit 2
-[[ -z "${SMALLTALK_CI_HOME}" ]] && exit 3
+[[ -z "${SMALLTALK_CI_CONFIG}" ]] && exit 3
+[[ -z "${SMALLTALK_CI_HOME}" ]] && exit 4
 
 readonly SCI_PATH="${HOME_PATH}/smalltalk-ci"
 
 test_image() {
   local ston_config="default.ston"
 
-  if [[ -f "${SCI_PATH}/${SMALLTALK_VERSION}.ston" ]]; then
-    ston_config="${SMALLTALK_VERSION}.ston"
+  if [[ -f "${SCI_PATH}/${SMALLTALK_CI_CONFIG}.ston" ]]; then
+    ston_config="${SMALLTALK_CI_CONFIG}.ston"
   fi
 
   cp "${TMP_PATH}/Squeak.image" "${TMP_PATH}/Test.image"
