@@ -181,7 +181,6 @@ copy_resources() {
   cp "${TMP_PATH}/Squeak.changes" "${target}/${IMAGE_NAME}.changes"
   cp "${TMP_PATH}/"*.sources "${target}/"
 
-  cp -R "${RELEASE_NOTES_PATH}" "${target}/"
   cp -R "${TMP_PATH}/locale" "${target}/"
 
   if is_etoys; then

@@ -38,7 +38,6 @@ download_and_prepare_files() {
   unzip -q "${TMP_PATH}/base.zip" -d "${TMP_PATH}/"
   mv "${TMP_PATH}/"*.image "${TMP_PATH}/Squeak.image"
   mv "${TMP_PATH}/"*.changes "${TMP_PATH}/Squeak.changes"
-  cp -R "${RELEASE_NOTES_PATH}" "${TMP_PATH}/"
   cp "${ICONS_PATH}/balloon.png" "${TMP_PATH}/"
 }
 

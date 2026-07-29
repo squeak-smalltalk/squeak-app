@@ -1,3 +1,8 @@
-The files in this folder are in Squeak's text chunk file-out format. DO NOT edit them in a text editor because otherwise, the text attributes, which are encoded at the end of the files, will be out of sync.
+*** DEPRECATION NOTICE: This version of the release notes is outdated. You can browse a formatted, interactive version of all release notes in a recent Squeak image (>= 6.1) under "Help" and on our website: https://squeak.org/release_notes/ ***
 
-If you want to edit them, load them via the Squeak Help Browser, edit them there, and file them out again.
+
+---
+
+The files in this folder are in Squeak's text chunk file-out format and were previously included in Squeak bundles to be displayed in the Squeak Help Browser. Starting with Squeak 6.1, we maintain the release notes directly in the image through the Help-Squeak-Project package. We did not delete this directory, though, because former release announcements still point to this folder on the head branch of <https://github.com/squeak-smalltalk/squeak-app>.
+
+For browsing or editing these files in a newer image, use a DirectoryBasedHelpTopic. The second half of these files is encoded text attribute chunks which are not human-readable.
