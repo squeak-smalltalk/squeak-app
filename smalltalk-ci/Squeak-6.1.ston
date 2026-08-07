@@ -1,0 +1,17 @@
+SmalltalkCISpec {
+  #testing : {
+    #allTestCases : true,
+    #defaultTimeout : 10,
+    #hidePassingTests : true,
+    #exclude : {
+      #classes : [
+        #Win32VMTest,
+        #ProcessTest
+      ],
+      #comments : {
+        #Win32VMTest : 'No INI file on CI?',
+        #ProcessTest : 'Flaky on CI'
+      }
+    }
+  }
+}
