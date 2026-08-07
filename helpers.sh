@@ -35,7 +35,7 @@ should_notarize() {
   
   # 0 ... everything is okay, TRUE
   # 1 ... some error code, FALSE
-  return 1
+  return 0
 }
 
 should_use_rc_vm() {

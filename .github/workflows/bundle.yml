@@ -3,16 +3,16 @@ name: Bundle
 on:
   push: # Choose the branch that matches the Smalltalk version below
     branches:
-      - squeak-trunk
-      # - squeak-6.1
+      # - squeak-trunk
+      - squeak-6.1
       # - squeak-6.0
       # - squeak-5.3
     paths-ignore: # Skip changes in documentation artifacts
       - '**.md'
   pull_request: # Choose the branch that matches the Smalltalk version below
     branches:
-      - squeak-trunk
-      # - squeak-6.1
+      # - squeak-trunk
+      - squeak-6.1
       # - squeak-6.0
       # - squeak-5.3
     paths-ignore: # Skip changes in documentation artifacts
@@ -32,10 +32,10 @@ jobs:
       fail-fast: true
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
-          # - Squeak-6.1
-          # - Squeak64-6.1
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-6.1
+          - Squeak64-6.1
           # - Squeak-6.0
           # - Squeak64-6.0
           # - Squeak-5.3
@@ -74,10 +74,10 @@ jobs:
       fail-fast: false
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
-          # - Squeak-6.1
-          # - Squeak64-6.1          
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-6.1
+          - Squeak64-6.1          
           # - Squeak-6.0
           # - Squeak64-6.0
           # - Squeak-5.3
@@ -155,10 +155,10 @@ jobs:
       fail-fast: false # Maybe make deployment extra job?
       matrix:
         smalltalk:
-          - Squeak-trunk
-          - Squeak64-trunk
-          # - Squeak-6.1
-          # - Squeak64-6.1          
+          # - Squeak-trunk
+          # - Squeak64-trunk
+          - Squeak-6.1
+          - Squeak64-6.1          
           # - Squeak-6.0
           # - Squeak64-6.0
           # - Squeak-5.3
@@ -167,8 +167,8 @@ jobs:
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
-      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-trunk') && github.event.inputs.osvm-build == '' }}
-      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-trunk') }}
+      SHOULD_DEPLOY: ${{ endsWith(github.ref, 'squeak-6.1') && github.event.inputs.osvm-build == '' }}
+      SHOULD_CODESIGN: ${{ endsWith(github.ref, 'squeak-6.1') }}
       VM_RC_TAG: ${{ github.event.inputs.osvm-build }} # only workflow-dispatch; otherwise, use VM from files.squeak.org/base that fits ${{ matrix.smalltalk }}
 
     steps:
