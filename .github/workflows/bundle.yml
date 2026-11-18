@@ -163,7 +163,7 @@ jobs:
           # - Squeak64-6.0
           # - Squeak-5.3
           # - Squeak64-5.3
-    runs-on: macos-14 # macos-13 had issues with hdutil
+    runs-on: macos-15 # macos-14 phased out
     name: 📦 Prepare bundles for ${{ matrix.smalltalk }}
     env:
       SMALLTALK_VERSION: ${{ matrix.smalltalk }}
